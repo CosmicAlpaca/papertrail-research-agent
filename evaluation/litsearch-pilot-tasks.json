@@ -1,0 +1,96 @@
+{
+  "source": "https://huggingface.co/datasets/princeton-nlp/LitSearch",
+  "selection": "8 sampled from first100 rows with quality=2 and specificity=1; seed20261125, not representative of full benchmark",
+  "tasks": [
+    {
+      "id": "litsearch-84",
+      "question": "Where can I find a multilingual corpus that includes reviews on DVDs, music, and books for the purposes of cross-language sentiment classification research?",
+      "gold_titles": [
+        "Cross-Language Text Classification using Structural Correspondence Learning"
+      ],
+      "gold_corpusids": [
+        12360898
+      ],
+      "query_set": "inline_acl"
+    },
+    {
+      "id": "litsearch-93",
+      "question": "Which corpora are frequently used in research to benchmark English readability assessment tools?",
+      "gold_titles": [
+        "The 7th Workshop on the Innovative Use of NLP for Building Educational Applications, pages 163-173, On Improving the Accuracy of Readability Classification using Insights from Second Language Acquisition",
+        "OneStopEnglish corpus: A new corpus for automatic readability assessment and text simplification"
+      ],
+      "gold_corpusids": [
+        10919200,
+        46937952
+      ],
+      "query_set": "inline_acl"
+    },
+    {
+      "id": "litsearch-1",
+      "question": "Are there any resources available for translating Tunisian Arabic dialect that contain both manually translated comments by native speakers and additional data augmented through methods like segmentation at stop words level?",
+      "gold_titles": [
+        "Parallel resources for Tunisian Arabic dialect translation"
+      ],
+      "gold_corpusids": [
+        227231792
+      ],
+      "query_set": "inline_acl"
+    },
+    {
+      "id": "litsearch-35",
+      "question": "Could you suggest a paper that introduces an approach to relation extraction that involves learning syntax dependency structures using a tree LSTM model?",
+      "gold_titles": [
+        "Improved Semantic Representations From Tree-Structured Long Short-Term Memory Networks"
+      ],
+      "gold_corpusids": [
+        3033526
+      ],
+      "query_set": "inline_acl"
+    },
+    {
+      "id": "litsearch-48",
+      "question": "I'm looking for a paper that discusses improvements in constituency parsing performance by applying a partition strategy for content embedding and positional embedding within self-attention and label attention layers.",
+      "gold_titles": [
+        "Constituency Parsing with a Self-Attentive Encoder"
+      ],
+      "gold_corpusids": [
+        19206893
+      ],
+      "query_set": "inline_acl"
+    },
+    {
+      "id": "litsearch-57",
+      "question": "In the area of argument mining, could you point to literature that uses of dependency parsers to determine the argumentativeness of texts in dialogue systems?",
+      "gold_titles": [
+        "Dialo-AP: A Dependency Parsing Based Argument Parser for Dialogues"
+      ],
+      "gold_corpusids": [
+        252818918
+      ],
+      "query_set": "inline_acl"
+    },
+    {
+      "id": "litsearch-27",
+      "question": "Could you direct me towards a study that explores the potential to predict a reader's native language based on their eye movement patterns while reading English texts?",
+      "gold_titles": [
+        "Predicting Native Language from Gaze"
+      ],
+      "gold_corpusids": [
+        14515265
+      ],
+      "query_set": "inline_acl"
+    },
+    {
+      "id": "litsearch-4",
+      "question": "Are there papers that propose contextualized calibration for the probability of answers in language models?",
+      "gold_titles": [
+        "Surface Form Competition: Why the Highest Probability Answer Isn't Always Right"
+      ],
+      "gold_corpusids": [
+        233296182
+      ],
+      "query_set": "inline_acl"
+    }
+  ]
+}

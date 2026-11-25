@@ -1,0 +1,274 @@
+[
+  {
+    "id": "litsearch-1",
+    "model": "Alibaba-NLP/gte-reranker-modernbert-base",
+    "backend": "ONNX int8 CPU",
+    "seconds": 50.28,
+    "candidates": 65,
+    "same60_neural": {
+      "hit_at_10": 1,
+      "target_recall_at_10": 1.0,
+      "mrr_at_10": 0.5
+    },
+    "protected_pool_neural": {
+      "hit_at_10": 1,
+      "target_recall_at_10": 1.0,
+      "mrr_at_10": 0.5
+    },
+    "rank_fusion": {
+      "hit_at_10": 1,
+      "target_recall_at_10": 1.0,
+      "mrr_at_10": 0.125
+    },
+    "top10": [
+      "TEDxTN: A Three-way Speech Translation Corpus for Code-Switched Tunisian Arabic - English",
+      "Parallel resources for Tunisian Arabic Dialect Translation",
+      "Tunisian Arabic NLP Resources: an access-verified inventory",
+      "A NooJ Tunisian Dialect Translator",
+      "Tunisian Dialect-Modern Standard Arabic Bilingual Lexicon",
+      "Fine-Grained POS Tagging of Spoken Tunisian Dialect Corpora",
+      "Orthographic Transcription for Spoken Tunisian Arabic",
+      "Translation from Tunisian Dialect to Modern Standard Arabic: Exploring Finite-State Transducers and Sequence-to-Sequence Transformer Approaches",
+      "The Automatic Recognition and Translation of Tunisian Dialect Named Entities into Modern Standard Arabic",
+      "LinTO Audio and Textual Datasets to Train and Evaluate Automatic Speech Recognition in Tunisian Arabic Dialect"
+    ]
+  },
+  {
+    "id": "litsearch-27",
+    "model": "Alibaba-NLP/gte-reranker-modernbert-base",
+    "backend": "ONNX int8 CPU",
+    "seconds": 45.5,
+    "candidates": 60,
+    "same60_neural": {
+      "hit_at_10": 1,
+      "target_recall_at_10": 1.0,
+      "mrr_at_10": 1.0
+    },
+    "protected_pool_neural": {
+      "hit_at_10": 1,
+      "target_recall_at_10": 1.0,
+      "mrr_at_10": 1.0
+    },
+    "rank_fusion": {
+      "hit_at_10": 1,
+      "target_recall_at_10": 1.0,
+      "mrr_at_10": 0.5
+    },
+    "top10": [
+      "Predicting Native Language from Gaze",
+      "Language Proficiency Assessment from Eye Movements in Naturalistic Passage Reading",
+      "Native Language Prediction from Gaze: a Reproducibility Study",
+      "Using Eye Movements From a \u201cRead\u2010Only\u201d Task to Predict Text Comprehension",
+      "Investigating The Eye Movements Of English L1 And Arabic L1 Speakers While Reading English Sentences.",
+      "New global research shows eye movements reveal how native languages shape reading",
+      "Evaluation of level of foreign language proficiency based on eye movement data",
+      "Eye Movement Traces of Linguistic Knowledge in Native and Non-Native Reading",
+      "The eye as the window of the language ability: Estimation of English skills by analyzing eye movement while reading documents",
+      "Estimating the level of ability of English learners using eye movement features during text reading"
+    ]
+  },
+  {
+    "id": "litsearch-35",
+    "model": "Alibaba-NLP/gte-reranker-modernbert-base",
+    "backend": "ONNX int8 CPU",
+    "seconds": 33.97,
+    "candidates": 60,
+    "same60_neural": {
+      "hit_at_10": 0,
+      "target_recall_at_10": 0.0,
+      "mrr_at_10": 0
+    },
+    "protected_pool_neural": {
+      "hit_at_10": 0,
+      "target_recall_at_10": 0.0,
+      "mrr_at_10": 0
+    },
+    "rank_fusion": {
+      "hit_at_10": 0,
+      "target_recall_at_10": 0.0,
+      "mrr_at_10": 0
+    },
+    "top10": [
+      "Exploiting the Syntax-Model Consistency for Neural Relation Extraction",
+      "Improving Relation Extraction through Syntax-induced Pre-training with Dependency Masking",
+      "End-to-End Relation Extraction using LSTMs on Sequences and Tree Structures",
+      "Relation Extraction Exploiting Full Dependency Forests",
+      "Learning Latent Forests for Medical Relation Extraction",
+      "Dependency Tree Kernels for Relation Extraction from Natural Language Text",
+      "Syntax-aware entity representations for neural relation extraction",
+      "Semantic relation extraction using sequential and tree-structured LSTM with attention",
+      "Dynamic Syntax Mapping: A New Approach to Unsupervised Syntax Parsing",
+      "A shortest path dependency kernel for relation extraction"
+    ]
+  },
+  {
+    "id": "litsearch-4",
+    "model": "Alibaba-NLP/gte-reranker-modernbert-base",
+    "backend": "ONNX int8 CPU",
+    "seconds": 31.48,
+    "candidates": 61,
+    "same60_neural": {
+      "hit_at_10": 0,
+      "target_recall_at_10": 0.0,
+      "mrr_at_10": 0
+    },
+    "protected_pool_neural": {
+      "hit_at_10": 0,
+      "target_recall_at_10": 0.0,
+      "mrr_at_10": 0
+    },
+    "rank_fusion": {
+      "hit_at_10": 0,
+      "target_recall_at_10": 0.0,
+      "mrr_at_10": 0
+    },
+    "top10": [
+      "Decisions in One Forward Pass: Typed Answers from Local Language Models, and Making Their Yes/No Probabilities Mean Something",
+      "Answer-level Calibration for Free-form Multiple Choice Question Answering",
+      "Batch Calibration: Rethinking Calibration for In-Context Learning and Prompt Engineering",
+      "Bag-of-Tokens Tuning: Calibrating LLM Logits with Contextual Probabilities",
+      "Language Model Probabilities are Not Calibrated in Numeric Contexts",
+      "Parameter-Efficient Contextual Calibration for Hallucination Mitigation in Domain-Specific Large Language Model Retrieval-Augmented Generation",
+      "Language Model Probabilities are Not Calibrated in Numeric Contexts",
+      "Calibration-Tuning: Teaching Large Language Models to Know What They Don\u2019t Know",
+      "Just Ask for Calibration: Strategies for Eliciting Calibrated Confidence Scores from Language Models Fine-Tuned with Human Feedback",
+      "Calibrate Before Use: Improving Few-Shot Performance of Language Models"
+    ]
+  },
+  {
+    "id": "litsearch-48",
+    "model": "Alibaba-NLP/gte-reranker-modernbert-base",
+    "backend": "ONNX int8 CPU",
+    "seconds": 51.45,
+    "candidates": 60,
+    "same60_neural": {
+      "hit_at_10": 1,
+      "target_recall_at_10": 1.0,
+      "mrr_at_10": 1.0
+    },
+    "protected_pool_neural": {
+      "hit_at_10": 1,
+      "target_recall_at_10": 1.0,
+      "mrr_at_10": 1.0
+    },
+    "rank_fusion": {
+      "hit_at_10": 1,
+      "target_recall_at_10": 1.0,
+      "mrr_at_10": 1.0
+    },
+    "top10": [
+      "Constituency Parsing with a Self-Attentive Encoder",
+      "Multilingual Lexicalized Constituency Parsing with Word-Level Auxiliary Tasks",
+      "Straight to the Tree: Constituency Parsing with Neural Syntactic Distance",
+      "Improving Constituency Parsing with Span Attention",
+      "Multilingual Constituency Parsing with Self-Attention and Pre-Training",
+      "Supervised Attention for Sequence-to-Sequence Constituency Parsing",
+      "Feature Optimization for Constituent Parsing via Neural Networks",
+      "Improving Sequence-to-Sequence Constituency Parsing",
+      "Grammar as a Foreign Language",
+      "Rethinking Self-Attention: Towards Interpretability in Neural Parsing"
+    ]
+  },
+  {
+    "id": "litsearch-57",
+    "model": "Alibaba-NLP/gte-reranker-modernbert-base",
+    "backend": "ONNX int8 CPU",
+    "seconds": 35.28,
+    "candidates": 60,
+    "same60_neural": {
+      "hit_at_10": 0,
+      "target_recall_at_10": 0.0,
+      "mrr_at_10": 0
+    },
+    "protected_pool_neural": {
+      "hit_at_10": 0,
+      "target_recall_at_10": 0.0,
+      "mrr_at_10": 0
+    },
+    "rank_fusion": {
+      "hit_at_10": 0,
+      "target_recall_at_10": 0.0,
+      "mrr_at_10": 0
+    },
+    "top10": [
+      "End-to-End Argument Mining as Biaffine Dependency Parsing",
+      "EDU-AP: Elementary Discourse Unit based Argument Parser",
+      "ARGUER: Using Argument Schemas for Argument Detection and Rebuttal in Dialogs",
+      "Utilizing Argument Mining Techniques for Argumentative Dialogue Systems",
+      "Towards Argument Mining from Dialogue",
+      "End-to-End Argument Mining over Varying Rhetorical Structures",
+      "Proceedings of the 4th Workshop on Argument Mining",
+      "Towards an Argument Mining Pipeline Transforming Texts to Argument Graphs",
+      "Comparative Evaluation of Argument Extraction Algorithms in Discourse Relation Parsing",
+      "Dependency Parsing"
+    ]
+  },
+  {
+    "id": "litsearch-84",
+    "model": "Alibaba-NLP/gte-reranker-modernbert-base",
+    "backend": "ONNX int8 CPU",
+    "seconds": 44.23,
+    "candidates": 66,
+    "same60_neural": {
+      "hit_at_10": 0,
+      "target_recall_at_10": 0.0,
+      "mrr_at_10": 0
+    },
+    "protected_pool_neural": {
+      "hit_at_10": 0,
+      "target_recall_at_10": 0.0,
+      "mrr_at_10": 0
+    },
+    "rank_fusion": {
+      "hit_at_10": 0,
+      "target_recall_at_10": 0.0,
+      "mrr_at_10": 0
+    },
+    "top10": [
+      "PolEmo 1.0 + MultiEmo-Test 1.0 Multilingual Sentiment Analysis Dataset for KES2020",
+      "Webis Cross-Lingual Sentiment Dataset 2010 (Webis-CLS-10)",
+      "MultiEmo: Multilingual, Multilevel, Multidomain Sentiment Analysis Corpus of Consumer Reviews",
+      "NoReC: The Norwegian Review Corpus",
+      "The USAGE review corpus for fine grained multi lingual opinion analysis",
+      "Comparable English-Russian book review corpora for sentiment analysis",
+      "BRAD 1.0: Book reviews in Arabic dataset",
+      "Massively Multilingual Corpus of Sentiment Datasets and Multi-faceted Sentiment Classification Benchmark",
+      "The Multilingual Amazon Reviews Corpus",
+      "Co-training for cross-lingual sentiment classification"
+    ]
+  },
+  {
+    "id": "litsearch-93",
+    "model": "Alibaba-NLP/gte-reranker-modernbert-base",
+    "backend": "ONNX int8 CPU",
+    "seconds": 73.34,
+    "candidates": 67,
+    "same60_neural": {
+      "hit_at_10": 1,
+      "target_recall_at_10": 0.5,
+      "mrr_at_10": 1.0
+    },
+    "protected_pool_neural": {
+      "hit_at_10": 1,
+      "target_recall_at_10": 0.5,
+      "mrr_at_10": 1.0
+    },
+    "rank_fusion": {
+      "hit_at_10": 1,
+      "target_recall_at_10": 0.5,
+      "mrr_at_10": 1.0
+    },
+    "top10": [
+      "OneStopEnglish corpus: A new corpus for automatic readability assessment and text simplification",
+      "Measuring and Modifying the Readability of English Texts with GPT-4",
+      "Assessing the readability of ClinicalTrials.gov",
+      "Towards Multipurpose Readability Assessment",
+      "The CommonLit Ease of Readability (CLEAR) Corpus",
+      "A data-driven cognitive feature\u2013based model for english text readability assessment to support college english instruction",
+      "Comparing and Developing Tools to Measure the Readability of Domain-Specific Texts",
+      "Implicit readability ranking using the latent variable of a Bayesian Probit model.",
+      "A large-scaled corpus for assessing text readability",
+      "Readability Assessment Tool for English Texts"
+    ]
+  }
+]

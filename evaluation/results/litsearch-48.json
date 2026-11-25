@@ -1,0 +1,2923 @@
+{
+  "id": "4175f50f-7844-4b87-99a9-eb88eeff34dc",
+  "created_at": "2026-11-25T14:07:45.388189+00:00",
+  "status": "complete",
+  "request": {
+    "plan": {
+      "question": "I'm looking for a paper that discusses improvements in constituency parsing performance by applying a partition strategy for content embedding and positional embedding within self-attention and label attention layers.",
+      "queries": [
+        "m discusses improvements constituency parsing performance by applying partition strategy content embedding positional embedding"
+      ],
+      "criteria": [
+        {
+          "id": "c1",
+          "text": "I'm looking for a paper that discusses improvements in constituency parsing performance by applying a partition strategy for content embedding and positional embedding within self-attention and label attention layers."
+        }
+      ],
+      "year_from": null,
+      "year_to": null,
+      "open_access": false,
+      "mode": "diligent",
+      "planner": "reviewable rule-based plan; hosted model unavailable"
+    },
+    "rerank": true,
+    "repair": true
+  },
+  "result": {
+    "papers": [
+      {
+        "id": "https://openalex.org/W2963084773",
+        "title": "Constituency Parsing with a Self-Attentive Encoder",
+        "doi": "https://doi.org/10.18653/v1/p18-1249",
+        "year": 2018,
+        "abstract": "We demonstrate that replacing an LSTM encoder with a self-attentive architecture can lead to improvements to a state-of-the-art discriminative constituency parser. The use of attention makes explicit the manner in which information is propagated between different locations in the sentence, which we use to both analyze our model and propose potential improvements. For example, we find that separating positional and content information in the encoder can lead to improved parsing accuracy. Additionally, we evaluate different approaches for lexical representation. Our parser achieves new state-of-the-art results for single models trained on the Penn Treebank: 93.55 F1 without the use of any external data, and 95.13 F1 when using pre-trained word representations. Our parser also outperforms the previous best-published accuracy figures on 8 of the 9 languages in the SPMRL dataset.",
+        "authors": [
+          "Nikita Kitaev",
+          "Dan Klein"
+        ],
+        "venue": "Proceedings of the conference - Association for Computational Linguistics. Meeting",
+        "citations": 692,
+        "open_access": true,
+        "url": "https://doi.org/10.18653/v1/p18-1249",
+        "pdf_url": "https://www.aclweb.org/anthology/P18-1249.pdf",
+        "references": [
+          "https://openalex.org/W1869752048",
+          "https://openalex.org/W2098021339",
+          "https://openalex.org/W2143391265",
+          "https://openalex.org/W2149383868",
+          "https://openalex.org/W2250562110",
+          "https://openalex.org/W2289899728",
+          "https://openalex.org/W2563495010",
+          "https://openalex.org/W2564486991",
+          "https://openalex.org/W2739769945",
+          "https://openalex.org/W2787560479",
+          "https://openalex.org/W2962733492",
+          "https://openalex.org/W2963330800",
+          "https://openalex.org/W2963372751",
+          "https://openalex.org/W2963462075",
+          "https://openalex.org/W2963808856",
+          "https://openalex.org/W2964030814",
+          "https://openalex.org/W3037932933"
+        ],
+        "retracted": false,
+        "provenance": [
+          "semantic: I'm looking for a paper that discusses improvements in constituency parsing performance by applying a partition strategy for content embedding and positional embedding within self-attention and label attention layers.",
+          "coverage repair: I'm looking for a paper that discusses improvements in constituency parsing performance by applying a partition strategy for content embedding and positional embedding within self-attention and label attention layers."
+        ],
+        "criteria": [
+          {
+            "criterion_id": "c1",
+            "status": "uncertain",
+            "quote": "",
+            "quote_verified": false,
+            "reason": "Insufficient source evidence; full-paper verification may be needed."
+          }
+        ],
+        "rrf": 0.03278688524590164,
+        "aliases": [
+          "https://openalex.org/W2963084773"
+        ],
+        "neural_score": 1.85279,
+        "score": 0.81031
+      },
+      {
+        "id": "https://openalex.org/W2964854771",
+        "title": "A Rich-label Constituency Tree for Constituency Parsing",
+        "doi": "https://doi.org/10.1109/itaic.2019.8785583",
+        "year": 2019,
+        "abstract": "In this paper, we propose to improve the performance of constituency parsing by incorporate information from dependency trees. Our main contribution is a simple method to combine the information in the two type of trees, which is able to resolve discrepancies between them. This results in a new method to improve constituency parsing performance that is orthogonal to exiting methods, such as using pre-trained word vectors and using external training data. With existing dependency tree conversion tools and exiting constituency parsers, we show by experiment that our method achieves performance on top of a state-of-the-art constituency parser.",
+        "authors": [
+          "Yufeng Hu",
+          "Zhang Fenglu"
+        ],
+        "venue": "IEEE Joint International Information Technology and Artificial Intelligence Conference (ITAIC)",
+        "citations": 1,
+        "open_access": false,
+        "url": "https://doi.org/10.1109/itaic.2019.8785583",
+        "pdf_url": null,
+        "references": [
+          "https://openalex.org/W1551104980",
+          "https://openalex.org/W1912322440",
+          "https://openalex.org/W1970849810",
+          "https://openalex.org/W1984764846",
+          "https://openalex.org/W2187428966",
+          "https://openalex.org/W2236688737",
+          "https://openalex.org/W2250539671",
+          "https://openalex.org/W2252026558",
+          "https://openalex.org/W2252123671",
+          "https://openalex.org/W2552110825",
+          "https://openalex.org/W2563495010",
+          "https://openalex.org/W2610850660",
+          "https://openalex.org/W2669032454",
+          "https://openalex.org/W2696967604",
+          "https://openalex.org/W2739848234",
+          "https://openalex.org/W2765253680",
+          "https://openalex.org/W2964030814",
+          "https://openalex.org/W3096367574"
+        ],
+        "retracted": false,
+        "provenance": [
+          "semantic: I'm looking for a paper that discusses improvements in constituency parsing performance by applying a partition strategy for content embedding and positional embedding within self-attention and label attention layers.",
+          "coverage repair: I'm looking for a paper that discusses improvements in constituency parsing performance by applying a partition strategy for content embedding and positional embedding within self-attention and label attention layers."
+        ],
+        "criteria": [
+          {
+            "criterion_id": "c1",
+            "status": "uncertain",
+            "quote": "",
+            "quote_verified": false,
+            "reason": "Insufficient source evidence; full-paper verification may be needed."
+          }
+        ],
+        "rrf": 0.02341091602014428,
+        "aliases": [
+          "https://openalex.org/W2964854771"
+        ],
+        "neural_score": 2.12216,
+        "score": 0.79922
+      },
+      {
+        "id": "https://openalex.org/W3101638898",
+        "title": "Improving Constituency Parsing with Span Attention",
+        "doi": "https://doi.org/10.18653/v1/2020.findings-emnlp.153",
+        "year": 2020,
+        "abstract": "Constituency parsing is a fundamental and important task for natural language understanding, where a good representation of contextual information can help this task. N-grams, which is a conventional type of feature for contextual information, have been demonstrated to be useful in many tasks, and thus could also be beneficial for constituency parsing if they are appropriately modeled. In this paper, we propose span attention for neural chart-based constituency parsing to leverage n-gram information. Considering that current chart-based parsers with Transformer-based encoder represent spans by subtraction of the hidden states at the span boundaries, which may cause information loss especially for long spans, we incorporate n-grams into span representations by weighting them according to their contributions to the parsing process. Moreover, we propose categorical span attention to further enhance the model by weighting n-grams within different length categories, and thus benefit long-sentence parsing. Experimental results on three widely used benchmark datasets demonstrate the effectiveness of our approach in parsing Arabic, Chinese, and English, where state-of-the-art performance is obtained by our approach on all of them.",
+        "authors": [
+          "Yuanhe Tian",
+          "Yan Song",
+          "Fei Xia",
+          "Tong Zhang"
+        ],
+        "venue": "Findings of the Association for Computational Linguistics: EMNLP (Findings of EMNLP)",
+        "citations": 59,
+        "open_access": true,
+        "url": "https://doi.org/10.18653/v1/2020.findings-emnlp.153",
+        "pdf_url": "https://www.aclweb.org/anthology/2020.findings-emnlp.153.pdf",
+        "references": [
+          "https://openalex.org/W102233799",
+          "https://openalex.org/W1869752048",
+          "https://openalex.org/W1986543644",
+          "https://openalex.org/W1996430422",
+          "https://openalex.org/W2038754641",
+          "https://openalex.org/W2096204319",
+          "https://openalex.org/W2123442489",
+          "https://openalex.org/W2124793550",
+          "https://openalex.org/W2149709850",
+          "https://openalex.org/W2158952118",
+          "https://openalex.org/W2159707670",
+          "https://openalex.org/W2250539671",
+          "https://openalex.org/W2251584595",
+          "https://openalex.org/W2289899728",
+          "https://openalex.org/W2563495010",
+          "https://openalex.org/W2564486991",
+          "https://openalex.org/W2608787653",
+          "https://openalex.org/W2763613715",
+          "https://openalex.org/W2774983917",
+          "https://openalex.org/W2798569372",
+          "https://openalex.org/W2798833929",
+          "https://openalex.org/W2798921788",
+          "https://openalex.org/W2799222909",
+          "https://openalex.org/W2804552794",
+          "https://openalex.org/W2807777230",
+          "https://openalex.org/W2849665241",
+          "https://openalex.org/W2890017814",
+          "https://openalex.org/W2946581011",
+          "https://openalex.org/W2950813464",
+          "https://openalex.org/W2963021447",
+          "https://openalex.org/W2963084773",
+          "https://openalex.org/W2963188609",
+          "https://openalex.org/W2963330800",
+          "https://openalex.org/W2963341956",
+          "https://openalex.org/W2963372751",
+          "https://openalex.org/W2963643701",
+          "https://openalex.org/W2964030814",
+          "https://openalex.org/W2985521958",
+          "https://openalex.org/W3003193774",
+          "https://openalex.org/W3021530909"
+        ],
+        "retracted": false,
+        "provenance": [
+          "semantic: I'm looking for a paper that discusses improvements in constituency parsing performance by applying a partition strategy for content embedding and positional embedding within self-attention and label attention layers."
+        ],
+        "criteria": [
+          {
+            "criterion_id": "c1",
+            "status": "uncertain",
+            "quote": "",
+            "quote_verified": false,
+            "reason": "Insufficient source evidence; full-paper verification may be needed."
+          }
+        ],
+        "rrf": 0.013888888888888888,
+        "aliases": [
+          "https://openalex.org/W3101638898"
+        ],
+        "neural_score": 0.60513,
+        "score": 0.56777
+      },
+      {
+        "id": "https://openalex.org/W2798921788",
+        "title": "An Empirical Study of Building a Strong Baseline for Constituency Parsing",
+        "doi": "https://doi.org/10.18653/v1/p18-2097",
+        "year": 2018,
+        "abstract": "This paper investigates the construction of a strong baseline based on general purpose sequence-to-sequence models for constituency parsing. We incorporate several techniques that were mainly developed in natural language generation tasks, e.g., machine translation and summarization, and demonstrate that the sequence-to-sequence model achieves the current top-notch parsers’ performance (almost) without requiring any explicit task-specific knowledge or architecture of constituent parsing.",
+        "authors": [
+          "Jun Suzuki",
+          "Sho Takase",
+          "Hidetaka Kamigaito",
+          "Makoto Morishita",
+          "Masaaki Nagata"
+        ],
+        "venue": "Proceedings of the conference - Association for Computational Linguistics. Meeting",
+        "citations": 23,
+        "open_access": true,
+        "url": "https://doi.org/10.18653/v1/p18-2097",
+        "pdf_url": "https://www.aclweb.org/anthology/P18-2097.pdf",
+        "references": [
+          "https://openalex.org/W1816313093",
+          "https://openalex.org/W1843891098",
+          "https://openalex.org/W1869752048",
+          "https://openalex.org/W1902237438",
+          "https://openalex.org/W2157331557",
+          "https://openalex.org/W2159250884",
+          "https://openalex.org/W2251204185",
+          "https://openalex.org/W2289899728",
+          "https://openalex.org/W2493916176",
+          "https://openalex.org/W2525778437",
+          "https://openalex.org/W2554915555",
+          "https://openalex.org/W2559842427",
+          "https://openalex.org/W2563495010",
+          "https://openalex.org/W2564486991",
+          "https://openalex.org/W2774983917",
+          "https://openalex.org/W2962733492",
+          "https://openalex.org/W2963104691",
+          "https://openalex.org/W2963462075",
+          "https://openalex.org/W2963808856",
+          "https://openalex.org/W2964030814",
+          "https://openalex.org/W2964310805"
+        ],
+        "retracted": false,
+        "provenance": [
+          "coverage repair: I'm looking for a paper that discusses improvements in constituency parsing performance by applying a partition strategy for content embedding and positional embedding within self-attention and label attention layers."
+        ],
+        "criteria": [
+          {
+            "criterion_id": "c1",
+            "status": "uncertain",
+            "quote": "",
+            "quote_verified": false,
+            "reason": "Insufficient source evidence; full-paper verification may be needed."
+          }
+        ],
+        "rrf": 0.0136986301369863,
+        "aliases": [
+          "https://openalex.org/W2798921788"
+        ],
+        "neural_score": 0.40863,
+        "score": 0.53022
+      },
+      {
+        "id": "https://openalex.org/W2798569372",
+        "title": "Straight to the Tree: Constituency Parsing with Neural Syntactic Distance",
+        "doi": "https://doi.org/10.18653/v1/p18-1108",
+        "year": 2018,
+        "abstract": "In this work, we propose a novel constituency parsing scheme. The model predicts a vector of real-valued scalars, named syntactic distances, for each split position in the input sentence. The syntactic distances specify the order in which the split points will be selected, recursively partitioning the input, in a top-down fashion. Compared to traditional shift-reduce parsing schemes, our approach is free from the potential problem of compounding errors, while being faster and easier to parallelize. Our model achieves competitive performance amongst single model, discriminative parsers in the PTB dataset and outperforms previous models in the CTB dataset.",
+        "authors": [
+          "Yikang Shen",
+          "Zhouhan Lin",
+          "Athul Paul Jacob",
+          "Alessandro Sordoni",
+          "Aaron C. Courville",
+          "Yoshua Bengio"
+        ],
+        "venue": "Proceedings of the conference - Association for Computational Linguistics. Meeting",
+        "citations": 97,
+        "open_access": true,
+        "url": "https://doi.org/10.18653/v1/p18-1108",
+        "pdf_url": "https://www.aclweb.org/anthology/P18-1108.pdf",
+        "references": [
+          "https://openalex.org/W108437174",
+          "https://openalex.org/W595069947",
+          "https://openalex.org/W1535015163",
+          "https://openalex.org/W1869752048",
+          "https://openalex.org/W1996430422",
+          "https://openalex.org/W2030904529",
+          "https://openalex.org/W2064675550",
+          "https://openalex.org/W2108701407",
+          "https://openalex.org/W2125712079",
+          "https://openalex.org/W2126433015",
+          "https://openalex.org/W2134275125",
+          "https://openalex.org/W2134729743",
+          "https://openalex.org/W2143331230",
+          "https://openalex.org/W2158349948",
+          "https://openalex.org/W2159250884",
+          "https://openalex.org/W2250539671",
+          "https://openalex.org/W2250861254",
+          "https://openalex.org/W2251204185",
+          "https://openalex.org/W2251855586",
+          "https://openalex.org/W2251923740",
+          "https://openalex.org/W2308720496",
+          "https://openalex.org/W2311132329",
+          "https://openalex.org/W2515464445",
+          "https://openalex.org/W2559842427",
+          "https://openalex.org/W2563495010",
+          "https://openalex.org/W2594047108",
+          "https://openalex.org/W2743945814",
+          "https://openalex.org/W2769810959",
+          "https://openalex.org/W2951588135",
+          "https://openalex.org/W2962733492",
+          "https://openalex.org/W2963330800",
+          "https://openalex.org/W2963372751",
+          "https://openalex.org/W2963808856",
+          "https://openalex.org/W2964030814",
+          "https://openalex.org/W7100496050"
+        ],
+        "retracted": false,
+        "provenance": [
+          "semantic: I'm looking for a paper that discusses improvements in constituency parsing performance by applying a partition strategy for content embedding and positional embedding within self-attention and label attention layers.",
+          "coverage repair: I'm looking for a paper that discusses improvements in constituency parsing performance by applying a partition strategy for content embedding and positional embedding within self-attention and label attention layers."
+        ],
+        "criteria": [
+          {
+            "criterion_id": "c1",
+            "status": "uncertain",
+            "quote": "",
+            "quote_verified": false,
+            "reason": "Insufficient source evidence; full-paper verification may be needed."
+          }
+        ],
+        "rrf": 0.055221386800334164,
+        "aliases": [
+          "https://openalex.org/W2798569372",
+          "https://openalex.org/W2950971640"
+        ],
+        "neural_score": -0.54945,
+        "score": 0.49279
+      },
+      {
+        "id": "https://openalex.org/W2964030814",
+        "title": "A Minimal Span-Based Neural Constituency Parser",
+        "doi": "https://doi.org/10.18653/v1/p17-1076",
+        "year": 2017,
+        "abstract": "In this work, we present a minimal neural model for constituency parsing based on independent scoring of labels and spans. We show that this model is not only compatible with classical dynamic programming techniques, but also admits a novel greedy top-down inference algorithm based on recursive partitioning of the input. We demonstrate empirically that both prediction schemes are competitive with recent work, and when combined with basic extensions to the scoring model are capable of achieving state-of-the-art single-model performance on the Penn Treebank (91.79 F1) and strong performance on the French Treebank (82.23 F1).",
+        "authors": [
+          "Mitchell Stern",
+          "Jacob Andreas",
+          "Dan Klein"
+        ],
+        "venue": "Proceedings of the conference - Association for Computational Linguistics. Meeting",
+        "citations": 241,
+        "open_access": true,
+        "url": "https://doi.org/10.18653/v1/p17-1076",
+        "pdf_url": "https://www.aclweb.org/anthology/P17-1076.pdf",
+        "references": [
+          "https://openalex.org/W108437174",
+          "https://openalex.org/W1533861849",
+          "https://openalex.org/W1810943226",
+          "https://openalex.org/W1869752048",
+          "https://openalex.org/W1996430422",
+          "https://openalex.org/W2092654472",
+          "https://openalex.org/W2097606805",
+          "https://openalex.org/W2097826433",
+          "https://openalex.org/W2098050104",
+          "https://openalex.org/W2098532383",
+          "https://openalex.org/W2124875803",
+          "https://openalex.org/W2133564696",
+          "https://openalex.org/W2134275125",
+          "https://openalex.org/W2231920551",
+          "https://openalex.org/W2250562110",
+          "https://openalex.org/W2250861254",
+          "https://openalex.org/W2251088156",
+          "https://openalex.org/W2252026558",
+          "https://openalex.org/W2289899728",
+          "https://openalex.org/W2301095666",
+          "https://openalex.org/W2512597464",
+          "https://openalex.org/W2552110825",
+          "https://openalex.org/W2559842427",
+          "https://openalex.org/W2563495010",
+          "https://openalex.org/W2577255746",
+          "https://openalex.org/W2949777170",
+          "https://openalex.org/W2963620441",
+          "https://openalex.org/W2964121744"
+        ],
+        "retracted": false,
+        "provenance": [
+          "semantic: I'm looking for a paper that discusses improvements in constituency parsing performance by applying a partition strategy for content embedding and positional embedding within self-attention and label attention layers.",
+          "coverage repair: I'm looking for a paper that discusses improvements in constituency parsing performance by applying a partition strategy for content embedding and positional embedding within self-attention and label attention layers."
+        ],
+        "criteria": [
+          {
+            "criterion_id": "c1",
+            "status": "uncertain",
+            "quote": "",
+            "quote_verified": false,
+            "reason": "Insufficient source evidence; full-paper verification may be needed."
+          }
+        ],
+        "rrf": 0.03128054740957967,
+        "aliases": [
+          "https://openalex.org/W2964030814"
+        ],
+        "neural_score": -0.92568,
+        "score": 0.34033
+      },
+      {
+        "id": "https://openalex.org/W3035027018",
+        "title": "Fast and Accurate Neural CRF Constituency Parsing",
+        "doi": "https://doi.org/10.24963/ijcai.2020/560",
+        "year": 2020,
+        "abstract": "Estimating probability distribution is one of the core issues in the NLP field. However, in both deep learning (DL) and pre-DL eras, unlike the vast applications of linear-chain CRF in sequence labeling tasks, very few works have applied tree-structure CRF to constituency parsing, mainly due to the complexity and inefficiency of the inside-outside algorithm. This work presents a fast and accurate neural CRF constituency parser. The key idea is to batchify the inside algorithm for loss computation by direct large tensor operations on GPU, and meanwhile avoid the outside algorithm for gradient computation via efficient back-propagation. We also propose a simple two-stage bracketing-then-labeling parsing approach to improve efficiency further. To improve the parsing performance, inspired by recent progress in dependency parsing, we introduce a new scoring architecture based on boundary representation and biaffine attention, and a beneficial dropout strategy. Experiments on PTB, CTB5.1, and CTB7 show that our two-stage CRF parser achieves new state-of-the-art performance on both settings of w/o and w/ BERT, and can parse over 1,000 sentences per second. We release our code at https://github.com/yzhangcs/crfpar.",
+        "authors": [
+          "Yu Zhang",
+          "Houquan Zhou",
+          "Zhenghua Li"
+        ],
+        "venue": "International Joint Conference on Artificial Intelligence",
+        "citations": 119,
+        "open_access": true,
+        "url": "https://doi.org/10.24963/ijcai.2020/560",
+        "pdf_url": "https://www.ijcai.org/proceedings/2020/0560.pdf",
+        "references": [
+          "https://openalex.org/W108437174",
+          "https://openalex.org/W147273232",
+          "https://openalex.org/W1572215484",
+          "https://openalex.org/W1576002161",
+          "https://openalex.org/W2038754641",
+          "https://openalex.org/W2126433015",
+          "https://openalex.org/W2134275125",
+          "https://openalex.org/W2152561660",
+          "https://openalex.org/W2251628756",
+          "https://openalex.org/W2296283641",
+          "https://openalex.org/W2512597464",
+          "https://openalex.org/W2552110825",
+          "https://openalex.org/W2563495010",
+          "https://openalex.org/W2565877108",
+          "https://openalex.org/W2787560479",
+          "https://openalex.org/W2788296320",
+          "https://openalex.org/W2798569372",
+          "https://openalex.org/W2849665241",
+          "https://openalex.org/W2889404673",
+          "https://openalex.org/W2890017814",
+          "https://openalex.org/W2915100790",
+          "https://openalex.org/W2948197522",
+          "https://openalex.org/W2963021447",
+          "https://openalex.org/W2963084773",
+          "https://openalex.org/W2963330800",
+          "https://openalex.org/W2963341956",
+          "https://openalex.org/W2963643701",
+          "https://openalex.org/W2963808856",
+          "https://openalex.org/W2964030814",
+          "https://openalex.org/W2966423804",
+          "https://openalex.org/W2997134535",
+          "https://openalex.org/W3004162225",
+          "https://openalex.org/W3035058125"
+        ],
+        "retracted": false,
+        "provenance": [
+          "semantic: I'm looking for a paper that discusses improvements in constituency parsing performance by applying a partition strategy for content embedding and positional embedding within self-attention and label attention layers.",
+          "coverage repair: I'm looking for a paper that discusses improvements in constituency parsing performance by applying a partition strategy for content embedding and positional embedding within self-attention and label attention layers."
+        ],
+        "criteria": [
+          {
+            "criterion_id": "c1",
+            "status": "uncertain",
+            "quote": "",
+            "quote_verified": false,
+            "reason": "Insufficient source evidence; full-paper verification may be needed."
+          }
+        ],
+        "rrf": 0.029236022193768675,
+        "aliases": [
+          "https://openalex.org/W3035027018"
+        ],
+        "neural_score": -1.36218,
+        "score": 0.269
+      },
+      {
+        "id": "https://openalex.org/W1869752048",
+        "title": "Grammar as a Foreign Language",
+        "doi": "https://doi.org/10.48550/arxiv.1412.7449",
+        "year": 2015,
+        "abstract": "Syntactic constituency parsing is a fundamental problem in natural language processing and has been the subject of intensive research and engineering for decades. As a result, the most accurate parsers are domain specific, complex, and inefficient. In this paper we show that the domain agnostic attention-enhanced sequence-to-sequence model achieves state-of-the-art results on the most widely used syntactic constituency parsing dataset, when trained on a large synthetic corpus that was annotated using existing parsers. It also matches the performance of standard parsers when trained only on a small human-annotated dataset, which shows that this model is highly data-efficient, in contrast to sequence-to-sequence models without the attention mechanism. Our parser is also fast, processing over a hundred sentences per second with an unoptimized CPU implementation.",
+        "authors": [
+          "Oriol Vinyals",
+          "Łukasz Kaiser",
+          "Terry Koo",
+          "Slav Petrov",
+          "Ilya Sutskever",
+          "Geoffrey E. Hinton"
+        ],
+        "venue": "neural information processing systems",
+        "citations": 841,
+        "open_access": true,
+        "url": "https://doi.org/10.48550/arxiv.1412.7449",
+        "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2015/file/277281aada22045c03945dcb2ca6f2ec-Paper.pdf",
+        "references": [
+          "https://openalex.org/W90963093",
+          "https://openalex.org/W1423339008",
+          "https://openalex.org/W1586532344",
+          "https://openalex.org/W1614298861",
+          "https://openalex.org/W1753482797",
+          "https://openalex.org/W1810157568",
+          "https://openalex.org/W1810943226",
+          "https://openalex.org/W1986543644",
+          "https://openalex.org/W2064675550",
+          "https://openalex.org/W2088911157",
+          "https://openalex.org/W2097606805",
+          "https://openalex.org/W2098050104",
+          "https://openalex.org/W2104917081",
+          "https://openalex.org/W2105103433",
+          "https://openalex.org/W2113691817",
+          "https://openalex.org/W2126433015",
+          "https://openalex.org/W2130942839",
+          "https://openalex.org/W2132726600",
+          "https://openalex.org/W2133564696",
+          "https://openalex.org/W2139621418",
+          "https://openalex.org/W2139907445",
+          "https://openalex.org/W2143431851",
+          "https://openalex.org/W2149337887",
+          "https://openalex.org/W2163568299",
+          "https://openalex.org/W2229863338",
+          "https://openalex.org/W2250262609",
+          "https://openalex.org/W2251452524",
+          "https://openalex.org/W2950344723",
+          "https://openalex.org/W2950580142",
+          "https://openalex.org/W2951912364"
+        ],
+        "retracted": false,
+        "provenance": [
+          "semantic: I'm looking for a paper that discusses improvements in constituency parsing performance by applying a partition strategy for content embedding and positional embedding within self-attention and label attention layers.",
+          "citation neighbors of top-ranked papers"
+        ],
+        "criteria": [
+          {
+            "criterion_id": "c1",
+            "status": "uncertain",
+            "quote": "",
+            "quote_verified": false,
+            "reason": "Insufficient source evidence; full-paper verification may be needed."
+          }
+        ],
+        "rrf": 0.031746031746031744,
+        "aliases": [
+          "https://openalex.org/W1869752048"
+        ],
+        "neural_score": -1.59197,
+        "score": 0.25026
+      },
+      {
+        "id": "https://openalex.org/W2963643701",
+        "title": "Multilingual Constituency Parsing with Self-Attention and Pre-Training",
+        "doi": "https://doi.org/10.18653/v1/p19-1340",
+        "year": 2019,
+        "abstract": "We show that constituency parsing benefits from unsupervised pre-training across a variety of languages and a range of pre-training conditions. We first compare the benefits of no pre-training, fastText, ELMo, and BERT for English and find that BERT outperforms ELMo, in large part due to increased model capacity, whereas ELMo in turn outperforms the non-contextual fastText embeddings. We also find that pre-training is beneficial across all 11 languages tested; however, large model sizes (more than 100 million parameters) make it computationally expensive to train separate models for each language. To address this shortcoming, we show that joint multilingual pre-training and fine-tuning allows sharing all but a small number of parameters between ten languages in the final model. The 10x reduction in model size compared to fine-tuning one model per language causes only a 3.2% relative error increase in aggregate. We further explore the idea of joint fine-tuning and show that it gives low-resource languages a way to benefit from the larger datasets of other languages. Finally, we demonstrate new state-of-the-art results for 11 languages, including English (95.8 F1) and Chinese (91.8 F1).",
+        "authors": [
+          "Nikita Kitaev",
+          "Steven Cao",
+          "Dan Klein"
+        ],
+        "venue": "Proceedings of the conference - Association for Computational Linguistics. Meeting",
+        "citations": 336,
+        "open_access": true,
+        "url": "https://doi.org/10.18653/v1/p19-1340",
+        "pdf_url": "https://www.aclweb.org/anthology/P19-1340.pdf",
+        "references": [
+          "https://openalex.org/W759515131",
+          "https://openalex.org/W2098021339",
+          "https://openalex.org/W2143391265",
+          "https://openalex.org/W2149383868",
+          "https://openalex.org/W2289899728",
+          "https://openalex.org/W2493916176",
+          "https://openalex.org/W2564486991",
+          "https://openalex.org/W2739769945",
+          "https://openalex.org/W2780932362",
+          "https://openalex.org/W2787560479",
+          "https://openalex.org/W2798812533",
+          "https://openalex.org/W2799222909",
+          "https://openalex.org/W2849665241",
+          "https://openalex.org/W2896457183",
+          "https://openalex.org/W2963084773",
+          "https://openalex.org/W2963227939",
+          "https://openalex.org/W2963341956",
+          "https://openalex.org/W2963372751",
+          "https://openalex.org/W2963462075"
+        ],
+        "retracted": false,
+        "provenance": [
+          "semantic: I'm looking for a paper that discusses improvements in constituency parsing performance by applying a partition strategy for content embedding and positional embedding within self-attention and label attention layers."
+        ],
+        "criteria": [
+          {
+            "criterion_id": "c1",
+            "status": "uncertain",
+            "quote": "",
+            "quote_verified": false,
+            "reason": "Insufficient source evidence; full-paper verification may be needed."
+          }
+        ],
+        "rrf": 0.015384615384615385,
+        "aliases": [
+          "https://openalex.org/W2963643701"
+        ],
+        "neural_score": -1.21543,
+        "score": 0.23871
+      },
+      {
+        "id": "https://openalex.org/W3016557243",
+        "title": "Unsupervised Discourse Constituency Parsing Using Viterbi EM",
+        "doi": "https://doi.org/10.1162/tacl_a_00312",
+        "year": 2020,
+        "abstract": "In this paper, we introduce an unsupervised discourse constituency parsing algorithm. We use Viterbi EM with a margin-based criterion to train a span-based discourse parser in an unsupervised manner. We also propose initialization methods for Viterbi training of discourse constituents based on our prior knowledge of text structures. Experimental results demonstrate that our unsupervised parser achieves comparable or even superior performance to fully supervised parsers. We also investigate discourse constituents that are learned by our method.",
+        "authors": [
+          "Noriki Nishida",
+          "Hideki Nakayama"
+        ],
+        "venue": "Transactions of the Association for Computational Linguistics",
+        "citations": 26,
+        "open_access": true,
+        "url": "https://doi.org/10.1162/tacl_a_00312",
+        "pdf_url": null,
+        "references": [
+          "https://openalex.org/W28418033",
+          "https://openalex.org/W1574440611",
+          "https://openalex.org/W1597655096",
+          "https://openalex.org/W1894075015",
+          "https://openalex.org/W1994851566",
+          "https://openalex.org/W2111499444",
+          "https://openalex.org/W2165887782",
+          "https://openalex.org/W2567948266",
+          "https://openalex.org/W2795439700",
+          "https://openalex.org/W2963525616",
+          "https://openalex.org/W4245826738",
+          "https://openalex.org/W4256109734"
+        ],
+        "retracted": false,
+        "provenance": [
+          "coverage repair: I'm looking for a paper that discusses improvements in constituency parsing performance by applying a partition strategy for content embedding and positional embedding within self-attention and label attention layers."
+        ],
+        "criteria": [
+          {
+            "criterion_id": "c1",
+            "status": "uncertain",
+            "quote": "",
+            "quote_verified": false,
+            "reason": "Insufficient source evidence; full-paper verification may be needed."
+          }
+        ],
+        "rrf": 0.013333333333333334,
+        "aliases": [
+          "https://openalex.org/W3016557243"
+        ],
+        "neural_score": -1.37874,
+        "score": 0.20926
+      },
+      {
+        "id": "https://openalex.org/W4387355873",
+        "title": "Ensemble Distillation for Unsupervised Constituency Parsing",
+        "doi": "https://doi.org/10.48550/arxiv.2310.01717",
+        "year": 2024,
+        "abstract": "We investigate the unsupervised constituency parsing task, which organizes words and phrases of a sentence into a hierarchical structure without using linguistically annotated data. We observe that existing unsupervised parsers capture differing aspects of parsing structures, which can be leveraged to enhance unsupervised parsing performance. To this end, we propose a notion of \"tree averaging,\" based on which we further propose a novel ensemble method for unsupervised parsing. To improve inference efficiency, we further distill the ensemble knowledge into a student model; such an ensemble-then-distill process is an effective approach to mitigate the over-smoothing problem existing in common multi-teacher distilling methods. Experiments show that our method surpasses all previous approaches, consistently demonstrating its effectiveness and robustness across various runs, with different ensemble components, and under domain-shift conditions.",
+        "authors": [
+          "Behzad Shayegh",
+          "Yanshuai Cao",
+          "Xiaodan Zhu",
+          "Jackie Chi Kit Cheung",
+          "Lili Mou"
+        ],
+        "venue": "International Conference on Learning Representations",
+        "citations": 12,
+        "open_access": true,
+        "url": "https://doi.org/10.48550/arxiv.2310.01717",
+        "pdf_url": "https://proceedings.iclr.cc/paper_files/paper/2024/file/8c1e94343487f499b78cb4c884c1ffb7-Paper-Conference.pdf",
+        "references": [
+          "https://openalex.org/W28418033",
+          "https://openalex.org/W38527073",
+          "https://openalex.org/W108437174",
+          "https://openalex.org/W1535015163",
+          "https://openalex.org/W1653784070",
+          "https://openalex.org/W1821462560",
+          "https://openalex.org/W1894835849",
+          "https://openalex.org/W1970961429",
+          "https://openalex.org/W1980590437",
+          "https://openalex.org/W2006080260",
+          "https://openalex.org/W2082350789",
+          "https://openalex.org/W2102366626",
+          "https://openalex.org/W2113075298",
+          "https://openalex.org/W2129064685",
+          "https://openalex.org/W2129882630",
+          "https://openalex.org/W2136657878",
+          "https://openalex.org/W2161383849",
+          "https://openalex.org/W2289899728",
+          "https://openalex.org/W2294370754",
+          "https://openalex.org/W2295230136",
+          "https://openalex.org/W2540531245",
+          "https://openalex.org/W2768091364",
+          "https://openalex.org/W2791751435",
+          "https://openalex.org/W2889151444",
+          "https://openalex.org/W2896556401",
+          "https://openalex.org/W2932376173",
+          "https://openalex.org/W2932637973",
+          "https://openalex.org/W2946417913",
+          "https://openalex.org/W2949399644",
+          "https://openalex.org/W2949579048",
+          "https://openalex.org/W2963172394",
+          "https://openalex.org/W2963341956",
+          "https://openalex.org/W2963522904",
+          "https://openalex.org/W2969515962",
+          "https://openalex.org/W2986195527",
+          "https://openalex.org/W2996834012",
+          "https://openalex.org/W3035027018",
+          "https://openalex.org/W3096367574",
+          "https://openalex.org/W3098284381",
+          "https://openalex.org/W3104633006"
+        ],
+        "retracted": false,
+        "provenance": [
+          "semantic: I'm looking for a paper that discusses improvements in constituency parsing performance by applying a partition strategy for content embedding and positional embedding within self-attention and label attention layers.",
+          "coverage repair: I'm looking for a paper that discusses improvements in constituency parsing performance by applying a partition strategy for content embedding and positional embedding within self-attention and label attention layers."
+        ],
+        "criteria": [
+          {
+            "criterion_id": "c1",
+            "status": "uncertain",
+            "quote": "",
+            "quote_verified": false,
+            "reason": "Insufficient source evidence; full-paper verification may be needed."
+          }
+        ],
+        "rrf": 0.020620748299319726,
+        "aliases": [
+          "https://openalex.org/W4387355873"
+        ],
+        "neural_score": -1.61915,
+        "score": 0.20694
+      },
+      {
+        "id": "https://openalex.org/W3175168675",
+        "title": "A Conditional Splitting Framework for Efficient Constituency Parsing",
+        "doi": "https://doi.org/10.18653/v1/2021.acl-long.450",
+        "year": 2021,
+        "abstract": "We introduce a generic seq2seq parsing framework that casts constituency parsing problems (syntactic and discourse parsing) into a series of conditional splitting decisions. Our parsing model estimates the conditional probability distribution of possible splitting points in a given text span and supports efficient top-down decoding, which is linear in number of nodes. The conditional splitting formulation together with efficient beam search inference facilitate structural consistency without relying on expensive structured inference. Crucially, for discourse analysis we show that in our formulation, discourse segmentation can be framed as a special case of parsing which allows us to perform discourse parsing without requiring segmentation as a pre-requisite. Experiments show that our model achieves good results on the standard syntactic parsing tasks under settings with/without pre-trained representations and rivals state-of-the-art (SoTA) methods that are more computationally expensive than ours. In discourse parsing, our method outperforms SoTA by a good margin.",
+        "authors": [
+          "Thanh-Tung Nguyen",
+          "Xuan-Phi Nguyen",
+          "Shafiq Joty",
+          "Xiaoli Li"
+        ],
+        "venue": null,
+        "citations": 12,
+        "open_access": true,
+        "url": "https://doi.org/10.18653/v1/2021.acl-long.450",
+        "pdf_url": "https://aclanthology.org/2021.acl-long.450.pdf",
+        "references": [
+          "https://openalex.org/W108071511",
+          "https://openalex.org/W108437174",
+          "https://openalex.org/W1869752048",
+          "https://openalex.org/W1894075015",
+          "https://openalex.org/W2045738181",
+          "https://openalex.org/W2064675550",
+          "https://openalex.org/W2104950474",
+          "https://openalex.org/W2126433015",
+          "https://openalex.org/W2143391265",
+          "https://openalex.org/W2149383868",
+          "https://openalex.org/W2251211118",
+          "https://openalex.org/W2251824305",
+          "https://openalex.org/W2252123671",
+          "https://openalex.org/W2289899728",
+          "https://openalex.org/W2507756961",
+          "https://openalex.org/W2559842427",
+          "https://openalex.org/W2563495010",
+          "https://openalex.org/W2739769945",
+          "https://openalex.org/W2741164290",
+          "https://openalex.org/W2774983917",
+          "https://openalex.org/W2787560479",
+          "https://openalex.org/W2798569372",
+          "https://openalex.org/W2798921788",
+          "https://openalex.org/W2890017814",
+          "https://openalex.org/W2923547786",
+          "https://openalex.org/W2949072528",
+          "https://openalex.org/W2950299190",
+          "https://openalex.org/W2962733492",
+          "https://openalex.org/W2962783338",
+          "https://openalex.org/W2963021447",
+          "https://openalex.org/W2963084773",
+          "https://openalex.org/W2963330800",
+          "https://openalex.org/W2963341956",
+          "https://openalex.org/W2963370123",
+          "https://openalex.org/W2963643701",
+          "https://openalex.org/W2963808856",
+          "https://openalex.org/W2964030814",
+          "https://openalex.org/W2964198424",
+          "https://openalex.org/W3028665541",
+          "https://openalex.org/W3032321602"
+        ],
+        "retracted": false,
+        "provenance": [
+          "semantic: I'm looking for a paper that discusses improvements in constituency parsing performance by applying a partition strategy for content embedding and positional embedding within self-attention and label attention layers.",
+          "coverage repair: I'm looking for a paper that discusses improvements in constituency parsing performance by applying a partition strategy for content embedding and positional embedding within self-attention and label attention layers."
+        ],
+        "criteria": [
+          {
+            "criterion_id": "c1",
+            "status": "uncertain",
+            "quote": "",
+            "quote_verified": false,
+            "reason": "Insufficient source evidence; full-paper verification may be needed."
+          }
+        ],
+        "rrf": 0.03707227182836939,
+        "aliases": [
+          "https://openalex.org/W3175168675",
+          "https://openalex.org/W3177025861"
+        ],
+        "neural_score": -2.53415,
+        "score": 0.19307
+      },
+      {
+        "id": "https://openalex.org/W3021530909",
+        "title": "Rethinking Self-Attention: Towards Interpretability in Neural Parsing",
+        "doi": "https://doi.org/10.18653/v1/2020.findings-emnlp.65",
+        "year": 2020,
+        "abstract": "Attention mechanisms have improved the performance of NLP tasks while allowing models to remain explainable. Self-attention is currently widely used, however interpretability is difficult due to the numerous attention distributions. Recent work has shown that model representations can benefit from label-specific information, while facilitating interpretation of predictions. We introduce the Label Attention Layer: a new form of self-attention where attention heads represent labels. We test our novel layer by running constituency and dependency parsing experiments and show our new model obtains new state-of-the-art results for both tasks on both the Penn Treebank (PTB) and Chinese Treebank. Additionally, our model requires fewer self-attention layers compared to existing work. Finally, we find that the Label Attention heads learn relations between syntactic categories and show pathways to analyze errors.",
+        "authors": [
+          "Khalil Mrini",
+          "Franck Dernoncourt",
+          "Quan Tran",
+          "Trung Bui",
+          "Walter Hong‐Shong Chang",
+          "Ndapa Nakashole"
+        ],
+        "venue": "Findings of the Association for Computational Linguistics: EMNLP (Findings of EMNLP)",
+        "citations": 201,
+        "open_access": true,
+        "url": "https://doi.org/10.18653/v1/2020.findings-emnlp.65",
+        "pdf_url": "https://www.aclweb.org/anthology/2020.findings-emnlp.65.pdf",
+        "references": [
+          "https://openalex.org/W1502293651",
+          "https://openalex.org/W1598566484",
+          "https://openalex.org/W1632114991",
+          "https://openalex.org/W1902237438",
+          "https://openalex.org/W1970961429",
+          "https://openalex.org/W1996430422",
+          "https://openalex.org/W2038248725",
+          "https://openalex.org/W2096204319",
+          "https://openalex.org/W2133564696",
+          "https://openalex.org/W2289899728",
+          "https://openalex.org/W2470673105",
+          "https://openalex.org/W2526170246",
+          "https://openalex.org/W2552110825",
+          "https://openalex.org/W2554915555",
+          "https://openalex.org/W2559842427",
+          "https://openalex.org/W2564486991",
+          "https://openalex.org/W2570781790",
+          "https://openalex.org/W2597655663",
+          "https://openalex.org/W2608787653",
+          "https://openalex.org/W2775624460",
+          "https://openalex.org/W2798569372",
+          "https://openalex.org/W2798638375",
+          "https://openalex.org/W2798921788",
+          "https://openalex.org/W2805910418",
+          "https://openalex.org/W2849665241",
+          "https://openalex.org/W2859207840",
+          "https://openalex.org/W2888799392",
+          "https://openalex.org/W2891339190",
+          "https://openalex.org/W2891602716",
+          "https://openalex.org/W2896457183",
+          "https://openalex.org/W2923547786",
+          "https://openalex.org/W2924690340",
+          "https://openalex.org/W2934842096",
+          "https://openalex.org/W2948140294",
+          "https://openalex.org/W2950813464",
+          "https://openalex.org/W2953359159",
+          "https://openalex.org/W2963021447",
+          "https://openalex.org/W2963084773",
+          "https://openalex.org/W2963227939",
+          "https://openalex.org/W2963330800"
+        ],
+        "retracted": false,
+        "provenance": [
+          "semantic: I'm looking for a paper that discusses improvements in constituency parsing performance by applying a partition strategy for content embedding and positional embedding within self-attention and label attention layers."
+        ],
+        "criteria": [
+          {
+            "criterion_id": "c1",
+            "status": "uncertain",
+            "quote": "",
+            "quote_verified": false,
+            "reason": "Insufficient source evidence; full-paper verification may be needed."
+          }
+        ],
+        "rrf": 0.016129032258064516,
+        "aliases": [
+          "https://openalex.org/W3021530909"
+        ],
+        "neural_score": -1.70171,
+        "score": 0.18181
+      },
+      {
+        "id": "https://openalex.org/W2563495010",
+        "title": "Span-Based Constituency Parsing with a Structure-Label System and Provably Optimal Dynamic Oracles",
+        "doi": "https://doi.org/10.18653/v1/d16-1001",
+        "year": 2016,
+        "abstract": "Parsing accuracy using efficient greedy transition systems has improved dramatically in recent years thanks to neural networks.Despite striking results in dependency parsing, however, neural models have not surpassed stateof-the-art approaches in constituency parsing.To remedy this, we introduce a new shiftreduce system whose stack contains merely sentence spans, represented by a bare minimum of LSTM features.We also design the first provably optimal dynamic oracle for constituency parsing, which runs in amortized O(1) time, compared to O(n 3 ) oracles for standard dependency parsing.Training with this oracle, we achieve the best F 1 scores on both English and French of any parser that does not use reranking or external data.",
+        "authors": [
+          "James Cross",
+          "Liang Huang"
+        ],
+        "venue": "Conference on Empirical Methods in Natural Language Processing (EMNLP)",
+        "citations": 139,
+        "open_access": true,
+        "url": "https://doi.org/10.18653/v1/d16-1001",
+        "pdf_url": "https://www.aclweb.org/anthology/D16-1001.pdf",
+        "references": [
+          "https://openalex.org/W6908809",
+          "https://openalex.org/W108437174",
+          "https://openalex.org/W1860935423",
+          "https://openalex.org/W1869752048",
+          "https://openalex.org/W1904365287",
+          "https://openalex.org/W2051818821",
+          "https://openalex.org/W2064675550",
+          "https://openalex.org/W2098050104",
+          "https://openalex.org/W2098532383",
+          "https://openalex.org/W2124861326",
+          "https://openalex.org/W2126433015",
+          "https://openalex.org/W2130942839",
+          "https://openalex.org/W2133280805",
+          "https://openalex.org/W2134036914",
+          "https://openalex.org/W2134729743",
+          "https://openalex.org/W2138382875",
+          "https://openalex.org/W2148334178",
+          "https://openalex.org/W2149383868",
+          "https://openalex.org/W2159250884",
+          "https://openalex.org/W2161222299",
+          "https://openalex.org/W2186971312",
+          "https://openalex.org/W2250861254",
+          "https://openalex.org/W2251088156",
+          "https://openalex.org/W2251204185",
+          "https://openalex.org/W2289899728",
+          "https://openalex.org/W2290523257",
+          "https://openalex.org/W2293447805",
+          "https://openalex.org/W2301095666",
+          "https://openalex.org/W2311132329",
+          "https://openalex.org/W2402268235",
+          "https://openalex.org/W2512597464",
+          "https://openalex.org/W2515464445",
+          "https://openalex.org/W2949777170",
+          "https://openalex.org/W2964310805",
+          "https://openalex.org/W6920429601"
+        ],
+        "retracted": false,
+        "provenance": [
+          "coverage repair: I'm looking for a paper that discusses improvements in constituency parsing performance by applying a partition strategy for content embedding and positional embedding within self-attention and label attention layers."
+        ],
+        "criteria": [
+          {
+            "criterion_id": "c1",
+            "status": "uncertain",
+            "quote": "",
+            "quote_verified": false,
+            "reason": "Insufficient source evidence; full-paper verification may be needed."
+          }
+        ],
+        "rrf": 0.015625,
+        "aliases": [
+          "https://openalex.org/W2563495010"
+        ],
+        "neural_score": -1.80404,
+        "score": 0.16968
+      },
+      {
+        "id": "https://openalex.org/W3035400757",
+        "title": "Efficient Constituency Parsing by Pointing",
+        "doi": "https://doi.org/10.18653/v1/2020.acl-main.301",
+        "year": 2020,
+        "abstract": "We propose a novel constituency parsing model that casts the parsing problem into a series of pointing tasks. Specifically, our model estimates the likelihood of a span being a legitimate tree constituent via the pointing score corresponding to the boundary words of the span. Our parsing model supports efficient top-down decoding and our learning objective is able to enforce structural consistency without resorting to the expensive CKY inference. The experiments on the standard English Penn Treebank parsing task show that our method achieves 92.78 F1 without using pre-trained models, which is higher than all the existing methods with similar time complexity. Using pre-trained BERT, our model achieves 95.48 F1, which is competitive with the state-of-the-art while being faster. Our approach also establishes new state-of-the-art in Basque and Swedish in the SPMRL shared tasks on multilingual constituency parsing.",
+        "authors": [
+          "Thanh-Tung Nguyen",
+          "Xuan-Phi Nguyen",
+          "Shafiq Joty",
+          "Xiaoli Li"
+        ],
+        "venue": "Proceedings of the conference - Association for Computational Linguistics. Meeting",
+        "citations": 14,
+        "open_access": true,
+        "url": "https://doi.org/10.18653/v1/2020.acl-main.301",
+        "pdf_url": "https://www.aclweb.org/anthology/2020.acl-main.301.pdf",
+        "references": [
+          "https://openalex.org/W108437174",
+          "https://openalex.org/W1996430422",
+          "https://openalex.org/W2038754641",
+          "https://openalex.org/W2064675550",
+          "https://openalex.org/W2097606805",
+          "https://openalex.org/W2108373233",
+          "https://openalex.org/W2125712079",
+          "https://openalex.org/W2126433015",
+          "https://openalex.org/W2134275125",
+          "https://openalex.org/W2143391265",
+          "https://openalex.org/W2149383868",
+          "https://openalex.org/W2289899728",
+          "https://openalex.org/W2507756961",
+          "https://openalex.org/W2559842427",
+          "https://openalex.org/W2563495010",
+          "https://openalex.org/W2739769945",
+          "https://openalex.org/W2798569372",
+          "https://openalex.org/W2890017814",
+          "https://openalex.org/W2962733492",
+          "https://openalex.org/W2963021447",
+          "https://openalex.org/W2963084773",
+          "https://openalex.org/W2963330800",
+          "https://openalex.org/W2963341956",
+          "https://openalex.org/W2963370123",
+          "https://openalex.org/W2963643701",
+          "https://openalex.org/W2963808856",
+          "https://openalex.org/W2964030814",
+          "https://openalex.org/W2964121744",
+          "https://openalex.org/W3034522557"
+        ],
+        "retracted": false,
+        "provenance": [
+          "semantic: I'm looking for a paper that discusses improvements in constituency parsing performance by applying a partition strategy for content embedding and positional embedding within self-attention and label attention layers.",
+          "coverage repair: I'm looking for a paper that discusses improvements in constituency parsing performance by applying a partition strategy for content embedding and positional embedding within self-attention and label attention layers."
+        ],
+        "criteria": [
+          {
+            "criterion_id": "c1",
+            "status": "uncertain",
+            "quote": "",
+            "quote_verified": false,
+            "reason": "Insufficient source evidence; full-paper verification may be needed."
+          }
+        ],
+        "rrf": 0.02393162393162393,
+        "aliases": [
+          "https://openalex.org/W3035400757"
+        ],
+        "neural_score": -2.53468,
+        "score": 0.14545
+      },
+      {
+        "id": "https://openalex.org/W4352976750",
+        "title": "Discontinuous Combinatory Constituency Parsing",
+        "doi": "https://doi.org/10.1162/tacl_a_00546",
+        "year": 2023,
+        "abstract": "We extend a pair of continuous combinator-based constituency parsers (one binary and one multi-branching) into a discontinuous pair. Our parsers iteratively compose constituent vectors from word embeddings without any grammar constraints. Their empirical complexities are subquadratic. Our extension includes 1) a swap action for the orientation-based binary model and 2) biaffine attention for the chunker-based multi-branching model. In tests conducted with the Discontinuous Penn Treebank and TIGER Treebank, we achieved state-of-the-art discontinuous accuracy with a significant speed advantage.",
+        "authors": [
+          "Zhousi Chen",
+          "Mamoru Komachi"
+        ],
+        "venue": "Transactions of the Association for Computational Linguistics",
+        "citations": 6,
+        "open_access": true,
+        "url": "https://doi.org/10.1162/tacl_a_00546",
+        "pdf_url": null,
+        "references": [
+          "https://openalex.org/W98255950",
+          "https://openalex.org/W1632114991",
+          "https://openalex.org/W1810157568",
+          "https://openalex.org/W2052847729",
+          "https://openalex.org/W2063524507",
+          "https://openalex.org/W2132864397",
+          "https://openalex.org/W2158385743",
+          "https://openalex.org/W2202932067",
+          "https://openalex.org/W2250525101",
+          "https://openalex.org/W2296194829",
+          "https://openalex.org/W2552110825",
+          "https://openalex.org/W2739852731",
+          "https://openalex.org/W2798569372",
+          "https://openalex.org/W2916601778",
+          "https://openalex.org/W2934008215",
+          "https://openalex.org/W2949676527",
+          "https://openalex.org/W2963021447",
+          "https://openalex.org/W2963084773",
+          "https://openalex.org/W2996824315",
+          "https://openalex.org/W3034522557",
+          "https://openalex.org/W3037758447",
+          "https://openalex.org/W3087549714",
+          "https://openalex.org/W3089705984",
+          "https://openalex.org/W3104536200",
+          "https://openalex.org/W3153243053",
+          "https://openalex.org/W3171639288",
+          "https://openalex.org/W3174277658",
+          "https://openalex.org/W3177196190",
+          "https://openalex.org/W3213051760",
+          "https://openalex.org/W4230064421",
+          "https://openalex.org/W4285158795"
+        ],
+        "retracted": false,
+        "provenance": [
+          "semantic: I'm looking for a paper that discusses improvements in constituency parsing performance by applying a partition strategy for content embedding and positional embedding within self-attention and label attention layers.",
+          "coverage repair: I'm looking for a paper that discusses improvements in constituency parsing performance by applying a partition strategy for content embedding and positional embedding within self-attention and label attention layers."
+        ],
+        "criteria": [],
+        "rrf": 0.022431077694235586,
+        "aliases": [
+          "https://openalex.org/W4352976750"
+        ],
+        "neural_score": -2.47482,
+        "score": 0.14335
+      },
+      {
+        "id": "https://openalex.org/W2890017814",
+        "title": "Constituent Parsing as Sequence Labeling",
+        "doi": "https://doi.org/10.18653/v1/d18-1162",
+        "year": 2018,
+        "abstract": "We introduce a method to reduce constituent parsing to sequence labeling. For each word w t , it generates a label that encodes: (1) the number of ancestors in the tree that the words w t and w t+1 have in common, and (2) the nonterminal symbol at the lowest common ancestor. We first prove that the proposed encoding function is injective for any tree without unary branches. In practice, the approach is made extensible to all constituency trees by collapsing unary branches. We then use the PTB and CTB treebanks as testbeds and propose a set of fast baselines. We achieve 90% F-score on the PTB test set, outperforming the Vinyals et al. (2015) sequence-to-sequence parser. In addition, sacrificing some accuracy, our approach achieves the fastest constituent parsing speeds reported to date on PTB by a wide margin.",
+        "authors": [
+          "Carlos Gómez‐Rodríguez",
+          "David Vilares"
+        ],
+        "venue": "Conference on Empirical Methods in Natural Language Processing (EMNLP)",
+        "citations": 89,
+        "open_access": true,
+        "url": "https://doi.org/10.18653/v1/d18-1162",
+        "pdf_url": "https://www.aclweb.org/anthology/D18-1162.pdf",
+        "references": [
+          "https://openalex.org/W81000870",
+          "https://openalex.org/W108437174",
+          "https://openalex.org/W168425931",
+          "https://openalex.org/W1535015163",
+          "https://openalex.org/W1591801644",
+          "https://openalex.org/W1869752048",
+          "https://openalex.org/W2038754641",
+          "https://openalex.org/W2040870580",
+          "https://openalex.org/W2064675550",
+          "https://openalex.org/W2093647425",
+          "https://openalex.org/W2096204319",
+          "https://openalex.org/W2099705372",
+          "https://openalex.org/W2108373233",
+          "https://openalex.org/W2120770606",
+          "https://openalex.org/W2126433015",
+          "https://openalex.org/W2134275125",
+          "https://openalex.org/W2139621418",
+          "https://openalex.org/W2147880316",
+          "https://openalex.org/W2156515921",
+          "https://openalex.org/W2250262609",
+          "https://openalex.org/W2250539671",
+          "https://openalex.org/W2250894086",
+          "https://openalex.org/W2289899728",
+          "https://openalex.org/W2301095666",
+          "https://openalex.org/W2338266296",
+          "https://openalex.org/W2564486991",
+          "https://openalex.org/W2734374252",
+          "https://openalex.org/W2765558935",
+          "https://openalex.org/W2787560479",
+          "https://openalex.org/W2788296320",
+          "https://openalex.org/W2798569372",
+          "https://openalex.org/W2799211465",
+          "https://openalex.org/W2799940824",
+          "https://openalex.org/W2963084773",
+          "https://openalex.org/W2963186636",
+          "https://openalex.org/W2963372751",
+          "https://openalex.org/W2963467827",
+          "https://openalex.org/W2964030814"
+        ],
+        "retracted": false,
+        "provenance": [
+          "semantic: I'm looking for a paper that discusses improvements in constituency parsing performance by applying a partition strategy for content embedding and positional embedding within self-attention and label attention layers.",
+          "coverage repair: I'm looking for a paper that discusses improvements in constituency parsing performance by applying a partition strategy for content embedding and positional embedding within self-attention and label attention layers."
+        ],
+        "criteria": [],
+        "rrf": 0.030309988518943745,
+        "aliases": [
+          "https://openalex.org/W2890017814"
+        ],
+        "neural_score": -5.07836,
+        "score": 0.11473
+      },
+      {
+        "id": "https://openalex.org/W2739769945",
+        "title": "Multilingual Lexicalized Constituency Parsing with Word-Level Auxiliary Tasks",
+        "doi": "https://doi.org/10.18653/v1/e17-2053",
+        "year": 2017,
+        "abstract": "We introduce a constituency parser based on a bi-LSTM encoder adapted from recent work (Cross and Huang, 2016b; Kiperwasser and Goldberg, 2016), which can incorporate a lower level character biLSTM (Ballesteros et al., 2015; Plank et al., 2016). We model two important interfaces of constituency parsing with auxiliary tasks supervised at the word level: (i) part-of-speech (POS) and morphological tagging, (ii) functional label prediction. On the SPMRL dataset, our parser obtains above state-of-the-art results on constituency parsing without requiring either predicted POS or morphological tags, and outputs labelled dependency trees.",
+        "authors": [
+          "Maximin Coavoux",
+          "Benoît Crabbé"
+        ],
+        "venue": "Conference of the European Chapter of the Association for Computational Linguistics",
+        "citations": 27,
+        "open_access": true,
+        "url": "https://doi.org/10.18653/v1/e17-2053",
+        "pdf_url": "https://www.aclweb.org/anthology/E17-2053.pdf",
+        "references": [
+          "https://openalex.org/W1558788122",
+          "https://openalex.org/W1860935423",
+          "https://openalex.org/W2038754641",
+          "https://openalex.org/W2064675550",
+          "https://openalex.org/W2086161653",
+          "https://openalex.org/W2098021339",
+          "https://openalex.org/W2126433015",
+          "https://openalex.org/W2134036914",
+          "https://openalex.org/W2143391265",
+          "https://openalex.org/W2148334178",
+          "https://openalex.org/W2149383868",
+          "https://openalex.org/W2250471514",
+          "https://openalex.org/W2251823276",
+          "https://openalex.org/W2301095666",
+          "https://openalex.org/W2338266296",
+          "https://openalex.org/W2563495010",
+          "https://openalex.org/W2964310805"
+        ],
+        "retracted": false,
+        "provenance": [
+          "semantic: I'm looking for a paper that discusses improvements in constituency parsing performance by applying a partition strategy for content embedding and positional embedding within self-attention and label attention layers.",
+          "coverage repair: I'm looking for a paper that discusses improvements in constituency parsing performance by applying a partition strategy for content embedding and positional embedding within self-attention and label attention layers."
+        ],
+        "criteria": [],
+        "rrf": 0.027106227106227107,
+        "aliases": [
+          "https://openalex.org/W2739769945"
+        ],
+        "neural_score": -3.92148,
+        "score": 0.11371
+      },
+      {
+        "id": "https://openalex.org/W2251703179",
+        "title": "How much do word embeddings encode about syntax?",
+        "doi": "https://doi.org/10.3115/v1/p14-2133",
+        "year": 2014,
+        "abstract": "Do continuous word embeddings encode any useful information for constituency parsing? We isolate three ways in which word embeddings might augment a state-of-the-art statistical parser: by connecting out-of-vocabulary words to known ones, by encouraging common behavior among related in-vocabulary words, and by di-rectly providing features for the lexicon. We test each of these hypotheses with a targeted change to a state-of-the-art base-line. Despite small gains on extremely small supervised training sets, we find that extra information from embeddings appears to make little or no difference to a parser with adequate training data. Our results support an overall hypothe-sis that word embeddings import syntac-tic information that is ultimately redun-dant with distinctions learned from tree-banks in other ways. 1",
+        "authors": [
+          "Jacob Andreas",
+          "Dan Klein"
+        ],
+        "venue": "Proceedings of the conference - Association for Computational Linguistics. Meeting",
+        "citations": 72,
+        "open_access": false,
+        "url": "https://doi.org/10.3115/v1/p14-2133",
+        "pdf_url": null,
+        "references": [
+          "https://openalex.org/W77787017",
+          "https://openalex.org/W108437174",
+          "https://openalex.org/W1019104620",
+          "https://openalex.org/W2098050104",
+          "https://openalex.org/W2125573226",
+          "https://openalex.org/W2128634885",
+          "https://openalex.org/W2133280805",
+          "https://openalex.org/W2141599568",
+          "https://openalex.org/W2147152072",
+          "https://openalex.org/W2153579005",
+          "https://openalex.org/W2158139315",
+          "https://openalex.org/W2170206653",
+          "https://openalex.org/W2251874715",
+          "https://openalex.org/W2251987034",
+          "https://openalex.org/W2951769629",
+          "https://openalex.org/W2952230511"
+        ],
+        "retracted": false,
+        "provenance": [
+          "coverage repair: I'm looking for a paper that discusses improvements in constituency parsing performance by applying a partition strategy for content embedding and positional embedding within self-attention and label attention layers."
+        ],
+        "criteria": [],
+        "rrf": 0.014925373134328358,
+        "aliases": [
+          "https://openalex.org/W2251703179"
+        ],
+        "neural_score": -2.79069,
+        "score": 0.10032
+      },
+      {
+        "id": "https://openalex.org/W2938722449",
+        "title": "Self-attention Based Model for Punctuation Prediction Using Word and Speech Embeddings",
+        "doi": "https://doi.org/10.1109/icassp.2019.8682260",
+        "year": 2019,
+        "abstract": "This paper proposes to use self-attention based model to predict punctuation marks for word sequences. The model is trained using word and speech embedding features which are obtained from the pre-trained Word2Vec and Speech2Vec, respectively. Thus, the model can use any kind of textual data and speech data. Experiments are conducted on English IWSLT2011 datasets. The results show that the self-attention based model trained using word and speech embedding features outperforms the previous state-of-the-art single model by up to 7.8% absolute overall F1-score. The results also show that it obtains performance improvement by up to 4.7% absolute overall F1-score against the previous best ensemble model.",
+        "authors": [
+          "Jiangyan Yi",
+          "Jianhua Tao"
+        ],
+        "venue": "IEEE International Conference on Acoustics Speech and Signal Processing",
+        "citations": 66,
+        "open_access": false,
+        "url": "https://doi.org/10.1109/icassp.2019.8682260",
+        "pdf_url": null,
+        "references": [
+          "https://openalex.org/W1451631119",
+          "https://openalex.org/W1522301498",
+          "https://openalex.org/W1587490638",
+          "https://openalex.org/W1614298861",
+          "https://openalex.org/W2085621450",
+          "https://openalex.org/W2113851376",
+          "https://openalex.org/W2161274063",
+          "https://openalex.org/W2166116787",
+          "https://openalex.org/W2169187092",
+          "https://openalex.org/W2288371874",
+          "https://openalex.org/W2395173459",
+          "https://openalex.org/W2398104528",
+          "https://openalex.org/W2402144811",
+          "https://openalex.org/W2403334028",
+          "https://openalex.org/W2406343628",
+          "https://openalex.org/W2407834842",
+          "https://openalex.org/W2408025694",
+          "https://openalex.org/W2513522215",
+          "https://openalex.org/W2514151559",
+          "https://openalex.org/W2575282817",
+          "https://openalex.org/W2586117383",
+          "https://openalex.org/W2626778328",
+          "https://openalex.org/W2705373224",
+          "https://openalex.org/W2750292073",
+          "https://openalex.org/W2810621157",
+          "https://openalex.org/W2963425185"
+        ],
+        "retracted": false,
+        "provenance": [
+          "semantic: I'm looking for a paper that discusses improvements in constituency parsing performance by applying a partition strategy for content embedding and positional embedding within self-attention and label attention layers."
+        ],
+        "criteria": [],
+        "rrf": 0.013513513513513514,
+        "aliases": [
+          "https://openalex.org/W2938722449"
+        ],
+        "neural_score": -2.71962,
+        "score": 0.0984
+      },
+      {
+        "id": "https://openalex.org/W2251855586",
+        "title": "Feature Optimization for Constituent Parsing via Neural Networks",
+        "doi": "https://doi.org/10.3115/v1/p15-1110",
+        "year": 2015,
+        "abstract": "Zhiguo Wang, Haitao Mi, Nianwen Xue. Proceedings of the 53rd Annual Meeting of the Association for Computational Linguistics and the 7th International Joint Conference on Natural Language Processing (Volume 1: Long Papers). 2015.",
+        "authors": [
+          "Zhiguo Wang",
+          "Haitao Mi",
+          "Nianwen Xue"
+        ],
+        "venue": null,
+        "citations": 23,
+        "open_access": true,
+        "url": "https://doi.org/10.3115/v1/p15-1110",
+        "pdf_url": null,
+        "references": [
+          "https://openalex.org/W90963093",
+          "https://openalex.org/W98255950",
+          "https://openalex.org/W108437174",
+          "https://openalex.org/W182831726",
+          "https://openalex.org/W1498436455",
+          "https://openalex.org/W1632114991",
+          "https://openalex.org/W1773803948",
+          "https://openalex.org/W1869752048",
+          "https://openalex.org/W1904365287",
+          "https://openalex.org/W2038754641",
+          "https://openalex.org/W2051818821",
+          "https://openalex.org/W2052816566",
+          "https://openalex.org/W2092654472",
+          "https://openalex.org/W2098050104",
+          "https://openalex.org/W2099705372",
+          "https://openalex.org/W2124584481",
+          "https://openalex.org/W2125484465",
+          "https://openalex.org/W2133280805",
+          "https://openalex.org/W2134729743",
+          "https://openalex.org/W2138857742",
+          "https://openalex.org/W2139621418",
+          "https://openalex.org/W2146502635",
+          "https://openalex.org/W2151308177",
+          "https://openalex.org/W2163568299",
+          "https://openalex.org/W2250861254",
+          "https://openalex.org/W2251837567",
+          "https://openalex.org/W2251905562",
+          "https://openalex.org/W2251923740"
+        ],
+        "retracted": false,
+        "provenance": [
+          "semantic: I'm looking for a paper that discusses improvements in constituency parsing performance by applying a partition strategy for content embedding and positional embedding within self-attention and label attention layers.",
+          "coverage repair: I'm looking for a paper that discusses improvements in constituency parsing performance by applying a partition strategy for content embedding and positional embedding within self-attention and label attention layers."
+        ],
+        "criteria": [],
+        "rrf": 0.026234567901234566,
+        "aliases": [
+          "https://openalex.org/W2251855586"
+        ],
+        "neural_score": -6.80955,
+        "score": 0.0959
+      },
+      {
+        "id": "https://openalex.org/W3093445938",
+        "title": "An Empirical Study for Vietnamese Constituency Parsing with Pre-training",
+        "doi": "https://doi.org/10.1109/rivf51545.2021.9642143",
+        "year": 2021,
+        "abstract": "Constituency parsing is an important task that gets more attention in natural language processing. In this work, we use a span-based approach for Vietnamese constituency parsing. Our method follows the self-attention encoder architecture and a chart decoder using a CKY-style inference algorithm. We present analyses of the experiment results of the comparison of our empirical method using pre-training models XLM-R and PhoBERT on both Vietnamese datasets VietTreebank and NIIVTB1. The results show that our model with XLM-R archived the significantly F1-score better than other pre-training models, VietTreebank at 81.19% and NIIVTB1 at 85.70%.",
+        "authors": [
+          "Tuan-Vi Tran",
+          "Xuan-Thien Pham",
+          "Duc-Vu Nguyen",
+          "Kiet Van Nguyen",
+          "Ngan Luu-Thuy Nguyen"
+        ],
+        "venue": "RIVF International Conference on Computing and Communication Technologies (RIVF)",
+        "citations": 3,
+        "open_access": true,
+        "url": "https://doi.org/10.1109/rivf51545.2021.9642143",
+        "pdf_url": "https://arxiv.org/pdf/2010.09623",
+        "references": [
+          "https://openalex.org/W563686125",
+          "https://openalex.org/W813954596",
+          "https://openalex.org/W1977877104",
+          "https://openalex.org/W1979585183",
+          "https://openalex.org/W2035363410",
+          "https://openalex.org/W2091582906",
+          "https://openalex.org/W2130942839",
+          "https://openalex.org/W2133564696",
+          "https://openalex.org/W2153013403",
+          "https://openalex.org/W2157331557",
+          "https://openalex.org/W2470673105",
+          "https://openalex.org/W2574655014",
+          "https://openalex.org/W2612135493",
+          "https://openalex.org/W2626778328",
+          "https://openalex.org/W2737354421",
+          "https://openalex.org/W2756737516",
+          "https://openalex.org/W2808310571",
+          "https://openalex.org/W2884159461",
+          "https://openalex.org/W2949335953",
+          "https://openalex.org/W2950813464",
+          "https://openalex.org/W2963084773",
+          "https://openalex.org/W2963227939",
+          "https://openalex.org/W2963330800",
+          "https://openalex.org/W2964030814",
+          "https://openalex.org/W2975059944",
+          "https://openalex.org/W2978017171",
+          "https://openalex.org/W2983040767",
+          "https://openalex.org/W2985521958",
+          "https://openalex.org/W2992389131",
+          "https://openalex.org/W3007955273",
+          "https://openalex.org/W3037932933",
+          "https://openalex.org/W3038502165"
+        ],
+        "retracted": false,
+        "provenance": [
+          "semantic: I'm looking for a paper that discusses improvements in constituency parsing performance by applying a partition strategy for content embedding and positional embedding within self-attention and label attention layers.",
+          "coverage repair: I'm looking for a paper that discusses improvements in constituency parsing performance by applying a partition strategy for content embedding and positional embedding within self-attention and label attention layers."
+        ],
+        "criteria": [],
+        "rrf": 0.02127659574468085,
+        "aliases": [
+          "https://openalex.org/W3093445938"
+        ],
+        "neural_score": -3.92645,
+        "score": 0.09253
+      },
+      {
+        "id": "https://openalex.org/W2098021339",
+        "title": "(Re)ranking Meets Morphosyntax: State-of-the-art Results from the SPMRL 2013 Shared Task",
+        "doi": "https://doi.org/10.18653/v1/w13-4916",
+        "year": 2013,
+        "abstract": "This paper describes the IMS-SZEGED-CIS contribution to the SPMRL 2013 Shared Task.We participate in both the constituency and dependency tracks, and achieve state-of-theart for all languages.For both tracks we make significant improvements through high quality preprocessing and (re)ranking on top of strong baselines.Our system came out first for both tracks.",
+        "authors": [
+          "Anders J. Björkelund",
+          "Özlem Çetinoğlu",
+          "Richárd Farkas",
+          "Thomas Mueller",
+          "Wolfgang Seeker"
+        ],
+        "venue": null,
+        "citations": 60,
+        "open_access": true,
+        "url": "https://doi.org/10.18653/v1/w13-4916",
+        "pdf_url": "https://aclanthology.org/W13-4916.pdf",
+        "references": [
+          "https://openalex.org/W4758264",
+          "https://openalex.org/W29476967",
+          "https://openalex.org/W47641349",
+          "https://openalex.org/W148342279",
+          "https://openalex.org/W183066880",
+          "https://openalex.org/W194033037",
+          "https://openalex.org/W1532548519",
+          "https://openalex.org/W1534720369",
+          "https://openalex.org/W1535908708",
+          "https://openalex.org/W1568793342",
+          "https://openalex.org/W1660460062",
+          "https://openalex.org/W1825051614",
+          "https://openalex.org/W1846632694",
+          "https://openalex.org/W1894695003",
+          "https://openalex.org/W1982649163",
+          "https://openalex.org/W2109000768",
+          "https://openalex.org/W2125712079",
+          "https://openalex.org/W2126807068",
+          "https://openalex.org/W2130714056",
+          "https://openalex.org/W2131395877",
+          "https://openalex.org/W2132483016",
+          "https://openalex.org/W2132726600",
+          "https://openalex.org/W2136485846",
+          "https://openalex.org/W2139621418",
+          "https://openalex.org/W2143391265",
+          "https://openalex.org/W2144302466",
+          "https://openalex.org/W2148963146",
+          "https://openalex.org/W2149709850",
+          "https://openalex.org/W2151308177",
+          "https://openalex.org/W2151690415",
+          "https://openalex.org/W2250471514",
+          "https://openalex.org/W2251789320",
+          "https://openalex.org/W2251969346",
+          "https://openalex.org/W2405246503",
+          "https://openalex.org/W6890406761",
+          "https://openalex.org/W7099869517"
+        ],
+        "retracted": false,
+        "provenance": [
+          "citation neighbors of top-ranked papers"
+        ],
+        "criteria": [],
+        "rrf": 0.013888888888888888,
+        "aliases": [
+          "https://openalex.org/W2098021339"
+        ],
+        "neural_score": -3.68334,
+        "score": 0.06992
+      },
+      {
+        "id": "https://openalex.org/W2251923740",
+        "title": "Joint POS Tagging and Transition-based Constituent Parsing in Chinese with Non-local Features",
+        "doi": "https://doi.org/10.3115/v1/p14-1069",
+        "year": 2014,
+        "abstract": "We propose three improvements to address the drawbacks of state-of-the-art transition-based constituent parsers.First, to resolve the error propagation problem of the traditional pipeline approach, we incorporate POS tagging into the syntactic parsing process.Second, to alleviate the negative influence of size differences among competing action sequences, we align parser states during beam-search decoding.Third, to enhance the power of parsing models, we enlarge the feature set with non-local features and semisupervised word cluster features.Experimental results show that these modifications improve parsing performance significantly.Evaluated on the Chinese Tree-Bank (CTB), our final performance reaches 86.3% (F1) when trained on CTB 5.1, and 87.1% when trained on CTB 6.0, and these results outperform all state-of-the-art parsers.",
+        "authors": [
+          "Zhiguo Wang",
+          "Nianwen Xue"
+        ],
+        "venue": "Proceedings of the conference - Association for Computational Linguistics. Meeting",
+        "citations": 44,
+        "open_access": true,
+        "url": "https://doi.org/10.3115/v1/p14-1069",
+        "pdf_url": "https://aclanthology.org/P14-1069.pdf",
+        "references": [
+          "https://openalex.org/W108437174",
+          "https://openalex.org/W130850236",
+          "https://openalex.org/W1535015163",
+          "https://openalex.org/W2038754641",
+          "https://openalex.org/W2052816566",
+          "https://openalex.org/W2096204319",
+          "https://openalex.org/W2099705372",
+          "https://openalex.org/W2104917081",
+          "https://openalex.org/W2113691817",
+          "https://openalex.org/W2121127625",
+          "https://openalex.org/W2125712079",
+          "https://openalex.org/W2126433015",
+          "https://openalex.org/W2128634885",
+          "https://openalex.org/W2134729743",
+          "https://openalex.org/W2139621418",
+          "https://openalex.org/W2151308177",
+          "https://openalex.org/W2158049734",
+          "https://openalex.org/W2250416721",
+          "https://openalex.org/W2251719990",
+          "https://openalex.org/W2252268838",
+          "https://openalex.org/W7097554466"
+        ],
+        "retracted": false,
+        "provenance": [
+          "coverage repair: I'm looking for a paper that discusses improvements in constituency parsing performance by applying a partition strategy for content embedding and positional embedding within self-attention and label attention layers."
+        ],
+        "criteria": [],
+        "rrf": 0.014705882352941176,
+        "aliases": [
+          "https://openalex.org/W2251923740"
+        ],
+        "neural_score": -4.4685,
+        "score": 0.06233
+      },
+      {
+        "id": "https://openalex.org/W3104536200",
+        "title": "Span-based discontinuous constituency parsing: a family of exact chart-based algorithms with time complexities from O(nˆ6) down to O(nˆ3)",
+        "doi": "https://doi.org/10.18653/v1/2020.emnlp-main.219",
+        "year": 2020,
+        "abstract": "We introduce a novel chart-based algorithm for span-based parsing of discontinuous constituency trees of block degree two, including ill-nested structures. In particular, we show that we can build variants of our parser with smaller search spaces and time complexities ranging from O(nˆ6) down to O(nˆ3). The cubic time variant covers 98% of constituents observed in linguistic treebanks while having the same complexity as continuous constituency parsers. We evaluate our approach on German and English treebanks (Negra, Tiger, and DPTB) and report state-of-the-art results in the fully supervised setting. We also experiment with pre-trained word embeddings and Bert-based neural networks.",
+        "authors": [
+          "Caio Corro"
+        ],
+        "venue": "Conference on Empirical Methods in Natural Language Processing (EMNLP)",
+        "citations": 27,
+        "open_access": true,
+        "url": "https://doi.org/10.18653/v1/2020.emnlp-main.219",
+        "pdf_url": "https://www.aclweb.org/anthology/2020.emnlp-main.219.pdf",
+        "references": [
+          "https://openalex.org/W174472240",
+          "https://openalex.org/W212008417",
+          "https://openalex.org/W1502293651",
+          "https://openalex.org/W1528941926",
+          "https://openalex.org/W1560681568",
+          "https://openalex.org/W1632114991",
+          "https://openalex.org/W1687940340",
+          "https://openalex.org/W1965364888",
+          "https://openalex.org/W1969866811",
+          "https://openalex.org/W1970961429",
+          "https://openalex.org/W2024102777",
+          "https://openalex.org/W2024503956",
+          "https://openalex.org/W2032789430",
+          "https://openalex.org/W2056065447",
+          "https://openalex.org/W2089385274",
+          "https://openalex.org/W2096466920",
+          "https://openalex.org/W2097826433",
+          "https://openalex.org/W2108373233",
+          "https://openalex.org/W2119439969",
+          "https://openalex.org/W2121103874",
+          "https://openalex.org/W2121924470",
+          "https://openalex.org/W2122922578",
+          "https://openalex.org/W2125716863",
+          "https://openalex.org/W2125930537",
+          "https://openalex.org/W2131343809",
+          "https://openalex.org/W2131395877",
+          "https://openalex.org/W2132864397",
+          "https://openalex.org/W2161021345",
+          "https://openalex.org/W2170318160",
+          "https://openalex.org/W2171054746",
+          "https://openalex.org/W2186189827",
+          "https://openalex.org/W2250525101",
+          "https://openalex.org/W2250539671",
+          "https://openalex.org/W2250562110",
+          "https://openalex.org/W2251088156",
+          "https://openalex.org/W2301095666",
+          "https://openalex.org/W2336011916",
+          "https://openalex.org/W2510944275",
+          "https://openalex.org/W2511889963",
+          "https://openalex.org/W2515251660"
+        ],
+        "retracted": false,
+        "provenance": [
+          "coverage repair: I'm looking for a paper that discusses improvements in constituency parsing performance by applying a partition strategy for content embedding and positional embedding within self-attention and label attention layers."
+        ],
+        "criteria": [],
+        "rrf": 0.014084507042253521,
+        "aliases": [
+          "https://openalex.org/W3104536200"
+        ],
+        "neural_score": -4.28125,
+        "score": 0.06192
+      },
+      {
+        "id": "https://openalex.org/W2966423804",
+        "title": "Self-attentive Biaffine Dependency Parsing",
+        "doi": "https://doi.org/10.24963/ijcai.2019/704",
+        "year": 2019,
+        "abstract": "The current state-of-the-art dependency parsing approaches employ BiLSTMs to encode input sentences.Motivated by the success of the transformer-based machine translation, this work for the first time applies the self-attention mechanism to dependency parsing as the replacement of the BiLSTM-based encoders, leading to competitive performance on both English and Chinese benchmark data. Based on the detailed error analysis, we then combine the power of both BiLSTM and self-attention via model ensembles, demonstrating their complementary capability of capturing contextual information. Finally, we explore the recently proposed contextualized word representations as extra input features, and further improve the parsing performance.",
+        "authors": [
+          "Ying Li",
+          "Zhenghua Li",
+          "Min Zhang",
+          "Rui Wang",
+          "Sheng Li",
+          "Luo Si"
+        ],
+        "venue": "International Joint Conference on Artificial Intelligence",
+        "citations": 48,
+        "open_access": true,
+        "url": "https://doi.org/10.24963/ijcai.2019/704",
+        "pdf_url": "https://www.ijcai.org/proceedings/2019/0704.pdf",
+        "references": [
+          "https://openalex.org/W2108161779",
+          "https://openalex.org/W2116064496",
+          "https://openalex.org/W2122922578",
+          "https://openalex.org/W2134036914",
+          "https://openalex.org/W2142222368",
+          "https://openalex.org/W2250861254",
+          "https://openalex.org/W2311132329",
+          "https://openalex.org/W2526170246",
+          "https://openalex.org/W2787560479",
+          "https://openalex.org/W2891602716",
+          "https://openalex.org/W2896060389",
+          "https://openalex.org/W2896457183",
+          "https://openalex.org/W2963084773",
+          "https://openalex.org/W2963205761",
+          "https://openalex.org/W2963370123",
+          "https://openalex.org/W2963560594",
+          "https://openalex.org/W2964030814",
+          "https://openalex.org/W2964189376",
+          "https://openalex.org/W2988304195",
+          "https://openalex.org/W3037932933"
+        ],
+        "retracted": false,
+        "provenance": [
+          "semantic: I'm looking for a paper that discusses improvements in constituency parsing performance by applying a partition strategy for content embedding and positional embedding within self-attention and label attention layers."
+        ],
+        "criteria": [],
+        "rrf": 0.0136986301369863,
+        "aliases": [
+          "https://openalex.org/W2966423804"
+        ],
+        "neural_score": -4.27034,
+        "score": 0.06064
+      },
+      {
+        "id": "https://openalex.org/W2985100785",
+        "title": "Neural Graph Embedding Methods for Natural Language Processing",
+        "doi": "https://doi.org/10.48550/arxiv.1911.03042",
+        "year": 2019,
+        "abstract": "Knowledge graphs are structured representations of facts in a graph, where nodes represent entities and edges represent relationships between them. Recent research has resulted in the development of several large KGs. However, all of them tend to be sparse with very few facts per entity. In the first part of the thesis, we propose two solutions to alleviate this problem: (1) KG Canonicalization, i.e., identifying and merging duplicate entities in a KG, (2) Relation Extraction which involves automating the process of extracting semantic relationships between entities from unstructured text. Traditional Neural Networks like CNNs and RNNs are constrained to handle Euclidean data. However, graphs in Natural Language Processing (NLP) are prominent. Recently, Graph Convolutional Networks (GCNs) have been proposed to address this shortcoming and have been successfully applied for several problems. In the second part of the thesis, we utilize GCNs for Document Timestamping problem and for learning word embeddings using dependency context of a word instead of sequential context. In this third part of the thesis, we address two limitations of existing GCN models, i.e., (1) The standard neighborhood aggregation scheme puts no constraints on the number of nodes that can influence the representation of a target node. This leads to a noisy representation of hub-nodes which coves almost the entire graph in a few hops. (2) Most of the existing GCN models are limited to handle undirected graphs. However, a more general and pervasive class of graphs are relational graphs where each edge has a label and direction associated with it. Existing approaches to handle such graphs suffer from over-parameterization and are restricted to learning representation of nodes only.",
+        "authors": [
+          "Shikhar Vashishth"
+        ],
+        "venue": "arXiv",
+        "citations": 15,
+        "open_access": true,
+        "url": "https://doi.org/10.48550/arxiv.1911.03042",
+        "pdf_url": "https://arxiv.org/pdf/1911.03042",
+        "references": [
+          "https://openalex.org/W36903255",
+          "https://openalex.org/W46452414",
+          "https://openalex.org/W80183829",
+          "https://openalex.org/W102708294",
+          "https://openalex.org/W174427690",
+          "https://openalex.org/W205829674",
+          "https://openalex.org/W277886906",
+          "https://openalex.org/W1483236033",
+          "https://openalex.org/W1493490255",
+          "https://openalex.org/W1507806757",
+          "https://openalex.org/W1529533208",
+          "https://openalex.org/W1533230146",
+          "https://openalex.org/W1533861849",
+          "https://openalex.org/W1552472270",
+          "https://openalex.org/W1604644367",
+          "https://openalex.org/W1662382123",
+          "https://openalex.org/W1731062554",
+          "https://openalex.org/W1801721664",
+          "https://openalex.org/W1812967757",
+          "https://openalex.org/W1832693441",
+          "https://openalex.org/W1888005072",
+          "https://openalex.org/W1894439495",
+          "https://openalex.org/W1899838715",
+          "https://openalex.org/W1928278792",
+          "https://openalex.org/W1938740620",
+          "https://openalex.org/W1965605789",
+          "https://openalex.org/W1978672522",
+          "https://openalex.org/W1986593852",
+          "https://openalex.org/W1990886313",
+          "https://openalex.org/W1993972354",
+          "https://openalex.org/W2008857988",
+          "https://openalex.org/W2015707701",
+          "https://openalex.org/W2016753842",
+          "https://openalex.org/W2022166150",
+          "https://openalex.org/W2052762201",
+          "https://openalex.org/W2064675550",
+          "https://openalex.org/W2067438047",
+          "https://openalex.org/W2069441027",
+          "https://openalex.org/W2070633821",
+          "https://openalex.org/W2074276750"
+        ],
+        "retracted": false,
+        "provenance": [
+          "keyword: m discusses improvements constituency parsing performance by applying partition strategy content embedding positional embedding"
+        ],
+        "criteria": [],
+        "rrf": 0.01639344262295082,
+        "aliases": [
+          "https://openalex.org/W2985100785"
+        ],
+        "neural_score": -8.84714,
+        "score": 0.05949
+      },
+      {
+        "id": "https://openalex.org/W1996430422",
+        "title": "Feature-rich part-of-speech tagging with a cyclic dependency network",
+        "doi": "https://doi.org/10.3115/1073445.1073478",
+        "year": 2003,
+        "abstract": "We present a new part-of-speech tagger that demonstrates the following ideas: (i) explicit use of both preceding and following tag contexts via a dependency network representation, (ii) broad use of lexical features, including jointly conditioning on multiple consecutive words, (iii) effective use of priors in conditional loglinear models, and (iv) fine-grained modeling of unknown word features. Using these ideas together, the resulting tagger gives a 97.24% accuracy on the Penn Treebank WSJ, an error reduction of 4.4% on the best previous single automatically learned tagging result.",
+        "authors": [
+          "Kristina Toutanova",
+          "Dan Klein",
+          "Christopher D. Manning",
+          "Yoram Singer"
+        ],
+        "venue": "Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (NAACL-HLT)",
+        "citations": 3494,
+        "open_access": true,
+        "url": "https://doi.org/10.3115/1073445.1073478",
+        "pdf_url": "https://dl.acm.org/doi/pdf/10.3115/1073445.1073478",
+        "references": [
+          "https://openalex.org/W1513861746",
+          "https://openalex.org/W1524688041",
+          "https://openalex.org/W1773803948",
+          "https://openalex.org/W2003458432",
+          "https://openalex.org/W2061271742",
+          "https://openalex.org/W2092804251",
+          "https://openalex.org/W2098379588",
+          "https://openalex.org/W2104029044",
+          "https://openalex.org/W2117400858",
+          "https://openalex.org/W2135843243",
+          "https://openalex.org/W2147880316",
+          "https://openalex.org/W2155280192",
+          "https://openalex.org/W2163306339",
+          "https://openalex.org/W2166394306",
+          "https://openalex.org/W4250516003",
+          "https://openalex.org/W7096699250"
+        ],
+        "retracted": false,
+        "provenance": [
+          "citation neighbors of top-ranked papers"
+        ],
+        "criteria": [],
+        "rrf": 0.01639344262295082,
+        "aliases": [
+          "https://openalex.org/W1996430422"
+        ],
+        "neural_score": -11.17996,
+        "score": 0.05938
+      },
+      {
+        "id": "https://openalex.org/W2982010485",
+        "title": "On the surprising capacity of linear combinations of embeddings for natural language processing",
+        "doi": "https://doi.org/10.26182/w0c2-6887",
+        "year": 2019,
+        "abstract": "Natural language is the human expression of thought. The representation of natural language, and thus thought, is fundamental to the field of artificial intelligence. This thesis explores that representation through weighted sums of embeddings. Embeddings are dense numerical vectors representing natural language components (e.g. words). Their sum is commonly overlooked as being too simple: in contrast to sequence or tree representations. However, we find that on numerous real-world problems it is actually superior. This thesis demonstrates this capacity, and explains why. The sum of embeddings is a particularly effective dimensionality-reduced representation of the crucial surface features of language.",
+        "authors": [
+          "Lyndon White"
+        ],
+        "venue": "UWA Profiles and Research Repository (University of Western Australia)",
+        "citations": 4,
+        "open_access": true,
+        "url": "https://doi.org/10.26182/w0c2-6887",
+        "pdf_url": "https://api.research-repository.uwa.edu.au/ws/files/49834063/THESIS_DOCTOR_OF_PHILOSOPHY_WHITE_Lyndon_Rhys_2019.pdf",
+        "references": [
+          "https://openalex.org/W36903255",
+          "https://openalex.org/W71795751",
+          "https://openalex.org/W224572144",
+          "https://openalex.org/W303217050",
+          "https://openalex.org/W342285082",
+          "https://openalex.org/W581956982",
+          "https://openalex.org/W632008434",
+          "https://openalex.org/W1423339008",
+          "https://openalex.org/W1486649854",
+          "https://openalex.org/W1495887101",
+          "https://openalex.org/W1551268210",
+          "https://openalex.org/W1566289585",
+          "https://openalex.org/W1614298861",
+          "https://openalex.org/W1615991656",
+          "https://openalex.org/W1775434803",
+          "https://openalex.org/W1777150271",
+          "https://openalex.org/W1889268436",
+          "https://openalex.org/W1897761818",
+          "https://openalex.org/W1908479511",
+          "https://openalex.org/W1924770834",
+          "https://openalex.org/W1934041838",
+          "https://openalex.org/W1939882552",
+          "https://openalex.org/W1957706851",
+          "https://openalex.org/W1959608418",
+          "https://openalex.org/W1974976142",
+          "https://openalex.org/W1975084891",
+          "https://openalex.org/W1988325893",
+          "https://openalex.org/W2009190245",
+          "https://openalex.org/W2022812583",
+          "https://openalex.org/W2043005456",
+          "https://openalex.org/W2045063723",
+          "https://openalex.org/W2045208889",
+          "https://openalex.org/W2050712820",
+          "https://openalex.org/W2051669046",
+          "https://openalex.org/W2060108852",
+          "https://openalex.org/W2064675550",
+          "https://openalex.org/W2066422980",
+          "https://openalex.org/W2067438047",
+          "https://openalex.org/W2079145959",
+          "https://openalex.org/W2081580037"
+        ],
+        "retracted": false,
+        "provenance": [
+          "keyword: m discusses improvements constituency parsing performance by applying partition strategy content embedding positional embedding"
+        ],
+        "criteria": [],
+        "rrf": 0.016129032258064516,
+        "aliases": [
+          "https://openalex.org/W2982010485"
+        ],
+        "neural_score": -7.73254,
+        "score": 0.05877
+      },
+      {
+        "id": "https://openalex.org/W1535015163",
+        "title": "A Maximum-Entropy-Inspired Parser",
+        "doi": null,
+        "year": 1999,
+        "abstract": "We present a new parser for parsing down to Penn tree-bank style parse trees that achieves 90.1 % average precision/recall for sentences of length 40 and less, and 89.5 % for sentences of length 100 and less when trMned and tested on the previously established [5,9,10,15,17] \"stan-dard \" sections of the Wall Street Journal tree-bank. This represents a 13 % decrease in er-ror rate over the best single-parser results on this corpus [9]. The major technical innova-tion is tire use of a \"ma~ximum-entropy-inspired\" model for conditioning and smoothing that let us successfully to test and combine many differ-ent conditioning events. We also present some partial results showing the effects of different conditioning information, including a surpris-ing 2 % improvement due to guessing the lexical head's pre-terminal before guessing the lexical head. 1",
+        "authors": [
+          "Eugene Charniak"
+        ],
+        "venue": "OLAC - Open Language Archives Community",
+        "citations": 1450,
+        "open_access": false,
+        "url": "http://www.aclweb.org/anthology/A00-2018",
+        "pdf_url": null,
+        "references": [
+          "https://openalex.org/W1496659931",
+          "https://openalex.org/W1567570606",
+          "https://openalex.org/W1953828586",
+          "https://openalex.org/W1986543644",
+          "https://openalex.org/W2001792610",
+          "https://openalex.org/W2096175520",
+          "https://openalex.org/W2153439141",
+          "https://openalex.org/W2161204834",
+          "https://openalex.org/W2166394306",
+          "https://openalex.org/W2726537443",
+          "https://openalex.org/W7096316997"
+        ],
+        "retracted": false,
+        "provenance": [
+          "citation neighbors of top-ranked papers"
+        ],
+        "criteria": [],
+        "rrf": 0.016129032258064516,
+        "aliases": [
+          "https://openalex.org/W1535015163"
+        ],
+        "neural_score": -10.08319,
+        "score": 0.05845
+      }
+    ],
+    "usage": {
+      "api_calls": 4,
+      "cache_hits": 0,
+      "llm_calls": 6
+    },
+    "ranker": "cross-encoder + RRF",
+    "gaps": [
+      {
+        "id": "c1",
+        "text": "I'm looking for a paper that discusses improvements in constituency parsing performance by applying a partition strategy for content embedding and positional embedding within self-attention and label attention layers."
+      }
+    ],
+    "repaired": true,
+    "warnings": [
+      "Hosted LLM quota is cooling down; evidence judgments are unavailable"
+    ],
+    "citation_edges": [
+      {
+        "source": "https://openalex.org/W2963084773",
+        "target": "https://openalex.org/W1869752048"
+      },
+      {
+        "source": "https://openalex.org/W2963084773",
+        "target": "https://openalex.org/W2098021339"
+      },
+      {
+        "source": "https://openalex.org/W2963084773",
+        "target": "https://openalex.org/W2563495010"
+      },
+      {
+        "source": "https://openalex.org/W2963084773",
+        "target": "https://openalex.org/W2739769945"
+      },
+      {
+        "source": "https://openalex.org/W2963084773",
+        "target": "https://openalex.org/W2964030814"
+      },
+      {
+        "source": "https://openalex.org/W2964854771",
+        "target": "https://openalex.org/W2563495010"
+      },
+      {
+        "source": "https://openalex.org/W2964854771",
+        "target": "https://openalex.org/W2964030814"
+      },
+      {
+        "source": "https://openalex.org/W3101638898",
+        "target": "https://openalex.org/W1869752048"
+      },
+      {
+        "source": "https://openalex.org/W3101638898",
+        "target": "https://openalex.org/W1996430422"
+      },
+      {
+        "source": "https://openalex.org/W3101638898",
+        "target": "https://openalex.org/W2563495010"
+      },
+      {
+        "source": "https://openalex.org/W3101638898",
+        "target": "https://openalex.org/W2798569372"
+      },
+      {
+        "source": "https://openalex.org/W3101638898",
+        "target": "https://openalex.org/W2798921788"
+      },
+      {
+        "source": "https://openalex.org/W3101638898",
+        "target": "https://openalex.org/W2890017814"
+      },
+      {
+        "source": "https://openalex.org/W3101638898",
+        "target": "https://openalex.org/W2963084773"
+      },
+      {
+        "source": "https://openalex.org/W3101638898",
+        "target": "https://openalex.org/W2963643701"
+      },
+      {
+        "source": "https://openalex.org/W3101638898",
+        "target": "https://openalex.org/W2964030814"
+      },
+      {
+        "source": "https://openalex.org/W3101638898",
+        "target": "https://openalex.org/W3021530909"
+      },
+      {
+        "source": "https://openalex.org/W2798921788",
+        "target": "https://openalex.org/W1869752048"
+      },
+      {
+        "source": "https://openalex.org/W2798921788",
+        "target": "https://openalex.org/W2563495010"
+      },
+      {
+        "source": "https://openalex.org/W2798921788",
+        "target": "https://openalex.org/W2964030814"
+      },
+      {
+        "source": "https://openalex.org/W2798569372",
+        "target": "https://openalex.org/W1535015163"
+      },
+      {
+        "source": "https://openalex.org/W2798569372",
+        "target": "https://openalex.org/W1869752048"
+      },
+      {
+        "source": "https://openalex.org/W2798569372",
+        "target": "https://openalex.org/W1996430422"
+      },
+      {
+        "source": "https://openalex.org/W2798569372",
+        "target": "https://openalex.org/W2251855586"
+      },
+      {
+        "source": "https://openalex.org/W2798569372",
+        "target": "https://openalex.org/W2251923740"
+      },
+      {
+        "source": "https://openalex.org/W2798569372",
+        "target": "https://openalex.org/W2563495010"
+      },
+      {
+        "source": "https://openalex.org/W2798569372",
+        "target": "https://openalex.org/W2964030814"
+      },
+      {
+        "source": "https://openalex.org/W2964030814",
+        "target": "https://openalex.org/W1869752048"
+      },
+      {
+        "source": "https://openalex.org/W2964030814",
+        "target": "https://openalex.org/W1996430422"
+      },
+      {
+        "source": "https://openalex.org/W2964030814",
+        "target": "https://openalex.org/W2563495010"
+      },
+      {
+        "source": "https://openalex.org/W3035027018",
+        "target": "https://openalex.org/W2563495010"
+      },
+      {
+        "source": "https://openalex.org/W3035027018",
+        "target": "https://openalex.org/W2798569372"
+      },
+      {
+        "source": "https://openalex.org/W3035027018",
+        "target": "https://openalex.org/W2890017814"
+      },
+      {
+        "source": "https://openalex.org/W3035027018",
+        "target": "https://openalex.org/W2963084773"
+      },
+      {
+        "source": "https://openalex.org/W3035027018",
+        "target": "https://openalex.org/W2963643701"
+      },
+      {
+        "source": "https://openalex.org/W3035027018",
+        "target": "https://openalex.org/W2964030814"
+      },
+      {
+        "source": "https://openalex.org/W3035027018",
+        "target": "https://openalex.org/W2966423804"
+      },
+      {
+        "source": "https://openalex.org/W2963643701",
+        "target": "https://openalex.org/W2098021339"
+      },
+      {
+        "source": "https://openalex.org/W2963643701",
+        "target": "https://openalex.org/W2739769945"
+      },
+      {
+        "source": "https://openalex.org/W2963643701",
+        "target": "https://openalex.org/W2963084773"
+      },
+      {
+        "source": "https://openalex.org/W4387355873",
+        "target": "https://openalex.org/W1535015163"
+      },
+      {
+        "source": "https://openalex.org/W4387355873",
+        "target": "https://openalex.org/W3035027018"
+      },
+      {
+        "source": "https://openalex.org/W3175168675",
+        "target": "https://openalex.org/W1869752048"
+      },
+      {
+        "source": "https://openalex.org/W3175168675",
+        "target": "https://openalex.org/W2563495010"
+      },
+      {
+        "source": "https://openalex.org/W3175168675",
+        "target": "https://openalex.org/W2739769945"
+      },
+      {
+        "source": "https://openalex.org/W3175168675",
+        "target": "https://openalex.org/W2798569372"
+      },
+      {
+        "source": "https://openalex.org/W3175168675",
+        "target": "https://openalex.org/W2798921788"
+      },
+      {
+        "source": "https://openalex.org/W3175168675",
+        "target": "https://openalex.org/W2890017814"
+      },
+      {
+        "source": "https://openalex.org/W3175168675",
+        "target": "https://openalex.org/W2963084773"
+      },
+      {
+        "source": "https://openalex.org/W3175168675",
+        "target": "https://openalex.org/W2963643701"
+      },
+      {
+        "source": "https://openalex.org/W3175168675",
+        "target": "https://openalex.org/W2964030814"
+      },
+      {
+        "source": "https://openalex.org/W3021530909",
+        "target": "https://openalex.org/W1996430422"
+      },
+      {
+        "source": "https://openalex.org/W3021530909",
+        "target": "https://openalex.org/W2798569372"
+      },
+      {
+        "source": "https://openalex.org/W3021530909",
+        "target": "https://openalex.org/W2798921788"
+      },
+      {
+        "source": "https://openalex.org/W3021530909",
+        "target": "https://openalex.org/W2963084773"
+      },
+      {
+        "source": "https://openalex.org/W2563495010",
+        "target": "https://openalex.org/W1869752048"
+      },
+      {
+        "source": "https://openalex.org/W3035400757",
+        "target": "https://openalex.org/W1996430422"
+      },
+      {
+        "source": "https://openalex.org/W3035400757",
+        "target": "https://openalex.org/W2563495010"
+      },
+      {
+        "source": "https://openalex.org/W3035400757",
+        "target": "https://openalex.org/W2739769945"
+      },
+      {
+        "source": "https://openalex.org/W3035400757",
+        "target": "https://openalex.org/W2798569372"
+      },
+      {
+        "source": "https://openalex.org/W3035400757",
+        "target": "https://openalex.org/W2890017814"
+      },
+      {
+        "source": "https://openalex.org/W3035400757",
+        "target": "https://openalex.org/W2963084773"
+      },
+      {
+        "source": "https://openalex.org/W3035400757",
+        "target": "https://openalex.org/W2963643701"
+      },
+      {
+        "source": "https://openalex.org/W3035400757",
+        "target": "https://openalex.org/W2964030814"
+      },
+      {
+        "source": "https://openalex.org/W4352976750",
+        "target": "https://openalex.org/W2798569372"
+      },
+      {
+        "source": "https://openalex.org/W4352976750",
+        "target": "https://openalex.org/W2963084773"
+      },
+      {
+        "source": "https://openalex.org/W4352976750",
+        "target": "https://openalex.org/W3104536200"
+      },
+      {
+        "source": "https://openalex.org/W2890017814",
+        "target": "https://openalex.org/W1535015163"
+      },
+      {
+        "source": "https://openalex.org/W2890017814",
+        "target": "https://openalex.org/W1869752048"
+      },
+      {
+        "source": "https://openalex.org/W2890017814",
+        "target": "https://openalex.org/W2798569372"
+      },
+      {
+        "source": "https://openalex.org/W2890017814",
+        "target": "https://openalex.org/W2963084773"
+      },
+      {
+        "source": "https://openalex.org/W2890017814",
+        "target": "https://openalex.org/W2964030814"
+      },
+      {
+        "source": "https://openalex.org/W2739769945",
+        "target": "https://openalex.org/W2098021339"
+      },
+      {
+        "source": "https://openalex.org/W2739769945",
+        "target": "https://openalex.org/W2563495010"
+      },
+      {
+        "source": "https://openalex.org/W2251855586",
+        "target": "https://openalex.org/W1869752048"
+      },
+      {
+        "source": "https://openalex.org/W2251855586",
+        "target": "https://openalex.org/W2251923740"
+      },
+      {
+        "source": "https://openalex.org/W3093445938",
+        "target": "https://openalex.org/W2963084773"
+      },
+      {
+        "source": "https://openalex.org/W3093445938",
+        "target": "https://openalex.org/W2964030814"
+      },
+      {
+        "source": "https://openalex.org/W2251923740",
+        "target": "https://openalex.org/W1535015163"
+      },
+      {
+        "source": "https://openalex.org/W2966423804",
+        "target": "https://openalex.org/W2963084773"
+      },
+      {
+        "source": "https://openalex.org/W2966423804",
+        "target": "https://openalex.org/W2964030814"
+      }
+    ],
+    "evidence_basis": "Title and abstract; no full text read",
+    "ablations": {
+      "single_semantic": [
+        "https://openalex.org/W2963084773",
+        "https://openalex.org/W3021530909",
+        "https://openalex.org/W1869752048",
+        "https://openalex.org/W2798638375",
+        "https://openalex.org/W2963643701",
+        "https://openalex.org/W2964030814",
+        "https://openalex.org/W2890017814",
+        "https://openalex.org/W2565349465",
+        "https://openalex.org/W2970400306",
+        "https://openalex.org/W2798569372",
+        "https://openalex.org/W3035027018",
+        "https://openalex.org/W3101638898",
+        "https://openalex.org/W2966423804",
+        "https://openalex.org/W2938722449",
+        "https://openalex.org/W3083429640",
+        "https://openalex.org/W2774983917",
+        "https://openalex.org/W2952664794",
+        "https://openalex.org/W2739769945",
+        "https://openalex.org/W3089705984",
+        "https://openalex.org/W3117713602",
+        "https://openalex.org/W2251855586",
+        "https://openalex.org/W2787897065",
+        "https://openalex.org/W2997510314",
+        "https://openalex.org/W2950971640",
+        "https://openalex.org/W2970349885",
+        "https://openalex.org/W2970455584",
+        "https://openalex.org/W2604164736",
+        "https://openalex.org/W3175168675",
+        "https://openalex.org/W7133204418",
+        "https://openalex.org/W3035400757",
+        "https://openalex.org/W4389519264",
+        "https://openalex.org/W3099452289",
+        "https://openalex.org/W2964854771",
+        "https://openalex.org/W3093445938",
+        "https://openalex.org/W4352976750",
+        "https://openalex.org/W3004774498",
+        "https://openalex.org/W2250242653",
+        "https://openalex.org/W4387355873",
+        "https://openalex.org/W3200882621",
+        "https://openalex.org/W2188186406"
+      ],
+      "rrf": [
+        "https://openalex.org/W1869752048",
+        "https://openalex.org/W2798569372",
+        "https://openalex.org/W2985100785",
+        "https://openalex.org/W2963084773",
+        "https://openalex.org/W1996430422",
+        "https://openalex.org/W2982010485",
+        "https://openalex.org/W3021530909",
+        "https://openalex.org/W1535015163",
+        "https://openalex.org/W2573233116",
+        "https://openalex.org/W7151883118",
+        "https://openalex.org/W2798638375",
+        "https://openalex.org/W2096204319",
+        "https://openalex.org/W400322755",
+        "https://openalex.org/W2963643701",
+        "https://openalex.org/W108437174",
+        "https://openalex.org/W4364359919",
+        "https://openalex.org/W2964030814",
+        "https://openalex.org/W2289899728",
+        "https://openalex.org/W3187418919",
+        "https://openalex.org/W2890017814",
+        "https://openalex.org/W1986543644",
+        "https://openalex.org/W2101039319",
+        "https://openalex.org/W2565349465",
+        "https://openalex.org/W2030904529",
+        "https://openalex.org/W2946086442",
+        "https://openalex.org/W2970400306",
+        "https://openalex.org/W2143391265",
+        "https://openalex.org/W3215499059",
+        "https://openalex.org/W595069947",
+        "https://openalex.org/W4390692489",
+        "https://openalex.org/W3035027018",
+        "https://openalex.org/W102233799",
+        "https://openalex.org/W4246878832",
+        "https://openalex.org/W3101638898",
+        "https://openalex.org/W2098021339",
+        "https://openalex.org/W4389579297",
+        "https://openalex.org/W2966423804",
+        "https://openalex.org/W2038754641",
+        "https://openalex.org/W3008747961",
+        "https://openalex.org/W2938722449",
+        "https://openalex.org/W2250562110",
+        "https://openalex.org/W3009445829",
+        "https://openalex.org/W3083429640",
+        "https://openalex.org/W2149383868",
+        "https://openalex.org/W2913104663",
+        "https://openalex.org/W2774983917",
+        "https://openalex.org/W4377148520",
+        "https://openalex.org/W2952664794",
+        "https://openalex.org/W4283021907",
+        "https://openalex.org/W2739769945",
+        "https://openalex.org/W2772092152",
+        "https://openalex.org/W3089705984",
+        "https://openalex.org/W3198659451",
+        "https://openalex.org/W3117713602",
+        "https://openalex.org/W4283319304",
+        "https://openalex.org/W2251855586",
+        "https://openalex.org/W4372279188",
+        "https://openalex.org/W2787897065",
+        "https://openalex.org/W7215061962",
+        "https://openalex.org/W2997510314"
+      ],
+      "rerank": [
+        "https://openalex.org/W2963084773",
+        "https://openalex.org/W3101638898",
+        "https://openalex.org/W2774983917",
+        "https://openalex.org/W2798569372",
+        "https://openalex.org/W2787897065",
+        "https://openalex.org/W1869752048",
+        "https://openalex.org/W3117713602",
+        "https://openalex.org/W2964030814",
+        "https://openalex.org/W2963643701",
+        "https://openalex.org/W3035027018",
+        "https://openalex.org/W2952664794",
+        "https://openalex.org/W3021530909",
+        "https://openalex.org/W2938722449",
+        "https://openalex.org/W2098021339",
+        "https://openalex.org/W2985100785",
+        "https://openalex.org/W1996430422",
+        "https://openalex.org/W2982010485",
+        "https://openalex.org/W1535015163",
+        "https://openalex.org/W2573233116",
+        "https://openalex.org/W2798638375",
+        "https://openalex.org/W108437174",
+        "https://openalex.org/W2890017814",
+        "https://openalex.org/W7151883118",
+        "https://openalex.org/W2096204319",
+        "https://openalex.org/W400322755",
+        "https://openalex.org/W2966423804",
+        "https://openalex.org/W2739769945",
+        "https://openalex.org/W4364359919",
+        "https://openalex.org/W2289899728",
+        "https://openalex.org/W1986543644",
+        "https://openalex.org/W3187418919",
+        "https://openalex.org/W2030904529",
+        "https://openalex.org/W2101039319",
+        "https://openalex.org/W2565349465",
+        "https://openalex.org/W2143391265",
+        "https://openalex.org/W2946086442",
+        "https://openalex.org/W2970400306",
+        "https://openalex.org/W3215499059",
+        "https://openalex.org/W595069947",
+        "https://openalex.org/W4390692489",
+        "https://openalex.org/W102233799",
+        "https://openalex.org/W4246878832",
+        "https://openalex.org/W4389579297",
+        "https://openalex.org/W2038754641",
+        "https://openalex.org/W2250562110",
+        "https://openalex.org/W3008747961",
+        "https://openalex.org/W3083429640",
+        "https://openalex.org/W2149383868",
+        "https://openalex.org/W3009445829",
+        "https://openalex.org/W2997510314",
+        "https://openalex.org/W2913104663",
+        "https://openalex.org/W4377148520",
+        "https://openalex.org/W4283021907",
+        "https://openalex.org/W3089705984",
+        "https://openalex.org/W2772092152",
+        "https://openalex.org/W3198659451",
+        "https://openalex.org/W2251855586",
+        "https://openalex.org/W4283319304",
+        "https://openalex.org/W4372279188",
+        "https://openalex.org/W7215061962"
+      ]
+    },
+    "candidate_index": {
+      "https://openalex.org/W2985100785": {
+        "title": "Neural Graph Embedding Methods for Natural Language Processing",
+        "year": 2019
+      },
+      "https://openalex.org/W2982010485": {
+        "title": "On the surprising capacity of linear combinations of embeddings for natural language processing",
+        "year": 2019
+      },
+      "https://openalex.org/W2573233116": {
+        "title": "An Annotated Corpus and Method for Analysis of Ad-Hoc Structures Embedded in Text",
+        "year": 2016
+      },
+      "https://openalex.org/W7151883118": {
+        "title": "Structured prediction methods for semantic parsing",
+        "year": 2024
+      },
+      "https://openalex.org/W400322755": {
+        "title": "Text Harmonization Strategies for Phrase-Based Statistical Machine Translation",
+        "year": 2012
+      },
+      "https://openalex.org/W4364359919": {
+        "title": "EvoText: Enhancing Natural Language Generation Models via Self-Escalation Learning for Up-to-Date Knowledge and Improved Performance",
+        "year": 2023
+      },
+      "https://openalex.org/W3187418919": {
+        "title": "A Survey on Vision Transformer",
+        "year": 2022
+      },
+      "https://openalex.org/W2101039319": {
+        "title": "Learning Chinese language structures with multiple views",
+        "year": 2012
+      },
+      "https://openalex.org/W2946086442": {
+        "title": "Learning to Compose and Reason with Language Tree Structures for Visual Grounding",
+        "year": 2019
+      },
+      "https://openalex.org/W3215499059": {
+        "title": "Natural Language Processing Methods for Language Modeling",
+        "year": 2021
+      },
+      "https://openalex.org/W4390692489": {
+        "title": "Unifying Large Language Models and Knowledge Graphs: A Roadmap",
+        "year": 2024
+      },
+      "https://openalex.org/W4246878832": {
+        "title": "Proceedings of the Workshop on Cognitive Modeling and Computational Linguistics",
+        "year": 2021
+      },
+      "https://openalex.org/W4389579297": {
+        "title": "A General Model for Aggregating Annotations Across Simple, Complex, and Multi-Object Annotation Tasks",
+        "year": 2023
+      },
+      "https://openalex.org/W3008747961": {
+        "title": "The Roles of Language Models and Hierarchical Models in Neural Sequence-to-Sequence Prediction",
+        "year": 2019
+      },
+      "https://openalex.org/W3009445829": {
+        "title": "Machine learning methods for biomedical relation extraction",
+        "year": 2018
+      },
+      "https://openalex.org/W2913104663": {
+        "title": "Leveraging structure for learning representations of words, sentences and knowledge bases",
+        "year": 2018
+      },
+      "https://openalex.org/W4377148520": {
+        "title": "Nondeterministic Stacks in Neural Networks",
+        "year": 2023
+      },
+      "https://openalex.org/W4283021907": {
+        "title": "Contextualization and Generalization in Entity and Relation Extraction",
+        "year": 2022
+      },
+      "https://openalex.org/W2772092152": {
+        "title": "Exploring the correspondence between languages for machine translation",
+        "year": 2017
+      },
+      "https://openalex.org/W3198659451": {
+        "title": "Pre-trained models: Past, present and future",
+        "year": 2021
+      },
+      "https://openalex.org/W4283319304": {
+        "title": "Learning Multiscale Transformer Models for Sequence Generation",
+        "year": 2022
+      },
+      "https://openalex.org/W4372279188": {
+        "title": "Interpretable Sentence Representation with Variational Autoencoders and Attention",
+        "year": 2023
+      },
+      "https://openalex.org/W7215061962": {
+        "title": "RoPE at the End of Its Rope? Theory, Diagnosis, and Mitigation of Long-Context Failures",
+        "year": 2026
+      },
+      "https://openalex.org/W7151436055": {
+        "title": "Représentations de phrases interprétables avec autoencodeurs variationnels et attention",
+        "year": 2023
+      },
+      "https://openalex.org/W4398794865": {
+        "title": "A Comprehensive Survey of Accelerated Generation Techniques in Large Language Models",
+        "year": 2024
+      },
+      "https://openalex.org/W2947774492": {
+        "title": "Multi-relational Representation Learning and Knowledge Acquisition",
+        "year": 2019
+      },
+      "https://openalex.org/W4406678260": {
+        "title": "Text Classification Using Graph Convolutional Networks: A Comprehensive Survey",
+        "year": 2025
+      },
+      "https://openalex.org/W2914618291": {
+        "title": "Representation and contextualization for document understanding",
+        "year": 2019
+      },
+      "https://openalex.org/W4366091323": {
+        "title": "Deep learning modelling techniques: current progress, applications, advantages, and challenges",
+        "year": 2023
+      },
+      "https://openalex.org/W4408817594": {
+        "title": "SSAM: a span spatial attention model for recognizing named entities",
+        "year": 2025
+      },
+      "https://openalex.org/W3006462595": {
+        "title": "From lexical towards contextualized meaning representation",
+        "year": 2019
+      },
+      "https://openalex.org/W2902799757": {
+        "title": "Structural Kernels and Neural Network Models for Question Answering Systems",
+        "year": 2018
+      },
+      "https://openalex.org/W4300717059": {
+        "title": "Data augmentation for name entity recognition",
+        "year": 2022
+      },
+      "https://openalex.org/W2898764670": {
+        "title": "Proceedings of Workshop for NLP Open Source Software (NLP-OSS)",
+        "year": 2018
+      },
+      "https://openalex.org/W2594646542": {
+        "title": "Deep Sequential and Structural Neural Models of Compositionality",
+        "year": 2017
+      },
+      "https://openalex.org/W7151510318": {
+        "title": "Unsupervised Translation of Programming Languages",
+        "year": 2022
+      },
+      "https://openalex.org/W7213445618": {
+        "title": "Frequency-Aware Mixture-of-Experts Framework for Named Entity Recognition with Adaptive Feedback Mechanism",
+        "year": 2026
+      },
+      "https://openalex.org/W2895754873": {
+        "title": "Suprasegmental representations for the modeling of fundamental frequency in statistical parametric speech synthesis",
+        "year": 2018
+      },
+      "https://openalex.org/W7224757729": {
+        "title": "Understanding and improving language models through interpretable decompositions",
+        "year": 2026
+      },
+      "https://openalex.org/W4385573612": {
+        "title": "Proceedings of the 5th Workshop on Challenges and Applications of Automated Extraction of Socio-political Events from Text (CASE)",
+        "year": 2022
+      },
+      "https://openalex.org/W2963084773": {
+        "title": "Constituency Parsing with a Self-Attentive Encoder",
+        "year": 2018
+      },
+      "https://openalex.org/W3021530909": {
+        "title": "Rethinking Self-Attention: Towards Interpretability in Neural Parsing",
+        "year": 2020
+      },
+      "https://openalex.org/W1869752048": {
+        "title": "Grammar as a Foreign Language",
+        "year": 2015
+      },
+      "https://openalex.org/W2798638375": {
+        "title": "Linguistically-Informed Self-Attention for Semantic Role Labeling",
+        "year": 2018
+      },
+      "https://openalex.org/W2963643701": {
+        "title": "Multilingual Constituency Parsing with Self-Attention and Pre-Training",
+        "year": 2019
+      },
+      "https://openalex.org/W2964030814": {
+        "title": "A Minimal Span-Based Neural Constituency Parser",
+        "year": 2017
+      },
+      "https://openalex.org/W2890017814": {
+        "title": "Constituent Parsing as Sequence Labeling",
+        "year": 2018
+      },
+      "https://openalex.org/W2565349465": {
+        "title": "Discourse Parsing with Attention-based Hierarchical Neural Networks",
+        "year": 2016
+      },
+      "https://openalex.org/W2970400306": {
+        "title": "Hierarchically-Refined Label Attention Network for Sequence Labeling",
+        "year": 2019
+      },
+      "https://openalex.org/W2798569372": {
+        "title": "Straight to the Tree: Constituency Parsing with Neural Syntactic Distance",
+        "year": 2018
+      },
+      "https://openalex.org/W3035027018": {
+        "title": "Fast and Accurate Neural CRF Constituency Parsing",
+        "year": 2020
+      },
+      "https://openalex.org/W3101638898": {
+        "title": "Improving Constituency Parsing with Span Attention",
+        "year": 2020
+      },
+      "https://openalex.org/W2966423804": {
+        "title": "Self-attentive Biaffine Dependency Parsing",
+        "year": 2019
+      },
+      "https://openalex.org/W2938722449": {
+        "title": "Self-attention Based Model for Punctuation Prediction Using Word and Speech Embeddings",
+        "year": 2019
+      },
+      "https://openalex.org/W3083429640": {
+        "title": "Position-aware self-attention based neural sequence labeling",
+        "year": 2020
+      },
+      "https://openalex.org/W2774983917": {
+        "title": "Supervised Attention for Sequence-to-Sequence Constituency Parsing",
+        "year": 2017
+      },
+      "https://openalex.org/W2952664794": {
+        "title": "Sequence Labeling Parsing by Learning across Representations",
+        "year": 2019
+      },
+      "https://openalex.org/W2739769945": {
+        "title": "Multilingual Lexicalized Constituency Parsing with Word-Level Auxiliary Tasks",
+        "year": 2017
+      },
+      "https://openalex.org/W3089705984": {
+        "title": "Discontinuous Constituent Parsing as Sequence Labeling",
+        "year": 2020
+      },
+      "https://openalex.org/W3117713602": {
+        "title": "Heads-up! Unsupervised Constituency Parsing via Self-Attention Heads",
+        "year": 2020
+      },
+      "https://openalex.org/W2251855586": {
+        "title": "Feature Optimization for Constituent Parsing via Neural Networks",
+        "year": 2015
+      },
+      "https://openalex.org/W2787897065": {
+        "title": "Improving Sequence-to-Sequence Constituency Parsing",
+        "year": 2018
+      },
+      "https://openalex.org/W2997510314": {
+        "title": "Multiple Positional Self-Attention Network for Text Classification",
+        "year": 2020
+      },
+      "https://openalex.org/W2950971640": {
+        "title": "Straight to the Tree: Constituency Parsing with Neural Syntactic Distance",
+        "year": 2018
+      },
+      "https://openalex.org/W2970349885": {
+        "title": "Unsupervised Labeled Parsing with Deep Inside-Outside Recursive Autoencoders",
+        "year": 2019
+      },
+      "https://openalex.org/W2970455584": {
+        "title": "Syntax-Enhanced Self-Attention-Based Semantic Role Labeling",
+        "year": 2019
+      },
+      "https://openalex.org/W2604164736": {
+        "title": "Deterministic Attention for Sequence-to-Sequence Constituent Parsing",
+        "year": 2017
+      },
+      "https://openalex.org/W3175168675": {
+        "title": "A Conditional Splitting Framework for Efficient Constituency Parsing",
+        "year": 2021
+      },
+      "https://openalex.org/W7133204418": {
+        "title": "Disambiguated Attention Embedding for Multi-Instance Partial-Label Learning",
+        "year": 2023
+      },
+      "https://openalex.org/W3035400757": {
+        "title": "Efficient Constituency Parsing by Pointing",
+        "year": 2020
+      },
+      "https://openalex.org/W4389519264": {
+        "title": "Bidirectional Masked Self-attention and N-gram Span Attention for Constituency Parsing",
+        "year": 2023
+      },
+      "https://openalex.org/W3099452289": {
+        "title": "Cascaded Semantic and Positional Self-Attention Network for Document Classification",
+        "year": 2020
+      },
+      "https://openalex.org/W2964854771": {
+        "title": "A Rich-label Constituency Tree for Constituency Parsing",
+        "year": 2019
+      },
+      "https://openalex.org/W3093445938": {
+        "title": "An Empirical Study for Vietnamese Constituency Parsing with Pre-training",
+        "year": 2021
+      },
+      "https://openalex.org/W4352976750": {
+        "title": "Discontinuous Combinatory Constituency Parsing",
+        "year": 2023
+      },
+      "https://openalex.org/W3004774498": {
+        "title": "Deep learning techniques applied to constituency parsing of German",
+        "year": 2020
+      },
+      "https://openalex.org/W2250242653": {
+        "title": "Self-training a Constituency Parser using n-gram Trees",
+        "year": 2014
+      },
+      "https://openalex.org/W4387355873": {
+        "title": "Ensemble Distillation for Unsupervised Constituency Parsing",
+        "year": 2024
+      },
+      "https://openalex.org/W3200882621": {
+        "title": "Entity-Aware Biaffine Attention for Constituent Parsing",
+        "year": 2021
+      },
+      "https://openalex.org/W2188186406": {
+        "title": "Treebank Conversion based Self-training Strategy for Parsing",
+        "year": null
+      },
+      "https://openalex.org/W1996430422": {
+        "title": "Feature-rich part-of-speech tagging with a cyclic dependency network",
+        "year": 2003
+      },
+      "https://openalex.org/W1535015163": {
+        "title": "A Maximum-Entropy-Inspired Parser",
+        "year": 1999
+      },
+      "https://openalex.org/W2096204319": {
+        "title": "The Penn Chinese TreeBank: Phrase structure annotation of a large corpus",
+        "year": 2005
+      },
+      "https://openalex.org/W108437174": {
+        "title": "Improved Inference for Unlexicalized Parsing",
+        "year": 2007
+      },
+      "https://openalex.org/W2289899728": {
+        "title": "Recurrent Neural Network Grammars",
+        "year": 2016
+      },
+      "https://openalex.org/W1986543644": {
+        "title": "Three generative, lexicalised models for statistical parsing",
+        "year": 1997
+      },
+      "https://openalex.org/W2030904529": {
+        "title": "Incrementality in deterministic dependency parsing",
+        "year": 2004
+      },
+      "https://openalex.org/W2143391265": {
+        "title": "Overview of the SPMRL 2013 Shared Task: A Cross-Framework Evaluation of Parsing Morphologically Rich Languages",
+        "year": 2013
+      },
+      "https://openalex.org/W595069947": {
+        "title": "A Dynamic Oracle for Arc-Eager Dependency Parsing",
+        "year": 2012
+      },
+      "https://openalex.org/W102233799": {
+        "title": "Syntax Annotation for the GENIA Corpus",
+        "year": 2005
+      },
+      "https://openalex.org/W2098021339": {
+        "title": "(Re)ranking Meets Morphosyntax: State-of-the-art Results from the SPMRL 2013 Shared Task",
+        "year": 2013
+      },
+      "https://openalex.org/W2038754641": {
+        "title": "A classifier-based parser with linear run-time complexity",
+        "year": 2005
+      },
+      "https://openalex.org/W2250562110": {
+        "title": "Less Grammar, More Features",
+        "year": 2014
+      },
+      "https://openalex.org/W2149383868": {
+        "title": "Introducing the IMS-Wroclaw-Szeged-CIS entry at the SPMRL 2014 Shared Task: Reranking and Morpho-syntax meet Unlabeled Data",
+        "year": 2014
+      },
+      "https://openalex.org/W2563495010": {
+        "title": "Span-Based Constituency Parsing with a Structure-Label System and Provably Optimal Dynamic Oracles",
+        "year": 2016
+      },
+      "https://openalex.org/W2251703179": {
+        "title": "How much do word embeddings encode about syntax?",
+        "year": 2014
+      },
+      "https://openalex.org/W2251923740": {
+        "title": "Joint POS Tagging and Transition-based Constituent Parsing in Chinese with Non-local Features",
+        "year": 2014
+      },
+      "https://openalex.org/W2559842427": {
+        "title": "Shift-Reduce Constituent Parsing with Neural Lookahead Features",
+        "year": 2017
+      },
+      "https://openalex.org/W3104536200": {
+        "title": "Span-based discontinuous constituency parsing: a family of exact chart-based algorithms with time complexities from O(nˆ6) down to O(nˆ3)",
+        "year": 2020
+      },
+      "https://openalex.org/W2798921788": {
+        "title": "An Empirical Study of Building a Strong Baseline for Constituency Parsing",
+        "year": 2018
+      },
+      "https://openalex.org/W3016557243": {
+        "title": "Unsupervised Discourse Constituency Parsing Using Viterbi EM",
+        "year": 2020
+      }
+    },
+    "ordering": "All criteria supported, then incomplete evidence, then explicit counter-evidence; similarity breaks ties",
+    "joint_gap": true,
+    "model": "gemini-3.6-flash"
+  },
+  "events": [
+    {
+      "at": "2026-11-25T14:07:48.228176+00:00",
+      "step": "retrieve",
+      "message": "40 candidates from keyword search",
+      "query": "m discusses improvements constituency parsing performance by applying partition strategy content embedding positional embedding",
+      "cache_hit": false
+    },
+    {
+      "at": "2026-11-25T14:07:51.157755+00:00",
+      "step": "retrieve",
+      "message": "40 candidates from semantic search",
+      "query": "I'm looking for a paper that discusses improvements in constituency parsing performance by applying a partition strategy for content embedding and positional embedding within self-attention and label attention layers.",
+      "cache_hit": false
+    },
+    {
+      "at": "2026-11-25T14:07:55.589991+00:00",
+      "step": "rank",
+      "message": "Ranked 60 unique candidates",
+      "ranker": "cross-encoder + RRF"
+    },
+    {
+      "at": "2026-11-25T14:07:57.984444+00:00",
+      "step": "citations",
+      "message": "Explored 15 cited works; metadata constraints remain enforced"
+    },
+    {
+      "at": "2026-11-25T14:08:02.048179+00:00",
+      "step": "rank",
+      "message": "Ranked 60 unique candidates",
+      "ranker": "cross-encoder + RRF"
+    },
+    {
+      "at": "2026-11-25T14:08:02.060702+00:00",
+      "step": "evidence",
+      "message": "Assessed top 15 papers; 1 criteria have no supported match",
+      "evidence_basis": "title and abstract only"
+    },
+    {
+      "at": "2026-11-25T14:08:05.220718+00:00",
+      "step": "repair",
+      "message": "Targeted a criterion with no supported match: I'm looking for a paper that discusses improvements in constituency parsing performance by applying a partition strategy for content embedding and positional embedding within self-attention and label attention layers.",
+      "query": "m discusses improvements constituency parsing performance by applying partition strategy content embedding positional embedding I'm looking for a paper that discusses improvements in constituency parsing performance by applying a partition strategy for content embedding and positional embedding with",
+      "candidates": 40
+    },
+    {
+      "at": "2026-11-25T14:08:09.149440+00:00",
+      "step": "rank",
+      "message": "Ranked 60 unique candidates",
+      "ranker": "cross-encoder + RRF"
+    },
+    {
+      "at": "2026-11-25T14:08:09.164989+00:00",
+      "step": "evidence",
+      "message": "Assessed top 15 papers; 1 criteria have no supported match",
+      "evidence_basis": "title and abstract only"
+    },
+    {
+      "at": "2026-11-25T14:08:09.206679+00:00",
+      "step": "complete",
+      "message": "Returned 30 papers with provenance and exportable evidence"
+    },
+    {
+      "at": "2026-11-25T14:08:09.219205+00:00",
+      "step": "timing",
+      "message": "Search finished",
+      "elapsed_seconds": 23.81
+    }
+  ],
+  "feedback": {},
+  "task": {
+    "id": "litsearch-48",
+    "question": "I'm looking for a paper that discusses improvements in constituency parsing performance by applying a partition strategy for content embedding and positional embedding within self-attention and label attention layers.",
+    "gold_titles": [
+      "Constituency Parsing with a Self-Attentive Encoder"
+    ],
+    "gold_corpusids": [
+      19206893
+    ],
+    "query_set": "inline_acl"
+  },
+  "end_to_end_seconds": 24.14
+}

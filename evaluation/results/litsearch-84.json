@@ -1,0 +1,3087 @@
+{
+  "id": "8b1265dc-1d2f-4581-bdb3-46b637d0d27d",
+  "created_at": "2026-11-25T14:03:03.839940+00:00",
+  "status": "complete",
+  "request": {
+    "plan": {
+      "question": "Where can I find a multilingual corpus that includes reviews on DVDs, music, and books for the purposes of cross-language sentiment classification research?",
+      "queries": [
+        "multilingual sentiment classification corpus DVD music books",
+        "cross language sentiment classification review dataset DVD music books",
+        "multilingual review corpus cross lingual sentiment analysis"
+      ],
+      "criteria": [
+        {
+          "id": "c1",
+          "text": "Multilingual corpus"
+        },
+        {
+          "id": "c2",
+          "text": "Includes reviews on DVDs, music, and books"
+        },
+        {
+          "id": "c3",
+          "text": "Targeted for cross-language sentiment classification research"
+        }
+      ],
+      "year_from": null,
+      "year_to": null,
+      "open_access": false,
+      "mode": "diligent",
+      "planner": "gemini-3.6-flash"
+    },
+    "rerank": true,
+    "repair": true
+  },
+  "result": {
+    "papers": [
+      {
+        "id": "https://openalex.org/W4393744738",
+        "title": "Webis Cross-Lingual Sentiment Dataset 2010 (Webis-CLS-10)",
+        "doi": "https://doi.org/10.5281/zenodo.3251671",
+        "year": 2010,
+        "abstract": "The Cross-Lingual Sentiment (CLS) dataset comprises about 800.000 Amazon product reviews in the four languages English, German, French, and Japanese. For more information on the construction of the dataset see (Prettenhofer and Stein, 2010) or the enclosed readme files. If you have a question after reading the paper and the readme files, please contact Peter Prettenhofer. We provide the dataset in two formats: 1) a processed format which corresponds to the preprocessing (tokenization, etc.) in (Prettenhofer and Stein, 2010); 2) an unprocessed format which contains the full text of the reviews (e.g., for machine translation or feature engineering). The dataset was first used by (Prettenhofer and Stein, 2010). It consists of Amazon product reviews for three product categories---books, dvds and music---written in four different languages: English, German, French, and Japanese. The German, French, and Japanese reviews were crawled from Amazon in November, 2009. The English reviews were sampled from the Multi-Domain Sentiment Dataset (Blitzer et. al., 2007). For each language-category pair there exist three sets of training documents, test documents, and unlabeled documents. The training and test sets comprise 2.000 documents each, whereas the number of unlabeled documents varies from 9.000 - 170.000.",
+        "authors": [
+          "Peter Prettenhofer",
+          "Benno Stein"
+        ],
+        "venue": "Figshare",
+        "citations": 4,
+        "open_access": true,
+        "url": "https://doi.org/10.5281/zenodo.3251671",
+        "pdf_url": null,
+        "references": [],
+        "retracted": false,
+        "provenance": [
+          "semantic: Where can I find a multilingual corpus that includes reviews on DVDs, music, and books for the purposes of cross-language sentiment classification research?",
+          "semantic: cross language sentiment classification review dataset DVD music books",
+          "semantic: multilingual review corpus cross lingual sentiment analysis"
+        ],
+        "criteria": [
+          {
+            "criterion_id": "c1",
+            "status": "supported",
+            "quote": "written in four different languages: English, German, French, and Japanese.",
+            "quote_verified": true,
+            "reason": "The dataset contains product reviews in four languages."
+          },
+          {
+            "criterion_id": "c2",
+            "status": "supported",
+            "quote": "three product categories---books, dvds and music",
+            "quote_verified": true,
+            "reason": " The dataset explicitly includes product reviews for books, dvds, and music."
+          },
+          {
+            "criterion_id": "c3",
+            "status": "supported",
+            "quote": "The Cross-Lingual Sentiment (CLS) dataset",
+            "quote_verified": true,
+            "reason": "The dataset is designed as a cross-lingual sentiment dataset."
+          }
+        ],
+        "rrf": 0.038219211129427846,
+        "aliases": [
+          "https://openalex.org/W4393744738"
+        ],
+        "neural_score": 1.20776,
+        "score": 0.74485
+      },
+      {
+        "id": "https://openalex.org/W3092547334",
+        "title": "The Multilingual Amazon Reviews Corpus",
+        "doi": "https://doi.org/10.18653/v1/2020.emnlp-main.369",
+        "year": 2020,
+        "abstract": "We present the Multilingual Amazon Reviews Corpus (MARC), a large-scale collection of Amazon reviews for multilingual text classification. The corpus contains reviews in English, Japanese, German, French, Spanish, and Chinese, which were collected between 2015 and 2019. Each record in the dataset contains the review text, the review title, the star rating, an anonymized reviewer ID, an anonymized product ID, and the coarse-grained product category (e.g., ‘books’, ‘appliances’, etc.) The corpus is balanced across the 5 possible star ratings, so each rating constitutes 20% of the reviews in each language. For each language, there are 200,000, 5,000, and 5,000 reviews in the training, development, and test sets, respectively. We report baseline results for supervised text classification and zero-shot cross-lingual transfer learning by fine-tuning a multilingual BERT model on reviews data. We propose the use of mean absolute error (MAE) instead of classification accuracy for this task, since MAE accounts for the ordinal nature of the ratings.",
+        "authors": [
+          "Phillip Keung",
+          "Yichao Lu",
+          "György Szarvas",
+          "Noah A. Smith"
+        ],
+        "venue": "Conference on Empirical Methods in Natural Language Processing (EMNLP)",
+        "citations": 331,
+        "open_access": true,
+        "url": "https://doi.org/10.18653/v1/2020.emnlp-main.369",
+        "pdf_url": "https://www.aclweb.org/anthology/2020.emnlp-main.369.pdf",
+        "references": [
+          "https://openalex.org/W40549020",
+          "https://openalex.org/W1489959797",
+          "https://openalex.org/W1539773714",
+          "https://openalex.org/W1840435438",
+          "https://openalex.org/W2113459411",
+          "https://openalex.org/W2150102617",
+          "https://openalex.org/W2171068337",
+          "https://openalex.org/W2470673105",
+          "https://openalex.org/W2493916176",
+          "https://openalex.org/W2803828341",
+          "https://openalex.org/W2891555348",
+          "https://openalex.org/W2905749056",
+          "https://openalex.org/W2962778428",
+          "https://openalex.org/W2963341956",
+          "https://openalex.org/W2970854433",
+          "https://openalex.org/W2971196067",
+          "https://openalex.org/W2972297975",
+          "https://openalex.org/W2983040767"
+        ],
+        "retracted": false,
+        "provenance": [
+          "semantic: Where can I find a multilingual corpus that includes reviews on DVDs, music, and books for the purposes of cross-language sentiment classification research?",
+          "keyword: multilingual review corpus cross lingual sentiment analysis"
+        ],
+        "criteria": [
+          {
+            "criterion_id": "c1",
+            "status": "supported",
+            "quote": "The corpus contains reviews in English, Japanese, German, French, Spanish, and Chinese, which were collected between 2015 and 2019.",
+            "quote_verified": true,
+            "reason": "The corpus includes text reviews in six different languages."
+          },
+          {
+            "criterion_id": "c2",
+            "status": "uncertain",
+            "quote": "",
+            "quote_verified": false,
+            "reason": "Insufficient source evidence; full-paper verification may be needed."
+          },
+          {
+            "criterion_id": "c3",
+            "status": "uncertain",
+            "quote": "",
+            "quote_verified": false,
+            "reason": "Insufficient source evidence; full-paper verification may be needed."
+          }
+        ],
+        "rrf": 0.032266458495966696,
+        "aliases": [
+          "https://openalex.org/W3092547334"
+        ],
+        "neural_score": 4.29965,
+        "score": 0.89813
+      },
+      {
+        "id": "https://openalex.org/W1579082069",
+        "title": "The USAGE review corpus for fine grained multi lingual opinion analysis",
+        "doi": "https://doi.org/10.63317/2np9k72zhxvj",
+        "year": 2014,
+        "abstract": "Opinion mining has received wide attention in recent years.Models for this task are typically trained or evaluated with a manually annotated dataset.However, fine-grained annotation of sentiments including information about aspects and their evaluation is very labour-intensive.The data available so far is limited.Contributing to this situation, this paper describes the Bielefeld University Sentiment Analysis Corpus for German and English (USAGE), which we offer freely to the community and which contains the annotation of product reviews from Amazon with both aspects and subjective phrases.It provides information on segments in the text which denote an aspect or a subjective evaluative phrase which refers to the aspect.Relations and coreferences are explicitly annotated.This dataset contains 622 English and 611 German reviews, allowing to investigate how to port sentiment analysis systems across languages and domains.We describe the methodology how the corpus was created and provide statistics including inter-annotator agreement.We further provide figures for a baseline system and results for German and English as well as in a cross-domain setting.The results are encouraging in that they show that aspects and phrases can be extracted robustly without the need of tuning to a particular type of products.",
+        "authors": [
+          "Roman Klinger",
+          "Philipp Cimiano"
+        ],
+        "venue": "Language Resources and Evaluation Conference (LREC)",
+        "citations": 52,
+        "open_access": true,
+        "url": "https://doi.org/10.63317/2np9k72zhxvj",
+        "pdf_url": "http://www.lrec-conf.org/proceedings/lrec2014/pdf/85_Paper.pdf",
+        "references": [
+          "https://openalex.org/W21547495",
+          "https://openalex.org/W205145189",
+          "https://openalex.org/W1536516100",
+          "https://openalex.org/W1565863475",
+          "https://openalex.org/W1964613733",
+          "https://openalex.org/W1981492645",
+          "https://openalex.org/W2014902591",
+          "https://openalex.org/W2053154970",
+          "https://openalex.org/W2098018055",
+          "https://openalex.org/W2098087264",
+          "https://openalex.org/W2106477703",
+          "https://openalex.org/W2114524997",
+          "https://openalex.org/W2130262843",
+          "https://openalex.org/W2138854216",
+          "https://openalex.org/W2145208800",
+          "https://openalex.org/W2146111747",
+          "https://openalex.org/W2154970197",
+          "https://openalex.org/W2155120841",
+          "https://openalex.org/W2158188757",
+          "https://openalex.org/W2159114518",
+          "https://openalex.org/W2160660844",
+          "https://openalex.org/W2189271176",
+          "https://openalex.org/W2404032054",
+          "https://openalex.org/W3146306708"
+        ],
+        "retracted": false,
+        "provenance": [
+          "semantic: Where can I find a multilingual corpus that includes reviews on DVDs, music, and books for the purposes of cross-language sentiment classification research?",
+          "keyword: multilingual review corpus cross lingual sentiment analysis",
+          "semantic: multilingual review corpus cross lingual sentiment analysis"
+        ],
+        "criteria": [
+          {
+            "criterion_id": "c1",
+            "status": "supported",
+            "quote": "This dataset contains 622 English and 611 German reviews",
+            "quote_verified": true,
+            "reason": "The dataset includes reviews in English and German."
+          },
+          {
+            "criterion_id": "c2",
+            "status": "uncertain",
+            "quote": "",
+            "quote_verified": false,
+            "reason": "Insufficient source evidence; full-paper verification may be needed."
+          },
+          {
+            "criterion_id": "c3",
+            "status": "uncertain",
+            "quote": "",
+            "quote_verified": false,
+            "reason": "Insufficient source evidence; full-paper verification may be needed."
+          }
+        ],
+        "rrf": 0.04060606060606061,
+        "aliases": [
+          "https://openalex.org/W1579082069"
+        ],
+        "neural_score": 1.81861,
+        "score": 0.8253
+      },
+      {
+        "id": "https://openalex.org/W3159768226",
+        "title": "MultiEmo: Multilingual, Multilevel, Multidomain Sentiment Analysis Corpus of Consumer Reviews",
+        "doi": "https://doi.org/10.1007/978-3-030-77964-1_24",
+        "year": 2021,
+        "abstract": "",
+        "authors": [
+          "Jan Kocoń",
+          "Piotr Miłkowski",
+          "Kamil Kanclerz"
+        ],
+        "venue": "Lecture notes in computer science",
+        "citations": 29,
+        "open_access": false,
+        "url": "https://doi.org/10.1007/978-3-030-77964-1_24",
+        "pdf_url": null,
+        "references": [
+          "https://openalex.org/W22861983",
+          "https://openalex.org/W79139011",
+          "https://openalex.org/W2088394786",
+          "https://openalex.org/W2465978385",
+          "https://openalex.org/W2598013184",
+          "https://openalex.org/W2743297262",
+          "https://openalex.org/W2768787743",
+          "https://openalex.org/W2798812533",
+          "https://openalex.org/W2806120502",
+          "https://openalex.org/W2905749056",
+          "https://openalex.org/W2910939610",
+          "https://openalex.org/W2923014074",
+          "https://openalex.org/W2963341956",
+          "https://openalex.org/W2965373594",
+          "https://openalex.org/W2970193165",
+          "https://openalex.org/W2972369013",
+          "https://openalex.org/W2982153178",
+          "https://openalex.org/W2983040767",
+          "https://openalex.org/W2985092403",
+          "https://openalex.org/W2990812481",
+          "https://openalex.org/W3021457404",
+          "https://openalex.org/W3091076761",
+          "https://openalex.org/W3102483398",
+          "https://openalex.org/W3159637741",
+          "https://openalex.org/W4297971002",
+          "https://openalex.org/W6600566992",
+          "https://openalex.org/W6602758235"
+        ],
+        "retracted": false,
+        "provenance": [
+          "semantic: Where can I find a multilingual corpus that includes reviews on DVDs, music, and books for the purposes of cross-language sentiment classification research?",
+          "semantic: cross language sentiment classification review dataset DVD music books",
+          "keyword: multilingual review corpus cross lingual sentiment analysis",
+          "semantic: multilingual review corpus cross lingual sentiment analysis"
+        ],
+        "criteria": [
+          {
+            "criterion_id": "c1",
+            "status": "supported",
+            "quote": "MultiEmo: Multilingual, Multilevel, Multidomain Sentiment Analysis Corpus of Consumer Reviews",
+            "quote_verified": true,
+            "reason": "The paper title identifies the corpus as multilingual."
+          },
+          {
+            "criterion_id": "c2",
+            "status": "uncertain",
+            "quote": "",
+            "quote_verified": false,
+            "reason": "Insufficient source evidence; full-paper verification may be needed."
+          },
+          {
+            "criterion_id": "c3",
+            "status": "uncertain",
+            "quote": "",
+            "quote_verified": false,
+            "reason": "Insufficient source evidence; full-paper verification may be needed."
+          }
+        ],
+        "rrf": 0.059289133713686146,
+        "aliases": [
+          "https://openalex.org/W3159768226"
+        ],
+        "neural_score": 1.00176,
+        "score": 0.78512
+      },
+      {
+        "id": "https://openalex.org/W7133209366",
+        "title": "Massively Multilingual Corpus of Sentiment Datasets and Multi-faceted Sentiment Classification Benchmark",
+        "doi": "https://doi.org/10.52202/075280-1674",
+        "year": 2023,
+        "abstract": "Despite impressive advancements in multilingual corpora collection and model training, developing large-scale deployments of multilingual models still presents a significant challenge. This is particularly true for language tasks that are culture-dependent. One such example is the area of multilingual sentiment analysis, where affective markers can be subtle and deeply ensconced in culture. This work presents the most extensive open massively multilingual corpus of datasets for training sentiment models. The corpus consists of 79 manually selected datasets from over 350 datasets reported in the scientific literature based on strict quality criteria. The corpus covers 27 languages representing 6 language families. Datasets can be queried using several linguistic and functional features. In addition, we present a multi-faceted sentiment classification benchmark summarizing hundreds of experiments conducted on different base models, training objectives, dataset collections, and fine-tuning strategies.",
+        "authors": [
+          "Lukasz Augustyniak",
+          "Szymon Woźniak",
+          "Marcin Gruza",
+          "Piotr Gramacki",
+          "Krzysztof Rajda",
+          "Mikołaj Morzy",
+          "Tomasz Jan Kajdanowicz"
+        ],
+        "venue": "neural information processing systems",
+        "citations": 31,
+        "open_access": true,
+        "url": "https://doi.org/10.52202/075280-1674",
+        "pdf_url": null,
+        "references": [
+          "https://openalex.org/W1486282451",
+          "https://openalex.org/W1546425147",
+          "https://openalex.org/W1614298861",
+          "https://openalex.org/W1987425720",
+          "https://openalex.org/W2001882994",
+          "https://openalex.org/W2099813784",
+          "https://openalex.org/W2126725946",
+          "https://openalex.org/W2138923868",
+          "https://openalex.org/W2144578941",
+          "https://openalex.org/W2161205248",
+          "https://openalex.org/W2171082019",
+          "https://openalex.org/W2250594687",
+          "https://openalex.org/W2250805461",
+          "https://openalex.org/W2278629362",
+          "https://openalex.org/W2295710275",
+          "https://openalex.org/W2492922441",
+          "https://openalex.org/W2572474373",
+          "https://openalex.org/W2576348969",
+          "https://openalex.org/W2625475744",
+          "https://openalex.org/W2735929801",
+          "https://openalex.org/W2741388816",
+          "https://openalex.org/W2742155240",
+          "https://openalex.org/W2769280657",
+          "https://openalex.org/W2770803436",
+          "https://openalex.org/W2784713665",
+          "https://openalex.org/W2790200013",
+          "https://openalex.org/W2806659161",
+          "https://openalex.org/W2807462012",
+          "https://openalex.org/W2808423603",
+          "https://openalex.org/W2850661852",
+          "https://openalex.org/W2880029892",
+          "https://openalex.org/W2891555348",
+          "https://openalex.org/W2905749056",
+          "https://openalex.org/W2915429162",
+          "https://openalex.org/W2916132663",
+          "https://openalex.org/W2916741972",
+          "https://openalex.org/W2937269099",
+          "https://openalex.org/W2945995044",
+          "https://openalex.org/W2948433920",
+          "https://openalex.org/W2949071819"
+        ],
+        "retracted": false,
+        "provenance": [
+          "semantic: Where can I find a multilingual corpus that includes reviews on DVDs, music, and books for the purposes of cross-language sentiment classification research?",
+          "keyword: multilingual review corpus cross lingual sentiment analysis",
+          "semantic: multilingual review corpus cross lingual sentiment analysis"
+        ],
+        "criteria": [
+          {
+            "criterion_id": "c1",
+            "status": "supported",
+            "quote": "The corpus covers 27 languages representing 6 language families.",
+            "quote_verified": true,
+            "reason": "The corpus covers 27 different languages."
+          },
+          {
+            "criterion_id": "c2",
+            "status": "uncertain",
+            "quote": "",
+            "quote_verified": false,
+            "reason": "Insufficient source evidence; full-paper verification may be needed."
+          },
+          {
+            "criterion_id": "c3",
+            "status": "uncertain",
+            "quote": "",
+            "quote_verified": false,
+            "reason": "Insufficient source evidence; full-paper verification may be needed."
+          }
+        ],
+        "rrf": 0.03588309397833207,
+        "aliases": [
+          "https://openalex.org/W7133209366"
+        ],
+        "neural_score": 1.51069,
+        "score": 0.77637
+      },
+      {
+        "id": "https://openalex.org/W2765177548",
+        "title": "NoReC: The Norwegian Review Corpus",
+        "doi": "https://doi.org/10.63317/2mfhrz244a29",
+        "year": 2018,
+        "abstract": "This paper presents the Norwegian Review Corpus (NoReC), created for training and evaluating models for document-level sentiment analysis. The full-text reviews have been collected from major Norwegian news sources and cover a range of different domains, including literature, movies, video games, restaurants, music and theater, in addition to product reviews across a range of categories. Each review is labeled with a manually assigned score of 1-6, as provided by the rating of the original author. This first release of the corpus comprises more than 35,000 reviews. It is distributed using the CoNLL-U format, pre-processed using UDPipe, along with a rich set of metadata. The work reported in this paper forms part of the SANT initiative (Sentiment Analysis for Norwegian Text), a project seeking to provide resources and tools for sentiment analysis and opinion mining for Norwegian. As resources for sentiment analysis have so far been unavailable for Norwegian, NoReC represents a highly valuable and sought-after addition to Norwegian language technology.",
+        "authors": [
+          "Erik Velldal",
+          "Lilja Øvrelid",
+          "Eivind Alexander Bergem",
+          "Cathrine Stadsnes",
+          "Samia Touileb",
+          "Fredrik Jørgensen"
+        ],
+        "venue": "Language Resources and Evaluation Conference (LREC)",
+        "citations": 51,
+        "open_access": true,
+        "url": "https://doi.org/10.63317/2mfhrz244a29",
+        "pdf_url": "https://arxiv.org/pdf/1710.05370",
+        "references": [
+          "https://openalex.org/W2074975950",
+          "https://openalex.org/W2113459411",
+          "https://openalex.org/W2114524997",
+          "https://openalex.org/W2138923868",
+          "https://openalex.org/W2143747826",
+          "https://openalex.org/W2160409620",
+          "https://openalex.org/W2163455955",
+          "https://openalex.org/W2169200297",
+          "https://openalex.org/W2239389665",
+          "https://openalex.org/W2250738963",
+          "https://openalex.org/W2251939518",
+          "https://openalex.org/W2574640638",
+          "https://openalex.org/W2576044174",
+          "https://openalex.org/W2579343286",
+          "https://openalex.org/W2734062961",
+          "https://openalex.org/W2740840489",
+          "https://openalex.org/W2741029840"
+        ],
+        "retracted": false,
+        "provenance": [
+          "keyword: multilingual sentiment classification corpus DVD music books",
+          "semantic: Where can I find a multilingual corpus that includes reviews on DVDs, music, and books for the purposes of cross-language sentiment classification research?"
+        ],
+        "criteria": [
+          {
+            "criterion_id": "c1",
+            "status": "uncertain",
+            "quote": "",
+            "quote_verified": false,
+            "reason": "Insufficient source evidence; full-paper verification may be needed."
+          },
+          {
+            "criterion_id": "c2",
+            "status": "uncertain",
+            "quote": "",
+            "quote_verified": false,
+            "reason": "Insufficient source evidence; full-paper verification may be needed."
+          },
+          {
+            "criterion_id": "c3",
+            "status": "uncertain",
+            "quote": "",
+            "quote_verified": false,
+            "reason": "Insufficient source evidence; full-paper verification may be needed."
+          }
+        ],
+        "rrf": 0.027526395173453996,
+        "aliases": [
+          "https://openalex.org/W2765177548"
+        ],
+        "neural_score": 1.00561,
+        "score": 0.67858
+      },
+      {
+        "id": "https://openalex.org/W3045092025",
+        "title": "PolEmo 1.0 + MultiEmo-Test 1.0 Multilingual Sentiment Analysis Dataset for KES2020",
+        "doi": null,
+        "year": 2020,
+        "abstract": "PolEmo 1.0 + MultiEmo-Test 1.0: Corpus of Multi-Domain Consumer Reviews. Test dataset from PolEmo 1.0 was translated to eight different languages: Dutch, English, French, German, Italian, Portuguese, Russian and Spanish.",
+        "authors": [
+          "Jan Kocoń",
+          "Kamil Kanclerz",
+          "Piotr Miłkowski",
+          "Bartosz Bojanowski",
+          "Monika Zaśko-Zielińska"
+        ],
+        "venue": null,
+        "citations": 0,
+        "open_access": false,
+        "url": "https://clarin-pl.eu/dspace/handle/11321/737",
+        "pdf_url": null,
+        "references": [],
+        "retracted": false,
+        "provenance": [
+          "semantic: Where can I find a multilingual corpus that includes reviews on DVDs, music, and books for the purposes of cross-language sentiment classification research?",
+          "semantic: cross language sentiment classification review dataset DVD music books"
+        ],
+        "criteria": [
+          {
+            "criterion_id": "c1",
+            "status": "supported",
+            "quote": "Multilingual Sentiment Analysis Dataset",
+            "quote_verified": true,
+            "reason": "The title explicitly states that it is a multilingual sentiment analysis dataset."
+          },
+          {
+            "criterion_id": "c2",
+            "status": "uncertain",
+            "quote": "",
+            "quote_verified": false,
+            "reason": "Insufficient source evidence; full-paper verification may be needed."
+          },
+          {
+            "criterion_id": "c3",
+            "status": "uncertain",
+            "quote": "",
+            "quote_verified": false,
+            "reason": "Insufficient source evidence; full-paper verification may be needed."
+          }
+        ],
+        "rrf": 0.025937081659973226,
+        "aliases": [
+          "https://openalex.org/W3045092025"
+        ],
+        "neural_score": 0.47291,
+        "score": 0.58035
+      },
+      {
+        "id": "https://openalex.org/W4299874988",
+        "title": "Multilingual Sentiment Analysis Using Latent Semantic Indexing and Machine Learning.",
+        "doi": null,
+        "year": 2016,
+        "abstract": "We present a novel approach to predicting the sentiment of documents in multiple languages, without translation.The only prerequisites are an (unannotated) multilingual parallel corpus and a list of words, each characterized by normative emotional ratings, in just one language.An example of such a list is the Affective Norms for English Words (ANEW) dataset (Bradley and Lang, 1999).Latent Semantic Indexing (LSI) converts the multilingual corpus into a multilingual 'concept space'.New documents are then projected into that space, allowing cross-lingual semantic comparisons between the documents without the need for translation.Meanwhile, the single language affective-norms wordlist is used to determine sentiment polarity for a set of documents in its language.Those documents, with known sentiment, then train a machine learning algorithm which can, because of the multilingual nature of the document projections, be used to predict sentiment in all the other languages.We evaluate the accuracy of this approach, and also quantify the extent to which topic and sentiment separately contribute to classification accuracy in a way which we believe sheds some light on whether topic and sentiment can be sensibly teased apart.",
+        "authors": [
+          "Brett W. Bader",
+          "W. Philip Kegelmeyer",
+          "Peter A. Chew"
+        ],
+        "venue": "OSTI OAI (U.S. Department of Energy Office of Scientific and Technical Information)",
+        "citations": 0,
+        "open_access": true,
+        "url": "https://www.osti.gov/biblio/1110620",
+        "pdf_url": "https://www.osti.gov/servlets/purl/1110620",
+        "references": [
+          "https://openalex.org/W22168010",
+          "https://openalex.org/W193780173",
+          "https://openalex.org/W631469306",
+          "https://openalex.org/W1588612820",
+          "https://openalex.org/W2058616517",
+          "https://openalex.org/W2072773380",
+          "https://openalex.org/W2108765529",
+          "https://openalex.org/W2117085409",
+          "https://openalex.org/W2142262074",
+          "https://openalex.org/W2147152072",
+          "https://openalex.org/W2152593801"
+        ],
+        "retracted": false,
+        "provenance": [
+          "semantic: Where can I find a multilingual corpus that includes reviews on DVDs, music, and books for the purposes of cross-language sentiment classification research?",
+          "semantic: multilingual review corpus cross lingual sentiment analysis"
+        ],
+        "criteria": [
+          {
+            "criterion_id": "c1",
+            "status": "supported",
+            "quote": "multilingual parallel corpus",
+            "quote_verified": true,
+            "reason": "The abstract explicitly mentions using a multilingual parallel corpus."
+          },
+          {
+            "criterion_id": "c2",
+            "status": "uncertain",
+            "quote": "",
+            "quote_verified": false,
+            "reason": "Insufficient source evidence; full-paper verification may be needed."
+          },
+          {
+            "criterion_id": "c3",
+            "status": "uncertain",
+            "quote": "",
+            "quote_verified": false,
+            "reason": "Insufficient source evidence; full-paper verification may be needed."
+          }
+        ],
+        "rrf": 0.021741699161054,
+        "aliases": [
+          "https://openalex.org/W4299874988"
+        ],
+        "neural_score": 0.04013,
+        "score": 0.48137
+      },
+      {
+        "id": "https://openalex.org/W2062589306",
+        "title": "OpinionIt: a text mining system for cross-lingual opinion analysis",
+        "doi": "https://doi.org/10.1145/1871437.1871589",
+        "year": 2010,
+        "abstract": "Opinion mining focuses on extracting customers' opinions from the reviews and predicting their sentiment orientation. Reviewers usually praise a product in some aspects and bemoan it in other aspects. With the business globalization, it is very important for enterprises to extract the opinions toward different aspects and find out cross-lingual/cross-culture difference in opinions. Cross-lingual opinion mining is a very challenging task as amounts of opinions are written in different languages, and not well structured. Since people usually use different words to describe the same aspect in the reviews, product-feature (PF) categorization becomes very critical in cross-lingual opinion mining. Manual cross-lingual PF categorization is time consuming, and practically infeasible for the massive amount of data written in different languages. In order to effectively find out cross-lingual difference in opinions, we present an aspect-oriented opinion mining method with Cross-lingual Latent Semantic Association (CLaSA). We first construct CLaSA model to learn the cross-lingual latent semantic association among all the PFs from multi-dimension semantic clues in the review corpus. Then we employ CLaSA model to categorize all the multilingual PFs into semantic aspects, and summarize cross-lingual difference in opinions towards different aspects. Experimental results show that our method achieves better performance compared with the existing approaches. With CLaSA model, our text mining system OpinionIt can effectively discover cross-lingual difference in opinions.",
+        "authors": [
+          "Honglei Guo",
+          "Huijia Zhu",
+          "Zhili Guo",
+          "Xiaoxun Zhang",
+          "Zhong Su"
+        ],
+        "venue": "ACM International Conference on Information and Knowledge Management (CIKM)",
+        "citations": 56,
+        "open_access": false,
+        "url": "https://doi.org/10.1145/1871437.1871589",
+        "pdf_url": null,
+        "references": [
+          "https://openalex.org/W3195375",
+          "https://openalex.org/W1570776870",
+          "https://openalex.org/W1581485226",
+          "https://openalex.org/W1593045043",
+          "https://openalex.org/W1880262756",
+          "https://openalex.org/W1971889796",
+          "https://openalex.org/W1998257453",
+          "https://openalex.org/W2033403400",
+          "https://openalex.org/W2042980227",
+          "https://openalex.org/W2096110600",
+          "https://openalex.org/W2106490775",
+          "https://openalex.org/W2112247328",
+          "https://openalex.org/W2112744748",
+          "https://openalex.org/W2114581066",
+          "https://openalex.org/W2127218421",
+          "https://openalex.org/W2129294185",
+          "https://openalex.org/W2134089414",
+          "https://openalex.org/W2137191349",
+          "https://openalex.org/W2141631351",
+          "https://openalex.org/W2154970197",
+          "https://openalex.org/W2157589241",
+          "https://openalex.org/W2160660844",
+          "https://openalex.org/W2163455955",
+          "https://openalex.org/W2166817967",
+          "https://openalex.org/W2774198585",
+          "https://openalex.org/W4233135949",
+          "https://openalex.org/W7099466857"
+        ],
+        "retracted": false,
+        "provenance": [
+          "semantic: Where can I find a multilingual corpus that includes reviews on DVDs, music, and books for the purposes of cross-language sentiment classification research?",
+          "semantic: multilingual review corpus cross lingual sentiment analysis"
+        ],
+        "criteria": [
+          {
+            "criterion_id": "c1",
+            "status": "uncertain",
+            "quote": "",
+            "quote_verified": false,
+            "reason": "Insufficient source evidence; full-paper verification may be needed."
+          },
+          {
+            "criterion_id": "c2",
+            "status": "uncertain",
+            "quote": "",
+            "quote_verified": false,
+            "reason": "Insufficient source evidence; full-paper verification may be needed."
+          },
+          {
+            "criterion_id": "c3",
+            "status": "uncertain",
+            "quote": "",
+            "quote_verified": false,
+            "reason": "Insufficient source evidence; full-paper verification may be needed."
+          }
+        ],
+        "rrf": 0.029850746268656716,
+        "aliases": [
+          "https://openalex.org/W2062589306"
+        ],
+        "neural_score": -0.38742,
+        "score": 0.42417
+      },
+      {
+        "id": "https://openalex.org/W2803828341",
+        "title": "A Corpus for Multilingual Document Classification in Eight Languages",
+        "doi": "https://doi.org/10.63317/52gbaquzq5uu",
+        "year": 2018,
+        "abstract": "Cross-lingual document classification aims at training a document classifier on resources in one language and transferring it to a different language without any additional resources.Several approaches have been proposed in the literature and the current best practice is to evaluate them on a subset of the Reuters Corpus Volume 2. However, this subset covers only few languages (English, German, French and Spanish) and almost all published works focus on the the transfer between English and German.In addition, we have observed that the class prior distributions differ significantly between the languages.We argue that this complicates the evaluation of the multilinguality.In this paper, we propose a new subset of the Reuters corpus with balanced class priors for eight languages.By adding Italian, Russian, Japanese and Chinese, we cover languages which are very different with respect to syntax, morphology, etc.We provide strong baselines for all language transfer directions using multilingual word and sentence embeddings respectively.Our goal is to offer a freely available framework to evaluate cross-lingual document classification, and we hope to foster by these means, research in this important area.",
+        "authors": [
+          "Holger Schwenk",
+          "Xian Li"
+        ],
+        "venue": "Language Resources and Evaluation Conference (LREC)",
+        "citations": 167,
+        "open_access": true,
+        "url": "https://doi.org/10.63317/52gbaquzq5uu",
+        "pdf_url": "http://www.lrec-conf.org/proceedings/lrec2018/pdf/658.pdf",
+        "references": [
+          "https://openalex.org/W22168010",
+          "https://openalex.org/W1832693441",
+          "https://openalex.org/W2150102617",
+          "https://openalex.org/W2251033195",
+          "https://openalex.org/W2270364989",
+          "https://openalex.org/W2460720124",
+          "https://openalex.org/W2572474373",
+          "https://openalex.org/W2607106700"
+        ],
+        "retracted": false,
+        "provenance": [
+          "semantic: Where can I find a multilingual corpus that includes reviews on DVDs, music, and books for the purposes of cross-language sentiment classification research?"
+        ],
+        "criteria": [
+          {
+            "criterion_id": "c1",
+            "status": "supported",
+            "quote": "A Corpus for Multilingual Document Classification in Eight Languages",
+            "quote_verified": true,
+            "reason": "The title explicitly mentions a corpus for multilingual document classification."
+          },
+          {
+            "criterion_id": "c2",
+            "status": "uncertain",
+            "quote": "",
+            "quote_verified": false,
+            "reason": "Insufficient source evidence; full-paper verification may be needed."
+          },
+          {
+            "criterion_id": "c3",
+            "status": "uncertain",
+            "quote": "",
+            "quote_verified": false,
+            "reason": "Insufficient source evidence; full-paper verification may be needed."
+          }
+        ],
+        "rrf": 0.015625,
+        "aliases": [
+          "https://openalex.org/W2803828341"
+        ],
+        "neural_score": -0.24666,
+        "score": 0.40362
+      },
+      {
+        "id": "https://openalex.org/W4310608682",
+        "title": "Distillation Language Adversarial Network for Cross-lingual Sentiment Analysis",
+        "doi": "https://doi.org/10.1109/ialp57159.2022.9961285",
+        "year": 2022,
+        "abstract": "Cross-lingual sentiment analysis aims at tackling the lack of annotated corpus of variant low-resource languages by training a common classifier, to transfer the knowledge learned from the source language to target languages. Existing large-scale pre-trained language models have got remarkable improvements in cross-lingual sentiment analysis. However, these models still suffer from lack of annotated corpus for low-resource languages. To address such problems, we propose an end-to-end sentiment analysis architecture for cross-lingual sentiment analysis, named Distillation Language Adversarial Network (DLAN). Based on pre-trained model, DLAN uses adversarial learning with knowledge distillation to learn language invariant features without extra training data. We evaluate the proposed method on Amazon review dataset, a multilingual sentiment dataset. The results illustrate that DLAN is more effective than the baseline methods in cross-lingual sentiment analysis.",
+        "authors": [
+          "Deheng Wang",
+          "Aimin Yang",
+          "Yongmei Zhou",
+          "Fenfang Xie",
+          "Zhouhao Ouyang",
+          "Sancheng Peng"
+        ],
+        "venue": "International Conference on Asian Language Processing",
+        "citations": 2,
+        "open_access": false,
+        "url": "https://doi.org/10.1109/ialp57159.2022.9961285",
+        "pdf_url": null,
+        "references": [
+          "https://openalex.org/W1522301498",
+          "https://openalex.org/W1821462560",
+          "https://openalex.org/W2124388587",
+          "https://openalex.org/W2171068337",
+          "https://openalex.org/W2187089797",
+          "https://openalex.org/W2250935806",
+          "https://openalex.org/W2562439797",
+          "https://openalex.org/W2585540825",
+          "https://openalex.org/W2593768305",
+          "https://openalex.org/W2756639730",
+          "https://openalex.org/W2787560479",
+          "https://openalex.org/W2799052853",
+          "https://openalex.org/W2896457183",
+          "https://openalex.org/W2929127016",
+          "https://openalex.org/W2950404230",
+          "https://openalex.org/W2952289666",
+          "https://openalex.org/W2963308086",
+          "https://openalex.org/W2970049541",
+          "https://openalex.org/W2979826702",
+          "https://openalex.org/W2980708516",
+          "https://openalex.org/W2983040767",
+          "https://openalex.org/W2983561806",
+          "https://openalex.org/W3034565015",
+          "https://openalex.org/W3034978379",
+          "https://openalex.org/W3096831136",
+          "https://openalex.org/W3108053017",
+          "https://openalex.org/W3124243366",
+          "https://openalex.org/W3156185566",
+          "https://openalex.org/W3172948587",
+          "https://openalex.org/W3174223803",
+          "https://openalex.org/W3176109448",
+          "https://openalex.org/W3199590810",
+          "https://openalex.org/W3205377756",
+          "https://openalex.org/W4281696987"
+        ],
+        "retracted": false,
+        "provenance": [
+          "keyword: multilingual review corpus cross lingual sentiment analysis",
+          "semantic: multilingual review corpus cross lingual sentiment analysis"
+        ],
+        "criteria": [
+          {
+            "criterion_id": "c1",
+            "status": "supported",
+            "quote": "Amazon review dataset, a multilingual sentiment dataset",
+            "quote_verified": true,
+            "reason": "The abstract explicitly mentions evaluating on the 'Amazon review dataset, a multilingual sentiment dataset'."
+          },
+          {
+            "criterion_id": "c2",
+            "status": "uncertain",
+            "quote": "",
+            "quote_verified": false,
+            "reason": "Insufficient source evidence; full-paper verification may be needed."
+          },
+          {
+            "criterion_id": "c3",
+            "status": "uncertain",
+            "quote": "",
+            "quote_verified": false,
+            "reason": "Insufficient source evidence; full-paper verification may be needed."
+          }
+        ],
+        "rrf": 0.02625418060200669,
+        "aliases": [
+          "https://openalex.org/W4310608682"
+        ],
+        "neural_score": -0.50289,
+        "score": 0.39005
+      },
+      {
+        "id": "https://openalex.org/W2259387181",
+        "title": "Multilingual Entity-Centered Sentiment Analysis Evaluated by Parallel Corpora",
+        "doi": null,
+        "year": 2011,
+        "abstract": "We propose the creation and use of a multilingual parallel news corpus annotated with opinion towards entities, produced by projecting sentiment annotation from one language to several others. The objective is to save annotation time for development and evaluation purposes, and to guarantee comparability of opinion mining evaluation results across languages. By creating this resource, we answered the question whether sentiment is consistently translated across languages so that projection can actually be an option. We describe our\\napproach to multilingual sentiment analysis and show its performance in 7 languages of the parallel corpus.",
+        "authors": [
+          "Josef Steinberger",
+          "Polina Lenkova",
+          "Mijail A. Kabadjov",
+          "Ralf Steinberger",
+          "Erik van der Goot"
+        ],
+        "venue": "Joint Research Centre (European Commission)",
+        "citations": 54,
+        "open_access": false,
+        "url": "http://publications.jrc.ec.europa.eu/repository/handle/JRC65733",
+        "pdf_url": null,
+        "references": [
+          "https://openalex.org/W1519302135",
+          "https://openalex.org/W1549016832",
+          "https://openalex.org/W1549434858",
+          "https://openalex.org/W1595459570",
+          "https://openalex.org/W1763614432",
+          "https://openalex.org/W1998442272",
+          "https://openalex.org/W2011450768",
+          "https://openalex.org/W2014902591",
+          "https://openalex.org/W2099104810",
+          "https://openalex.org/W2112422413",
+          "https://openalex.org/W2115023510",
+          "https://openalex.org/W2142262074",
+          "https://openalex.org/W2159335442",
+          "https://openalex.org/W2166706824",
+          "https://openalex.org/W2167660864"
+        ],
+        "retracted": false,
+        "provenance": [
+          "semantic: Where can I find a multilingual corpus that includes reviews on DVDs, music, and books for the purposes of cross-language sentiment classification research?",
+          "semantic: multilingual review corpus cross lingual sentiment analysis"
+        ],
+        "criteria": [
+          {
+            "criterion_id": "c1",
+            "status": "supported",
+            "quote": "multilingual parallel news corpus",
+            "quote_verified": true,
+            "reason": "The abstract explicitly proposes the creation and use of a 'multilingual parallel news corpus'."
+          },
+          {
+            "criterion_id": "c2",
+            "status": "uncertain",
+            "quote": "",
+            "quote_verified": false,
+            "reason": "Insufficient source evidence; full-paper verification may be needed."
+          },
+          {
+            "criterion_id": "c3",
+            "status": "uncertain",
+            "quote": "",
+            "quote_verified": false,
+            "reason": "Insufficient source evidence; full-paper verification may be needed."
+          }
+        ],
+        "rrf": 0.031024531024531024,
+        "aliases": [
+          "https://openalex.org/W2259387181"
+        ],
+        "neural_score": -0.6539,
+        "score": 0.37834
+      },
+      {
+        "id": "https://openalex.org/W4312257216",
+        "title": "Multilingual Sentiment Analysis for Under-Resourced Languages: A Systematic Review of the Landscape",
+        "doi": "https://doi.org/10.1109/access.2022.3224136",
+        "year": 2022,
+        "abstract": "Sentiment analysis automatically evaluates people’s opinions of products or services. It is an emerging research area with promising advancements in high-resource languages such as Indo-European languages (e.g. English). However, the same cannot be said for languages with limited resources. In this study, we evaluate multilingual sentiment analysis techniques for under-resourced languages and the use of high-resourced languages to develop resources for low-resource languages. The ultimate goal is to identify appropriate strategies for future investigations. We report over 35 studies with different languages demonstrating an interest in developing models for under-resourced languages in a multilingual context. Furthermore, we illustrate the drawbacks of each strategy used for sentiment analysis. Our focus is to critically compare methods, employed datasets and identify research gaps. This study contributes to theoretical literature reviews with complete coverage of multilingual sentiment analysis studies from 2008 to date. Furthermore, we demonstrate how sentiment analysis studies have grown tremendously. Finally, because most studies propose methods based on deep learning approaches, we offer a deep learning framework for multilingual sentiment analysis that does not rely on the machine translation system. According to the meta-analysis protocol of this literature review, we found that, in general, just over 60% of the studies have used deep learning frameworks, which significantly improved the sentiment analysis performance. Therefore, deep learning methods are recommended for the development of multilingual sentiment analysis for under-resourced languages.",
+        "authors": [
+          "Koena Ronny Mabokela",
+          "Turgay Çelik",
+          "Mpho Raborife"
+        ],
+        "venue": "IEEE Access",
+        "citations": 123,
+        "open_access": true,
+        "url": "https://doi.org/10.1109/access.2022.3224136",
+        "pdf_url": "https://ieeexplore.ieee.org/ielx7/6287639/10005208/09961195.pdf",
+        "references": [
+          "https://openalex.org/W40549020",
+          "https://openalex.org/W79971180",
+          "https://openalex.org/W150011989",
+          "https://openalex.org/W193780173",
+          "https://openalex.org/W1797158486",
+          "https://openalex.org/W1992892670",
+          "https://openalex.org/W1993682096",
+          "https://openalex.org/W1995068038",
+          "https://openalex.org/W2004214228",
+          "https://openalex.org/W2007872832",
+          "https://openalex.org/W2017489100",
+          "https://openalex.org/W2019759670",
+          "https://openalex.org/W2034090215",
+          "https://openalex.org/W2065719721",
+          "https://openalex.org/W2071332064",
+          "https://openalex.org/W2075659194",
+          "https://openalex.org/W2081795963",
+          "https://openalex.org/W2088879970",
+          "https://openalex.org/W2099813784",
+          "https://openalex.org/W2104246439",
+          "https://openalex.org/W2108765529",
+          "https://openalex.org/W2109154157",
+          "https://openalex.org/W2114524997",
+          "https://openalex.org/W2119749631",
+          "https://openalex.org/W2120158336",
+          "https://openalex.org/W2142262074",
+          "https://openalex.org/W2144012961",
+          "https://openalex.org/W2157076169",
+          "https://openalex.org/W2166706824",
+          "https://openalex.org/W2167660864",
+          "https://openalex.org/W2184362562",
+          "https://openalex.org/W2250650069",
+          "https://openalex.org/W2251939518",
+          "https://openalex.org/W2252113950",
+          "https://openalex.org/W2252215182",
+          "https://openalex.org/W2278629362",
+          "https://openalex.org/W2400093769",
+          "https://openalex.org/W2471350540",
+          "https://openalex.org/W2472400477",
+          "https://openalex.org/W2475024326"
+        ],
+        "retracted": false,
+        "provenance": [
+          "keyword: multilingual sentiment classification corpus DVD music books",
+          "keyword: cross language sentiment classification review dataset DVD music books",
+          "keyword: multilingual review corpus cross lingual sentiment analysis"
+        ],
+        "criteria": [
+          {
+            "criterion_id": "c1",
+            "status": "uncertain",
+            "quote": "",
+            "quote_verified": false,
+            "reason": "Insufficient source evidence; full-paper verification may be needed."
+          },
+          {
+            "criterion_id": "c2",
+            "status": "uncertain",
+            "quote": "",
+            "quote_verified": false,
+            "reason": "Insufficient source evidence; full-paper verification may be needed."
+          },
+          {
+            "criterion_id": "c3",
+            "status": "uncertain",
+            "quote": "",
+            "quote_verified": false,
+            "reason": "Insufficient source evidence; full-paper verification may be needed."
+          }
+        ],
+        "rrf": 0.04290475636830712,
+        "aliases": [
+          "https://openalex.org/W4312257216"
+        ],
+        "neural_score": -0.92719,
+        "score": 0.37153
+      },
+      {
+        "id": "https://openalex.org/W4396792691",
+        "title": "Equivalent sentiment measures for cross-language analysis of corporate communications",
+        "doi": "https://doi.org/10.1016/j.mex.2024.102745",
+        "year": 2024,
+        "abstract": "This paper presents a technique for sentiment measurement in many languages. The method allows researchers to efficiently analyze corporate documents, management reports, and financial statements using python. When the texts are written in many languages, the method extracts equivalent cross-linguistic sentiment features that can be used for statistical analysis or machine learning. We use Open Multilingual WordNet, a large lexicon organizing words into semantic groups, as the knowledge base about word equivalence in more than 200 languages. We experiment with a parallel English-French corpus and find that our senitment measures across the two languages are comparable. The method produces a consistent classification of positive and negative texts in two languages, and sentiment measure values correlate. The paper provides a detailed account of the method and python code, So that it can be applied to other languages, text mining, quantitative communication studies, and management research.•Method to create equivalent sentiment measures in multiple languages•Based on established lexicons and WordNet•Validated for English and French.",
+        "authors": [
+          "Karol Marek Klimczak",
+          "Jan Makary Fryczak",
+          "Dominika Hadro",
+          "Justyna Fijałkowska"
+        ],
+        "venue": "MethodsX",
+        "citations": 4,
+        "open_access": true,
+        "url": "https://doi.org/10.1016/j.mex.2024.102745",
+        "pdf_url": null,
+        "references": [
+          "https://openalex.org/W1812349171",
+          "https://openalex.org/W1873429512",
+          "https://openalex.org/W1981856116",
+          "https://openalex.org/W2085127641",
+          "https://openalex.org/W2150879307",
+          "https://openalex.org/W2152136804",
+          "https://openalex.org/W2599269430",
+          "https://openalex.org/W2613185303",
+          "https://openalex.org/W2625464253",
+          "https://openalex.org/W2903926636",
+          "https://openalex.org/W2976161557",
+          "https://openalex.org/W3030761605",
+          "https://openalex.org/W3031229455",
+          "https://openalex.org/W3037912638",
+          "https://openalex.org/W3083953310",
+          "https://openalex.org/W3123492911",
+          "https://openalex.org/W3153628587",
+          "https://openalex.org/W3154335165",
+          "https://openalex.org/W3156950864",
+          "https://openalex.org/W3159894283",
+          "https://openalex.org/W3176463483",
+          "https://openalex.org/W3180863388",
+          "https://openalex.org/W4235505822",
+          "https://openalex.org/W4283731290",
+          "https://openalex.org/W4294018282",
+          "https://openalex.org/W4294050938",
+          "https://openalex.org/W4385573393"
+        ],
+        "retracted": false,
+        "provenance": [
+          "semantic: Where can I find a multilingual corpus that includes reviews on DVDs, music, and books for the purposes of cross-language sentiment classification research?",
+          "semantic: multilingual review corpus cross lingual sentiment analysis"
+        ],
+        "criteria": [
+          {
+            "criterion_id": "c1",
+            "status": "supported",
+            "quote": "parallel English-French corpus",
+            "quote_verified": true,
+            "reason": "The abstract explicitly mentions experimenting with a 'parallel English-French corpus'."
+          },
+          {
+            "criterion_id": "c2",
+            "status": "uncertain",
+            "quote": "",
+            "quote_verified": false,
+            "reason": "Insufficient source evidence; full-paper verification may be needed."
+          },
+          {
+            "criterion_id": "c3",
+            "status": "uncertain",
+            "quote": "",
+            "quote_verified": false,
+            "reason": "Insufficient source evidence; full-paper verification may be needed."
+          }
+        ],
+        "rrf": 0.022727272727272728,
+        "aliases": [
+          "https://openalex.org/W4396792691"
+        ],
+        "neural_score": -0.60301,
+        "score": 0.35959
+      },
+      {
+        "id": "https://openalex.org/W4221155692",
+        "title": "NaijaSenti: A Nigerian Twitter Sentiment Corpus for Multilingual Sentiment Analysis",
+        "doi": "https://doi.org/10.63317/2anx3vqhsxdm",
+        "year": 2022,
+        "abstract": "Sentiment analysis is one of the most widely studied applications in NLP, but most work focuses on languages with large amounts of data.We introduce the first large-scale human-annotated Twitter sentiment dataset for the four most widely spoken languages in Nigeria-Hausa, Igbo, Nigerian-Pidgin, and Yorùbá-consisting of around 30,000 annotated tweets per language, including a significant fraction of code-mixed tweets.We propose text collection, filtering, processing, and labeling methods that enable us to create datasets for these low-resource languages.We evaluate a range of pre-trained models and transfer strategies on the dataset.We find that language-specific models and language-adaptive fine-tuning generally perform best.We release the datasets, trained models, sentiment lexicons, and code to incentivize research on sentiment analysis in under-represented languages.",
+        "authors": [
+          "Shamsuddeen Hassan Muhammad",
+          "David Ifeoluwa Adelani",
+          "Sebastian Ruder",
+          "Ibrahim Said Ahmad",
+          "Idris Abdulmumin",
+          "Bello Shehu Bello",
+          "Monojit Choudhury",
+          "Chris Chinenye Emezue",
+          "Saheed Abdullahi Salahudeen",
+          "Anuoluwapo Aremu",
+          "Alipio Jeorge",
+          "Pavel Brazdil"
+        ],
+        "venue": "Language Resources and Evaluation Conference (LREC)",
+        "citations": 155,
+        "open_access": true,
+        "url": "https://doi.org/10.63317/2anx3vqhsxdm",
+        "pdf_url": "http://www.lrec-conf.org/proceedings/lrec2022/pdf/2022.lrec-1.63.pdf",
+        "references": [
+          "https://openalex.org/W40549020",
+          "https://openalex.org/W1988301066",
+          "https://openalex.org/W2040002713",
+          "https://openalex.org/W2040467972",
+          "https://openalex.org/W2041113956",
+          "https://openalex.org/W2122522916",
+          "https://openalex.org/W2157275230",
+          "https://openalex.org/W2160660844",
+          "https://openalex.org/W2250522473",
+          "https://openalex.org/W2251778499",
+          "https://openalex.org/W2278629362",
+          "https://openalex.org/W2511558409",
+          "https://openalex.org/W2742070855",
+          "https://openalex.org/W2767566483",
+          "https://openalex.org/W2798812533",
+          "https://openalex.org/W2806120502",
+          "https://openalex.org/W2891275901",
+          "https://openalex.org/W2916132663",
+          "https://openalex.org/W2945067664",
+          "https://openalex.org/W2949526700",
+          "https://openalex.org/W2962789745",
+          "https://openalex.org/W2963341956",
+          "https://openalex.org/W2963864161",
+          "https://openalex.org/W2965373594",
+          "https://openalex.org/W2969883992",
+          "https://openalex.org/W2979826702",
+          "https://openalex.org/W2983040767",
+          "https://openalex.org/W2996035354",
+          "https://openalex.org/W2996347617",
+          "https://openalex.org/W3013055388",
+          "https://openalex.org/W3017311573",
+          "https://openalex.org/W3017961061",
+          "https://openalex.org/W3023911605",
+          "https://openalex.org/W3031208816",
+          "https://openalex.org/W3033372266",
+          "https://openalex.org/W3037797368",
+          "https://openalex.org/W3038882650",
+          "https://openalex.org/W3049030479",
+          "https://openalex.org/W3089959042",
+          "https://openalex.org/W3092614733"
+        ],
+        "retracted": false,
+        "provenance": [
+          "keyword: multilingual review corpus cross lingual sentiment analysis"
+        ],
+        "criteria": [
+          {
+            "criterion_id": "c1",
+            "status": "supported",
+            "quote": "Twitter sentiment dataset for the four most widely spoken languages in Nigeria-Hausa, Igbo, Nigerian-Pidgin, and Yorùbá",
+            "quote_verified": true,
+            "reason": "The abstract explicitly introduces a dataset covering four distinct languages."
+          },
+          {
+            "criterion_id": "c2",
+            "status": "uncertain",
+            "quote": "",
+            "quote_verified": false,
+            "reason": "Insufficient source evidence; full-paper verification may be needed."
+          },
+          {
+            "criterion_id": "c3",
+            "status": "uncertain",
+            "quote": "",
+            "quote_verified": false,
+            "reason": "Insufficient source evidence; full-paper verification may be needed."
+          }
+        ],
+        "rrf": 0.01639344262295082,
+        "aliases": [
+          "https://openalex.org/W4221155692"
+        ],
+        "neural_score": -0.80771,
+        "score": 0.302
+      },
+      {
+        "id": "https://openalex.org/W91607406",
+        "title": "Comparable English-Russian book review corpora for sentiment analysis",
+        "doi": null,
+        "year": 2010,
+        "abstract": "We present newly-produced comparable corpora of book reviews in English and Russian. The corpora are comparable in terms of domain, style and size. We are using them for cross-lingual experiments in document-level sentiment classi?cation. Quantitative analyses of the corpora and the language di?erences they exhibit highlight a number of issues that must be considered when developing systems for automatic sentiment classi?cation. We also present experiments with a sentiment classi?cation system applied to the corpora. The results suggest that di?erences in the way that sentiment is expressed in the two languages lead to large di?erence in sentiment classi?cation accuracy.",
+        "authors": [
+          "Taras Zagibalov",
+          "K Belyatskaya",
+          "John Carroll"
+        ],
+        "venue": "Figshare",
+        "citations": 20,
+        "open_access": false,
+        "url": "https://figshare.com/articles/presentation/Comparable_English-Russian_book_review_corpora_for_sentiment_analysis/23383838",
+        "pdf_url": null,
+        "references": [
+          "https://openalex.org/W44262497",
+          "https://openalex.org/W135633885",
+          "https://openalex.org/W161467959",
+          "https://openalex.org/W1493379323",
+          "https://openalex.org/W1570448133",
+          "https://openalex.org/W1980703745",
+          "https://openalex.org/W2010163591",
+          "https://openalex.org/W2014902591",
+          "https://openalex.org/W2075118955",
+          "https://openalex.org/W2080558111",
+          "https://openalex.org/W2081375810",
+          "https://openalex.org/W2114524997",
+          "https://openalex.org/W2115023510",
+          "https://openalex.org/W2142262074",
+          "https://openalex.org/W2161228561",
+          "https://openalex.org/W2163302275",
+          "https://openalex.org/W2166706824",
+          "https://openalex.org/W2296006172",
+          "https://openalex.org/W2484253835",
+          "https://openalex.org/W3146306708"
+        ],
+        "retracted": false,
+        "provenance": [
+          "semantic: Where can I find a multilingual corpus that includes reviews on DVDs, music, and books for the purposes of cross-language sentiment classification research?",
+          "semantic: cross language sentiment classification review dataset DVD music books",
+          "semantic: multilingual review corpus cross lingual sentiment analysis"
+        ],
+        "criteria": [],
+        "rrf": 0.040528765176076564,
+        "aliases": [
+          "https://openalex.org/W91607406"
+        ],
+        "neural_score": -1.41062,
+        "score": 0.29362
+      },
+      {
+        "id": "https://openalex.org/W4226150491",
+        "title": "Sentiment Analysis of Reviews in Natural Language: Roman Urdu as a Case Study",
+        "doi": "https://doi.org/10.1109/access.2022.3150172",
+        "year": 2022,
+        "abstract": "Opinion Mining from user reviews is an emerging field. Sentiment Analysis of Natural Language text helps us in finding the opinion of the customers. These reviews can be in any language e.g. English, Chinese, Arabic, Japanese, Urdu, and Hindi. This research presents a model to classify the polarity of the review(s) in Roman Urdu text (reviews). For the purpose, raw data was scraped from the reviews of 20 songs from Indo-Pak Music Industry. In this research a new dataset of 24000 reviews of Roman Urdu text is created. Nine Machine Learning algorithms—Naïve Bayes, Support Vector Machine, Logistic Regression, K-Nearest Neighbors, Artificial Neural Networks, Convolutional Neural Network, Recurrent Neural Networks, ID3 and Gradient Boost Tree, are attempted. Logistic Regression outperformed the rest, based on testing and cross validation accuracies that are 92.25% and 91.47% respectively.",
+        "authors": [
+          "Muhammad Aasim Qureshi",
+          "Muhammad Asif",
+          "Mohd Fadzil Hassan",
+          "Adnan Abid",
+          "Asad Kamal",
+          "Sohail Safdar",
+          "Rehan Akbar"
+        ],
+        "venue": "IEEE Access",
+        "citations": 52,
+        "open_access": true,
+        "url": "https://doi.org/10.1109/access.2022.3150172",
+        "pdf_url": "https://ieeexplore.ieee.org/ielx7/6287639/9668973/09714200.pdf",
+        "references": [
+          "https://openalex.org/W748996625",
+          "https://openalex.org/W1529292861",
+          "https://openalex.org/W1572758415",
+          "https://openalex.org/W1587592060",
+          "https://openalex.org/W1974540239",
+          "https://openalex.org/W2005530589",
+          "https://openalex.org/W2033213616",
+          "https://openalex.org/W2042399693",
+          "https://openalex.org/W2049104535",
+          "https://openalex.org/W2052684427",
+          "https://openalex.org/W2059099627",
+          "https://openalex.org/W2090347203",
+          "https://openalex.org/W2107002115",
+          "https://openalex.org/W2107577705",
+          "https://openalex.org/W2124222502",
+          "https://openalex.org/W2136129419",
+          "https://openalex.org/W2147953360",
+          "https://openalex.org/W2164107060",
+          "https://openalex.org/W2203890649",
+          "https://openalex.org/W2252085349",
+          "https://openalex.org/W2531555123",
+          "https://openalex.org/W2556605533",
+          "https://openalex.org/W2579299739",
+          "https://openalex.org/W2625311081",
+          "https://openalex.org/W2766499900",
+          "https://openalex.org/W2766519534",
+          "https://openalex.org/W2771642857",
+          "https://openalex.org/W2774216408",
+          "https://openalex.org/W2784277776",
+          "https://openalex.org/W2785777568",
+          "https://openalex.org/W2792934745",
+          "https://openalex.org/W2898339904",
+          "https://openalex.org/W2899069249",
+          "https://openalex.org/W2921300811",
+          "https://openalex.org/W2921600946",
+          "https://openalex.org/W2927439335",
+          "https://openalex.org/W2953225870",
+          "https://openalex.org/W2957007523",
+          "https://openalex.org/W2966292608",
+          "https://openalex.org/W2968213045"
+        ],
+        "retracted": false,
+        "provenance": [
+          "semantic: cross language sentiment classification review dataset DVD music books"
+        ],
+        "criteria": [],
+        "rrf": 0.015625,
+        "aliases": [
+          "https://openalex.org/W4226150491"
+        ],
+        "neural_score": -0.96648,
+        "score": 0.27317
+      },
+      {
+        "id": "https://openalex.org/W2108765529",
+        "title": "Using SentiWordNet for multilingual sentiment analysis",
+        "doi": "https://doi.org/10.1109/icdew.2008.4498370",
+        "year": 2008,
+        "abstract": "This paper introduces a methodology for determining polarity of text within a multilingual framework. The method leverages on lexical resources for sentiment analysis available in English (SentiWordNet). First, a document in a different language than English is translated into English using standard translation software. Then, the translated document is classified according to its sentiment into one of the classes \"positive\" and \"negative\". For sentiment classification, a document is searched for sentiment bearing words like adjectives. By means of SentiWordNet, scores for positivity and negativity are determined for these words. An interpretation of the scores then leads to the document polarity. The method is tested for German movie reviews selected from Amazon and is compared to a statistical polarity classifier based on n-grams. The results show that working with standard technology and existing sentiment analysis approaches is a viable approach to sentiment analysis within a multilingual framework.",
+        "authors": [
+          "Kerstin Denecke"
+        ],
+        "venue": "IEEE International Conference on Data Engineering Workshops (ICDEW)",
+        "citations": 429,
+        "open_access": false,
+        "url": "https://doi.org/10.1109/icdew.2008.4498370",
+        "pdf_url": null,
+        "references": [
+          "https://openalex.org/W38739846",
+          "https://openalex.org/W57814663",
+          "https://openalex.org/W138557686",
+          "https://openalex.org/W1901558184",
+          "https://openalex.org/W1966703356",
+          "https://openalex.org/W1969769481",
+          "https://openalex.org/W1972145547",
+          "https://openalex.org/W2022204871",
+          "https://openalex.org/W2128279859",
+          "https://openalex.org/W2142262074",
+          "https://openalex.org/W2949998441"
+        ],
+        "retracted": false,
+        "provenance": [
+          "semantic: multilingual review corpus cross lingual sentiment analysis"
+        ],
+        "criteria": [],
+        "rrf": 0.01639344262295082,
+        "aliases": [
+          "https://openalex.org/W2108765529"
+        ],
+        "neural_score": -1.14775,
+        "score": 0.24802
+      },
+      {
+        "id": "https://openalex.org/W2287493855",
+        "title": "Cross-domain sentiment classification using grams derived from syntax trees and an adapted naive Bayes approach",
+        "doi": null,
+        "year": 2012,
+        "abstract": "There is an increasing amount of user-generated information in online documents, includ- ing user opinions on various topics and products such as movies, DVDs, kitchen appliances, etc. To make use of such opinions, it is useful to identify the polarity of the opinion, in other words, to perform sentiment classification. The goal of sentiment classification is to classify a given text/document as either positive, negative or neutral based on the words present in the document. Supervised learning approaches have been successfully used for sentiment classification in domains that are rich in labeled data. Some of these approaches make use of features such as unigrams, bigrams, sentiment words, adjective words, syntax trees (or variations of trees obtained using pruning strategies), etc. However, for some domains the amount of labeled data can be relatively small and we cannot train an accurate classifier using the supervised learning approach. Therefore, it is useful to study domain adaptation techniques that can transfer knowledge from a source domain that has labeled data to a target domain that has little or no labeled data, but a large amount of unlabeled data. We address this problem in the context of product reviews, specifically reviews of movies, DVDs and kitchen appliances. Our approach uses an Adapted Naive Bayes classifier (ANB) on top of the Expectation Maximization (EM) algorithm to predict the sentiment of a sentence. We use grams derived from complete syntax trees or from syntax subtrees as features, when training the ANB classifier. More precisely, we extract grams from syntax trees correspond- ing to sentences in either the source or target domains. To be able to transfer knowledge from source to target, we identify generalized features (grams) using the frequently co-occurring entropy (FCE) method, and represent the source instances using these generalized features. The target instances are represented with all grams occurring in the target, or with a reduced grams set obtained by removing infrequent grams. We experiment with different types of grams in a supervised framework in order to identify the most predictive types of gram, and further use those grams in the domain adaptation framework. Experimental results on several cross-domains task show that domain adaptation approaches that combine source and target data (small amount of labeled and some unlabeled data) can help learn classifiers for the target that are better than those learned from the labeled target data alone.",
+        "authors": [
+          "Srilaxmi Cheeti"
+        ],
+        "venue": "K-State Research Exchange (Kansas State University)",
+        "citations": 0,
+        "open_access": true,
+        "url": "http://hdl.handle.net/2097/13733",
+        "pdf_url": "https://krex.k-state.edu/bitstreams/34008238-8f38-44a9-8604-76d4cf61e3b6/download",
+        "references": [
+          "https://openalex.org/W22861983",
+          "https://openalex.org/W1577417017",
+          "https://openalex.org/W2011417473",
+          "https://openalex.org/W2058671303",
+          "https://openalex.org/W2097606805",
+          "https://openalex.org/W2103333826",
+          "https://openalex.org/W2113609017",
+          "https://openalex.org/W2147152072",
+          "https://openalex.org/W2153353890",
+          "https://openalex.org/W2160660844",
+          "https://openalex.org/W2163302275",
+          "https://openalex.org/W4239510810"
+        ],
+        "retracted": false,
+        "provenance": [
+          "keyword: cross language sentiment classification review dataset DVD music books",
+          "semantic: cross language sentiment classification review dataset DVD music books"
+        ],
+        "criteria": [],
+        "rrf": 0.025645240835114255,
+        "aliases": [
+          "https://openalex.org/W2287493855"
+        ],
+        "neural_score": -1.42125,
+        "score": 0.24208
+      },
+      {
+        "id": "https://openalex.org/W2911787823",
+        "title": "Holistic Multilingual Sentiment Analysis on Reviews in Social Media",
+        "doi": null,
+        "year": 2019,
+        "abstract": "",
+        "authors": [
+          "Sukhnandan Kaur"
+        ],
+        "venue": "Shodhganga",
+        "citations": 0,
+        "open_access": false,
+        "url": "http://shodhganga.inflibnet.ac.in:8080/jspui/bitstream/10603/229657/1/01_title.pdf",
+        "pdf_url": null,
+        "references": [],
+        "retracted": false,
+        "provenance": [
+          "semantic: Where can I find a multilingual corpus that includes reviews on DVDs, music, and books for the purposes of cross-language sentiment classification research?",
+          "semantic: cross language sentiment classification review dataset DVD music books",
+          "semantic: multilingual review corpus cross lingual sentiment analysis"
+        ],
+        "criteria": [],
+        "rrf": 0.032367214950094716,
+        "aliases": [
+          "https://openalex.org/W2911787823"
+        ],
+        "neural_score": -1.64865,
+        "score": 0.23822
+      },
+      {
+        "id": "https://openalex.org/W2167660864",
+        "title": "Co-training for cross-lingual sentiment classification",
+        "doi": "https://doi.org/10.3115/1687878.1687913",
+        "year": 2009,
+        "abstract": "The lack of Chinese sentiment corpora limits the research progress on Chinese sentiment classification. However, there are many freely available English sentiment corpora on the Web. This paper focuses on the problem of cross-lingual sentiment classification, which leverages an available English corpus for Chinese sentiment classification by using the English corpus as training data. Machine translation services are used for eliminating the language gap between the training set and test set, and English features and Chinese features are considered as two independent views of the classification problem. We propose a cotraining approach to making use of unlabeled Chinese data. Experimental results show the effectiveness of the proposed approach, which can outperform the standard inductive classifiers and the transductive classifiers.",
+        "authors": [
+          "Xiaojun Wan"
+        ],
+        "venue": null,
+        "citations": 532,
+        "open_access": true,
+        "url": "https://doi.org/10.3115/1687878.1687913",
+        "pdf_url": "https://dl.acm.org/doi/pdf/10.5555/1687878.1687913",
+        "references": [
+          "https://openalex.org/W1489959797",
+          "https://openalex.org/W1540550673",
+          "https://openalex.org/W1994966918",
+          "https://openalex.org/W1998894210",
+          "https://openalex.org/W2012012028",
+          "https://openalex.org/W2020854665",
+          "https://openalex.org/W2022204871",
+          "https://openalex.org/W2048679005",
+          "https://openalex.org/W2063596712",
+          "https://openalex.org/W2071332064",
+          "https://openalex.org/W2081795963",
+          "https://openalex.org/W2081801689",
+          "https://openalex.org/W2092481996",
+          "https://openalex.org/W2097089247",
+          "https://openalex.org/W2107008379",
+          "https://openalex.org/W2112422413",
+          "https://openalex.org/W2114524997",
+          "https://openalex.org/W2115191221",
+          "https://openalex.org/W2120708938",
+          "https://openalex.org/W2124022436",
+          "https://openalex.org/W2128279859",
+          "https://openalex.org/W2132313827",
+          "https://openalex.org/W2137806537",
+          "https://openalex.org/W2140256872",
+          "https://openalex.org/W2154970197",
+          "https://openalex.org/W2163302275",
+          "https://openalex.org/W2166706824",
+          "https://openalex.org/W2472761872",
+          "https://openalex.org/W7100916355"
+        ],
+        "retracted": false,
+        "provenance": [
+          "keyword: multilingual review corpus cross lingual sentiment analysis"
+        ],
+        "criteria": [],
+        "rrf": 0.016129032258064516,
+        "aliases": [
+          "https://openalex.org/W2167660864"
+        ],
+        "neural_score": -1.21182,
+        "score": 0.23791
+      },
+      {
+        "id": "https://openalex.org/W2138923868",
+        "title": "LABR: A Large Scale Arabic Book Reviews Dataset",
+        "doi": "https://doi.org/10.13140/2.1.3960.5761",
+        "year": 2013,
+        "abstract": "We introduce LABR, the largest sentiment analysis dataset to-date for the Arabic language. It consists of over 63,000 book reviews, each rated on a scale of 1 to 5 stars. We investigate the properties of the the dataset, and present its statistics. We explore using the dataset for two tasks: sentiment polarity classification and rating classification. We provide standard splits of the dataset into training and testing, for both polarity and rating classification, in both balanced and unbalanced settings. We run baseline experiments on the dataset to establish a benchmark. 1",
+        "authors": [
+          "Mohamed Aly",
+          "Amir F. Atiya"
+        ],
+        "venue": null,
+        "citations": 319,
+        "open_access": false,
+        "url": "https://doi.org/10.13140/2.1.3960.5761",
+        "pdf_url": null,
+        "references": [
+          "https://openalex.org/W192118262",
+          "https://openalex.org/W194416169",
+          "https://openalex.org/W1967012975",
+          "https://openalex.org/W2005624335",
+          "https://openalex.org/W2104937263",
+          "https://openalex.org/W2124752409",
+          "https://openalex.org/W2126581182",
+          "https://openalex.org/W2151739810",
+          "https://openalex.org/W2166706824",
+          "https://openalex.org/W2252085349",
+          "https://openalex.org/W2997591727",
+          "https://openalex.org/W4205184193"
+        ],
+        "retracted": false,
+        "provenance": [
+          "semantic: Where can I find a multilingual corpus that includes reviews on DVDs, music, and books for the purposes of cross-language sentiment classification research?",
+          "semantic: cross language sentiment classification review dataset DVD music books"
+        ],
+        "criteria": [],
+        "rrf": 0.03252247488101534,
+        "aliases": [
+          "https://openalex.org/W2138923868"
+        ],
+        "neural_score": -1.70947,
+        "score": 0.23229
+      },
+      {
+        "id": "https://openalex.org/W2250904672",
+        "title": "Semi-Supervised Representation Learning for Cross-Lingual Text Classification",
+        "doi": "https://doi.org/10.18653/v1/d13-1153",
+        "year": 2013,
+        "abstract": "Cross-lingual adaptation aims to learn a prediction model in a label-scarce target language by exploiting labeled data from a labelrich source language.An effective crosslingual adaptation system can substantially reduce the manual annotation effort required in many natural language processing tasks.In this paper, we propose a new cross-lingual adaptation approach for document classification based on learning cross-lingual discriminative distributed representations of words.Specifically, we propose to maximize the loglikelihood of the documents from both language domains under a cross-lingual logbilinear document model, while minimizing the prediction log-losses of labeled documents.We conduct extensive experiments on cross-lingual sentiment classification tasks of Amazon product reviews.Our experimental results demonstrate the efficacy of the proposed cross-lingual adaptation approach.",
+        "authors": [
+          "Min Xiao",
+          "Yuhong Guo"
+        ],
+        "venue": "Conference on Empirical Methods in Natural Language Processing (EMNLP)",
+        "citations": 38,
+        "open_access": true,
+        "url": "https://doi.org/10.18653/v1/d13-1153",
+        "pdf_url": "https://aclanthology.org/D13-1153.pdf",
+        "references": [
+          "https://openalex.org/W74584387",
+          "https://openalex.org/W1555711139",
+          "https://openalex.org/W1880262756",
+          "https://openalex.org/W1980862579",
+          "https://openalex.org/W2033593667",
+          "https://openalex.org/W2071399839",
+          "https://openalex.org/W2113459411",
+          "https://openalex.org/W2115924763",
+          "https://openalex.org/W2118585731",
+          "https://openalex.org/W2120158336",
+          "https://openalex.org/W2125972593",
+          "https://openalex.org/W2143995218",
+          "https://openalex.org/W2150749667",
+          "https://openalex.org/W2163302275",
+          "https://openalex.org/W2167660864",
+          "https://openalex.org/W2252127909",
+          "https://openalex.org/W2301772290",
+          "https://openalex.org/W2607920453",
+          "https://openalex.org/W7098817041"
+        ],
+        "retracted": false,
+        "provenance": [
+          "keyword: multilingual sentiment classification corpus DVD music books",
+          "keyword: cross language sentiment classification review dataset DVD music books"
+        ],
+        "criteria": [],
+        "rrf": 0.0220205686630369,
+        "aliases": [
+          "https://openalex.org/W2250904672"
+        ],
+        "neural_score": -1.42535,
+        "score": 0.22934
+      },
+      {
+        "id": "https://openalex.org/W7125650571",
+        "title": "A Review of Multilingual Sentiment Analysis",
+        "doi": "https://doi.org/10.2139/ssrn.6100547",
+        "year": 2026,
+        "abstract": "",
+        "authors": [
+          "Xingjian Xie",
+          "Xuefei Wu"
+        ],
+        "venue": "SSRN Electronic Journal",
+        "citations": 1,
+        "open_access": true,
+        "url": "https://doi.org/10.2139/ssrn.6100547",
+        "pdf_url": null,
+        "references": [
+          "https://openalex.org/W2154343189",
+          "https://openalex.org/W2317789633",
+          "https://openalex.org/W2395353735",
+          "https://openalex.org/W2465978385",
+          "https://openalex.org/W2557455107",
+          "https://openalex.org/W2562439797",
+          "https://openalex.org/W2582154088",
+          "https://openalex.org/W2582886257",
+          "https://openalex.org/W2728299043",
+          "https://openalex.org/W2768861773",
+          "https://openalex.org/W2808204637",
+          "https://openalex.org/W2808423603",
+          "https://openalex.org/W2886144607",
+          "https://openalex.org/W2896401835",
+          "https://openalex.org/W2899512588",
+          "https://openalex.org/W2914693643",
+          "https://openalex.org/W2949454212",
+          "https://openalex.org/W2951758074",
+          "https://openalex.org/W2955496474",
+          "https://openalex.org/W2962920413",
+          "https://openalex.org/W2997636468",
+          "https://openalex.org/W3035041139",
+          "https://openalex.org/W3035231709",
+          "https://openalex.org/W3047719154",
+          "https://openalex.org/W3081158033",
+          "https://openalex.org/W3123143942",
+          "https://openalex.org/W3131290958",
+          "https://openalex.org/W3150290404",
+          "https://openalex.org/W3155332793",
+          "https://openalex.org/W3204695997",
+          "https://openalex.org/W4214889944",
+          "https://openalex.org/W4285162493",
+          "https://openalex.org/W4287200699",
+          "https://openalex.org/W4287690810",
+          "https://openalex.org/W4289480101",
+          "https://openalex.org/W4300668032",
+          "https://openalex.org/W4306836006",
+          "https://openalex.org/W4308981845",
+          "https://openalex.org/W4312257216",
+          "https://openalex.org/W4312312175"
+        ],
+        "retracted": false,
+        "provenance": [
+          "keyword: multilingual review corpus cross lingual sentiment analysis",
+          "semantic: multilingual review corpus cross lingual sentiment analysis"
+        ],
+        "criteria": [],
+        "rrf": 0.023642611683848798,
+        "aliases": [
+          "https://openalex.org/W7125650571"
+        ],
+        "neural_score": -1.53269,
+        "score": 0.22183
+      },
+      {
+        "id": "https://openalex.org/W2123733030",
+        "title": "A Cross-Lingual Joint Aspect/Sentiment Model for Sentiment Analysis",
+        "doi": "https://doi.org/10.1145/2661829.2662019",
+        "year": 2014,
+        "abstract": "Sentiment analysis in various languages has been a research hotspot with many applications. However, sentiment resources (e.g., labeled corpora, sentiment lexicons) of different languages are unbalanced in terms of quality and quantity, which arouses interests in cross-lingual sentiment analysis aiming at using the resources in a source language to improve sentiment analysis in a target language. Nevertheless, many existing cross-lingual related works rely on a certain machine translation system to directly adapt the labeled data from the source language to the target language, which usually suffers from inaccurate results generated by the machine translation system. On the other hand, most sentiment analysis studies focus on document-level sentiment classification that cannot solve the aspect dependency problem of sentiment words. For instance, in the reviews on a cell phone, long is positive for the lifespan of its battery, but negative for the response time of its operating system. To solve these problems, this paper develops a novel Cross-Lingual Joint Aspect/Sentiment (CLJAS) model to carry out aspect-specific sentiment analysis in a target language using the knowledge learned from a source language. Specifically, the CLJAS model jointly detects aspects and sentiments of two languages simultaneously by incorporating sentiments into a cross-lingual topic model framework. Extensive experiments on different domains and different languages demonstrate that the proposed model can significantly improve the accuracy of sentiment classification in the target language.",
+        "authors": [
+          "Zheng Lin",
+          "Xiaolong Jin",
+          "Xueke Xu",
+          "Weiping Wang",
+          "Xueqi Cheng",
+          "Yuanzhuo Wang"
+        ],
+        "venue": "ACM International Conference on Information and Knowledge Management (CIKM)",
+        "citations": 28,
+        "open_access": true,
+        "url": "https://doi.org/10.1145/2661829.2662019",
+        "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/2661829.2662019",
+        "references": [
+          "https://openalex.org/W193780173",
+          "https://openalex.org/W582033733",
+          "https://openalex.org/W1493379323",
+          "https://openalex.org/W1880262756",
+          "https://openalex.org/W2001082470",
+          "https://openalex.org/W2012070465",
+          "https://openalex.org/W2021175103",
+          "https://openalex.org/W2044429219",
+          "https://openalex.org/W2098401485",
+          "https://openalex.org/W2108420397",
+          "https://openalex.org/W2114524997",
+          "https://openalex.org/W2131305515",
+          "https://openalex.org/W2133341045",
+          "https://openalex.org/W2135931754",
+          "https://openalex.org/W2145677303",
+          "https://openalex.org/W2160660844",
+          "https://openalex.org/W2166706824",
+          "https://openalex.org/W2252222520"
+        ],
+        "retracted": false,
+        "provenance": [
+          "keyword: multilingual review corpus cross lingual sentiment analysis",
+          "semantic: multilingual review corpus cross lingual sentiment analysis"
+        ],
+        "criteria": [],
+        "rrf": 0.026144907723855092,
+        "aliases": [
+          "https://openalex.org/W2123733030"
+        ],
+        "neural_score": -1.94527,
+        "score": 0.18825
+      },
+      {
+        "id": "https://openalex.org/W2983561806",
+        "title": "Towards a Unified End-to-End Approach for Fully Unsupervised Cross-Lingual Sentiment Analysis",
+        "doi": "https://doi.org/10.18653/v1/k19-1097",
+        "year": 2019,
+        "abstract": "Sentiment analysis in low-resource languages suffers from the lack of training data. Cross-lingual sentiment analysis (CLSA) aims to improve the performance on these languages by leveraging annotated data from other languages. Recent studies have shown that CLSA can be performed in a fully unsupervised manner, without exploiting either target language supervision or cross-lingual supervision. However, these methods rely heavily on unsupervised cross-lingual word embeddings (CLWE), which has been shown to have serious drawbacks on distant language pairs (e.g. English - Japanese). In this paper, we propose an end-to-end CLSA model by leveraging unlabeled data in multiple languages and multiple domains and eliminate the need for unsupervised CLWE. Our model applies to two CLSA settings: the traditional cross-lingual in-domain setting and the more challenging cross-lingual cross-domain setting. We empirically evaluate our approach on the multilingual multi-domain Amazon review dataset. Experimental results show that our model outperforms the baselines by a large margin despite its minimal resource requirement.",
+        "authors": [
+          "Yanlin Feng",
+          "Xiaojun Wan"
+        ],
+        "venue": "Conference on Computational Natural Language Learning",
+        "citations": 17,
+        "open_access": true,
+        "url": "https://doi.org/10.18653/v1/k19-1097",
+        "pdf_url": "https://www.aclweb.org/anthology/K19-1097.pdf",
+        "references": [
+          "https://openalex.org/W2124388587",
+          "https://openalex.org/W2167660864",
+          "https://openalex.org/W2171068337",
+          "https://openalex.org/W2250935806",
+          "https://openalex.org/W2514567832",
+          "https://openalex.org/W2549416390",
+          "https://openalex.org/W2562439797",
+          "https://openalex.org/W2740132093",
+          "https://openalex.org/W2743945814",
+          "https://openalex.org/W2756639730",
+          "https://openalex.org/W2762484717",
+          "https://openalex.org/W2765961751",
+          "https://openalex.org/W2798886742",
+          "https://openalex.org/W2798908575",
+          "https://openalex.org/W2799052853",
+          "https://openalex.org/W2889720764",
+          "https://openalex.org/W2889894161",
+          "https://openalex.org/W2891068404",
+          "https://openalex.org/W2952289666",
+          "https://openalex.org/W2963206679",
+          "https://openalex.org/W2963308086",
+          "https://openalex.org/W2963729324",
+          "https://openalex.org/W2964121744",
+          "https://openalex.org/W2970049541",
+          "https://openalex.org/W2998115938"
+        ],
+        "retracted": false,
+        "provenance": [
+          "keyword: multilingual sentiment classification corpus DVD music books",
+          "keyword: cross language sentiment classification review dataset DVD music books"
+        ],
+        "criteria": [],
+        "rrf": 0.02348901098901099,
+        "aliases": [
+          "https://openalex.org/W2983561806"
+        ],
+        "neural_score": -2.07671,
+        "score": 0.16834
+      },
+      {
+        "id": "https://openalex.org/W4385573103",
+        "title": "Curriculum Knowledge Distillation for Emoji-supervised Cross-lingual Sentiment Analysis",
+        "doi": "https://doi.org/10.18653/v1/2022.emnlp-main.55",
+        "year": 2022,
+        "abstract": "Existing sentiment analysis models have achieved great advances with the help of sufficient sentiment annotations. Unfortunately, many languages do not have sufficient sentiment corpus. To this end, recent studies have proposed cross-lingual sentiment analysis to transfer sentiment analysis models from resource-rich languages to low-resource languages. However, these studies either rely on external cross-lingual supervision (e.g., parallel corpora and translation model), or are limited by the cross-lingual gaps. In this work, based on the intuitive assumption that the relationships between emojis and sentiments are consistent across different languages, we investigate transferring sentiment knowledge across languages with the help of emojis. To this end, we propose a novel cross-lingual sentiment analysis approach dubbed Curriculum Knowledge Distiller (CKD). The core idea of CKD is to use emojis to bridge the source and target languages. Note that, compared with texts, emojis are more transferable, but cannot reveal the precise sentiment. Thus, we distill multiple Intermediate Sentiment Classifiers (ISC) on source language corpus with emojis to get ISCs with different attention weights of texts. To transfer them into the target language, we distill ISCs into the Target Language Sentiment Classifier (TSC) following the curriculum learning mechanism. In this way, TSC can learn delicate sentiment knowledge, meanwhile, avoid being affected by cross-lingual gaps. Experimental results on five cross-lingual benchmarks clearly verify the effectiveness of our approach.",
+        "authors": [
+          "Jianyang Zhang",
+          "Liang Tao",
+          "Mingyang Wan",
+          "Guowu Yang",
+          "Fengmao Lv"
+        ],
+        "venue": "Conference on Empirical Methods in Natural Language Processing (EMNLP)",
+        "citations": 5,
+        "open_access": true,
+        "url": "https://doi.org/10.18653/v1/2022.emnlp-main.55",
+        "pdf_url": "https://aclanthology.org/2022.emnlp-main.55.pdf",
+        "references": [
+          "https://openalex.org/W21119625",
+          "https://openalex.org/W1821462560",
+          "https://openalex.org/W1993682096",
+          "https://openalex.org/W2096873754",
+          "https://openalex.org/W2161205248",
+          "https://openalex.org/W2163072651",
+          "https://openalex.org/W2250904672",
+          "https://openalex.org/W2251805974",
+          "https://openalex.org/W2274912527",
+          "https://openalex.org/W2296073425",
+          "https://openalex.org/W2731828881",
+          "https://openalex.org/W2756639730",
+          "https://openalex.org/W2762484717",
+          "https://openalex.org/W2767917127",
+          "https://openalex.org/W2779147441",
+          "https://openalex.org/W2799052853",
+          "https://openalex.org/W2889720764",
+          "https://openalex.org/W2891844856",
+          "https://openalex.org/W2923622379",
+          "https://openalex.org/W2950404230",
+          "https://openalex.org/W2962947218",
+          "https://openalex.org/W2963308086",
+          "https://openalex.org/W2963341956",
+          "https://openalex.org/W2963729324",
+          "https://openalex.org/W2964121744",
+          "https://openalex.org/W2971327614",
+          "https://openalex.org/W2983040767",
+          "https://openalex.org/W2983561806",
+          "https://openalex.org/W2997860773",
+          "https://openalex.org/W3032816972",
+          "https://openalex.org/W3032928500",
+          "https://openalex.org/W3034708897",
+          "https://openalex.org/W3034978379",
+          "https://openalex.org/W3039695075",
+          "https://openalex.org/W3106031848",
+          "https://openalex.org/W3123742938",
+          "https://openalex.org/W3155601106",
+          "https://openalex.org/W3157374291",
+          "https://openalex.org/W3174805484",
+          "https://openalex.org/W3197312297"
+        ],
+        "retracted": false,
+        "provenance": [
+          "keyword: multilingual sentiment classification corpus DVD music books",
+          "keyword: cross language sentiment classification review dataset DVD music books"
+        ],
+        "criteria": [],
+        "rrf": 0.022762345679012343,
+        "aliases": [
+          "https://openalex.org/W4385573103"
+        ],
+        "neural_score": -2.1549,
+        "score": 0.15988
+      },
+      {
+        "id": "https://openalex.org/W1552146667",
+        "title": "LABR: A Large Scale Arabic Sentiment Analysis Benchmark",
+        "doi": "https://doi.org/10.48550/arxiv.1411.6718",
+        "year": 2014,
+        "abstract": "We introduce LABR, the largest sentiment analysis dataset to-date for the Arabic language. It consists of over 63,000 book reviews, each rated on a scale of 1 to 5 stars. We investigate the properties of the dataset, and present its statistics. We explore using the dataset for two tasks: (1) sentiment polarity classification; and (2) ratings classification. Moreover, we provide standard splits of the dataset into training, validation and testing, for both polarity and ratings classification, in both balanced and unbalanced settings. We extend our previous work by performing a comprehensive analysis on the dataset. In particular, we perform an extended survey of the different classifiers typically used for the sentiment polarity classification problem. We also construct a sentiment lexicon from the dataset that contains both single and compound sentiment words and we explore its effectiveness. We make the dataset and experimental details publicly available.",
+        "authors": [
+          "Mahmoud Nabil",
+          "Mohamed Aly",
+          "Amir F. Atiya"
+        ],
+        "venue": "arXiv",
+        "citations": 58,
+        "open_access": true,
+        "url": "https://doi.org/10.48550/arxiv.1411.6718",
+        "pdf_url": "https://arxiv.org/pdf/1411.6718",
+        "references": [
+          "https://openalex.org/W31502041",
+          "https://openalex.org/W40549020",
+          "https://openalex.org/W1480176536",
+          "https://openalex.org/W1550206324",
+          "https://openalex.org/W1574901103",
+          "https://openalex.org/W1608357024",
+          "https://openalex.org/W1740779835",
+          "https://openalex.org/W1964613733",
+          "https://openalex.org/W2005624335",
+          "https://openalex.org/W2027232045",
+          "https://openalex.org/W2057854333",
+          "https://openalex.org/W2062233052",
+          "https://openalex.org/W2063596712",
+          "https://openalex.org/W2063809066",
+          "https://openalex.org/W2084046180",
+          "https://openalex.org/W2113125055",
+          "https://openalex.org/W2124752409",
+          "https://openalex.org/W2138923868",
+          "https://openalex.org/W2143934623",
+          "https://openalex.org/W2151739810",
+          "https://openalex.org/W2239389665",
+          "https://openalex.org/W2252085349",
+          "https://openalex.org/W2267835966",
+          "https://openalex.org/W3009009611",
+          "https://openalex.org/W3172838183",
+          "https://openalex.org/W4205184193",
+          "https://openalex.org/W7237380307"
+        ],
+        "retracted": false,
+        "provenance": [
+          "semantic: cross language sentiment classification review dataset DVD music books"
+        ],
+        "criteria": [],
+        "rrf": 0.015873015873015872,
+        "aliases": [
+          "https://openalex.org/W1552146667"
+        ],
+        "neural_score": -2.03473,
+        "score": 0.14603
+      },
+      {
+        "id": "https://openalex.org/W4293078876",
+        "title": "A Survey of Cross-lingual Sentiment Analysis: Methodologies, Models and Evaluations",
+        "doi": "https://doi.org/10.1007/s41019-022-00187-3",
+        "year": 2022,
+        "abstract": "Cross-lingual sentiment analysis (CLSA) leverages one or several source languages to help the low-resource languages to perform sentiment analysis. Therefore, the problem of lack of annotated corpora in many non-English languages can be alleviated. Along with the development of economic globalization, CLSA has attracted much attention in the field of sentiment analysis and the last decade has seen a surge of researches in this area. Numerous methods, datasets and evaluation metrics have been proposed in the literature, raising the need for a comprehensive and updated survey. This paper fills the gap by reviewing the state-of-the-art CLSA approaches from 2004 to the present. This paper teases out the research context of cross-lingual sentiment analysis and elaborates the following methods in detail: (1) The early main methods of CLSA, including those based on Machine Translation and its improved variants, parallel corpora or bilingual sentiment lexicon; (2) CLSA based on cross-lingual word embedding; (3) CLSA based on multi-BERT and other pre-trained models. We further analyze their main ideas, methodologies, shortcomings, etc., and attempt to reach a conclusion on the coverage of languages, datasets and their performance. Finally, we look into the future development of CLSA and the challenges facing the research area.",
+        "authors": [
+          "Yuemei Xu",
+          "Han Cao",
+          "Wanze Du",
+          "Wenqing Wang"
+        ],
+        "venue": "Data Science and Engineering",
+        "citations": 91,
+        "open_access": true,
+        "url": "https://doi.org/10.1007/s41019-022-00187-3",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s41019-022-00187-3.pdf",
+        "references": [
+          "https://openalex.org/W63749954",
+          "https://openalex.org/W79971180",
+          "https://openalex.org/W193524605",
+          "https://openalex.org/W297073488",
+          "https://openalex.org/W342285082",
+          "https://openalex.org/W1496143958",
+          "https://openalex.org/W1614298861",
+          "https://openalex.org/W1985767166",
+          "https://openalex.org/W1993682096",
+          "https://openalex.org/W2017489100",
+          "https://openalex.org/W2019797838",
+          "https://openalex.org/W2027570514",
+          "https://openalex.org/W2071332064",
+          "https://openalex.org/W2075659194",
+          "https://openalex.org/W2112544000",
+          "https://openalex.org/W2118090838",
+          "https://openalex.org/W2122455551",
+          "https://openalex.org/W2145809663",
+          "https://openalex.org/W2148257113",
+          "https://openalex.org/W2157076169",
+          "https://openalex.org/W2158108973",
+          "https://openalex.org/W2163072651",
+          "https://openalex.org/W2171068337",
+          "https://openalex.org/W2217916860",
+          "https://openalex.org/W2242874043",
+          "https://openalex.org/W2250313959",
+          "https://openalex.org/W2252121005",
+          "https://openalex.org/W2252212383",
+          "https://openalex.org/W2295781714",
+          "https://openalex.org/W2415270779",
+          "https://openalex.org/W2513016193",
+          "https://openalex.org/W2538197161",
+          "https://openalex.org/W2595261013",
+          "https://openalex.org/W2601386784",
+          "https://openalex.org/W2613770547",
+          "https://openalex.org/W2741602058",
+          "https://openalex.org/W2762484717",
+          "https://openalex.org/W2767917127",
+          "https://openalex.org/W2770073503",
+          "https://openalex.org/W2779147441"
+        ],
+        "retracted": false,
+        "provenance": [
+          "keyword: multilingual review corpus cross lingual sentiment analysis",
+          "semantic: multilingual review corpus cross lingual sentiment analysis"
+        ],
+        "criteria": [],
+        "rrf": 0.0293236301369863,
+        "aliases": [
+          "https://openalex.org/W4293078876"
+        ],
+        "neural_score": -2.79738,
+        "score": 0.14489
+      },
+      {
+        "id": "https://openalex.org/W2890362981",
+        "title": "A Cross-Lingual Approach for Building Multilingual Sentiment Lexicons",
+        "doi": "https://doi.org/10.1007/978-3-030-00794-2_28",
+        "year": 2018,
+        "abstract": "",
+        "authors": [
+          "Behzad Naderalvojoud",
+          "Behrang QasemiZadeh",
+          "Laura Kallmeyer",
+          "Ebru Akçapınar Sezer"
+        ],
+        "venue": "Lecture notes in computer science",
+        "citations": 2,
+        "open_access": false,
+        "url": "https://doi.org/10.1007/978-3-030-00794-2_28",
+        "pdf_url": null,
+        "references": [
+          "https://openalex.org/W193524605",
+          "https://openalex.org/W635530177",
+          "https://openalex.org/W1256013790",
+          "https://openalex.org/W1550656687",
+          "https://openalex.org/W2022204871",
+          "https://openalex.org/W2084046180",
+          "https://openalex.org/W2109830295",
+          "https://openalex.org/W2112422413",
+          "https://openalex.org/W2124388587",
+          "https://openalex.org/W2141631351",
+          "https://openalex.org/W2141790691",
+          "https://openalex.org/W2160250477",
+          "https://openalex.org/W2168625136",
+          "https://openalex.org/W2480273168",
+          "https://openalex.org/W2567406479",
+          "https://openalex.org/W2593762897",
+          "https://openalex.org/W2609040075",
+          "https://openalex.org/W2741388816",
+          "https://openalex.org/W2759687317",
+          "https://openalex.org/W6925167662"
+        ],
+        "retracted": false,
+        "provenance": [
+          "semantic: Where can I find a multilingual corpus that includes reviews on DVDs, music, and books for the purposes of cross-language sentiment classification research?",
+          "semantic: multilingual review corpus cross lingual sentiment analysis"
+        ],
+        "criteria": [],
+        "rrf": 0.022222222222222223,
+        "aliases": [
+          "https://openalex.org/W2890362981"
+        ],
+        "neural_score": -2.39031,
+        "score": 0.14209
+      }
+    ],
+    "usage": {
+      "api_calls": 7,
+      "cache_hits": 0,
+      "llm_calls": 3
+    },
+    "ranker": "cross-encoder + RRF",
+    "gaps": [],
+    "repaired": false,
+    "warnings": [],
+    "citation_edges": [
+      {
+        "source": "https://openalex.org/W3092547334",
+        "target": "https://openalex.org/W2803828341"
+      },
+      {
+        "source": "https://openalex.org/W7133209366",
+        "target": "https://openalex.org/W2138923868"
+      },
+      {
+        "source": "https://openalex.org/W2765177548",
+        "target": "https://openalex.org/W2138923868"
+      },
+      {
+        "source": "https://openalex.org/W4299874988",
+        "target": "https://openalex.org/W2108765529"
+      },
+      {
+        "source": "https://openalex.org/W4310608682",
+        "target": "https://openalex.org/W2983561806"
+      },
+      {
+        "source": "https://openalex.org/W2259387181",
+        "target": "https://openalex.org/W2167660864"
+      },
+      {
+        "source": "https://openalex.org/W4312257216",
+        "target": "https://openalex.org/W2108765529"
+      },
+      {
+        "source": "https://openalex.org/W4312257216",
+        "target": "https://openalex.org/W2167660864"
+      },
+      {
+        "source": "https://openalex.org/W2250904672",
+        "target": "https://openalex.org/W2167660864"
+      },
+      {
+        "source": "https://openalex.org/W7125650571",
+        "target": "https://openalex.org/W4312257216"
+      },
+      {
+        "source": "https://openalex.org/W2983561806",
+        "target": "https://openalex.org/W2167660864"
+      },
+      {
+        "source": "https://openalex.org/W4385573103",
+        "target": "https://openalex.org/W2250904672"
+      },
+      {
+        "source": "https://openalex.org/W4385573103",
+        "target": "https://openalex.org/W2983561806"
+      },
+      {
+        "source": "https://openalex.org/W1552146667",
+        "target": "https://openalex.org/W2138923868"
+      }
+    ],
+    "evidence_basis": "Title and abstract; no full text read",
+    "ablations": {
+      "single_semantic": [
+        "https://openalex.org/W3092547334",
+        "https://openalex.org/W2138923868",
+        "https://openalex.org/W2496622759",
+        "https://openalex.org/W2803828341",
+        "https://openalex.org/W2985092403",
+        "https://openalex.org/W2259387181",
+        "https://openalex.org/W2062589306",
+        "https://openalex.org/W3159768226",
+        "https://openalex.org/W2252226979",
+        "https://openalex.org/W1579082069",
+        "https://openalex.org/W333826740",
+        "https://openalex.org/W2988037059",
+        "https://openalex.org/W91607406",
+        "https://openalex.org/W81717766",
+        "https://openalex.org/W7133209366",
+        "https://openalex.org/W1962895514",
+        "https://openalex.org/W4393744738",
+        "https://openalex.org/W2765177548",
+        "https://openalex.org/W2564701345",
+        "https://openalex.org/W4393554863",
+        "https://openalex.org/W2164750856",
+        "https://openalex.org/W4380993492",
+        "https://openalex.org/W3045092025",
+        "https://openalex.org/W2550338288",
+        "https://openalex.org/W2797364761",
+        "https://openalex.org/W2791314571",
+        "https://openalex.org/W3003915636",
+        "https://openalex.org/W4396792691",
+        "https://openalex.org/W2971312566",
+        "https://openalex.org/W2890362981",
+        "https://openalex.org/W4299874988",
+        "https://openalex.org/W2576054145",
+        "https://openalex.org/W2574812778",
+        "https://openalex.org/W2911787823",
+        "https://openalex.org/W1203948291",
+        "https://openalex.org/W2242795803",
+        "https://openalex.org/W2783525498",
+        "https://openalex.org/W2788919882",
+        "https://openalex.org/W2498193791",
+        "https://openalex.org/W3153376460"
+      ],
+      "rrf": [
+        "https://openalex.org/W3159768226",
+        "https://openalex.org/W4312257216",
+        "https://openalex.org/W1579082069",
+        "https://openalex.org/W91607406",
+        "https://openalex.org/W4393744738",
+        "https://openalex.org/W2564701345",
+        "https://openalex.org/W7133209366",
+        "https://openalex.org/W2138923868",
+        "https://openalex.org/W2911787823",
+        "https://openalex.org/W3092547334",
+        "https://openalex.org/W2287612586",
+        "https://openalex.org/W2259387181",
+        "https://openalex.org/W2798820405",
+        "https://openalex.org/W2939314714",
+        "https://openalex.org/W2062589306",
+        "https://openalex.org/W2591649529",
+        "https://openalex.org/W4293078876",
+        "https://openalex.org/W3206033013",
+        "https://openalex.org/W4281479087",
+        "https://openalex.org/W4396912905",
+        "https://openalex.org/W2765177548",
+        "https://openalex.org/W2733327677",
+        "https://openalex.org/W4310608682",
+        "https://openalex.org/W81717766",
+        "https://openalex.org/W2123733030",
+        "https://openalex.org/W4385572198",
+        "https://openalex.org/W2238429470",
+        "https://openalex.org/W3045092025",
+        "https://openalex.org/W2164750856",
+        "https://openalex.org/W2287493855",
+        "https://openalex.org/W2574812778",
+        "https://openalex.org/W2782498408",
+        "https://openalex.org/W7125650571",
+        "https://openalex.org/W2983561806",
+        "https://openalex.org/W2340908569",
+        "https://openalex.org/W2460720124",
+        "https://openalex.org/W4385573103",
+        "https://openalex.org/W4396792691",
+        "https://openalex.org/W1203948291",
+        "https://openalex.org/W2890362981",
+        "https://openalex.org/W2250904672",
+        "https://openalex.org/W4299874988",
+        "https://openalex.org/W4318595446",
+        "https://openalex.org/W3003915636",
+        "https://openalex.org/W3108127110",
+        "https://openalex.org/W3176109448",
+        "https://openalex.org/W4407610876",
+        "https://openalex.org/W4221155692",
+        "https://openalex.org/W2108765529",
+        "https://openalex.org/W2113459411",
+        "https://openalex.org/W3166583983",
+        "https://openalex.org/W2625475744",
+        "https://openalex.org/W2167660864",
+        "https://openalex.org/W1840435438",
+        "https://openalex.org/W2496622759",
+        "https://openalex.org/W1552146667",
+        "https://openalex.org/W2150102617",
+        "https://openalex.org/W2803828341",
+        "https://openalex.org/W4404782920",
+        "https://openalex.org/W4226150491"
+      ],
+      "rerank": [
+        "https://openalex.org/W3092547334",
+        "https://openalex.org/W1579082069",
+        "https://openalex.org/W3159768226",
+        "https://openalex.org/W7133209366",
+        "https://openalex.org/W4393744738",
+        "https://openalex.org/W2765177548",
+        "https://openalex.org/W3045092025",
+        "https://openalex.org/W4299874988",
+        "https://openalex.org/W2062589306",
+        "https://openalex.org/W2803828341",
+        "https://openalex.org/W4310608682",
+        "https://openalex.org/W2259387181",
+        "https://openalex.org/W4312257216",
+        "https://openalex.org/W4396792691",
+        "https://openalex.org/W4221155692",
+        "https://openalex.org/W91607406",
+        "https://openalex.org/W4226150491",
+        "https://openalex.org/W2108765529",
+        "https://openalex.org/W2287493855",
+        "https://openalex.org/W2911787823",
+        "https://openalex.org/W2167660864",
+        "https://openalex.org/W2138923868",
+        "https://openalex.org/W2250904672",
+        "https://openalex.org/W7125650571",
+        "https://openalex.org/W2123733030",
+        "https://openalex.org/W2983561806",
+        "https://openalex.org/W4385573103",
+        "https://openalex.org/W1552146667",
+        "https://openalex.org/W4293078876",
+        "https://openalex.org/W2890362981",
+        "https://openalex.org/W4396912905",
+        "https://openalex.org/W2574812778",
+        "https://openalex.org/W2564701345",
+        "https://openalex.org/W2782498408",
+        "https://openalex.org/W2287612586",
+        "https://openalex.org/W2798820405",
+        "https://openalex.org/W2939314714",
+        "https://openalex.org/W81717766",
+        "https://openalex.org/W2733327677",
+        "https://openalex.org/W2591649529",
+        "https://openalex.org/W2164750856",
+        "https://openalex.org/W2625475744",
+        "https://openalex.org/W3206033013",
+        "https://openalex.org/W2340908569",
+        "https://openalex.org/W1203948291",
+        "https://openalex.org/W4281479087",
+        "https://openalex.org/W3176109448",
+        "https://openalex.org/W4385572198",
+        "https://openalex.org/W2238429470",
+        "https://openalex.org/W2460720124",
+        "https://openalex.org/W3108127110",
+        "https://openalex.org/W4318595446",
+        "https://openalex.org/W3003915636",
+        "https://openalex.org/W4407610876",
+        "https://openalex.org/W2113459411",
+        "https://openalex.org/W3166583983",
+        "https://openalex.org/W1840435438",
+        "https://openalex.org/W2150102617",
+        "https://openalex.org/W2496622759",
+        "https://openalex.org/W4404782920"
+      ]
+    },
+    "candidate_index": {
+      "https://openalex.org/W4312257216": {
+        "title": "Multilingual Sentiment Analysis for Under-Resourced Languages: A Systematic Review of the Landscape",
+        "year": 2022
+      },
+      "https://openalex.org/W3166583983": {
+        "title": "Practical Transformer-based Multilingual Text Classification",
+        "year": 2021
+      },
+      "https://openalex.org/W4281479087": {
+        "title": "SentiCode: A new paradigm for one-time training and global prediction in multilingual sentiment analysis",
+        "year": 2022
+      },
+      "https://openalex.org/W4396912905": {
+        "title": "Analyzing Language Bias Between French and English in Conventional Multilingual Sentiment Analysis Models",
+        "year": 2024
+      },
+      "https://openalex.org/W2287612586": {
+        "title": "Distributional Correspondence Indexing for Cross-Lingual and Cross-Domain Sentiment Classification.",
+        "year": 2016
+      },
+      "https://openalex.org/W3206033013": {
+        "title": "Intelligent Hybrid Feature Selection for Textual Sentiment Classification",
+        "year": 2021
+      },
+      "https://openalex.org/W2798820405": {
+        "title": "Identifying Transferable Information Across Domains for Cross-domain Sentiment Classification",
+        "year": 2018
+      },
+      "https://openalex.org/W2765177548": {
+        "title": "NoReC: The Norwegian Review Corpus",
+        "year": 2018
+      },
+      "https://openalex.org/W2907128969": {
+        "title": "Corpus-based Construction of Sentiment Lexicon to Identify Extreme Opinions by Supervised and Unsupervised Machine learning Methods",
+        "year": 2018
+      },
+      "https://openalex.org/W2782498408": {
+        "title": "Knowledge Extraction and Representation Learning for Music Recommendation and Classification",
+        "year": 2017
+      },
+      "https://openalex.org/W4385572198": {
+        "title": "Multilingual LLMs are Better Cross-lingual In-context Learners with Alignment",
+        "year": 2023
+      },
+      "https://openalex.org/W3207615986": {
+        "title": "Sentiment analysis in Turkish",
+        "year": 2009
+      },
+      "https://openalex.org/W2574104798": {
+        "title": "Sentiment Classification of Spanish Reviews: An Approach based on Feature Selection and Machine Learning Methods",
+        "year": 2016
+      },
+      "https://openalex.org/W7143364472": {
+        "title": "Automatic, adaptive, and applicative sentiment analysis",
+        "year": 2012
+      },
+      "https://openalex.org/W2491574483": {
+        "title": "A Perspective on Sentiment Analysis",
+        "year": 2016
+      },
+      "https://openalex.org/W4412571710": {
+        "title": "ENGLISH FOR MUSIC",
+        "year": 2025
+      },
+      "https://openalex.org/W2296335590": {
+        "title": "Evaluation in Discourse: a Corpus-Based Study",
+        "year": 2016
+      },
+      "https://openalex.org/W2200233075": {
+        "title": "Tellings and Texts: Music, Literature and Performance in North India",
+        "year": 2015
+      },
+      "https://openalex.org/W3154568275": {
+        "title": "Curriculum CycleGAN for Textual Sentiment Domain Adaptation with Multiple Sources",
+        "year": 2021
+      },
+      "https://openalex.org/W2983561806": {
+        "title": "Towards a Unified End-to-End Approach for Fully Unsupervised Cross-Lingual Sentiment Analysis",
+        "year": 2019
+      },
+      "https://openalex.org/W4385573103": {
+        "title": "Curriculum Knowledge Distillation for Emoji-supervised Cross-lingual Sentiment Analysis",
+        "year": 2022
+      },
+      "https://openalex.org/W4387559342": {
+        "title": "Zero-shot Cross-lingual Transfer without Parallel Corpus",
+        "year": 2023
+      },
+      "https://openalex.org/W2340908569": {
+        "title": "A Multilingual, Multi-style and Multi-granularity Dataset for Cross-language Textual Similarity Detection",
+        "year": 2016
+      },
+      "https://openalex.org/W3014886426": {
+        "title": "Translating Catalan cinema: the functions of multilingualism and their representation in subtitling",
+        "year": 2020
+      },
+      "https://openalex.org/W2997945091": {
+        "title": "Multi-Scale Self-Attention for Text Classification",
+        "year": 2020
+      },
+      "https://openalex.org/W205683025": {
+        "title": "Sentiment analysis in arabic: opinion polarity detection",
+        "year": 2013
+      },
+      "https://openalex.org/W2611231877": {
+        "title": "Quantitative Assessment of Factors in Sentiment Analysis",
+        "year": 2016
+      },
+      "https://openalex.org/W4410513328": {
+        "title": "A Survey on Sentiment Analysis in Tamil: Critical Analysis",
+        "year": 2025
+      },
+      "https://openalex.org/W3108127110": {
+        "title": "Unsupervised Semantic Approach of Aspect-Based Sentiment Analysis for Large-Scale User Reviews",
+        "year": 2020
+      },
+      "https://openalex.org/W2617070002": {
+        "title": "Artificial Neural Network methods applied to sentiment analysis",
+        "year": 2017
+      },
+      "https://openalex.org/W2950159094": {
+        "title": "Estimate Sentiment of Crowds from Social Media during City Events",
+        "year": 2019
+      },
+      "https://openalex.org/W3176109448": {
+        "title": "Cross-lingual Text Classification with Heterogeneous Graph Neural Network",
+        "year": 2021
+      },
+      "https://openalex.org/W4318595446": {
+        "title": "A review of semi-supervised learning for text classification",
+        "year": 2023
+      },
+      "https://openalex.org/W2987878148": {
+        "title": "Learning to Few-Shot Learn Across Diverse Natural Language Classification Tasks",
+        "year": 2020
+      },
+      "https://openalex.org/W2250904672": {
+        "title": "Semi-Supervised Representation Learning for Cross-Lingual Text Classification",
+        "year": 2013
+      },
+      "https://openalex.org/W2580215879": {
+        "title": "Dubbing the multilingual moment: Translating English-language American television shows with French into French",
+        "year": 2009
+      },
+      "https://openalex.org/W3092023827": {
+        "title": "Cross-Lingual Text Classification with Minimal Resources by Transferring a Sparse Teacher",
+        "year": 2020
+      },
+      "https://openalex.org/W4407610876": {
+        "title": "A Systematic Review of the Sentiment Analysis Models Used in Handling Polarity Shift",
+        "year": 2024
+      },
+      "https://openalex.org/W3014477225": {
+        "title": "Exploring Crosslingual Word Embeddings for Semantic Classification in Text and Dialogue",
+        "year": 2019
+      },
+      "https://openalex.org/W2460720124": {
+        "title": "Bilingual Word Embeddings from Parallel and Non-parallel Corpora for Cross-Language Text Classification",
+        "year": 2016
+      },
+      "https://openalex.org/W3092547334": {
+        "title": "The Multilingual Amazon Reviews Corpus",
+        "year": 2020
+      },
+      "https://openalex.org/W2138923868": {
+        "title": "LABR: A Large Scale Arabic Book Reviews Dataset",
+        "year": 2013
+      },
+      "https://openalex.org/W2496622759": {
+        "title": "Movie Language Revisited: Evidence from Multi-Dimensional Analysis and Corpora",
+        "year": 2012
+      },
+      "https://openalex.org/W2803828341": {
+        "title": "A Corpus for Multilingual Document Classification in Eight Languages",
+        "year": 2018
+      },
+      "https://openalex.org/W2985092403": {
+        "title": "Multi-Level Sentiment Analysis of PolEmo 2.0: Extended Corpus of Multi-Domain Consumer Reviews",
+        "year": 2019
+      },
+      "https://openalex.org/W2259387181": {
+        "title": "Multilingual Entity-Centered Sentiment Analysis Evaluated by Parallel Corpora",
+        "year": 2011
+      },
+      "https://openalex.org/W2062589306": {
+        "title": "OpinionIt: a text mining system for cross-lingual opinion analysis",
+        "year": 2010
+      },
+      "https://openalex.org/W3159768226": {
+        "title": "MultiEmo: Multilingual, Multilevel, Multidomain Sentiment Analysis Corpus of Consumer Reviews",
+        "year": 2021
+      },
+      "https://openalex.org/W2252226979": {
+        "title": "The Haves and the Have-Nots: Leveraging Unlabelled Corpora for Sentiment Analysis",
+        "year": 2013
+      },
+      "https://openalex.org/W1579082069": {
+        "title": "The USAGE review corpus for fine grained multi lingual opinion analysis",
+        "year": 2014
+      },
+      "https://openalex.org/W333826740": {
+        "title": "Bilingual Experiments on an Opinion Comparable Corpus",
+        "year": 2013
+      },
+      "https://openalex.org/W2988037059": {
+        "title": "Compilation of a multilingual parallel corpus",
+        "year": 2001
+      },
+      "https://openalex.org/W91607406": {
+        "title": "Comparable English-Russian book review corpora for sentiment analysis",
+        "year": 2010
+      },
+      "https://openalex.org/W81717766": {
+        "title": "Multilingual Corpus Development for Opinion Mining",
+        "year": 2010
+      },
+      "https://openalex.org/W7133209366": {
+        "title": "Massively Multilingual Corpus of Sentiment Datasets and Multi-faceted Sentiment Classification Benchmark",
+        "year": 2023
+      },
+      "https://openalex.org/W1962895514": {
+        "title": "Presenting the VENEC corpus : Development of a cross-cultural corpus of vocal emotion expressions and a novel method of annotating emotion appraisals",
+        "year": 2010
+      },
+      "https://openalex.org/W4393744738": {
+        "title": "Webis Cross-Lingual Sentiment Dataset 2010 (Webis-CLS-10)",
+        "year": 2010
+      },
+      "https://openalex.org/W2564701345": {
+        "title": "Cross-Lingual Sentiment Analysis with Machine Translation Utility of training corpora and sentiment lexica",
+        "year": 2013
+      },
+      "https://openalex.org/W4393554863": {
+        "title": "Multilingual fine-grained sentiment analysis corpus",
+        "year": 2022
+      },
+      "https://openalex.org/W2164750856": {
+        "title": "How to assess customer opinions beyond language barriers?",
+        "year": 2008
+      },
+      "https://openalex.org/W4380993492": {
+        "title": "AlbMoRe: A Corpus of Movie Reviews for Sentiment Analysis in Albanian",
+        "year": 2023
+      },
+      "https://openalex.org/W3045092025": {
+        "title": "PolEmo 1.0 + MultiEmo-Test 1.0 Multilingual Sentiment Analysis Dataset for KES2020",
+        "year": 2020
+      },
+      "https://openalex.org/W2550338288": {
+        "title": "Building A Sentiment Analysis Corpus With Multifaceted Hierarchical Annotation",
+        "year": 2015
+      },
+      "https://openalex.org/W2797364761": {
+        "title": "Cross-lingual genre classification for closely related languages",
+        "year": 2012
+      },
+      "https://openalex.org/W2791314571": {
+        "title": "Robust cross-lingual genre classification through comparable corpora",
+        "year": 2012
+      },
+      "https://openalex.org/W3003915636": {
+        "title": "Using multilingual corpora",
+        "year": 2014
+      },
+      "https://openalex.org/W4396792691": {
+        "title": "Equivalent sentiment measures for cross-language analysis of corporate communications",
+        "year": 2024
+      },
+      "https://openalex.org/W2971312566": {
+        "title": "Cross-cultural Learning Resource Recommendation Method and Corpus Construction Based on Online Comment Sentiment Analysis",
+        "year": 2019
+      },
+      "https://openalex.org/W2890362981": {
+        "title": "A Cross-Lingual Approach for Building Multilingual Sentiment Lexicons",
+        "year": 2018
+      },
+      "https://openalex.org/W4299874988": {
+        "title": "Multilingual Sentiment Analysis Using Latent Semantic Indexing and Machine Learning.",
+        "year": 2016
+      },
+      "https://openalex.org/W2576054145": {
+        "title": "Quality Assessment of the Reuters Vol. 2 Multilingual Corpus",
+        "year": 2016
+      },
+      "https://openalex.org/W2574812778": {
+        "title": "An Approach of Cross-domain Word Sentiment Orientation Identification on Reviews",
+        "year": 2016
+      },
+      "https://openalex.org/W2911787823": {
+        "title": "Holistic Multilingual Sentiment Analysis on Reviews in Social Media",
+        "year": 2019
+      },
+      "https://openalex.org/W1203948291": {
+        "title": "Linked-data based domain-specific sentiment lexicons",
+        "year": 2014
+      },
+      "https://openalex.org/W2242795803": {
+        "title": "The Construction & Research of Multilingual Corpora",
+        "year": 2010
+      },
+      "https://openalex.org/W2783525498": {
+        "title": "Review of Multilingual Corpora and Multilingual Corpus Analysis",
+        "year": 2014
+      },
+      "https://openalex.org/W2788919882": {
+        "title": "MultiBooked_Corpora [research data]",
+        "year": 2022
+      },
+      "https://openalex.org/W2498193791": {
+        "title": "Researching Genres with Multilingual Corpora: A Conceptual Enquiry: Carmen Pérez-Llantada",
+        "year": 2016
+      },
+      "https://openalex.org/W3153376460": {
+        "title": "Linguistic and Computataional Aspects of Appraisal Annotation",
+        "year": 2020
+      },
+      "https://openalex.org/W2939314714": {
+        "title": "Cross-Lingual Sentiment Quantification",
+        "year": 2020
+      },
+      "https://openalex.org/W4404782920": {
+        "title": "UniGen: Universal Domain Generalization for Sentiment Classification via Zero-shot Dataset Generation",
+        "year": 2024
+      },
+      "https://openalex.org/W2468367192": {
+        "title": "Exploring Customer Reviews For Music Genre Classification And Evolutionary Studies.",
+        "year": 2016
+      },
+      "https://openalex.org/W2963631343": {
+        "title": "Structural Correspondence Learning for Cross-Lingual Sentiment Classification with One-to-Many Mappings",
+        "year": 2017
+      },
+      "https://openalex.org/W3048629713": {
+        "title": "Cross-domain sentiment classification initiated with Polarity Detection Task",
+        "year": 2018
+      },
+      "https://openalex.org/W2552366276": {
+        "title": "Determining Fuzzy Membership for Sentiment Classification: A Three-Layer Sentiment Propagation Model",
+        "year": 2016
+      },
+      "https://openalex.org/W2819860922": {
+        "title": "Distributional Correspondence Indexing for Cross-Lingual and Cross-Domain Sentiment Classification (Extended Abstract)",
+        "year": 2018
+      },
+      "https://openalex.org/W2238429470": {
+        "title": "Predicting the Effectiveness of Self-Training: Application to Sentiment Classification",
+        "year": 2016
+      },
+      "https://openalex.org/W3172948587": {
+        "title": "Improving Cross-Lingual Sentiment Analysis via Conditional Language Adversarial Nets",
+        "year": 2021
+      },
+      "https://openalex.org/W2828882852": {
+        "title": "Natural language processing for music knowledge discovery",
+        "year": 2018
+      },
+      "https://openalex.org/W2598051090": {
+        "title": "Investigation of sentence structure in domain adaptation for sentiment classification",
+        "year": 2014
+      },
+      "https://openalex.org/W2804777280": {
+        "title": "Learning Domain Representation for Multi-Domain Sentiment Classification",
+        "year": 2018
+      },
+      "https://openalex.org/W3102836509": {
+        "title": "Using the Past Knowledge to Improve Sentiment Classification",
+        "year": 2020
+      },
+      "https://openalex.org/W2287493855": {
+        "title": "Cross-domain sentiment classification using grams derived from syntax trees and an adapted naive Bayes approach",
+        "year": 2012
+      },
+      "https://openalex.org/W2356007402": {
+        "title": "Analyzing user behavior and sentiment in music streaming services",
+        "year": 2016
+      },
+      "https://openalex.org/W4312127319": {
+        "title": "Dual-Word Embedding Model Considering Syntactic Information for Cross-Domain Sentiment Classification",
+        "year": 2022
+      },
+      "https://openalex.org/W7236533583": {
+        "title": "Predicting the effectiveness of self-training: application to sentiment classification",
+        "year": 2016
+      },
+      "https://openalex.org/W2402368953": {
+        "title": "Parental socialization and the consumption of domestic films, books and music",
+        "year": 2016
+      },
+      "https://openalex.org/W2250325999": {
+        "title": "Learning to Adapt Credible Knowledge in Cross-lingual Sentiment Analysis",
+        "year": 2015
+      },
+      "https://openalex.org/W1968811301": {
+        "title": "Optimization of Cross Domain Sentiment Analysis Using Sentiwordnet",
+        "year": 2013
+      },
+      "https://openalex.org/W4205547121": {
+        "title": "A Sentiment Analysis of Star-rating: a Cross-Cultural Perspective",
+        "year": 2022
+      },
+      "https://openalex.org/W3154685683": {
+        "title": "Learning to share by masking the non-shared for multi-domain sentiment classification",
+        "year": 2022
+      },
+      "https://openalex.org/W4379620250": {
+        "title": "MUTUAL: Multi-Domain Sentiment Classification via Uncertainty Sampling",
+        "year": 2023
+      },
+      "https://openalex.org/W2951097597": {
+        "title": "Semisupervised Autoencoder for Sentiment Analysis",
+        "year": 2016
+      },
+      "https://openalex.org/W2125666396": {
+        "title": "A Novel Two-Step Method for Cross Language Representation Learning",
+        "year": 2013
+      },
+      "https://openalex.org/W2625475744": {
+        "title": "BRAD 1.0: Book reviews in Arabic dataset",
+        "year": 2016
+      },
+      "https://openalex.org/W1552146667": {
+        "title": "LABR: A Large Scale Arabic Sentiment Analysis Benchmark",
+        "year": 2014
+      },
+      "https://openalex.org/W4226150491": {
+        "title": "Sentiment Analysis of Reviews in Natural Language: Roman Urdu as a Case Study",
+        "year": 2022
+      },
+      "https://openalex.org/W4393663534": {
+        "title": "Large Movie Review Dataset",
+        "year": 2011
+      },
+      "https://openalex.org/W2596567846": {
+        "title": "YouTube Movie Reviews: In, Cross, and Open-domain Sentiment Analysis in an Audiovisual Context",
+        "year": 2013
+      },
+      "https://openalex.org/W3002775119": {
+        "title": "A Dataset for the Sentiment Analysis of Indo-Pak Music Industry",
+        "year": 2019
+      },
+      "https://openalex.org/W2222020539": {
+        "title": "Sentiment Analysis of Products’ Reviews Containing English and Hindi Texts",
+        "year": 2015
+      },
+      "https://openalex.org/W7160279487": {
+        "title": "review_sentiment_values",
+        "year": 2026
+      },
+      "https://openalex.org/W4393473194": {
+        "title": "Sentiment analysis in Galaxy with IMDB movie review dataset",
+        "year": 2021
+      },
+      "https://openalex.org/W7214128270": {
+        "title": "miladahadipour/Persian-Sentiment-Analysis-Datasets",
+        "year": 2026
+      },
+      "https://openalex.org/W4393893259": {
+        "title": "Stanford Sentiment Treebank (SST)",
+        "year": 2021
+      },
+      "https://openalex.org/W4220744172": {
+        "title": "Towards a Computational Study of German Book Reviews - A Comparison between Emotion Dictionaries and Transfer Learning in Sentiment Analysis",
+        "year": 2022
+      },
+      "https://openalex.org/W3022791669": {
+        "title": "Genre-Based Indian Viewer Movie Reviews—A Sentiment Analysis Classification of Text and Emoticons with a Supervised Machine Learning Approach",
+        "year": 2020
+      },
+      "https://openalex.org/W1797208690": {
+        "title": "Sentiment popularity - Amazon Mechanical Turk dataset",
+        "year": 2015
+      },
+      "https://openalex.org/W7130950475": {
+        "title": "piopratama/sentiment: v1.0 – Multilingual Sentiment Analysis with Aspect Extraction",
+        "year": 2026
+      },
+      "https://openalex.org/W296482416": {
+        "title": "Semantic-Oriented sentiment classification for Chinese product reviews: An experimental study of book and cell phone reviews",
+        "year": 2012
+      },
+      "https://openalex.org/W7204264030": {
+        "title": "Sentiment Analysis in Movie Review",
+        "year": 2026
+      },
+      "https://openalex.org/W3169684562": {
+        "title": "A Review Mining using Sentimental Analysis",
+        "year": 2021
+      },
+      "https://openalex.org/W7106010566": {
+        "title": "Multi-domain data set of reviews for sentiment classification",
+        "year": 2025
+      },
+      "https://openalex.org/W4393485152": {
+        "title": "Movie review (MR)",
+        "year": 2021
+      },
+      "https://openalex.org/W3025376312": {
+        "title": "A Hybrid Sentiment Classification for Amharic Book Reviews",
+        "year": 2019
+      },
+      "https://openalex.org/W2907147345": {
+        "title": "Sentiment classification of reviews and twitter posts based on dictionaries.",
+        "year": 2015
+      },
+      "https://openalex.org/W3175729884": {
+        "title": "영어 리뷰데이터를 이용한 딥러닝 기반 다국어 감성분석",
+        "year": 2019
+      },
+      "https://openalex.org/W4394376387": {
+        "title": "Bangla (Bengali) Drama Review Dataset",
+        "year": 2020
+      },
+      "https://openalex.org/W4393628657": {
+        "title": "Hebban Reviews",
+        "year": 2022
+      },
+      "https://openalex.org/W2515875010": {
+        "title": "Hindi langauge - bag of words - sentiment analysis",
+        "year": 2016
+      },
+      "https://openalex.org/W2341697418": {
+        "title": "Sentiment Classification pada Game Reviews",
+        "year": 2016
+      },
+      "https://openalex.org/W7147060019": {
+        "title": "App Reviews Sentiment: A Binary Sentiment Classification Corpus from Google Play Store",
+        "year": 2026
+      },
+      "https://openalex.org/W3021207912": {
+        "title": "面向评论信息的跨领域词汇情感倾向判别方法 (Approach of Cross-domain Word Sentiment Orientation Identification on Reviews).",
+        "year": 2015
+      },
+      "https://openalex.org/W4221155692": {
+        "title": "NaijaSenti: A Nigerian Twitter Sentiment Corpus for Multilingual Sentiment Analysis",
+        "year": 2022
+      },
+      "https://openalex.org/W2167660864": {
+        "title": "Co-training for cross-lingual sentiment classification",
+        "year": 2009
+      },
+      "https://openalex.org/W2142262074": {
+        "title": "Learning Multilingual Subjective Language via Cross-Lingual Projections",
+        "year": 2007
+      },
+      "https://openalex.org/W4310608682": {
+        "title": "Distillation Language Adversarial Network for Cross-lingual Sentiment Analysis",
+        "year": 2022
+      },
+      "https://openalex.org/W4395667411": {
+        "title": "A multimodal approach to cross-lingual sentiment analysis with ensemble of transformer and LLM",
+        "year": 2024
+      },
+      "https://openalex.org/W2788625861": {
+        "title": "Cross-Lingual Propagation for Deep Sentiment Analysis",
+        "year": 2018
+      },
+      "https://openalex.org/W3123143942": {
+        "title": "Multilingual Sentiment Analysis: A Systematic Literature Review",
+        "year": 2021
+      },
+      "https://openalex.org/W3091076761": {
+        "title": "Cross-lingual deep neural transfer learning in sentiment analysis",
+        "year": 2020
+      },
+      "https://openalex.org/W4385573142": {
+        "title": "Leveraging a New Spanish Corpus for Multilingual and Cross-lingual Metaphor Detection",
+        "year": 2022
+      },
+      "https://openalex.org/W2492922441": {
+        "title": "Multilingual Sentiment Analysis: State of the Art and Independent Comparison of Techniques",
+        "year": 2016
+      },
+      "https://openalex.org/W4293078876": {
+        "title": "A Survey of Cross-lingual Sentiment Analysis: Methodologies, Models and Evaluations",
+        "year": 2022
+      },
+      "https://openalex.org/W2591649529": {
+        "title": "Supervised sentiment analysis in multilingual environments",
+        "year": 2017
+      },
+      "https://openalex.org/W7125650571": {
+        "title": "A Review of Multilingual Sentiment Analysis",
+        "year": 2026
+      },
+      "https://openalex.org/W2123733030": {
+        "title": "A Cross-Lingual Joint Aspect/Sentiment Model for Sentiment Analysis",
+        "year": 2014
+      },
+      "https://openalex.org/W4389628684": {
+        "title": "Multi-aspect multilingual and cross-lingual parliamentary speech analysis",
+        "year": 2023
+      },
+      "https://openalex.org/W2963729324": {
+        "title": "Adversarial Deep Averaging Networks for Cross-Lingual Sentiment Classification",
+        "year": 2018
+      },
+      "https://openalex.org/W2733327677": {
+        "title": "Cross-Lingual Sentiment Analysis Without (Good) Translation",
+        "year": 2017
+      },
+      "https://openalex.org/W7133240177": {
+        "title": "Beyond transformers in healthcare: advancing cross-lingual sentiment analysis of medical reviews with SHAP-based interpretability",
+        "year": 2026
+      },
+      "https://openalex.org/W2980740258": {
+        "title": "Cross-Lingual and Low-Resource Sentiment Analysis",
+        "year": 2019
+      },
+      "https://openalex.org/W4385569924": {
+        "title": "Towards a Common Understanding of Contributing Factors for Cross-Lingual Transfer in Multilingual Language Models: A Review",
+        "year": 2023
+      },
+      "https://openalex.org/W3105168542": {
+        "title": "Cross-lingual sentiment classification in low-resource Bengali language",
+        "year": 2020
+      },
+      "https://openalex.org/W3021183694": {
+        "title": "A Review on Multi-Lingual Sentiment Analysis by Machine Learning Methods",
+        "year": 2020
+      },
+      "https://openalex.org/W4389523836": {
+        "title": "Cross-lingual Transfer Can Worsen Bias in Sentiment Analysis",
+        "year": 2023
+      },
+      "https://openalex.org/W2803633004": {
+        "title": "Solving Data Sparsity for Aspect Based Sentiment Analysis Using Cross-Linguality and Multi-Linguality",
+        "year": 2018
+      },
+      "https://openalex.org/W7139050015": {
+        "title": "Aspect-Based Sentiment Analysis of Multilingual Hotel Reviews in Jakarta Using Multilingual Transformer Models: A Comparative Study of Multilingual BERT and Cross-Lingual RoBERTa",
+        "year": 2026
+      },
+      "https://openalex.org/W4382130836": {
+        "title": "Multilingual text categorization and sentiment analysis: a comparative analysis of the utilization of multilingual approaches for classifying twitter data",
+        "year": 2023
+      },
+      "https://openalex.org/W3136906876": {
+        "title": "Cross-lingual transfer of sentiment classifiers",
+        "year": 2021
+      },
+      "https://openalex.org/W3082120522": {
+        "title": "Leveraging Multilingual Resources for Language Invariant Sentiment Analysis.",
+        "year": 2020
+      },
+      "https://openalex.org/W3137392973": {
+        "title": "Multilingual Sentiment Analysis",
+        "year": 2020
+      },
+      "https://openalex.org/W3212066909": {
+        "title": "Cross-lingual Aspect-based Sentiment Analysis with Aspect Term Code-Switching",
+        "year": 2021
+      },
+      "https://openalex.org/W7164499994": {
+        "title": "Cross-Lingual Sentiment Classification in Sustainable Mobility: A Zero-Shot Domain Transfer Evaluation Framework",
+        "year": 2026
+      },
+      "https://openalex.org/W4385153851": {
+        "title": "CL-XABSA: Contrastive Learning for Cross-Lingual Aspect-Based Sentiment Analysis",
+        "year": 2023
+      },
+      "https://openalex.org/W3082619305": {
+        "title": "Zero-Shot Learning for Cross-Lingual News Sentiment Classification",
+        "year": 2020
+      },
+      "https://openalex.org/W3093456628": {
+        "title": "XED: A Multilingual Dataset for Sentiment Analysis and Emotion Detection",
+        "year": 2020
+      },
+      "https://openalex.org/W2108765529": {
+        "title": "Using SentiWordNet for multilingual sentiment analysis",
+        "year": 2008
+      },
+      "https://openalex.org/W2252127909": {
+        "title": "Cross-Lingual Sentiment Analysis for Indian Languages using Linked WordNets",
+        "year": 2012
+      },
+      "https://openalex.org/W2252113950": {
+        "title": "Sentiment Analysis on Monolingual, Multilingual and Code-Switching Twitter Corpora",
+        "year": 2015
+      },
+      "https://openalex.org/W2582886257": {
+        "title": "A simple approach to multilingual polarity classification in Twitter",
+        "year": 2017
+      },
+      "https://openalex.org/W3203033219": {
+        "title": "A Multi-Layer Network for Aspect-Based Cross-Lingual Sentiment Classification",
+        "year": 2021
+      },
+      "https://openalex.org/W1965225751": {
+        "title": "Make It Possible: Multilingual Sentiment Analysis without Much Prior Knowledge",
+        "year": 2014
+      },
+      "https://openalex.org/W2250773991": {
+        "title": "Cross Lingual Sentiment Analysis using Modified BRAE",
+        "year": 2015
+      },
+      "https://openalex.org/W2019797838": {
+        "title": "Cross-lingual sentiment classification using multiple source languages in multi-view semi-supervised learning",
+        "year": 2014
+      },
+      "https://openalex.org/W4412940061": {
+        "title": "Multilingual sentiment analysis in restaurant reviews using aspect focused learning",
+        "year": 2025
+      },
+      "https://openalex.org/W2080656495": {
+        "title": "A Comparative Study of Cross-Lingual Sentiment Classification",
+        "year": 2012
+      },
+      "https://openalex.org/W4317496135": {
+        "title": "Semantic Orientation of Crosslingual Sentiments: Employment of Lexicon and Dictionaries",
+        "year": 2023
+      },
+      "https://openalex.org/W2107913029": {
+        "title": "Towards Cross-Language Sentiment Analysis through Universal Star Ratings",
+        "year": 2012
+      },
+      "https://openalex.org/W2415270779": {
+        "title": "Cross-lingual sentiment classification: Similarity discovery plus training data adjustment",
+        "year": 2016
+      },
+      "https://openalex.org/W3153714555": {
+        "title": "Lexicon Based Document Level Sentiment Analysis on the Multilingual Dataset",
+        "year": 2019
+      },
+      "https://openalex.org/W2786239532": {
+        "title": "The Challenges of Multi-dimensional Sentiment Analysis Across Languages",
+        "year": 2016
+      },
+      "https://openalex.org/W4403569595": {
+        "title": "Advancing Multilingual Sentiment Understanding with XGBoost, SVM, and XLM-RoBERTa",
+        "year": 2024
+      },
+      "https://openalex.org/W2666959169": {
+        "title": "A literature Survey on Multilingual Sentiment Analysis",
+        "year": 2016
+      },
+      "https://openalex.org/W4391769449": {
+        "title": "Cross-lingual Sentiment Analysis of Code-Mixed Corpus based on Cross-lingual Word Embedding",
+        "year": 2023
+      },
+      "https://openalex.org/W2113459411": {
+        "title": "Learning Word Vectors for Sentiment Analysis",
+        "year": 2011
+      },
+      "https://openalex.org/W1840435438": {
+        "title": "A large annotated corpus for learning natural language inference",
+        "year": 2015
+      },
+      "https://openalex.org/W2150102617": {
+        "title": "RCV1: A New Benchmark Collection for Text Categorization Research",
+        "year": 2004
+      }
+    },
+    "ordering": "All criteria supported, then incomplete evidence, then explicit counter-evidence; similarity breaks ties",
+    "joint_gap": false,
+    "model": "gemini-3.6-flash"
+  },
+  "events": [
+    {
+      "at": "2026-11-25T14:03:06.502021+00:00",
+      "step": "retrieve",
+      "message": "40 candidates from keyword search",
+      "query": "multilingual sentiment classification corpus DVD music books",
+      "cache_hit": false
+    },
+    {
+      "at": "2026-11-25T14:03:11.011409+00:00",
+      "step": "retrieve",
+      "message": "40 candidates from semantic search",
+      "query": "Where can I find a multilingual corpus that includes reviews on DVDs, music, and books for the purposes of cross-language sentiment classification research?",
+      "cache_hit": false
+    },
+    {
+      "at": "2026-11-25T14:03:13.313859+00:00",
+      "step": "retrieve",
+      "message": "40 candidates from keyword search",
+      "query": "cross language sentiment classification review dataset DVD music books",
+      "cache_hit": false
+    },
+    {
+      "at": "2026-11-25T14:03:16.326977+00:00",
+      "step": "retrieve",
+      "message": "40 candidates from semantic search",
+      "query": "cross language sentiment classification review dataset DVD music books",
+      "cache_hit": false
+    },
+    {
+      "at": "2026-11-25T14:03:18.174262+00:00",
+      "step": "retrieve",
+      "message": "40 candidates from keyword search",
+      "query": "multilingual review corpus cross lingual sentiment analysis",
+      "cache_hit": false
+    },
+    {
+      "at": "2026-11-25T14:03:20.903785+00:00",
+      "step": "retrieve",
+      "message": "40 candidates from semantic search",
+      "query": "multilingual review corpus cross lingual sentiment analysis",
+      "cache_hit": false
+    },
+    {
+      "at": "2026-11-25T14:03:24.193010+00:00",
+      "step": "rank",
+      "message": "Ranked 60 unique candidates",
+      "ranker": "cross-encoder + RRF"
+    },
+    {
+      "at": "2026-11-25T14:03:26.542856+00:00",
+      "step": "citations",
+      "message": "Explored 18 cited works; metadata constraints remain enforced"
+    },
+    {
+      "at": "2026-11-25T14:03:29.966466+00:00",
+      "step": "rank",
+      "message": "Ranked 60 unique candidates",
+      "ranker": "cross-encoder + RRF"
+    },
+    {
+      "at": "2026-11-25T14:04:29.074109+00:00",
+      "step": "evidence",
+      "message": "Assessed top 15 papers; 0 criteria have no supported match",
+      "evidence_basis": "title and abstract only"
+    },
+    {
+      "at": "2026-11-25T14:04:29.107991+00:00",
+      "step": "complete",
+      "message": "Returned 30 papers with provenance and exportable evidence"
+    },
+    {
+      "at": "2026-11-25T14:04:29.121182+00:00",
+      "step": "timing",
+      "message": "Search finished",
+      "elapsed_seconds": 85.25
+    }
+  ],
+  "feedback": {},
+  "task": {
+    "id": "litsearch-84",
+    "question": "Where can I find a multilingual corpus that includes reviews on DVDs, music, and books for the purposes of cross-language sentiment classification research?",
+    "gold_titles": [
+      "Cross-Language Text Classification using Structural Correspondence Learning"
+    ],
+    "gold_corpusids": [
+      12360898
+    ],
+    "query_set": "inline_acl"
+  },
+  "end_to_end_seconds": 89.45
+}

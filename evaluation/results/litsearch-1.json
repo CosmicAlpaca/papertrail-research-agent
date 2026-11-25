@@ -1,0 +1,3246 @@
+{
+  "id": "d099aa5a-59f2-47b1-b03a-fb4083769b7f",
+  "created_at": "2026-11-25T14:06:08.937916+00:00",
+  "status": "complete",
+  "request": {
+    "plan": {
+      "question": "Are there any resources available for translating Tunisian Arabic dialect that contain both manually translated comments by native speakers and additional data augmented through methods like segmentation at stop words level?",
+      "queries": [
+        "Tunisian Arabic parallel corpus manual translation stop words",
+        "Tunisian Arabic translation dataset data augmentation segmentation",
+        "Tunisian dialect machine translation native speaker comments"
+      ],
+      "criteria": [
+        {
+          "id": "c1",
+          "text": "Focuses on resources or datasets for translating Tunisian Arabic dialect"
+        },
+        {
+          "id": "c2",
+          "text": "Contains manually translated comments by native speakers"
+        },
+        {
+          "id": "c3",
+          "text": "Includes data augmented through methods like segmentation at the stop words level"
+        }
+      ],
+      "year_from": null,
+      "year_to": null,
+      "open_access": false,
+      "mode": "diligent",
+      "planner": "gemini-3.6-flash"
+    },
+    "rerank": true,
+    "repair": true
+  },
+  "result": {
+    "papers": [
+      {
+        "id": "https://openalex.org/W4416037679",
+        "title": "TEDxTN: A Three-way Speech Translation Corpus for Code-Switched Tunisian Arabic - English",
+        "doi": "https://doi.org/10.18653/v1/2025.arabicnlp-main.22",
+        "year": 2025,
+        "abstract": "In this paper, we introduce TEDxTN, the first publicly available Tunisian Arabic to English speech translation dataset. This work is in line with the ongoing effort to mitigate the data scarcity obstacle for a number of Arabic dialects. We collected, segmented, transcribed and translated 108 TEDx talks following our internally developed annotations guidelines. The. collected talks represent 25 hours of speech with code-switching that cover speakers with various accents from over 11 different regions of Tunisia. We make the annotation guidelines and corpus publicly available. This will enable the extension of TEDxTN to new talks as they become available. We also report results for strong baseline systems of Speech Recognition and Speech Translation using multiple pre-trained and fine-tuned end-to-end models. This corpus is the first open source and publicly available speech translation corpus of Code-Switching Tunisian dialect. We believe that this is a valuable resource that can motivate and facilitate further research studying Tunisian Dialect.",
+        "authors": [
+          "Fethi Bougares",
+          "Salima Mdhaffar",
+          "Haroun Elleuch",
+          "Yannick Estève"
+        ],
+        "venue": "Arabic Natural Language Processing Workshop (WANLP)",
+        "citations": 10,
+        "open_access": true,
+        "url": "https://doi.org/10.18653/v1/2025.arabicnlp-main.22",
+        "pdf_url": "https://aclanthology.org/2025.arabicnlp-main.22.pdf",
+        "references": [
+          "https://openalex.org/W1524333225",
+          "https://openalex.org/W1976805110",
+          "https://openalex.org/W2023946512",
+          "https://openalex.org/W2034585809",
+          "https://openalex.org/W2058867254",
+          "https://openalex.org/W2061272101",
+          "https://openalex.org/W2103967044",
+          "https://openalex.org/W2133564696",
+          "https://openalex.org/W2143612262",
+          "https://openalex.org/W2157331557",
+          "https://openalex.org/W2176685020",
+          "https://openalex.org/W2396205131",
+          "https://openalex.org/W2462558730",
+          "https://openalex.org/W2626778328",
+          "https://openalex.org/W2798362442",
+          "https://openalex.org/W2799473636",
+          "https://openalex.org/W2805530518",
+          "https://openalex.org/W2807107081",
+          "https://openalex.org/W2893964394",
+          "https://openalex.org/W2950635152",
+          "https://openalex.org/W2962780374",
+          "https://openalex.org/W3029585093",
+          "https://openalex.org/W3127012371",
+          "https://openalex.org/W3168568581",
+          "https://openalex.org/W3213029956",
+          "https://openalex.org/W4285158119",
+          "https://openalex.org/W4285188582",
+          "https://openalex.org/W4285257396",
+          "https://openalex.org/W4285269970",
+          "https://openalex.org/W4311000453",
+          "https://openalex.org/W4378105483",
+          "https://openalex.org/W4385573226",
+          "https://openalex.org/W4385822324",
+          "https://openalex.org/W4389600306",
+          "https://openalex.org/W4392932033",
+          "https://openalex.org/W4400010138",
+          "https://openalex.org/W4404387900",
+          "https://openalex.org/W4404782299",
+          "https://openalex.org/W4406786111",
+          "https://openalex.org/W4410313687"
+        ],
+        "retracted": false,
+        "provenance": [
+          "semantic: Are there any resources available for translating Tunisian Arabic dialect that contain both manually translated comments by native speakers and additional data augmented through methods like segmentation at stop words level?",
+          "semantic: Tunisian Arabic translation dataset data augmentation segmentation",
+          "semantic: Tunisian dialect machine translation native speaker comments",
+          "coverage repair: Contains manually translated comments by native speakers",
+          "coverage repair: Includes data augmented through methods like segmentation at the stop words level"
+        ],
+        "criteria": [
+          {
+            "criterion_id": "c1",
+            "status": "uncertain",
+            "quote": "",
+            "quote_verified": false,
+            "reason": "Insufficient source evidence; full-paper verification may be needed."
+          },
+          {
+            "criterion_id": "c2",
+            "status": "uncertain",
+            "quote": "",
+            "quote_verified": false,
+            "reason": "Insufficient source evidence; full-paper verification may be needed."
+          },
+          {
+            "criterion_id": "c3",
+            "status": "uncertain",
+            "quote": "",
+            "quote_verified": false,
+            "reason": "Insufficient source evidence; full-paper verification may be needed."
+          }
+        ],
+        "rrf": 0.06297888917334289,
+        "aliases": [
+          "https://openalex.org/W4416037679"
+        ],
+        "neural_score": 4.09386,
+        "score": 0.93018
+      },
+      {
+        "id": "https://openalex.org/W3120055548",
+        "title": "Parallel resources for Tunisian Arabic Dialect Translation",
+        "doi": null,
+        "year": 2020,
+        "abstract": "The difficulty of processing dialects is clearly observed in the high cost of building representative corpus, in particular for machine translation. Indeed, all machine translation systems require a huge amount and good management of training data, which represents a challenge in a low-resource setting such as the Tunisian Arabic dialect. In this paper, we present a data augmentation technique to create a parallel corpus for Tunisian Arabic dialect written in social media and standard Arabic in order to build a Machine Translation (MT) model. The created corpus was used to build a sentence-based translation model. This model reached a BLEU score of 15.03% on a test set, while it was limited to 13.27% utilizing the corpus without augmentation.",
+        "authors": [
+          "Saméh Kchaou",
+          "Rahma Boujelbane",
+          "Lamia Hadrich Belguith"
+        ],
+        "venue": null,
+        "citations": 16,
+        "open_access": false,
+        "url": "https://www.aclweb.org/anthology/2020.wanlp-1.18/",
+        "pdf_url": null,
+        "references": [
+          "https://openalex.org/W621636834",
+          "https://openalex.org/W2132474591",
+          "https://openalex.org/W2156985047",
+          "https://openalex.org/W2394969460",
+          "https://openalex.org/W2767982226",
+          "https://openalex.org/W2806962830",
+          "https://openalex.org/W2953173959",
+          "https://openalex.org/W2963206679",
+          "https://openalex.org/W2963216553",
+          "https://openalex.org/W3022839720",
+          "https://openalex.org/W3098341425",
+          "https://openalex.org/W3105293490"
+        ],
+        "retracted": false,
+        "provenance": [
+          "semantic: Are there any resources available for translating Tunisian Arabic dialect that contain both manually translated comments by native speakers and additional data augmented through methods like segmentation at stop words level?",
+          "semantic: Tunisian Arabic translation dataset data augmentation segmentation",
+          "semantic: Tunisian dialect machine translation native speaker comments",
+          "coverage repair: Contains manually translated comments by native speakers",
+          "coverage repair: Includes data augmented through methods like segmentation at the stop words level"
+        ],
+        "criteria": [
+          {
+            "criterion_id": "c1",
+            "status": "uncertain",
+            "quote": "",
+            "quote_verified": false,
+            "reason": "Insufficient source evidence; full-paper verification may be needed."
+          },
+          {
+            "criterion_id": "c2",
+            "status": "uncertain",
+            "quote": "",
+            "quote_verified": false,
+            "reason": "Insufficient source evidence; full-paper verification may be needed."
+          },
+          {
+            "criterion_id": "c3",
+            "status": "uncertain",
+            "quote": "",
+            "quote_verified": false,
+            "reason": "Insufficient source evidence; full-paper verification may be needed."
+          }
+        ],
+        "rrf": 0.06237239788970142,
+        "aliases": [
+          "https://openalex.org/W3120055548"
+        ],
+        "neural_score": 3.90095,
+        "score": 0.92606
+      },
+      {
+        "id": "https://openalex.org/W2792607973",
+        "title": "Tunisian Dialect-Modern Standard Arabic Bilingual Lexicon",
+        "doi": "https://doi.org/10.1109/aiccsa.2017.125",
+        "year": 2017,
+        "abstract": "The present paper aims to present a Tunisian Dialect (TD) to Modern Standard Arabic (MSA) bilingual lexicon. This type of resource is valuable and essential for language processing and more particularly for machine translation systems builders. To do this, we firstly collected data from different sources such as social networks (Facebook and Youtube), blogs, forums and other dialectal content sources available on the web. Secondly, we performed a grammatical categorization to the extracted words from this data. Thirdly, we organized them according to an ISO international standard i.e. Lexical Markup Framework (LMF) for Natural Language Processing (NLP) lexicons. Finally, we verified their translation with multiple Arabic dictionaries. Our proposed TD to MSA lexicon provides almost 14K of clean and manually approved words.",
+        "authors": [
+          "Mohamed Ali Sghaier",
+          "Mounir Zrigui"
+        ],
+        "venue": "IEEE/ACS International Conference on Computer Systems and Applications (AICCSA)",
+        "citations": 8,
+        "open_access": false,
+        "url": "https://doi.org/10.1109/aiccsa.2017.125",
+        "pdf_url": null,
+        "references": [
+          "https://openalex.org/W78842653",
+          "https://openalex.org/W181901128",
+          "https://openalex.org/W1194092377",
+          "https://openalex.org/W2068474112",
+          "https://openalex.org/W2139327263",
+          "https://openalex.org/W2250274454",
+          "https://openalex.org/W2250862217",
+          "https://openalex.org/W2252033489",
+          "https://openalex.org/W2398594853",
+          "https://openalex.org/W2489883633"
+        ],
+        "retracted": false,
+        "provenance": [
+          "semantic: Are there any resources available for translating Tunisian Arabic dialect that contain both manually translated comments by native speakers and additional data augmented through methods like segmentation at stop words level?",
+          "semantic: Tunisian dialect machine translation native speaker comments",
+          "coverage repair: Contains manually translated comments by native speakers"
+        ],
+        "criteria": [
+          {
+            "criterion_id": "c1",
+            "status": "uncertain",
+            "quote": "",
+            "quote_verified": false,
+            "reason": "Insufficient source evidence; full-paper verification may be needed."
+          },
+          {
+            "criterion_id": "c2",
+            "status": "uncertain",
+            "quote": "",
+            "quote_verified": false,
+            "reason": "Insufficient source evidence; full-paper verification may be needed."
+          },
+          {
+            "criterion_id": "c3",
+            "status": "uncertain",
+            "quote": "",
+            "quote_verified": false,
+            "reason": "Insufficient source evidence; full-paper verification may be needed."
+          }
+        ],
+        "rrf": 0.03438162384810812,
+        "aliases": [
+          "https://openalex.org/W2792607973"
+        ],
+        "neural_score": 4.5885,
+        "score": 0.87018
+      },
+      {
+        "id": "https://openalex.org/W3089774903",
+        "title": "Rule-Based Machine Translation from Tunisian Dialect to Modern Standard Arabic",
+        "doi": "https://doi.org/10.1016/j.procs.2020.08.033",
+        "year": 2020,
+        "abstract": "This paper aims to present a machine translation system capable of translating Tunisian Dialect (TD) text to Modern Standard Arabic (MSA) using a rule-based approach. Having adopted such a classical approach can give us better translation mainly in terms of morphology and syntax. Moreover, it also allows us to automate the translation task to build a training dataset (parallel corpus), which can be exploited whether for hybridization with the statistical approach or even for the newly developed neural-network method. To do that, our work is based on a free open source platform, named Apertium, which provides a whole environment that includes all required tools to develop an RBMT system. Therefore, the translation process starts by given TD input text, where the data are passed through three big parts, which are respectively morphological analysis and disambiguation, lexical and structural transfer, and morphological generation and spelling corrections to get the translated text in MSA. In fact, each of these stages is a challenge. It should be noted that we have made a great effort to create the required resources from scratch starting by the two monolingual morphological dictionaries for TD and MSA, the bilingual lexical dictionary to map TD words to their equivalents in MSA, and finally setting up more than 500 rules for disambiguation and structural transfer. The proposed system is evaluated by three metrics: WER, TER and BLEU score. As a result, we respectively reach 23.28%, 23.85% and 55.22, which are promising scores.",
+        "authors": [
+          "Mohamed Ali Sghaier",
+          "Mounir Zrigui"
+        ],
+        "venue": "Procedia Computer Science",
+        "citations": 55,
+        "open_access": true,
+        "url": "https://doi.org/10.1016/j.procs.2020.08.033",
+        "pdf_url": "https://www.sciencedirect.com/science/article/pii/S1877050920318573/pdf",
+        "references": [
+          "https://openalex.org/W181901128",
+          "https://openalex.org/W2068474112",
+          "https://openalex.org/W2080213370",
+          "https://openalex.org/W2101105183",
+          "https://openalex.org/W2123301721",
+          "https://openalex.org/W2137397532",
+          "https://openalex.org/W2149327368",
+          "https://openalex.org/W2168576900",
+          "https://openalex.org/W2251054663",
+          "https://openalex.org/W2251948394",
+          "https://openalex.org/W2617702252",
+          "https://openalex.org/W2993173751",
+          "https://openalex.org/W3010725746"
+        ],
+        "retracted": false,
+        "provenance": [
+          "keyword: Tunisian dialect machine translation native speaker comments",
+          "semantic: Tunisian dialect machine translation native speaker comments"
+        ],
+        "criteria": [
+          {
+            "criterion_id": "c1",
+            "status": "uncertain",
+            "quote": "",
+            "quote_verified": false,
+            "reason": "Insufficient source evidence; full-paper verification may be needed."
+          },
+          {
+            "criterion_id": "c2",
+            "status": "uncertain",
+            "quote": "",
+            "quote_verified": false,
+            "reason": "Insufficient source evidence; full-paper verification may be needed."
+          },
+          {
+            "criterion_id": "c3",
+            "status": "uncertain",
+            "quote": "",
+            "quote_verified": false,
+            "reason": "Insufficient source evidence; full-paper verification may be needed."
+          }
+        ],
+        "rrf": 0.032266458495966696,
+        "aliases": [
+          "https://openalex.org/W3089774903"
+        ],
+        "neural_score": 3.484,
+        "score": 0.8496
+      },
+      {
+        "id": "https://openalex.org/W4307922498",
+        "title": "Hybrid Pipeline for Building Arabic Tunisian Dialect-standard Arabic Neural Machine Translation Model from Scratch",
+        "doi": "https://doi.org/10.1145/3568674",
+        "year": 2023,
+        "abstract": "Deep Learning is one of the most promising technologies compared to other methods in the context of machine translation. It has been proven to achieve impressive results on large amounts of parallel data for well-endowed languages. Nevertheless, for low-resource languages such as the Arabic Dialects, Deep Learning models failed due to the lack of available parallel corpora. In this article, we present a method to create a parallel corpus to build an effective NMT model able to translate into MSA, Tunisian Dialect texts present in social networks. For this, we propose a set of data augmentation methods aiming to increase the size of the state-of-the-art parallel corpus. By evaluating the impact of this step, we noticed that it has effectively boosted both the size and the quality of the corpus. Then, using the resulted corpus, we compare the effectiveness of CNN, RNN and transformers models to translate Tunisian Dialect into MSA. Experiments show that a better translation is achieved by the transformer model with a BLEU score of 60 vs., respectively, 33.36 and 53.98 with RNN and CNN models.",
+        "authors": [
+          "Saméh Kchaou",
+          "Rahma Boujelbane",
+          "Lamia Hadrich Belguith"
+        ],
+        "venue": "ACM Transactions on Asian and Low-Resource Language Information Processing",
+        "citations": 27,
+        "open_access": false,
+        "url": "https://doi.org/10.1145/3568674",
+        "pdf_url": null,
+        "references": [
+          "https://openalex.org/W1659740212",
+          "https://openalex.org/W2133564696",
+          "https://openalex.org/W2250783208",
+          "https://openalex.org/W2251054663",
+          "https://openalex.org/W2251147480",
+          "https://openalex.org/W2251882277",
+          "https://openalex.org/W2394969460",
+          "https://openalex.org/W2421939121",
+          "https://openalex.org/W2574872930",
+          "https://openalex.org/W2581564515",
+          "https://openalex.org/W2610850660",
+          "https://openalex.org/W2617702252",
+          "https://openalex.org/W2626778328",
+          "https://openalex.org/W2758137671",
+          "https://openalex.org/W2767982226",
+          "https://openalex.org/W2773205243",
+          "https://openalex.org/W2789541106",
+          "https://openalex.org/W2806962830",
+          "https://openalex.org/W2809456172",
+          "https://openalex.org/W2872823433",
+          "https://openalex.org/W2896457183",
+          "https://openalex.org/W2905123482",
+          "https://openalex.org/W2916877561",
+          "https://openalex.org/W2965087187",
+          "https://openalex.org/W2970854433",
+          "https://openalex.org/W2970971581",
+          "https://openalex.org/W3022839720",
+          "https://openalex.org/W3023901033",
+          "https://openalex.org/W3045629290",
+          "https://openalex.org/W3105293490",
+          "https://openalex.org/W3119989085",
+          "https://openalex.org/W3120055548"
+        ],
+        "retracted": false,
+        "provenance": [
+          "semantic: Tunisian Arabic translation dataset data augmentation segmentation",
+          "semantic: Tunisian dialect machine translation native speaker comments"
+        ],
+        "criteria": [
+          {
+            "criterion_id": "c1",
+            "status": "uncertain",
+            "quote": "",
+            "quote_verified": false,
+            "reason": "Insufficient source evidence; full-paper verification may be needed."
+          },
+          {
+            "criterion_id": "c2",
+            "status": "uncertain",
+            "quote": "",
+            "quote_verified": false,
+            "reason": "Insufficient source evidence; full-paper verification may be needed."
+          },
+          {
+            "criterion_id": "c3",
+            "status": "uncertain",
+            "quote": "",
+            "quote_verified": false,
+            "reason": "Insufficient source evidence; full-paper verification may be needed."
+          }
+        ],
+        "rrf": 0.028370221327967807,
+        "aliases": [
+          "https://openalex.org/W4307922498"
+        ],
+        "neural_score": 3.16691,
+        "score": 0.83221
+      },
+      {
+        "id": "https://openalex.org/W7160321818",
+        "title": "Standardisation of Dialect Comments in Social Networks in View of Sentiment Analysis : Case of Tunisian Dialect",
+        "doi": "https://doi.org/10.63317/2gdcdai56vhm",
+        "year": 2022,
+        "abstract": "With the growing access to the internet, the spoken Arabic dialect language becomes an informal languages written in social media.Most users post comments using their own dialect.This linguistic situation inhibits mutual understanding between internet users and makes difficult to use computational approaches since most Arabic resources are intended for the formal language: Modern Standard Arabic (MSA).In this paper, we present a pipeline to standardize the written texts in social networks by translating them to the MSA.We fine-tune at first an identification bert-based model to select Tunisian Dialect (TD) comments from MSA and other dialects.Then, the resulting comments are translated using a neural translation model.Each of these steps was evaluated on the same test corpus.In order to test the effectiveness of the approach, we compared two opinion analysis models, the first is intended for the Sentiment Analysis (SA) of dialect texts and the second is for the MSA texts.We concluded that through standardization we obtain the best score.",
+        "authors": [
+          "Saméh Kchaou",
+          "Rahma Boujelbane",
+          "Emna Fsih",
+          "Lamia Hadrich Belguith"
+        ],
+        "venue": "Language Resources and Evaluation Conference (LREC)",
+        "citations": 8,
+        "open_access": true,
+        "url": "https://doi.org/10.63317/2gdcdai56vhm",
+        "pdf_url": "http://www.lrec-conf.org/proceedings/lrec2022/pdf/2022.lrec-1.582.pdf",
+        "references": [
+          "https://openalex.org/W46679369",
+          "https://openalex.org/W2250783208",
+          "https://openalex.org/W2251147480",
+          "https://openalex.org/W2394969460",
+          "https://openalex.org/W2581564515",
+          "https://openalex.org/W2617702252",
+          "https://openalex.org/W2773205243",
+          "https://openalex.org/W2905123482",
+          "https://openalex.org/W2970072401",
+          "https://openalex.org/W2970337022",
+          "https://openalex.org/W3023901033",
+          "https://openalex.org/W3045210825",
+          "https://openalex.org/W3045629290",
+          "https://openalex.org/W3106393496",
+          "https://openalex.org/W3119933877",
+          "https://openalex.org/W3119989085",
+          "https://openalex.org/W3120055548",
+          "https://openalex.org/W3135784975",
+          "https://openalex.org/W3152748020",
+          "https://openalex.org/W3154035178",
+          "https://openalex.org/W3155053993",
+          "https://openalex.org/W6930908985"
+        ],
+        "retracted": false,
+        "provenance": [
+          "keyword: Tunisian Arabic translation dataset data augmentation segmentation",
+          "keyword: Tunisian dialect machine translation native speaker comments"
+        ],
+        "criteria": [
+          {
+            "criterion_id": "c1",
+            "status": "uncertain",
+            "quote": "",
+            "quote_verified": false,
+            "reason": "Insufficient source evidence; full-paper verification may be needed."
+          },
+          {
+            "criterion_id": "c2",
+            "status": "uncertain",
+            "quote": "",
+            "quote_verified": false,
+            "reason": "Insufficient source evidence; full-paper verification may be needed."
+          },
+          {
+            "criterion_id": "c3",
+            "status": "uncertain",
+            "quote": "",
+            "quote_verified": false,
+            "reason": "Insufficient source evidence; full-paper verification may be needed."
+          }
+        ],
+        "rrf": 0.027623285131627734,
+        "aliases": [
+          "https://openalex.org/W7160321818"
+        ],
+        "neural_score": 3.1916,
+        "score": 0.83127
+      },
+      {
+        "id": "https://openalex.org/W7224495483",
+        "title": "Is TunisianMMLU Actually Tunisian? A Native-Speaker Audit of a Machine-Translated Dialect Benchmark",
+        "doi": "https://doi.org/10.18653/2026.mrl-1.20",
+        "year": 2026,
+        "abstract": "TunisianMMLU, the only MMLU-style benchmark for Tunisian Arabic (Derja), was machine-translated with no native-speaker validation. Scanning all 21 , 500 items with native-validated patterns, we flag 63.4% of the corpus; the largest signal, in 55.1% of items, is the Moroccan present-tense prefix, a form Tunisian does not have. The dominant defect is not translation noise but a different dialect. We then present the first native-speaker audit: 400 items stratified over all 44 subjects, labelled independently by two native speakers on six criteria. The non-author annotator marks 64.5% defective, both agree on 62.0%, and author adjudication yields 86.0%. Nearly all defects originate in translation, not in the source benchmarks. Six models corroborate the labels, scoring highest on items marked clean and lowest on unrepairable ones. Corrected text raises every above-chance model by 2.3 to 4.9 points (one gain survives multiple-test correction), leaves a chance-level Derja model unchanged, and narrows the gap between a dialect-adapted model and its base without changing rank order. We release TunisianMMLU-Verified: a corrected subset, corpus-wide flags, per-item labels, the annotation guideline, and all evaluation code.",
+        "authors": [
+          "Fatma Ezzahra Jlali",
+          "Marek Šuppa"
+        ],
+        "venue": "Workshop on Multilingual Representation Learning (MRL)",
+        "citations": 0,
+        "open_access": true,
+        "url": "https://doi.org/10.18653/2026.mrl-1.20",
+        "pdf_url": "https://aclanthology.org/2026.mrl-1.20.pdf",
+        "references": [
+          "https://openalex.org/W2053154970",
+          "https://openalex.org/W2250414785",
+          "https://openalex.org/W2251658995",
+          "https://openalex.org/W2806962830",
+          "https://openalex.org/W3121904249",
+          "https://openalex.org/W3137010024",
+          "https://openalex.org/W4285077564",
+          "https://openalex.org/W4389523697",
+          "https://openalex.org/W4402670281",
+          "https://openalex.org/W4402671457",
+          "https://openalex.org/W4403796805",
+          "https://openalex.org/W4405033727",
+          "https://openalex.org/W4411119490",
+          "https://openalex.org/W4411119839",
+          "https://openalex.org/W4411120248",
+          "https://openalex.org/W4412887702",
+          "https://openalex.org/W4412944984",
+          "https://openalex.org/W4415927745"
+        ],
+        "retracted": false,
+        "provenance": [
+          "semantic: Tunisian dialect machine translation native speaker comments",
+          "coverage repair: Contains manually translated comments by native speakers"
+        ],
+        "criteria": [
+          {
+            "criterion_id": "c1",
+            "status": "uncertain",
+            "quote": "",
+            "quote_verified": false,
+            "reason": "Insufficient source evidence; full-paper verification may be needed."
+          },
+          {
+            "criterion_id": "c2",
+            "status": "uncertain",
+            "quote": "",
+            "quote_verified": false,
+            "reason": "Insufficient source evidence; full-paper verification may be needed."
+          },
+          {
+            "criterion_id": "c3",
+            "status": "uncertain",
+            "quote": "",
+            "quote_verified": false,
+            "reason": "Insufficient source evidence; full-paper verification may be needed."
+          }
+        ],
+        "rrf": 0.023642611683848798,
+        "aliases": [
+          "https://openalex.org/W7224495483"
+        ],
+        "neural_score": 3.22096,
+        "score": 0.82309
+      },
+      {
+        "id": "https://openalex.org/W4287810359",
+        "title": "TUNIZI: a Tunisian Arabizi sentiment analysis Dataset",
+        "doi": "https://doi.org/10.48550/arxiv.2004.14303",
+        "year": 2020,
+        "abstract": "On social media, Arabic people tend to express themselves in their own local dialects. More particularly, Tunisians use the informal way called \"Tunisian Arabizi\". Analytical studies seek to explore and recognize online opinions aiming to exploit them for planning and prediction purposes such as measuring the customer satisfaction and establishing sales and marketing strategies. However, analytical studies based on Deep Learning are data hungry. On the other hand, African languages and dialects are considered low resource languages. For instance, to the best of our knowledge, no annotated Tunisian Arabizi dataset exists. In this paper, we introduce TUNIZI a sentiment analysis Tunisian Arabizi Dataset, collected from social networks, preprocessed for analytical studies and annotated manually by Tunisian native speakers.",
+        "authors": [
+          "Chayma Fourati",
+          "Abir Messaoudi",
+          "Hatem Haddad"
+        ],
+        "venue": "arXiv",
+        "citations": 32,
+        "open_access": true,
+        "url": "https://doi.org/10.48550/arxiv.2004.14303",
+        "pdf_url": "https://arxiv.org/pdf/2004.14303",
+        "references": [
+          "https://openalex.org/W2250783208",
+          "https://openalex.org/W2947999816"
+        ],
+        "retracted": false,
+        "provenance": [
+          "semantic: Are there any resources available for translating Tunisian Arabic dialect that contain both manually translated comments by native speakers and additional data augmented through methods like segmentation at stop words level?",
+          "semantic: Tunisian Arabic translation dataset data augmentation segmentation"
+        ],
+        "criteria": [
+          {
+            "criterion_id": "c1",
+            "status": "uncertain",
+            "quote": "",
+            "quote_verified": false,
+            "reason": "Insufficient source evidence; full-paper verification may be needed."
+          },
+          {
+            "criterion_id": "c2",
+            "status": "uncertain",
+            "quote": "",
+            "quote_verified": false,
+            "reason": "Insufficient source evidence; full-paper verification may be needed."
+          },
+          {
+            "criterion_id": "c3",
+            "status": "uncertain",
+            "quote": "",
+            "quote_verified": false,
+            "reason": "Insufficient source evidence; full-paper verification may be needed."
+          }
+        ],
+        "rrf": 0.029857397504456328,
+        "aliases": [
+          "https://openalex.org/W4287810359"
+        ],
+        "neural_score": 2.50365,
+        "score": 0.80745
+      },
+      {
+        "id": "https://openalex.org/W7172260341",
+        "title": "Tunisian Arabic NLP Resources: an access-verified inventory",
+        "doi": "https://doi.org/10.5281/zenodo.21779464",
+        "year": 2026,
+        "abstract": "An access-verified inventory of natural language processing resources for Tunisian Arabic (Derja, ISO 639-3 aeb): datasets, speech corpora, models, benchmarks and lexicons. Each entry is checked for whether it can actually be obtained (open, on request, paywalled, paper-only or gated), and for multi-dialect resources the Tunisian share is recorded rather than counting the whole set. Maintained on GitHub, where corrections and additions arrive through issue forms.",
+        "authors": [
+          "Fatma Jlali"
+        ],
+        "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+        "citations": 0,
+        "open_access": true,
+        "url": "https://doi.org/10.5281/zenodo.21779464",
+        "pdf_url": null,
+        "references": [],
+        "retracted": false,
+        "provenance": [
+          "semantic: Are there any resources available for translating Tunisian Arabic dialect that contain both manually translated comments by native speakers and additional data augmented through methods like segmentation at stop words level?",
+          "semantic: Tunisian Arabic translation dataset data augmentation segmentation",
+          "coverage repair: Contains manually translated comments by native speakers",
+          "coverage repair: Includes data augmented through methods like segmentation at the stop words level"
+        ],
+        "criteria": [
+          {
+            "criterion_id": "c1",
+            "status": "uncertain",
+            "quote": "",
+            "quote_verified": false,
+            "reason": "Insufficient source evidence; full-paper verification may be needed."
+          },
+          {
+            "criterion_id": "c2",
+            "status": "uncertain",
+            "quote": "",
+            "quote_verified": false,
+            "reason": "Insufficient source evidence; full-paper verification may be needed."
+          },
+          {
+            "criterion_id": "c3",
+            "status": "uncertain",
+            "quote": "",
+            "quote_verified": false,
+            "reason": "Insufficient source evidence; full-paper verification may be needed."
+          }
+        ],
+        "rrf": 0.042366456325266394,
+        "aliases": [
+          "https://openalex.org/W7172260341"
+        ],
+        "neural_score": 2.01937,
+        "score": 0.80265
+      },
+      {
+        "id": "https://openalex.org/W3002109251",
+        "title": "Transliteration of Arabizi into Arabic Script for Tunisian Dialect",
+        "doi": "https://doi.org/10.1145/3364319",
+        "year": 2019,
+        "abstract": "The evolution of information and communication technology has markedly influenced communication between correspondents. This evolution has facilitated the transmission of information and has engendered new forms of written communication (email, chat, SMS, comments, etc.). Most of these messages and comments are written in Latin script, also called Arabizi. Moreover, the language used in social media and SMS messaging is characterized by the use of informal and non-standard vocabulary, such as repeated letters for emphasis, typos, non-standard abbreviations, and nonlinguistic content like emoticons. Since the Tunisian dialect suffers from the unavailability of basic tools and linguistic resources compared to Modern Standard Arabic, we resort to the use of these written sources as a starting point to build large corpora automatically. In the context of natural language processing and to benefit from these networks’ data, transliterating from Arabizi to Arabic script is a necessary step because most recently available tools for processing the Tunisian dialect expect Arabic script input. Indeed, the transliteration task can help construct and enrich parallel corpora and dictionaries for the Tunisian dialect and can be useful for developing various natural language processing applications such as sentiment analysis, opinion mining, topic detection, and machine translation. In this article, we focus on converting the Tunisian dialect text that is written in Latin script to Arabic script following the Conventional Orthography for Dialectal Arabic. Then, we propose two models to transliterate Arabizi into Arabic script for the Tunisian dialect, namely a rule-based model and a discriminative model as a sequence classification task based on conditional random fields). In the first model, we use a set of transliteration rules to convert the Tunisian dialect Arabizi texts to Arabic script. In the second model, transliteration is performed both at word and character levels. In the end, our models got a character error rate of 10.47%.",
+        "authors": [
+          "Abir Masmoudi",
+          "Mariem Ellouze",
+          "Mourad Khrouf",
+          "Lamia Hadrich Belguith"
+        ],
+        "venue": "ACM Transactions on Asian and Low-Resource Language Information Processing",
+        "citations": 32,
+        "open_access": false,
+        "url": "https://doi.org/10.1145/3364319",
+        "pdf_url": null,
+        "references": [
+          "https://openalex.org/W1659740212",
+          "https://openalex.org/W2097497389",
+          "https://openalex.org/W2104463314",
+          "https://openalex.org/W2133564696",
+          "https://openalex.org/W2250414785",
+          "https://openalex.org/W2333367237",
+          "https://openalex.org/W2545605631",
+          "https://openalex.org/W2581564515",
+          "https://openalex.org/W2760231680",
+          "https://openalex.org/W2906891164",
+          "https://openalex.org/W2907819175",
+          "https://openalex.org/W2919847931",
+          "https://openalex.org/W2957234659",
+          "https://openalex.org/W7009072640",
+          "https://openalex.org/W7057991943"
+        ],
+        "retracted": false,
+        "provenance": [
+          "semantic: Are there any resources available for translating Tunisian Arabic dialect that contain both manually translated comments by native speakers and additional data augmented through methods like segmentation at stop words level?",
+          "semantic: Tunisian dialect machine translation native speaker comments"
+        ],
+        "criteria": [
+          {
+            "criterion_id": "c1",
+            "status": "uncertain",
+            "quote": "",
+            "quote_verified": false,
+            "reason": "Insufficient source evidence; full-paper verification may be needed."
+          },
+          {
+            "criterion_id": "c2",
+            "status": "uncertain",
+            "quote": "",
+            "quote_verified": false,
+            "reason": "Insufficient source evidence; full-paper verification may be needed."
+          },
+          {
+            "criterion_id": "c3",
+            "status": "uncertain",
+            "quote": "",
+            "quote_verified": false,
+            "reason": "Insufficient source evidence; full-paper verification may be needed."
+          }
+        ],
+        "rrf": 0.028985507246376812,
+        "aliases": [
+          "https://openalex.org/W3002109251"
+        ],
+        "neural_score": 2.42663,
+        "score": 0.80102
+      },
+      {
+        "id": "https://openalex.org/W2901053052",
+        "title": "A Sequence-to-Sequence based Approach For the double Transliteration of Tunisian Dialect",
+        "doi": "https://doi.org/10.1016/j.procs.2018.10.481",
+        "year": 2018,
+        "abstract": "Transliteration consists of automatically transforming a grapheme’s transcription from one writing system to another, while preserving its pronunciation. It is usually used in the context of machine translation and cross language information retrieval, mainly to deal with the issue of named entities and technical terms. In the case of some Arabic dialects, which are used on the social web in both Latin and Arabic scripts and which are still low-resource languages, transliteration is of great benefit for the automatic generation of various linguistic resources (parallel corpora and lexica), useful for their automatic processing. In this work, we focus on the Tunisian dialect transliteration. We propose a deep learning based Sequence-to-Sequence approach to perform a word-level transliteration of the user generated Tunisian dialect on the social web, in both Latin to Arabic and Arabic to Latin senses.",
+        "authors": [
+          "Jihene Younes",
+          "Emna Souissi",
+          "Hadhémi Achour",
+          "Ahmed Ferchichi"
+        ],
+        "venue": "Procedia Computer Science",
+        "citations": 26,
+        "open_access": true,
+        "url": "https://doi.org/10.1016/j.procs.2018.10.481",
+        "pdf_url": "https://www.sciencedirect.com/science/article/pii/S1877050918321859/pdf",
+        "references": [
+          "https://openalex.org/W39646728",
+          "https://openalex.org/W115924709",
+          "https://openalex.org/W201141796",
+          "https://openalex.org/W1487768769",
+          "https://openalex.org/W1506882074",
+          "https://openalex.org/W1508791843",
+          "https://openalex.org/W1636585317",
+          "https://openalex.org/W1893161951",
+          "https://openalex.org/W2042777049",
+          "https://openalex.org/W2090362702",
+          "https://openalex.org/W2104463314",
+          "https://openalex.org/W2112279101",
+          "https://openalex.org/W2112280478",
+          "https://openalex.org/W2121025356",
+          "https://openalex.org/W2130942839",
+          "https://openalex.org/W2134534213",
+          "https://openalex.org/W2139671364",
+          "https://openalex.org/W2140957602",
+          "https://openalex.org/W2142925167",
+          "https://openalex.org/W2166660646",
+          "https://openalex.org/W2176088470",
+          "https://openalex.org/W2189831162",
+          "https://openalex.org/W2233440677",
+          "https://openalex.org/W2250212502",
+          "https://openalex.org/W2250414785",
+          "https://openalex.org/W2250967669",
+          "https://openalex.org/W2251092354",
+          "https://openalex.org/W2251614227",
+          "https://openalex.org/W2251658995",
+          "https://openalex.org/W2333367237",
+          "https://openalex.org/W2525778437",
+          "https://openalex.org/W2545605631",
+          "https://openalex.org/W2554394407",
+          "https://openalex.org/W2592864539",
+          "https://openalex.org/W2757988102",
+          "https://openalex.org/W2760531979",
+          "https://openalex.org/W2780998348",
+          "https://openalex.org/W4297195154"
+        ],
+        "retracted": false,
+        "provenance": [
+          "semantic: Are there any resources available for translating Tunisian Arabic dialect that contain both manually translated comments by native speakers and additional data augmented through methods like segmentation at stop words level?",
+          "semantic: Tunisian dialect machine translation native speaker comments"
+        ],
+        "criteria": [
+          {
+            "criterion_id": "c1",
+            "status": "uncertain",
+            "quote": "",
+            "quote_verified": false,
+            "reason": "Insufficient source evidence; full-paper verification may be needed."
+          },
+          {
+            "criterion_id": "c2",
+            "status": "uncertain",
+            "quote": "",
+            "quote_verified": false,
+            "reason": "Insufficient source evidence; full-paper verification may be needed."
+          },
+          {
+            "criterion_id": "c3",
+            "status": "uncertain",
+            "quote": "",
+            "quote_verified": false,
+            "reason": "Insufficient source evidence; full-paper verification may be needed."
+          }
+        ],
+        "rrf": 0.025974025974025976,
+        "aliases": [
+          "https://openalex.org/W2901053052"
+        ],
+        "neural_score": 2.52683,
+        "score": 0.7999
+      },
+      {
+        "id": "https://openalex.org/W2617702252",
+        "title": "The Effects of Factorizing Root and Pattern Mapping in Bidirectional Tunisian - Standard Arabic Machine Translation",
+        "doi": null,
+        "year": 2013,
+        "abstract": "The development of natural language processing tools for dialects faces the severe problem of lack of resources. In cases of diglossia, as in Arabic, one variant, Modern Standard Arabic (MSA), has many resources that can be used to build natural language processing tools. Whereas other variants, Arabic dialects, are resource poor. Taking advantage of the closeness of MSA and its dialects, one way to solve the problem of limited resources, consists in performing a translation of the dialect into MSA in order to use the tools developed for MSA. We describe in this paper an architecture for such a translation and we evaluate it on Tunisian Arabic verbs. Our approach relies on modeling the translation process over the deep morphological representations of roots and patterns, commonly used to model Semitic morphology. We compare different techniques for how to perform the cross-lingual mapping. Our evaluation demonstrates that the use of a decent coverage root+pattern lexicon of Tunisian and MSA with a backoff that assumes independence of mapping roots and patterns is optimal in reducing overall ambiguity and increasing recall.",
+        "authors": [
+          "Ahmed Takiy Eddine Hamdi",
+          "Rahma Boujelbane",
+          "Nizar Y. Habash",
+          "Alexis Nasr"
+        ],
+        "venue": "HAL",
+        "citations": 26,
+        "open_access": true,
+        "url": "https://hal.science/hal-00908761",
+        "pdf_url": "https://hal.science/hal-00908761/file/mts2013_verbs.pdf",
+        "references": [
+          "https://openalex.org/W19466851",
+          "https://openalex.org/W78842653",
+          "https://openalex.org/W131663347",
+          "https://openalex.org/W137989762",
+          "https://openalex.org/W181901128",
+          "https://openalex.org/W201141796",
+          "https://openalex.org/W1544567521",
+          "https://openalex.org/W2050065334",
+          "https://openalex.org/W2100976324",
+          "https://openalex.org/W2137397532",
+          "https://openalex.org/W2139813717",
+          "https://openalex.org/W2147272182",
+          "https://openalex.org/W2164503643",
+          "https://openalex.org/W2168576900",
+          "https://openalex.org/W2250414785",
+          "https://openalex.org/W2250732891",
+          "https://openalex.org/W3170253630",
+          "https://openalex.org/W6890406761",
+          "https://openalex.org/W7097897826"
+        ],
+        "retracted": false,
+        "provenance": [
+          "semantic: Are there any resources available for translating Tunisian Arabic dialect that contain both manually translated comments by native speakers and additional data augmented through methods like segmentation at stop words level?",
+          "semantic: Tunisian dialect machine translation native speaker comments"
+        ],
+        "criteria": [
+          {
+            "criterion_id": "c1",
+            "status": "uncertain",
+            "quote": "",
+            "quote_verified": false,
+            "reason": "Insufficient source evidence; full-paper verification may be needed."
+          },
+          {
+            "criterion_id": "c2",
+            "status": "uncertain",
+            "quote": "",
+            "quote_verified": false,
+            "reason": "Insufficient source evidence; full-paper verification may be needed."
+          },
+          {
+            "criterion_id": "c3",
+            "status": "uncertain",
+            "quote": "",
+            "quote_verified": false,
+            "reason": "Insufficient source evidence; full-paper verification may be needed."
+          }
+        ],
+        "rrf": 0.027402402402402402,
+        "aliases": [
+          "https://openalex.org/W2617702252"
+        ],
+        "neural_score": 2.39128,
+        "score": 0.79528
+      },
+      {
+        "id": "https://openalex.org/W4400955022",
+        "title": "Translation from Tunisian Dialect to Modern Standard Arabic: Exploring Finite-State Transducers and Sequence-to-Sequence Transformer Approaches",
+        "doi": "https://doi.org/10.1145/3681788",
+        "year": 2024,
+        "abstract": "Translation from the mother tongue, including the Tunisian dialect, to modern standard Arabic is a highly significant field in natural language processing due to its wide range of applications and associated benefits. Recently, researchers have shown increased interest in the Tunisian dialect, primarily driven by the massive volume of content generated spontaneously by Tunisians on social media following the revolution. This article presents two distinct translators for converting the Tunisian dialect into Modern Standard Arabic. The first translator utilizes a rule-based approach, employing a collection of finite state transducers and a bilingual dictionary derived from the study corpus. On the other hand, the second translator relies on deep learning models, specifically the sequence-to-sequence transformer model and a parallel corpus. To assess, evaluate, and compare the performance of the two translators, we conducted tests using a parallel corpus comprising 8,599 words. The results achieved by both translators are noteworthy. The translator based on finite state transducers achieved a BLEU score of 56.65, while the transformer model-based translator achieved a higher score of 66.07.",
+        "authors": [
+          "Roua Torjmen",
+          "Kais Haddar"
+        ],
+        "venue": "ACM Transactions on Asian and Low-Resource Language Information Processing",
+        "citations": 4,
+        "open_access": false,
+        "url": "https://doi.org/10.1145/3681788",
+        "pdf_url": null,
+        "references": [
+          "https://openalex.org/W289085066",
+          "https://openalex.org/W1504625892",
+          "https://openalex.org/W2069143585",
+          "https://openalex.org/W2132474591",
+          "https://openalex.org/W2157331557",
+          "https://openalex.org/W2250783208",
+          "https://openalex.org/W2251658995",
+          "https://openalex.org/W2251948394",
+          "https://openalex.org/W2394969460",
+          "https://openalex.org/W2585813550",
+          "https://openalex.org/W2617180211",
+          "https://openalex.org/W2736152370",
+          "https://openalex.org/W2788269531",
+          "https://openalex.org/W2806962830",
+          "https://openalex.org/W2905123482",
+          "https://openalex.org/W2947960675",
+          "https://openalex.org/W2951165112",
+          "https://openalex.org/W2970009562",
+          "https://openalex.org/W3023901033",
+          "https://openalex.org/W3037932933",
+          "https://openalex.org/W3089774903",
+          "https://openalex.org/W3092831871",
+          "https://openalex.org/W3118622432",
+          "https://openalex.org/W4200531534",
+          "https://openalex.org/W4281717508",
+          "https://openalex.org/W4285289306",
+          "https://openalex.org/W4386576686"
+        ],
+        "retracted": false,
+        "provenance": [
+          "semantic: Are there any resources available for translating Tunisian Arabic dialect that contain both manually translated comments by native speakers and additional data augmented through methods like segmentation at stop words level?",
+          "semantic: Tunisian dialect machine translation native speaker comments"
+        ],
+        "criteria": [
+          {
+            "criterion_id": "c1",
+            "status": "uncertain",
+            "quote": "",
+            "quote_verified": false,
+            "reason": "Insufficient source evidence; full-paper verification may be needed."
+          },
+          {
+            "criterion_id": "c2",
+            "status": "uncertain",
+            "quote": "",
+            "quote_verified": false,
+            "reason": "Insufficient source evidence; full-paper verification may be needed."
+          },
+          {
+            "criterion_id": "c3",
+            "status": "uncertain",
+            "quote": "",
+            "quote_verified": false,
+            "reason": "Insufficient source evidence; full-paper verification may be needed."
+          }
+        ],
+        "rrf": 0.02116935483870968,
+        "aliases": [
+          "https://openalex.org/W4400955022"
+        ],
+        "neural_score": 2.1189,
+        "score": 0.76235
+      },
+      {
+        "id": "https://openalex.org/W4200531534",
+        "title": "Translation system from Tunisian Dialect to Modern Standard Arabic",
+        "doi": "https://doi.org/10.1002/cpe.6788",
+        "year": 2021,
+        "abstract": "Summary Nowadays, Tunisian Dialect (TD) is widely used in social media such as Facebook and Twitter to communicate and express opinions. However, the absence of a TD translator prevents comprehension and communication for non‐Tunisian users. Thus, Tunisian translator becomes an important task to overcome these problems. In this article, our main objective is to create a translator from TD to Modern Standard Arabic (MSA). In this context, we are carrying out an in‐depth linguistic study in order to better choose the translation rules which are applicable on the TD sentences. This study guarantees the best quality to obtain MSA sentences. Indeed, our proposed method is based on a linguistic approach. In addition, the method consists of the elaboration of a set of dictionaries and the construction of inflectional, morphological, and syntactic grammars using finite‐state transducers. Then, our method is implemented and tested with new technologies provided by the NooJ linguistic platform. To evaluate our constructed tool, we apply it to two different test corpora containing more than 15,000 words. The obtained results are promising and do highlight our proposed method.",
+        "authors": [
+          "Roua Torjmen",
+          "Kais Haddar"
+        ],
+        "venue": "Concurrency and Computation Practice and Experience",
+        "citations": 5,
+        "open_access": false,
+        "url": "https://doi.org/10.1002/cpe.6788",
+        "pdf_url": null,
+        "references": [
+          "https://openalex.org/W187659528",
+          "https://openalex.org/W201141796",
+          "https://openalex.org/W201894977",
+          "https://openalex.org/W289085066",
+          "https://openalex.org/W2068474112",
+          "https://openalex.org/W2132474591",
+          "https://openalex.org/W2139327263",
+          "https://openalex.org/W2251948394",
+          "https://openalex.org/W2293965775",
+          "https://openalex.org/W2329255937",
+          "https://openalex.org/W2398594853",
+          "https://openalex.org/W2581564515",
+          "https://openalex.org/W2585813550",
+          "https://openalex.org/W2740130688",
+          "https://openalex.org/W2741164820",
+          "https://openalex.org/W2747566258",
+          "https://openalex.org/W2916803445",
+          "https://openalex.org/W3089774903",
+          "https://openalex.org/W3094438834",
+          "https://openalex.org/W3177720219",
+          "https://openalex.org/W4200523670"
+        ],
+        "retracted": false,
+        "provenance": [
+          "semantic: Are there any resources available for translating Tunisian Arabic dialect that contain both manually translated comments by native speakers and additional data augmented through methods like segmentation at stop words level?",
+          "semantic: Tunisian dialect machine translation native speaker comments"
+        ],
+        "criteria": [
+          {
+            "criterion_id": "c1",
+            "status": "uncertain",
+            "quote": "",
+            "quote_verified": false,
+            "reason": "Insufficient source evidence; full-paper verification may be needed."
+          },
+          {
+            "criterion_id": "c2",
+            "status": "uncertain",
+            "quote": "",
+            "quote_verified": false,
+            "reason": "Insufficient source evidence; full-paper verification may be needed."
+          },
+          {
+            "criterion_id": "c3",
+            "status": "uncertain",
+            "quote": "",
+            "quote_verified": false,
+            "reason": "Insufficient source evidence; full-paper verification may be needed."
+          }
+        ],
+        "rrf": 0.02506265664160401,
+        "aliases": [
+          "https://openalex.org/W4200531534"
+        ],
+        "neural_score": 1.95891,
+        "score": 0.75816
+      },
+      {
+        "id": "https://openalex.org/W2901637692",
+        "title": "Critical description of TA linguistic resources",
+        "doi": "https://doi.org/10.1016/j.procs.2018.10.480",
+        "year": 2018,
+        "abstract": "This paper presents a critical description of natural language processing for Tunisian Arabic. Indeed, several linguistic resources were proposed for the three types of Tunisian Arabic (intellectualized dialect, spontaneous dialect and electronic dialect). We present different linguistic resources (corpora, lexicons and linguistic analysis tools). This study can be used as a quick reference for the scientific community working on natural language processing in general and more precisely those studying Tunisian Arabic.",
+        "authors": [
+          "Asma Mekki",
+          "Inès Zribi",
+          "Mariem Ellouze",
+          "Lamia Hadrich Belguith"
+        ],
+        "venue": "Procedia Computer Science",
+        "citations": 8,
+        "open_access": true,
+        "url": "https://doi.org/10.1016/j.procs.2018.10.480",
+        "pdf_url": "https://www.sciencedirect.com/science/article/pii/S1877050918321847/pdf",
+        "references": [
+          "https://openalex.org/W187659528",
+          "https://openalex.org/W201894977",
+          "https://openalex.org/W1558613094",
+          "https://openalex.org/W2053443151",
+          "https://openalex.org/W2103195385",
+          "https://openalex.org/W2112141294",
+          "https://openalex.org/W2149709850",
+          "https://openalex.org/W2168576900",
+          "https://openalex.org/W2189831162",
+          "https://openalex.org/W2233440677",
+          "https://openalex.org/W2250668514",
+          "https://openalex.org/W2250862217",
+          "https://openalex.org/W2250960632",
+          "https://openalex.org/W2251259636",
+          "https://openalex.org/W2251658995",
+          "https://openalex.org/W2251948394",
+          "https://openalex.org/W2395245243",
+          "https://openalex.org/W2541904653",
+          "https://openalex.org/W2581564515",
+          "https://openalex.org/W2585813550",
+          "https://openalex.org/W2617702252",
+          "https://openalex.org/W2625338263",
+          "https://openalex.org/W2734616553",
+          "https://openalex.org/W2740432722",
+          "https://openalex.org/W2774547308",
+          "https://openalex.org/W2919847931",
+          "https://openalex.org/W4206850324"
+        ],
+        "retracted": false,
+        "provenance": [
+          "semantic: Are there any resources available for translating Tunisian Arabic dialect that contain both manually translated comments by native speakers and additional data augmented through methods like segmentation at stop words level?",
+          "coverage repair: Contains manually translated comments by native speakers"
+        ],
+        "criteria": [
+          {
+            "criterion_id": "c1",
+            "status": "uncertain",
+            "quote": "",
+            "quote_verified": false,
+            "reason": "Insufficient source evidence; full-paper verification may be needed."
+          },
+          {
+            "criterion_id": "c2",
+            "status": "uncertain",
+            "quote": "",
+            "quote_verified": false,
+            "reason": "Insufficient source evidence; full-paper verification may be needed."
+          },
+          {
+            "criterion_id": "c3",
+            "status": "uncertain",
+            "quote": "",
+            "quote_verified": false,
+            "reason": "Insufficient source evidence; full-paper verification may be needed."
+          }
+        ],
+        "rrf": 0.023411829134720702,
+        "aliases": [
+          "https://openalex.org/W2901637692"
+        ],
+        "neural_score": 1.75169,
+        "score": 0.735
+      },
+      {
+        "id": "https://openalex.org/W2112141294",
+        "title": "POS-tagging of Tunisian Dialect Using Standard Arabic Resources and Tools",
+        "doi": "https://doi.org/10.18653/v1/w15-3207",
+        "year": 2015,
+        "abstract": "Developing natural language processing tools usually requires a large number of resources (lexica, annotated corpora, etc.), which often do not exist for less-resourced languages.One way to overcome the problem of lack of resources is to devote substantial efforts to build new ones from scratch.Another approach is to exploit existing resources of closely related languages.In this paper, we focus on developing a part-of-speech tagger for the Tunisian Arabic dialect (TUN), a lowresource language, by exploiting its closeness to Modern Standard Arabic (MSA), which has many state-of-the-art resources and tools.Our system achieved an accuracy of 89% (∼20% absolute improvement over an MSA tagger baseline).",
+        "authors": [
+          "Ahmed Takiy Eddine Hamdi",
+          "Alexis Nasr",
+          "Nizar Y. Habash",
+          "Núria Gala"
+        ],
+        "venue": "Arabic Natural Language Processing Workshop (WANLP)",
+        "citations": 22,
+        "open_access": true,
+        "url": "https://doi.org/10.18653/v1/w15-3207",
+        "pdf_url": "https://www.aclweb.org/anthology/W15-3207.pdf",
+        "references": [
+          "https://openalex.org/W19466851",
+          "https://openalex.org/W78842653",
+          "https://openalex.org/W137989762",
+          "https://openalex.org/W187659528",
+          "https://openalex.org/W195406672",
+          "https://openalex.org/W201141796",
+          "https://openalex.org/W1544567521",
+          "https://openalex.org/W1574126082",
+          "https://openalex.org/W1598638450",
+          "https://openalex.org/W2016630033",
+          "https://openalex.org/W2043693083",
+          "https://openalex.org/W2050065334",
+          "https://openalex.org/W2100976324",
+          "https://openalex.org/W2126784811",
+          "https://openalex.org/W2139327263",
+          "https://openalex.org/W2139813717",
+          "https://openalex.org/W2142523187",
+          "https://openalex.org/W2151690415",
+          "https://openalex.org/W2156554947",
+          "https://openalex.org/W2160802179",
+          "https://openalex.org/W2161044106",
+          "https://openalex.org/W2168576900",
+          "https://openalex.org/W2250414785",
+          "https://openalex.org/W2250562293",
+          "https://openalex.org/W2250668514",
+          "https://openalex.org/W2250732891",
+          "https://openalex.org/W2250783208",
+          "https://openalex.org/W2250816155",
+          "https://openalex.org/W2250862217",
+          "https://openalex.org/W2251113547",
+          "https://openalex.org/W2251404226",
+          "https://openalex.org/W2251658995",
+          "https://openalex.org/W2251986002",
+          "https://openalex.org/W2617702252",
+          "https://openalex.org/W2757774942",
+          "https://openalex.org/W3170253630",
+          "https://openalex.org/W4240298715",
+          "https://openalex.org/W4393327169"
+        ],
+        "retracted": false,
+        "provenance": [
+          "keyword: Tunisian Arabic parallel corpus manual translation stop words",
+          "semantic: Are there any resources available for translating Tunisian Arabic dialect that contain both manually translated comments by native speakers and additional data augmented through methods like segmentation at stop words level?"
+        ],
+        "criteria": [],
+        "rrf": 0.02804284323271665,
+        "aliases": [
+          "https://openalex.org/W2112141294"
+        ],
+        "neural_score": 1.55313,
+        "score": 0.7241
+      },
+      {
+        "id": "https://openalex.org/W2139327263",
+        "title": "Automatically building a Tunisian Lexicon for Deverbal Nouns",
+        "doi": "https://doi.org/10.3115/v1/w14-5311",
+        "year": 2014,
+        "abstract": "The sociolinguistic situation in Arabic countries is characterized by diglossia (Ferguson, 1959) : whereas one variant Modern Standard Arabic (MSA) is highly codified and mainly used for written communication, other variants coexist in regular everyday's situations (dialects).Similarly, while a number of resources and tools exist for MSA (lexica, annotated corpora, taggers, parsers . . .), very few are available for the development of dialectal Natural Language Processing tools.Taking advantage of the closeness of MSA and its dialects, one way to solve the problem of the lack of resources for dialects consists in exploiting available MSA resources and NLP tools in order to adapt them to process dialects.This paper adopts this general framework: we propose a method to build a lexicon of deverbal nouns for Tunisian (TUN) using MSA tools and resources as starting material.",
+        "authors": [
+          "Ahmed Takiy Eddine Hamdi",
+          "Núria Gala",
+          "Alexis Nasr"
+        ],
+        "venue": null,
+        "citations": 16,
+        "open_access": true,
+        "url": "https://doi.org/10.3115/v1/w14-5311",
+        "pdf_url": "https://aclanthology.org/W14-5311.pdf",
+        "references": [
+          "https://openalex.org/W131663347",
+          "https://openalex.org/W2139813717",
+          "https://openalex.org/W2147272182",
+          "https://openalex.org/W2164503643",
+          "https://openalex.org/W2168576900",
+          "https://openalex.org/W3170253630"
+        ],
+        "retracted": false,
+        "provenance": [
+          "semantic: Are there any resources available for translating Tunisian Arabic dialect that contain both manually translated comments by native speakers and additional data augmented through methods like segmentation at stop words level?",
+          "semantic: Tunisian dialect machine translation native speaker comments"
+        ],
+        "criteria": [],
+        "rrf": 0.02439384979302188,
+        "aliases": [
+          "https://openalex.org/W2139327263"
+        ],
+        "neural_score": 1.4506,
+        "score": 0.70358
+      },
+      {
+        "id": "https://openalex.org/W3133711023",
+        "title": "The Automatic Recognition and Translation of Tunisian Dialect Named Entities into Modern Standard Arabic",
+        "doi": "https://doi.org/10.1007/978-3-030-70629-6_18",
+        "year": 2021,
+        "abstract": "",
+        "authors": [
+          "Roua Torjmen",
+          "Kais Haddar"
+        ],
+        "venue": "Communications in computer and information science",
+        "citations": 6,
+        "open_access": false,
+        "url": "https://doi.org/10.1007/978-3-030-70629-6_18",
+        "pdf_url": null,
+        "references": [
+          "https://openalex.org/W1520131719",
+          "https://openalex.org/W1728883788",
+          "https://openalex.org/W1814730318",
+          "https://openalex.org/W2022414723",
+          "https://openalex.org/W2123671373",
+          "https://openalex.org/W2149606347",
+          "https://openalex.org/W2250598139",
+          "https://openalex.org/W2251221175",
+          "https://openalex.org/W2251715652",
+          "https://openalex.org/W2406146311",
+          "https://openalex.org/W2888830446",
+          "https://openalex.org/W2891295164",
+          "https://openalex.org/W2905938514",
+          "https://openalex.org/W4200523670"
+        ],
+        "retracted": false,
+        "provenance": [
+          "semantic: Are there any resources available for translating Tunisian Arabic dialect that contain both manually translated comments by native speakers and additional data augmented through methods like segmentation at stop words level?",
+          "semantic: Tunisian dialect machine translation native speaker comments"
+        ],
+        "criteria": [],
+        "rrf": 0.02314071696094168,
+        "aliases": [
+          "https://openalex.org/W3133711023"
+        ],
+        "neural_score": 1.39407,
+        "score": 0.69365
+      },
+      {
+        "id": "https://openalex.org/W2740432722",
+        "title": "Sentiment Analysis of Tunisian Dialects: Linguistic Ressources and Experiments",
+        "doi": "https://doi.org/10.18653/v1/w17-1307",
+        "year": 2017,
+        "abstract": "Dialectal Arabic (DA) is significantly different from the Arabic language taught in schools and used in written communication and formal speech (broadcast news, religion, politics, etc.). There are many existing researches in the field of Arabic language Sentiment Analysis (SA); however, they are generally restricted to Modern Standard Arabic (MSA) or some dialects of economic or political interest. In this paper we are interested in the SA of the Tunisian Dialect. We utilize Machine Learning techniques to determine the polarity of comments written in Tunisian Dialect. First, we evaluate the SA systems performances with models trained using freely available MSA and Multi-dialectal data sets. We then collect and annotate a Tunisian Dialect corpus of 17.000 comments from Facebook. This corpus allows us a significant accuracy improvement compared to the best model trained on other Arabic dialects or MSA data. We believe that this first freely available corpus will be valuable to researchers working in the field of Tunisian Sentiment Analysis and similar areas.",
+        "authors": [
+          "Salima Mdhaffar",
+          "Fethi Bougares",
+          "Yannick Estève",
+          "Lamia Hadrich Belguith"
+        ],
+        "venue": "Arabic Natural Language Processing Workshop (WANLP)",
+        "citations": 194,
+        "open_access": true,
+        "url": "https://doi.org/10.18653/v1/w17-1307",
+        "pdf_url": "https://www.aclweb.org/anthology/W17-1307.pdf",
+        "references": [
+          "https://openalex.org/W137989762",
+          "https://openalex.org/W192118262",
+          "https://openalex.org/W1552146667",
+          "https://openalex.org/W1933546049",
+          "https://openalex.org/W2043287290",
+          "https://openalex.org/W2088394786",
+          "https://openalex.org/W2104463314",
+          "https://openalex.org/W2104937263",
+          "https://openalex.org/W2151739810",
+          "https://openalex.org/W2239389665",
+          "https://openalex.org/W2250594687",
+          "https://openalex.org/W2250784517",
+          "https://openalex.org/W2251658995",
+          "https://openalex.org/W2268110014",
+          "https://openalex.org/W2295710275",
+          "https://openalex.org/W2400032930",
+          "https://openalex.org/W2584410264",
+          "https://openalex.org/W2587163726"
+        ],
+        "retracted": false,
+        "provenance": [
+          "semantic: Are there any resources available for translating Tunisian Arabic dialect that contain both manually translated comments by native speakers and additional data augmented through methods like segmentation at stop words level?",
+          "semantic: Tunisian dialect machine translation native speaker comments"
+        ],
+        "criteria": [],
+        "rrf": 0.03252247488101534,
+        "aliases": [
+          "https://openalex.org/W2740432722"
+        ],
+        "neural_score": 1.0381,
+        "score": 0.66479
+      },
+      {
+        "id": "https://openalex.org/W137989762",
+        "title": "Machine Translation of Arabic Dialects",
+        "doi": null,
+        "year": 2012,
+        "abstract": "Arabic Dialects present many challenges for machine translation, not least of which is the lack of data resources. We use crowdsourcing to cheaply and quickly build Levantine-English and Egyptian-English parallel corpora, consisting of 1.1M words and 380k words, respectively. The dialectal sentences are selected from a large corpus of Arabic web text, and translated using Amazon’s Mechanical Turk. We use this data to build Dialectal Arabic MT systems, and find that small amounts of dialectal data have a dramatic impact on translation quality. When translating Egyptian and Levantine test sets, our Dialectal Arabic MT system performs 6.3 and 7.0 BLEU points higher than a Modern Standard Arabic MT system trained on a 150M-word Arabic-English parallel corpus. 1",
+        "authors": [
+          "Rabih Zbib",
+          "Erika Malchiodi",
+          "Jacob Devlin",
+          "David G. Stallard",
+          "Spyros Matsoukas",
+          "Richard M. Schwartz",
+          "John I. Makhoul",
+          "Omar F. Zaidan",
+          "Chris Callison-Burch"
+        ],
+        "venue": "North American Chapter of the Association for Computational Linguistics",
+        "citations": 256,
+        "open_access": false,
+        "url": "https://www.aclweb.org/anthology/N12-1006.pdf",
+        "pdf_url": null,
+        "references": [
+          "https://openalex.org/W147720932",
+          "https://openalex.org/W181901128",
+          "https://openalex.org/W1544567521",
+          "https://openalex.org/W1909398668",
+          "https://openalex.org/W1957504465",
+          "https://openalex.org/W2017802499",
+          "https://openalex.org/W2100976324",
+          "https://openalex.org/W2101105183",
+          "https://openalex.org/W2109704865",
+          "https://openalex.org/W2123301721",
+          "https://openalex.org/W2127849236",
+          "https://openalex.org/W2135161317",
+          "https://openalex.org/W2140343992",
+          "https://openalex.org/W2147272182",
+          "https://openalex.org/W2149327368",
+          "https://openalex.org/W2156985047",
+          "https://openalex.org/W2163361328",
+          "https://openalex.org/W2166905217",
+          "https://openalex.org/W2168576900",
+          "https://openalex.org/W2294764339",
+          "https://openalex.org/W3170253630"
+        ],
+        "retracted": false,
+        "provenance": [
+          "semantic: Tunisian dialect machine translation native speaker comments"
+        ],
+        "criteria": [],
+        "rrf": 0.01639344262295082,
+        "aliases": [
+          "https://openalex.org/W137989762"
+        ],
+        "neural_score": 1.09714,
+        "score": 0.63708
+      },
+      {
+        "id": "https://openalex.org/W4416129820",
+        "title": "Exploring prompting for dialectical machine translation: a focus on north Jordanian Arabic",
+        "doi": "https://doi.org/10.7717/peerj-cs.3209",
+        "year": 2025,
+        "abstract": "Dialectal variations are common across many languages, and dialectical machine translation to the standard form of the language or other languages is crucial for effective communication with speakers of these dialects. Prompting Large Language Models (LLMs) for Machine Translation (MT) has gained popularity. However, its efficacy for dialectical MT, particularly in comparison to fine-tuning, remains underexplored, especially for regional dialects that lack parallel training and evaluation data. This study presents a new parallel dataset between Modern Standard Arabic and the Irbid dialect, the largest city in northern Jordan, specifically within the travel domain. This dataset, an extension of the MADAR multi-dialect corpus, comprises 12,000 entries translated by native speakers of the Irbid dialect. We also describe the guidelines and evaluation process employed to collect this dataset and present several analyses within this article. Additionally, we investigate the effectiveness of prompting LLMs, particularly GPT-4o-mini, in performing MT under zero-shot and few-shot learning settings. We compare these methods to fine-tuning approaches. This includes the use of dialect-tolerant prompts and constraints. We compare these methods to fine-tuning approaches. Results indicate that prompting, particularly few-shot learning with an optimal number of exemplars, consistently outperforms fine-tuning in our tests. Utilizing several versions of T5 and mBART50 for fine-tuning, we compared their performance with that of GPT-4o-mini, which was employed for prompting. The comparative analysis reveals a notable improvement margin, with Bilingual Evaluation Understudy (BLEU), Crosslingual Optimized Metric for Evaluation of Translation (COMET), and Recall-Oriented Understudy for Gisting Evaluation–Longest Common Subsequence (ROUGE-L) scores surpassing those of the best fine-tuned model by margins of 11.89, 0.2476, and 1.18, respectively. These findings underscore the potential of Few-shot Prompting (FSP) in effectively addressing dialectical MT challenges.",
+        "authors": [
+          "Rasha Obeidat",
+          "Luay M. Alawneh",
+          "Yara Alharahsheh"
+        ],
+        "venue": "PeerJ Computer Science",
+        "citations": 1,
+        "open_access": true,
+        "url": "https://doi.org/10.7717/peerj-cs.3209",
+        "pdf_url": "https://peerj.com/articles/cs-3209.pdf",
+        "references": [
+          "https://openalex.org/W137989762",
+          "https://openalex.org/W1781497426",
+          "https://openalex.org/W1851916958",
+          "https://openalex.org/W1876527711",
+          "https://openalex.org/W2154652894",
+          "https://openalex.org/W2156554947",
+          "https://openalex.org/W2156985047",
+          "https://openalex.org/W2164503643",
+          "https://openalex.org/W2394969460",
+          "https://openalex.org/W2400103538",
+          "https://openalex.org/W2560280095",
+          "https://openalex.org/W2574596763",
+          "https://openalex.org/W2805974756",
+          "https://openalex.org/W2806412155",
+          "https://openalex.org/W2806962830",
+          "https://openalex.org/W2807107081",
+          "https://openalex.org/W2886095922",
+          "https://openalex.org/W2905123482",
+          "https://openalex.org/W2970101452",
+          "https://openalex.org/W2981852735",
+          "https://openalex.org/W2997613748",
+          "https://openalex.org/W3001434439",
+          "https://openalex.org/W3005389111",
+          "https://openalex.org/W3023901033",
+          "https://openalex.org/W3030163527",
+          "https://openalex.org/W3031427604",
+          "https://openalex.org/W3087597081",
+          "https://openalex.org/W3118036215",
+          "https://openalex.org/W3120055548",
+          "https://openalex.org/W3136452804",
+          "https://openalex.org/W3152956381",
+          "https://openalex.org/W3165821503",
+          "https://openalex.org/W3169483174",
+          "https://openalex.org/W3170253630",
+          "https://openalex.org/W3185341429",
+          "https://openalex.org/W4281717508",
+          "https://openalex.org/W4307922498",
+          "https://openalex.org/W4318903120",
+          "https://openalex.org/W4323323154",
+          "https://openalex.org/W4379924356"
+        ],
+        "retracted": false,
+        "provenance": [
+          "keyword: Tunisian Arabic parallel corpus manual translation stop words",
+          "keyword: Tunisian Arabic translation dataset data augmentation segmentation"
+        ],
+        "criteria": [],
+        "rrf": 0.02667140825035562,
+        "aliases": [
+          "https://openalex.org/W4416129820"
+        ],
+        "neural_score": 0.78374,
+        "score": 0.60987
+      },
+      {
+        "id": "https://openalex.org/W3123572135",
+        "title": "Arabic-English Parallel Corpus: A New Resource for Translation Training and Language Teaching",
+        "doi": "https://doi.org/10.2139/ssrn.3053572",
+        "year": 2017,
+        "abstract": "Parallel corpora can be defined as collections of aligned, translated texts of two or more languages. They play a major role in translation and contrastive studies, and are also becoming popular in translation training and language teaching, with the advent of the data-driven learning (DDL) approach. Despite their significance, however, Arabic seems to lack a satisfactory general-use parallel corpus resource. The literature describes few Arabic–English parallel corpora, and these few are usually inaccurate and/or expensive. Some are small in size, while others are restricted in terms of genre, failing to meet the requirements of many academics and researchers. This paper describes an ongoing project at the College of Languages and Translation, King Saud University, to compile a 10-million-word Arabic–English parallel corpus to be used as a resource for translation training and language teaching. The bidirectional corpus can be used to compare translated and source language and identify differences. The corpus has been manually verified at different stages, including translation, text segmentation, alignment, and file preparation; it is available as full-text in XML format and through a user-friendly web interface that provides a concordancer to support bilingual search queries and several filtering options.",
+        "authors": [
+          "Arab World English Journal",
+          "Hind M. Alotaibi"
+        ],
+        "venue": "Arab World English Journal",
+        "citations": 77,
+        "open_access": true,
+        "url": "https://doi.org/10.2139/ssrn.3053572",
+        "pdf_url": "http://awej.org/images/AllIssues/Volume8/Volume8number3September/21abs.pdf",
+        "references": [
+          "https://openalex.org/W11511616",
+          "https://openalex.org/W14245405",
+          "https://openalex.org/W231336534",
+          "https://openalex.org/W614252839",
+          "https://openalex.org/W614325411",
+          "https://openalex.org/W630532510",
+          "https://openalex.org/W856903345",
+          "https://openalex.org/W1155930934",
+          "https://openalex.org/W1534452280",
+          "https://openalex.org/W1562939385",
+          "https://openalex.org/W1563497747",
+          "https://openalex.org/W1570007915",
+          "https://openalex.org/W1772262084",
+          "https://openalex.org/W1905651573",
+          "https://openalex.org/W1982008367",
+          "https://openalex.org/W2000136004",
+          "https://openalex.org/W2006764153",
+          "https://openalex.org/W2015930392",
+          "https://openalex.org/W2065565011",
+          "https://openalex.org/W2070096163",
+          "https://openalex.org/W2074137161",
+          "https://openalex.org/W2075645678",
+          "https://openalex.org/W2088622839",
+          "https://openalex.org/W2092640855",
+          "https://openalex.org/W2094650698",
+          "https://openalex.org/W2104163179",
+          "https://openalex.org/W2104649345",
+          "https://openalex.org/W2129496263",
+          "https://openalex.org/W2141528935",
+          "https://openalex.org/W2148259819",
+          "https://openalex.org/W2166982198",
+          "https://openalex.org/W2172053510",
+          "https://openalex.org/W2189205983",
+          "https://openalex.org/W2250816155",
+          "https://openalex.org/W2250876691",
+          "https://openalex.org/W2251654371",
+          "https://openalex.org/W2258284489",
+          "https://openalex.org/W2312953169",
+          "https://openalex.org/W2320524681",
+          "https://openalex.org/W2322130103"
+        ],
+        "retracted": false,
+        "provenance": [
+          "coverage repair: Contains manually translated comments by native speakers",
+          "coverage repair: Includes data augmented through methods like segmentation at the stop words level"
+        ],
+        "criteria": [],
+        "rrf": 0.03200204813108039,
+        "aliases": [
+          "https://openalex.org/W3123572135"
+        ],
+        "neural_score": 0.13259,
+        "score": 0.49929
+      },
+      {
+        "id": "https://openalex.org/W4394050744",
+        "title": "Tunizi: Tunisian Arabizi Sentiment Analysis Dataset",
+        "doi": "https://doi.org/10.5281/zenodo.4271535",
+        "year": 2020,
+        "abstract": "Tunizi is the first 100% Tunisian Arabizi sentiment analysis dataset. Tunisian Arabizi is the representation of the tunisian dialect written in Latin characters and numbers rather than Arabic letters.We gathered comments from social media platforms that express sentiment about popular topics. For this purpose, we extracted 100k comments using public streaming APIs. Tunizi was preprocessed by removing links, emoji symbols, and punctuations. The collected comments were manually annotated using an overall polarity: positive (1), negative (-1) and neutral (0) class. We divided the dataset into separate training, validation and test sets, with a ratio of 7:1:2 with a balanced split where the number of comments from positive class and negative class are almost the same.",
+        "authors": [
+          "Chayma Fourati"
+        ],
+        "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+        "citations": 5,
+        "open_access": true,
+        "url": "https://doi.org/10.5281/zenodo.4271535",
+        "pdf_url": null,
+        "references": [
+          "https://openalex.org/W2250783208",
+          "https://openalex.org/W2947999816"
+        ],
+        "retracted": false,
+        "provenance": [
+          "semantic: Are there any resources available for translating Tunisian Arabic dialect that contain both manually translated comments by native speakers and additional data augmented through methods like segmentation at stop words level?",
+          "semantic: Tunisian Arabic translation dataset data augmentation segmentation",
+          "coverage repair: Contains manually translated comments by native speakers"
+        ],
+        "criteria": [],
+        "rrf": 0.03782653711373049,
+        "aliases": [
+          "https://openalex.org/W4394050744"
+        ],
+        "neural_score": 0.0369,
+        "score": 0.49345
+      },
+      {
+        "id": "https://openalex.org/W4285077689",
+        "title": "TArC: Tunisian Arabish Corpus, First complete release",
+        "doi": "https://doi.org/10.63317/5eqrikasc4rn",
+        "year": 2022,
+        "abstract": "In this paper we present the final result of a project on Tunisian Arabic encoded in Arabizi, the Latin-based writing system for digital conversations.The project led to the creation of two integrated and independent resources: a corpus and a NLP tool created to annotate the former with various levels of linguistic information: word classification, transliteration, tokenization, POS-tagging, lemmatization.We discuss our choices in terms of computational and linguistic methodology and the strategies adopted to improve our results.We report on the experiments performed in order to outline our research path.Finally, we explain why we believe in the potential of these resources for both computational and linguistic researches.",
+        "authors": [
+          "Elisa Gugliotta",
+          "Marco Dinarelli"
+        ],
+        "venue": "Language Resources and Evaluation Conference (LREC)",
+        "citations": 12,
+        "open_access": true,
+        "url": "https://doi.org/10.63317/5eqrikasc4rn",
+        "pdf_url": "http://www.lrec-conf.org/proceedings/lrec2022/pdf/2022.lrec-1.121.pdf",
+        "references": [
+          "https://openalex.org/W4535707",
+          "https://openalex.org/W137989762",
+          "https://openalex.org/W201894977",
+          "https://openalex.org/W351894178",
+          "https://openalex.org/W1558613094",
+          "https://openalex.org/W1614298861",
+          "https://openalex.org/W1806891645",
+          "https://openalex.org/W2064675550",
+          "https://openalex.org/W2093418984",
+          "https://openalex.org/W2103195385",
+          "https://openalex.org/W2104463314",
+          "https://openalex.org/W2130942839",
+          "https://openalex.org/W2166660646",
+          "https://openalex.org/W2189831162",
+          "https://openalex.org/W2233440677",
+          "https://openalex.org/W2250414785",
+          "https://openalex.org/W2250539671",
+          "https://openalex.org/W2250668514",
+          "https://openalex.org/W2250783208",
+          "https://openalex.org/W2250960632",
+          "https://openalex.org/W2250967669",
+          "https://openalex.org/W2251092354",
+          "https://openalex.org/W2251137535",
+          "https://openalex.org/W2251156863",
+          "https://openalex.org/W2251190179",
+          "https://openalex.org/W2251635021",
+          "https://openalex.org/W2251657882",
+          "https://openalex.org/W2251658995",
+          "https://openalex.org/W2284660317",
+          "https://openalex.org/W2394969460",
+          "https://openalex.org/W2398594853",
+          "https://openalex.org/W2400103538",
+          "https://openalex.org/W2518969573",
+          "https://openalex.org/W2541904653",
+          "https://openalex.org/W2585813550",
+          "https://openalex.org/W2729871481",
+          "https://openalex.org/W2734322117",
+          "https://openalex.org/W2740432722",
+          "https://openalex.org/W2757376562",
+          "https://openalex.org/W2767784948"
+        ],
+        "retracted": false,
+        "provenance": [
+          "semantic: Are there any resources available for translating Tunisian Arabic dialect that contain both manually translated comments by native speakers and additional data augmented through methods like segmentation at stop words level?",
+          "coverage repair: Contains manually translated comments by native speakers",
+          "coverage repair: Includes data augmented through methods like segmentation at the stop words level"
+        ],
+        "criteria": [],
+        "rrf": 0.03747266043091814,
+        "aliases": [
+          "https://openalex.org/W4285077689"
+        ],
+        "neural_score": -0.04492,
+        "score": 0.47628
+      },
+      {
+        "id": "https://openalex.org/W2395245243",
+        "title": "De l'arabe standard vers l'arabe dialectal : projection de corpus et ressources linguistiques en vue du traitement automatique de l'oral dans les médias tunisiens",
+        "doi": null,
+        "year": 2014,
+        "abstract": "RÉSUMÉ. Dans ce travail, nous nous intéressons aux problèmes liés au traitement automatique de l'oral parlé dans les médias tunisiens. Cet oral se caractérise par l'emploi de l'alternance codique entre l'arabe standard moderne (MSA) et le dialecte tunisien (DT). L'objectif consiste à construire des ressources utiles pour apprendre des modèles de langage dédiés à des applications de reconnaissance automatique de la parole. Comme il s'agit d'une variante du MSA, nous décrivons dans cet article une démarche d'adaptation des ressources MSA vers le DT. Une première évaluation en termes de couverture lexicale et de perplexité est présentée. ABSTRACT. In this work, we focus on the problems of the automatic treatment of oral spoken in the Tunisian media. This oral is marked by the use of code-switching between the Modern Standard Arabic (MSA) and the Tunisian dialect (TD). Our goal is to build useful resources to learn language models that can be used in automatic speech recognition applications. As it is a variant of MSA, we describe in this paper an adjustment process of the MSA resources to the TD. A first evaluation in terms of lexical coverage and perplexity is presented.",
+        "authors": [
+          "Rahma Boujelbane",
+          "Mariem Ellouze",
+          "Frédéric Béchet",
+          "Lamia Hadrich Belguith"
+        ],
+        "venue": "Trait. Autom. des Langues",
+        "citations": 17,
+        "open_access": true,
+        "url": "http://www.atala.org/IMG/pdf/3.Boujelbane-TAL55-2.pdf",
+        "pdf_url": "https://halshs.archives-ouvertes.fr/halshs-01193325",
+        "references": [
+          "https://openalex.org/W59336826",
+          "https://openalex.org/W137989762",
+          "https://openalex.org/W158764556",
+          "https://openalex.org/W163823652",
+          "https://openalex.org/W187659528",
+          "https://openalex.org/W621636834",
+          "https://openalex.org/W632929887",
+          "https://openalex.org/W1534551737",
+          "https://openalex.org/W1707124376",
+          "https://openalex.org/W1993561131",
+          "https://openalex.org/W2009639677",
+          "https://openalex.org/W2026997813",
+          "https://openalex.org/W2039087642",
+          "https://openalex.org/W2048196756",
+          "https://openalex.org/W2077853988",
+          "https://openalex.org/W2101711363",
+          "https://openalex.org/W2126784811",
+          "https://openalex.org/W2128014038",
+          "https://openalex.org/W2164503643",
+          "https://openalex.org/W2168576900",
+          "https://openalex.org/W2250668514",
+          "https://openalex.org/W2250960632",
+          "https://openalex.org/W2251147480",
+          "https://openalex.org/W2251658995",
+          "https://openalex.org/W2610671394",
+          "https://openalex.org/W2617702252",
+          "https://openalex.org/W2779559028",
+          "https://openalex.org/W2963503351",
+          "https://openalex.org/W2965296999",
+          "https://openalex.org/W6946492338",
+          "https://openalex.org/W7099258496"
+        ],
+        "retracted": false,
+        "provenance": [
+          "semantic: Are there any resources available for translating Tunisian Arabic dialect that contain both manually translated comments by native speakers and additional data augmented through methods like segmentation at stop words level?",
+          "semantic: Tunisian dialect machine translation native speaker comments",
+          "coverage repair: Contains manually translated comments by native speakers",
+          "coverage repair: Includes data augmented through methods like segmentation at the stop words level"
+        ],
+        "criteria": [],
+        "rrf": 0.05461454605290222,
+        "aliases": [
+          "https://openalex.org/W2395245243"
+        ],
+        "neural_score": -0.29911,
+        "score": 0.46489
+      },
+      {
+        "id": "https://openalex.org/W2250862217",
+        "title": "Building bilingual lexicon to create Dialect Tunisian corpora and adapt language model",
+        "doi": null,
+        "year": 2013,
+        "abstract": "Since the Tunisian revolution, Tunisian Dialect (TD) used in daily life, has became progressively used and represented in interviews, news and debate programs instead of Modern Standard Arabic (MSA). This situation has important negative consequences for natural language processing (NLP): since the spoken dialects are not officially written and do not have standard orthography, it is very costly to obtain adequate corpora to use for training NLP tools. Furthermore, there are almost no parallel corpora involving TD and MSA. In this paper, we describe the creation of Tunisian dialect text corpus as well as a method for building a bilingual dictionary, in order to create language model for speech recognition system for the Tunisian Broadcast News. So, we use explicit knowledge about the relation between TD and MSA. 1",
+        "authors": [
+          "Rahma Boujelbane",
+          "Mariem Ellouze",
+          "Siwar BenAyed",
+          "Lamia Hadrich Belguith"
+        ],
+        "venue": "Workshop on Hybrid Approaches to Translation",
+        "citations": 30,
+        "open_access": false,
+        "url": "https://www.mt-archive.info/10/HyTra-2013-Boujelbane.pdf",
+        "pdf_url": null,
+        "references": [
+          "https://openalex.org/W114284868",
+          "https://openalex.org/W204067281",
+          "https://openalex.org/W2039087642",
+          "https://openalex.org/W2137397532"
+        ],
+        "retracted": false,
+        "provenance": [
+          "semantic: Are there any resources available for translating Tunisian Arabic dialect that contain both manually translated comments by native speakers and additional data augmented through methods like segmentation at stop words level?",
+          "semantic: Tunisian dialect machine translation native speaker comments",
+          "coverage repair: Contains manually translated comments by native speakers",
+          "coverage repair: Includes data augmented through methods like segmentation at the stop words level"
+        ],
+        "criteria": [],
+        "rrf": 0.06095087707990934,
+        "aliases": [
+          "https://openalex.org/W2250862217"
+        ],
+        "neural_score": -0.45595,
+        "score": 0.44904
+      },
+      {
+        "id": "https://openalex.org/W2999664459",
+        "title": "A NooJ Tunisian Dialect Translator",
+        "doi": "https://doi.org/10.1007/978-3-030-38833-1_11",
+        "year": 2020,
+        "abstract": "",
+        "authors": [
+          "Roua Torjmen",
+          "Nadia Ghezaiel Hammouda",
+          "Kais Haddar"
+        ],
+        "venue": "Communications in computer and information science",
+        "citations": 3,
+        "open_access": false,
+        "url": "https://doi.org/10.1007/978-3-030-38833-1_11",
+        "pdf_url": null,
+        "references": [
+          "https://openalex.org/W2068474112",
+          "https://openalex.org/W2251948394",
+          "https://openalex.org/W2394969460",
+          "https://openalex.org/W2891295164",
+          "https://openalex.org/W2905938514",
+          "https://openalex.org/W2993173751",
+          "https://openalex.org/W3170253630",
+          "https://openalex.org/W4200523670",
+          "https://openalex.org/W4231647336"
+        ],
+        "retracted": false,
+        "provenance": [
+          "semantic: Are there any resources available for translating Tunisian Arabic dialect that contain both manually translated comments by native speakers and additional data augmented through methods like segmentation at stop words level?",
+          "semantic: Tunisian dialect machine translation native speaker comments",
+          "coverage repair: Contains manually translated comments by native speakers"
+        ],
+        "criteria": [],
+        "rrf": 0.03595881069285325,
+        "aliases": [
+          "https://openalex.org/W2999664459"
+        ],
+        "neural_score": -0.2861,
+        "score": 0.42499
+      },
+      {
+        "id": "https://openalex.org/W2952834131",
+        "title": "Investigating the effect of stemming and part-of-speech tagging on automatic extraction of translation equivalents from parallel corpora for Arabic–English machine translation",
+        "doi": "https://doi.org/10.4324/9781351063388-14",
+        "year": 2019,
+        "abstract": "Current research in Natural Language Processing (NLP) tends to exploit corpus resources as a way of overcoming the problem of knowledge acquisition. Machine Translation (MT) is no exception to this trend. Many MT researchers have attempted to extract knowledge from parallel corpora ( Brown et al., 1990 ; Dagan, Itai, and Schwall, 1991; Matsumoto, Ishimoto, and Utsuro, 1993). A parallel corpus is composed of a pair of texts in two languages, where one is a translation of the other (Melamed, 2000). For MT systems, Arabic remains somewhat challenging. It is a highly inflected language with a rich and complex morphological system, where often a single word will consist of a stem along with multiple affixes and clitics. An Arabic word could stand as a complete sentence. Furthermore, because Arabic is written without diacritical marks or short vowels, Arabic words generate a huge level of ambiguity (Maamouri, Bies and Kulick, 2006). This chapter outlines a method for extracting translation equivalents from a parallel corpus for potential use in a broader Arabic–English MT, with a focus on investigating the effect of using a number of preprocessing tools, namely stemming and part-of-speech tagging on the extraction process (the method is applicable to any language pair). The method uses the statistical technique of co-occurrence frequency in the parallel corpus, and focuses on the open-class translation equivalents, excluding closed-class words, such as prepositions, conjunctions, particles, etc. The automatic extraction of such translation lexicons is advantageous as it saves time and effort. A number of preprocessing steps are carried out. First, Part-of-Speech (POS) taggers for Arabic and English are built to tag the parallel texts. Second, stemmers for Arabic and English are developed to reduce a word to its stem, base or root form. The stemmers and POS taggers are then used to annotate the parallel corpus, indicating both POS tags and stem forms for both Arabic and English words. Now there are two parallel corpora; the first is a raw corpus without any linguistic information about the stems and POS categories and the other corpus is annotated with such information. The extraction method is applied to both corpora to see how effective the use of stemming and POS-tagging is on the process of selecting the correct translation equivalent. Experimental results show that the accuracy of the extracted equivalents improved by roughly 30% after using both stemming and POS-tagging techniques.",
+        "authors": [
+          "Yasser Muhammad Naguib Sabtan"
+        ],
+        "venue": "Routledge eBooks",
+        "citations": 2,
+        "open_access": false,
+        "url": "https://doi.org/10.4324/9781351063388-14",
+        "pdf_url": null,
+        "references": [
+          "https://openalex.org/W1592729105"
+        ],
+        "retracted": false,
+        "provenance": [
+          "coverage repair: Contains manually translated comments by native speakers",
+          "coverage repair: Includes data augmented through methods like segmentation at the stop words level"
+        ],
+        "criteria": [],
+        "rrf": 0.0231841329402305,
+        "aliases": [
+          "https://openalex.org/W2952834131"
+        ],
+        "neural_score": -0.26709,
+        "score": 0.39965
+      },
+      {
+        "id": "https://openalex.org/W2251147480",
+        "title": "Mapping Rules for Building a Tunisian Dialect Lexicon and Generating Corpora",
+        "doi": null,
+        "year": 2013,
+        "abstract": "Nowadays in tunisia, the arabic Tunisian Dialect (TD) has become progressively used in interviews, news and debate programs instead of Modern Standard Arabic (MSA). Thus, this gave birth to a new kind of language. Indeed, the majority of speech is no longer made in MSA but alternates between MSA and TD. This situation has important negative consequences on Automatic Speech Recognition (ASR): since the spoken dialects are not officially written and do not have a standard orthography, it is very costly to obtain adequate annotated corpora to use for training language models and building vocabulary. There are neither parallel corpora involving Tunisian dialect and MSA nor dictionaries. In this paper, we describe a method for building a bilingual dictionary using explicit knowledge about the relation between TD and MSA. We also present an automatic process for creating Tunisian Dialect",
+        "authors": [
+          "Rahma Boujelbane",
+          "Mariem Ellouze",
+          "Lamia Hadrich Belguith"
+        ],
+        "venue": "International Joint Conference on Natural Language Processing",
+        "citations": 40,
+        "open_access": false,
+        "url": "https://aclanthology.org/I13-1048/",
+        "pdf_url": null,
+        "references": [
+          "https://openalex.org/W114284868",
+          "https://openalex.org/W181901128",
+          "https://openalex.org/W1957504465",
+          "https://openalex.org/W2063718015",
+          "https://openalex.org/W2076768867",
+          "https://openalex.org/W2100976324",
+          "https://openalex.org/W2137397532",
+          "https://openalex.org/W2610671394",
+          "https://openalex.org/W2921663249",
+          "https://openalex.org/W3098280840"
+        ],
+        "retracted": false,
+        "provenance": [
+          "semantic: Are there any resources available for translating Tunisian Arabic dialect that contain both manually translated comments by native speakers and additional data augmented through methods like segmentation at stop words level?",
+          "semantic: Tunisian dialect machine translation native speaker comments"
+        ],
+        "criteria": [],
+        "rrf": 0.03055037313432836,
+        "aliases": [
+          "https://openalex.org/W2251147480"
+        ],
+        "neural_score": -0.58008,
+        "score": 0.35664
+      },
+      {
+        "id": "https://openalex.org/W4377989177",
+        "title": "Tokenization of Tunisian Arabic: A Comparison between Three Machine Learning Models",
+        "doi": "https://doi.org/10.1145/3599234",
+        "year": 2023,
+        "abstract": "Tokenization represents the way of segmenting a piece of text into smaller units called tokens. Since Arabic is an agglutinating language by nature, this treatment becomes a crucial preprocessing step for many Natural Language Processing (NLP) applications such as morphological analysis, parsing, machine translation, information extraction, and so on. In this article, we investigate word tokenization task with a rewriting process to rewrite the orthography of the stem. For this task, we are using Tunisian Arabic (TA) text. To the best of the researchers’ knowledge, this is the first study that uses TA for word tokenization. Therefore, we start by collecting and preparing various TA corpora from different sources. Then, we present a comparison of three character-based tokenizers based on Conditional Random Fields (CRF), Support Vector Machines (SVM) and Deep Neural Networks (DNN). The best proposed model using CRF achieved an F-measure result of 88.9%.",
+        "authors": [
+          "Asma Mekki",
+          "Inès Zribi",
+          "Mariem Ellouze",
+          "Lamia Hadrich Belguith"
+        ],
+        "venue": "ACM Transactions on Asian and Low-Resource Language Information Processing",
+        "citations": 10,
+        "open_access": true,
+        "url": "https://doi.org/10.1145/3599234",
+        "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3599234",
+        "references": [
+          "https://openalex.org/W56096989",
+          "https://openalex.org/W72487590",
+          "https://openalex.org/W146945658",
+          "https://openalex.org/W151307157",
+          "https://openalex.org/W187659528",
+          "https://openalex.org/W1869391892",
+          "https://openalex.org/W1966863499",
+          "https://openalex.org/W2049151043",
+          "https://openalex.org/W2141599568",
+          "https://openalex.org/W2147880316",
+          "https://openalex.org/W2153579005",
+          "https://openalex.org/W2156909104",
+          "https://openalex.org/W2168576900",
+          "https://openalex.org/W2169160736",
+          "https://openalex.org/W2189831162",
+          "https://openalex.org/W2250283392",
+          "https://openalex.org/W2250562293",
+          "https://openalex.org/W2250668514",
+          "https://openalex.org/W2250816155",
+          "https://openalex.org/W2251354811",
+          "https://openalex.org/W2251573242",
+          "https://openalex.org/W2251658995",
+          "https://openalex.org/W2326206218",
+          "https://openalex.org/W2395245243",
+          "https://openalex.org/W2471147443",
+          "https://openalex.org/W2581564515",
+          "https://openalex.org/W2585813550",
+          "https://openalex.org/W2734616553",
+          "https://openalex.org/W2737249384",
+          "https://openalex.org/W2747566258",
+          "https://openalex.org/W2774547308",
+          "https://openalex.org/W2890395128",
+          "https://openalex.org/W2891295164",
+          "https://openalex.org/W2901637692",
+          "https://openalex.org/W2912165583",
+          "https://openalex.org/W3115439509",
+          "https://openalex.org/W3126604345",
+          "https://openalex.org/W3156641572",
+          "https://openalex.org/W3167628632",
+          "https://openalex.org/W4297198909"
+        ],
+        "retracted": false,
+        "provenance": [
+          "keyword: Tunisian dialect machine translation native speaker comments",
+          "coverage repair: Includes data augmented through methods like segmentation at the stop words level"
+        ],
+        "criteria": [],
+        "rrf": 0.024922600619195046,
+        "aliases": [
+          "https://openalex.org/W4377989177"
+        ],
+        "neural_score": -0.52803,
+        "score": 0.35349
+      }
+    ],
+    "usage": {
+      "api_calls": 9,
+      "cache_hits": 0,
+      "llm_calls": 6
+    },
+    "ranker": "cross-encoder + RRF",
+    "gaps": [
+      {
+        "id": "c1",
+        "text": "Focuses on resources or datasets for translating Tunisian Arabic dialect"
+      },
+      {
+        "id": "c2",
+        "text": "Contains manually translated comments by native speakers"
+      },
+      {
+        "id": "c3",
+        "text": "Includes data augmented through methods like segmentation at the stop words level"
+      }
+    ],
+    "repaired": true,
+    "warnings": [
+      "Hosted model returned HTTP 503",
+      "Hosted model returned HTTP 429",
+      "Hosted LLM quota is cooling down; evidence judgments are unavailable"
+    ],
+    "citation_edges": [
+      {
+        "source": "https://openalex.org/W2792607973",
+        "target": "https://openalex.org/W2139327263"
+      },
+      {
+        "source": "https://openalex.org/W2792607973",
+        "target": "https://openalex.org/W2250862217"
+      },
+      {
+        "source": "https://openalex.org/W3089774903",
+        "target": "https://openalex.org/W2617702252"
+      },
+      {
+        "source": "https://openalex.org/W4307922498",
+        "target": "https://openalex.org/W2251147480"
+      },
+      {
+        "source": "https://openalex.org/W4307922498",
+        "target": "https://openalex.org/W2617702252"
+      },
+      {
+        "source": "https://openalex.org/W4307922498",
+        "target": "https://openalex.org/W3120055548"
+      },
+      {
+        "source": "https://openalex.org/W7160321818",
+        "target": "https://openalex.org/W2251147480"
+      },
+      {
+        "source": "https://openalex.org/W7160321818",
+        "target": "https://openalex.org/W2617702252"
+      },
+      {
+        "source": "https://openalex.org/W7160321818",
+        "target": "https://openalex.org/W3120055548"
+      },
+      {
+        "source": "https://openalex.org/W2617702252",
+        "target": "https://openalex.org/W137989762"
+      },
+      {
+        "source": "https://openalex.org/W4400955022",
+        "target": "https://openalex.org/W3089774903"
+      },
+      {
+        "source": "https://openalex.org/W4400955022",
+        "target": "https://openalex.org/W4200531534"
+      },
+      {
+        "source": "https://openalex.org/W4200531534",
+        "target": "https://openalex.org/W2139327263"
+      },
+      {
+        "source": "https://openalex.org/W4200531534",
+        "target": "https://openalex.org/W3089774903"
+      },
+      {
+        "source": "https://openalex.org/W2901637692",
+        "target": "https://openalex.org/W2112141294"
+      },
+      {
+        "source": "https://openalex.org/W2901637692",
+        "target": "https://openalex.org/W2250862217"
+      },
+      {
+        "source": "https://openalex.org/W2901637692",
+        "target": "https://openalex.org/W2395245243"
+      },
+      {
+        "source": "https://openalex.org/W2901637692",
+        "target": "https://openalex.org/W2617702252"
+      },
+      {
+        "source": "https://openalex.org/W2901637692",
+        "target": "https://openalex.org/W2740432722"
+      },
+      {
+        "source": "https://openalex.org/W2112141294",
+        "target": "https://openalex.org/W137989762"
+      },
+      {
+        "source": "https://openalex.org/W2112141294",
+        "target": "https://openalex.org/W2139327263"
+      },
+      {
+        "source": "https://openalex.org/W2112141294",
+        "target": "https://openalex.org/W2250862217"
+      },
+      {
+        "source": "https://openalex.org/W2112141294",
+        "target": "https://openalex.org/W2617702252"
+      },
+      {
+        "source": "https://openalex.org/W2740432722",
+        "target": "https://openalex.org/W137989762"
+      },
+      {
+        "source": "https://openalex.org/W4416129820",
+        "target": "https://openalex.org/W137989762"
+      },
+      {
+        "source": "https://openalex.org/W4416129820",
+        "target": "https://openalex.org/W3120055548"
+      },
+      {
+        "source": "https://openalex.org/W4416129820",
+        "target": "https://openalex.org/W4307922498"
+      },
+      {
+        "source": "https://openalex.org/W4285077689",
+        "target": "https://openalex.org/W137989762"
+      },
+      {
+        "source": "https://openalex.org/W4285077689",
+        "target": "https://openalex.org/W2740432722"
+      },
+      {
+        "source": "https://openalex.org/W2395245243",
+        "target": "https://openalex.org/W137989762"
+      },
+      {
+        "source": "https://openalex.org/W2395245243",
+        "target": "https://openalex.org/W2251147480"
+      },
+      {
+        "source": "https://openalex.org/W2395245243",
+        "target": "https://openalex.org/W2617702252"
+      },
+      {
+        "source": "https://openalex.org/W4377989177",
+        "target": "https://openalex.org/W2395245243"
+      },
+      {
+        "source": "https://openalex.org/W4377989177",
+        "target": "https://openalex.org/W2901637692"
+      }
+    ],
+    "evidence_basis": "Title and abstract; no full text read",
+    "ablations": {
+      "single_semantic": [
+        "https://openalex.org/W2740432722",
+        "https://openalex.org/W2250862217",
+        "https://openalex.org/W2950488506",
+        "https://openalex.org/W2251147480",
+        "https://openalex.org/W2250668514",
+        "https://openalex.org/W4287810359",
+        "https://openalex.org/W2189831162",
+        "https://openalex.org/W2251948394",
+        "https://openalex.org/W3002109251",
+        "https://openalex.org/W1558613094",
+        "https://openalex.org/W2251259636",
+        "https://openalex.org/W2617702252",
+        "https://openalex.org/W4416037679",
+        "https://openalex.org/W2395245243",
+        "https://openalex.org/W3015119368",
+        "https://openalex.org/W2139327263",
+        "https://openalex.org/W2901053052",
+        "https://openalex.org/W187659528",
+        "https://openalex.org/W2112141294",
+        "https://openalex.org/W2999664459",
+        "https://openalex.org/W2577201715",
+        "https://openalex.org/W2250378459",
+        "https://openalex.org/W2901637692",
+        "https://openalex.org/W4200531534",
+        "https://openalex.org/W2792607973",
+        "https://openalex.org/W4394050744",
+        "https://openalex.org/W4285077689",
+        "https://openalex.org/W3088294933",
+        "https://openalex.org/W3133711023",
+        "https://openalex.org/W3120055548",
+        "https://openalex.org/W2970022779",
+        "https://openalex.org/W7147139424",
+        "https://openalex.org/W3174232216",
+        "https://openalex.org/W4416037648",
+        "https://openalex.org/W7172260341",
+        "https://openalex.org/W4400955022",
+        "https://openalex.org/W4405149129",
+        "https://openalex.org/W3037975225",
+        "https://openalex.org/W2947999816",
+        "https://openalex.org/W3014501278"
+      ],
+      "rrf": [
+        "https://openalex.org/W4293343222",
+        "https://openalex.org/W2806962830",
+        "https://openalex.org/W4416037679",
+        "https://openalex.org/W3120055548",
+        "https://openalex.org/W2740432722",
+        "https://openalex.org/W3089774903",
+        "https://openalex.org/W2250862217",
+        "https://openalex.org/W2950488506",
+        "https://openalex.org/W2251147480",
+        "https://openalex.org/W2250668514",
+        "https://openalex.org/W4287810359",
+        "https://openalex.org/W2251882277",
+        "https://openalex.org/W3002109251",
+        "https://openalex.org/W4307922498",
+        "https://openalex.org/W2112141294",
+        "https://openalex.org/W7160321818",
+        "https://openalex.org/W2625431998",
+        "https://openalex.org/W2617702252",
+        "https://openalex.org/W2395245243",
+        "https://openalex.org/W4416129820",
+        "https://openalex.org/W2901053052",
+        "https://openalex.org/W3015119368",
+        "https://openalex.org/W4394050744",
+        "https://openalex.org/W2999664459",
+        "https://openalex.org/W4200531534",
+        "https://openalex.org/W7134809714",
+        "https://openalex.org/W2139327263",
+        "https://openalex.org/W2786592806",
+        "https://openalex.org/W3133711023",
+        "https://openalex.org/W2792607973",
+        "https://openalex.org/W3161853012",
+        "https://openalex.org/W7147139424",
+        "https://openalex.org/W3175210284",
+        "https://openalex.org/W4405149129",
+        "https://openalex.org/W7172260341",
+        "https://openalex.org/W3174232216",
+        "https://openalex.org/W4400955022",
+        "https://openalex.org/W2947159833",
+        "https://openalex.org/W2250783208",
+        "https://openalex.org/W4416034124",
+        "https://openalex.org/W2904580809",
+        "https://openalex.org/W137989762",
+        "https://openalex.org/W2101105183",
+        "https://openalex.org/W4407255507",
+        "https://openalex.org/W3041991338",
+        "https://openalex.org/W2123301721",
+        "https://openalex.org/W4410313687",
+        "https://openalex.org/W4210524759",
+        "https://openalex.org/W4313908087",
+        "https://openalex.org/W2156985047",
+        "https://openalex.org/W4318823097",
+        "https://openalex.org/W4210353672",
+        "https://openalex.org/W3212675060",
+        "https://openalex.org/W3170253630",
+        "https://openalex.org/W1524333225",
+        "https://openalex.org/W4392354806",
+        "https://openalex.org/W4388936673",
+        "https://openalex.org/W3216821104",
+        "https://openalex.org/W2061272101",
+        "https://openalex.org/W3114901634"
+      ],
+      "rerank": [
+        "https://openalex.org/W4416037679",
+        "https://openalex.org/W3120055548",
+        "https://openalex.org/W3089774903",
+        "https://openalex.org/W2792607973",
+        "https://openalex.org/W4307922498",
+        "https://openalex.org/W7160321818",
+        "https://openalex.org/W4287810359",
+        "https://openalex.org/W3002109251",
+        "https://openalex.org/W2901053052",
+        "https://openalex.org/W2617702252",
+        "https://openalex.org/W4410313687",
+        "https://openalex.org/W4400955022",
+        "https://openalex.org/W4200531534",
+        "https://openalex.org/W7172260341",
+        "https://openalex.org/W2112141294",
+        "https://openalex.org/W2139327263",
+        "https://openalex.org/W3133711023",
+        "https://openalex.org/W2740432722",
+        "https://openalex.org/W3114901634",
+        "https://openalex.org/W137989762",
+        "https://openalex.org/W4416129820",
+        "https://openalex.org/W4394050744",
+        "https://openalex.org/W2395245243",
+        "https://openalex.org/W2999664459",
+        "https://openalex.org/W2250862217",
+        "https://openalex.org/W2251147480",
+        "https://openalex.org/W3015119368",
+        "https://openalex.org/W7134809714",
+        "https://openalex.org/W2806962830",
+        "https://openalex.org/W4416034124",
+        "https://openalex.org/W4293343222",
+        "https://openalex.org/W2250668514",
+        "https://openalex.org/W3175210284",
+        "https://openalex.org/W4313908087",
+        "https://openalex.org/W2250783208",
+        "https://openalex.org/W2786592806",
+        "https://openalex.org/W4318823097",
+        "https://openalex.org/W2950488506",
+        "https://openalex.org/W2251882277",
+        "https://openalex.org/W3216821104",
+        "https://openalex.org/W3174232216",
+        "https://openalex.org/W2625431998",
+        "https://openalex.org/W4392354806",
+        "https://openalex.org/W3170253630",
+        "https://openalex.org/W2947159833",
+        "https://openalex.org/W4405149129",
+        "https://openalex.org/W7147139424",
+        "https://openalex.org/W3161853012",
+        "https://openalex.org/W4407255507",
+        "https://openalex.org/W2101105183",
+        "https://openalex.org/W2904580809",
+        "https://openalex.org/W3041991338",
+        "https://openalex.org/W2123301721",
+        "https://openalex.org/W4210524759",
+        "https://openalex.org/W4388936673",
+        "https://openalex.org/W2156985047",
+        "https://openalex.org/W3212675060",
+        "https://openalex.org/W4210353672",
+        "https://openalex.org/W1524333225",
+        "https://openalex.org/W2061272101"
+      ]
+    },
+    "candidate_index": {
+      "https://openalex.org/W2250783208": {
+        "title": "A Multidialectal Parallel Corpus of Arabic",
+        "year": 2014
+      },
+      "https://openalex.org/W2806962830": {
+        "title": "The MADAR Arabic Dialect Corpus and Lexicon",
+        "year": 2018
+      },
+      "https://openalex.org/W2625431998": {
+        "title": "Exploring Twitter as a Source of an Arabic Dialect Corpus",
+        "year": 2017
+      },
+      "https://openalex.org/W4318823097": {
+        "title": "Impact of Parallel vs. Non Parallel Corpora on the Identification of Arabic Dialects",
+        "year": 2023
+      },
+      "https://openalex.org/W2112141294": {
+        "title": "POS-tagging of Tunisian Dialect Using Standard Arabic Resources and Tools",
+        "year": 2015
+      },
+      "https://openalex.org/W4293343222": {
+        "title": "TArC: Incrementally and Semi-Automatically Collecting a Tunisian Arabish Corpus",
+        "year": 2020
+      },
+      "https://openalex.org/W3037975225": {
+        "title": "TArC : Incrementally and Semi-Automatically Collecting a Tunisian arabish Corpus",
+        "year": 2020
+      },
+      "https://openalex.org/W4392339693": {
+        "title": "Tunisian Arabizi: Linguistic Analyses and Corpus Building using Natural Language Processing",
+        "year": 2024
+      },
+      "https://openalex.org/W7053110646": {
+        "title": "TArC: Incrementally and semi-automatically collecting a Tunisian arabish corpus",
+        "year": 2020
+      },
+      "https://openalex.org/W4387434081": {
+        "title": "The Negative Transfer Effect on the Neural Machine Translation of Egyptian Arabic Adjuncts into English: The Case of Google Translate",
+        "year": 2023
+      },
+      "https://openalex.org/W3203103957": {
+        "title": "Improving Arabic Diacritization by Learning to Diacritize and Translate",
+        "year": 2022
+      },
+      "https://openalex.org/W4281717508": {
+        "title": "TURJUMAN: A Public Toolkit for Neural Arabic Machine Translation",
+        "year": 2022
+      },
+      "https://openalex.org/W7137699592": {
+        "title": "Tunisian Arabizi: Linguistic Analyses and Corpus Building using Natural Language Processing Creators Gugliotta, Elisa",
+        "year": 2024
+      },
+      "https://openalex.org/W2284648913": {
+        "title": "Arabic Text Recognition and Machine Translation",
+        "year": 2015
+      },
+      "https://openalex.org/W2610181815": {
+        "title": "A corpus-driven investigation of translator style : a study of Humphrey Davies' Arabic-English translations of Midaq Alley and The Yacoubian Building",
+        "year": 2016
+      },
+      "https://openalex.org/W4416129820": {
+        "title": "Exploring prompting for dialectical machine translation: a focus on north Jordanian Arabic",
+        "year": 2025
+      },
+      "https://openalex.org/W2741700407": {
+        "title": "Semi-automatic Annotation of Arabic Corpus: A Morpho-syntactic Study",
+        "year": 2022
+      },
+      "https://openalex.org/W7169724650": {
+        "title": "SH_ArabicIraqiAccent: A Speech Corpus of Iraqi Arabic Speech in Baghdad’s Northern Suburbs",
+        "year": 2026
+      },
+      "https://openalex.org/W7140081801": {
+        "title": "Current state of LLMs for Arabic dialectal machine translation",
+        "year": 2026
+      },
+      "https://openalex.org/W1889461403": {
+        "title": "Semantic and Contextual Knowledge Representation for Lexical Disambiguation: Case of Arabic-French Query Translation",
+        "year": 2014
+      },
+      "https://openalex.org/W3027457715": {
+        "title": "A review of sentiment analysis research in Arabic language",
+        "year": 2020
+      },
+      "https://openalex.org/W2786592806": {
+        "title": "Maghrebi Arabic dialect processing: an overview",
+        "year": 2017
+      },
+      "https://openalex.org/W7172453400": {
+        "title": "Romanized Arabic Across Dialects: Views, Usage Patterns, and Linguistic Variation",
+        "year": 2026
+      },
+      "https://openalex.org/W3140649021": {
+        "title": "Sexism detection: The first corpus in Algerian dialect with a code-switching in Arabic/ French and English",
+        "year": 2021
+      },
+      "https://openalex.org/W2250274454": {
+        "title": "Tharwa: A Large Scale Dialectal Arabic - Standard Arabic - English Lexicon",
+        "year": 2014
+      },
+      "https://openalex.org/W2900737918": {
+        "title": "A Lexical Distance Study of Arabic Dialects",
+        "year": 2018
+      },
+      "https://openalex.org/W2033599040": {
+        "title": "A Survey of Arabic Named Entity Recognition and Classification",
+        "year": 2013
+      },
+      "https://openalex.org/W4401954369": {
+        "title": "PARSEME-AR: Arabic reference corpus for multiword expressions using PARSEME annotation guidelines",
+        "year": 2024
+      },
+      "https://openalex.org/W4389714028": {
+        "title": "Content-Localization based Neural Machine Translation for Informal Dialectal Arabic: Spanish/French to Levantine/Gulf Arabic",
+        "year": 2023
+      },
+      "https://openalex.org/W2303566195": {
+        "title": "Case Endings in Spoken Standard Arabic",
+        "year": 2016
+      },
+      "https://openalex.org/W2898244584": {
+        "title": "The translation of metaphors in popular science from English into Arabic in the domain of astronomy and astrophysics.",
+        "year": 2018
+      },
+      "https://openalex.org/W2602677148": {
+        "title": "A Global Perspective on Machine Translation: Arabic as a Case Study",
+        "year": 2004
+      },
+      "https://openalex.org/W2166660646": {
+        "title": "Automatic Transliteration of Romanized Dialectal Arabic",
+        "year": 2014
+      },
+      "https://openalex.org/W2740645003": {
+        "title": "A Morphological Analyzer for Gulf Arabic Verbs",
+        "year": 2017
+      },
+      "https://openalex.org/W2599120011": {
+        "title": "A Web-based interface to calculate phonotactic probability for words and nonwords in Modern Standard Arabic",
+        "year": 2017
+      },
+      "https://openalex.org/W2740870334": {
+        "title": "Universal Dependencies for Arabic",
+        "year": 2017
+      },
+      "https://openalex.org/W3161853012": {
+        "title": "Classification of Arabic Tweets: A Review",
+        "year": 2021
+      },
+      "https://openalex.org/W4392216928": {
+        "title": "Exploring deep learning techniques in the task of English-Arabic Machine Translation",
+        "year": 2020
+      },
+      "https://openalex.org/W3174123549": {
+        "title": "An Incremental Approach to Corpus Design and Construction: Application to a Large Contemporary Saudi Corpus",
+        "year": 2021
+      },
+      "https://openalex.org/W2947159833": {
+        "title": "Arabic dialect texts classification",
+        "year": 2018
+      },
+      "https://openalex.org/W2740432722": {
+        "title": "Sentiment Analysis of Tunisian Dialects: Linguistic Ressources and Experiments",
+        "year": 2017
+      },
+      "https://openalex.org/W2250862217": {
+        "title": "Building bilingual lexicon to create Dialect Tunisian corpora and adapt language model",
+        "year": 2013
+      },
+      "https://openalex.org/W2950488506": {
+        "title": "Tunisian and Libyan arabic dialects : common trends, recent developments, diachronic aspects",
+        "year": 2017
+      },
+      "https://openalex.org/W2251147480": {
+        "title": "Mapping Rules for Building a Tunisian Dialect Lexicon and Generating Corpora",
+        "year": 2013
+      },
+      "https://openalex.org/W2250668514": {
+        "title": "Morphological Analysis of Tunisian Dialect",
+        "year": 2013
+      },
+      "https://openalex.org/W4287810359": {
+        "title": "TUNIZI: a Tunisian Arabizi sentiment analysis Dataset",
+        "year": 2020
+      },
+      "https://openalex.org/W2189831162": {
+        "title": "Constructing Linguistic Resources for the Tunisian Dialect Using Textual User-Generated Contents on the Social Web",
+        "year": 2015
+      },
+      "https://openalex.org/W2251948394": {
+        "title": "Collaboratively Constructed Linguistic Resources for Language Variants and their Exploitation in NLP Application – the case of Tunisian Arabic and the Social Media",
+        "year": 2014
+      },
+      "https://openalex.org/W3002109251": {
+        "title": "Transliteration of Arabizi into Arabic Script for Tunisian Dialect",
+        "year": 2019
+      },
+      "https://openalex.org/W1558613094": {
+        "title": "Orthographic Transcription for Spoken Tunisian Arabic",
+        "year": 2013
+      },
+      "https://openalex.org/W2251259636": {
+        "title": "Tunisian dialect Wordnet creation and enrichment using web resources and other Wordnets",
+        "year": 2014
+      },
+      "https://openalex.org/W2617702252": {
+        "title": "The Effects of Factorizing Root and Pattern Mapping in Bidirectional Tunisian - Standard Arabic Machine Translation",
+        "year": 2013
+      },
+      "https://openalex.org/W4416037679": {
+        "title": "TEDxTN: A Three-way Speech Translation Corpus for Code-Switched Tunisian Arabic - English",
+        "year": 2025
+      },
+      "https://openalex.org/W2395245243": {
+        "title": "De l'arabe standard vers l'arabe dialectal : projection de corpus et ressources linguistiques en vue du traitement automatique de l'oral dans les médias tunisiens",
+        "year": 2014
+      },
+      "https://openalex.org/W3015119368": {
+        "title": "Romanized Tunisian dialect transliteration using sequence labelling techniques",
+        "year": 2020
+      },
+      "https://openalex.org/W2139327263": {
+        "title": "Automatically building a Tunisian Lexicon for Deverbal Nouns",
+        "year": 2014
+      },
+      "https://openalex.org/W2901053052": {
+        "title": "A Sequence-to-Sequence based Approach For the double Transliteration of Tunisian Dialect",
+        "year": 2018
+      },
+      "https://openalex.org/W187659528": {
+        "title": "Fine-Grained POS Tagging of Spoken Tunisian Dialect Corpora",
+        "year": 2014
+      },
+      "https://openalex.org/W2999664459": {
+        "title": "A NooJ Tunisian Dialect Translator",
+        "year": 2020
+      },
+      "https://openalex.org/W2577201715": {
+        "title": "Creating Resources for Dialectal Arabic from a Single Annotation: A Case Study on Egyptian and Levantine",
+        "year": 2016
+      },
+      "https://openalex.org/W2250378459": {
+        "title": "Unsupervised Word Segmentation Improves Dialectal Arabic to English Machine Translation",
+        "year": 2014
+      },
+      "https://openalex.org/W2901637692": {
+        "title": "Critical description of TA linguistic resources",
+        "year": 2018
+      },
+      "https://openalex.org/W4200531534": {
+        "title": "Translation system from Tunisian Dialect to Modern Standard Arabic",
+        "year": 2021
+      },
+      "https://openalex.org/W2792607973": {
+        "title": "Tunisian Dialect-Modern Standard Arabic Bilingual Lexicon",
+        "year": 2017
+      },
+      "https://openalex.org/W4394050744": {
+        "title": "Tunizi: Tunisian Arabizi Sentiment Analysis Dataset",
+        "year": 2020
+      },
+      "https://openalex.org/W4285077689": {
+        "title": "TArC: Tunisian Arabish Corpus, First complete release",
+        "year": 2022
+      },
+      "https://openalex.org/W3088294933": {
+        "title": "TArC : Incrementally and Semi-Automatically Collecting a Tunisian arabish Corpus",
+        "year": 2020
+      },
+      "https://openalex.org/W3133711023": {
+        "title": "The Automatic Recognition and Translation of Tunisian Dialect Named Entities into Modern Standard Arabic",
+        "year": 2021
+      },
+      "https://openalex.org/W3120055548": {
+        "title": "Parallel resources for Tunisian Arabic Dialect Translation",
+        "year": 2020
+      },
+      "https://openalex.org/W2970022779": {
+        "title": "Linguistic Resources Construction: Towards Disfluency Processing in Spontaneous Tunisian Dialect Speech",
+        "year": 2019
+      },
+      "https://openalex.org/W7147139424": {
+        "title": "Traitement automatique du dialecte tunisien à l'aide d'outils et de ressources de l'arabe standard : application à l'étiquetage morphosyntaxique",
+        "year": 2015
+      },
+      "https://openalex.org/W3174232216": {
+        "title": "TRAITEMENT AUTOMATIQUE DU DIALECTE TUNISIEN : CONSTRUCTION DE RESSOURCES LINGUISTIQUES",
+        "year": 2016
+      },
+      "https://openalex.org/W4416037648": {
+        "title": "TuniFra: A Tunisian Arabic Speech Corpus with Orthographic Transcriptions and French Translations",
+        "year": 2025
+      },
+      "https://openalex.org/W7172260341": {
+        "title": "Tunisian Arabic NLP Resources: an access-verified inventory",
+        "year": 2026
+      },
+      "https://openalex.org/W4400955022": {
+        "title": "Translation from Tunisian Dialect to Modern Standard Arabic: Exploring Finite-State Transducers and Sequence-to-Sequence Transformer Approaches",
+        "year": 2024
+      },
+      "https://openalex.org/W4405149129": {
+        "title": "Pour la segmentation automatique de l'arabe parlé : l'exemple de l'arabe tunisien",
+        "year": 2024
+      },
+      "https://openalex.org/W2947999816": {
+        "title": "Survey on Corpora Availability for the Tunisian Dialect Automatic Processing",
+        "year": 2018
+      },
+      "https://openalex.org/W3014501278": {
+        "title": "Contributions to the automatic processing of the user-generated Tunisian dialect on the social web",
+        "year": 2020
+      },
+      "https://openalex.org/W4416034124": {
+        "title": "Data Augmentation for Maltese NLP using Transliterated and Machine Translated Arabic Data",
+        "year": 2025
+      },
+      "https://openalex.org/W4407255507": {
+        "title": "A comprehensive survey on Arabic text augmentation: approaches, challenges, and applications",
+        "year": 2025
+      },
+      "https://openalex.org/W4410313687": {
+        "title": "LinTO Audio and Textual Datasets to Train and Evaluate Automatic Speech Recognition in Tunisian Arabic Dialect",
+        "year": 2025
+      },
+      "https://openalex.org/W4210353672": {
+        "title": "Generative adversarial network based adaptive data augmentation for handwritten Arabic text recognition",
+        "year": 2022
+      },
+      "https://openalex.org/W4392354806": {
+        "title": "Data Augmentation for Offline Arabic Handwritten Text Recognition Using Moving Least Squares",
+        "year": 2024
+      },
+      "https://openalex.org/W3114901634": {
+        "title": "The SADID Evaluation Datasets for Low-Resource Spoken Language Machine Translation of Arabic Dialects",
+        "year": 2020
+      },
+      "https://openalex.org/W2740130688": {
+        "title": "Learning from Relatives: Unified Dialectal Arabic Segmentation",
+        "year": 2017
+      },
+      "https://openalex.org/W4289865839": {
+        "title": "Building an Arabic Dialectal Diagnostic Dataset for Healthcare",
+        "year": 2022
+      },
+      "https://openalex.org/W4416383068": {
+        "title": "TARGAMA: A Novel Benchmark Dataset and Framework for Translating Dialectal Arabic to English with Generative Language Models",
+        "year": 2025
+      },
+      "https://openalex.org/W4410105679": {
+        "title": "Enhancing Arabic handwritten word recognition: a CNN-BiLSTM-CTC architecture with attention mechanism and adaptive augmentation",
+        "year": 2025
+      },
+      "https://openalex.org/W7204164551": {
+        "title": "AraDetox: A Multi-Dialect Arabic Detoxification Dataset",
+        "year": 2026
+      },
+      "https://openalex.org/W4402669689": {
+        "title": "UM IWSLT 2024 Low-Resource Speech Translation: Combining Maltese and North Levantine Arabic",
+        "year": 2024
+      },
+      "https://openalex.org/W4307873954": {
+        "title": "An Efficient Hybrid Model for Arabic Text Recognition",
+        "year": 2022
+      },
+      "https://openalex.org/W4385572940": {
+        "title": "Learning From Arabic Corpora But Not Always From Arabic Speakers: A Case Study of the Arabic Wikipedia Editions",
+        "year": 2022
+      },
+      "https://openalex.org/W7134809714": {
+        "title": "Maghrebi dialects – Arabic bidirectional translation: an improved transformer with transfer learning",
+        "year": 2026
+      },
+      "https://openalex.org/W7224166602": {
+        "title": "FAAMG at AraSeg Shared Task 2026: Cross-Architecture Ensembling for Punctuation-Free Arabic Segmentation",
+        "year": 2026
+      },
+      "https://openalex.org/W4411377396": {
+        "title": "Toward Building a Domain-Based Dataset for Arabic Handwritten Text Recognition",
+        "year": 2025
+      },
+      "https://openalex.org/W4403579498": {
+        "title": "Computational Approaches to Arabic-English Code-Switching",
+        "year": 2024
+      },
+      "https://openalex.org/W3024091087": {
+        "title": "Exploring Deep Learning Approaches to Recognize Handwritten Arabic Texts",
+        "year": 2020
+      },
+      "https://openalex.org/W7225811035": {
+        "title": "A Paired Printed-Handwritten Arabic Line Dataset for Handwriting Recognition and Cross-Modal Retrieval",
+        "year": 2026
+      },
+      "https://openalex.org/W3175210284": {
+        "title": "QASR: QCRI Aljazeera Speech Resource A Large Scale Annotated Arabic Speech Corpus",
+        "year": 2021
+      },
+      "https://openalex.org/W4413681969": {
+        "title": "Deep Learning Methods for Ancient Arabic Handwritten Script Recognition: A Review of Challenges and Approaches",
+        "year": 2025
+      },
+      "https://openalex.org/W3087096149": {
+        "title": "Hate and offensive speech detection on Arabic social media",
+        "year": 2020
+      },
+      "https://openalex.org/W4385572317": {
+        "title": "The USTC’s Dialect Speech Translation System for IWSLT 2023",
+        "year": 2023
+      },
+      "https://openalex.org/W7160321818": {
+        "title": "Standardisation of Dialect Comments in Social Networks in View of Sentiment Analysis : Case of Tunisian Dialect",
+        "year": 2022
+      },
+      "https://openalex.org/W4400474854": {
+        "title": "Arabic Text Detection on Traffic Panels in Natural Scenes",
+        "year": 2024
+      },
+      "https://openalex.org/W7212172735": {
+        "title": "DiaTAC-Emo: Tunisian Dialect Two-Level Analysis for Classification of Emotions",
+        "year": 2025
+      },
+      "https://openalex.org/W7155605949": {
+        "title": "Automatic Arabic Sign Language Recognition: A Comprehensive and Critical Review of Methods, Datasets, Challenges, and Future Directions",
+        "year": 2026
+      },
+      "https://openalex.org/W4404313857": {
+        "title": "A Survey of Large Language Models for Arabic Language and its Dialects",
+        "year": 2026
+      },
+      "https://openalex.org/W4322703887": {
+        "title": "A Comprehensive Survey on Arabic Sarcasm Detection: Approaches, Challenges and Future Trends",
+        "year": 2023
+      },
+      "https://openalex.org/W4403189022": {
+        "title": "Machine Learning Approach for Arabic Handwritten Recognition",
+        "year": 2024
+      },
+      "https://openalex.org/W4389518418": {
+        "title": "CamelParser2.0: A State-of-the-Art Dependency Parser for Arabic",
+        "year": 2023
+      },
+      "https://openalex.org/W3204775905": {
+        "title": "Arabic Offensive and Hate Speech Detection Using a Cross-Corpora Multi-Task Learning Model",
+        "year": 2021
+      },
+      "https://openalex.org/W4404931671": {
+        "title": "Advancements in Arabic Sign Language Recognition: A Method based on Deep Learning to Improve Communication Access",
+        "year": 2024
+      },
+      "https://openalex.org/W7131777190": {
+        "title": "Proceedings of the 6th Workshop on Open-Source Arabic Corpora and Processing Tools (OSACT) with Shared Tasks on Arabic LLMs Hallucination and Dialect to MSA Machine Translation @ LREC-COLING 2024",
+        "year": 2024
+      },
+      "https://openalex.org/W4411120791": {
+        "title": "ThatiAR: Subjectivity Detection in Arabic News Sentences",
+        "year": 2025
+      },
+      "https://openalex.org/W4402671279": {
+        "title": "Qalam: A Multimodal LLM for Arabic Optical Character and Handwriting Recognition",
+        "year": 2024
+      },
+      "https://openalex.org/W3175487786": {
+        "title": "QASR: QCRI Aljazeera Speech Resource -- A Large Scale Annotated Arabic Speech Corpus",
+        "year": 2021
+      },
+      "https://openalex.org/W2904580809": {
+        "title": "Improving Data Augmentation for Medical Image Segmentation",
+        "year": 2018
+      },
+      "https://openalex.org/W3041991338": {
+        "title": "Semi-supervised task-driven data augmentation for medical image segmentation",
+        "year": 2020
+      },
+      "https://openalex.org/W4210524759": {
+        "title": "Style-Consistent Image Translation: A Novel Data Augmentation Paradigm to Improve Plant Disease Recognition",
+        "year": 2022
+      },
+      "https://openalex.org/W3212675060": {
+        "title": "Image translation for medical image generation: Ischemic stroke lesion segmentation",
+        "year": 2021
+      },
+      "https://openalex.org/W4388936673": {
+        "title": "Data Augmentation Using Transformers and Similarity Measures for Improving Arabic Text Classification",
+        "year": 2023
+      },
+      "https://openalex.org/W4403233964": {
+        "title": "MosaicFusion: Diffusion Models as Data Augmenters for Large Vocabulary Instance Segmentation",
+        "year": 2024
+      },
+      "https://openalex.org/W4221005732": {
+        "title": "Reduced annotation based on deep active learning for arabic text detection in natural scene images",
+        "year": 2022
+      },
+      "https://openalex.org/W2906406568": {
+        "title": "Generative Adversarial Networks to Synthetically Augment Data for Deep Learning based Image Segmentation",
+        "year": 2018
+      },
+      "https://openalex.org/W2750907893": {
+        "title": "Dataset Augmentation with Synthetic Images Improves Semantic Segmentation",
+        "year": 2018
+      },
+      "https://openalex.org/W4307922498": {
+        "title": "Hybrid Pipeline for Building Arabic Tunisian Dialect-standard Arabic Neural Machine Translation Model from Scratch",
+        "year": 2023
+      },
+      "https://openalex.org/W3214594231": {
+        "title": "Learning an augmentation strategy for sparse datasets",
+        "year": 2021
+      },
+      "https://openalex.org/W7103892717": {
+        "title": "Context-Gloss Augmentation for Improving Arabic Target Sense Verification",
+        "year": 2023
+      },
+      "https://openalex.org/W4366373892": {
+        "title": "The Impact of Data Augmentation on Sentiment Analysis of Translated Textual Data",
+        "year": 2023
+      },
+      "https://openalex.org/W2939953601": {
+        "title": "DavinciGAN: Unpaired Surgical Instrument Translation for Data Augmentation",
+        "year": 2018
+      },
+      "https://openalex.org/W3112276615": {
+        "title": "CSC-GAN: Cycle and Semantic Consistency for Dataset Augmentation",
+        "year": 2020
+      },
+      "https://openalex.org/W4408274850": {
+        "title": "Data augmentation for Arabic text classification: a review of current methods, challenges and prospective directions",
+        "year": 2025
+      },
+      "https://openalex.org/W3107145116": {
+        "title": "Data Augmentation For Text Classification Tasks",
+        "year": 2020
+      },
+      "https://openalex.org/W4413174096": {
+        "title": "Arabic Gloss Machine Translation Through Data Augmentation",
+        "year": 2025
+      },
+      "https://openalex.org/W7133216755": {
+        "title": "Adversarial Style Augmentation for Domain Generalized Urban-Scene Segmentation",
+        "year": 2022
+      },
+      "https://openalex.org/W7131406566": {
+        "title": "Enhancing Arabic traffic sign recognition through synthetic data generation using diffusion models",
+        "year": 2026
+      },
+      "https://openalex.org/W3196382033": {
+        "title": "Improving Handwritten Arabic Text Recognition Using an Adaptive Data-Augmentation Algorithm",
+        "year": 2021
+      },
+      "https://openalex.org/W4394295376": {
+        "title": "Yohannes A.Ejigu Amharic_ASR_Dataset.zip",
+        "year": 2024
+      },
+      "https://openalex.org/W4393501662": {
+        "title": "TunSwitch: Code-Switched Tunisian Arabic Speech Dataset",
+        "year": 2023
+      },
+      "https://openalex.org/W4411207645": {
+        "title": "Dictionary-based data augmentation for Libyan dialect",
+        "year": 2025
+      },
+      "https://openalex.org/W7206040155": {
+        "title": "Data augmentation with Python enhance accuracy in deep learning with practical data augmentation... for image, text, audio & tabular data",
+        "year": 2023
+      },
+      "https://openalex.org/W4320893517": {
+        "title": "SITTA: Single Image Texture Translation for Data Augmentation",
+        "year": 2023
+      },
+      "https://openalex.org/W4308167783": {
+        "title": "Style Augmentation improves Medical Image Segmentation",
+        "year": 2022
+      },
+      "https://openalex.org/W3033751593": {
+        "title": "Data Augmentation with Automatic Label Preserving Transformation",
+        "year": 2020
+      },
+      "https://openalex.org/W7168132634": {
+        "title": "Reliable Generative Data Augmentation for Arabic Text Classification: A Length-Aware Data-Centric Approach",
+        "year": 2026
+      },
+      "https://openalex.org/W3019299925": {
+        "title": "Synthetic Augmentation pix2pix using Tri-category Label with Edge structure for Accurate Segmentation architectures.",
+        "year": 2020
+      },
+      "https://openalex.org/W3092179341": {
+        "title": "Generative Synthetic Augmentation using Label-to-Image Translation for Nuclei Image Segmentation",
+        "year": 2020
+      },
+      "https://openalex.org/W7169670669": {
+        "title": "new dataset for image segmentation",
+        "year": 2025
+      },
+      "https://openalex.org/W7196950362": {
+        "title": "Sample-Efficient Multi-Round Generative Data Augmentation for Long-Tail Instance Segmentation",
+        "year": 2025
+      },
+      "https://openalex.org/W4393656892": {
+        "title": "Segmentation datasets used in https://arxiv.org/abs/2112.12955",
+        "year": 2022
+      },
+      "https://openalex.org/W3089774903": {
+        "title": "Rule-Based Machine Translation from Tunisian Dialect to Modern Standard Arabic",
+        "year": 2020
+      },
+      "https://openalex.org/W4313908087": {
+        "title": "Automatic Standardization of Arabic Dialects for Machine Translation",
+        "year": 2023
+      },
+      "https://openalex.org/W2251882277": {
+        "title": "Domain and Dialect Adaptation for Machine Translation into Egyptian Arabic",
+        "year": 2014
+      },
+      "https://openalex.org/W3216821104": {
+        "title": "TunBERT: Pretrained Contextualized Text Representation for Tunisian Dialect",
+        "year": 2022
+      },
+      "https://openalex.org/W7154916681": {
+        "title": "TunDC: a public benchmark dataset for sentiment analysis and language modeling in the Tunisian dialect",
+        "year": 2026
+      },
+      "https://openalex.org/W7166860356": {
+        "title": "Alexandria: A Multi-Domain Dialectal Arabic Machine Translation Dataset for Culturally Inclusive and Linguistically Diverse LLMs",
+        "year": 2026
+      },
+      "https://openalex.org/W7166508293": {
+        "title": "Cross-Dialectal Transfer for Low-Resource Arabic: The Tunisian Arabic Dependency Treebank",
+        "year": 2026
+      },
+      "https://openalex.org/W4406302399": {
+        "title": "Natural Language Processing for Dialects of a Language: A Survey",
+        "year": 2025
+      },
+      "https://openalex.org/W4280494215": {
+        "title": "Building Machine Translation Systems for the Next Thousand Languages",
+        "year": 2022
+      },
+      "https://openalex.org/W7160061002": {
+        "title": "TDMulti: A Tunisian Dialect-Modern Standard Arabic Multitask Corpus with a Context-Aware Cross-Attention BERT Model",
+        "year": 2026
+      },
+      "https://openalex.org/W4402671205": {
+        "title": "Exploiting Dialect Identification in Automatic Dialectal Text Normalization",
+        "year": 2024
+      },
+      "https://openalex.org/W4416591544": {
+        "title": "How Well Do LLMs Understand Tunisian Arabic?",
+        "year": 2025
+      },
+      "https://openalex.org/W3093213170": {
+        "title": "Learning Word Representations for Tunisian Sentiment Analysis",
+        "year": 2021
+      },
+      "https://openalex.org/W4377989177": {
+        "title": "Tokenization of Tunisian Arabic: A Comparison between Three Machine Learning Models",
+        "year": 2023
+      },
+      "https://openalex.org/W4361274068": {
+        "title": "Sentiment Analysis of Multilingual Dataset of Bahraini Dialects, Arabic, and English",
+        "year": 2023
+      },
+      "https://openalex.org/W4408984929": {
+        "title": "Normalized Orthography for Tunisian Arabic",
+        "year": 2025
+      },
+      "https://openalex.org/W4391305461": {
+        "title": "WeVoTe: A Weighted Voting Technique for Automatic Sentiment Annotation of Moroccan Dialect Comments",
+        "year": 2024
+      },
+      "https://openalex.org/W4389523697": {
+        "title": "ALDi: Quantifying the Arabic Level of Dialectness of Text",
+        "year": 2023
+      },
+      "https://openalex.org/W4405997361": {
+        "title": "A Novel Dialect-Aware Framework for the Classification of Arabic Dialects and Emotions",
+        "year": 2025
+      },
+      "https://openalex.org/W2807654876": {
+        "title": "Classification of Closely Related Sub-dialects of Arabic Using Support-Vector Machines",
+        "year": 2018
+      },
+      "https://openalex.org/W4402671457": {
+        "title": "NADI 2024: The Fifth Nuanced Arabic Dialect Identification Shared Task",
+        "year": 2024
+      },
+      "https://openalex.org/W2807107081": {
+        "title": "Unified Guidelines and Resources for Arabic Dialect Orthography",
+        "year": 2018
+      },
+      "https://openalex.org/W4393255542": {
+        "title": "Towards Gulf Emirati Dialect Corpus from Social Media",
+        "year": 2024
+      },
+      "https://openalex.org/W4389270688": {
+        "title": "Resources building for sentiment analysis of content disseminated by Tunisian medias in social networks",
+        "year": 2023
+      },
+      "https://openalex.org/W2806573136": {
+        "title": "DART: A Large Dataset of Dialectal Arabic Tweets",
+        "year": 2018
+      },
+      "https://openalex.org/W2604763492": {
+        "title": "Hierarchical Classification for Spoken Arabic Dialect Identification using Prosody: Case of Algerian Dialects",
+        "year": 2017
+      },
+      "https://openalex.org/W3089276696": {
+        "title": "Automatic Arabic Dialect Identification Systems for Written Texts: A Survey",
+        "year": 2020
+      },
+      "https://openalex.org/W1907377489": {
+        "title": "Arabization in Tunisia: The Tug of War",
+        "year": 1991
+      },
+      "https://openalex.org/W4384520880": {
+        "title": "Cyberbullying detection for low-resource languages and dialects: Review of the state of the art",
+        "year": 2023
+      },
+      "https://openalex.org/W4399073714": {
+        "title": "Enhancing Arabic Dialect Detection on Social Media: A Hybrid Model with an Attention Mechanism",
+        "year": 2024
+      },
+      "https://openalex.org/W3111964953": {
+        "title": "SDCT: Multi-Dialects Corpus Classification for Saudi Tweets",
+        "year": 2020
+      },
+      "https://openalex.org/W4389518426": {
+        "title": "Arabic Dialect Identification under Scrutiny: Limitations of Single-label Classification",
+        "year": 2023
+      },
+      "https://openalex.org/W4391138734": {
+        "title": "DarijaBERT: a step forward in NLP for the written Moroccan dialect",
+        "year": 2024
+      },
+      "https://openalex.org/W7139936581": {
+        "title": "AI-driven Data Management of Traditional Tunisian Nutritional Dishes: A Cultural Heritage Conservation",
+        "year": 2025
+      },
+      "https://openalex.org/W137989762": {
+        "title": "Machine Translation of Arabic Dialects",
+        "year": 2012
+      },
+      "https://openalex.org/W3170253630": {
+        "title": "Arabic Dialect Handling in Hybrid Machine Translation",
+        "year": 2010
+      },
+      "https://openalex.org/W4296499367": {
+        "title": "Sentiment Analysis of Tunisian Users on Social Networks: Overcoming the Challenge of Multilingual Comments in the Tunisian Dialect",
+        "year": 2022
+      },
+      "https://openalex.org/W7224495483": {
+        "title": "Is TunisianMMLU Actually Tunisian? A Native-Speaker Audit of a Machine-Translated Dialect Benchmark",
+        "year": 2026
+      },
+      "https://openalex.org/W3185689807": {
+        "title": "Tunisian Dialectal End-to-end Speech Recognition based on DeepSpeech",
+        "year": 2021
+      },
+      "https://openalex.org/W4285235388": {
+        "title": "Neural Machine Translation of Low Resource Languages: Application to Transcriptions of Tunisian Dialect",
+        "year": 2022
+      },
+      "https://openalex.org/W2906697068": {
+        "title": "N-Class Language Model for Tunisian Dialect Automatic Speech Recognition System.",
+        "year": 2018
+      },
+      "https://openalex.org/W4317600355": {
+        "title": "Bottom-up approach to translate Tunisian dialect texts in Social Networks",
+        "year": 2022
+      },
+      "https://openalex.org/W2771155730": {
+        "title": "Automatic Speech Recognition for Tunisian Dialect.",
+        "year": 2017
+      },
+      "https://openalex.org/W2621360146": {
+        "title": "Word-Level Identification of Romanized Tunisian Dialect",
+        "year": 2017
+      },
+      "https://openalex.org/W4415397481": {
+        "title": "A Deep Neural Network machine translation Approach from a low-resource language to English",
+        "year": 2025
+      },
+      "https://openalex.org/W2250832940": {
+        "title": "Generation of tunisian dialect corpora for adapting language models (Génération des corpus en dialecte tunisien pour la modélisation de langage d'un système de reconnaissance) [in French])",
+        "year": 2013
+      },
+      "https://openalex.org/W2891295164": {
+        "title": "Morphological Aanalyzer for the Tunisian Dialect",
+        "year": 2018
+      },
+      "https://openalex.org/W3117547305": {
+        "title": "Dialectal Machine Translation A Case Study",
+        "year": 2014
+      },
+      "https://openalex.org/W2789327269": {
+        "title": "Pour un traitement lexicographique bilingue des routines conversationnelles dans le dialecte tunisien",
+        "year": 2017
+      },
+      "https://openalex.org/W7224497185": {
+        "title": "Thakaa at AlexandriaX-2026: Who Gets the Final Say? Assigning Output Authority in Dialectal Arabic Machine Translation and Error Detection",
+        "year": 2026
+      },
+      "https://openalex.org/W2575756451": {
+        "title": "À la recherche des interprètes et des traducteurs",
+        "year": 2004
+      },
+      "https://openalex.org/W2101105183": {
+        "title": "BLEU: a method for automatic evaluation of machine translation",
+        "year": 2001
+      },
+      "https://openalex.org/W2123301721": {
+        "title": "METEOR: An Automatic Metric for MT Evaluation with Improved Correlation with Human Judgments",
+        "year": 2005
+      },
+      "https://openalex.org/W2156985047": {
+        "title": "A Systematic Comparison of Various Statistical Alignment Models",
+        "year": 2003
+      },
+      "https://openalex.org/W1524333225": {
+        "title": "The Kaldi Speech Recognition Toolkit",
+        "year": 2011
+      },
+      "https://openalex.org/W2061272101": {
+        "title": "Sometimes I’ll start a sentence in Spanish Y TERMINO EN ESPAÑOL: toward a typology of code-switching1",
+        "year": 1980
+      },
+      "https://openalex.org/W3123572135": {
+        "title": "Arabic-English Parallel Corpus: A New Resource for Translation Training and Language Teaching",
+        "year": 2017
+      },
+      "https://openalex.org/W2900860068": {
+        "title": "A Monolingual Parallel Corpus of Arabic",
+        "year": 2018
+      },
+      "https://openalex.org/W4241863546": {
+        "title": "Automated Construction of Arabic-English Parallel Corpus",
+        "year": 2009
+      },
+      "https://openalex.org/W2902262852": {
+        "title": "A7׳ta: Data on a monolingual Arabic parallel corpus for grammar checking",
+        "year": 2018
+      },
+      "https://openalex.org/W4205866829": {
+        "title": "A Simple Yet Robust Algorithm for Automatic Extraction of Parallel Sentences: A Case Study on Arabic-English Wikipedia Articles",
+        "year": 2021
+      },
+      "https://openalex.org/W2336856832": {
+        "title": "A New Parallel Corpus of Arabic/English",
+        "year": 2015
+      },
+      "https://openalex.org/W2952834131": {
+        "title": "Investigating the effect of stemming and part-of-speech tagging on automatic extraction of translation equivalents from parallel corpora for Arabic–English machine translation",
+        "year": 2019
+      },
+      "https://openalex.org/W7154468989": {
+        "title": "Arabic-English Parallel Dataset (Processed from OPUS-100)",
+        "year": 2026
+      },
+      "https://openalex.org/W2572474373": {
+        "title": "The United Nations Parallel Corpus v1.0",
+        "year": 2016
+      },
+      "https://openalex.org/W2097341304": {
+        "title": "Language model based arabic word segmentation",
+        "year": 2003
+      }
+    },
+    "ordering": "All criteria supported, then incomplete evidence, then explicit counter-evidence; similarity breaks ties",
+    "joint_gap": true,
+    "model": "gemini-3.6-flash"
+  },
+  "events": [
+    {
+      "at": "2026-11-25T14:06:11.804968+00:00",
+      "step": "retrieve",
+      "message": "40 candidates from keyword search",
+      "query": "Tunisian Arabic parallel corpus manual translation stop words",
+      "cache_hit": false
+    },
+    {
+      "at": "2026-11-25T14:06:15.798331+00:00",
+      "step": "retrieve",
+      "message": "40 candidates from semantic search",
+      "query": "Are there any resources available for translating Tunisian Arabic dialect that contain both manually translated comments by native speakers and additional data augmented through methods like segmentation at stop words level?",
+      "cache_hit": false
+    },
+    {
+      "at": "2026-11-25T14:06:18.413833+00:00",
+      "step": "retrieve",
+      "message": "40 candidates from keyword search",
+      "query": "Tunisian Arabic translation dataset data augmentation segmentation",
+      "cache_hit": false
+    },
+    {
+      "at": "2026-11-25T14:06:21.442324+00:00",
+      "step": "retrieve",
+      "message": "40 candidates from semantic search",
+      "query": "Tunisian Arabic translation dataset data augmentation segmentation",
+      "cache_hit": false
+    },
+    {
+      "at": "2026-11-25T14:06:23.925338+00:00",
+      "step": "retrieve",
+      "message": "40 candidates from keyword search",
+      "query": "Tunisian dialect machine translation native speaker comments",
+      "cache_hit": false
+    },
+    {
+      "at": "2026-11-25T14:06:26.748024+00:00",
+      "step": "retrieve",
+      "message": "40 candidates from semantic search",
+      "query": "Tunisian dialect machine translation native speaker comments",
+      "cache_hit": false
+    },
+    {
+      "at": "2026-11-25T14:06:30.878877+00:00",
+      "step": "rank",
+      "message": "Ranked 60 unique candidates",
+      "ranker": "cross-encoder + RRF"
+    },
+    {
+      "at": "2026-11-25T14:06:33.474951+00:00",
+      "step": "citations",
+      "message": "Explored 18 cited works; metadata constraints remain enforced"
+    },
+    {
+      "at": "2026-11-25T14:06:37.701874+00:00",
+      "step": "rank",
+      "message": "Ranked 60 unique candidates",
+      "ranker": "cross-encoder + RRF"
+    },
+    {
+      "at": "2026-11-25T14:07:12.527796+00:00",
+      "step": "evidence",
+      "message": "Assessed top 15 papers; 2 criteria have no supported match",
+      "evidence_basis": "title and abstract only"
+    },
+    {
+      "at": "2026-11-25T14:07:16.114038+00:00",
+      "step": "repair",
+      "message": "Targeted a criterion with no supported match: Contains manually translated comments by native speakers",
+      "query": "Tunisian Arabic parallel corpus manual translation stop words Contains manually translated comments by native speakers",
+      "candidates": 40
+    },
+    {
+      "at": "2026-11-25T14:07:19.368755+00:00",
+      "step": "repair",
+      "message": "Targeted a criterion with no supported match: Includes data augmented through methods like segmentation at the stop words level",
+      "query": "Tunisian Arabic parallel corpus manual translation stop words Includes data augmented through methods like segmentation at the stop words level",
+      "candidates": 40
+    },
+    {
+      "at": "2026-11-25T14:07:23.264258+00:00",
+      "step": "rank",
+      "message": "Ranked 60 unique candidates",
+      "ranker": "cross-encoder + RRF"
+    },
+    {
+      "at": "2026-11-25T14:07:23.945059+00:00",
+      "step": "evidence",
+      "message": "Assessed top 15 papers; 3 criteria have no supported match",
+      "evidence_basis": "title and abstract only"
+    },
+    {
+      "at": "2026-11-25T14:07:23.990179+00:00",
+      "step": "complete",
+      "message": "Returned 30 papers with provenance and exportable evidence"
+    },
+    {
+      "at": "2026-11-25T14:07:24.012211+00:00",
+      "step": "timing",
+      "message": "Search finished",
+      "elapsed_seconds": 75.06
+    }
+  ],
+  "feedback": {},
+  "task": {
+    "id": "litsearch-1",
+    "question": "Are there any resources available for translating Tunisian Arabic dialect that contain both manually translated comments by native speakers and additional data augmented through methods like segmentation at stop words level?",
+    "gold_titles": [
+      "Parallel resources for Tunisian Arabic dialect translation"
+    ],
+    "gold_corpusids": [
+      227231792
+    ],
+    "query_set": "inline_acl"
+  },
+  "end_to_end_seconds": 79.58
+}

@@ -1,0 +1,2904 @@
+{
+  "request": {
+    "plan": {
+      "question": "Find papers published from 2018 to 2024 that introduce methods for explaining graph neural network predictions and evaluate explanations on real graph datasets rather than only synthetic graphs.",
+      "queries": [
+        "graph neural network explainability real datasets",
+        "GNN explanation methods evaluation real graphs",
+        "explaining graph neural networks real world benchmarks"
+      ],
+      "criteria": [
+        {
+          "id": "c1",
+          "text": "Introduces methods for explaining graph neural network predictions"
+        },
+        {
+          "id": "c2",
+          "text": "Evaluates explanations on real graph datasets rather than only synthetic graphs"
+        }
+      ],
+      "year_from": 2018,
+      "year_to": 2024,
+      "open_access": false,
+      "mode": "diligent",
+      "planner": "gemini-3.6-flash"
+    },
+    "rerank": true,
+    "repair": true
+  },
+  "result": {
+    "papers": [
+      {
+        "id": "https://openalex.org/W2972317931",
+        "title": "GNNExplainer: Generating Explanations for Graph Neural Networks",
+        "doi": "https://doi.org/10.48550/arxiv.1903.03894",
+        "year": 2019,
+        "abstract": "Graph Neural Networks (GNNs) are a powerful tool for machine learning on graphs. GNNs combine node feature information with the graph structure by recursively passing neural messages along edges of the input graph. However, incorporating both graph structure and feature information leads to complex models and explaining predictions made by GNNs remains unsolved. Here we propose GnnExplainer, the first general, model-agnostic approach for providing interpretable explanations for predictions of any GNN-based model on any graph-based machine learning task. Given an instance, GnnExplainer identifies a compact subgraph structure and a small subset of node features that have a crucial role in GNN's prediction. Further, GnnExplainer can generate consistent and concise explanations for an entire class of instances. We formulate GnnExplainer as an optimization task that maximizes the mutual information between a GNN's prediction and distribution of possible subgraph structures. Experiments on synthetic and real-world graphs show that our approach can identify important graph structures as well as node features, and outperforms alternative baseline approaches by up to 43.0% in explanation accuracy. GnnExplainer provides a variety of benefits, from the ability to visualize semantically relevant structures to interpretability, to giving insights into errors of faulty GNNs.",
+        "authors": [
+          "Rex Ying",
+          "Dylan Bourgeois",
+          "Jiaxuan You",
+          "Marinka \u017ditnik",
+          "Jure Leskovec"
+        ],
+        "venue": "neural information processing systems",
+        "citations": 1570,
+        "open_access": true,
+        "url": "https://doi.org/10.48550/arxiv.1903.03894",
+        "pdf_url": null,
+        "references": [
+          "https://openalex.org/W1849277567",
+          "https://openalex.org/W1959608418",
+          "https://openalex.org/W1990088911",
+          "https://openalex.org/W2008857988",
+          "https://openalex.org/W2056562706",
+          "https://openalex.org/W2094839437",
+          "https://openalex.org/W2110953678",
+          "https://openalex.org/W2158599326",
+          "https://openalex.org/W2244807774",
+          "https://openalex.org/W2282821441",
+          "https://openalex.org/W2519887557",
+          "https://openalex.org/W2522925973",
+          "https://openalex.org/W2590082389",
+          "https://openalex.org/W2594475271",
+          "https://openalex.org/W2594633041",
+          "https://openalex.org/W2597603852",
+          "https://openalex.org/W2605409611",
+          "https://openalex.org/W2618851150",
+          "https://openalex.org/W2624431344",
+          "https://openalex.org/W2724999822",
+          "https://openalex.org/W2766856748",
+          "https://openalex.org/W2786016794",
+          "https://openalex.org/W2786715987",
+          "https://openalex.org/W2786915849",
+          "https://openalex.org/W2787337315",
+          "https://openalex.org/W2788199784",
+          "https://openalex.org/W2788512147",
+          "https://openalex.org/W2788708648",
+          "https://openalex.org/W2804057010",
+          "https://openalex.org/W2805177834",
+          "https://openalex.org/W2805516822",
+          "https://openalex.org/W2807021761",
+          "https://openalex.org/W2811124557",
+          "https://openalex.org/W2890457888",
+          "https://openalex.org/W2890703109",
+          "https://openalex.org/W2891503716",
+          "https://openalex.org/W2891612330",
+          "https://openalex.org/W2903458990",
+          "https://openalex.org/W2940868410",
+          "https://openalex.org/W2946721323"
+        ],
+        "retracted": false,
+        "provenance": [
+          "semantic: Find papers published from 2018 to 2024 that introduce methods for explaining graph neural network predictions and evaluate explanations on real graph datasets rather than only synthetic graphs.",
+          "keyword: GNN explanation methods evaluation real graphs",
+          "semantic: GNN explanation methods evaluation real graphs"
+        ],
+        "criteria": [
+          {
+            "criterion_id": "c1",
+            "status": "supported",
+            "quote": "Here we propose GnnExplainer, the first general, model-agnostic approach for providing interpretable explanations for predictions of any GNN-based model on any graph-based machine learning task.",
+            "quote_verified": true,
+            "reason": "The paper introduces GnnExplainer, an approach for explaining predictions of GNN models."
+          },
+          {
+            "criterion_id": "c2",
+            "status": "supported",
+            "quote": "Experiments on synthetic and real-world graphs show that our approach can identify important graph structures as well as node features, and outperforms alternative baseline approaches by up to 43.0% in explanation accuracy.",
+            "quote_verified": true,
+            "reason": "The abstract explicitly states that experiments were conducted on both synthetic and real-world graphs."
+          }
+        ],
+        "rrf": 0.07797513727606616,
+        "aliases": [
+          "https://openalex.org/W2972317931",
+          "https://openalex.org/W2970119293"
+        ],
+        "neural_score": 3.19374,
+        "score": 0.93326
+      },
+      {
+        "id": "https://openalex.org/W3093206758",
+        "title": "PGM-Explainer: Probabilistic Graphical Model Explanations for Graph Neural Networks",
+        "doi": "https://doi.org/10.48550/arxiv.2010.05788",
+        "year": 2020,
+        "abstract": "In Graph Neural Networks (GNNs), the graph structure is incorporated into the learning of node representations. This complex structure makes explaining GNNs' predictions become much more challenging. In this paper, we propose PGM-Explainer, a Probabilistic Graphical Model (PGM) model-agnostic explainer for GNNs. Given a prediction to be explained, PGM-Explainer identifies crucial graph components and generates an explanation in form of a PGM approximating that prediction. Different from existing explainers for GNNs where the explanations are drawn from a set of linear functions of explained features, PGM-Explainer is able to demonstrate the dependencies of explained features in form of conditional probabilities. Our theoretical analysis shows that the PGM generated by PGM-Explainer includes the Markov-blanket of the target prediction, i.e. including all its statistical information. We also show that the explanation returned by PGM-Explainer contains the same set of independence statements in the perfect map. Our experiments on both synthetic and real-world datasets show that PGM-Explainer achieves better performance than existing explainers in many benchmark tasks.",
+        "authors": [
+          "Minh N. Vu",
+          "My T. Thai"
+        ],
+        "venue": "neural information processing systems",
+        "citations": 510,
+        "open_access": true,
+        "url": "https://doi.org/10.48550/arxiv.2010.05788",
+        "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2020/file/8fb134f258b1f7865a6ab2d935a897c9-Paper.pdf",
+        "references": [
+          "https://openalex.org/W114565888",
+          "https://openalex.org/W1787224781",
+          "https://openalex.org/W1970687027",
+          "https://openalex.org/W2123045220",
+          "https://openalex.org/W2129564794",
+          "https://openalex.org/W2169393322",
+          "https://openalex.org/W2282821441",
+          "https://openalex.org/W2519887557",
+          "https://openalex.org/W2553389628",
+          "https://openalex.org/W2585835859",
+          "https://openalex.org/W2594475271",
+          "https://openalex.org/W2605409611",
+          "https://openalex.org/W2618170429",
+          "https://openalex.org/W2618851150",
+          "https://openalex.org/W2624431344",
+          "https://openalex.org/W2748718876",
+          "https://openalex.org/W2786016794",
+          "https://openalex.org/W2787706614",
+          "https://openalex.org/W2788512147",
+          "https://openalex.org/W2805177834",
+          "https://openalex.org/W2811124557",
+          "https://openalex.org/W2939208918",
+          "https://openalex.org/W2947197489",
+          "https://openalex.org/W2962858109",
+          "https://openalex.org/W2964121744",
+          "https://openalex.org/W2970119293",
+          "https://openalex.org/W2970971581",
+          "https://openalex.org/W2979481854",
+          "https://openalex.org/W3007332492",
+          "https://openalex.org/W3048778589",
+          "https://openalex.org/W3080555959",
+          "https://openalex.org/W7237390737"
+        ],
+        "retracted": false,
+        "provenance": [
+          "keyword: graph neural network explainability real datasets",
+          "semantic: Find papers published from 2018 to 2024 that introduce methods for explaining graph neural network predictions and evaluate explanations on real graph datasets rather than only synthetic graphs.",
+          "keyword: GNN explanation methods evaluation real graphs",
+          "keyword: explaining graph neural networks real world benchmarks"
+        ],
+        "criteria": [
+          {
+            "criterion_id": "c1",
+            "status": "supported",
+            "quote": "In this paper, we propose PGM-Explainer, a Probabilistic Graphical Model (PGM) model-agnostic explainer for GNNs.",
+            "quote_verified": true,
+            "reason": "The paper introduces PGM-Explainer to generate explanations for GNN predictions."
+          },
+          {
+            "criterion_id": "c2",
+            "status": "supported",
+            "quote": "Our experiments on both synthetic and real-world datasets show that PGM-Explainer achieves better performance than existing explainers in many benchmark tasks.",
+            "quote_verified": true,
+            "reason": "The paper evaluates the explainer on both synthetic and real-world datasets."
+          }
+        ],
+        "rrf": 0.056665162794195055,
+        "aliases": [
+          "https://openalex.org/W3093206758"
+        ],
+        "neural_score": 2.78094,
+        "score": 0.87306
+      },
+      {
+        "id": "https://openalex.org/W3161851957",
+        "title": "Zorro: Valid, Sparse, and Stable Explanations in Graph Neural Networks",
+        "doi": "https://doi.org/10.1109/tkde.2022.3201170",
+        "year": 2022,
+        "abstract": "With the ever-increasing popularity and applications of graph neural networks, several proposals have been made to explain and understand the decisions of a graph neural network. Explanations for graph neural networks differ in principle from other input settings. It is important to attribute the decision to input features and other related instances connected by the graph structure. We find that the previous explanation generation approaches that maximize the mutual information between the label distribution produced by the model and the explanation to be restrictive. Specifically, existing approaches do not enforce explanations to be valid, sparse, or robust to input perturbations. In this paper, we lay down some of the fundamental principles that an explanation method for graph neural networks should follow and introduce a metricRDT-Fidelityas a measure of the explanation's effectiveness. We propose a novel approach Zorro based on the principles fromrate-distortion theorythat uses a simple combinatorial procedure to optimize for RDT-Fidelity. Extensive experiments on real and synthetic datasets reveal that Zorro produces sparser, stable, and more faithful explanations than existing graph neural network explanation approaches.",
+        "authors": [
+          "Thorben Funke",
+          "Megha Khosla",
+          "Mandeep Rathee",
+          "Avishek Anand"
+        ],
+        "venue": "IEEE Transactions on Knowledge and Data Engineering",
+        "citations": 118,
+        "open_access": true,
+        "url": "https://doi.org/10.1109/tkde.2022.3201170",
+        "pdf_url": "https://repository.tudelft.nl/file/File_cf7aebd0-99d7-4d21-a804-224c4db8e64d",
+        "references": [
+          "https://openalex.org/W1514535095",
+          "https://openalex.org/W2034029572",
+          "https://openalex.org/W2154851992",
+          "https://openalex.org/W2282821441",
+          "https://openalex.org/W2315403234",
+          "https://openalex.org/W2336525064",
+          "https://openalex.org/W2339054975",
+          "https://openalex.org/W2516809705",
+          "https://openalex.org/W2519887557",
+          "https://openalex.org/W2594633041",
+          "https://openalex.org/W2605409611",
+          "https://openalex.org/W2618851150",
+          "https://openalex.org/W2766453196",
+          "https://openalex.org/W2788199784",
+          "https://openalex.org/W2788403449",
+          "https://openalex.org/W2894175828",
+          "https://openalex.org/W2897348568",
+          "https://openalex.org/W2900470550",
+          "https://openalex.org/W2900763475",
+          "https://openalex.org/W2914124878",
+          "https://openalex.org/W2918342466",
+          "https://openalex.org/W2940868410",
+          "https://openalex.org/W2944830529",
+          "https://openalex.org/W2954345306",
+          "https://openalex.org/W2959183379",
+          "https://openalex.org/W2970447476",
+          "https://openalex.org/W2972317931",
+          "https://openalex.org/W2973291083",
+          "https://openalex.org/W2979200397",
+          "https://openalex.org/W2979325444",
+          "https://openalex.org/W2979481854",
+          "https://openalex.org/W2983987699",
+          "https://openalex.org/W2988450373",
+          "https://openalex.org/W3000120900",
+          "https://openalex.org/W3032150215",
+          "https://openalex.org/W3033892090",
+          "https://openalex.org/W3088524966",
+          "https://openalex.org/W3091534907",
+          "https://openalex.org/W3093206758",
+          "https://openalex.org/W3098173972"
+        ],
+        "retracted": false,
+        "provenance": [
+          "keyword: graph neural network explainability real datasets",
+          "semantic: Find papers published from 2018 to 2024 that introduce methods for explaining graph neural network predictions and evaluate explanations on real graph datasets rather than only synthetic graphs."
+        ],
+        "criteria": [
+          {
+            "criterion_id": "c1",
+            "status": "supported",
+            "quote": "We propose a novel approach Zorro based on the principles fromrate-distortion theorythat uses a simple combinatorial procedure to optimize for RDT-Fidelity.",
+            "quote_verified": true,
+            "reason": "The paper introduces Zorro, a novel approach for explaining graph neural network decisions."
+          },
+          {
+            "criterion_id": "c2",
+            "status": "supported",
+            "quote": "Extensive experiments on real and synthetic datasets reveal that Zorro produces sparser, stable, and more faithful explanations than existing graph neural network explanation approaches.",
+            "quote_verified": true,
+            "reason": "The abstract explicitly states that experiments were conducted on real and synthetic datasets."
+          }
+        ],
+        "rrf": 0.023799640237996404,
+        "aliases": [
+          "https://openalex.org/W3161851957"
+        ],
+        "neural_score": 3.76928,
+        "score": 0.83226
+      },
+      {
+        "id": "https://openalex.org/W4327813569",
+        "title": "Evaluating explainability for graph neural networks",
+        "doi": "https://doi.org/10.1038/s41597-023-01974-x",
+        "year": 2023,
+        "abstract": "As explanations are increasingly used to understand the behavior of graph neural networks (GNNs), evaluating the quality and reliability of GNN explanations is crucial. However, assessing the quality of GNN explanations is challenging as existing graph datasets have no or unreliable ground-truth explanations. Here, we introduce a synthetic graph data generator, SHAPEGGEN, which can generate a variety of benchmark datasets (e.g., varying graph sizes, degree distributions, homophilic vs. heterophilic graphs) accompanied by ground-truth explanations. The flexibility to generate diverse synthetic datasets and corresponding ground-truth explanations allows SHAPEGGEN to mimic the data in various real-world areas. We include SHAPEGGEN and several real-world graph datasets in a graph explainability library, GRAPHXAI. In addition to synthetic and real-world graph datasets with ground-truth explanations, GRAPHXAI provides data loaders, data processing functions, visualizers, GNN model implementations, and evaluation metrics to benchmark GNN explainability methods.",
+        "authors": [
+          "Chirag Agarwal",
+          "Owen Queen",
+          "Himabindu Lakkaraju",
+          "Marinka \u017ditnik"
+        ],
+        "venue": "Scientific Data",
+        "citations": 311,
+        "open_access": true,
+        "url": "https://doi.org/10.1038/s41597-023-01974-x",
+        "pdf_url": "https://www.nature.com/articles/s41597-023-01974-x.pdf",
+        "references": [
+          "https://openalex.org/W1757990252",
+          "https://openalex.org/W1909740415",
+          "https://openalex.org/W1977340881",
+          "https://openalex.org/W2008620264",
+          "https://openalex.org/W2011301426",
+          "https://openalex.org/W2101234009",
+          "https://openalex.org/W2124637492",
+          "https://openalex.org/W2132022337",
+          "https://openalex.org/W2153959628",
+          "https://openalex.org/W2162630660",
+          "https://openalex.org/W2169393322",
+          "https://openalex.org/W2519887557",
+          "https://openalex.org/W2594633041",
+          "https://openalex.org/W2786016794",
+          "https://openalex.org/W2907492528",
+          "https://openalex.org/W2918342466",
+          "https://openalex.org/W2947873642",
+          "https://openalex.org/W2970119293",
+          "https://openalex.org/W2972317931",
+          "https://openalex.org/W2979481854",
+          "https://openalex.org/W3000120900",
+          "https://openalex.org/W3002924435",
+          "https://openalex.org/W3017271475",
+          "https://openalex.org/W3021975806",
+          "https://openalex.org/W3080555959",
+          "https://openalex.org/W3091534907",
+          "https://openalex.org/W3093206758",
+          "https://openalex.org/W3093814892",
+          "https://openalex.org/W3094162143",
+          "https://openalex.org/W3098173972",
+          "https://openalex.org/W3103717137",
+          "https://openalex.org/W3105657048",
+          "https://openalex.org/W3114928288",
+          "https://openalex.org/W3116637551",
+          "https://openalex.org/W3126371003",
+          "https://openalex.org/W3133595540",
+          "https://openalex.org/W3136465512",
+          "https://openalex.org/W3158399077",
+          "https://openalex.org/W3169325548",
+          "https://openalex.org/W3181995918"
+        ],
+        "retracted": false,
+        "provenance": [
+          "keyword: graph neural network explainability real datasets",
+          "semantic: Find papers published from 2018 to 2024 that introduce methods for explaining graph neural network predictions and evaluate explanations on real graph datasets rather than only synthetic graphs.",
+          "keyword: GNN explanation methods evaluation real graphs",
+          "semantic: GNN explanation methods evaluation real graphs",
+          "keyword: explaining graph neural networks real world benchmarks",
+          "semantic: explaining graph neural networks real world benchmarks"
+        ],
+        "criteria": [
+          {
+            "criterion_id": "c1",
+            "status": "uncertain",
+            "quote": "",
+            "quote_verified": false,
+            "reason": "Insufficient source evidence; full-paper verification may be needed."
+          },
+          {
+            "criterion_id": "c2",
+            "status": "uncertain",
+            "quote": "",
+            "quote_verified": false,
+            "reason": "Insufficient source evidence; full-paper verification may be needed."
+          }
+        ],
+        "rrf": 0.09464183153931136,
+        "aliases": [
+          "https://openalex.org/W4327813569"
+        ],
+        "neural_score": 4.90674,
+        "score": 0.99413
+      },
+      {
+        "id": "https://openalex.org/W4287118279",
+        "title": "Probing GNN Explainers: A Rigorous Theoretical and Empirical Analysis of GNN Explanation Methods",
+        "doi": "https://doi.org/10.48550/arxiv.2106.09078",
+        "year": 2022,
+        "abstract": "As Graph Neural Networks (GNNs) are increasingly being employed in critical real-world applications, several methods have been proposed in recent literature to explain the predictions of these models. However, there has been little to no work on systematically analyzing the reliability of these methods. Here, we introduce the first-ever theoretical analysis of the reliability of state-of-the-art GNN explanation methods. More specifically, we theoretically analyze the behavior of various state-of-the-art GNN explanation methods with respect to several desirable properties (e.g., faithfulness, stability, and fairness preservation) and establish upper bounds on the violation of these properties. We also empirically validate our theoretical results using extensive experimentation with nine real-world graph datasets. Our empirical results further shed light on several interesting insights about the behavior of state-of-the-art GNN explanation methods.",
+        "authors": [
+          "Chirag Agarwal",
+          "Marinka \u017ditnik",
+          "Himabindu Lakkaraju"
+        ],
+        "venue": "International Conference on Artificial Intelligence and Statistics",
+        "citations": 63,
+        "open_access": true,
+        "url": "https://doi.org/10.48550/arxiv.2106.09078",
+        "pdf_url": "https://proceedings.mlr.press/v151/agarwal22b/agarwal22b.pdf",
+        "references": [
+          "https://openalex.org/W1638081485",
+          "https://openalex.org/W1979958697",
+          "https://openalex.org/W2056562706",
+          "https://openalex.org/W2105465844",
+          "https://openalex.org/W2153959628",
+          "https://openalex.org/W2162630660",
+          "https://openalex.org/W2168190036",
+          "https://openalex.org/W2169393322",
+          "https://openalex.org/W2530395818",
+          "https://openalex.org/W2594633041",
+          "https://openalex.org/W2786016794",
+          "https://openalex.org/W2796892552",
+          "https://openalex.org/W2912477312",
+          "https://openalex.org/W2918342466",
+          "https://openalex.org/W2947873642",
+          "https://openalex.org/W2951476734",
+          "https://openalex.org/W2972059645",
+          "https://openalex.org/W2972317931",
+          "https://openalex.org/W2979481854",
+          "https://openalex.org/W2988346595",
+          "https://openalex.org/W2998313947",
+          "https://openalex.org/W3000208741",
+          "https://openalex.org/W3002924435",
+          "https://openalex.org/W3013882617",
+          "https://openalex.org/W3021975806",
+          "https://openalex.org/W3033892090",
+          "https://openalex.org/W3041877813",
+          "https://openalex.org/W3091534907",
+          "https://openalex.org/W3093206758",
+          "https://openalex.org/W3094162143",
+          "https://openalex.org/W3098173972",
+          "https://openalex.org/W3102742482",
+          "https://openalex.org/W3103453294",
+          "https://openalex.org/W3103717137",
+          "https://openalex.org/W3108823960",
+          "https://openalex.org/W3121980643",
+          "https://openalex.org/W3130948427",
+          "https://openalex.org/W3131925747",
+          "https://openalex.org/W3133595540",
+          "https://openalex.org/W3154992862"
+        ],
+        "retracted": false,
+        "provenance": [
+          "semantic: Find papers published from 2018 to 2024 that introduce methods for explaining graph neural network predictions and evaluate explanations on real graph datasets rather than only synthetic graphs.",
+          "keyword: GNN explanation methods evaluation real graphs",
+          "semantic: GNN explanation methods evaluation real graphs"
+        ],
+        "criteria": [
+          {
+            "criterion_id": "c1",
+            "status": "uncertain",
+            "quote": "",
+            "quote_verified": false,
+            "reason": "Insufficient source evidence; full-paper verification may be needed."
+          },
+          {
+            "criterion_id": "c2",
+            "status": "supported",
+            "quote": "We also empirically validate our theoretical results using extensive experimentation with nine real-world graph datasets.",
+            "quote_verified": true,
+            "reason": "The abstract explicitly states that theoretical results analyzing explanation methods were empirically validated via experimentation on nine real-world graph datasets."
+          }
+        ],
+        "rrf": 0.042026862026862025,
+        "aliases": [
+          "https://openalex.org/W4287118279"
+        ],
+        "neural_score": 4.32136,
+        "score": 0.87833
+      },
+      {
+        "id": "https://openalex.org/W3126371003",
+        "title": "On Explainability of Graph Neural Networks via Subgraph Explorations",
+        "doi": "https://doi.org/10.48550/arxiv.2102.05152",
+        "year": 2021,
+        "abstract": "We consider the problem of explaining the predictions of graph neural networks (GNNs), which otherwise are considered as black boxes. Existing methods invariably focus on explaining the importance of graph nodes or edges but ignore the substructures of graphs, which are more intuitive and human-intelligible. In this work, we propose a novel method, known as SubgraphX, to explain GNNs by identifying important subgraphs. Given a trained GNN model and an input graph, our SubgraphX explains its predictions by efficiently exploring different subgraphs with Monte Carlo tree search. To make the tree search more effective, we propose to use Shapley values as a measure of subgraph importance, which can also capture the interactions among different subgraphs. To expedite computations, we propose efficient approximation schemes to compute Shapley values for graph data. Our work represents the first attempt to explain GNNs via identifying subgraphs explicitly and directly. Experimental results show that our SubgraphX achieves significantly improved explanations, while keeping computations at a reasonable level.",
+        "authors": [
+          "Hao Yuan",
+          "Haiyang Yu",
+          "Jie Wang",
+          "Kang Li",
+          "Shuiwang Ji"
+        ],
+        "venue": "International Conference on Machine Learning",
+        "citations": 579,
+        "open_access": true,
+        "url": "https://doi.org/10.48550/arxiv.2102.05152",
+        "pdf_url": "http://proceedings.mlr.press/v139/yuan21c/yuan21c.pdf",
+        "references": [
+          "https://openalex.org/W1849277567",
+          "https://openalex.org/W2056562706",
+          "https://openalex.org/W2061425021",
+          "https://openalex.org/W2110699703",
+          "https://openalex.org/W2123045220",
+          "https://openalex.org/W2129888542",
+          "https://openalex.org/W2153624566",
+          "https://openalex.org/W2169393322",
+          "https://openalex.org/W2295107390",
+          "https://openalex.org/W2519887557",
+          "https://openalex.org/W2528271650",
+          "https://openalex.org/W2547875792",
+          "https://openalex.org/W2594183968",
+          "https://openalex.org/W2606780347",
+          "https://openalex.org/W2618851150",
+          "https://openalex.org/W2626639386",
+          "https://openalex.org/W2766447205",
+          "https://openalex.org/W2788919350",
+          "https://openalex.org/W2793978524",
+          "https://openalex.org/W2796096336",
+          "https://openalex.org/W2809418595",
+          "https://openalex.org/W2887533108",
+          "https://openalex.org/W2904479140",
+          "https://openalex.org/W2911286998",
+          "https://openalex.org/W2946327826",
+          "https://openalex.org/W2947873642",
+          "https://openalex.org/W2963341956",
+          "https://openalex.org/W2964198013",
+          "https://openalex.org/W2972317931",
+          "https://openalex.org/W2976615102",
+          "https://openalex.org/W2979481854",
+          "https://openalex.org/W2996091850",
+          "https://openalex.org/W3000120900",
+          "https://openalex.org/W3033892090",
+          "https://openalex.org/W3040246664",
+          "https://openalex.org/W3091534907",
+          "https://openalex.org/W3092083846",
+          "https://openalex.org/W3093206758",
+          "https://openalex.org/W3108823960",
+          "https://openalex.org/W3116637551"
+        ],
+        "retracted": false,
+        "provenance": [
+          "keyword: graph neural network explainability real datasets",
+          "semantic: Find papers published from 2018 to 2024 that introduce methods for explaining graph neural network predictions and evaluate explanations on real graph datasets rather than only synthetic graphs.",
+          "keyword: explaining graph neural networks real world benchmarks"
+        ],
+        "criteria": [
+          {
+            "criterion_id": "c1",
+            "status": "supported",
+            "quote": "In this work, we propose a novel method, known as SubgraphX, to explain GNNs by identifying important subgraphs.",
+            "quote_verified": true,
+            "reason": "The paper introduces SubgraphX, a novel method to explain GNN predictions."
+          },
+          {
+            "criterion_id": "c2",
+            "status": "uncertain",
+            "quote": "",
+            "quote_verified": false,
+            "reason": "Insufficient source evidence; full-paper verification may be needed."
+          }
+        ],
+        "rrf": 0.041038210155857215,
+        "aliases": [
+          "https://openalex.org/W3126371003"
+        ],
+        "neural_score": 4.10189,
+        "score": 0.87371
+      },
+      {
+        "id": "https://openalex.org/W3175655965",
+        "title": "Towards Automated Evaluation of Explanations in Graph Neural Networks",
+        "doi": "https://doi.org/10.48550/arxiv.2106.11864",
+        "year": 2021,
+        "abstract": "Explaining Graph Neural Networks predictions to end users of AI applications in easily understandable terms remains an unsolved problem. In particular, we do not have well developed methods for automatically evaluating explanations, in ways that are closer to how users consume those explanations. Based on recent application trends and our own experiences in real world problems, we propose automatic evaluation approaches for GNN Explanations.",
+        "authors": [
+          "Vanya Bk",
+          "Balaji Ganesan",
+          "Aniket Saxena",
+          "Devbrat Sharma",
+          "Arvind K. Agarwal"
+        ],
+        "venue": "arXiv",
+        "citations": 3,
+        "open_access": true,
+        "url": "https://doi.org/10.48550/arxiv.2106.11864",
+        "pdf_url": "https://arxiv.org/pdf/2106.11864",
+        "references": [
+          "https://openalex.org/W2282821441",
+          "https://openalex.org/W2517489125",
+          "https://openalex.org/W2554952599",
+          "https://openalex.org/W2597603852",
+          "https://openalex.org/W2618851150",
+          "https://openalex.org/W2759211898",
+          "https://openalex.org/W2769041395",
+          "https://openalex.org/W2788403449",
+          "https://openalex.org/W2972317931",
+          "https://openalex.org/W3011306938",
+          "https://openalex.org/W3033892090",
+          "https://openalex.org/W3091534907",
+          "https://openalex.org/W3093206758",
+          "https://openalex.org/W3103717137",
+          "https://openalex.org/W3110650376",
+          "https://openalex.org/W3126371003",
+          "https://openalex.org/W3128808440",
+          "https://openalex.org/W3159924169"
+        ],
+        "retracted": false,
+        "provenance": [
+          "semantic: Find papers published from 2018 to 2024 that introduce methods for explaining graph neural network predictions and evaluate explanations on real graph datasets rather than only synthetic graphs.",
+          "keyword: GNN explanation methods evaluation real graphs",
+          "semantic: GNN explanation methods evaluation real graphs",
+          "semantic: explaining graph neural networks real world benchmarks"
+        ],
+        "criteria": [
+          {
+            "criterion_id": "c1",
+            "status": "uncertain",
+            "quote": "",
+            "quote_verified": false,
+            "reason": "Insufficient source evidence; full-paper verification may be needed."
+          },
+          {
+            "criterion_id": "c2",
+            "status": "uncertain",
+            "quote": "",
+            "quote_verified": false,
+            "reason": "Insufficient source evidence; full-paper verification may be needed."
+          }
+        ],
+        "rrf": 0.04633546288525251,
+        "aliases": [
+          "https://openalex.org/W3175655965"
+        ],
+        "neural_score": 3.29833,
+        "score": 0.86941
+      },
+      {
+        "id": "https://openalex.org/W4287331425",
+        "title": "CF-GNNExplainer: Counterfactual Explanations for Graph Neural Networks",
+        "doi": "https://doi.org/10.48550/arxiv.2102.03322",
+        "year": 2021,
+        "abstract": "Given the increasing promise of graph neural networks (GNNs) in real-world applications, several methods have been developed for explaining their predictions. Existing methods for interpreting predictions from GNNs have primarily focused on generating subgraphs that are especially relevant for a particular prediction. However, such methods are not counterfactual (CF) in nature: given a prediction, we want to understand how the prediction can be changed in order to achieve an alternative outcome. In this work, we propose a method for generating CF explanations for GNNs: the minimal perturbation to the input (graph) data such that the prediction changes. Using only edge deletions, we find that our method, CF-GNNExplainer, can generate CF explanations for the majority of instances across three widely used datasets for GNN explanations, while removing less than 3 edges on average, with at least 94\\% accuracy. This indicates that CF-GNNExplainer primarily removes edges that are crucial for the original predictions, resulting in minimal CF explanations.",
+        "authors": [
+          "Ana Lu\u010di\u0107",
+          "Maartje ter Hoeve",
+          "Gabriele Tolomei",
+          "Maarten de Rijke",
+          "Fabrizio Silvestri"
+        ],
+        "venue": "UvA-DARE (University of Amsterdam)",
+        "citations": 141,
+        "open_access": true,
+        "url": "https://doi.org/10.48550/arxiv.2102.03322",
+        "pdf_url": null,
+        "references": [],
+        "retracted": false,
+        "provenance": [
+          "keyword: graph neural network explainability real datasets",
+          "semantic: Find papers published from 2018 to 2024 that introduce methods for explaining graph neural network predictions and evaluate explanations on real graph datasets rather than only synthetic graphs.",
+          "keyword: GNN explanation methods evaluation real graphs"
+        ],
+        "criteria": [
+          {
+            "criterion_id": "c1",
+            "status": "uncertain",
+            "quote": "",
+            "quote_verified": false,
+            "reason": "Insufficient source evidence; full-paper verification may be needed."
+          },
+          {
+            "criterion_id": "c2",
+            "status": "uncertain",
+            "quote": "",
+            "quote_verified": false,
+            "reason": "Insufficient source evidence; full-paper verification may be needed."
+          }
+        ],
+        "rrf": 0.03574671509454118,
+        "aliases": [
+          "https://openalex.org/W4287331425"
+        ],
+        "neural_score": 4.48517,
+        "score": 0.86662
+      },
+      {
+        "id": "https://openalex.org/W3103717137",
+        "title": "Parameterized Explainer for Graph Neural Network",
+        "doi": "https://doi.org/10.48550/arxiv.2011.04573",
+        "year": 2020,
+        "abstract": "Despite recent progress in Graph Neural Networks (GNNs), explaining predictions made by GNNs remains a challenging open problem. The leading method independently addresses the local explanations (i.e., important subgraph structure and node features) to interpret why a GNN model makes the prediction for a single instance, e.g. a node or a graph. As a result, the explanation generated is painstakingly customized for each instance. The unique explanation interpreting each instance independently is not sufficient to provide a global understanding of the learned GNN model, leading to a lack of generalizability and hindering it from being used in the inductive setting. Besides, as it is designed for explaining a single instance, it is challenging to explain a set of instances naturally (e.g., graphs of a given class). In this study, we address these key challenges and propose PGExplainer, a parameterized explainer for GNNs. PGExplainer adopts a deep neural network to parameterize the generation process of explanations, which enables PGExplainer a natural approach to explaining multiple instances collectively. Compared to the existing work, PGExplainer has better generalization ability and can be utilized in an inductive setting easily. Experiments on both synthetic and real-life datasets show highly competitive performance with up to 24.7\\% relative improvement in AUC on explaining graph classification over the leading baseline.",
+        "authors": [
+          "Dongsheng Luo",
+          "Wei Xin Cheng",
+          "Dongkuan Xu",
+          "Wenchao Yu",
+          "Bo Zong",
+          "Haifeng Chen",
+          "Xiang Zhang"
+        ],
+        "venue": "neural information processing systems",
+        "citations": 1044,
+        "open_access": true,
+        "url": "https://doi.org/10.48550/arxiv.2011.04573",
+        "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2020/file/e37b08dd3015330dcbb5d6663667b8b8-Paper.pdf",
+        "references": [
+          "https://openalex.org/W1492230849",
+          "https://openalex.org/W1501856433",
+          "https://openalex.org/W1662382123",
+          "https://openalex.org/W1996796871",
+          "https://openalex.org/W2024729467",
+          "https://openalex.org/W2056562706",
+          "https://openalex.org/W2066459332",
+          "https://openalex.org/W2101491865",
+          "https://openalex.org/W2111708605",
+          "https://openalex.org/W2116341502",
+          "https://openalex.org/W2139391136",
+          "https://openalex.org/W2282821441",
+          "https://openalex.org/W2519887557",
+          "https://openalex.org/W2547875792",
+          "https://openalex.org/W2548228487",
+          "https://openalex.org/W2562979205",
+          "https://openalex.org/W2594633041",
+          "https://openalex.org/W2606462007",
+          "https://openalex.org/W2606780347",
+          "https://openalex.org/W2618851150",
+          "https://openalex.org/W2619351609",
+          "https://openalex.org/W2624431344",
+          "https://openalex.org/W2724999822",
+          "https://openalex.org/W2766453196",
+          "https://openalex.org/W2783981490",
+          "https://openalex.org/W2788199784",
+          "https://openalex.org/W2788512147",
+          "https://openalex.org/W2794980531",
+          "https://openalex.org/W2806115886",
+          "https://openalex.org/W2807021761",
+          "https://openalex.org/W2890991187",
+          "https://openalex.org/W2894175828",
+          "https://openalex.org/W2914721378",
+          "https://openalex.org/W2944850456",
+          "https://openalex.org/W2945420892",
+          "https://openalex.org/W2952621348",
+          "https://openalex.org/W2962946486",
+          "https://openalex.org/W2963017945",
+          "https://openalex.org/W2963208207",
+          "https://openalex.org/W2963492126"
+        ],
+        "retracted": false,
+        "provenance": [
+          "keyword: graph neural network explainability real datasets",
+          "semantic: Find papers published from 2018 to 2024 that introduce methods for explaining graph neural network predictions and evaluate explanations on real graph datasets rather than only synthetic graphs."
+        ],
+        "criteria": [
+          {
+            "criterion_id": "c1",
+            "status": "uncertain",
+            "quote": "",
+            "quote_verified": false,
+            "reason": "Insufficient source evidence; full-paper verification may be needed."
+          },
+          {
+            "criterion_id": "c2",
+            "status": "uncertain",
+            "quote": "",
+            "quote_verified": false,
+            "reason": "Insufficient source evidence; full-paper verification may be needed."
+          }
+        ],
+        "rrf": 0.031754032258064516,
+        "aliases": [
+          "https://openalex.org/W3103717137"
+        ],
+        "neural_score": 3.92237,
+        "score": 0.85158
+      },
+      {
+        "id": "https://openalex.org/W4224309172",
+        "title": "Learning and Evaluating Graph Neural Network Explanations based on Counterfactual and Factual Reasoning",
+        "doi": "https://doi.org/10.1145/3485447.3511948",
+        "year": 2022,
+        "abstract": "Structural data well exists in Web applications, such as social networks in social media, citation networks in academic websites, and threads data in online forums. Due to the complex topology, it is difficult to process and make use of the rich information within such data. Graph Neural Networks (GNNs) have shown great advantages on learning representations for structural data. However, the non-transparency of the deep learning models makes it non-trivial to explain and interpret the predictions made by GNNs. Meanwhile, it is also a big challenge to evaluate the GNN explanations, since in many cases, the ground-truth explanations are unavailable. In this paper, we take insights of Counterfactual and Factual (CF2) reasoning from causal inference theory, to solve both the learning and evaluation problems in explainable GNNs. For generating explanations, we propose a model-agnostic framework by formulating an optimization problem based on both of the two casual perspectives. This distinguishes CF2 from previous explainable GNNs that only consider one of them. Another contribution of the work is the evaluation of GNN explanations. For quantitatively evaluating the generated explanations without the requirement of ground-truth, we design metrics based on Counterfactual and Factual reasoning to evaluate the necessity and sufficiency of the explanations. Experiments show that no matter ground-truth explanations are available or not, CF2 generates better explanations than previous state-of-the-art methods on real-world datasets. Moreover, the statistic analysis justifies the correlation between the performance on ground-truth evaluation and our proposed metrics.",
+        "authors": [
+          "Juntao Tan",
+          "Shijie Geng",
+          "Zuohui Fu",
+          "Yingqiang Ge",
+          "Shuyuan Xu",
+          "Yunqi Li",
+          "Yongfeng Zhang"
+        ],
+        "venue": "International World Wide Web Conference (WWW)",
+        "citations": 209,
+        "open_access": true,
+        "url": "https://doi.org/10.1145/3485447.3511948",
+        "pdf_url": "https://arxiv.org/pdf/2202.08816",
+        "references": [
+          "https://openalex.org/W1908728294",
+          "https://openalex.org/W1979354511",
+          "https://openalex.org/W2008857988",
+          "https://openalex.org/W2056562706",
+          "https://openalex.org/W2070902649",
+          "https://openalex.org/W2129131372",
+          "https://openalex.org/W2152184085",
+          "https://openalex.org/W2153959628",
+          "https://openalex.org/W2164452299",
+          "https://openalex.org/W2169393322",
+          "https://openalex.org/W2282821441",
+          "https://openalex.org/W2562979205",
+          "https://openalex.org/W2605409611",
+          "https://openalex.org/W2798431140",
+          "https://openalex.org/W2798435682",
+          "https://openalex.org/W2878885168",
+          "https://openalex.org/W2947873642",
+          "https://openalex.org/W2950275995",
+          "https://openalex.org/W2962816513",
+          "https://openalex.org/W2962858109",
+          "https://openalex.org/W2963767865",
+          "https://openalex.org/W2972317931",
+          "https://openalex.org/W2979481854",
+          "https://openalex.org/W3000120900",
+          "https://openalex.org/W3016419862",
+          "https://openalex.org/W3024683329",
+          "https://openalex.org/W3033892090",
+          "https://openalex.org/W3035017890",
+          "https://openalex.org/W3038757991",
+          "https://openalex.org/W3043865406",
+          "https://openalex.org/W3103717137",
+          "https://openalex.org/W3104142662",
+          "https://openalex.org/W3116637551",
+          "https://openalex.org/W3117696238",
+          "https://openalex.org/W3144386677",
+          "https://openalex.org/W3156338379",
+          "https://openalex.org/W3172136722",
+          "https://openalex.org/W3175536494",
+          "https://openalex.org/W3177934633",
+          "https://openalex.org/W3187467055"
+        ],
+        "retracted": false,
+        "provenance": [
+          "semantic: Find papers published from 2018 to 2024 that introduce methods for explaining graph neural network predictions and evaluate explanations on real graph datasets rather than only synthetic graphs.",
+          "keyword: GNN explanation methods evaluation real graphs"
+        ],
+        "criteria": [
+          {
+            "criterion_id": "c1",
+            "status": "uncertain",
+            "quote": "",
+            "quote_verified": false,
+            "reason": "Insufficient source evidence; full-paper verification may be needed."
+          },
+          {
+            "criterion_id": "c2",
+            "status": "uncertain",
+            "quote": "",
+            "quote_verified": false,
+            "reason": "Insufficient source evidence; full-paper verification may be needed."
+          }
+        ],
+        "rrf": 0.030621785881252923,
+        "aliases": [
+          "https://openalex.org/W4224309172"
+        ],
+        "neural_score": 3.63159,
+        "score": 0.84408
+      },
+      {
+        "id": "https://openalex.org/W4206952613",
+        "title": "GNES: Learning to Explain Graph Neural Networks",
+        "doi": "https://doi.org/10.1109/icdm51629.2021.00023",
+        "year": 2021,
+        "abstract": "In recent years, graph neural networks (GNNs) and the research on their explainability are experiencing rapid developments and achieving significant progress. Many methods are proposed to explain the predictions of GNNs, focusing on \u201chow to generate explanations\u201d However, research questions like \u201cwhether the GNN explanations are inaccurate\u201d, \u201cwhat if the explanations are inaccurate\u201d, and \u201chow to adjust the model to generate more accurate explanations\u201d have not been well explored. To address the above questions, this paper proposes a GNN Explanation Supervision (GNES)1framework to adaptively learn how to explain GNNs more correctly. Specifically, our framework jointly optimizes both model prediction and model explanation by enforcing both whole graph regularization and weak supervision on model explanations. For the graph regularization, we propose a unified explanation formulation for both node-level and edge-level explanations by enforcing the consistency between them. The node- and edge-level explanation techniques we propose are also generic and rigorously demonstrated to cover several existing major explainers as special cases. Extensive experiments on five real-world datasets across two application domains demonstrate the effectiveness of the proposed model on improving the reasonability of the explanation while still keep or even improve the backbone GNNs model performance.1Code available at: https://github.com/YuyangGao/GNES.",
+        "authors": [
+          "Yuyang Gao",
+          "Tong Sun",
+          "Rishab Bhatt",
+          "Dazhou Yu",
+          "Sung-Soo Hong",
+          "Liang Zhao"
+        ],
+        "venue": "Proceedings",
+        "citations": 46,
+        "open_access": false,
+        "url": "https://doi.org/10.1109/icdm51629.2021.00023",
+        "pdf_url": null,
+        "references": [
+          "https://openalex.org/W1522301498",
+          "https://openalex.org/W1787224781",
+          "https://openalex.org/W2116341502",
+          "https://openalex.org/W2117995966",
+          "https://openalex.org/W2183341477",
+          "https://openalex.org/W2189911347",
+          "https://openalex.org/W2277195237",
+          "https://openalex.org/W2406943157",
+          "https://openalex.org/W2424413254",
+          "https://openalex.org/W2461470610",
+          "https://openalex.org/W2519887557",
+          "https://openalex.org/W2594183968",
+          "https://openalex.org/W2595017202",
+          "https://openalex.org/W2759653627",
+          "https://openalex.org/W2776207810",
+          "https://openalex.org/W2887978863",
+          "https://openalex.org/W2891503716",
+          "https://openalex.org/W2911685042",
+          "https://openalex.org/W2914721378",
+          "https://openalex.org/W2944531694",
+          "https://openalex.org/W2947873642",
+          "https://openalex.org/W2948853804",
+          "https://openalex.org/W2962858109",
+          "https://openalex.org/W2963811535",
+          "https://openalex.org/W2972317931",
+          "https://openalex.org/W2975166957",
+          "https://openalex.org/W2979481854",
+          "https://openalex.org/W2981731882",
+          "https://openalex.org/W2998014937",
+          "https://openalex.org/W3000120900",
+          "https://openalex.org/W3019489177",
+          "https://openalex.org/W3032150215",
+          "https://openalex.org/W3033892090",
+          "https://openalex.org/W3091534907",
+          "https://openalex.org/W3093206758",
+          "https://openalex.org/W3103717137",
+          "https://openalex.org/W3108161363",
+          "https://openalex.org/W3108823960",
+          "https://openalex.org/W3116637551",
+          "https://openalex.org/W3184370740"
+        ],
+        "retracted": false,
+        "provenance": [
+          "keyword: graph neural network explainability real datasets",
+          "semantic: Find papers published from 2018 to 2024 that introduce methods for explaining graph neural network predictions and evaluate explanations on real graph datasets rather than only synthetic graphs."
+        ],
+        "criteria": [
+          {
+            "criterion_id": "c1",
+            "status": "uncertain",
+            "quote": "",
+            "quote_verified": false,
+            "reason": "Insufficient source evidence; full-paper verification may be needed."
+          },
+          {
+            "criterion_id": "c2",
+            "status": "uncertain",
+            "quote": "",
+            "quote_verified": false,
+            "reason": "Insufficient source evidence; full-paper verification may be needed."
+          }
+        ],
+        "rrf": 0.026500526500526502,
+        "aliases": [
+          "https://openalex.org/W4206952613"
+        ],
+        "neural_score": 3.72943,
+        "score": 0.83725
+      },
+      {
+        "id": "https://openalex.org/W3215430231",
+        "title": "ProtGNN: Towards Self-Explaining Graph Neural Networks",
+        "doi": "https://doi.org/10.1609/aaai.v36i8.20898",
+        "year": 2022,
+        "abstract": "Despite the recent progress in Graph Neural Networks (GNNs), it remains challenging to explain the predictions made by GNNs. Existing explanation methods mainly focus on post-hoc explanations where another explanatory model is employed to provide explanations for a trained GNN. The fact that post-hoc methods fail to reveal the original reasoning process of GNNs raises the need of building GNNs with built-in interpretability. In this work, we propose Prototype Graph Neural Network (ProtGNN), which combines prototype learning with GNNs and provides a new perspective on the explanations of GNNs. In ProtGNN, the explanations are naturally derived from the case-based reasoning process and are actually used during classification. The prediction of ProtGNN is obtained by comparing the inputs to a few learned prototypes in the latent space. Furthermore, for better interpretability and higher efficiency, a novel conditional subgraph sampling module is incorporated to indicate which part of the input graph is most similar to each prototype in ProtGNN+. Finally, we evaluate our method on a wide range of datasets and perform concrete case studies. Extensive results show that ProtGNN and ProtGNN+ can provide inherent interpretability while achieving accuracy on par with the non-interpretable counterparts.",
+        "authors": [
+          "Zaixi Zhang",
+          "Qi Liu",
+          "Hao Wang",
+          "Chengqiang Lu",
+          "Chee\u2010Kong Lee"
+        ],
+        "venue": "Proceedings of the AAAI Conference on Artificial Intelligence",
+        "citations": 235,
+        "open_access": true,
+        "url": "https://doi.org/10.1609/aaai.v36i8.20898",
+        "pdf_url": null,
+        "references": [
+          "https://openalex.org/W2011316522",
+          "https://openalex.org/W2025577942",
+          "https://openalex.org/W2056562706",
+          "https://openalex.org/W2124637492",
+          "https://openalex.org/W2153544354",
+          "https://openalex.org/W2251124635",
+          "https://openalex.org/W2251939518",
+          "https://openalex.org/W2594183968",
+          "https://openalex.org/W2766447205",
+          "https://openalex.org/W2766453196",
+          "https://openalex.org/W2793978524",
+          "https://openalex.org/W2896457183",
+          "https://openalex.org/W2964256412",
+          "https://openalex.org/W2970119293",
+          "https://openalex.org/W2971048680",
+          "https://openalex.org/W2976615102",
+          "https://openalex.org/W2979481854",
+          "https://openalex.org/W2997128522",
+          "https://openalex.org/W3000120900",
+          "https://openalex.org/W3033892090",
+          "https://openalex.org/W3034242908",
+          "https://openalex.org/W3091534907",
+          "https://openalex.org/W3093206758",
+          "https://openalex.org/W3103717137",
+          "https://openalex.org/W3116637551",
+          "https://openalex.org/W3126371003",
+          "https://openalex.org/W3167334189",
+          "https://openalex.org/W3189076644",
+          "https://openalex.org/W3203495984",
+          "https://openalex.org/W4252973173"
+        ],
+        "retracted": false,
+        "provenance": [
+          "keyword: graph neural network explainability real datasets",
+          "keyword: explaining graph neural networks real world benchmarks"
+        ],
+        "criteria": [
+          {
+            "criterion_id": "c1",
+            "status": "supported",
+            "quote": "In this work, we propose Prototype Graph Neural Network (ProtGNN), which combines prototype learning with GNNs and provides a new perspective on the explanations of GNNs.",
+            "quote_verified": true,
+            "reason": "The paper introduces ProtGNN, a new method for providing explanations for graph neural network predictions."
+          },
+          {
+            "criterion_id": "c2",
+            "status": "uncertain",
+            "quote": "",
+            "quote_verified": false,
+            "reason": "Insufficient source evidence; full-paper verification may be needed."
+          }
+        ],
+        "rrf": 0.023690078037904124,
+        "aliases": [
+          "https://openalex.org/W3215430231"
+        ],
+        "neural_score": 4.0521,
+        "score": 0.83639
+      },
+      {
+        "id": "https://openalex.org/W4288099617",
+        "title": "A Survey of Explainable Graph Neural Networks: Taxonomy and Evaluation Metrics",
+        "doi": "https://doi.org/10.48550/arxiv.2207.12599",
+        "year": 2022,
+        "abstract": "Graph neural networks (GNNs) have demonstrated a significant boost in prediction performance on graph data. At the same time, the predictions made by these models are often hard to interpret. In that regard, many efforts have been made to explain the prediction mechanisms of these models from perspectives such as GNNExplainer, XGNN and PGExplainer. Although such works present systematic frameworks to interpret GNNs, a holistic review for explainable GNNs is unavailable. In this survey, we present a comprehensive review of explainability techniques developed for GNNs. We focus on explainable graph neural networks and categorize them based on the use of explainable methods. We further provide the common performance metrics for GNNs explanations and point out several future research directions.",
+        "authors": [
+          "Yiqiao Li",
+          "Jianlong J. Zhou",
+          "Sunny Verma",
+          "Fang Chen"
+        ],
+        "venue": "arXiv",
+        "citations": 72,
+        "open_access": true,
+        "url": "https://doi.org/10.48550/arxiv.2207.12599",
+        "pdf_url": "https://arxiv.org/pdf/2207.12599",
+        "references": [
+          "https://openalex.org/W1787224781",
+          "https://openalex.org/W2282821441",
+          "https://openalex.org/W2771577156",
+          "https://openalex.org/W2786715987",
+          "https://openalex.org/W2891503716",
+          "https://openalex.org/W2939788146",
+          "https://openalex.org/W2947030669",
+          "https://openalex.org/W2947487104",
+          "https://openalex.org/W2947873642",
+          "https://openalex.org/W2958089299",
+          "https://openalex.org/W2962858109",
+          "https://openalex.org/W2972317931",
+          "https://openalex.org/W3000120900",
+          "https://openalex.org/W3014513496",
+          "https://openalex.org/W3028722312",
+          "https://openalex.org/W3033892090",
+          "https://openalex.org/W3036453007",
+          "https://openalex.org/W3037158619",
+          "https://openalex.org/W3038757991",
+          "https://openalex.org/W3039232647",
+          "https://openalex.org/W3040802234",
+          "https://openalex.org/W3042143383",
+          "https://openalex.org/W3093206758",
+          "https://openalex.org/W3097300053",
+          "https://openalex.org/W3103717137",
+          "https://openalex.org/W3108823960",
+          "https://openalex.org/W3111428390",
+          "https://openalex.org/W3126371003",
+          "https://openalex.org/W3133543405",
+          "https://openalex.org/W3158353424",
+          "https://openalex.org/W3159907343",
+          "https://openalex.org/W3184370740",
+          "https://openalex.org/W4224947643",
+          "https://openalex.org/W4288313203",
+          "https://openalex.org/W4313483218",
+          "https://openalex.org/W4327813569",
+          "https://openalex.org/W4405738388",
+          "https://openalex.org/W6929051383"
+        ],
+        "retracted": false,
+        "provenance": [
+          "semantic: Find papers published from 2018 to 2024 that introduce methods for explaining graph neural network predictions and evaluate explanations on real graph datasets rather than only synthetic graphs.",
+          "semantic: GNN explanation methods evaluation real graphs"
+        ],
+        "criteria": [
+          {
+            "criterion_id": "c1",
+            "status": "uncertain",
+            "quote": "",
+            "quote_verified": false,
+            "reason": "Insufficient source evidence; full-paper verification may be needed."
+          },
+          {
+            "criterion_id": "c2",
+            "status": "uncertain",
+            "quote": "",
+            "quote_verified": false,
+            "reason": "Insufficient source evidence; full-paper verification may be needed."
+          }
+        ],
+        "rrf": 0.02797339593114241,
+        "aliases": [
+          "https://openalex.org/W4288099617"
+        ],
+        "neural_score": 3.3001,
+        "score": 0.83066
+      },
+      {
+        "id": "https://openalex.org/W3210229802",
+        "title": "Edge-Level Explanations for Graph Neural Networks by Extending Explainability Methods for Convolutional Neural Networks",
+        "doi": "https://doi.org/10.1109/ism52913.2021.00049",
+        "year": 2021,
+        "abstract": "Graph Neural Networks (GNNs) are deep learning models that take graph data as inputs, and they are applied to various tasks such as traffic prediction and molecular property prediction. However, owing to the complexity of the GNNs, it has been difficult to analyze which parts of inputs affect the GNN model\u2019s outputs. In this study, we extend explainability methods for Convolutional Neural Networks (CNNs), such as Local Interpretable Model-Agnostic Explanations (LIME), Gradient-Based Saliency Maps, and Gradient-Weighted Class Activation Mapping (Grad-CAM) to GNNs, and predict which edges in the input graphs are important for GNN decisions. The experimental results indicate that the LIME-based approach is the most efficient explainability method for multiple tasks in the real-world situation, outperforming even the state-of-the-art method in GNN explainability.",
+        "authors": [
+          "Tetsu Kasanishi",
+          "Xueting Wang",
+          "Toshihiko Yamasaki"
+        ],
+        "venue": "IEEE International Symposium on Multimedia (ISM)",
+        "citations": 15,
+        "open_access": true,
+        "url": "https://doi.org/10.1109/ism52913.2021.00049",
+        "pdf_url": "https://arxiv.org/pdf/2111.00722",
+        "references": [
+          "https://openalex.org/W2080635178",
+          "https://openalex.org/W2135046866",
+          "https://openalex.org/W2162630660",
+          "https://openalex.org/W2169393322",
+          "https://openalex.org/W2244807774",
+          "https://openalex.org/W2282821441",
+          "https://openalex.org/W2519887557",
+          "https://openalex.org/W2606780347",
+          "https://openalex.org/W2657631929",
+          "https://openalex.org/W2900470550",
+          "https://openalex.org/W2907492528",
+          "https://openalex.org/W2962858109",
+          "https://openalex.org/W2970119293",
+          "https://openalex.org/W2972317931",
+          "https://openalex.org/W2979481854",
+          "https://openalex.org/W3116637551",
+          "https://openalex.org/W6969495165"
+        ],
+        "retracted": false,
+        "provenance": [
+          "semantic: Find papers published from 2018 to 2024 that introduce methods for explaining graph neural network predictions and evaluate explanations on real graph datasets rather than only synthetic graphs.",
+          "semantic: GNN explanation methods evaluation real graphs"
+        ],
+        "criteria": [
+          {
+            "criterion_id": "c1",
+            "status": "supported",
+            "quote": "In this study, we extend explainability methods for Convolutional Neural Networks (CNNs), such as Local Interpretable Model-Agnostic Explanations (LIME), Gradient-Based Saliency Maps, and Gradient-Weighted Class Activation Mapping (Grad-CAM) to GNNs, and predict which edges in the input graphs are important for GNN decisions.",
+            "quote_verified": true,
+            "reason": "The paper introduces extensions of CNN explainability methods to GNNs for edge-level explanations."
+          },
+          {
+            "criterion_id": "c2",
+            "status": "uncertain",
+            "quote": "",
+            "quote_verified": false,
+            "reason": "Insufficient source evidence; full-paper verification may be needed."
+          }
+        ],
+        "rrf": 0.02210552027357108,
+        "aliases": [
+          "https://openalex.org/W3210229802"
+        ],
+        "neural_score": 3.70098,
+        "score": 0.82743
+      },
+      {
+        "id": "https://openalex.org/W4309258819",
+        "title": "Quantitative evaluation of explainable graph neural networks for molecular property prediction",
+        "doi": "https://doi.org/10.1016/j.patter.2022.100628",
+        "year": 2022,
+        "abstract": "Graph neural networks (GNNs) have received increasing attention because of their expressive power on topological data, but they are still criticized for their lack of interpretability. To interpret GNN models, explainable artificial intelligence (XAI) methods have been developed. However, these methods are limited to qualitative analyses without quantitative assessments from the real-world datasets due to a lack of ground truths. In this study, we have established five XAI-specific molecular property benchmarks, including two synthetic and three experimental datasets. Through the datasets, we quantitatively assessed six XAI methods on four GNN models and made comparisons with seven medicinal chemists of different experience levels. The results demonstrated that XAI methods could deliver reliable and informative answers for medicinal chemists in identifying the key substructures. Moreover, the identified substructures were shown to complement existing classical fingerprints to improve molecular property predictions, and the improvements increased with the growth of training data.",
+        "authors": [
+          "Jiahua Rao",
+          "Shuangjia Zheng",
+          "Yutong Lu",
+          "Yuedong Yang"
+        ],
+        "venue": "Patterns",
+        "citations": 123,
+        "open_access": true,
+        "url": "https://doi.org/10.1016/j.patter.2022.100628",
+        "pdf_url": "http://www.cell.com/article/S2666389922002604/pdf",
+        "references": [
+          "https://openalex.org/W1532854728",
+          "https://openalex.org/W1757990252",
+          "https://openalex.org/W1968217405",
+          "https://openalex.org/W1982597534",
+          "https://openalex.org/W1988037271",
+          "https://openalex.org/W1995042037",
+          "https://openalex.org/W2000024622",
+          "https://openalex.org/W2005518172",
+          "https://openalex.org/W2040030948",
+          "https://openalex.org/W2043509228",
+          "https://openalex.org/W2059405137",
+          "https://openalex.org/W2066532920",
+          "https://openalex.org/W2080751938",
+          "https://openalex.org/W2096705340",
+          "https://openalex.org/W2097851570",
+          "https://openalex.org/W2124833832",
+          "https://openalex.org/W2187089797",
+          "https://openalex.org/W2282821441",
+          "https://openalex.org/W2295107390",
+          "https://openalex.org/W2410846838",
+          "https://openalex.org/W2519887557",
+          "https://openalex.org/W2594633041",
+          "https://openalex.org/W2605409611",
+          "https://openalex.org/W2606780347",
+          "https://openalex.org/W2616247523",
+          "https://openalex.org/W2624407581",
+          "https://openalex.org/W2624431344",
+          "https://openalex.org/W2626639386",
+          "https://openalex.org/W2626778328",
+          "https://openalex.org/W2766453196",
+          "https://openalex.org/W2773785180",
+          "https://openalex.org/W2786715987",
+          "https://openalex.org/W2786722833",
+          "https://openalex.org/W2803526748",
+          "https://openalex.org/W2804072623",
+          "https://openalex.org/W2805516822",
+          "https://openalex.org/W2807021761",
+          "https://openalex.org/W2815914914",
+          "https://openalex.org/W2914721378",
+          "https://openalex.org/W2921802966"
+        ],
+        "retracted": false,
+        "provenance": [
+          "keyword: graph neural network explainability real datasets",
+          "keyword: explaining graph neural networks real world benchmarks"
+        ],
+        "criteria": [
+          {
+            "criterion_id": "c1",
+            "status": "uncertain",
+            "quote": "",
+            "quote_verified": false,
+            "reason": "Insufficient source evidence; full-paper verification may be needed."
+          },
+          {
+            "criterion_id": "c2",
+            "status": "supported",
+            "quote": "In this study, we have established five XAI-specific molecular property benchmarks, including two synthetic and three experimental datasets.",
+            "quote_verified": true,
+            "reason": "The abstract explicitly mentions evaluating explanations using benchmark datasets that include three experimental (non-synthetic) datasets."
+          }
+        ],
+        "rrf": 0.027972027972027972,
+        "aliases": [
+          "https://openalex.org/W4309258819"
+        ],
+        "neural_score": 3.10736,
+        "score": 0.82487
+      },
+      {
+        "id": "https://openalex.org/W3000120900",
+        "title": "GraphLIME: Local Interpretable Model Explanations for Graph Neural Networks",
+        "doi": "https://doi.org/10.1109/tkde.2022.3187455",
+        "year": 2022,
+        "abstract": "Graph structured data has wide applicability in various domains such as physics, chemistry, biology, computer vision, and social networks, to name a few. Recently, graph neural networks (GNN) were shown to be successful in effectively representing graph structured data because of their good performance and generalization ability. However, explaining the effectiveness of GNN models is a challenging task because of the complex nonlinear transformations made over the iterations. In this paper, we propose GraphLIME, a local interpretable model explanation for graphs using the Hilbert-Schmidt Independence Criterion (HSIC) Lasso, which is a nonlinear feature selection method. GraphLIME is a generic GNN-model explanation framework that learns a nonlinear interpretable model locally in the subgraph of the node being explained. Through experiments on two real-world datasets, the explanations of GraphLIME are found to be of extraordinary degree and more descriptive in comparison to the existing explanation methods.",
+        "authors": [
+          "Qiang Huang",
+          "Makoto Yamada",
+          "Yuan Tian",
+          "Dinesh Singh",
+          "Yi Chang"
+        ],
+        "venue": "IEEE Transactions on Knowledge and Data Engineering",
+        "citations": 641,
+        "open_access": true,
+        "url": "https://doi.org/10.1109/tkde.2022.3187455",
+        "pdf_url": "https://arxiv.org/pdf/2001.06216",
+        "references": [
+          "https://openalex.org/W198744195",
+          "https://openalex.org/W1638081485",
+          "https://openalex.org/W1849277567",
+          "https://openalex.org/W2063978378",
+          "https://openalex.org/W2105465844",
+          "https://openalex.org/W2116341502",
+          "https://openalex.org/W2154053567",
+          "https://openalex.org/W2158599326",
+          "https://openalex.org/W2282821441",
+          "https://openalex.org/W2516809705",
+          "https://openalex.org/W2522925973",
+          "https://openalex.org/W2565516711",
+          "https://openalex.org/W2594633041",
+          "https://openalex.org/W2597603852",
+          "https://openalex.org/W2605409611",
+          "https://openalex.org/W2618851150",
+          "https://openalex.org/W2624431344",
+          "https://openalex.org/W2724999822",
+          "https://openalex.org/W2788199784",
+          "https://openalex.org/W2788284887",
+          "https://openalex.org/W2792839479",
+          "https://openalex.org/W2809343047",
+          "https://openalex.org/W2890457888",
+          "https://openalex.org/W2891612330",
+          "https://openalex.org/W2943959761",
+          "https://openalex.org/W2954968328",
+          "https://openalex.org/W2963581908",
+          "https://openalex.org/W2963799407",
+          "https://openalex.org/W2970119293",
+          "https://openalex.org/W2972317931",
+          "https://openalex.org/W3103717137",
+          "https://openalex.org/W3126371003",
+          "https://openalex.org/W3136399186",
+          "https://openalex.org/W3156989090",
+          "https://openalex.org/W3184370740"
+        ],
+        "retracted": false,
+        "provenance": [
+          "keyword: graph neural network explainability real datasets",
+          "keyword: GNN explanation methods evaluation real graphs"
+        ],
+        "criteria": [],
+        "rrf": 0.025603392041748205,
+        "aliases": [
+          "https://openalex.org/W3000120900"
+        ],
+        "neural_score": 3.20534,
+        "score": 0.82293
+      },
+      {
+        "id": "https://openalex.org/W4224947643",
+        "title": "Reinforced Causal Explainer for Graph Neural Networks",
+        "doi": "https://doi.org/10.1109/tpami.2022.3170302",
+        "year": 2022,
+        "abstract": "Explainability is crucial for probing graph neural networks (GNNs), answering questions like \"Why the GNN model makes a certain prediction?\". Feature attribution is a prevalent technique of highlighting the explanatory subgraph in the input graph, which plausibly leads the GNN model to make its prediction. Various attribution methods have been proposed to exploit gradient-like or attention scores as the attributions of edges, then select the salient edges with top attribution scores as the explanation. However, most of these works make an untenable assumption - the selected edges are linearly independent - thus leaving the dependencies among edges largely unexplored, especially their coalition effect. We demonstrate unambiguous drawbacks of this assumption - making the explanatory subgraph unfaithful and verbose. To address this challenge, we propose a reinforcement learning agent, Reinforced Causal Explainer (RC-Explainer). It frames the explanation task as a sequential decision process - an explanatory subgraph is successively constructed by adding a salient edge to connect the previously selected subgraph. Technically, its policy network predicts the action of edge addition, and gets a reward that quantifies the action's causal effect on the prediction. Such reward accounts for the dependency of the newly-added edge and the previously-added edges, thus reflecting whether they collaborate together and form a coalition to pursue better explanations. It is trained via policy gradient to optimize the reward stream of edge sequences. As such, RC-Explainer is able to generate faithful and concise explanations, and has a better generalization power to unseen graphs. When explaining different GNNs on three graph classification datasets, RC-Explainer achieves better or comparable performance to state-of-the-art approaches w.r.t. two quantitative metrics: predictive accuracy, contrastivity, and safely passes sanity checks and visual inspections. Codes and datasets are available at https://github.com/xiangwang1223/reinforced_causal_explainer.",
+        "authors": [
+          "Xiang Wang",
+          "Yingxin Wu",
+          "An Zhang",
+          "Fuli Feng",
+          "Xiangnan He",
+          "Tat\u2010Seng Chua"
+        ],
+        "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+        "citations": 99,
+        "open_access": true,
+        "url": "https://doi.org/10.1109/tpami.2022.3170302",
+        "pdf_url": "https://arxiv.org/pdf/2204.11028",
+        "references": [
+          "https://openalex.org/W1492230849",
+          "https://openalex.org/W1787224781",
+          "https://openalex.org/W1977340881",
+          "https://openalex.org/W2008857988",
+          "https://openalex.org/W2056562706",
+          "https://openalex.org/W2099111195",
+          "https://openalex.org/W2111708605",
+          "https://openalex.org/W2133091666",
+          "https://openalex.org/W2143891888",
+          "https://openalex.org/W2155027007",
+          "https://openalex.org/W2161642932",
+          "https://openalex.org/W2169393322",
+          "https://openalex.org/W2257979135",
+          "https://openalex.org/W2277195237",
+          "https://openalex.org/W2282821441",
+          "https://openalex.org/W2486285194",
+          "https://openalex.org/W2516809705",
+          "https://openalex.org/W2519887557",
+          "https://openalex.org/W2594633041",
+          "https://openalex.org/W2605409611",
+          "https://openalex.org/W2606780347",
+          "https://openalex.org/W2618851150",
+          "https://openalex.org/W2624431344",
+          "https://openalex.org/W2766453196",
+          "https://openalex.org/W2783740028",
+          "https://openalex.org/W2785760873",
+          "https://openalex.org/W2788199784",
+          "https://openalex.org/W2803526748",
+          "https://openalex.org/W2803832867",
+          "https://openalex.org/W2805177834",
+          "https://openalex.org/W2891612330",
+          "https://openalex.org/W2894175828",
+          "https://openalex.org/W2894663205",
+          "https://openalex.org/W2900763475",
+          "https://openalex.org/W2912692476",
+          "https://openalex.org/W2917322567",
+          "https://openalex.org/W2945976633",
+          "https://openalex.org/W2947873642",
+          "https://openalex.org/W2949784712",
+          "https://openalex.org/W2962810718"
+        ],
+        "retracted": false,
+        "provenance": [
+          "keyword: graph neural network explainability real datasets",
+          "keyword: explaining graph neural networks real world benchmarks"
+        ],
+        "criteria": [],
+        "rrf": 0.023431077007399288,
+        "aliases": [
+          "https://openalex.org/W4224947643"
+        ],
+        "neural_score": 3.15375,
+        "score": 0.81676
+      },
+      {
+        "id": "https://openalex.org/W3098173972",
+        "title": "Evaluating Attribution for Graph Neural Networks",
+        "doi": null,
+        "year": 2020,
+        "abstract": "Interpretability of machine learning models is critical to scientific understanding, AI safety, as well as debugging. Attribution is one approach to interpretability, which highlights input dimensions that are influential to a neural network\u2019s prediction. Evaluation of these methods is largely qualitative for image and text models, because acquiring ground truth attributions requires expensive and unreliable human judgment. Attribution has been little studied for graph neural networks (GNNs), a model class of growing importance that makes predictions on arbitrarily-sized graphs. In this work we adapt commonly-used attribution methods for GNNs and quantitatively evaluate them using computable ground-truths that are objective and challenging to learn. We make concrete recommendations for which attribution methods to use, and provide the data and code for our benchmarking suite. Rigorous and open source benchmarking of attribution methods in graphs could enable new methods development and broader use of attribution in real-world ML tasks.",
+        "authors": [
+          "Benjam\u00edn S\u00e1nchez-Lengeling",
+          "Jennifer N. Wei",
+          "Brian K. Lee",
+          "Emily Reif",
+          "Peter Y. Wang",
+          "Wesley Wei Qian",
+          "Kevin McCloskey",
+          "Lucy J. Colwell",
+          "Alexander B. Wiltschko"
+        ],
+        "venue": "neural information processing systems",
+        "citations": 204,
+        "open_access": true,
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2020/hash/417fbbf2e9d5a28a855a11894b2e795a-Abstract.html",
+        "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2020/file/417fbbf2e9d5a28a855a11894b2e795a-Paper.pdf",
+        "references": [
+          "https://openalex.org/W1599263113",
+          "https://openalex.org/W1757990252",
+          "https://openalex.org/W2066273100",
+          "https://openalex.org/W2076498053",
+          "https://openalex.org/W2098824882",
+          "https://openalex.org/W2116341502",
+          "https://openalex.org/W2173027866",
+          "https://openalex.org/W2295107390",
+          "https://openalex.org/W2561412020",
+          "https://openalex.org/W2606780347",
+          "https://openalex.org/W2626639386",
+          "https://openalex.org/W2735272571",
+          "https://openalex.org/W2766453196",
+          "https://openalex.org/W2770662937",
+          "https://openalex.org/W2796885425",
+          "https://openalex.org/W2805516822",
+          "https://openalex.org/W2805985513",
+          "https://openalex.org/W2807124908",
+          "https://openalex.org/W2891612330",
+          "https://openalex.org/W2902645734",
+          "https://openalex.org/W2918180218",
+          "https://openalex.org/W2944116764",
+          "https://openalex.org/W2946617578",
+          "https://openalex.org/W2947873642",
+          "https://openalex.org/W2948060161",
+          "https://openalex.org/W2951157442",
+          "https://openalex.org/W2956281901",
+          "https://openalex.org/W2970119293",
+          "https://openalex.org/W2973136764",
+          "https://openalex.org/W2977944219",
+          "https://openalex.org/W2981998613",
+          "https://openalex.org/W2992525328",
+          "https://openalex.org/W3000120900",
+          "https://openalex.org/W3037932933",
+          "https://openalex.org/W3101413764",
+          "https://openalex.org/W4394670254",
+          "https://openalex.org/W7062726295"
+        ],
+        "retracted": false,
+        "provenance": [
+          "semantic: GNN explanation methods evaluation real graphs",
+          "keyword: explaining graph neural networks real world benchmarks",
+          "semantic: explaining graph neural networks real world benchmarks"
+        ],
+        "criteria": [],
+        "rrf": 0.04148530448120051,
+        "aliases": [
+          "https://openalex.org/W3098173972"
+        ],
+        "neural_score": 2.24228,
+        "score": 0.81085
+      },
+      {
+        "id": "https://openalex.org/W3007332492",
+        "title": "Benchmarking Graph Neural Networks",
+        "doi": "https://doi.org/10.48550/arxiv.2003.00982",
+        "year": 2020,
+        "abstract": "In the last few years, graph neural networks (GNNs) have become the standard toolkit for analyzing and learning from data on graphs. This emerging field has witnessed an extensive growth of promising techniques that have been applied with success to computer science, mathematics, biology, physics and chemistry. But for any successful field to become mainstream and reliable, benchmarks must be developed to quantify progress. This led us in March 2020 to release a benchmark framework that i) comprises of a diverse collection of mathematical and real-world graphs, ii) enables fair model comparison with the same parameter budget to identify key architectures, iii) has an open-source, easy-to-use and reproducible code infrastructure, and iv) is flexible for researchers to experiment with new theoretical ideas. As of December 2022, the GitHub repository has reached 2,000 stars and 380 forks, which demonstrates the utility of the proposed open-source framework through the wide usage by the GNN community. In this paper, we present an updated version of our benchmark with a concise presentation of the aforementioned framework characteristics, an additional medium-sized molecular dataset AQSOL, similar to the popular ZINC, but with a real-world measured chemical target, and discuss how this framework can be leveraged to explore new GNN designs and insights. As a proof of value of our benchmark, we study the case of graph positional encoding (PE) in GNNs, which was introduced with this benchmark and has since spurred interest of exploring more powerful PE for Transformers and GNNs in a robust experimental setting.",
+        "authors": [
+          "Vijay Prakash Dwivedi",
+          "Chaitanya K. Joshi",
+          "Anh Tuan Luu",
+          "Thomas Laurent",
+          "Yoshua Bengio",
+          "Xavier Bresson"
+        ],
+        "venue": "arXiv",
+        "citations": 1052,
+        "open_access": true,
+        "url": "https://doi.org/10.48550/arxiv.2003.00982",
+        "pdf_url": "https://arxiv.org/pdf/2003.00982",
+        "references": [
+          "https://openalex.org/W1662382123",
+          "https://openalex.org/W1836465849",
+          "https://openalex.org/W2027482274",
+          "https://openalex.org/W2049633694",
+          "https://openalex.org/W2097308346",
+          "https://openalex.org/W2112796928",
+          "https://openalex.org/W2116341502",
+          "https://openalex.org/W2116810533",
+          "https://openalex.org/W2118246710",
+          "https://openalex.org/W2132914434",
+          "https://openalex.org/W2133564696",
+          "https://openalex.org/W2150134853",
+          "https://openalex.org/W2194775991",
+          "https://openalex.org/W2250539671",
+          "https://openalex.org/W2402402867",
+          "https://openalex.org/W2507756961",
+          "https://openalex.org/W2519887557",
+          "https://openalex.org/W2552391307",
+          "https://openalex.org/W2558460151",
+          "https://openalex.org/W2600702321",
+          "https://openalex.org/W2604314403",
+          "https://openalex.org/W2606780347",
+          "https://openalex.org/W2607338098",
+          "https://openalex.org/W2618533983",
+          "https://openalex.org/W2624431344",
+          "https://openalex.org/W2768242641",
+          "https://openalex.org/W2786722833",
+          "https://openalex.org/W2804057010",
+          "https://openalex.org/W2804072623",
+          "https://openalex.org/W2807021761",
+          "https://openalex.org/W2894663205",
+          "https://openalex.org/W2900896126",
+          "https://openalex.org/W2902188679",
+          "https://openalex.org/W2906340703",
+          "https://openalex.org/W2911710347",
+          "https://openalex.org/W2912555327",
+          "https://openalex.org/W2912914769",
+          "https://openalex.org/W2918342466",
+          "https://openalex.org/W2920053903",
+          "https://openalex.org/W2944538680"
+        ],
+        "retracted": false,
+        "provenance": [
+          "semantic: explaining graph neural networks real world benchmarks"
+        ],
+        "criteria": [],
+        "rrf": 0.01639344262295082,
+        "aliases": [
+          "https://openalex.org/W3007332492"
+        ],
+        "neural_score": 3.12894,
+        "score": 0.8011
+      },
+      {
+        "id": "https://openalex.org/W4390647500",
+        "title": "View-based Explanations for Graph Neural Networks",
+        "doi": "https://doi.org/10.1145/3639295",
+        "year": 2024,
+        "abstract": "Generating explanations for graph neural networks (GNNs) has been studied to understand their behaviors in analytical tasks such as graph classification. Existing approaches aim to understand the overall results of GNNs rather than providing explanations for specific class labels of interest, and may return explanation structures that are hard to access, nor directly queryable. We propose GVEX, a novel paradigm that generates Graph Views for GNN EXplanation. (1) We design a two-tier explanation structure called explanation views. An explanation view consists of a set of graph patterns and a set of induced explanation subgraphs. Given a database G of multiple graphs and a specific class label l assigned by a GNN-based classifier M, it concisely describes the fraction of G that best explains why l is assigned by M. (2) We propose quality measures and formulate an optimization problem to compute optimal explanation views for GNN explanation. We show that the problem is \u03a32P-hard. (3) We present two algorithms. The first one follows an explain-and-summarize strategy that first generates high-quality explanation subgraphs which best explain GNNs in terms of feature influence maximization, and then performs a summarization step to generate patterns. We show that this strategy provides an approximation ratio of 1/2. Our second algorithm performs a single-pass to an input node stream in batches to incrementally maintain explanation views, having an anytime quality guarantee of 1/4-approximation. Using real-world benchmark data, we experimentally demonstrate the effectiveness, efficiency, and scalability of GVEX. Through case studies, we showcase the practical applications of GVEX.",
+        "authors": [
+          "Tingyang Chen",
+          "Dazhuo Qiu",
+          "Yinghui Wu",
+          "Arijit Khan",
+          "Xiangyu Ke",
+          "Yunjun Gao"
+        ],
+        "venue": "Proceedings of the ACM on Management of Data",
+        "citations": 32,
+        "open_access": true,
+        "url": "https://doi.org/10.1145/3639295",
+        "pdf_url": "https://arxiv.org/pdf/2401.02086",
+        "references": [
+          "https://openalex.org/W1849277567",
+          "https://openalex.org/W1883038075",
+          "https://openalex.org/W1977340881",
+          "https://openalex.org/W1989151913",
+          "https://openalex.org/W2008857988",
+          "https://openalex.org/W2024505010",
+          "https://openalex.org/W2035173902",
+          "https://openalex.org/W2062705952",
+          "https://openalex.org/W2081417442",
+          "https://openalex.org/W2099438806",
+          "https://openalex.org/W2102039273",
+          "https://openalex.org/W2107577105",
+          "https://openalex.org/W2110953678",
+          "https://openalex.org/W2132651631",
+          "https://openalex.org/W2140840007",
+          "https://openalex.org/W2164281374",
+          "https://openalex.org/W2170726034",
+          "https://openalex.org/W2519887557",
+          "https://openalex.org/W2608151934",
+          "https://openalex.org/W2624431344",
+          "https://openalex.org/W2766453196",
+          "https://openalex.org/W2786016794",
+          "https://openalex.org/W2788512147",
+          "https://openalex.org/W2788919350",
+          "https://openalex.org/W2790755967",
+          "https://openalex.org/W2793978524",
+          "https://openalex.org/W2798660790",
+          "https://openalex.org/W2804057010",
+          "https://openalex.org/W2805177834",
+          "https://openalex.org/W2811124557",
+          "https://openalex.org/W2900763475",
+          "https://openalex.org/W2907492528",
+          "https://openalex.org/W2916797267",
+          "https://openalex.org/W2922308772",
+          "https://openalex.org/W2944377111",
+          "https://openalex.org/W2949712504",
+          "https://openalex.org/W2962946486",
+          "https://openalex.org/W2964121744",
+          "https://openalex.org/W2972317931",
+          "https://openalex.org/W2976615102"
+        ],
+        "retracted": false,
+        "provenance": [
+          "semantic: Find papers published from 2018 to 2024 that introduce methods for explaining graph neural network predictions and evaluate explanations on real graph datasets rather than only synthetic graphs.",
+          "keyword: explaining graph neural networks real world benchmarks"
+        ],
+        "criteria": [],
+        "rrf": 0.023215244229736982,
+        "aliases": [
+          "https://openalex.org/W4390647500"
+        ],
+        "neural_score": 2.61733,
+        "score": 0.79463
+      },
+      {
+        "id": "https://openalex.org/W3207981989",
+        "title": "Towards Self-Explainable Graph Neural Network",
+        "doi": "https://doi.org/10.1145/3459637.3482306",
+        "year": 2021,
+        "abstract": "Graph Neural Networks (GNNs), which generalize the deep neural networks to graph-structured data, have achieved great success in modeling graphs. However, as an extension of deep learning for graphs, GNNs lack explainability, which largely limits their adoption in scenarios that demand the transparency of models. Though many efforts are taken to improve the explainability of deep learning, they mainly focus on i.i.d data, which cannot be directly applied to explain the predictions of GNNs because GNNs utilize both node features and graph topology to make predictions. There are only very few work on the explainability of GNNs and they focus on post-hoc explanations. Since post-hoc explanations are not directly obtained from the GNNs, they can be biased and misrepresent the true explanations. Therefore, in this paper, we study a novel problem of self-explainable GNNs which can simultaneously give predictions and explanations. We propose a new framework which can find K-nearest labeled nodes for each unlabeled node to give explainable node classification, where nearest labeled nodes are found by interpretable similarity module in terms of both node similarity and local structure similarity. Extensive experiments on real-world and synthetic datasets demonstrate the effectiveness of the proposed framework for explainable node classification.",
+        "authors": [
+          "Enyan Dai",
+          "Suhang Wang"
+        ],
+        "venue": "ACM International Conference on Information and Knowledge Management (CIKM)",
+        "citations": 141,
+        "open_access": true,
+        "url": "https://doi.org/10.1145/3459637.3482306",
+        "pdf_url": "https://arxiv.org/pdf/2108.12055",
+        "references": [
+          "https://openalex.org/W1533861849",
+          "https://openalex.org/W1662382123",
+          "https://openalex.org/W1849277567",
+          "https://openalex.org/W1969600701",
+          "https://openalex.org/W2153579005",
+          "https://openalex.org/W2153959628",
+          "https://openalex.org/W2282821441",
+          "https://openalex.org/W2406128552",
+          "https://openalex.org/W2411786938",
+          "https://openalex.org/W2519887557",
+          "https://openalex.org/W2597603852",
+          "https://openalex.org/W2605409611",
+          "https://openalex.org/W2607500032",
+          "https://openalex.org/W2618170429",
+          "https://openalex.org/W2624431344",
+          "https://openalex.org/W2786915849",
+          "https://openalex.org/W2793165286",
+          "https://openalex.org/W2796096336",
+          "https://openalex.org/W2803831897",
+          "https://openalex.org/W2890584119",
+          "https://openalex.org/W2893944917",
+          "https://openalex.org/W2894175828",
+          "https://openalex.org/W2904479140",
+          "https://openalex.org/W2907492528",
+          "https://openalex.org/W2914953695",
+          "https://openalex.org/W2945827377",
+          "https://openalex.org/W2951307134",
+          "https://openalex.org/W2960259221",
+          "https://openalex.org/W2962858109",
+          "https://openalex.org/W2963911286",
+          "https://openalex.org/W2964051675",
+          "https://openalex.org/W2965556524",
+          "https://openalex.org/W2972317931",
+          "https://openalex.org/W2994598354",
+          "https://openalex.org/W3000120900",
+          "https://openalex.org/W3009901425",
+          "https://openalex.org/W3033100793",
+          "https://openalex.org/W3033892090",
+          "https://openalex.org/W3034492151",
+          "https://openalex.org/W3036446966"
+        ],
+        "retracted": false,
+        "provenance": [
+          "keyword: graph neural network explainability real datasets",
+          "keyword: explaining graph neural networks real world benchmarks"
+        ],
+        "criteria": [],
+        "rrf": 0.030117753623188408,
+        "aliases": [
+          "https://openalex.org/W3207981989"
+        ],
+        "neural_score": 2.24605,
+        "score": 0.78709
+      },
+      {
+        "id": "https://openalex.org/W4387355900",
+        "title": "Towards Robust Fidelity for Evaluating Explainability of Graph Neural Networks",
+        "doi": "https://doi.org/10.48550/arxiv.2310.01820",
+        "year": 2024,
+        "abstract": "Graph Neural Networks (GNNs) are neural models that leverage the dependency structure in graphical data via message passing among the graph nodes. GNNs have emerged as pivotal architectures in analyzing graph-structured data, and their expansive application in sensitive domains requires a comprehensive understanding of their decision-making processes -- necessitating a framework for GNN explainability. An explanation function for GNNs takes a pre-trained GNN along with a graph as input, to produce a `sufficient statistic' subgraph with respect to the graph label. A main challenge in studying GNN explainability is to provide fidelity measures that evaluate the performance of these explanation functions. This paper studies this foundational challenge, spotlighting the inherent limitations of prevailing fidelity metrics, including $Fid_+$, $Fid_-$, and $Fid_\u0394$. Specifically, a formal, information-theoretic definition of explainability is introduced and it is shown that existing metrics often fail to align with this definition across various statistical scenarios. The reason is due to potential distribution shifts when subgraphs are removed in computing these fidelity measures. Subsequently, a robust class of fidelity measures are introduced, and it is shown analytically that they are resilient to distribution shift issues and are applicable in a wide range of scenarios. Extensive empirical analysis on both synthetic and real datasets are provided to illustrate that the proposed metrics are more coherent with gold standard metrics. The source code is available at https://trustai4s-lab.github.io/fidelity.",
+        "authors": [
+          "Xu Zheng",
+          "Farhad Shirani",
+          "Tianchun Wang",
+          "Wei Cheng",
+          "Zhuomin Chen",
+          "Haifeng Chen",
+          "Wei, Hua",
+          "Dongsheng Luo"
+        ],
+        "venue": "International Conference on Learning Representations",
+        "citations": 37,
+        "open_access": true,
+        "url": "https://doi.org/10.48550/arxiv.2310.01820",
+        "pdf_url": "https://proceedings.iclr.cc/paper_files/paper/2024/file/34293d684b1012ed45c3274b4a7edc00-Paper-Conference.pdf",
+        "references": [
+          "https://openalex.org/W1983681808",
+          "https://openalex.org/W2056562706",
+          "https://openalex.org/W2116341502",
+          "https://openalex.org/W2122538988",
+          "https://openalex.org/W2163452843",
+          "https://openalex.org/W2519887557",
+          "https://openalex.org/W2584755241",
+          "https://openalex.org/W2624431344",
+          "https://openalex.org/W2891197287",
+          "https://openalex.org/W2947873642",
+          "https://openalex.org/W2970447476",
+          "https://openalex.org/W2972317931",
+          "https://openalex.org/W2979481854",
+          "https://openalex.org/W2997223761",
+          "https://openalex.org/W3033892090",
+          "https://openalex.org/W3103717137",
+          "https://openalex.org/W3116637551",
+          "https://openalex.org/W3136465512",
+          "https://openalex.org/W3156338379",
+          "https://openalex.org/W3179413940",
+          "https://openalex.org/W3184260147",
+          "https://openalex.org/W3207981989",
+          "https://openalex.org/W3209008141",
+          "https://openalex.org/W4221152136",
+          "https://openalex.org/W4281481572",
+          "https://openalex.org/W4288099617",
+          "https://openalex.org/W4296413061",
+          "https://openalex.org/W4302366875",
+          "https://openalex.org/W4307931512",
+          "https://openalex.org/W4320502379",
+          "https://openalex.org/W4321485252",
+          "https://openalex.org/W4321786089",
+          "https://openalex.org/W4322716343",
+          "https://openalex.org/W4327813569",
+          "https://openalex.org/W4387214902",
+          "https://openalex.org/W4387355946",
+          "https://openalex.org/W4393034172",
+          "https://openalex.org/W6929051383",
+          "https://openalex.org/W7133187675",
+          "https://openalex.org/W7133192667"
+        ],
+        "retracted": false,
+        "provenance": [
+          "keyword: graph neural network explainability real datasets",
+          "semantic: GNN explanation methods evaluation real graphs"
+        ],
+        "criteria": [],
+        "rrf": 0.023542445644647556,
+        "aliases": [
+          "https://openalex.org/W4387355900"
+        ],
+        "neural_score": 2.45396,
+        "score": 0.78643
+      },
+      {
+        "id": "https://openalex.org/W4386390750",
+        "title": "A Survey on Graph Counterfactual Explanations: Definitions, Methods, Evaluation, and Research Challenges",
+        "doi": "https://doi.org/10.1145/3618105",
+        "year": 2024,
+        "abstract": "Graph Neural Networks (GNNs) perform well in community detection and molecule classification. Counterfactual Explanations (CE) provide counter-examples to overcome the transparency limitations of black-box models. Due to the growing attention in graph learning, we focus on the concepts of CE for GNNs. We analysed the SoA to provide a taxonomy, a uniform notation, and the benchmarking datasets and evaluation metrics. We discuss fourteen methods, their evaluation protocols, twenty-two datasets, and nineteen metrics. We integrated the majority of methods into the GRETEL library to conduct an empirical evaluation to understand their strengths and pitfalls. We highlight open challenges and future work.",
+        "authors": [
+          "Mario Alfonso Prado-Romero",
+          "Bardh Prenkaj",
+          "Giovanni Stilo",
+          "Fosca Giannotti"
+        ],
+        "venue": "ACM Computing Surveys",
+        "citations": 98,
+        "open_access": true,
+        "url": "https://doi.org/10.1145/3618105",
+        "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3618105",
+        "references": [
+          "https://openalex.org/W1492230849",
+          "https://openalex.org/W1861492603",
+          "https://openalex.org/W1888005072",
+          "https://openalex.org/W1977340881",
+          "https://openalex.org/W2008857988",
+          "https://openalex.org/W2025905137",
+          "https://openalex.org/W2034618876",
+          "https://openalex.org/W2060141891",
+          "https://openalex.org/W2086286404",
+          "https://openalex.org/W2092285329",
+          "https://openalex.org/W2092750499",
+          "https://openalex.org/W2099438806",
+          "https://openalex.org/W2116341502",
+          "https://openalex.org/W2126385963",
+          "https://openalex.org/W2135071768",
+          "https://openalex.org/W2151697120",
+          "https://openalex.org/W2154851992",
+          "https://openalex.org/W2162630660",
+          "https://openalex.org/W2168190036",
+          "https://openalex.org/W2314945771",
+          "https://openalex.org/W2406493898",
+          "https://openalex.org/W2406943157",
+          "https://openalex.org/W2439568532",
+          "https://openalex.org/W2519887557",
+          "https://openalex.org/W2551895583",
+          "https://openalex.org/W2558460151",
+          "https://openalex.org/W2594183968",
+          "https://openalex.org/W2606780347",
+          "https://openalex.org/W2618851150",
+          "https://openalex.org/W2754517384",
+          "https://openalex.org/W2786715987",
+          "https://openalex.org/W2787132559",
+          "https://openalex.org/W2788767722",
+          "https://openalex.org/W2791092480",
+          "https://openalex.org/W2807021761",
+          "https://openalex.org/W2809583854",
+          "https://openalex.org/W2915886991",
+          "https://openalex.org/W2925436546",
+          "https://openalex.org/W2926322826",
+          "https://openalex.org/W2934842096"
+        ],
+        "retracted": false,
+        "provenance": [
+          "keyword: GNN explanation methods evaluation real graphs",
+          "semantic: GNN explanation methods evaluation real graphs"
+        ],
+        "criteria": [],
+        "rrf": 0.027598020555767037,
+        "aliases": [
+          "https://openalex.org/W4386390750"
+        ],
+        "neural_score": 2.30469,
+        "score": 0.78573
+      },
+      {
+        "id": "https://openalex.org/W3116637551",
+        "title": "Explainability in Graph Neural Networks: A Taxonomic Survey",
+        "doi": "https://doi.org/10.1109/tpami.2022.3204236",
+        "year": 2022,
+        "abstract": "Deep learning methods are achieving ever-increasing performance on many artificial intelligence tasks. A major limitation of deep models is that they are not amenable to interpretability. This limitation can be circumvented by developing post hoc techniques to explain predictions, giving rise to the area of explainability. Recently, explainability of deep models on images and texts has achieved significant progress. In the area of graph data, graph neural networks (GNNs) and their explainability are experiencing rapid developments. However, there is neither a unified treatment of GNN explainability methods, nor a standard benchmark and testbed for evaluations. In this survey, we provide a unified and taxonomic view of current GNN explainability methods. Our unified and taxonomic treatments of this subject shed lights on the commonalities and differences of existing methods and set the stage for further methodological developments. To facilitate evaluations, we provide a testbed for GNN explainability, including datasets, common algorithms and evaluation metrics. Furthermore, we conduct comprehensive experiments to compare and analyze the performance of many techniques. Altogether, this work provides a unified methodological treatment of GNN explainability and a standardized testbed for evaluations.",
+        "authors": [
+          "Hao Yuan",
+          "Haiyang Yu",
+          "Shurui Gui",
+          "Shuiwang Ji"
+        ],
+        "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+        "citations": 1146,
+        "open_access": true,
+        "url": "https://doi.org/10.1109/tpami.2022.3204236",
+        "pdf_url": "https://arxiv.org/pdf/2012.15445",
+        "references": [
+          "https://openalex.org/W237546731",
+          "https://openalex.org/W637153065",
+          "https://openalex.org/W1686810756",
+          "https://openalex.org/W1787224781",
+          "https://openalex.org/W2056562706",
+          "https://openalex.org/W2061425021",
+          "https://openalex.org/W2076232693",
+          "https://openalex.org/W2105465844",
+          "https://openalex.org/W2124637492",
+          "https://openalex.org/W2129564794",
+          "https://openalex.org/W2153624566",
+          "https://openalex.org/W2155027007",
+          "https://openalex.org/W2169393322",
+          "https://openalex.org/W2251124635",
+          "https://openalex.org/W2251939518",
+          "https://openalex.org/W2282821441",
+          "https://openalex.org/W2295107390",
+          "https://openalex.org/W2406943157",
+          "https://openalex.org/W2516809705",
+          "https://openalex.org/W2519887557",
+          "https://openalex.org/W2528271650",
+          "https://openalex.org/W2547875792",
+          "https://openalex.org/W2594183968",
+          "https://openalex.org/W2605409611",
+          "https://openalex.org/W2619351609",
+          "https://openalex.org/W2626639386",
+          "https://openalex.org/W2626778328",
+          "https://openalex.org/W2766447205",
+          "https://openalex.org/W2766453196",
+          "https://openalex.org/W2771655537",
+          "https://openalex.org/W2787740662",
+          "https://openalex.org/W2788199784",
+          "https://openalex.org/W2788512147",
+          "https://openalex.org/W2788919350",
+          "https://openalex.org/W2789223439",
+          "https://openalex.org/W2792641098",
+          "https://openalex.org/W2793978524",
+          "https://openalex.org/W2796096336",
+          "https://openalex.org/W2809418595",
+          "https://openalex.org/W2809925683"
+        ],
+        "retracted": false,
+        "provenance": [
+          "keyword: graph neural network explainability real datasets",
+          "semantic: Find papers published from 2018 to 2024 that introduce methods for explaining graph neural network predictions and evaluate explanations on real graph datasets rather than only synthetic graphs.",
+          "semantic: GNN explanation methods evaluation real graphs",
+          "keyword: explaining graph neural networks real world benchmarks",
+          "semantic: explaining graph neural networks real world benchmarks"
+        ],
+        "criteria": [],
+        "rrf": 0.07838827838827839,
+        "aliases": [
+          "https://openalex.org/W3116637551"
+        ],
+        "neural_score": 1.23566,
+        "score": 0.7855
+      },
+      {
+        "id": "https://openalex.org/W4396736023",
+        "title": "GNNShap: Scalable and Accurate GNN Explanation using Shapley Values",
+        "doi": "https://doi.org/10.1145/3589334.3645599",
+        "year": 2024,
+        "abstract": "Graph neural networks (GNNs) are popular machine learning models for graphs with many applications across scientific domains. However, GNNs are considered black box models, and it is challenging to understand how the model makes predictions. Game theoric Shapley value approaches are popular explanation methods in other domains but are not well-studied for graphs. Some studies have proposed Shapley value based GNN explanations, yet they have several limitations: they consider limited samples to approximate Shapley values; some mainly focus on small and large coalition sizes, and they are an order of magnitude slower than other explanation methods, making them inapplicable to even moderate-size graphs. In this work, we propose GNNShap, which provides explanations for edges since they provide more natural explanations for graphs and more fine-grained explanations. We overcome the limitations by sampling from all coalition sizes, parallelizing the sampling on GPUs, and speeding up model predictions by batching. GNNShap gives better fidelity scores and faster explanations than baselines on real-world datasets. The code is available at https://github.com/HipGraph/GNNShap.",
+        "authors": [
+          "Selahattin Akkas",
+          "Ariful Azad"
+        ],
+        "venue": "International World Wide Web Conference (WWW)",
+        "citations": 58,
+        "open_access": true,
+        "url": "https://doi.org/10.1145/3589334.3645599",
+        "pdf_url": "https://arxiv.org/pdf/2401.04829",
+        "references": [
+          "https://openalex.org/W2282821441",
+          "https://openalex.org/W2519887557",
+          "https://openalex.org/W2594633041",
+          "https://openalex.org/W2605409611",
+          "https://openalex.org/W2618851150",
+          "https://openalex.org/W2624431344",
+          "https://openalex.org/W2751808960",
+          "https://openalex.org/W2766453196",
+          "https://openalex.org/W2805516822",
+          "https://openalex.org/W2900470550",
+          "https://openalex.org/W2931367569",
+          "https://openalex.org/W2947873642",
+          "https://openalex.org/W2962858109",
+          "https://openalex.org/W2970119293",
+          "https://openalex.org/W2975966238",
+          "https://openalex.org/W2976615102",
+          "https://openalex.org/W2979481854",
+          "https://openalex.org/W2981806891",
+          "https://openalex.org/W2997035976",
+          "https://openalex.org/W3000120900",
+          "https://openalex.org/W3011667710",
+          "https://openalex.org/W3021975806",
+          "https://openalex.org/W3033892090",
+          "https://openalex.org/W3035839559",
+          "https://openalex.org/W3089930297",
+          "https://openalex.org/W3091534907",
+          "https://openalex.org/W3093206758",
+          "https://openalex.org/W3103717137",
+          "https://openalex.org/W3108823960",
+          "https://openalex.org/W3116637551",
+          "https://openalex.org/W3121087702",
+          "https://openalex.org/W3152893301",
+          "https://openalex.org/W3156989090",
+          "https://openalex.org/W3161851957",
+          "https://openalex.org/W3180986738",
+          "https://openalex.org/W3184370740",
+          "https://openalex.org/W4235855427",
+          "https://openalex.org/W4237887428",
+          "https://openalex.org/W4293581802",
+          "https://openalex.org/W4309862248"
+        ],
+        "retracted": false,
+        "provenance": [
+          "semantic: Find papers published from 2018 to 2024 that introduce methods for explaining graph neural network predictions and evaluate explanations on real graph datasets rather than only synthetic graphs.",
+          "keyword: GNN explanation methods evaluation real graphs",
+          "semantic: GNN explanation methods evaluation real graphs"
+        ],
+        "criteria": [],
+        "rrf": 0.03700887719875062,
+        "aliases": [
+          "https://openalex.org/W4396736023"
+        ],
+        "neural_score": 2.03182,
+        "score": 0.78549
+      },
+      {
+        "id": "https://openalex.org/W7238603334",
+        "title": "Automated Evaluation of GNN Explanations with Neuro Symbolic Reasoning",
+        "doi": null,
+        "year": 2022,
+        "abstract": "Explaining Graph Neural Networks predictions to end users of AI applications in easily understandable terms remains an unsolved problem. In particular, we do not have well developed methods for automatically evaluating explanations, in ways that are closer to how users consume those explanations. Based on recent application trends and our own experiences in real world problems, we propose an automatic evaluation approach for GNN Explanations using Neuro Symbolic Reasoning.",
+        "authors": [
+          "Vanya Bannihatti Kumar",
+          "Balaji Ganesan",
+          "MUHAMMED AMEEN",
+          "Devbrat Sharma",
+          "Arvind Agarwal"
+        ],
+        "venue": "Proceedings of Machine Learning Research",
+        "citations": 0,
+        "open_access": true,
+        "url": "https://proceedings.mlr.press/v176/kumar22a.html",
+        "pdf_url": null,
+        "references": [],
+        "retracted": false,
+        "provenance": [
+          "keyword: GNN explanation methods evaluation real graphs"
+        ],
+        "criteria": [],
+        "rrf": 0.015625,
+        "aliases": [
+          "https://openalex.org/W7238603334"
+        ],
+        "neural_score": 2.74,
+        "score": 0.7845
+      },
+      {
+        "id": "https://openalex.org/W4221148418",
+        "title": "Explainability in Graph Neural Networks: An Experimental Survey",
+        "doi": "https://doi.org/10.48550/arxiv.2203.09258",
+        "year": 2022,
+        "abstract": "Graph neural networks (GNNs) have been extensively developed for graph representation learning in various application domains. However, similar to all other neural networks models, GNNs suffer from the black-box problem as people cannot understand the mechanism underlying them. To solve this problem, several GNN explainability methods have been proposed to explain the decisions made by GNNs. In this survey, we give an overview of the state-of-the-art GNN explainability methods and how they are evaluated. Furthermore, we propose a new evaluation metric and conduct thorough experiments to compare GNN explainability methods on real world datasets. We also suggest future directions for GNN explainability.",
+        "authors": [
+          "Peibo Li",
+          "Yixing Yang",
+          "Maurice Pagnucco",
+          "Yang Song"
+        ],
+        "venue": "arXiv",
+        "citations": 46,
+        "open_access": true,
+        "url": "https://doi.org/10.48550/arxiv.2203.09258",
+        "pdf_url": "https://arxiv.org/pdf/2203.09258",
+        "references": [
+          "https://openalex.org/W1951216520",
+          "https://openalex.org/W2013587512",
+          "https://openalex.org/W2026905436",
+          "https://openalex.org/W2056562706",
+          "https://openalex.org/W2083844448",
+          "https://openalex.org/W2123045220",
+          "https://openalex.org/W2153959628",
+          "https://openalex.org/W2162630660",
+          "https://openalex.org/W2168190036",
+          "https://openalex.org/W2169393322",
+          "https://openalex.org/W2195388612",
+          "https://openalex.org/W2282821441",
+          "https://openalex.org/W2292919134",
+          "https://openalex.org/W2295107390",
+          "https://openalex.org/W2519887557",
+          "https://openalex.org/W2594183968",
+          "https://openalex.org/W2605409611",
+          "https://openalex.org/W2618851150",
+          "https://openalex.org/W2766447205",
+          "https://openalex.org/W2771655537",
+          "https://openalex.org/W2776207810",
+          "https://openalex.org/W2786715987",
+          "https://openalex.org/W2787132559",
+          "https://openalex.org/W2884585870",
+          "https://openalex.org/W2914721378",
+          "https://openalex.org/W2945976633",
+          "https://openalex.org/W2947873642",
+          "https://openalex.org/W2950697450",
+          "https://openalex.org/W2959587146",
+          "https://openalex.org/W2962858109",
+          "https://openalex.org/W2968210605",
+          "https://openalex.org/W2968734407",
+          "https://openalex.org/W2971048680",
+          "https://openalex.org/W2972317931",
+          "https://openalex.org/W2976040872",
+          "https://openalex.org/W2979481854",
+          "https://openalex.org/W2980013009",
+          "https://openalex.org/W2981731882",
+          "https://openalex.org/W2985331920",
+          "https://openalex.org/W3006750212"
+        ],
+        "retracted": false,
+        "provenance": [
+          "keyword: graph neural network explainability real datasets",
+          "semantic: Find papers published from 2018 to 2024 that introduce methods for explaining graph neural network predictions and evaluate explanations on real graph datasets rather than only synthetic graphs.",
+          "semantic: GNN explanation methods evaluation real graphs",
+          "keyword: explaining graph neural networks real world benchmarks",
+          "semantic: explaining graph neural networks real world benchmarks"
+        ],
+        "criteria": [],
+        "rrf": 0.06615550384405233,
+        "aliases": [
+          "https://openalex.org/W4221148418"
+        ],
+        "neural_score": 1.41925,
+        "score": 0.78398
+      },
+      {
+        "id": "https://openalex.org/W4321485347",
+        "title": "Global Counterfactual Explainer for Graph Neural Networks",
+        "doi": "https://doi.org/10.1145/3539597.3570376",
+        "year": 2023,
+        "abstract": "Graph neural networks (GNNs) find applications in various domains such as computational biology, natural language processing, and computer security. Owing to their popularity, there is an increasing need to explain GNN predictions since GNNs are black-box machine learning models. One way to address this is counterfactual reasoning where the objective is to change the GNN prediction by minimal changes in the input graph. Existing methods for counterfactual explanation of GNNs are limited to instance-specific local reasoning. This approach has two major limitations of not being able to offer global recourse policies and overloading human cognitive ability with too much information. In this work, we study the global explainability of GNNs through global counterfactual reasoning. Specifically, we want to find a small set of representative counterfactual graphs that explains all input graphs. Towards this goal, we propose GCFExplainer, a novel algorithm powered by vertex-reinforced random walks on an edit map of graphs with a greedy summary. Extensive experiments on real graph datasets show that the global explanation from GCFExplainer provides important high-level insights of the model behavior and achieves a 46.9% gain in recourse coverage and a 9.5% reduction in recourse cost compared to the state-of-the-art local counterfactual explainers.",
+        "authors": [
+          "Zexi Huang",
+          "Mert Kosan",
+          "Sourav Medya",
+          "Sayan Ranu",
+          "Ambuj K. Singh"
+        ],
+        "venue": "ACM International Conference on Web Search and Data Mining (WSDM)",
+        "citations": 104,
+        "open_access": true,
+        "url": "https://doi.org/10.1145/3539597.3570376",
+        "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3539597.3570376",
+        "references": [
+          "https://openalex.org/W265320276",
+          "https://openalex.org/W1492230849",
+          "https://openalex.org/W1553409264",
+          "https://openalex.org/W1977340881",
+          "https://openalex.org/W2010541316",
+          "https://openalex.org/W2060141891",
+          "https://openalex.org/W2077068955",
+          "https://openalex.org/W2092750499",
+          "https://openalex.org/W2099438806",
+          "https://openalex.org/W2137476097",
+          "https://openalex.org/W2142498761",
+          "https://openalex.org/W2147406357",
+          "https://openalex.org/W2149490995",
+          "https://openalex.org/W2154851992",
+          "https://openalex.org/W2519887557",
+          "https://openalex.org/W2615384791",
+          "https://openalex.org/W2624431344",
+          "https://openalex.org/W2744999500",
+          "https://openalex.org/W2900763475",
+          "https://openalex.org/W2922429874",
+          "https://openalex.org/W2964121744",
+          "https://openalex.org/W2972317931",
+          "https://openalex.org/W3018195242",
+          "https://openalex.org/W3032123378",
+          "https://openalex.org/W3033892090",
+          "https://openalex.org/W3080323172",
+          "https://openalex.org/W3093206758",
+          "https://openalex.org/W3103602184",
+          "https://openalex.org/W3103717137",
+          "https://openalex.org/W3122110430",
+          "https://openalex.org/W3130218089",
+          "https://openalex.org/W3144386677",
+          "https://openalex.org/W3166795997",
+          "https://openalex.org/W3172698735",
+          "https://openalex.org/W3179413940",
+          "https://openalex.org/W3210719733",
+          "https://openalex.org/W4221106024",
+          "https://openalex.org/W4221165652",
+          "https://openalex.org/W4224309172",
+          "https://openalex.org/W4225015871"
+        ],
+        "retracted": false,
+        "provenance": [
+          "keyword: graph neural network explainability real datasets",
+          "keyword: explaining graph neural networks real world benchmarks"
+        ],
+        "criteria": [],
+        "rrf": 0.027051561365286855,
+        "aliases": [
+          "https://openalex.org/W4321485347"
+        ],
+        "neural_score": 2.25465,
+        "score": 0.78121
+      },
+      {
+        "id": "https://openalex.org/W3214353465",
+        "title": "Towards Multi-Grained Explainability for Graph Neural Networks",
+        "doi": null,
+        "year": 2021,
+        "abstract": "When a graph neural network (GNN) made a prediction, one raises question about explainability: \u201cWhich fraction of the input graph is most in\ufb02uential to the model\u2019s decision?\u201d Producing an answer requires understanding the model\u2019s inner workings in general and emphasizing the insights on the decision for the instance at hand. Nonetheless, most of current approaches focus only on one aspect: (1) local explainability, which explains each instance independently, thus hardly exhibits the class-wise patterns; and (2) global explainability, which systematizes the globally important patterns, but might be trivial in the local context. This dichotomy limits the \ufb02exibility and effectiveness of explainers greatly. A performant paradigm towards multi-grained explainability is until-now lacking and thus a focus of our work. In this work, we exploit the pre-training and \ufb01ne-tuning idea to develop our explainer and generate multi-grained explanations. Speci\ufb01cally, the pre-training phase accounts for the contrastivity among different classes, so as to highlight the class-wise characteristics from a global view; afterwards, the \ufb01ne-tuning phase adapts the explanations in the local context. Experiments on both synthetic and real-world datasets show the superiority of our explainer, in terms of AUC on explaining graph classi\ufb01cation over the leading baselines. Our codes and datasets are available at https://github.com/Wuyxin/ReFine.",
+        "authors": [
+          "Xiang Wang",
+          "Yingxin Wu",
+          "An Zhang",
+          "Xiangnan He",
+          "Tat\u2010Seng Chua"
+        ],
+        "venue": "neural information processing systems",
+        "citations": 117,
+        "open_access": true,
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2021/hash/99bcfcd754a98ce89cb86f73acc04645-Abstract.html",
+        "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2021/file/99bcfcd754a98ce89cb86f73acc04645-Paper.pdf",
+        "references": [
+          "https://openalex.org/W1492230849",
+          "https://openalex.org/W1977340881",
+          "https://openalex.org/W2066459332",
+          "https://openalex.org/W2133091666",
+          "https://openalex.org/W2277195237",
+          "https://openalex.org/W2282821441",
+          "https://openalex.org/W2558460151",
+          "https://openalex.org/W2768308213",
+          "https://openalex.org/W2788199784",
+          "https://openalex.org/W2798812533",
+          "https://openalex.org/W2896457183",
+          "https://openalex.org/W2907492528",
+          "https://openalex.org/W2921802966",
+          "https://openalex.org/W2945623882",
+          "https://openalex.org/W2945827670",
+          "https://openalex.org/W2947873642",
+          "https://openalex.org/W2970119293",
+          "https://openalex.org/W2970670424",
+          "https://openalex.org/W2979481854",
+          "https://openalex.org/W2990703359",
+          "https://openalex.org/W3007332492",
+          "https://openalex.org/W3026235644",
+          "https://openalex.org/W3029922307",
+          "https://openalex.org/W3033892090",
+          "https://openalex.org/W3035524453",
+          "https://openalex.org/W3035615001",
+          "https://openalex.org/W3035625410",
+          "https://openalex.org/W3045200674",
+          "https://openalex.org/W3091534907",
+          "https://openalex.org/W3093206758",
+          "https://openalex.org/W3094162143",
+          "https://openalex.org/W3094605801",
+          "https://openalex.org/W3098134138",
+          "https://openalex.org/W3102419180",
+          "https://openalex.org/W3103717137",
+          "https://openalex.org/W3160202947"
+        ],
+        "retracted": false,
+        "provenance": [
+          "keyword: graph neural network explainability real datasets",
+          "semantic: Find papers published from 2018 to 2024 that introduce methods for explaining graph neural network predictions and evaluate explanations on real graph datasets rather than only synthetic graphs.",
+          "keyword: explaining graph neural networks real world benchmarks"
+        ],
+        "criteria": [],
+        "rrf": 0.039935064935064934,
+        "aliases": [
+          "https://openalex.org/W3214353465"
+        ],
+        "neural_score": 1.86842,
+        "score": 0.77741
+      },
+      {
+        "id": "https://openalex.org/W3033892090",
+        "title": "XGNN: Towards Model-Level Explanations of Graph Neural Networks",
+        "doi": "https://doi.org/10.1145/3394486.3403085",
+        "year": 2020,
+        "abstract": "Graphs neural networks (GNNs) learn node features by aggregating and combining neighbor information, which have achieved promising performance on many graph tasks. However, GNNs are mostly treated as black-boxes and lack human intelligible explanations. Thus, they cannot be fully trusted and used in certain application domains if GNN models cannot be explained. In this work, we propose a novel approach, known as XGNN, to interpret GNNs at the model-level. Our approach can provide high-level insights and generic understanding of how GNNs work. In particular, we propose to explain GNNs by training a graph generator so that the generated graph patterns maximize a certain prediction of the model. We formulate the graph generation as a reinforcement learning task, where for each step, the graph generator predicts how to add an edge into the current graph. The graph generator is trained via a policy gradient method based on information from the trained GNNs. In addition, we incorporate several graph rules to encourage the generated graphs to be valid. Experimental results on both synthetic and real-world datasets show that our proposed methods help understand and verify the trained GNNs. Furthermore, our experimental results indicate that the generated graphs can provide guidance on how to improve the trained GNNs.",
+        "authors": [
+          "Hao Yuan",
+          "Jiliang Tang",
+          "Xia Hu",
+          "Shuiwang Ji"
+        ],
+        "venue": "ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD)",
+        "citations": 591,
+        "open_access": true,
+        "url": "https://doi.org/10.1145/3394486.3403085",
+        "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3394486.3403085",
+        "references": [
+          "https://openalex.org/W1599969036",
+          "https://openalex.org/W1787224781",
+          "https://openalex.org/W1849277567",
+          "https://openalex.org/W1932198206",
+          "https://openalex.org/W2056562706",
+          "https://openalex.org/W2061425021",
+          "https://openalex.org/W2083844448",
+          "https://openalex.org/W2110699703",
+          "https://openalex.org/W2123045220",
+          "https://openalex.org/W2132022337",
+          "https://openalex.org/W2153624566",
+          "https://openalex.org/W2155027007",
+          "https://openalex.org/W2169393322",
+          "https://openalex.org/W2295107390",
+          "https://openalex.org/W2440159969",
+          "https://openalex.org/W2519887557",
+          "https://openalex.org/W2557449848",
+          "https://openalex.org/W2594475271",
+          "https://openalex.org/W2606462007",
+          "https://openalex.org/W2606780347",
+          "https://openalex.org/W2618625858",
+          "https://openalex.org/W2619351609",
+          "https://openalex.org/W2624431344",
+          "https://openalex.org/W2626639386",
+          "https://openalex.org/W2786103815",
+          "https://openalex.org/W2786722833",
+          "https://openalex.org/W2787740662",
+          "https://openalex.org/W2788512147",
+          "https://openalex.org/W2788919350",
+          "https://openalex.org/W2805177834",
+          "https://openalex.org/W2899771611",
+          "https://openalex.org/W2904479140",
+          "https://openalex.org/W2939208918",
+          "https://openalex.org/W2947873642",
+          "https://openalex.org/W2962858109",
+          "https://openalex.org/W2963169753",
+          "https://openalex.org/W2963639956",
+          "https://openalex.org/W2964121744",
+          "https://openalex.org/W2964268978",
+          "https://openalex.org/W2970119293"
+        ],
+        "retracted": false,
+        "provenance": [
+          "keyword: graph neural network explainability real datasets",
+          "keyword: GNN explanation methods evaluation real graphs"
+        ],
+        "criteria": [],
+        "rrf": 0.0259915611814346,
+        "aliases": [
+          "https://openalex.org/W3033892090"
+        ],
+        "neural_score": 2.19971,
+        "score": 0.7751
+      }
+    ],
+    "usage": {
+      "api_calls": 6,
+      "cache_hits": 1,
+      "llm_calls": 3
+    },
+    "ranker": "cross-encoder + RRF",
+    "gaps": [],
+    "repaired": false,
+    "warnings": [
+      "Hosted model returned HTTP 503"
+    ],
+    "citation_edges": [
+      {
+        "source": "https://openalex.org/W3093206758",
+        "target": "https://openalex.org/W2972317931"
+      },
+      {
+        "source": "https://openalex.org/W3093206758",
+        "target": "https://openalex.org/W3007332492"
+      },
+      {
+        "source": "https://openalex.org/W3161851957",
+        "target": "https://openalex.org/W2972317931"
+      },
+      {
+        "source": "https://openalex.org/W3161851957",
+        "target": "https://openalex.org/W3000120900"
+      },
+      {
+        "source": "https://openalex.org/W3161851957",
+        "target": "https://openalex.org/W3033892090"
+      },
+      {
+        "source": "https://openalex.org/W3161851957",
+        "target": "https://openalex.org/W3093206758"
+      },
+      {
+        "source": "https://openalex.org/W3161851957",
+        "target": "https://openalex.org/W3098173972"
+      },
+      {
+        "source": "https://openalex.org/W4327813569",
+        "target": "https://openalex.org/W2972317931"
+      },
+      {
+        "source": "https://openalex.org/W4327813569",
+        "target": "https://openalex.org/W2972317931"
+      },
+      {
+        "source": "https://openalex.org/W4327813569",
+        "target": "https://openalex.org/W3000120900"
+      },
+      {
+        "source": "https://openalex.org/W4327813569",
+        "target": "https://openalex.org/W3093206758"
+      },
+      {
+        "source": "https://openalex.org/W4327813569",
+        "target": "https://openalex.org/W3098173972"
+      },
+      {
+        "source": "https://openalex.org/W4327813569",
+        "target": "https://openalex.org/W3103717137"
+      },
+      {
+        "source": "https://openalex.org/W4327813569",
+        "target": "https://openalex.org/W3116637551"
+      },
+      {
+        "source": "https://openalex.org/W4327813569",
+        "target": "https://openalex.org/W3126371003"
+      },
+      {
+        "source": "https://openalex.org/W4287118279",
+        "target": "https://openalex.org/W2972317931"
+      },
+      {
+        "source": "https://openalex.org/W4287118279",
+        "target": "https://openalex.org/W3033892090"
+      },
+      {
+        "source": "https://openalex.org/W4287118279",
+        "target": "https://openalex.org/W3093206758"
+      },
+      {
+        "source": "https://openalex.org/W4287118279",
+        "target": "https://openalex.org/W3098173972"
+      },
+      {
+        "source": "https://openalex.org/W4287118279",
+        "target": "https://openalex.org/W3103717137"
+      },
+      {
+        "source": "https://openalex.org/W3126371003",
+        "target": "https://openalex.org/W2972317931"
+      },
+      {
+        "source": "https://openalex.org/W3126371003",
+        "target": "https://openalex.org/W3000120900"
+      },
+      {
+        "source": "https://openalex.org/W3126371003",
+        "target": "https://openalex.org/W3033892090"
+      },
+      {
+        "source": "https://openalex.org/W3126371003",
+        "target": "https://openalex.org/W3093206758"
+      },
+      {
+        "source": "https://openalex.org/W3126371003",
+        "target": "https://openalex.org/W3116637551"
+      },
+      {
+        "source": "https://openalex.org/W3175655965",
+        "target": "https://openalex.org/W2972317931"
+      },
+      {
+        "source": "https://openalex.org/W3175655965",
+        "target": "https://openalex.org/W3033892090"
+      },
+      {
+        "source": "https://openalex.org/W3175655965",
+        "target": "https://openalex.org/W3093206758"
+      },
+      {
+        "source": "https://openalex.org/W3175655965",
+        "target": "https://openalex.org/W3103717137"
+      },
+      {
+        "source": "https://openalex.org/W3175655965",
+        "target": "https://openalex.org/W3126371003"
+      },
+      {
+        "source": "https://openalex.org/W4224309172",
+        "target": "https://openalex.org/W2972317931"
+      },
+      {
+        "source": "https://openalex.org/W4224309172",
+        "target": "https://openalex.org/W3000120900"
+      },
+      {
+        "source": "https://openalex.org/W4224309172",
+        "target": "https://openalex.org/W3033892090"
+      },
+      {
+        "source": "https://openalex.org/W4224309172",
+        "target": "https://openalex.org/W3103717137"
+      },
+      {
+        "source": "https://openalex.org/W4224309172",
+        "target": "https://openalex.org/W3116637551"
+      },
+      {
+        "source": "https://openalex.org/W4206952613",
+        "target": "https://openalex.org/W2972317931"
+      },
+      {
+        "source": "https://openalex.org/W4206952613",
+        "target": "https://openalex.org/W3000120900"
+      },
+      {
+        "source": "https://openalex.org/W4206952613",
+        "target": "https://openalex.org/W3033892090"
+      },
+      {
+        "source": "https://openalex.org/W4206952613",
+        "target": "https://openalex.org/W3093206758"
+      },
+      {
+        "source": "https://openalex.org/W4206952613",
+        "target": "https://openalex.org/W3103717137"
+      },
+      {
+        "source": "https://openalex.org/W4206952613",
+        "target": "https://openalex.org/W3116637551"
+      },
+      {
+        "source": "https://openalex.org/W3215430231",
+        "target": "https://openalex.org/W2972317931"
+      },
+      {
+        "source": "https://openalex.org/W3215430231",
+        "target": "https://openalex.org/W3000120900"
+      },
+      {
+        "source": "https://openalex.org/W3215430231",
+        "target": "https://openalex.org/W3033892090"
+      },
+      {
+        "source": "https://openalex.org/W3215430231",
+        "target": "https://openalex.org/W3093206758"
+      },
+      {
+        "source": "https://openalex.org/W3215430231",
+        "target": "https://openalex.org/W3103717137"
+      },
+      {
+        "source": "https://openalex.org/W3215430231",
+        "target": "https://openalex.org/W3116637551"
+      },
+      {
+        "source": "https://openalex.org/W3215430231",
+        "target": "https://openalex.org/W3126371003"
+      },
+      {
+        "source": "https://openalex.org/W4288099617",
+        "target": "https://openalex.org/W2972317931"
+      },
+      {
+        "source": "https://openalex.org/W4288099617",
+        "target": "https://openalex.org/W3000120900"
+      },
+      {
+        "source": "https://openalex.org/W4288099617",
+        "target": "https://openalex.org/W3033892090"
+      },
+      {
+        "source": "https://openalex.org/W4288099617",
+        "target": "https://openalex.org/W3093206758"
+      },
+      {
+        "source": "https://openalex.org/W4288099617",
+        "target": "https://openalex.org/W3103717137"
+      },
+      {
+        "source": "https://openalex.org/W4288099617",
+        "target": "https://openalex.org/W3126371003"
+      },
+      {
+        "source": "https://openalex.org/W4288099617",
+        "target": "https://openalex.org/W4224947643"
+      },
+      {
+        "source": "https://openalex.org/W4288099617",
+        "target": "https://openalex.org/W4327813569"
+      },
+      {
+        "source": "https://openalex.org/W3210229802",
+        "target": "https://openalex.org/W2972317931"
+      },
+      {
+        "source": "https://openalex.org/W3210229802",
+        "target": "https://openalex.org/W2972317931"
+      },
+      {
+        "source": "https://openalex.org/W3210229802",
+        "target": "https://openalex.org/W3116637551"
+      },
+      {
+        "source": "https://openalex.org/W3000120900",
+        "target": "https://openalex.org/W2972317931"
+      },
+      {
+        "source": "https://openalex.org/W3000120900",
+        "target": "https://openalex.org/W2972317931"
+      },
+      {
+        "source": "https://openalex.org/W3000120900",
+        "target": "https://openalex.org/W3103717137"
+      },
+      {
+        "source": "https://openalex.org/W3000120900",
+        "target": "https://openalex.org/W3126371003"
+      },
+      {
+        "source": "https://openalex.org/W3098173972",
+        "target": "https://openalex.org/W2972317931"
+      },
+      {
+        "source": "https://openalex.org/W3098173972",
+        "target": "https://openalex.org/W3000120900"
+      },
+      {
+        "source": "https://openalex.org/W4390647500",
+        "target": "https://openalex.org/W2972317931"
+      },
+      {
+        "source": "https://openalex.org/W3207981989",
+        "target": "https://openalex.org/W2972317931"
+      },
+      {
+        "source": "https://openalex.org/W3207981989",
+        "target": "https://openalex.org/W3000120900"
+      },
+      {
+        "source": "https://openalex.org/W3207981989",
+        "target": "https://openalex.org/W3033892090"
+      },
+      {
+        "source": "https://openalex.org/W4387355900",
+        "target": "https://openalex.org/W2972317931"
+      },
+      {
+        "source": "https://openalex.org/W4387355900",
+        "target": "https://openalex.org/W3033892090"
+      },
+      {
+        "source": "https://openalex.org/W4387355900",
+        "target": "https://openalex.org/W3103717137"
+      },
+      {
+        "source": "https://openalex.org/W4387355900",
+        "target": "https://openalex.org/W3116637551"
+      },
+      {
+        "source": "https://openalex.org/W4387355900",
+        "target": "https://openalex.org/W3207981989"
+      },
+      {
+        "source": "https://openalex.org/W4387355900",
+        "target": "https://openalex.org/W4288099617"
+      },
+      {
+        "source": "https://openalex.org/W4387355900",
+        "target": "https://openalex.org/W4327813569"
+      },
+      {
+        "source": "https://openalex.org/W4396736023",
+        "target": "https://openalex.org/W2972317931"
+      },
+      {
+        "source": "https://openalex.org/W4396736023",
+        "target": "https://openalex.org/W3000120900"
+      },
+      {
+        "source": "https://openalex.org/W4396736023",
+        "target": "https://openalex.org/W3033892090"
+      },
+      {
+        "source": "https://openalex.org/W4396736023",
+        "target": "https://openalex.org/W3093206758"
+      },
+      {
+        "source": "https://openalex.org/W4396736023",
+        "target": "https://openalex.org/W3103717137"
+      },
+      {
+        "source": "https://openalex.org/W4396736023",
+        "target": "https://openalex.org/W3116637551"
+      },
+      {
+        "source": "https://openalex.org/W4396736023",
+        "target": "https://openalex.org/W3161851957"
+      },
+      {
+        "source": "https://openalex.org/W4221148418",
+        "target": "https://openalex.org/W2972317931"
+      },
+      {
+        "source": "https://openalex.org/W4321485347",
+        "target": "https://openalex.org/W2972317931"
+      },
+      {
+        "source": "https://openalex.org/W4321485347",
+        "target": "https://openalex.org/W3033892090"
+      },
+      {
+        "source": "https://openalex.org/W4321485347",
+        "target": "https://openalex.org/W3093206758"
+      },
+      {
+        "source": "https://openalex.org/W4321485347",
+        "target": "https://openalex.org/W3103717137"
+      },
+      {
+        "source": "https://openalex.org/W4321485347",
+        "target": "https://openalex.org/W4224309172"
+      },
+      {
+        "source": "https://openalex.org/W3214353465",
+        "target": "https://openalex.org/W2972317931"
+      },
+      {
+        "source": "https://openalex.org/W3214353465",
+        "target": "https://openalex.org/W3007332492"
+      },
+      {
+        "source": "https://openalex.org/W3214353465",
+        "target": "https://openalex.org/W3033892090"
+      },
+      {
+        "source": "https://openalex.org/W3214353465",
+        "target": "https://openalex.org/W3093206758"
+      },
+      {
+        "source": "https://openalex.org/W3214353465",
+        "target": "https://openalex.org/W3103717137"
+      },
+      {
+        "source": "https://openalex.org/W3033892090",
+        "target": "https://openalex.org/W2972317931"
+      }
+    ],
+    "evidence_basis": "Title and abstract; no full text read",
+    "ablations": {
+      "rrf": [
+        "https://openalex.org/W4327813569",
+        "https://openalex.org/W3116637551",
+        "https://openalex.org/W2972317931",
+        "https://openalex.org/W4221148418",
+        "https://openalex.org/W3093206758",
+        "https://openalex.org/W3175655965",
+        "https://openalex.org/W4287118279",
+        "https://openalex.org/W3098173972",
+        "https://openalex.org/W3126371003",
+        "https://openalex.org/W3214353465",
+        "https://openalex.org/W3156989090",
+        "https://openalex.org/W4396736023",
+        "https://openalex.org/W4287331425",
+        "https://openalex.org/W2900470550",
+        "https://openalex.org/W3103717137",
+        "https://openalex.org/W4415795676",
+        "https://openalex.org/W4224309172",
+        "https://openalex.org/W3207981989",
+        "https://openalex.org/W4379538713",
+        "https://openalex.org/W4221150275",
+        "https://openalex.org/W4288099617",
+        "https://openalex.org/W4309258819",
+        "https://openalex.org/W3169325548",
+        "https://openalex.org/W4386390750",
+        "https://openalex.org/W4403731508",
+        "https://openalex.org/W4321485347",
+        "https://openalex.org/W4206952613",
+        "https://openalex.org/W4377247629",
+        "https://openalex.org/W3033892090",
+        "https://openalex.org/W4283080554",
+        "https://openalex.org/W3000120900",
+        "https://openalex.org/W7133234814",
+        "https://openalex.org/W3040115141",
+        "https://openalex.org/W4366343219",
+        "https://openalex.org/W4309609199",
+        "https://openalex.org/W2970726356",
+        "https://openalex.org/W4285069737",
+        "https://openalex.org/W4400976116",
+        "https://openalex.org/W3081203761",
+        "https://openalex.org/W3161851957",
+        "https://openalex.org/W3215430231",
+        "https://openalex.org/W4387355900",
+        "https://openalex.org/W4224947643",
+        "https://openalex.org/W3129799360",
+        "https://openalex.org/W4390647500",
+        "https://openalex.org/W7133241539",
+        "https://openalex.org/W4403004898",
+        "https://openalex.org/W3210229802",
+        "https://openalex.org/W4391935723",
+        "https://openalex.org/W4313483218",
+        "https://openalex.org/W4400479959",
+        "https://openalex.org/W3174908416",
+        "https://openalex.org/W3007332492",
+        "https://openalex.org/W3021975806",
+        "https://openalex.org/W4307847583",
+        "https://openalex.org/W7238603334",
+        "https://openalex.org/W3042313988",
+        "https://openalex.org/W4390818924",
+        "https://openalex.org/W4393855546",
+        "https://openalex.org/W4381328668"
+      ],
+      "rerank": [
+        "https://openalex.org/W4327813569",
+        "https://openalex.org/W2972317931",
+        "https://openalex.org/W4287118279",
+        "https://openalex.org/W3126371003",
+        "https://openalex.org/W3093206758",
+        "https://openalex.org/W3175655965",
+        "https://openalex.org/W4287331425",
+        "https://openalex.org/W3103717137",
+        "https://openalex.org/W4224309172",
+        "https://openalex.org/W4206952613",
+        "https://openalex.org/W3215430231",
+        "https://openalex.org/W3161851957",
+        "https://openalex.org/W4288099617",
+        "https://openalex.org/W3210229802",
+        "https://openalex.org/W4309258819",
+        "https://openalex.org/W3000120900",
+        "https://openalex.org/W4224947643",
+        "https://openalex.org/W3098173972",
+        "https://openalex.org/W3007332492",
+        "https://openalex.org/W4390647500",
+        "https://openalex.org/W3207981989",
+        "https://openalex.org/W4387355900",
+        "https://openalex.org/W4386390750",
+        "https://openalex.org/W3116637551",
+        "https://openalex.org/W4396736023",
+        "https://openalex.org/W7238603334",
+        "https://openalex.org/W4221148418",
+        "https://openalex.org/W4321485347",
+        "https://openalex.org/W3214353465",
+        "https://openalex.org/W3033892090",
+        "https://openalex.org/W4313483218",
+        "https://openalex.org/W4379538713",
+        "https://openalex.org/W4221150275",
+        "https://openalex.org/W3129799360",
+        "https://openalex.org/W3042313988",
+        "https://openalex.org/W4415795676",
+        "https://openalex.org/W4390818924",
+        "https://openalex.org/W4377247629",
+        "https://openalex.org/W3040115141",
+        "https://openalex.org/W3169325548",
+        "https://openalex.org/W2900470550",
+        "https://openalex.org/W4403004898",
+        "https://openalex.org/W4285069737",
+        "https://openalex.org/W7133234814",
+        "https://openalex.org/W4400479959",
+        "https://openalex.org/W3081203761",
+        "https://openalex.org/W4309609199",
+        "https://openalex.org/W3156989090",
+        "https://openalex.org/W7133241539",
+        "https://openalex.org/W4400976116",
+        "https://openalex.org/W4366343219",
+        "https://openalex.org/W4403731508",
+        "https://openalex.org/W4391935723",
+        "https://openalex.org/W4283080554",
+        "https://openalex.org/W4307847583",
+        "https://openalex.org/W2970726356",
+        "https://openalex.org/W4381328668",
+        "https://openalex.org/W3174908416",
+        "https://openalex.org/W4393855546",
+        "https://openalex.org/W3021975806"
+      ]
+    },
+    "ordering": "All criteria supported, then incomplete evidence, then explicit counter-evidence; similarity breaks ties",
+    "joint_gap": false,
+    "model": "gemini-3.6-flash"
+  },
+  "events": [
+    {
+      "at": "2026-11-25T14:00:35.450657+00:00",
+      "step": "retrieve",
+      "message": "40 candidates from keyword search",
+      "query": "graph neural network explainability real datasets",
+      "cache_hit": false
+    },
+    {
+      "at": "2026-11-25T14:00:35.474609+00:00",
+      "step": "retrieve",
+      "message": "40 candidates from semantic search",
+      "query": "Find papers published from 2018 to 2024 that introduce methods for explaining graph neural network predictions and evaluate explanations on real graph datasets rather than only synthetic graphs.",
+      "cache_hit": true
+    },
+    {
+      "at": "2026-11-25T14:00:37.872538+00:00",
+      "step": "retrieve",
+      "message": "40 candidates from keyword search",
+      "query": "GNN explanation methods evaluation real graphs",
+      "cache_hit": false
+    },
+    {
+      "at": "2026-11-25T14:00:41.621086+00:00",
+      "step": "retrieve",
+      "message": "40 candidates from semantic search",
+      "query": "GNN explanation methods evaluation real graphs",
+      "cache_hit": false
+    },
+    {
+      "at": "2026-11-25T14:00:44.935429+00:00",
+      "step": "retrieve",
+      "message": "40 candidates from keyword search",
+      "query": "explaining graph neural networks real world benchmarks",
+      "cache_hit": false
+    },
+    {
+      "at": "2026-11-25T14:00:48.508084+00:00",
+      "step": "retrieve",
+      "message": "40 candidates from semantic search",
+      "query": "explaining graph neural networks real world benchmarks",
+      "cache_hit": false
+    },
+    {
+      "at": "2026-11-25T14:00:52.726500+00:00",
+      "step": "rank",
+      "message": "Ranked 60 unique candidates",
+      "ranker": "cross-encoder + RRF"
+    },
+    {
+      "at": "2026-11-25T14:00:54.815330+00:00",
+      "step": "citations",
+      "message": "Explored 17 cited works; metadata constraints remain enforced"
+    },
+    {
+      "at": "2026-11-25T14:00:59.415425+00:00",
+      "step": "rank",
+      "message": "Ranked 60 unique candidates",
+      "ranker": "cross-encoder + RRF"
+    },
+    {
+      "at": "2026-11-25T14:01:43.944754+00:00",
+      "step": "evidence",
+      "message": "Assessed top 15 papers; 0 criteria have no supported match",
+      "evidence_basis": "title and abstract only"
+    },
+    {
+      "at": "2026-11-25T14:01:43.971844+00:00",
+      "step": "complete",
+      "message": "Returned 30 papers with provenance and exportable evidence"
+    },
+    {
+      "at": "2026-11-25T14:01:43.990007+00:00",
+      "step": "timing",
+      "message": "Search finished",
+      "elapsed_seconds": 71.81
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+.env
+*.env
+.env.*
+!.env.example
+work/
+outputs/
+__pycache__/
+.pytest_cache/
+node_modules/
+web/dist/
+*.sqlite3
+*.pyc
+evaluation/pilot-papertrail.json
+evaluation/pilot-gemini-initial.json

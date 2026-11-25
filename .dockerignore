@@ -1,0 +1,14 @@
+.git
+.env
+.env.*
+**/.env
+**/.env.*
+work
+outputs
+web/node_modules
+web/dist
+**/__pycache__
+.pytest_cache
+tests
+evaluation
+docs

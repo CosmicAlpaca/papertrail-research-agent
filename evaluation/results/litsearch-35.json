@@ -1,0 +1,2824 @@
+{
+  "id": "983b849e-e751-4f6f-b939-fa222ffa6217",
+  "created_at": "2026-11-25T14:07:25.238267+00:00",
+  "status": "complete",
+  "request": {
+    "plan": {
+      "question": "Could you suggest a paper that introduces an approach to relation extraction that involves learning syntax dependency structures using a tree LSTM model?",
+      "queries": [
+        "Could you suggest introduces approach relation extraction involves learning syntax dependency structures using tree"
+      ],
+      "criteria": [
+        {
+          "id": "c1",
+          "text": "Could you suggest a paper that introduces an approach to relation extraction that involves learning syntax dependency structures using a tree LSTM model?"
+        }
+      ],
+      "year_from": null,
+      "year_to": null,
+      "open_access": false,
+      "mode": "diligent",
+      "planner": "reviewable rule-based plan; hosted model unavailable"
+    },
+    "rerank": true,
+    "repair": true
+  },
+  "result": {
+    "papers": [
+      {
+        "id": "https://openalex.org/W2603270557",
+        "title": "Temporal Information Extraction for Question Answering Using Syntactic Dependencies in an LSTM-based Architecture",
+        "doi": "https://doi.org/10.18653/v1/d17-1092",
+        "year": 2017,
+        "abstract": "In this paper, we propose to use a set of simple, uniform in architecture LSTM-based models to recover different kinds of temporal relations from text. Using the shortest dependency path between entities as input, the same architecture is used to extract intra-sentence, cross-sentence, and document creation time relations. A “double-checking” technique reverses entity pairs in classification, boosting the recall of positive cases and reducing misclassifications between opposite classes. An efficient pruning algorithm resolves conflicts globally. Evaluated on QA-TempEval (SemEval2015 Task 5), our proposed technique outperforms state-of-the-art methods by a large margin. We also conduct intrinsic evaluation and post state-of-the-art results on Timebank-Dense.",
+        "authors": [
+          "Yuanliang Meng",
+          "Anna Rumshisky",
+          "Alexey Romanov"
+        ],
+        "venue": "Conference on Empirical Methods in Natural Language Processing (EMNLP)",
+        "citations": 74,
+        "open_access": true,
+        "url": "https://doi.org/10.18653/v1/d17-1092",
+        "pdf_url": "https://www.aclweb.org/anthology/D17-1092.pdf",
+        "references": [
+          "https://openalex.org/W1571872475",
+          "https://openalex.org/W1838058638",
+          "https://openalex.org/W1990886313",
+          "https://openalex.org/W2058070641",
+          "https://openalex.org/W2064675550",
+          "https://openalex.org/W2128536089",
+          "https://openalex.org/W2137407193",
+          "https://openalex.org/W2141539902",
+          "https://openalex.org/W2185599447",
+          "https://openalex.org/W2250521169",
+          "https://openalex.org/W2251220668",
+          "https://openalex.org/W2251463950",
+          "https://openalex.org/W2401610261",
+          "https://openalex.org/W2571747590",
+          "https://openalex.org/W2964217331",
+          "https://openalex.org/W4410821460"
+        ],
+        "retracted": false,
+        "provenance": [
+          "semantic: Could you suggest a paper that introduces an approach to relation extraction that involves learning syntax dependency structures using a tree LSTM model?",
+          "coverage repair: Could you suggest a paper that introduces an approach to relation extraction that involves learning syntax dependency structures using a tree LSTM model?"
+        ],
+        "criteria": [
+          {
+            "criterion_id": "c1",
+            "status": "uncertain",
+            "quote": "",
+            "quote_verified": false,
+            "reason": "Insufficient source evidence; full-paper verification may be needed."
+          }
+        ],
+        "rrf": 0.05189963309267369,
+        "aliases": [
+          "https://openalex.org/W2603270557",
+          "https://openalex.org/W2952787978"
+        ],
+        "neural_score": 2.45463,
+        "score": 0.93672
+      },
+      {
+        "id": "https://openalex.org/W3035309410",
+        "title": "Exploiting the Syntax-Model Consistency for Neural Relation Extraction",
+        "doi": "https://doi.org/10.18653/v1/2020.acl-main.715",
+        "year": 2020,
+        "abstract": "This paper studies the task of Relation Extraction (RE) that aims to identify the semantic relations between two entity mentions in text. In the deep learning models for RE, it has been beneficial to incorporate the syntactic structures from the dependency trees of the input sentences. In such models, the dependency trees are often used to directly structure the network architectures or to obtain the dependency relations between the word pairs to inject the syntactic information into the models via multi-task learning. The major problem with these approaches is the lack of generalization beyond the syntactic structures in the training data or the failure to capture the syntactic importance of the words for RE. In order to overcome these issues, we propose a novel deep learning model for RE that uses the dependency trees to extract the syntax-based importance scores for the words, serving as a tree representation to introduce syntactic information into the models with greater generalization. In particular, we leverage Ordered-Neuron Long-Short Term Memory Networks (ON-LSTM) to infer the model-based importance scores for RE for every word in the sentences that are then regulated to be consistent with the syntax-based scores to enable syntactic information injection. We perform extensive experiments to demonstrate the effectiveness of the proposed method, leading to the state-of-the-art performance on three RE benchmark datasets.",
+        "authors": [
+          "Amir Pouran Ben Veyseh",
+          "Franck Dernoncourt",
+          "Dejing Dou",
+          "Thien Huu Nguyen"
+        ],
+        "venue": "Proceedings of the conference - Association for Computational Linguistics. Meeting",
+        "citations": 50,
+        "open_access": true,
+        "url": "https://doi.org/10.18653/v1/2020.acl-main.715",
+        "pdf_url": "https://www.aclweb.org/anthology/2020.acl-main.715.pdf",
+        "references": [
+          "https://openalex.org/W1933365859",
+          "https://openalex.org/W2064675550",
+          "https://openalex.org/W2099779943",
+          "https://openalex.org/W2104246439",
+          "https://openalex.org/W2125553157",
+          "https://openalex.org/W2136502946",
+          "https://openalex.org/W2138627627",
+          "https://openalex.org/W2250521169",
+          "https://openalex.org/W2251622960",
+          "https://openalex.org/W2251928912",
+          "https://openalex.org/W2295528990",
+          "https://openalex.org/W2475245295",
+          "https://openalex.org/W2513378248",
+          "https://openalex.org/W2773963565",
+          "https://openalex.org/W2788474500",
+          "https://openalex.org/W2788914818",
+          "https://openalex.org/W2798431140",
+          "https://openalex.org/W2892094955",
+          "https://openalex.org/W2945115000",
+          "https://openalex.org/W2952768212",
+          "https://openalex.org/W2963020213",
+          "https://openalex.org/W2963171262",
+          "https://openalex.org/W2963341956",
+          "https://openalex.org/W2963613359",
+          "https://openalex.org/W2964167098",
+          "https://openalex.org/W2964217331",
+          "https://openalex.org/W2970611834",
+          "https://openalex.org/W2985368889",
+          "https://openalex.org/W3007535931"
+        ],
+        "retracted": false,
+        "provenance": [
+          "semantic: Could you suggest a paper that introduces an approach to relation extraction that involves learning syntax dependency structures using a tree LSTM model?",
+          "coverage repair: Could you suggest a paper that introduces an approach to relation extraction that involves learning syntax dependency structures using a tree LSTM model?"
+        ],
+        "criteria": [
+          {
+            "criterion_id": "c1",
+            "status": "uncertain",
+            "quote": "",
+            "quote_verified": false,
+            "reason": "Insufficient source evidence; full-paper verification may be needed."
+          }
+        ],
+        "rrf": 0.02877846790890269,
+        "aliases": [
+          "https://openalex.org/W3035309410"
+        ],
+        "neural_score": 5.6499,
+        "score": 0.9081
+      },
+      {
+        "id": "https://openalex.org/W2091582906",
+        "title": "Exploring syntactic features for relation extraction using a convolution tree kernel",
+        "doi": "https://doi.org/10.3115/1220835.1220872",
+        "year": 2006,
+        "abstract": "This paper proposes to use a convolution kernel over parse trees to model syntactic structure information for relation extraction. Our study reveals that the syntactic structure features embedded in a parse tree are very effective for relation extraction and these features can be well captured by the convolution tree kernel. Evaluation on the ACE 2003 corpus shows that the convolution kernel over parse trees can achieve comparable performance with the previous best-reported feature-based methods on the 24 ACE relation subtypes. It also shows that our method significantly outperforms the previous two dependency tree kernels on the 5 ACE relation major types.",
+        "authors": [
+          "Min Zhang",
+          "Jie Zhang",
+          "Jian Su"
+        ],
+        "venue": "Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (NAACL-HLT)",
+        "citations": 124,
+        "open_access": true,
+        "url": "https://doi.org/10.3115/1220835.1220872",
+        "pdf_url": "https://dl.acm.org/doi/pdf/10.3115/1220835.1220872",
+        "references": [
+          "https://openalex.org/W1576213419",
+          "https://openalex.org/W1598003989",
+          "https://openalex.org/W2030408698",
+          "https://openalex.org/W2053238041",
+          "https://openalex.org/W2116786260",
+          "https://openalex.org/W2124225821",
+          "https://openalex.org/W2127713198",
+          "https://openalex.org/W2138627627",
+          "https://openalex.org/W2146191280",
+          "https://openalex.org/W2155693943",
+          "https://openalex.org/W3007535931"
+        ],
+        "retracted": false,
+        "provenance": [
+          "semantic: Could you suggest a paper that introduces an approach to relation extraction that involves learning syntax dependency structures using a tree LSTM model?",
+          "coverage repair: Could you suggest a paper that introduces an approach to relation extraction that involves learning syntax dependency structures using a tree LSTM model?"
+        ],
+        "criteria": [
+          {
+            "criterion_id": "c1",
+            "status": "uncertain",
+            "quote": "",
+            "quote_verified": false,
+            "reason": "Insufficient source evidence; full-paper verification may be needed."
+          }
+        ],
+        "rrf": 0.030303030303030304,
+        "aliases": [
+          "https://openalex.org/W2091582906"
+        ],
+        "neural_score": 4.31269,
+        "score": 0.9062
+      },
+      {
+        "id": "https://openalex.org/W3034497660",
+        "title": "Learning Latent Forests for Medical Relation Extraction",
+        "doi": "https://doi.org/10.24963/ijcai.2020/505",
+        "year": 2020,
+        "abstract": "The goal of medical relation extraction is to detect relations among entities, such as genes, mutations and drugs in medical texts. Dependency tree structures have been proven useful for this task. Existing approaches to such relation extraction leverage off-the-shelf dependency parsers to obtain a syntactic tree or forest for the text. However, for the medical domain, low parsing accuracy may lead to error propagation downstream the relation extraction pipeline. In this work, we propose a novel model which treats the dependency structure as a latent variable and induces it from the unstructured text in an end-to-end fashion. Our model can be understood as composing task-specific dependency forests that capture non-local interactions for better relation extraction. Extensive results on four datasets show that our model is able to significantly outperform state-of-the-art systems without relying on any direct tree supervision or pre-training.",
+        "authors": [
+          "Zhijiang Guo",
+          "Guoshun Nan",
+          "Wei Lu",
+          "Shay B. Cohen"
+        ],
+        "venue": "International Joint Conference on Artificial Intelligence",
+        "citations": 60,
+        "open_access": true,
+        "url": "https://doi.org/10.24963/ijcai.2020/505",
+        "pdf_url": "https://www.ijcai.org/proceedings/2020/0505.pdf",
+        "references": [
+          "https://openalex.org/W1574662932",
+          "https://openalex.org/W1576002161",
+          "https://openalex.org/W2253795368",
+          "https://openalex.org/W2557321428",
+          "https://openalex.org/W2788914818",
+          "https://openalex.org/W2804360054",
+          "https://openalex.org/W2807280045",
+          "https://openalex.org/W2889224519",
+          "https://openalex.org/W2890627034",
+          "https://openalex.org/W2892094955",
+          "https://openalex.org/W2911489562",
+          "https://openalex.org/W2949198121",
+          "https://openalex.org/W2951309718",
+          "https://openalex.org/W2952768212",
+          "https://openalex.org/W2963020213",
+          "https://openalex.org/W2963899396",
+          "https://openalex.org/W2970611834"
+        ],
+        "retracted": false,
+        "provenance": [
+          "semantic: Could you suggest a paper that introduces an approach to relation extraction that involves learning syntax dependency structures using a tree LSTM model?",
+          "coverage repair: Could you suggest a paper that introduces an approach to relation extraction that involves learning syntax dependency structures using a tree LSTM model?"
+        ],
+        "criteria": [
+          {
+            "criterion_id": "c1",
+            "status": "uncertain",
+            "quote": "",
+            "quote_verified": false,
+            "reason": "Insufficient source evidence; full-paper verification may be needed."
+          }
+        ],
+        "rrf": 0.02758751902587519,
+        "aliases": [
+          "https://openalex.org/W3034497660"
+        ],
+        "neural_score": 4.3078,
+        "score": 0.89568
+      },
+      {
+        "id": "https://openalex.org/W2963653592",
+        "title": "SEE: Syntax-Aware Entity Embedding for Neural Relation Extraction",
+        "doi": "https://doi.org/10.1609/aaai.v32i1.12042",
+        "year": 2018,
+        "abstract": "Distant supervised relation extraction is an efficient approach to scale relation extraction to very large corpora, and has been widely used to find novel relational facts from plain text. Recent studies on neural relation extraction have shown great progress on this task via modeling the sentences in low-dimensional spaces, but seldom considered syntax information to model the entities. In this paper, we propose to learn syntax-aware entity embedding for neural relation extraction. First, we encode the context of entities on a dependency tree as sentence-level entity embedding based on tree-GRU. Then, we utilize both intra-sentence and inter-sentence attentions to obtain sentence set-level entity embedding over all sentences containing the focus entity pair. Finally, we combine both sentence embedding and entity embedding for relation classification. We conduct experiments on a widely used real-world dataset and the experimental results show that our model can make full use of all informative instances and achieve state-of-the-art performance of relation extraction.",
+        "authors": [
+          "Zhengqiu He",
+          "Wenliang Chen",
+          "Zhenghua Li",
+          "Meishan Zhang",
+          "Wei Zhang",
+          "Min Zhang"
+        ],
+        "venue": "Proceedings of the AAAI Conference on Artificial Intelligence",
+        "citations": 57,
+        "open_access": true,
+        "url": "https://doi.org/10.1609/aaai.v32i1.12042",
+        "pdf_url": null,
+        "references": [
+          "https://openalex.org/W174427690",
+          "https://openalex.org/W1604644367",
+          "https://openalex.org/W1614298861",
+          "https://openalex.org/W1816079941",
+          "https://openalex.org/W1852412531",
+          "https://openalex.org/W1889268436",
+          "https://openalex.org/W2095705004",
+          "https://openalex.org/W2096765155",
+          "https://openalex.org/W2097606805",
+          "https://openalex.org/W2101609803",
+          "https://openalex.org/W2104246439",
+          "https://openalex.org/W2107598941",
+          "https://openalex.org/W2127795553",
+          "https://openalex.org/W2132679783",
+          "https://openalex.org/W2133280805",
+          "https://openalex.org/W2153579005",
+          "https://openalex.org/W2157331557",
+          "https://openalex.org/W2250521169",
+          "https://openalex.org/W2250716726",
+          "https://openalex.org/W2251135946",
+          "https://openalex.org/W2252215182",
+          "https://openalex.org/W2511964075",
+          "https://openalex.org/W2515462165",
+          "https://openalex.org/W2597655663",
+          "https://openalex.org/W2604610161",
+          "https://openalex.org/W2964167098",
+          "https://openalex.org/W4231109964"
+        ],
+        "retracted": false,
+        "provenance": [
+          "semantic: Could you suggest a paper that introduces an approach to relation extraction that involves learning syntax dependency structures using a tree LSTM model?",
+          "coverage repair: Could you suggest a paper that introduces an approach to relation extraction that involves learning syntax dependency structures using a tree LSTM model?"
+        ],
+        "criteria": [
+          {
+            "criterion_id": "c1",
+            "status": "uncertain",
+            "quote": "",
+            "quote_verified": false,
+            "reason": "Insufficient source evidence; full-paper verification may be needed."
+          }
+        ],
+        "rrf": 0.027212143650499815,
+        "aliases": [
+          "https://openalex.org/W2963653592"
+        ],
+        "neural_score": 4.37626,
+        "score": 0.89493
+      },
+      {
+        "id": "https://openalex.org/W2042972234",
+        "title": "Convolution kernels on constituent, dependency and sequential structures for relation extraction",
+        "doi": "https://doi.org/10.3115/1699648.1699684",
+        "year": 2009,
+        "abstract": "This paper explores the use of innovative kernels based on syntactic and semantic structures for a target relation extraction task. Syntax is derived from constituent and dependency parse trees whereas semantics concerns to entity types and lexical sequences. We investigate the effectiveness of such representations in the automated relation extraction from texts. We process the above data by means of Support Vector Machines along with the syntactic tree, the partial tree and the word sequence kernels. Our study on the ACE 2004 corpus illustrates that the combination of the above kernels achieves high effectiveness and significantly improves the current state-of-the-art.",
+        "authors": [
+          "Truc-Vien T. Nguyen",
+          "Alessandro Moschitti",
+          "Giuseppe Riccardi"
+        ],
+        "venue": "Conference on Empirical Methods in Natural Language Processing (EMNLP)",
+        "citations": 123,
+        "open_access": true,
+        "url": "https://doi.org/10.3115/1699648.1699684",
+        "pdf_url": "http://dl.acm.org/ft_gateway.cfm?id=1699684&type=pdf",
+        "references": [
+          "https://openalex.org/W28715974",
+          "https://openalex.org/W1489949474",
+          "https://openalex.org/W1494019289",
+          "https://openalex.org/W1560724230",
+          "https://openalex.org/W1587871245",
+          "https://openalex.org/W1598003989",
+          "https://openalex.org/W1987486061",
+          "https://openalex.org/W1994383019",
+          "https://openalex.org/W2014036760",
+          "https://openalex.org/W2030408698",
+          "https://openalex.org/W2051674731",
+          "https://openalex.org/W2053238041",
+          "https://openalex.org/W2097606805",
+          "https://openalex.org/W2108211831",
+          "https://openalex.org/W2108995755",
+          "https://openalex.org/W2109710679",
+          "https://openalex.org/W2112706073",
+          "https://openalex.org/W2132522721",
+          "https://openalex.org/W2138627627",
+          "https://openalex.org/W2146191280",
+          "https://openalex.org/W2152269015",
+          "https://openalex.org/W2154721769",
+          "https://openalex.org/W2156909104",
+          "https://openalex.org/W2163362093",
+          "https://openalex.org/W2170750237",
+          "https://openalex.org/W2399013517",
+          "https://openalex.org/W6940380394",
+          "https://openalex.org/W7020113646",
+          "https://openalex.org/W7071374342"
+        ],
+        "retracted": false,
+        "provenance": [
+          "semantic: Could you suggest a paper that introduces an approach to relation extraction that involves learning syntax dependency structures using a tree LSTM model?",
+          "coverage repair: Could you suggest a paper that introduces an approach to relation extraction that involves learning syntax dependency structures using a tree LSTM model?"
+        ],
+        "criteria": [
+          {
+            "criterion_id": "c1",
+            "status": "uncertain",
+            "quote": "",
+            "quote_verified": false,
+            "reason": "Insufficient source evidence; full-paper verification may be needed."
+          }
+        ],
+        "rrf": 0.029411764705882353,
+        "aliases": [
+          "https://openalex.org/W2042972234"
+        ],
+        "neural_score": 3.72615,
+        "score": 0.89453
+      },
+      {
+        "id": "https://openalex.org/W2964167098",
+        "title": "End-to-End Relation Extraction using LSTMs on Sequences and Tree Structures",
+        "doi": "https://doi.org/10.18653/v1/p16-1105",
+        "year": 2016,
+        "abstract": "We present a novel end-to-end neural model to extract entities and relations between them.Our recurrent neural network based model captures both word sequence and dependency tree substructure information by stacking bidirectional treestructured LSTM-RNNs on bidirectional sequential LSTM-RNNs.This allows our model to jointly represent both entities and relations with shared parameters in a single model.We further encourage detection of entities during training and use of entity information in relation extraction via entity pretraining and scheduled sampling.Our model improves over the stateof-the-art feature-based model on end-toend relation extraction, achieving 12.1% and 5.7% relative error reductions in F1score on ACE2005 and ACE2004, respectively.We also show that our LSTM-RNN based model compares favorably to the state-of-the-art CNN based model (in F1-score) on nominal relation classification (SemEval-2010 Task 8).Finally, we present an extensive ablation analysis of several model components.",
+        "authors": [
+          "Makoto Miwa",
+          "Mohit Bansal"
+        ],
+        "venue": "Proceedings of the conference - Association for Computational Linguistics. Meeting",
+        "citations": 1587,
+        "open_access": true,
+        "url": "https://doi.org/10.18653/v1/p16-1105",
+        "pdf_url": "https://www.aclweb.org/anthology/P16-1105.pdf",
+        "references": [
+          "https://openalex.org/W648786980",
+          "https://openalex.org/W1551842868",
+          "https://openalex.org/W1567199133",
+          "https://openalex.org/W1816079941",
+          "https://openalex.org/W1866795174",
+          "https://openalex.org/W1889268436",
+          "https://openalex.org/W1924762813",
+          "https://openalex.org/W1940872118",
+          "https://openalex.org/W2004763266",
+          "https://openalex.org/W2020278455",
+          "https://openalex.org/W2042188227",
+          "https://openalex.org/W2051390224",
+          "https://openalex.org/W2053238041",
+          "https://openalex.org/W2077054525",
+          "https://openalex.org/W2079735306",
+          "https://openalex.org/W2095705004",
+          "https://openalex.org/W2099779943",
+          "https://openalex.org/W2104246439",
+          "https://openalex.org/W2112628236",
+          "https://openalex.org/W2115834228",
+          "https://openalex.org/W2132516856",
+          "https://openalex.org/W2133439966",
+          "https://openalex.org/W2134033474",
+          "https://openalex.org/W2138627627",
+          "https://openalex.org/W2143612262",
+          "https://openalex.org/W2150355110",
+          "https://openalex.org/W2153579005",
+          "https://openalex.org/W2155454737",
+          "https://openalex.org/W2250710764",
+          "https://openalex.org/W2250861254",
+          "https://openalex.org/W2251091211",
+          "https://openalex.org/W2407338347",
+          "https://openalex.org/W2465041517",
+          "https://openalex.org/W2963148156",
+          "https://openalex.org/W2964121744",
+          "https://openalex.org/W2964217331",
+          "https://openalex.org/W3007535931"
+        ],
+        "retracted": false,
+        "provenance": [
+          "semantic: Could you suggest a paper that introduces an approach to relation extraction that involves learning syntax dependency structures using a tree LSTM model?",
+          "coverage repair: Could you suggest a paper that introduces an approach to relation extraction that involves learning syntax dependency structures using a tree LSTM model?"
+        ],
+        "criteria": [
+          {
+            "criterion_id": "c1",
+            "status": "uncertain",
+            "quote": "",
+            "quote_verified": false,
+            "reason": "Insufficient source evidence; full-paper verification may be needed."
+          }
+        ],
+        "rrf": 0.03278688524590164,
+        "aliases": [
+          "https://openalex.org/W2964167098"
+        ],
+        "neural_score": 3.14291,
+        "score": 0.89325
+      },
+      {
+        "id": "https://openalex.org/W2138627627",
+        "title": "A shortest path dependency kernel for relation extraction",
+        "doi": "https://doi.org/10.3115/1220575.1220666",
+        "year": 2005,
+        "abstract": "We present a novel approach to relation extraction, based on the observation that the information required to assert a relationship between two named entities in the same sentence is typically captured by the shortest path between the two entities in the dependency graph. Experiments on extracting top-level relations from the ACE (Automated Content Extraction) newspaper corpus show that the new shortest path dependency kernel outperforms a recent approach based on dependency tree kernels.",
+        "authors": [
+          "Răzvan Bunescu",
+          "Raymond J. Mooney"
+        ],
+        "venue": null,
+        "citations": 1090,
+        "open_access": true,
+        "url": "https://doi.org/10.3115/1220575.1220666",
+        "pdf_url": "https://dl.acm.org/doi/pdf/10.3115/1220575.1220666",
+        "references": [
+          "https://openalex.org/W1563088657",
+          "https://openalex.org/W1566346388",
+          "https://openalex.org/W1567277581",
+          "https://openalex.org/W2098704351",
+          "https://openalex.org/W2098967945",
+          "https://openalex.org/W2105947498",
+          "https://openalex.org/W2120814856",
+          "https://openalex.org/W2132893218",
+          "https://openalex.org/W2168808732",
+          "https://openalex.org/W2788296320",
+          "https://openalex.org/W3007535931",
+          "https://openalex.org/W7071374342"
+        ],
+        "retracted": false,
+        "provenance": [
+          "semantic: Could you suggest a paper that introduces an approach to relation extraction that involves learning syntax dependency structures using a tree LSTM model?",
+          "coverage repair: Could you suggest a paper that introduces an approach to relation extraction that involves learning syntax dependency structures using a tree LSTM model?"
+        ],
+        "criteria": [
+          {
+            "criterion_id": "c1",
+            "status": "uncertain",
+            "quote": "",
+            "quote_verified": false,
+            "reason": "Insufficient source evidence; full-paper verification may be needed."
+          }
+        ],
+        "rrf": 0.031746031746031744,
+        "aliases": [
+          "https://openalex.org/W2138627627"
+        ],
+        "neural_score": 3.12435,
+        "score": 0.88865
+      },
+      {
+        "id": "https://openalex.org/W3157453775",
+        "title": "Dependency tree positional encoding method for relation extraction",
+        "doi": "https://doi.org/10.1145/3412841.3441977",
+        "year": 2021,
+        "abstract": "Dependency trees are recently used for relation extraction tasks to capture long-range relations among entities. Many studies have proposed various methods to apply dependency tree features to relation extraction models. However, most of these approaches are difficult to apply to different models especially when the overall structure of a model is changed or newly suggested for inserting information of the dependency trees. Existing approaches, which are a structure to use dependency trees such as graph convolutional networks (GCNs), do not use these information into input representations. In this paper, we propose a new method of injecting dependency tree information into the input representations of a model with positional encoding of dependency trees. Specifically, to incorporate dependency tree information with input vectors, we present a novel strategy to convert dependency tree features to positional encoding. The existing model (BERT) that applied our method achieves a state-of-the-art performance without changing the original model on the TACRED and SemEval-2010 Task 8, the standard benchmark dataset in relation extraction. Through detailed analysis, we show that our method is effective complementarily for relation extraction models, and is also easy to use for other models.",
+        "authors": [
+          "Chunghyeon Cho",
+          "Yong Suk Choi"
+        ],
+        "venue": "ACM Symposium on Applied Computing",
+        "citations": 4,
+        "open_access": false,
+        "url": "https://doi.org/10.1145/3412841.3441977",
+        "pdf_url": null,
+        "references": [
+          "https://openalex.org/W637153065",
+          "https://openalex.org/W1501856433",
+          "https://openalex.org/W1662382123",
+          "https://openalex.org/W1838058638",
+          "https://openalex.org/W2030408698",
+          "https://openalex.org/W2123442489",
+          "https://openalex.org/W2138627627",
+          "https://openalex.org/W2149997683",
+          "https://openalex.org/W2162590473",
+          "https://openalex.org/W2236688737",
+          "https://openalex.org/W2250521169",
+          "https://openalex.org/W2513378248",
+          "https://openalex.org/W2517194566",
+          "https://openalex.org/W2519887557",
+          "https://openalex.org/W2522187036",
+          "https://openalex.org/W2610748790",
+          "https://openalex.org/W2626778328",
+          "https://openalex.org/W2759211898",
+          "https://openalex.org/W2788914818",
+          "https://openalex.org/W2798812533",
+          "https://openalex.org/W2896457183",
+          "https://openalex.org/W2948131150",
+          "https://openalex.org/W2952768212",
+          "https://openalex.org/W2962753370",
+          "https://openalex.org/W2963613359",
+          "https://openalex.org/W2963655104",
+          "https://openalex.org/W2964167098",
+          "https://openalex.org/W2964217331",
+          "https://openalex.org/W2972969579",
+          "https://openalex.org/W2984452801"
+        ],
+        "retracted": false,
+        "provenance": [
+          "semantic: Could you suggest a paper that introduces an approach to relation extraction that involves learning syntax dependency structures using a tree LSTM model?",
+          "coverage repair: Could you suggest a paper that introduces an approach to relation extraction that involves learning syntax dependency structures using a tree LSTM model?"
+        ],
+        "criteria": [
+          {
+            "criterion_id": "c1",
+            "status": "uncertain",
+            "quote": "",
+            "quote_verified": false,
+            "reason": "Insufficient source evidence; full-paper verification may be needed."
+          }
+        ],
+        "rrf": 0.021980676328502417,
+        "aliases": [
+          "https://openalex.org/W3157453775"
+        ],
+        "neural_score": 5.05195,
+        "score": 0.87962
+      },
+      {
+        "id": "https://openalex.org/W3135098133",
+        "title": "End-to-end relation extraction based on part of speech syntax tree",
+        "doi": "https://doi.org/10.1109/mlbdbi51377.2020.00008",
+        "year": 2020,
+        "abstract": "Recently, deep learning has achieved richer research results on entity relationship extraction tasks. Existing methods mainly focus on the character features of the sequence input, without considering that the input structural features may learn meaningless subsequences. In this paper, we propose an end-to-end joint extraction model based on syntactic tree structure, which can learn character features and sentence structure features at the same time. In the decoding process, we use a tree structure to learn sentence structure features based on character parts of speech. We test our models in two public datasets and our model outperforms the baseline method significantly.",
+        "authors": [
+          "Chengpeng Wang",
+          "Yuanli Wang",
+          "Junchang Mo",
+          "Shuo Wang"
+        ],
+        "venue": "International Conference on Machine Learning, Big Data and Business Intelligence (MLBDBI)",
+        "citations": 2,
+        "open_access": false,
+        "url": "https://doi.org/10.1109/mlbdbi51377.2020.00008",
+        "pdf_url": null,
+        "references": [
+          "https://openalex.org/W2250521169",
+          "https://openalex.org/W2251135946",
+          "https://openalex.org/W2511964075",
+          "https://openalex.org/W2513378248",
+          "https://openalex.org/W2515462165",
+          "https://openalex.org/W2517194566",
+          "https://openalex.org/W2606901057",
+          "https://openalex.org/W2739722817",
+          "https://openalex.org/W2788031953",
+          "https://openalex.org/W2808142148",
+          "https://openalex.org/W2888597155",
+          "https://openalex.org/W2949568611",
+          "https://openalex.org/W2951864354",
+          "https://openalex.org/W2952768212",
+          "https://openalex.org/W2962904552",
+          "https://openalex.org/W2964167098"
+        ],
+        "retracted": false,
+        "provenance": [
+          "semantic: Could you suggest a paper that introduces an approach to relation extraction that involves learning syntax dependency structures using a tree LSTM model?",
+          "coverage repair: Could you suggest a paper that introduces an approach to relation extraction that involves learning syntax dependency structures using a tree LSTM model?"
+        ],
+        "criteria": [
+          {
+            "criterion_id": "c1",
+            "status": "uncertain",
+            "quote": "",
+            "quote_verified": false,
+            "reason": "Insufficient source evidence; full-paper verification may be needed."
+          }
+        ],
+        "rrf": 0.022988505747126436,
+        "aliases": [
+          "https://openalex.org/W3135098133"
+        ],
+        "neural_score": 4.40413,
+        "score": 0.87893
+      },
+      {
+        "id": "https://openalex.org/W3177462832",
+        "title": "Relation Extraction with Type-aware Map Memories of Word Dependencies",
+        "doi": "https://doi.org/10.18653/v1/2021.findings-acl.221",
+        "year": 2021,
+        "abstract": "Relation extraction is an important task in information extraction and retrieval that aims to extract relations among the given entities from running texts.To achieve a good performance for this task, previous studies have shown that a good modeling of the contextual information is required, where the dependency tree of the input sentence can be a beneficial source among different types of contextual information.However, most of these studies focus on the dependency connections between words with limited attention paid to exploiting dependency types.In addition, they often treat different dependency connections equally in modeling so that suffer from the noise (inaccurate dependency parses) in the auto-generated dependency tree.In this paper, we propose a neural approach for relation extraction, with type-aware map memories (TaMM) for encoding dependency types obtained from an off-theshelf dependency parser for the input sentence.Specifically, for each word in an entity, TaMM maps all associated words along with the dependencies among them to memory slots and then assigns a weight to each slot according to its contribution to relation extraction.Our approach not only leverages dependency connections and types between words, but also distinguishes reliable dependency information from noisy ones and appropriately model them.The effectiveness of our approach is demonstrated by the experiments on two English benchmark datasets, where our approach achieves state-ofthe-art performance on both datasets.1",
+        "authors": [
+          "Guimin Chen",
+          "Yuanhe Tian",
+          "Yan Song",
+          "Xiang Wan"
+        ],
+        "venue": "Findings of the Association for Computational Linguistics: ACL (Findings of ACL)",
+        "citations": 49,
+        "open_access": true,
+        "url": "https://doi.org/10.18653/v1/2021.findings-acl.221",
+        "pdf_url": "https://aclanthology.org/2021.findings-acl.221.pdf",
+        "references": [
+          "https://openalex.org/W1838058638",
+          "https://openalex.org/W1889268436",
+          "https://openalex.org/W2155454737",
+          "https://openalex.org/W2190067570",
+          "https://openalex.org/W2250521169",
+          "https://openalex.org/W2293023260",
+          "https://openalex.org/W2409591106",
+          "https://openalex.org/W2466573295",
+          "https://openalex.org/W2513378248",
+          "https://openalex.org/W2517194566",
+          "https://openalex.org/W2742049800",
+          "https://openalex.org/W2759211898",
+          "https://openalex.org/W2773570800",
+          "https://openalex.org/W2798393196",
+          "https://openalex.org/W2807777230",
+          "https://openalex.org/W2808001006",
+          "https://openalex.org/W2892094955",
+          "https://openalex.org/W2896391192",
+          "https://openalex.org/W2945844671",
+          "https://openalex.org/W2948131150",
+          "https://openalex.org/W2949212908",
+          "https://openalex.org/W2952303884",
+          "https://openalex.org/W2952768212",
+          "https://openalex.org/W2963341956",
+          "https://openalex.org/W2963613359",
+          "https://openalex.org/W2963655104",
+          "https://openalex.org/W2963899396",
+          "https://openalex.org/W2964212344",
+          "https://openalex.org/W2964217331",
+          "https://openalex.org/W2984452801",
+          "https://openalex.org/W2996917304",
+          "https://openalex.org/W3035193825",
+          "https://openalex.org/W3104990845",
+          "https://openalex.org/W3106165216",
+          "https://openalex.org/W3107083523",
+          "https://openalex.org/W3116079511",
+          "https://openalex.org/W3116238564",
+          "https://openalex.org/W3116348602",
+          "https://openalex.org/W3116453892",
+          "https://openalex.org/W3156892644"
+        ],
+        "retracted": false,
+        "provenance": [
+          "semantic: Could you suggest a paper that introduces an approach to relation extraction that involves learning syntax dependency structures using a tree LSTM model?",
+          "coverage repair: Could you suggest a paper that introduces an approach to relation extraction that involves learning syntax dependency structures using a tree LSTM model?"
+        ],
+        "criteria": [
+          {
+            "criterion_id": "c1",
+            "status": "uncertain",
+            "quote": "",
+            "quote_verified": false,
+            "reason": "Insufficient source evidence; full-paper verification may be needed."
+          }
+        ],
+        "rrf": 0.02564102564102564,
+        "aliases": [
+          "https://openalex.org/W3177462832"
+        ],
+        "neural_score": 3.18467,
+        "score": 0.86701
+      },
+      {
+        "id": "https://openalex.org/W4402614667",
+        "title": "Effective Sentence-Level Relation Extraction Model Using Entity-Centric Dependency Tree",
+        "doi": "https://doi.org/10.7717/peerj-cs.2311",
+        "year": 2022,
+        "abstract": "The syntactic information of a dependency tree is an essential feature in relation extraction studies. Traditional dependency-based relation extraction methods can be categorized into hard pruning methods, which aim to remove unnecessary information, and soft pruning methods, which aim to utilize all lexical information. However, hard pruning has the potential to overlook important lexical information, while soft pruning can weaken the syntactic information between entities. As a result, recent studies in relation extraction have been shifting from dependency-based methods to pre-trained language model (LM) based methods. Nonetheless, LM-based methods increasingly demand larger language models and additional data. This trend leads to higher resource consumption, longer training times, and increased computational costs, yet often results in only marginal performance improvements. To address this problem, we propose a relation extraction model based on an entity-centric dependency tree: a dependency tree that is reconstructed by considering entities as root nodes. Using the entity-centric dependency tree, the proposed method can capture the syntactic information of an input sentence without losing lexical information. Additionally, we propose a novel model that utilizes entity-centric dependency trees in conjunction with language models, enabling efficient relation extraction without the need for additional data or larger models. In experiments with representative sentence-level relation extraction datasets such as TACRED, Re-TACRED, and SemEval 2010 Task 8, the proposed method achieves F1-scores of 74.9%, 91.2%, and 90.5%, respectively, which are state-of-the-art performances.",
+        "authors": [
+          "Seongsik Park",
+          "Harksoo Kim"
+        ],
+        "venue": "PeerJ Computer Science",
+        "citations": 5,
+        "open_access": true,
+        "url": "https://doi.org/10.7717/peerj-cs.2311",
+        "pdf_url": "https://peerj.com/articles/cs-2311.pdf",
+        "references": [
+          "https://openalex.org/W1551842868",
+          "https://openalex.org/W1632114991",
+          "https://openalex.org/W2138627627",
+          "https://openalex.org/W2759211898",
+          "https://openalex.org/W2788653116",
+          "https://openalex.org/W2792643794",
+          "https://openalex.org/W2892094955",
+          "https://openalex.org/W2906341468",
+          "https://openalex.org/W2915573705",
+          "https://openalex.org/W2923098003",
+          "https://openalex.org/W2948131150",
+          "https://openalex.org/W2950339735",
+          "https://openalex.org/W2952768212",
+          "https://openalex.org/W2953356739",
+          "https://openalex.org/W2962753370",
+          "https://openalex.org/W2963041663",
+          "https://openalex.org/W2963341956",
+          "https://openalex.org/W2963520511",
+          "https://openalex.org/W2963613359",
+          "https://openalex.org/W2964167098",
+          "https://openalex.org/W2965373594",
+          "https://openalex.org/W2970986510",
+          "https://openalex.org/W2972795848",
+          "https://openalex.org/W2983506369",
+          "https://openalex.org/W2996035354",
+          "https://openalex.org/W3006513641",
+          "https://openalex.org/W3022203235",
+          "https://openalex.org/W3030163527",
+          "https://openalex.org/W3033124460",
+          "https://openalex.org/W3086711114",
+          "https://openalex.org/W3093891978",
+          "https://openalex.org/W3104390324",
+          "https://openalex.org/W3104415840",
+          "https://openalex.org/W3169766753",
+          "https://openalex.org/W3171249304",
+          "https://openalex.org/W3176214425",
+          "https://openalex.org/W3176762756",
+          "https://openalex.org/W4200290778",
+          "https://openalex.org/W4281488715",
+          "https://openalex.org/W4285306484"
+        ],
+        "retracted": false,
+        "provenance": [
+          "semantic: Could you suggest a paper that introduces an approach to relation extraction that involves learning syntax dependency structures using a tree LSTM model?",
+          "coverage repair: Could you suggest a paper that introduces an approach to relation extraction that involves learning syntax dependency structures using a tree LSTM model?"
+        ],
+        "criteria": [
+          {
+            "criterion_id": "c1",
+            "status": "uncertain",
+            "quote": "",
+            "quote_verified": false,
+            "reason": "Insufficient source evidence; full-paper verification may be needed."
+          }
+        ],
+        "rrf": 0.023952954675846242,
+        "aliases": [
+          "https://openalex.org/W4402614667"
+        ],
+        "neural_score": 3.07038,
+        "score": 0.85683
+      },
+      {
+        "id": "https://openalex.org/W2952768212",
+        "title": "Attention Guided Graph Convolutional Networks for Relation Extraction",
+        "doi": "https://doi.org/10.18653/v1/p19-1024",
+        "year": 2019,
+        "abstract": "Dependency trees convey rich structural information that is proven useful for extracting relations among entities in text. However, how to effectively make use of relevant information while ignoring irrelevant information from the dependency trees remains a challenging research question. Existing approaches employing rule based hard-pruning strategies for selecting relevant partial dependency structures may not always yield optimal results. In this work, we propose Attention Guided Graph Convolutional Networks (AGGCNs), a novel model which directly takes full dependency trees as inputs. Our model can be understood as a soft-pruning approach that automatically learns how to selectively attend to the relevant sub-structures useful for the relation extraction task. Extensive results on various tasks including cross-sentence n-ary relation extraction and large-scale sentence-level relation extraction show that our model is able to better leverage the structural information of the full dependency trees, giving significantly better results than previous approaches.",
+        "authors": [
+          "Zhijiang Guo",
+          "Yan Zhang",
+          "Wei Lu"
+        ],
+        "venue": "Proceedings of the conference - Association for Computational Linguistics. Meeting",
+        "citations": 659,
+        "open_access": true,
+        "url": "https://doi.org/10.18653/v1/p19-1024",
+        "pdf_url": "https://www.aclweb.org/anthology/P19-1024.pdf",
+        "references": [
+          "https://openalex.org/W637153065",
+          "https://openalex.org/W1501856433",
+          "https://openalex.org/W1514535095",
+          "https://openalex.org/W1551842868",
+          "https://openalex.org/W2099779943",
+          "https://openalex.org/W2104246439",
+          "https://openalex.org/W2107598941",
+          "https://openalex.org/W2138627627",
+          "https://openalex.org/W2149997683",
+          "https://openalex.org/W2162590473",
+          "https://openalex.org/W2250521169",
+          "https://openalex.org/W2250539671",
+          "https://openalex.org/W2251622960",
+          "https://openalex.org/W2267186426",
+          "https://openalex.org/W2407769879",
+          "https://openalex.org/W2513378248",
+          "https://openalex.org/W2517194566",
+          "https://openalex.org/W2519887557",
+          "https://openalex.org/W2522187036",
+          "https://openalex.org/W2600702321",
+          "https://openalex.org/W2612881151",
+          "https://openalex.org/W2624614404",
+          "https://openalex.org/W2738152205",
+          "https://openalex.org/W2759211898",
+          "https://openalex.org/W2788914818",
+          "https://openalex.org/W2804057010",
+          "https://openalex.org/W2889224519",
+          "https://openalex.org/W2892094955",
+          "https://openalex.org/W2951309718",
+          "https://openalex.org/W2963020213",
+          "https://openalex.org/W2963171262",
+          "https://openalex.org/W2963374482",
+          "https://openalex.org/W2963446712",
+          "https://openalex.org/W2963655104",
+          "https://openalex.org/W2964167098",
+          "https://openalex.org/W2964217331",
+          "https://openalex.org/W7097023696",
+          "https://openalex.org/W7223762255"
+        ],
+        "retracted": false,
+        "provenance": [
+          "keyword: Could you suggest introduces approach relation extraction involves learning syntax dependency structures using tree"
+        ],
+        "criteria": [
+          {
+            "criterion_id": "c1",
+            "status": "uncertain",
+            "quote": "",
+            "quote_verified": false,
+            "reason": "Insufficient source evidence; full-paper verification may be needed."
+          }
+        ],
+        "rrf": 0.01639344262295082,
+        "aliases": [
+          "https://openalex.org/W2952768212"
+        ],
+        "neural_score": 3.84209,
+        "score": 0.84637
+      },
+      {
+        "id": "https://openalex.org/W2892094955",
+        "title": "Graph Convolution over Pruned Dependency Trees Improves Relation Extraction",
+        "doi": "https://doi.org/10.18653/v1/d18-1244",
+        "year": 2018,
+        "abstract": "Dependency trees help relation extraction models capture long-range relations between words. However, existing dependency-based models either neglect crucial information (e.g., negation) by pruning the dependency trees too aggressively, or are computationally inefficient because it is difficult to parallelize over different tree structures. We propose an extension of graph convolutional networks that is tailored for relation extraction, which pools information over arbitrary dependency structures efficiently in parallel. To incorporate relevant information while maximally removing irrelevant content, we further apply a novel pruning strategy to the input trees by keeping words immediately around the shortest path between the two entities among which a relation might hold. The resulting model achieves state-of-the-art performance on the large-scale TACRED dataset, outperforming existing sequence and dependency-based neural models. We also show through detailed analysis that this model has complementary strengths to sequence models, and combining them further improves the state of the art.",
+        "authors": [
+          "Yuhao Zhang",
+          "Peng Qi",
+          "Christopher D. Manning"
+        ],
+        "venue": "Conference on Empirical Methods in Natural Language Processing (EMNLP)",
+        "citations": 1047,
+        "open_access": true,
+        "url": "https://doi.org/10.18653/v1/d18-1244",
+        "pdf_url": "https://www.aclweb.org/anthology/D18-1244.pdf",
+        "references": [
+          "https://openalex.org/W1551842868",
+          "https://openalex.org/W1887754209",
+          "https://openalex.org/W2030408698",
+          "https://openalex.org/W2104246439",
+          "https://openalex.org/W2107598941",
+          "https://openalex.org/W2112796928",
+          "https://openalex.org/W2123442489",
+          "https://openalex.org/W2138627627",
+          "https://openalex.org/W2250521169",
+          "https://openalex.org/W2250539671",
+          "https://openalex.org/W2301241615",
+          "https://openalex.org/W2407769879",
+          "https://openalex.org/W2513378248",
+          "https://openalex.org/W2517194566",
+          "https://openalex.org/W2519887557",
+          "https://openalex.org/W2522187036",
+          "https://openalex.org/W2579343286",
+          "https://openalex.org/W2600702321",
+          "https://openalex.org/W2624614404",
+          "https://openalex.org/W2738152205",
+          "https://openalex.org/W2759211898",
+          "https://openalex.org/W2798304389",
+          "https://openalex.org/W2963171262",
+          "https://openalex.org/W2963655104",
+          "https://openalex.org/W2964167098",
+          "https://openalex.org/W2964217331",
+          "https://openalex.org/W3007535931"
+        ],
+        "retracted": false,
+        "provenance": [
+          "semantic: Could you suggest a paper that introduces an approach to relation extraction that involves learning syntax dependency structures using a tree LSTM model?",
+          "coverage repair: Could you suggest a paper that introduces an approach to relation extraction that involves learning syntax dependency structures using a tree LSTM model?"
+        ],
+        "criteria": [
+          {
+            "criterion_id": "c1",
+            "status": "uncertain",
+            "quote": "",
+            "quote_verified": false,
+            "reason": "Insufficient source evidence; full-paper verification may be needed."
+          }
+        ],
+        "rrf": 0.03225806451612903,
+        "aliases": [
+          "https://openalex.org/W2892094955"
+        ],
+        "neural_score": 2.21455,
+        "score": 0.84555
+      },
+      {
+        "id": "https://openalex.org/W4285147355",
+        "title": "Lexicalized Dependency Paths Based Supervised Learning for Relation Extraction",
+        "doi": "https://doi.org/10.32604/csse.2022.030759",
+        "year": 2022,
+        "abstract": "Log-linear models and more recently neural network models used for supervised relation extraction requires substantial amounts of training data and time, limiting the portability to new relations and domains. To this end, we propose a training representation based on the dependency paths between entities in a dependency tree which we call lexicalized dependency paths (LDPs). We show that this representation is fast, efficient and transparent. We further propose representations utilizing entity types and its subtypes to refine our model and alleviate the data sparsity problem. We apply lexicalized dependency paths to supervised learning using the ACE corpus and show that it can achieve similar performance level to other state-of-the-art methods and even surpass them on several categories.",
+        "authors": [
+          "Huiyu Sun",
+          "Ralph Grishman"
+        ],
+        "venue": "Computer Systems Science and Engineering",
+        "citations": 91,
+        "open_access": true,
+        "url": "https://doi.org/10.32604/csse.2022.030759",
+        "pdf_url": "https://www.techscience.com/ueditor/files/csse/TSP_CSSE-43-3/TSP_CSSE_30759/TSP_CSSE_30759.pdf",
+        "references": [
+          "https://openalex.org/W281284504",
+          "https://openalex.org/W1550588214",
+          "https://openalex.org/W1834149421",
+          "https://openalex.org/W1933365859",
+          "https://openalex.org/W2042972234",
+          "https://openalex.org/W2053238041",
+          "https://openalex.org/W2097960255",
+          "https://openalex.org/W2107391405",
+          "https://openalex.org/W2108211831",
+          "https://openalex.org/W2120814856",
+          "https://openalex.org/W2125553157",
+          "https://openalex.org/W2138627627",
+          "https://openalex.org/W2152269015",
+          "https://openalex.org/W2155454737",
+          "https://openalex.org/W2162590473",
+          "https://openalex.org/W2163362093",
+          "https://openalex.org/W2165935464",
+          "https://openalex.org/W2185615741",
+          "https://openalex.org/W2240668419",
+          "https://openalex.org/W2250521169",
+          "https://openalex.org/W2250646484",
+          "https://openalex.org/W2251622960",
+          "https://openalex.org/W2251928912",
+          "https://openalex.org/W2587809655",
+          "https://openalex.org/W2787118962",
+          "https://openalex.org/W2890299555",
+          "https://openalex.org/W2926645369",
+          "https://openalex.org/W2946646699",
+          "https://openalex.org/W2949922292",
+          "https://openalex.org/W2950118387",
+          "https://openalex.org/W2963171262",
+          "https://openalex.org/W2964217331",
+          "https://openalex.org/W3035309410",
+          "https://openalex.org/W3173892794",
+          "https://openalex.org/W3174091926",
+          "https://openalex.org/W3174505712",
+          "https://openalex.org/W3176398467",
+          "https://openalex.org/W3196690920",
+          "https://openalex.org/W3201090751",
+          "https://openalex.org/W3213048714"
+        ],
+        "retracted": false,
+        "provenance": [
+          "semantic: Could you suggest a paper that introduces an approach to relation extraction that involves learning syntax dependency structures using a tree LSTM model?",
+          "coverage repair: Could you suggest a paper that introduces an approach to relation extraction that involves learning syntax dependency structures using a tree LSTM model?"
+        ],
+        "criteria": [
+          {
+            "criterion_id": "c1",
+            "status": "uncertain",
+            "quote": "",
+            "quote_verified": false,
+            "reason": "Insufficient source evidence; full-paper verification may be needed."
+          }
+        ],
+        "rrf": 0.029418126757516764,
+        "aliases": [
+          "https://openalex.org/W4285147355"
+        ],
+        "neural_score": 2.35688,
+        "score": 0.84415
+      },
+      {
+        "id": "https://openalex.org/W2741237963",
+        "title": "Classifying Temporal Relations by Bidirectional LSTM over Dependency Paths",
+        "doi": "https://doi.org/10.18653/v1/p17-2001",
+        "year": 2017,
+        "abstract": "Temporal relation classification is becoming an active research field. Lots of methods have been proposed, while most of them focus on extracting features from external resources. Less attention has been paid to a significant advance in a closely related task: relation extraction. In this work, we borrow a state-of-the-art method in relation extraction by adopting bidirectional long short-term memory (Bi-LSTM) along dependency paths (DP). We make a “common root” assumption to extend DP representations of cross-sentence links. In the final comparison to two state-of-the-art systems on TimeBank-Dense, our model achieves comparable performance, without using external knowledge, as well as manually annotated attributes of entities (class, tense, polarity, etc.).",
+        "authors": [
+          "Fei Cheng",
+          "Yusuke Miyao"
+        ],
+        "venue": "Proceedings of the conference - Association for Computational Linguistics. Meeting",
+        "citations": 163,
+        "open_access": true,
+        "url": "https://doi.org/10.18653/v1/p17-2001",
+        "pdf_url": "https://www.aclweb.org/anthology/P17-2001.pdf",
+        "references": [
+          "https://openalex.org/W71795751",
+          "https://openalex.org/W77146693",
+          "https://openalex.org/W1551842868",
+          "https://openalex.org/W1571872475",
+          "https://openalex.org/W1614298861",
+          "https://openalex.org/W1964135532",
+          "https://openalex.org/W2064675550",
+          "https://openalex.org/W2079735306",
+          "https://openalex.org/W2081580037",
+          "https://openalex.org/W2095705004",
+          "https://openalex.org/W2127194753",
+          "https://openalex.org/W2135586429",
+          "https://openalex.org/W2138627627",
+          "https://openalex.org/W2140244223",
+          "https://openalex.org/W2152197045",
+          "https://openalex.org/W2153579005",
+          "https://openalex.org/W2185599447",
+          "https://openalex.org/W2250646484",
+          "https://openalex.org/W2251325107",
+          "https://openalex.org/W2251607656",
+          "https://openalex.org/W2575365684",
+          "https://openalex.org/W2964217331"
+        ],
+        "retracted": false,
+        "provenance": [
+          "semantic: Could you suggest a paper that introduces an approach to relation extraction that involves learning syntax dependency structures using a tree LSTM model?",
+          "coverage repair: Could you suggest a paper that introduces an approach to relation extraction that involves learning syntax dependency structures using a tree LSTM model?"
+        ],
+        "criteria": [],
+        "rrf": 0.03076923076923077,
+        "aliases": [
+          "https://openalex.org/W2741237963"
+        ],
+        "neural_score": 2.1911,
+        "score": 0.83813
+      },
+      {
+        "id": "https://openalex.org/W2165935464",
+        "title": "Exploiting constituent dependencies for tree kernel-based semantic relation extraction",
+        "doi": "https://doi.org/10.3115/1599081.1599169",
+        "year": 2008,
+        "abstract": "This paper proposes a new approach to dynamically determine the tree span for tree kernel-based semantic relation extraction. It exploits constituent dependencies to keep the nodes and their head children along the path connecting the two entities, while removing the noisy information from the syntactic parse tree, eventually leading to a dynamic syntactic parse tree. This paper also explores entity features and their combined features in a unified parse and semantic tree, which integrates both structured syntactic parse information and entity-related semantic information. Evaluation on the ACE RDC 2004 corpus shows that our dynamic syntactic parse tree outperforms all previous tree spans, and the composite kernel combining this tree kernel with a linear state-of-the-art feature-based kernel, achieves the so far best performance.",
+        "authors": [
+          "Longhua Qian",
+          "Guodong Zhou",
+          "Fang Kong",
+          "Qiaoming Zhu",
+          "Peide Qian"
+        ],
+        "venue": "International Conference on Computational Linguistics",
+        "citations": 144,
+        "open_access": true,
+        "url": "https://doi.org/10.3115/1599081.1599169",
+        "pdf_url": "https://dl.acm.org/doi/pdf/10.5555/1599081.1599169",
+        "references": [
+          "https://openalex.org/W185385371",
+          "https://openalex.org/W2053238041",
+          "https://openalex.org/W2092654472",
+          "https://openalex.org/W2108211831",
+          "https://openalex.org/W2116786260",
+          "https://openalex.org/W2120814856",
+          "https://openalex.org/W2127713198",
+          "https://openalex.org/W2138627627",
+          "https://openalex.org/W2146191280",
+          "https://openalex.org/W2149684865",
+          "https://openalex.org/W2152269015"
+        ],
+        "retracted": false,
+        "provenance": [
+          "semantic: Could you suggest a paper that introduces an approach to relation extraction that involves learning syntax dependency structures using a tree LSTM model?"
+        ],
+        "criteria": [],
+        "rrf": 0.014925373134328358,
+        "aliases": [
+          "https://openalex.org/W2165935464"
+        ],
+        "neural_score": 3.27553,
+        "score": 0.82838
+      },
+      {
+        "id": "https://openalex.org/W2997134535",
+        "title": "Relation Extraction Exploiting Full Dependency Forests",
+        "doi": "https://doi.org/10.1609/aaai.v34i05.6313",
+        "year": 2020,
+        "abstract": "Dependency syntax has long been recognized as a crucial source of features for relation extraction. Previous work considers 1-best trees produced by a parser during preprocessing. However, error propagation from the out-of-domain parser may impact the relation extraction performance. We propose to leverage full dependency forests for this task, where a full dependency forest encodes all possible trees. Such representations of full dependency forests provide a differentiable connection between a parser and a relation extraction model, and thus we are also able to study adjusting the parser parameters based on end-task loss. Experiments on three datasets show that full dependency forests and parser adjustment give significant improvements over carefully designed baselines, showing state-of-the-art or competitive performances on biomedical or newswire benchmarks.",
+        "authors": [
+          "Lifeng Jin",
+          "Linfeng Song",
+          "Yue Zhang",
+          "Kun Xu",
+          "Wei-Yun Ma",
+          "Dong Yu"
+        ],
+        "venue": "Proceedings of the AAAI Conference on Artificial Intelligence",
+        "citations": 38,
+        "open_access": true,
+        "url": "https://doi.org/10.1609/aaai.v34i05.6313",
+        "pdf_url": null,
+        "references": [
+          "https://openalex.org/W31462306",
+          "https://openalex.org/W174427690",
+          "https://openalex.org/W1543515964",
+          "https://openalex.org/W1550588214",
+          "https://openalex.org/W1632114991",
+          "https://openalex.org/W1852412531",
+          "https://openalex.org/W2053238041",
+          "https://openalex.org/W2064675550",
+          "https://openalex.org/W2099779943",
+          "https://openalex.org/W2108211831",
+          "https://openalex.org/W2120814856",
+          "https://openalex.org/W2127147316",
+          "https://openalex.org/W2138627627",
+          "https://openalex.org/W2251079237",
+          "https://openalex.org/W2522187036",
+          "https://openalex.org/W2613111960",
+          "https://openalex.org/W2788914818",
+          "https://openalex.org/W2798749466",
+          "https://openalex.org/W2807280045",
+          "https://openalex.org/W2889224519",
+          "https://openalex.org/W2891300059",
+          "https://openalex.org/W2892094955",
+          "https://openalex.org/W2911489562",
+          "https://openalex.org/W2949212908",
+          "https://openalex.org/W2952768212",
+          "https://openalex.org/W2963020213",
+          "https://openalex.org/W2963171262",
+          "https://openalex.org/W2963497309",
+          "https://openalex.org/W2963655104",
+          "https://openalex.org/W2964121744",
+          "https://openalex.org/W2964166731",
+          "https://openalex.org/W2964167098",
+          "https://openalex.org/W2964212344",
+          "https://openalex.org/W2970611834",
+          "https://openalex.org/W6920500482",
+          "https://openalex.org/W7095331819",
+          "https://openalex.org/W7099556686"
+        ],
+        "retracted": false,
+        "provenance": [
+          "semantic: Could you suggest a paper that introduces an approach to relation extraction that involves learning syntax dependency structures using a tree LSTM model?",
+          "coverage repair: Could you suggest a paper that introduces an approach to relation extraction that involves learning syntax dependency structures using a tree LSTM model?"
+        ],
+        "criteria": [],
+        "rrf": 0.02684684684684685,
+        "aliases": [
+          "https://openalex.org/W2997134535"
+        ],
+        "neural_score": 2.1966,
+        "score": 0.82341
+      },
+      {
+        "id": "https://openalex.org/W4285138368",
+        "title": "Improving Relation Extraction through Syntax-induced Pre-training with Dependency Masking",
+        "doi": "https://doi.org/10.18653/v1/2022.findings-acl.147",
+        "year": 2022,
+        "abstract": "Relation extraction (RE) is an important natural language processing task that predicts the relation between two given entities, where a good understanding of the contextual information is essential to achieve an outstanding model performance. Among different types of contextual information, the auto-generated syntactic information (namely, word dependencies) has shown its effectiveness for the task. However, most existing studies require modifications to the existing baseline architectures (e.g., adding new components, such as GCN, on the top of an encoder) to leverage the syntactic information. To offer an alternative solution, we propose to leverage syntactic information to improve RE by training a syntax-induced encoder on auto-parsed data through dependency masking. Specifically, the syntax-induced encoder is trained by recovering the masked dependency connections and types in first, second, and third orders, which significantly differs from existing studies that train language models or word embeddings by predicting the context words along the dependency paths. Experimental results on two English benchmark datasets, namely, ACE2005EN and SemEval 2010 Task 8 datasets, demonstrate the effectiveness of our approach for RE, where our approach outperforms strong baselines and achieve state-of-the-art results on both datasets.",
+        "authors": [
+          "Yuanhe Tian",
+          "Yan Song",
+          "Fei Xia"
+        ],
+        "venue": "Findings of the Association for Computational Linguistics: ACL (Findings of ACL)",
+        "citations": 31,
+        "open_access": true,
+        "url": "https://doi.org/10.18653/v1/2022.findings-acl.147",
+        "pdf_url": "https://aclanthology.org/2022.findings-acl.147.pdf",
+        "references": [
+          "https://openalex.org/W1838058638",
+          "https://openalex.org/W1889268436",
+          "https://openalex.org/W2123442489",
+          "https://openalex.org/W2250521169",
+          "https://openalex.org/W2250525544",
+          "https://openalex.org/W2250645575",
+          "https://openalex.org/W2251315239",
+          "https://openalex.org/W2251771443",
+          "https://openalex.org/W2397198482",
+          "https://openalex.org/W2466573295",
+          "https://openalex.org/W2513378248",
+          "https://openalex.org/W2517194566",
+          "https://openalex.org/W2600702321",
+          "https://openalex.org/W2759211898",
+          "https://openalex.org/W2766453196",
+          "https://openalex.org/W2798393196",
+          "https://openalex.org/W2804268364",
+          "https://openalex.org/W2808001006",
+          "https://openalex.org/W2890176538",
+          "https://openalex.org/W2892094955",
+          "https://openalex.org/W2948131150",
+          "https://openalex.org/W2951525151",
+          "https://openalex.org/W2952303884",
+          "https://openalex.org/W2952768212",
+          "https://openalex.org/W2953359159",
+          "https://openalex.org/W2963020213",
+          "https://openalex.org/W2963084773",
+          "https://openalex.org/W2963341956",
+          "https://openalex.org/W2964212344",
+          "https://openalex.org/W2964217331",
+          "https://openalex.org/W2965373594",
+          "https://openalex.org/W2982399380",
+          "https://openalex.org/W2984452801",
+          "https://openalex.org/W2996113946",
+          "https://openalex.org/W2996917304",
+          "https://openalex.org/W3021620666",
+          "https://openalex.org/W3035431747",
+          "https://openalex.org/W3071625105",
+          "https://openalex.org/W3100841630",
+          "https://openalex.org/W3101638898"
+        ],
+        "retracted": false,
+        "provenance": [
+          "semantic: Could you suggest a paper that introduces an approach to relation extraction that involves learning syntax dependency structures using a tree LSTM model?",
+          "coverage repair: Could you suggest a paper that introduces an approach to relation extraction that involves learning syntax dependency structures using a tree LSTM model?"
+        ],
+        "criteria": [],
+        "rrf": 0.026144907723855092,
+        "aliases": [
+          "https://openalex.org/W4285138368"
+        ],
+        "neural_score": 1.96594,
+        "score": 0.80249
+      },
+      {
+        "id": "https://openalex.org/W4385573431",
+        "title": "Explore Unsupervised Structures in Pretrained Models for Relation Extraction",
+        "doi": "https://doi.org/10.18653/v1/2022.findings-emnlp.453",
+        "year": 2022,
+        "abstract": "Syntactic trees have been widely applied in relation extraction (RE). However, since parsing qualities are not stable on different text domains and a pre-defined grammar may not well fit the target relation schema, the introduction of syntactic structures sometimes fails to improve RE performances consistently. In this work, we study RE models with various unsupervised structures mined from pre-trained language models (e.g., BERT). We show that, similar to syntactic trees, unsupervised structures are quite informative for RE task: they are able to obtain competitive (even the best) performance scores on benchmark RE datasets (ACE05, WebNLG, SciERC). We also conduct detailed analyses on their abilities of adapting new RE domains and influence of noise links in those structures. The results suggest that unsupervised structures are reasonable alternatives of commonly used syntactic structures in relation extraction models.",
+        "authors": [
+          "Xi Yang",
+          "Tao Ji",
+          "Yuanbin Wu"
+        ],
+        "venue": "Findings of the Association for Computational Linguistics: EMNLP (Findings of EMNLP)",
+        "citations": 0,
+        "open_access": true,
+        "url": "https://doi.org/10.18653/v1/2022.findings-emnlp.453",
+        "pdf_url": "https://aclanthology.org/2022.findings-emnlp.453.pdf",
+        "references": [
+          "https://openalex.org/W1902674502",
+          "https://openalex.org/W1969404656",
+          "https://openalex.org/W2251329024",
+          "https://openalex.org/W2600702321",
+          "https://openalex.org/W2798734500",
+          "https://openalex.org/W2892094955",
+          "https://openalex.org/W2908854766",
+          "https://openalex.org/W2934842096",
+          "https://openalex.org/W2948140294",
+          "https://openalex.org/W2949212908",
+          "https://openalex.org/W2951231735",
+          "https://openalex.org/W2952768212",
+          "https://openalex.org/W2953337107",
+          "https://openalex.org/W2963341956",
+          "https://openalex.org/W2964159778",
+          "https://openalex.org/W2964167098",
+          "https://openalex.org/W2964217331",
+          "https://openalex.org/W2968210605",
+          "https://openalex.org/W2970771982",
+          "https://openalex.org/W3015575765",
+          "https://openalex.org/W3022265721",
+          "https://openalex.org/W3034503989",
+          "https://openalex.org/W3034617555",
+          "https://openalex.org/W3116427155",
+          "https://openalex.org/W3116453892",
+          "https://openalex.org/W3152746826",
+          "https://openalex.org/W3156977337",
+          "https://openalex.org/W3173892794",
+          "https://openalex.org/W3174505712",
+          "https://openalex.org/W3196690920",
+          "https://openalex.org/W4285305471"
+        ],
+        "retracted": false,
+        "provenance": [
+          "semantic: Could you suggest a paper that introduces an approach to relation extraction that involves learning syntax dependency structures using a tree LSTM model?",
+          "coverage repair: Could you suggest a paper that introduces an approach to relation extraction that involves learning syntax dependency structures using a tree LSTM model?"
+        ],
+        "criteria": [],
+        "rrf": 0.020517676767676768,
+        "aliases": [
+          "https://openalex.org/W4385573431"
+        ],
+        "neural_score": 1.75958,
+        "score": 0.76159
+      },
+      {
+        "id": "https://openalex.org/W2161839092",
+        "title": "Phrase Dependency Machine Translation with Quasi-Synchronous Tree-to-Tree Features",
+        "doi": "https://doi.org/10.1162/coli_a_00175",
+        "year": 2013,
+        "abstract": "Recent research has shown clear improvement in translation quality by exploiting linguistic syntax for either the source or target language. However, when using syntax for both languages (“tree-to-tree” translation), there is evidence that syntactic divergence can hamper the extraction of useful rules (Ding and Palmer 2005 ). Smith and Eisner ( 2006 ) introduced quasi-synchronous grammar, a formalism that treats non-isomorphic structure softly using features rather than hard constraints. Although a natural fit for translation modeling, its flexibility has proved challenging for building real-world systems. In this article, we present a tree-to-tree machine translation system inspired by quasi-synchronous grammar. The core of our approach is a new model that combines phrases and dependency syntax, integrating the advantages of phrase-based and syntax-based translation. We report statistically significant improvements over a phrase-based baseline on five of seven test sets across four language pairs. We also present encouraging preliminary results on the use of unsupervised dependency parsing for syntax-based machine translation.",
+        "authors": [
+          "Kevin Gimpel",
+          "Noah A. Smith"
+        ],
+        "venue": "Computational Linguistics",
+        "citations": 14,
+        "open_access": true,
+        "url": "https://doi.org/10.1162/coli_a_00175",
+        "pdf_url": "https://direct.mit.edu/coli/article-pdf/40/2/349/1804280/coli_a_00175.pdf",
+        "references": [
+          "https://openalex.org/W79826182",
+          "https://openalex.org/W1777768792",
+          "https://openalex.org/W1965364888",
+          "https://openalex.org/W1965420956",
+          "https://openalex.org/W1971264492",
+          "https://openalex.org/W1979495315",
+          "https://openalex.org/W1984764846",
+          "https://openalex.org/W1996430422",
+          "https://openalex.org/W1999993003",
+          "https://openalex.org/W2000546550",
+          "https://openalex.org/W2002993828",
+          "https://openalex.org/W2007572995",
+          "https://openalex.org/W2016630033",
+          "https://openalex.org/W2018116550",
+          "https://openalex.org/W2018482254",
+          "https://openalex.org/W2027979924",
+          "https://openalex.org/W2031196180",
+          "https://openalex.org/W2031248101",
+          "https://openalex.org/W2037894654",
+          "https://openalex.org/W2044992319",
+          "https://openalex.org/W2049493498",
+          "https://openalex.org/W2051434435",
+          "https://openalex.org/W2052449326",
+          "https://openalex.org/W2059147389",
+          "https://openalex.org/W2076749875",
+          "https://openalex.org/W2079442239",
+          "https://openalex.org/W2080514141",
+          "https://openalex.org/W2096894677",
+          "https://openalex.org/W2097524769",
+          "https://openalex.org/W2099884836",
+          "https://openalex.org/W2100238596",
+          "https://openalex.org/W2100249433",
+          "https://openalex.org/W2102366626",
+          "https://openalex.org/W2104807347",
+          "https://openalex.org/W2105842272",
+          "https://openalex.org/W2106317217",
+          "https://openalex.org/W2107895803",
+          "https://openalex.org/W2110622404",
+          "https://openalex.org/W2113998052",
+          "https://openalex.org/W2115753373"
+        ],
+        "retracted": false,
+        "provenance": [
+          "keyword: Could you suggest introduces approach relation extraction involves learning syntax dependency structures using tree"
+        ],
+        "criteria": [],
+        "rrf": 0.015625,
+        "aliases": [
+          "https://openalex.org/W2161839092"
+        ],
+        "neural_score": 1.224,
+        "score": 0.67843
+      },
+      {
+        "id": "https://openalex.org/W3214001877",
+        "title": "Crosslingual Transfer Learning for Relation and Event Extraction via Word Category and Class Alignments",
+        "doi": "https://doi.org/10.18653/v1/2021.emnlp-main.440",
+        "year": 2021,
+        "abstract": "Previous work on crosslingual Relation and Event Extraction (REE) suffers from the monolingual bias issue due to the training of models on only the source language data. An approach to overcome this issue is to use unlabeled data in the target language to aid the alignment of crosslingual representations, i.e., via fooling a language discriminator. However, as this approach does not condition on class information, a target language example of a class could be incorrectly aligned to a source language example of a different class. To address this issue, we propose a novel crosslingual alignment method that leverages class information of REE tasks for representation learning. In particular, we propose to learn two versions of representation vectors for each class in an REE task based on either source or target language examples. Representation vectors for corresponding classes will then be aligned to achieve class-aware alignment for crosslingual representations. In addition, we propose to further align representation vectors for language-universal word categories (i.e., parts of speech and dependency relations). As such, a novel filtering mechanism is presented to facilitate the learning of word category representations from contextualized representations on input texts based on adversarial learning. We conduct extensive crosslingual experiments with English, Chinese, and Arabic over REE tasks. The results demonstrate the benefits of the proposed method that significantly advances the state-of-the-art performance in these settings.",
+        "authors": [
+          "Minh Nguyen",
+          "Tuan Ngo Nguyen",
+          "Bonan Min",
+          "Thien Huu Nguyen"
+        ],
+        "venue": "Conference on Empirical Methods in Natural Language Processing (EMNLP)",
+        "citations": 31,
+        "open_access": true,
+        "url": "https://doi.org/10.18653/v1/2021.emnlp-main.440",
+        "pdf_url": "https://aclanthology.org/2021.emnlp-main.440.pdf",
+        "references": [
+          "https://openalex.org/W2165962657",
+          "https://openalex.org/W2187089797",
+          "https://openalex.org/W2250999640",
+          "https://openalex.org/W2773963565",
+          "https://openalex.org/W2891896107",
+          "https://openalex.org/W2945236904",
+          "https://openalex.org/W2952289666",
+          "https://openalex.org/W2965250913",
+          "https://openalex.org/W2971036674",
+          "https://openalex.org/W2971105085",
+          "https://openalex.org/W2971145411",
+          "https://openalex.org/W2983259564",
+          "https://openalex.org/W2997045581",
+          "https://openalex.org/W3026623394",
+          "https://openalex.org/W3034378323",
+          "https://openalex.org/W3035309410",
+          "https://openalex.org/W3035519852",
+          "https://openalex.org/W3091276655",
+          "https://openalex.org/W3091998909",
+          "https://openalex.org/W3102525243",
+          "https://openalex.org/W3137968039",
+          "https://openalex.org/W3173947599",
+          "https://openalex.org/W6927916266"
+        ],
+        "retracted": false,
+        "provenance": [
+          "keyword: Could you suggest introduces approach relation extraction involves learning syntax dependency structures using tree"
+        ],
+        "criteria": [],
+        "rrf": 0.014084507042253521,
+        "aliases": [
+          "https://openalex.org/W3214001877"
+        ],
+        "neural_score": 1.06309,
+        "score": 0.6489
+      },
+      {
+        "id": "https://openalex.org/W1933365859",
+        "title": "Exploiting Background Knowledge for Relation Extraction",
+        "doi": null,
+        "year": 2010,
+        "abstract": "Relation extraction is the task of recog-nizing semantic relations among entities. Given a particular sentence supervised ap-proaches to Relation Extraction employed feature or kernel functions which usu-ally have a single sentence in their scope. The overall aim of this paper is to pro-pose methods for using knowledge and re-sources that are external to the target sen-tence, as a way to improve relation ex-traction. We demonstrate this by exploit-ing background knowledge such as rela-tionships among the target relations, as well as by considering how target rela-tions relate to some existing knowledge resources. Our methods are general and we suggest that some of them could be ap-plied to other NLP tasks. 1",
+        "authors": [
+          "Yee Seng Chan",
+          "Dan Roth"
+        ],
+        "venue": "International Conference on Computational Linguistics",
+        "citations": 108,
+        "open_access": false,
+        "url": "http://cogcomp.cs.illinois.edu/papers/ChanRo10.pdf",
+        "pdf_url": null,
+        "references": [
+          "https://openalex.org/W1493490255",
+          "https://openalex.org/W1550588214",
+          "https://openalex.org/W1566346388",
+          "https://openalex.org/W2004763266",
+          "https://openalex.org/W2022686678",
+          "https://openalex.org/W2023696455",
+          "https://openalex.org/W2053238041",
+          "https://openalex.org/W2060716942",
+          "https://openalex.org/W2107598941",
+          "https://openalex.org/W2108211831",
+          "https://openalex.org/W2118656391",
+          "https://openalex.org/W2121227244",
+          "https://openalex.org/W2128634885",
+          "https://openalex.org/W2138627627",
+          "https://openalex.org/W2152269015",
+          "https://openalex.org/W2152917747",
+          "https://openalex.org/W2787118962",
+          "https://openalex.org/W4249572517"
+        ],
+        "retracted": false,
+        "provenance": [
+          "citation neighbors of top-ranked papers"
+        ],
+        "criteria": [],
+        "rrf": 0.014285714285714285,
+        "aliases": [
+          "https://openalex.org/W1933365859"
+        ],
+        "neural_score": 0.73894,
+        "score": 0.59646
+      },
+      {
+        "id": "https://openalex.org/W4378515217",
+        "title": "Biomedical Relation Extraction Using Dependency Graph and Decoder-Enhanced Transformer Model",
+        "doi": "https://doi.org/10.3390/bioengineering10050586",
+        "year": 2023,
+        "abstract": "The identification of drug-drug and chemical-protein interactions is essential for understanding unpredictable changes in the pharmacological effects of drugs and mechanisms of diseases and developing therapeutic drugs. In this study, we extract drug-related interactions from the DDI (Drug-Drug Interaction) Extraction-2013 Shared Task dataset and the BioCreative ChemProt (Chemical-Protein) dataset using various transfer transformers. We propose BERTGAT that uses a graph attention network (GAT) to take into account the local structure of sentences and embedding features of nodes under the self-attention scheme and investigate whether incorporating syntactic structure can help relation extraction. In addition, we suggest T5slim_dec, which adapts the autoregressive generation task of the T5 (text-to-text transfer transformer) to the relation classification problem by removing the self-attention layer in the decoder block. Furthermore, we evaluated the potential of biomedical relation extraction of GPT-3 (Generative Pre-trained Transformer) using GPT-3 variant models. As a result, T5slim_dec, which is a model with a tailored decoder designed for classification problems within the T5 architecture, demonstrated very promising performances for both tasks. We achieved an accuracy of 91.15% in the DDI dataset and an accuracy of 94.29% for the CPR (Chemical-Protein Relation) class group in ChemProt dataset. However, BERTGAT did not show a significant performance improvement in the aspect of relation extraction. We demonstrated that transformer-based approaches focused only on relationships between words are implicitly eligible to understand language well without additional knowledge such as structural information.",
+        "authors": [
+          "Seonho Kim",
+          "Juntae Yoon",
+          "Ohyoung Kwon"
+        ],
+        "venue": "Bioengineering",
+        "citations": 10,
+        "open_access": true,
+        "url": "https://doi.org/10.3390/bioengineering10050586",
+        "pdf_url": "https://www.mdpi.com/2306-5354/10/5/586/pdf?version=1683882982",
+        "references": [
+          "https://openalex.org/W2061833373",
+          "https://openalex.org/W2128768874",
+          "https://openalex.org/W2133564696",
+          "https://openalex.org/W2148488766",
+          "https://openalex.org/W2170146596",
+          "https://openalex.org/W2189472871",
+          "https://openalex.org/W2264517602",
+          "https://openalex.org/W2626778328",
+          "https://openalex.org/W2885185669",
+          "https://openalex.org/W2892094955",
+          "https://openalex.org/W2896457183",
+          "https://openalex.org/W2910406387",
+          "https://openalex.org/W2911489562",
+          "https://openalex.org/W2944815030",
+          "https://openalex.org/W2963341956",
+          "https://openalex.org/W2963854351",
+          "https://openalex.org/W2964026782",
+          "https://openalex.org/W2964217331",
+          "https://openalex.org/W2970771982",
+          "https://openalex.org/W2979826702",
+          "https://openalex.org/W2981852735",
+          "https://openalex.org/W2982399380",
+          "https://openalex.org/W3009926341",
+          "https://openalex.org/W3027982260",
+          "https://openalex.org/W3030163527",
+          "https://openalex.org/W3046375318",
+          "https://openalex.org/W3104578551",
+          "https://openalex.org/W3166204619",
+          "https://openalex.org/W3166593409",
+          "https://openalex.org/W3168090480",
+          "https://openalex.org/W3192478068",
+          "https://openalex.org/W3198824379",
+          "https://openalex.org/W3204096139",
+          "https://openalex.org/W4221153690",
+          "https://openalex.org/W4243798656",
+          "https://openalex.org/W4285158728",
+          "https://openalex.org/W4285225959",
+          "https://openalex.org/W4297458751",
+          "https://openalex.org/W4309728330",
+          "https://openalex.org/W4319988991"
+        ],
+        "retracted": false,
+        "provenance": [
+          "keyword: Could you suggest introduces approach relation extraction involves learning syntax dependency structures using tree"
+        ],
+        "criteria": [],
+        "rrf": 0.015873015873015872,
+        "aliases": [
+          "https://openalex.org/W4378515217"
+        ],
+        "neural_score": 0.69335,
+        "score": 0.59454
+      },
+      {
+        "id": "https://openalex.org/W4399645916",
+        "title": "Bridging the Gap: A Hybrid Approach to Medical Relation Extraction Using Pretrained Language Models and Traditional Machine Learning",
+        "doi": "https://doi.org/10.12720/jait.15.6.723-734",
+        "year": 2024,
+        "abstract": "Feature engineering can be time-consuming and challenging, requiring expertise in Natural Language Processing (NLP) techniques and methods.The objective of this study was to explore the use of contextual word embeddings, specifically Bidirectional Encoder Representations from Transformers (BERT)-generated word embeddings, for biomedical relation extraction.The study utilized machine learning models, including Support Vector Machines, Random Forests, and K-nearest neighbor algorithms, to classify relationships between medical entities based on these embeddings.The attention mechanism of a pre-trained BERT model was also used to capture information related to the relationship between medical entities, leading to more advanced biomedical relation extraction.The performance of the machine learning classifiers was evaluated as classification models.The proposed approach outperformed the most recent state-ofthe-art model on two publicly available biomedical relation extraction datasets Chemical-Protein Interactions (ChemProt) and Drug-Drug Interactions (DDI), indicating that traditional machine-learning techniques can compete with recent advancements.Experiments on the ChemProt dataset show that the performance of the proposed model's F1-Score is 0.778 and on the DDI dataset, F1-Score is 0.815.This study has demonstrated the potential for using contextual word embeddings and machine learning models for biomedical relation extraction, without the need for extensive manual feature engineering.",
+        "authors": [
+          "Nesma AbdelAziz Hassan",
+          "Rania Ahmed Abdel Azeem Abul Seoud",
+          "Dina Salem"
+        ],
+        "venue": "Journal of Advances in Information Technology",
+        "citations": 9,
+        "open_access": true,
+        "url": "https://doi.org/10.12720/jait.15.6.723-734",
+        "pdf_url": "https://www.jait.us/articles/2024/JAIT-V15N6-723.pdf",
+        "references": [
+          "https://openalex.org/W1614298861",
+          "https://openalex.org/W1931477211",
+          "https://openalex.org/W2101234009",
+          "https://openalex.org/W2125553157",
+          "https://openalex.org/W2170189740",
+          "https://openalex.org/W2250539671",
+          "https://openalex.org/W2252211741",
+          "https://openalex.org/W2264517602",
+          "https://openalex.org/W2485374661",
+          "https://openalex.org/W2765742249",
+          "https://openalex.org/W2788914818",
+          "https://openalex.org/W2883380892",
+          "https://openalex.org/W2883749461",
+          "https://openalex.org/W2885453527",
+          "https://openalex.org/W2895889524",
+          "https://openalex.org/W2896378533",
+          "https://openalex.org/W2904077174",
+          "https://openalex.org/W2906067089",
+          "https://openalex.org/W2911489562",
+          "https://openalex.org/W2913694513",
+          "https://openalex.org/W2915623326",
+          "https://openalex.org/W2943642947",
+          "https://openalex.org/W2945569680",
+          "https://openalex.org/W2952174148",
+          "https://openalex.org/W2964026782",
+          "https://openalex.org/W2964673274",
+          "https://openalex.org/W2971258845",
+          "https://openalex.org/W2980895577",
+          "https://openalex.org/W2984684268",
+          "https://openalex.org/W3004541293",
+          "https://openalex.org/W3005892455",
+          "https://openalex.org/W3024482787",
+          "https://openalex.org/W3027982260",
+          "https://openalex.org/W3035669514",
+          "https://openalex.org/W3041003611",
+          "https://openalex.org/W3098115677",
+          "https://openalex.org/W3127429900",
+          "https://openalex.org/W3127869043",
+          "https://openalex.org/W3207924781",
+          "https://openalex.org/W3212193424"
+        ],
+        "retracted": false,
+        "provenance": [
+          "keyword: Could you suggest introduces approach relation extraction involves learning syntax dependency structures using tree"
+        ],
+        "criteria": [],
+        "rrf": 0.013513513513513514,
+        "aliases": [
+          "https://openalex.org/W4399645916"
+        ],
+        "neural_score": 0.5712,
+        "score": 0.56331
+      },
+      {
+        "id": "https://openalex.org/W2972795848",
+        "title": "Semantic relation extraction using sequential and tree-structured LSTM with attention",
+        "doi": "https://doi.org/10.1016/j.ins.2019.09.006",
+        "year": 2019,
+        "abstract": "",
+        "authors": [
+          "Zhiqiang Geng",
+          "GuoFei Chen",
+          "Yongming M Han",
+          "Gang Lu",
+          "Fang Li"
+        ],
+        "venue": "Information Sciences",
+        "citations": 201,
+        "open_access": false,
+        "url": "https://doi.org/10.1016/j.ins.2019.09.006",
+        "pdf_url": null,
+        "references": [
+          "https://openalex.org/W1566346388",
+          "https://openalex.org/W1925417509",
+          "https://openalex.org/W1972702299",
+          "https://openalex.org/W2099779943",
+          "https://openalex.org/W2123432324",
+          "https://openalex.org/W2156929773",
+          "https://openalex.org/W2250539671",
+          "https://openalex.org/W2250861254",
+          "https://openalex.org/W2405671176",
+          "https://openalex.org/W2407769879",
+          "https://openalex.org/W2470673105",
+          "https://openalex.org/W2497173630",
+          "https://openalex.org/W2515462165",
+          "https://openalex.org/W2517194566",
+          "https://openalex.org/W2539469848",
+          "https://openalex.org/W2559975580",
+          "https://openalex.org/W2578454709",
+          "https://openalex.org/W2587809655",
+          "https://openalex.org/W2604610161",
+          "https://openalex.org/W2728982475",
+          "https://openalex.org/W2736471046",
+          "https://openalex.org/W2739896562",
+          "https://openalex.org/W2744273976",
+          "https://openalex.org/W2747623286",
+          "https://openalex.org/W2757092139",
+          "https://openalex.org/W2759056771",
+          "https://openalex.org/W2765311216",
+          "https://openalex.org/W2777077083",
+          "https://openalex.org/W2777670633",
+          "https://openalex.org/W2783038397",
+          "https://openalex.org/W2791840139",
+          "https://openalex.org/W2799125718",
+          "https://openalex.org/W2803650874",
+          "https://openalex.org/W2805262146",
+          "https://openalex.org/W2807789532",
+          "https://openalex.org/W2890299555",
+          "https://openalex.org/W2906003738",
+          "https://openalex.org/W2906341468",
+          "https://openalex.org/W2907265599",
+          "https://openalex.org/W2940791172"
+        ],
+        "retracted": false,
+        "provenance": [
+          "semantic: Could you suggest a paper that introduces an approach to relation extraction that involves learning syntax dependency structures using a tree LSTM model?",
+          "coverage repair: Could you suggest a paper that introduces an approach to relation extraction that involves learning syntax dependency structures using a tree LSTM model?"
+        ],
+        "criteria": [],
+        "rrf": 0.03125,
+        "aliases": [
+          "https://openalex.org/W2972795848"
+        ],
+        "neural_score": 0.14381,
+        "score": 0.54914
+      },
+      {
+        "id": "https://openalex.org/W2136502946",
+        "title": "Employing Word Representations and Regularization for Domain Adaptation of Relation Extraction",
+        "doi": "https://doi.org/10.3115/v1/p14-2012",
+        "year": 2014,
+        "abstract": "Relation extraction suffers from a performance loss when a model is applied to out-of-domain data.This has fostered the development of domain adaptation techniques for relation extraction.This paper evaluates word embeddings and clustering on adapting feature-based relation extraction systems.We systematically explore various ways to apply word embeddings and show the best adaptation improvement by combining word cluster and word embedding information.Finally, we demonstrate the effectiveness of regularization for the adaptability of relation extractors.",
+        "authors": [
+          "Thien Huu Nguyen",
+          "Ralph Grishman"
+        ],
+        "venue": "Proceedings of the conference - Association for Computational Linguistics. Meeting",
+        "citations": 88,
+        "open_access": true,
+        "url": "https://doi.org/10.3115/v1/p14-2012",
+        "pdf_url": "https://aclanthology.org/P14-2012.pdf",
+        "references": [
+          "https://openalex.org/W53625711",
+          "https://openalex.org/W91242194",
+          "https://openalex.org/W189166434",
+          "https://openalex.org/W1550588214",
+          "https://openalex.org/W1889268436",
+          "https://openalex.org/W1933365859",
+          "https://openalex.org/W2042972234",
+          "https://openalex.org/W2053238041",
+          "https://openalex.org/W2081801689",
+          "https://openalex.org/W2091812280",
+          "https://openalex.org/W2115124945",
+          "https://openalex.org/W2117130368",
+          "https://openalex.org/W2121227244",
+          "https://openalex.org/W2125553157",
+          "https://openalex.org/W2131462252",
+          "https://openalex.org/W2138627627",
+          "https://openalex.org/W2152148513",
+          "https://openalex.org/W2152269015",
+          "https://openalex.org/W2158108973",
+          "https://openalex.org/W2158139315",
+          "https://openalex.org/W2158751697",
+          "https://openalex.org/W2163302275",
+          "https://openalex.org/W2163362093",
+          "https://openalex.org/W2165935464",
+          "https://openalex.org/W2185615741",
+          "https://openalex.org/W2185784447",
+          "https://openalex.org/W2250646484",
+          "https://openalex.org/W2787118962",
+          "https://openalex.org/W3007535931",
+          "https://openalex.org/W3146885639"
+        ],
+        "retracted": false,
+        "provenance": [
+          "citation neighbors of top-ranked papers"
+        ],
+        "criteria": [],
+        "rrf": 0.014492753623188406,
+        "aliases": [
+          "https://openalex.org/W2136502946"
+        ],
+        "neural_score": 0.33497,
+        "score": 0.52222
+      },
+      {
+        "id": "https://openalex.org/W4399978597",
+        "title": "A Comprehensive Survey on Relation Extraction: Recent Advances and New Frontiers",
+        "doi": "https://doi.org/10.1145/3674501",
+        "year": 2024,
+        "abstract": "Relation extraction (RE) involves identifying the relations between entities from underlying content. RE serves as the foundation for many natural language processing (NLP) and information retrieval applications, such as knowledge graph completion and question answering. In recent years, deep neural networks have dominated the field of RE and made noticeable progress. Subsequently, the large pre-trained language models (PLMs) have taken the state-of-the-art RE to a new level. This survey provides a comprehensive review of existing deep learning techniques for RE. First, we introduce RE resources, including datasets and evaluation metrics. Second, we propose a new taxonomy to categorize existing works from three perspectives, i.e., text representation, context encoding, and triplet prediction. Third, we discuss several important challenges faced by RE and summarize potential techniques to tackle these challenges. Finally, we outline some promising future directions and prospects in this field. This survey is expected to facilitate researchers’ collaborative efforts to address the challenges of real-world RE systems.",
+        "authors": [
+          "Xiaoyan Zhao",
+          "Yang Deng",
+          "Min Yang",
+          "Lingzhi Wang",
+          "Rui Zhang",
+          "Hong Cheng",
+          "Wai Pang Lam",
+          "Ying Shen",
+          "Ruifeng Xu"
+        ],
+        "venue": "ACM Computing Surveys",
+        "citations": 277,
+        "open_access": true,
+        "url": "https://doi.org/10.1145/3674501",
+        "pdf_url": "https://arxiv.org/pdf/2306.02051",
+        "references": [
+          "https://openalex.org/W1551842868",
+          "https://openalex.org/W1604644367",
+          "https://openalex.org/W1614298861",
+          "https://openalex.org/W1889268436",
+          "https://openalex.org/W1940872118",
+          "https://openalex.org/W1981324093",
+          "https://openalex.org/W2053238041",
+          "https://openalex.org/W2080133951",
+          "https://openalex.org/W2094728533",
+          "https://openalex.org/W2107598941",
+          "https://openalex.org/W2132516856",
+          "https://openalex.org/W2152269015",
+          "https://openalex.org/W2153225416",
+          "https://openalex.org/W2153579005",
+          "https://openalex.org/W2158139315",
+          "https://openalex.org/W2162590473",
+          "https://openalex.org/W2170189740",
+          "https://openalex.org/W2249610072",
+          "https://openalex.org/W2250521169",
+          "https://openalex.org/W2250539671",
+          "https://openalex.org/W2251135946",
+          "https://openalex.org/W2282821441",
+          "https://openalex.org/W2334487059",
+          "https://openalex.org/W2407338347",
+          "https://openalex.org/W2510759893",
+          "https://openalex.org/W2511964075",
+          "https://openalex.org/W2539469848",
+          "https://openalex.org/W2556858158",
+          "https://openalex.org/W2572908757",
+          "https://openalex.org/W2573452792",
+          "https://openalex.org/W2600659824",
+          "https://openalex.org/W2613111960",
+          "https://openalex.org/W2624677889",
+          "https://openalex.org/W2626778328",
+          "https://openalex.org/W2739874095",
+          "https://openalex.org/W2759211898",
+          "https://openalex.org/W2763401128",
+          "https://openalex.org/W2766453196",
+          "https://openalex.org/W2775521672",
+          "https://openalex.org/W2785105945"
+        ],
+        "retracted": false,
+        "provenance": [
+          "keyword: Could you suggest introduces approach relation extraction involves learning syntax dependency structures using tree"
+        ],
+        "criteria": [],
+        "rrf": 0.014705882352941176,
+        "aliases": [
+          "https://openalex.org/W4399978597"
+        ],
+        "neural_score": 0.15872,
+        "score": 0.48835
+      },
+      {
+        "id": "https://openalex.org/W1525618684",
+        "title": "Dependency Tree Kernels for Relation Extraction from Natural Language Text",
+        "doi": "https://doi.org/10.1007/978-3-642-04174-7_18",
+        "year": 2009,
+        "abstract": "",
+        "authors": [
+          "Frank Reichartz",
+          "Hannes Korte",
+          "Gerhard Paaß"
+        ],
+        "venue": "Lecture notes in computer science",
+        "citations": 42,
+        "open_access": false,
+        "url": "https://doi.org/10.1007/978-3-642-04174-7_18",
+        "pdf_url": null,
+        "references": [
+          "https://openalex.org/W86328269",
+          "https://openalex.org/W1510073064",
+          "https://openalex.org/W1587871245",
+          "https://openalex.org/W1604938182",
+          "https://openalex.org/W1630363961",
+          "https://openalex.org/W2068737686",
+          "https://openalex.org/W2114535528",
+          "https://openalex.org/W2120814856",
+          "https://openalex.org/W2138627627",
+          "https://openalex.org/W2144788016",
+          "https://openalex.org/W2153568660",
+          "https://openalex.org/W2163362093",
+          "https://openalex.org/W2169755331",
+          "https://openalex.org/W2952732525"
+        ],
+        "retracted": false,
+        "provenance": [
+          "semantic: Could you suggest a paper that introduces an approach to relation extraction that involves learning syntax dependency structures using a tree LSTM model?",
+          "coverage repair: Could you suggest a paper that introduces an approach to relation extraction that involves learning syntax dependency structures using a tree LSTM model?"
+        ],
+        "criteria": [],
+        "rrf": 0.02649122807017544,
+        "aliases": [
+          "https://openalex.org/W1525618684"
+        ],
+        "neural_score": -0.13101,
+        "score": 0.47592
+      },
+      {
+        "id": "https://openalex.org/W4390305689",
+        "title": "Dynamic Syntax Mapping: A New Approach to Unsupervised Syntax Parsing",
+        "doi": "https://doi.org/10.48550/arxiv.2312.14966",
+        "year": 2023,
+        "abstract": "The intricate hierarchical structure of syntax is fundamental to the intricate and systematic nature of human language. This study investigates the premise that language models, specifically their attention distributions, can encapsulate syntactic dependencies. We introduce Dynamic Syntax Mapping (DSM), an innovative approach for the agnostic induction of these structures. Our method diverges from traditional syntax models which rely on predefined annotation schemata. Instead, we focus on a core characteristic inherent in dependency relations: syntactic substitutability. This concept refers to the interchangeability of words within the same syntactic category at either end of a dependency. By leveraging this property, we generate a collection of syntactically invariant sentences, which serve as the foundation for our parsing framework. Our findings reveal that the use of an increasing array of substitutions notably enhances parsing precision on natural language data. Specifically, in the context of long-distance subject-verb agreement, DSM exhibits a remarkable advancement over prior methodologies. Furthermore, DSM's adaptability is demonstrated through its successful application in varied parsing scenarios, underscoring its broad applicability.",
+        "authors": [
+          "Buvarp Gohsh",
+          "Woods Ali",
+          "Anders Michael"
+        ],
+        "venue": "arXiv",
+        "citations": 0,
+        "open_access": true,
+        "url": "https://doi.org/10.48550/arxiv.2312.14966",
+        "pdf_url": "https://arxiv.org/pdf/2312.14966",
+        "references": [
+          "https://openalex.org/W1508977358",
+          "https://openalex.org/W2017927472",
+          "https://openalex.org/W2153568660",
+          "https://openalex.org/W2743316948",
+          "https://openalex.org/W2795355797",
+          "https://openalex.org/W2888922637",
+          "https://openalex.org/W2901677362",
+          "https://openalex.org/W2910243263",
+          "https://openalex.org/W2912351236",
+          "https://openalex.org/W2946359678",
+          "https://openalex.org/W2946417913",
+          "https://openalex.org/W2949399644",
+          "https://openalex.org/W2953337107",
+          "https://openalex.org/W2963341956",
+          "https://openalex.org/W2991265431",
+          "https://openalex.org/W2995724109",
+          "https://openalex.org/W2995856824",
+          "https://openalex.org/W2997087088",
+          "https://openalex.org/W3018647120",
+          "https://openalex.org/W3021443099",
+          "https://openalex.org/W3022408339",
+          "https://openalex.org/W3034503989",
+          "https://openalex.org/W3035537500",
+          "https://openalex.org/W3037109418",
+          "https://openalex.org/W3037979089",
+          "https://openalex.org/W3049253296",
+          "https://openalex.org/W3104213339",
+          "https://openalex.org/W3152747197",
+          "https://openalex.org/W3168715970",
+          "https://openalex.org/W3169890186",
+          "https://openalex.org/W3173211653",
+          "https://openalex.org/W3173293897",
+          "https://openalex.org/W3174111043",
+          "https://openalex.org/W3190684574",
+          "https://openalex.org/W3193068792",
+          "https://openalex.org/W4200631085",
+          "https://openalex.org/W4221146921",
+          "https://openalex.org/W4221167766",
+          "https://openalex.org/W4226470037",
+          "https://openalex.org/W4385569940"
+        ],
+        "retracted": false,
+        "provenance": [
+          "keyword: Could you suggest introduces approach relation extraction involves learning syntax dependency structures using tree"
+        ],
+        "criteria": [],
+        "rrf": 0.013888888888888888,
+        "aliases": [
+          "https://openalex.org/W4390305689"
+        ],
+        "neural_score": -0.03005,
+        "score": 0.44751
+      }
+    ],
+    "usage": {
+      "api_calls": 4,
+      "cache_hits": 0,
+      "llm_calls": 6
+    },
+    "ranker": "cross-encoder + RRF",
+    "gaps": [
+      {
+        "id": "c1",
+        "text": "Could you suggest a paper that introduces an approach to relation extraction that involves learning syntax dependency structures using a tree LSTM model?"
+      }
+    ],
+    "repaired": true,
+    "warnings": [
+      "Hosted LLM quota is cooling down; evidence judgments are unavailable"
+    ],
+    "citation_edges": [
+      {
+        "source": "https://openalex.org/W3035309410",
+        "target": "https://openalex.org/W1933365859"
+      },
+      {
+        "source": "https://openalex.org/W3035309410",
+        "target": "https://openalex.org/W2136502946"
+      },
+      {
+        "source": "https://openalex.org/W3035309410",
+        "target": "https://openalex.org/W2138627627"
+      },
+      {
+        "source": "https://openalex.org/W3035309410",
+        "target": "https://openalex.org/W2892094955"
+      },
+      {
+        "source": "https://openalex.org/W3035309410",
+        "target": "https://openalex.org/W2952768212"
+      },
+      {
+        "source": "https://openalex.org/W3035309410",
+        "target": "https://openalex.org/W2964167098"
+      },
+      {
+        "source": "https://openalex.org/W2091582906",
+        "target": "https://openalex.org/W2138627627"
+      },
+      {
+        "source": "https://openalex.org/W3034497660",
+        "target": "https://openalex.org/W2892094955"
+      },
+      {
+        "source": "https://openalex.org/W3034497660",
+        "target": "https://openalex.org/W2952768212"
+      },
+      {
+        "source": "https://openalex.org/W2963653592",
+        "target": "https://openalex.org/W2964167098"
+      },
+      {
+        "source": "https://openalex.org/W2042972234",
+        "target": "https://openalex.org/W2138627627"
+      },
+      {
+        "source": "https://openalex.org/W2964167098",
+        "target": "https://openalex.org/W2138627627"
+      },
+      {
+        "source": "https://openalex.org/W3157453775",
+        "target": "https://openalex.org/W2138627627"
+      },
+      {
+        "source": "https://openalex.org/W3157453775",
+        "target": "https://openalex.org/W2952768212"
+      },
+      {
+        "source": "https://openalex.org/W3157453775",
+        "target": "https://openalex.org/W2964167098"
+      },
+      {
+        "source": "https://openalex.org/W3135098133",
+        "target": "https://openalex.org/W2952768212"
+      },
+      {
+        "source": "https://openalex.org/W3135098133",
+        "target": "https://openalex.org/W2964167098"
+      },
+      {
+        "source": "https://openalex.org/W3177462832",
+        "target": "https://openalex.org/W2892094955"
+      },
+      {
+        "source": "https://openalex.org/W3177462832",
+        "target": "https://openalex.org/W2952768212"
+      },
+      {
+        "source": "https://openalex.org/W4402614667",
+        "target": "https://openalex.org/W2138627627"
+      },
+      {
+        "source": "https://openalex.org/W4402614667",
+        "target": "https://openalex.org/W2892094955"
+      },
+      {
+        "source": "https://openalex.org/W4402614667",
+        "target": "https://openalex.org/W2952768212"
+      },
+      {
+        "source": "https://openalex.org/W4402614667",
+        "target": "https://openalex.org/W2964167098"
+      },
+      {
+        "source": "https://openalex.org/W4402614667",
+        "target": "https://openalex.org/W2972795848"
+      },
+      {
+        "source": "https://openalex.org/W2952768212",
+        "target": "https://openalex.org/W2138627627"
+      },
+      {
+        "source": "https://openalex.org/W2952768212",
+        "target": "https://openalex.org/W2892094955"
+      },
+      {
+        "source": "https://openalex.org/W2952768212",
+        "target": "https://openalex.org/W2964167098"
+      },
+      {
+        "source": "https://openalex.org/W2892094955",
+        "target": "https://openalex.org/W2138627627"
+      },
+      {
+        "source": "https://openalex.org/W2892094955",
+        "target": "https://openalex.org/W2964167098"
+      },
+      {
+        "source": "https://openalex.org/W4285147355",
+        "target": "https://openalex.org/W1933365859"
+      },
+      {
+        "source": "https://openalex.org/W4285147355",
+        "target": "https://openalex.org/W2042972234"
+      },
+      {
+        "source": "https://openalex.org/W4285147355",
+        "target": "https://openalex.org/W2138627627"
+      },
+      {
+        "source": "https://openalex.org/W4285147355",
+        "target": "https://openalex.org/W2165935464"
+      },
+      {
+        "source": "https://openalex.org/W4285147355",
+        "target": "https://openalex.org/W3035309410"
+      },
+      {
+        "source": "https://openalex.org/W2741237963",
+        "target": "https://openalex.org/W2138627627"
+      },
+      {
+        "source": "https://openalex.org/W2165935464",
+        "target": "https://openalex.org/W2138627627"
+      },
+      {
+        "source": "https://openalex.org/W2997134535",
+        "target": "https://openalex.org/W2138627627"
+      },
+      {
+        "source": "https://openalex.org/W2997134535",
+        "target": "https://openalex.org/W2892094955"
+      },
+      {
+        "source": "https://openalex.org/W2997134535",
+        "target": "https://openalex.org/W2952768212"
+      },
+      {
+        "source": "https://openalex.org/W2997134535",
+        "target": "https://openalex.org/W2964167098"
+      },
+      {
+        "source": "https://openalex.org/W4285138368",
+        "target": "https://openalex.org/W2892094955"
+      },
+      {
+        "source": "https://openalex.org/W4285138368",
+        "target": "https://openalex.org/W2952768212"
+      },
+      {
+        "source": "https://openalex.org/W4385573431",
+        "target": "https://openalex.org/W2892094955"
+      },
+      {
+        "source": "https://openalex.org/W4385573431",
+        "target": "https://openalex.org/W2952768212"
+      },
+      {
+        "source": "https://openalex.org/W4385573431",
+        "target": "https://openalex.org/W2964167098"
+      },
+      {
+        "source": "https://openalex.org/W3214001877",
+        "target": "https://openalex.org/W3035309410"
+      },
+      {
+        "source": "https://openalex.org/W1933365859",
+        "target": "https://openalex.org/W2138627627"
+      },
+      {
+        "source": "https://openalex.org/W4378515217",
+        "target": "https://openalex.org/W2892094955"
+      },
+      {
+        "source": "https://openalex.org/W2136502946",
+        "target": "https://openalex.org/W1933365859"
+      },
+      {
+        "source": "https://openalex.org/W2136502946",
+        "target": "https://openalex.org/W2042972234"
+      },
+      {
+        "source": "https://openalex.org/W2136502946",
+        "target": "https://openalex.org/W2138627627"
+      },
+      {
+        "source": "https://openalex.org/W2136502946",
+        "target": "https://openalex.org/W2165935464"
+      },
+      {
+        "source": "https://openalex.org/W1525618684",
+        "target": "https://openalex.org/W2138627627"
+      }
+    ],
+    "evidence_basis": "Title and abstract; no full text read",
+    "ablations": {
+      "single_semantic": [
+        "https://openalex.org/W2964167098",
+        "https://openalex.org/W2892094955",
+        "https://openalex.org/W2138627627",
+        "https://openalex.org/W2972795848",
+        "https://openalex.org/W2741237963",
+        "https://openalex.org/W2091582906",
+        "https://openalex.org/W2165935464",
+        "https://openalex.org/W2042972234",
+        "https://openalex.org/W4285147355",
+        "https://openalex.org/W3035309410",
+        "https://openalex.org/W2603270557",
+        "https://openalex.org/W2027424931",
+        "https://openalex.org/W3034497660",
+        "https://openalex.org/W2963653592",
+        "https://openalex.org/W2997134535",
+        "https://openalex.org/W1525618684",
+        "https://openalex.org/W4285138368",
+        "https://openalex.org/W3177462832",
+        "https://openalex.org/W1976629384",
+        "https://openalex.org/W3037339631",
+        "https://openalex.org/W2963866108",
+        "https://openalex.org/W4388336477",
+        "https://openalex.org/W4402614667",
+        "https://openalex.org/W4313325360",
+        "https://openalex.org/W2952787978",
+        "https://openalex.org/W4388971580",
+        "https://openalex.org/W3135098133",
+        "https://openalex.org/W4281939536",
+        "https://openalex.org/W3160844635",
+        "https://openalex.org/W956805140",
+        "https://openalex.org/W7131780640",
+        "https://openalex.org/W3157453775",
+        "https://openalex.org/W3204051225",
+        "https://openalex.org/W4297464573",
+        "https://openalex.org/W4214822415",
+        "https://openalex.org/W3161788252",
+        "https://openalex.org/W3065093797",
+        "https://openalex.org/W7134842120",
+        "https://openalex.org/W4385573431",
+        "https://openalex.org/W4388680981"
+      ],
+      "rrf": [
+        "https://openalex.org/W4415101811",
+        "https://openalex.org/W2603270557",
+        "https://openalex.org/W2945059185",
+        "https://openalex.org/W2952768212",
+        "https://openalex.org/W2964167098",
+        "https://openalex.org/W2064675550",
+        "https://openalex.org/W2951154358",
+        "https://openalex.org/W2892094955",
+        "https://openalex.org/W2104246439",
+        "https://openalex.org/W4378515217",
+        "https://openalex.org/W2138627627",
+        "https://openalex.org/W1501856433",
+        "https://openalex.org/W2161839092",
+        "https://openalex.org/W2972795848",
+        "https://openalex.org/W2099779943",
+        "https://openalex.org/W3100382072",
+        "https://openalex.org/W2741237963",
+        "https://openalex.org/W1990886313",
+        "https://openalex.org/W4285308265",
+        "https://openalex.org/W2091582906",
+        "https://openalex.org/W2058070641",
+        "https://openalex.org/W2964212344",
+        "https://openalex.org/W2165935464",
+        "https://openalex.org/W1551842868",
+        "https://openalex.org/W4399978597",
+        "https://openalex.org/W2042972234",
+        "https://openalex.org/W2125553157",
+        "https://openalex.org/W4285147355",
+        "https://openalex.org/W2136502946",
+        "https://openalex.org/W3217487363",
+        "https://openalex.org/W3035309410",
+        "https://openalex.org/W1933365859",
+        "https://openalex.org/W3214001877",
+        "https://openalex.org/W2128536089",
+        "https://openalex.org/W4390305689",
+        "https://openalex.org/W2027424931",
+        "https://openalex.org/W1514535095",
+        "https://openalex.org/W3034497660",
+        "https://openalex.org/W637153065",
+        "https://openalex.org/W4399645916",
+        "https://openalex.org/W2963653592",
+        "https://openalex.org/W1838058638",
+        "https://openalex.org/W29374554",
+        "https://openalex.org/W2997134535",
+        "https://openalex.org/W1571872475",
+        "https://openalex.org/W2594121213",
+        "https://openalex.org/W1525618684",
+        "https://openalex.org/W4285138368",
+        "https://openalex.org/W3200521493",
+        "https://openalex.org/W3177462832",
+        "https://openalex.org/W2996087418",
+        "https://openalex.org/W1976629384",
+        "https://openalex.org/W2117955260",
+        "https://openalex.org/W3037339631",
+        "https://openalex.org/W2915977242",
+        "https://openalex.org/W2963866108",
+        "https://openalex.org/W3093272371",
+        "https://openalex.org/W4388336477",
+        "https://openalex.org/W7129721525",
+        "https://openalex.org/W4402614667"
+      ],
+      "rerank": [
+        "https://openalex.org/W2603270557",
+        "https://openalex.org/W2952768212",
+        "https://openalex.org/W3035309410",
+        "https://openalex.org/W2091582906",
+        "https://openalex.org/W3034497660",
+        "https://openalex.org/W2963653592",
+        "https://openalex.org/W2042972234",
+        "https://openalex.org/W2964167098",
+        "https://openalex.org/W2138627627",
+        "https://openalex.org/W2165935464",
+        "https://openalex.org/W3177462832",
+        "https://openalex.org/W4402614667",
+        "https://openalex.org/W3200521493",
+        "https://openalex.org/W2892094955",
+        "https://openalex.org/W4285147355",
+        "https://openalex.org/W2741237963",
+        "https://openalex.org/W2997134535",
+        "https://openalex.org/W4285138368",
+        "https://openalex.org/W2594121213",
+        "https://openalex.org/W2161839092",
+        "https://openalex.org/W3214001877",
+        "https://openalex.org/W4378515217",
+        "https://openalex.org/W1933365859",
+        "https://openalex.org/W4399645916",
+        "https://openalex.org/W2136502946",
+        "https://openalex.org/W2972795848",
+        "https://openalex.org/W4399978597",
+        "https://openalex.org/W3093272371",
+        "https://openalex.org/W4390305689",
+        "https://openalex.org/W1525618684",
+        "https://openalex.org/W1551842868",
+        "https://openalex.org/W1976629384",
+        "https://openalex.org/W2996087418",
+        "https://openalex.org/W7129721525",
+        "https://openalex.org/W2951154358",
+        "https://openalex.org/W3100382072",
+        "https://openalex.org/W2027424931",
+        "https://openalex.org/W2945059185",
+        "https://openalex.org/W2104246439",
+        "https://openalex.org/W3217487363",
+        "https://openalex.org/W4415101811",
+        "https://openalex.org/W1838058638",
+        "https://openalex.org/W2964212344",
+        "https://openalex.org/W2125553157",
+        "https://openalex.org/W2963866108",
+        "https://openalex.org/W4285308265",
+        "https://openalex.org/W2117955260",
+        "https://openalex.org/W3037339631",
+        "https://openalex.org/W2099779943",
+        "https://openalex.org/W2064675550",
+        "https://openalex.org/W1501856433",
+        "https://openalex.org/W1990886313",
+        "https://openalex.org/W2058070641",
+        "https://openalex.org/W2128536089",
+        "https://openalex.org/W1514535095",
+        "https://openalex.org/W4388336477",
+        "https://openalex.org/W637153065",
+        "https://openalex.org/W29374554",
+        "https://openalex.org/W1571872475",
+        "https://openalex.org/W2915977242"
+      ]
+    },
+    "candidate_index": {
+      "https://openalex.org/W2952768212": {
+        "title": "Attention Guided Graph Convolutional Networks for Relation Extraction",
+        "year": 2019
+      },
+      "https://openalex.org/W2951154358": {
+        "title": "Multilingual Abstractions: Abstract Syntax Trees and Universal Dependencies",
+        "year": 2019
+      },
+      "https://openalex.org/W4378515217": {
+        "title": "Biomedical Relation Extraction Using Dependency Graph and Decoder-Enhanced Transformer Model",
+        "year": 2023
+      },
+      "https://openalex.org/W2161839092": {
+        "title": "Phrase Dependency Machine Translation with Quasi-Synchronous Tree-to-Tree Features",
+        "year": 2013
+      },
+      "https://openalex.org/W3100382072": {
+        "title": "Multilingual Irony Detection with Dependency Syntax and Neural Models",
+        "year": 2020
+      },
+      "https://openalex.org/W4285308265": {
+        "title": "What Do You Mean by Relation Extraction? A Survey on Datasets and Study on Scientific Relation Classification",
+        "year": 2022
+      },
+      "https://openalex.org/W2964212344": {
+        "title": "Question Answering on Freebase via Relation Extraction and Textual Evidence",
+        "year": 2016
+      },
+      "https://openalex.org/W4399978597": {
+        "title": "A Comprehensive Survey on Relation Extraction: Recent Advances and New Frontiers",
+        "year": 2024
+      },
+      "https://openalex.org/W4415101811": {
+        "title": "Learning the syntax of plant assemblages",
+        "year": 2025
+      },
+      "https://openalex.org/W3217487363": {
+        "title": "Dependency Syntax in the Automatic Detection of Irony and Stance",
+        "year": 2021
+      },
+      "https://openalex.org/W3214001877": {
+        "title": "Crosslingual Transfer Learning for Relation and Event Extraction via Word Category and Class Alignments",
+        "year": 2021
+      },
+      "https://openalex.org/W4390305689": {
+        "title": "Dynamic Syntax Mapping: A New Approach to Unsupervised Syntax Parsing",
+        "year": 2023
+      },
+      "https://openalex.org/W2945059185": {
+        "title": "Syntax-Enhanced Neural Machine Translation with Syntax-Aware Word Representations",
+        "year": 2019
+      },
+      "https://openalex.org/W4399645916": {
+        "title": "Bridging the Gap: A Hybrid Approach to Medical Relation Extraction Using Pretrained Language Models and Traditional Machine Learning",
+        "year": 2024
+      },
+      "https://openalex.org/W29374554": {
+        "title": "Extraction of chemical structures and reactions from the literature",
+        "year": 2012
+      },
+      "https://openalex.org/W2594121213": {
+        "title": "A study of relation extraction for biomedical text",
+        "year": 2016
+      },
+      "https://openalex.org/W4409207775": {
+        "title": "Learning the syntax of plant assemblages",
+        "year": 2025
+      },
+      "https://openalex.org/W3200521493": {
+        "title": "Speaker-Oriented Latent Structures for Dialogue-Based Relation Extraction",
+        "year": 2021
+      },
+      "https://openalex.org/W2996087418": {
+        "title": "Sensing Tree Automata as a Model of Syntactic Dependencies",
+        "year": 2019
+      },
+      "https://openalex.org/W2117955260": {
+        "title": "Unsupervised Relation Extraction for E-Learning Applications",
+        "year": 2011
+      },
+      "https://openalex.org/W2915977242": {
+        "title": "Universal Dependencies",
+        "year": 2021
+      },
+      "https://openalex.org/W3093272371": {
+        "title": "Named Entity Recognition and Relation Extraction Using Enhanced Table Filling by Contextualized Representations",
+        "year": 2022
+      },
+      "https://openalex.org/W7129721525": {
+        "title": "Learning Discriminative Syntax-Semantic Patterns With Transformer-Based Contrastive Learning",
+        "year": 2026
+      },
+      "https://openalex.org/W7127554695": {
+        "title": "NATURAL LANGUAGE INFERENCE OVER DEPENDENCY TREES",
+        "year": 2017
+      },
+      "https://openalex.org/W3215599159": {
+        "title": "Semantic Structure in Deep Learning",
+        "year": 2021
+      },
+      "https://openalex.org/W2005592929": {
+        "title": "Syntactic Islands and Learning Biases: Combining Experimental Syntax and Computational Modeling to Investigate the Language Acquisition Problem",
+        "year": 2013
+      },
+      "https://openalex.org/W2980848373": {
+        "title": "Machine learning approaches for event web data extraction",
+        "year": 2018
+      },
+      "https://openalex.org/W2955326314": {
+        "title": "A Generative Model for Punctuation in Dependency Trees",
+        "year": 2019
+      },
+      "https://openalex.org/W2299646991": {
+        "title": "A unified syntax of negation",
+        "year": 2013
+      },
+      "https://openalex.org/W2998665041": {
+        "title": "SG-Net: Syntax-Guided Machine Reading Comprehension",
+        "year": 2020
+      },
+      "https://openalex.org/W4312780785": {
+        "title": "Aspect-guided Syntax Graph Learning for Explainable Recommendation",
+        "year": 2022
+      },
+      "https://openalex.org/W2974004142": {
+        "title": "Span-Based Joint Entity and Relation Extraction with Transformer Pre-Training",
+        "year": 2020
+      },
+      "https://openalex.org/W7127556143": {
+        "title": "Exploiting Unlabelled Data for Relation Extraction",
+        "year": 2020
+      },
+      "https://openalex.org/W2141237352": {
+        "title": "A Dependency Parsing Approach to Biomedical Text Mining",
+        "year": 2008
+      },
+      "https://openalex.org/W2250332520": {
+        "title": "Chinese Open Relation Extraction for Knowledge Acquisition",
+        "year": 2014
+      },
+      "https://openalex.org/W4405127718": {
+        "title": "Deep mining the textual gold in relation extraction",
+        "year": 2024
+      },
+      "https://openalex.org/W7166825549": {
+        "title": "Do Syntactic Features Help Biomedical Relation Extraction? An Empirical Study of Verb Token and Dependency Graph Augmentation",
+        "year": 2026
+      },
+      "https://openalex.org/W2012842789": {
+        "title": "Varieties of crossing dependencies: structure dependence and mild context sensitivity",
+        "year": 2004
+      },
+      "https://openalex.org/W4317716303": {
+        "title": "A survey on deep learning approaches for text-to-SQL",
+        "year": 2023
+      },
+      "https://openalex.org/W2952315335": {
+        "title": "Syntax-Enhanced Neural Machine Translation with Syntax-Aware Word Representations",
+        "year": 2019
+      },
+      "https://openalex.org/W2964167098": {
+        "title": "End-to-End Relation Extraction using LSTMs on Sequences and Tree Structures",
+        "year": 2016
+      },
+      "https://openalex.org/W2892094955": {
+        "title": "Graph Convolution over Pruned Dependency Trees Improves Relation Extraction",
+        "year": 2018
+      },
+      "https://openalex.org/W2138627627": {
+        "title": "A shortest path dependency kernel for relation extraction",
+        "year": 2005
+      },
+      "https://openalex.org/W2972795848": {
+        "title": "Semantic relation extraction using sequential and tree-structured LSTM with attention",
+        "year": 2019
+      },
+      "https://openalex.org/W2741237963": {
+        "title": "Classifying Temporal Relations by Bidirectional LSTM over Dependency Paths",
+        "year": 2017
+      },
+      "https://openalex.org/W2091582906": {
+        "title": "Exploring syntactic features for relation extraction using a convolution tree kernel",
+        "year": 2006
+      },
+      "https://openalex.org/W2165935464": {
+        "title": "Exploiting constituent dependencies for tree kernel-based semantic relation extraction",
+        "year": 2008
+      },
+      "https://openalex.org/W2042972234": {
+        "title": "Convolution kernels on constituent, dependency and sequential structures for relation extraction",
+        "year": 2009
+      },
+      "https://openalex.org/W4285147355": {
+        "title": "Lexicalized Dependency Paths Based Supervised Learning for Relation Extraction",
+        "year": 2022
+      },
+      "https://openalex.org/W3035309410": {
+        "title": "Exploiting the Syntax-Model Consistency for Neural Relation Extraction",
+        "year": 2020
+      },
+      "https://openalex.org/W2603270557": {
+        "title": "Temporal Information Extraction for Question Answering Using Syntactic Dependencies in an LSTM-based Architecture",
+        "year": 2017
+      },
+      "https://openalex.org/W2027424931": {
+        "title": "Exploring syntactic structured features over parse trees for relation extraction using kernel methods",
+        "year": 2007
+      },
+      "https://openalex.org/W3034497660": {
+        "title": "Learning Latent Forests for Medical Relation Extraction",
+        "year": 2020
+      },
+      "https://openalex.org/W2963653592": {
+        "title": "SEE: Syntax-Aware Entity Embedding for Neural Relation Extraction",
+        "year": 2018
+      },
+      "https://openalex.org/W2997134535": {
+        "title": "Relation Extraction Exploiting Full Dependency Forests",
+        "year": 2020
+      },
+      "https://openalex.org/W1525618684": {
+        "title": "Dependency Tree Kernels for Relation Extraction from Natural Language Text",
+        "year": 2009
+      },
+      "https://openalex.org/W4285138368": {
+        "title": "Improving Relation Extraction through Syntax-induced Pre-training with Dependency Masking",
+        "year": 2022
+      },
+      "https://openalex.org/W3177462832": {
+        "title": "Relation Extraction with Type-aware Map Memories of Word Dependencies",
+        "year": 2021
+      },
+      "https://openalex.org/W1976629384": {
+        "title": "Tree-gram parsing lexical dependencies and structural relations",
+        "year": 2000
+      },
+      "https://openalex.org/W3037339631": {
+        "title": "Joint extraction of entities and relations using graph convolution over pruned dependency trees",
+        "year": 2020
+      },
+      "https://openalex.org/W2963866108": {
+        "title": "Syntax-aware entity representations for neural relation extraction",
+        "year": 2019
+      },
+      "https://openalex.org/W4388336477": {
+        "title": "A Contextual Dependency-Aware Graph Convolutional Network for extracting entity relations",
+        "year": 2022
+      },
+      "https://openalex.org/W4402614667": {
+        "title": "Effective Sentence-Level Relation Extraction Model Using Entity-Centric Dependency Tree",
+        "year": 2022
+      },
+      "https://openalex.org/W4313325360": {
+        "title": "Neural Attentional Relation Extraction with Dual Dependency Trees",
+        "year": 2022
+      },
+      "https://openalex.org/W2952787978": {
+        "title": "Temporal Information Extraction for Question Answering Using Syntactic Dependencies in an LSTM-based Architecture",
+        "year": 2017
+      },
+      "https://openalex.org/W4388971580": {
+        "title": "Joint Entity Relation Extraction Based on LSTM via Attention Mechanism",
+        "year": 2023
+      },
+      "https://openalex.org/W3135098133": {
+        "title": "End-to-end relation extraction based on part of speech syntax tree",
+        "year": 2020
+      },
+      "https://openalex.org/W4281939536": {
+        "title": "On the form of parsed sentences for relation extraction",
+        "year": 2022
+      },
+      "https://openalex.org/W3160844635": {
+        "title": "Incorporating Syntactic Information into Relation Representations for Enhanced Relation Extraction",
+        "year": 2021
+      },
+      "https://openalex.org/W956805140": {
+        "title": "Discovery of Dependency Tree Patterns for Relation Extraction",
+        "year": 2009
+      },
+      "https://openalex.org/W7131780640": {
+        "title": "FCDS: Fusing Constituency and Dependency Syntax into Document-Level Relation Extraction",
+        "year": 2024
+      },
+      "https://openalex.org/W3157453775": {
+        "title": "Dependency tree positional encoding method for relation extraction",
+        "year": 2021
+      },
+      "https://openalex.org/W3204051225": {
+        "title": "Enhancing structure modeling for relation extraction with fine-grained gating and co-attention",
+        "year": 2021
+      },
+      "https://openalex.org/W4297464573": {
+        "title": "Research on Chinese Medical Entity Relation Extraction Based on Syntactic Dependency Structure Information",
+        "year": 2022
+      },
+      "https://openalex.org/W4214822415": {
+        "title": "Simultaneously Learning Syntactic Dependency and Semantics Reasonability for Relation Extraction",
+        "year": 2022
+      },
+      "https://openalex.org/W3161788252": {
+        "title": "Tree-Capsule: Tree-Structured Capsule Network for Improving Relation Extraction",
+        "year": 2021
+      },
+      "https://openalex.org/W3065093797": {
+        "title": "FAT-RE: A faster dependency-free model for relation extraction",
+        "year": 2020
+      },
+      "https://openalex.org/W7134842120": {
+        "title": "Leveraging Syntactic Dependencies and Semantic Embeddings for Enhanced Relation Extraction",
+        "year": 2026
+      },
+      "https://openalex.org/W4385573431": {
+        "title": "Explore Unsupervised Structures in Pretrained Models for Relation Extraction",
+        "year": 2022
+      },
+      "https://openalex.org/W4388680981": {
+        "title": "Semantic Relational Extraction via Learning Syntactic Structural Representation",
+        "year": 2023
+      },
+      "https://openalex.org/W2064675550": {
+        "title": "Long Short-Term Memory",
+        "year": 1997
+      },
+      "https://openalex.org/W2104246439": {
+        "title": "Improved Semantic Representations From Tree-Structured Long Short-Term Memory Networks",
+        "year": 2015
+      },
+      "https://openalex.org/W1501856433": {
+        "title": "A new model for learning in graph domains",
+        "year": 2006
+      },
+      "https://openalex.org/W2099779943": {
+        "title": "SemEval-2010 task 8: multi-way classification of semantic relations between pairs of nominals",
+        "year": 2009
+      },
+      "https://openalex.org/W1990886313": {
+        "title": "SemEval-2007 task 15: TempEval temporal relation identification",
+        "year": 2007
+      },
+      "https://openalex.org/W2058070641": {
+        "title": "Multilingual and cross-domain temporal tagging",
+        "year": 2012
+      },
+      "https://openalex.org/W1551842868": {
+        "title": "Semantic Relation Classification via Convolutional Neural Networks with Simple Negative Sampling",
+        "year": 2015
+      },
+      "https://openalex.org/W2125553157": {
+        "title": "Semi-supervised Relation Extraction with Large-scale Word Clustering",
+        "year": 2011
+      },
+      "https://openalex.org/W2136502946": {
+        "title": "Employing Word Representations and Regularization for Domain Adaptation of Relation Extraction",
+        "year": 2014
+      },
+      "https://openalex.org/W1933365859": {
+        "title": "Exploiting Background Knowledge for Relation Extraction",
+        "year": 2010
+      },
+      "https://openalex.org/W2128536089": {
+        "title": "HLT-FBK: a Complete Temporal Processing System for QA TempEval",
+        "year": 2015
+      },
+      "https://openalex.org/W1514535095": {
+        "title": "Show, Attend and Tell: Neural Image Caption Generation with Visual Attention",
+        "year": 2015
+      },
+      "https://openalex.org/W637153065": {
+        "title": "Deep Convolutional Networks on Graph-Structured Data",
+        "year": 2015
+      },
+      "https://openalex.org/W1838058638": {
+        "title": "Relation Classification via Recurrent Neural Network",
+        "year": 2015
+      },
+      "https://openalex.org/W1571872475": {
+        "title": "TempEval-3: Evaluating Events, Time Expressions, and Temporal Relations",
+        "year": 2012
+      }
+    },
+    "ordering": "All criteria supported, then incomplete evidence, then explicit counter-evidence; similarity breaks ties",
+    "joint_gap": true,
+    "model": "gemini-3.6-flash"
+  },
+  "events": [
+    {
+      "at": "2026-11-25T14:07:27.920316+00:00",
+      "step": "retrieve",
+      "message": "40 candidates from keyword search",
+      "query": "Could you suggest introduces approach relation extraction involves learning syntax dependency structures using tree",
+      "cache_hit": false
+    },
+    {
+      "at": "2026-11-25T14:07:30.844718+00:00",
+      "step": "retrieve",
+      "message": "40 candidates from semantic search",
+      "query": "Could you suggest a paper that introduces an approach to relation extraction that involves learning syntax dependency structures using a tree LSTM model?",
+      "cache_hit": false
+    },
+    {
+      "at": "2026-11-25T14:07:34.002750+00:00",
+      "step": "rank",
+      "message": "Ranked 60 unique candidates",
+      "ranker": "cross-encoder + RRF"
+    },
+    {
+      "at": "2026-11-25T14:07:35.775008+00:00",
+      "step": "citations",
+      "message": "Explored 15 cited works; metadata constraints remain enforced"
+    },
+    {
+      "at": "2026-11-25T14:07:39.012443+00:00",
+      "step": "rank",
+      "message": "Ranked 60 unique candidates",
+      "ranker": "cross-encoder + RRF"
+    },
+    {
+      "at": "2026-11-25T14:07:39.036366+00:00",
+      "step": "evidence",
+      "message": "Assessed top 15 papers; 1 criteria have no supported match",
+      "evidence_basis": "title and abstract only"
+    },
+    {
+      "at": "2026-11-25T14:07:41.482808+00:00",
+      "step": "repair",
+      "message": "Targeted a criterion with no supported match: Could you suggest a paper that introduces an approach to relation extraction that involves learning syntax dependency structures using a tree LSTM model?",
+      "query": "Could you suggest introduces approach relation extraction involves learning syntax dependency structures using tree Could you suggest a paper that introduces an approach to relation extraction that involves learning syntax dependency structures using a tree LSTM model?",
+      "candidates": 40
+    },
+    {
+      "at": "2026-11-25T14:07:44.406413+00:00",
+      "step": "rank",
+      "message": "Ranked 60 unique candidates",
+      "ranker": "cross-encoder + RRF"
+    },
+    {
+      "at": "2026-11-25T14:07:44.419956+00:00",
+      "step": "evidence",
+      "message": "Assessed top 15 papers; 1 criteria have no supported match",
+      "evidence_basis": "title and abstract only"
+    },
+    {
+      "at": "2026-11-25T14:07:44.452905+00:00",
+      "step": "complete",
+      "message": "Returned 30 papers with provenance and exportable evidence"
+    },
+    {
+      "at": "2026-11-25T14:07:44.477193+00:00",
+      "step": "timing",
+      "message": "Search finished",
+      "elapsed_seconds": 19.19
+    }
+  ],
+  "feedback": {},
+  "task": {
+    "id": "litsearch-35",
+    "question": "Could you suggest a paper that introduces an approach to relation extraction that involves learning syntax dependency structures using a tree LSTM model?",
+    "gold_titles": [
+      "Improved Semantic Representations From Tree-Structured Long Short-Term Memory Networks"
+    ],
+    "gold_corpusids": [
+      3033526
+    ],
+    "query_set": "inline_acl"
+  },
+  "end_to_end_seconds": 20.14
+}

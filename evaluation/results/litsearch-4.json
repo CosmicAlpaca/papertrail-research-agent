@@ -1,0 +1,2817 @@
+{
+  "id": "1283c5f8-4ebc-4d06-a764-d263c8005aae",
+  "created_at": "2026-11-25T14:08:57.829439+00:00",
+  "status": "complete",
+  "request": {
+    "plan": {
+      "question": "Are there papers that propose contextualized calibration for the probability of answers in language models?",
+      "queries": [
+        "Are there propose contextualized calibration probability answers language models"
+      ],
+      "criteria": [
+        {
+          "id": "c1",
+          "text": "Are there papers that propose contextualized calibration for the probability of answers in language models?"
+        }
+      ],
+      "year_from": null,
+      "year_to": null,
+      "open_access": false,
+      "mode": "diligent",
+      "planner": "reviewable rule-based plan; hosted model unavailable"
+    },
+    "rerank": true,
+    "repair": true
+  },
+  "result": {
+    "papers": [
+      {
+        "id": "https://openalex.org/W4412889763",
+        "title": "Language Model Probabilities are Not Calibrated in Numeric Contexts",
+        "doi": "https://doi.org/10.18653/v1/2025.acl-long.1417",
+        "year": 2025,
+        "abstract": "Some statements have one well-defined continuation (e.g., “the Eiffel Tower is in [ Paris ]\"), whereas others have a natural distribution over multiple options (e.g., “the weighted coin flip was [ Heads/Tails ].\") We argue that language model (LM) outputs should capture these natural distributions. Our work specifically tests whether LM output probabilities are calibrated to numeric information within their textual contexts. For example, if the context (the prompt) concerns two equally likely options (e.g., heads or tails for a fair coin), the LM output probabilities should also be equal. Likewise, in a context with nonuniformly likely events (e.g., rolling a pair with two dice) an LM should output proportionate probabilities. However, we find that even in simple settings, the best LMs (1) are poorly calibrated and (2) have systematic biases: artifacts like word identity, word order, and word frequency all impact calibration. For example, ‘gpt-4o-mini‘ often picks the first of two options presented in the prompt regardless of the options’ implied likelihoods, whereas ‘Llama-3.1-8B‘ picks the second. Models do not allocate probability mass among valid options in a calibrated manner.",
+        "authors": [
+          "Charles Lovering",
+          "Michael Krumdick",
+          "Viet Dac Lai",
+          "Varshini Reddy",
+          "Seth Ebner",
+          "Nilesh Kumar",
+          "Rik Koncel-Kedziorski",
+          "Chris Tanner"
+        ],
+        "venue": "Proceedings of the conference - Association for Computational Linguistics. Meeting",
+        "citations": 23,
+        "open_access": true,
+        "url": "https://doi.org/10.18653/v1/2025.acl-long.1417",
+        "pdf_url": "https://aclanthology.org/2025.acl-long.1417.pdf",
+        "references": [],
+        "retracted": false,
+        "provenance": [
+          "keyword: Are there propose contextualized calibration probability answers language models",
+          "semantic: Are there papers that propose contextualized calibration for the probability of answers in language models?",
+          "coverage repair: Are there papers that propose contextualized calibration for the probability of answers in language models?"
+        ],
+        "criteria": [
+          {
+            "criterion_id": "c1",
+            "status": "uncertain",
+            "quote": "",
+            "quote_verified": false,
+            "reason": "Insufficient source evidence; full-paper verification may be needed."
+          }
+        ],
+        "rrf": 0.07881996731785823,
+        "aliases": [
+          "https://openalex.org/W4412889763",
+          "https://openalex.org/W4404089115"
+        ],
+        "neural_score": 2.34708,
+        "score": 0.93016
+      },
+      {
+        "id": "https://openalex.org/W7224416023",
+        "title": "Bag-of-Tokens Tuning: Calibrating LLM Logits with Contextual Probabilities",
+        "doi": "https://doi.org/10.18653/2026.emnlp-main.1592",
+        "year": 2026,
+        "abstract": "Token probabilities play a central role in large language models. However, these probabilities often fail to reflect either answer correctness or probability distributions explicitly specified in the context. We attribute this failure to the **Context-Logit Probability Gap**: contextual probabilities are not reliably reflected in the model’s next-token logits. We show that post-hoc temperature scaling has a limited effect on addressing this gap, because it rescales logits without correcting erroneous probability rankings. Motivated by this, we propose Bag-of-Tokens (BoT) tuning, a very simple fine-tuning approach that directly calibrates the logits with the probability distribution conveyed by synthetic contexts. More specifically, we construct BoT examples by forming a bag of candidate tokens with an explicitly assigned probability distribution. This distribution is expressed in the context and used as soft supervision to align the model’s logit probabilities via KL-divergence minimization. Experiments show that BoT tuning generalizes to LLM-based sampling tasks, such as random-number generation, and improves downstream QA accuracy and calibration. These results suggest that calibrating LLM logits with contextual probabilities provides a lightweight and effective way to enhance their uncertainty awareness.",
+        "authors": [
+          "Chen-Meng Qiu",
+          "Zehao Wang",
+          "Deng-Bao Wang",
+          "Linan Yue",
+          "Min-Ling Zhang"
+        ],
+        "venue": "Conference on Empirical Methods in Natural Language Processing (EMNLP)",
+        "citations": 0,
+        "open_access": true,
+        "url": "https://doi.org/10.18653/2026.emnlp-main.1592",
+        "pdf_url": "https://aclanthology.org/2026.emnlp-main.1592.pdf",
+        "references": [
+          "https://openalex.org/W1965555277",
+          "https://openalex.org/W1997161938",
+          "https://openalex.org/W2606964149",
+          "https://openalex.org/W2626967530",
+          "https://openalex.org/W2794325560",
+          "https://openalex.org/W2798280648",
+          "https://openalex.org/W2804697534",
+          "https://openalex.org/W2946609015",
+          "https://openalex.org/W2946659172",
+          "https://openalex.org/W2963995027",
+          "https://openalex.org/W3034643750",
+          "https://openalex.org/W3083410900",
+          "https://openalex.org/W3138392969",
+          "https://openalex.org/W3210904070",
+          "https://openalex.org/W3213979450",
+          "https://openalex.org/W4221161695",
+          "https://openalex.org/W4223908421",
+          "https://openalex.org/W4320003957",
+          "https://openalex.org/W4321594373",
+          "https://openalex.org/W4387561528",
+          "https://openalex.org/W4389518686",
+          "https://openalex.org/W4399354223",
+          "https://openalex.org/W4401043020",
+          "https://openalex.org/W4401248645",
+          "https://openalex.org/W4401306886",
+          "https://openalex.org/W4402670561",
+          "https://openalex.org/W4404781926",
+          "https://openalex.org/W4404782267",
+          "https://openalex.org/W4411119566",
+          "https://openalex.org/W4412889763",
+          "https://openalex.org/W4412945633",
+          "https://openalex.org/W4414281281",
+          "https://openalex.org/W4414939355",
+          "https://openalex.org/W4415328777",
+          "https://openalex.org/W4417309031",
+          "https://openalex.org/W7133215491",
+          "https://openalex.org/W7133236450",
+          "https://openalex.org/W7153215965"
+        ],
+        "retracted": false,
+        "provenance": [
+          "keyword: Are there propose contextualized calibration probability answers language models",
+          "semantic: Are there papers that propose contextualized calibration for the probability of answers in language models?",
+          "coverage repair: Are there papers that propose contextualized calibration for the probability of answers in language models?"
+        ],
+        "criteria": [
+          {
+            "criterion_id": "c1",
+            "status": "uncertain",
+            "quote": "",
+            "quote_verified": false,
+            "reason": "Insufficient source evidence; full-paper verification may be needed."
+          }
+        ],
+        "rrf": 0.0372252240031952,
+        "aliases": [
+          "https://openalex.org/W7224416023"
+        ],
+        "neural_score": 4.03454,
+        "score": 0.88055
+      },
+      {
+        "id": "https://openalex.org/W4285139078",
+        "title": "Answer-level Calibration for Free-form Multiple Choice Question Answering",
+        "doi": "https://doi.org/10.18653/v1/2022.acl-long.49",
+        "year": 2022,
+        "abstract": "Pre-trained language models have recently shown that training on large corpora using the language modeling objective enables few-shot and zero-shot capabilities on a variety of NLP tasks, including commonsense reasoning tasks. This is achieved using text interactions with the model, usually by posing the task as a natural language text completion problem. While using language model probabilities to obtain task specific scores has been generally useful, it often requires task-specific heuristics such as length normalization, or probability calibration. In this work, we consider the question answering format, where we need to choose from a set of (free-form) textual choices of unspecified lengths given a context. We present ALC (Answer-Level Calibration), where our main suggestion is to model context-independent biases in terms of the probability of a choice without the associated context and to subsequently remove it using an unsupervised estimate of similarity with the full context. We show that our unsupervised answer-level calibration consistently improves over or is competitive with baselines using standard evaluation metrics on a variety of tasks including commonsense reasoning tasks. Further, we show that popular datasets potentially favor models biased towards easy cues which are available independent of the context. We analyze such biases using an associated F1-score. Our analysis indicates that answer-level calibration is able to remove such biases and leads to a more robust measure of model capability.",
+        "authors": [
+          "Sawan Kumar"
+        ],
+        "venue": "Proceedings of the conference - Association for Computational Linguistics. Meeting",
+        "citations": 29,
+        "open_access": true,
+        "url": "https://doi.org/10.18653/v1/2022.acl-long.49",
+        "pdf_url": "https://aclanthology.org/2022.acl-long.49.pdf",
+        "references": [
+          "https://openalex.org/W95183648",
+          "https://openalex.org/W2016089260",
+          "https://openalex.org/W2626967530",
+          "https://openalex.org/W2794325560",
+          "https://openalex.org/W2886424491",
+          "https://openalex.org/W2912904516",
+          "https://openalex.org/W2936262349",
+          "https://openalex.org/W2963341956",
+          "https://openalex.org/W2963995027",
+          "https://openalex.org/W2971236147",
+          "https://openalex.org/W2979826702",
+          "https://openalex.org/W2989588035",
+          "https://openalex.org/W2991382858",
+          "https://openalex.org/W2996908057",
+          "https://openalex.org/W3002104146",
+          "https://openalex.org/W3015773279",
+          "https://openalex.org/W3030163527",
+          "https://openalex.org/W3035131109",
+          "https://openalex.org/W3110683067",
+          "https://openalex.org/W3157005959",
+          "https://openalex.org/W3169130206",
+          "https://openalex.org/W3199958362"
+        ],
+        "retracted": false,
+        "provenance": [
+          "keyword: Are there propose contextualized calibration probability answers language models",
+          "semantic: Are there papers that propose contextualized calibration for the probability of answers in language models?",
+          "coverage repair: Are there papers that propose contextualized calibration for the probability of answers in language models?"
+        ],
+        "criteria": [
+          {
+            "criterion_id": "c1",
+            "status": "uncertain",
+            "quote": "",
+            "quote_verified": false,
+            "reason": "Insufficient source evidence; full-paper verification may be needed."
+          }
+        ],
+        "rrf": 0.03959752435362192,
+        "aliases": [
+          "https://openalex.org/W4285139078"
+        ],
+        "neural_score": 3.41004,
+        "score": 0.87489
+      },
+      {
+        "id": "https://openalex.org/W4403345399",
+        "title": "Calibrating Verbalized Probabilities for Large Language Models",
+        "doi": "https://doi.org/10.48550/arxiv.2410.06707",
+        "year": 2024,
+        "abstract": "Calibrating verbalized probabilities presents a novel approach for reliably assessing and leveraging outputs from black-box Large Language Models (LLMs). Recent methods have demonstrated improved calibration by applying techniques like Platt scaling or temperature scaling to the confidence scores generated by LLMs. In this paper, we explore the calibration of verbalized probability distributions for discriminative tasks. First, we investigate the capability of LLMs to generate probability distributions over categorical labels. We theoretically and empirically identify the issue of re-softmax arising from the scaling of verbalized probabilities, and propose using the invert softmax trick to approximate the \"logit\" by inverting verbalized probabilities. Through extensive evaluation on three public datasets, we demonstrate: (1) the robust capability of LLMs in generating class distributions, and (2) the effectiveness of the invert softmax trick in estimating logits, which, in turn, facilitates post-calibration adjustments.",
+        "authors": [
+          "Cheng Wang",
+          "Gyuri Szarvas",
+          "Balazs, Georges",
+          "Pavel Danchenko",
+          "Patrick Erñst"
+        ],
+        "venue": "arXiv",
+        "citations": 33,
+        "open_access": true,
+        "url": "https://doi.org/10.48550/arxiv.2410.06707",
+        "pdf_url": "https://arxiv.org/pdf/2410.06707",
+        "references": [
+          "https://openalex.org/W321037060",
+          "https://openalex.org/W1618905105",
+          "https://openalex.org/W2113459411",
+          "https://openalex.org/W2254249950",
+          "https://openalex.org/W2547875792",
+          "https://openalex.org/W2594021297",
+          "https://openalex.org/W2626967530",
+          "https://openalex.org/W2788353357",
+          "https://openalex.org/W2804697534",
+          "https://openalex.org/W2891575196",
+          "https://openalex.org/W2912168444",
+          "https://openalex.org/W2914144864",
+          "https://openalex.org/W2963351448",
+          "https://openalex.org/W2970206392",
+          "https://openalex.org/W3082115681",
+          "https://openalex.org/W3100460087",
+          "https://openalex.org/W3107734508",
+          "https://openalex.org/W3132736064",
+          "https://openalex.org/W3170360335",
+          "https://openalex.org/W4225680488",
+          "https://openalex.org/W4281748205",
+          "https://openalex.org/W4285787685",
+          "https://openalex.org/W4327810158",
+          "https://openalex.org/W4385572438",
+          "https://openalex.org/W4385965153",
+          "https://openalex.org/W4386555476",
+          "https://openalex.org/W4387561528",
+          "https://openalex.org/W4389518686",
+          "https://openalex.org/W4390873113",
+          "https://openalex.org/W4392230073",
+          "https://openalex.org/W4402671157",
+          "https://openalex.org/W7055216282",
+          "https://openalex.org/W7126404575",
+          "https://openalex.org/W7133208539",
+          "https://openalex.org/W7225208346"
+        ],
+        "retracted": false,
+        "provenance": [
+          "keyword: Are there propose contextualized calibration probability answers language models",
+          "semantic: Are there papers that propose contextualized calibration for the probability of answers in language models?",
+          "coverage repair: Are there papers that propose contextualized calibration for the probability of answers in language models?"
+        ],
+        "criteria": [
+          {
+            "criterion_id": "c1",
+            "status": "uncertain",
+            "quote": "",
+            "quote_verified": false,
+            "reason": "Insufficient source evidence; full-paper verification may be needed."
+          }
+        ],
+        "rrf": 0.0393028024606972,
+        "aliases": [
+          "https://openalex.org/W4403345399"
+        ],
+        "neural_score": 3.28147,
+        "score": 0.87076
+      },
+      {
+        "id": "https://openalex.org/W3199958362",
+        "title": "How Can We Know When Language Models Know? On the Calibration of Language Models for Question Answering",
+        "doi": "https://doi.org/10.1162/tacl_a_00407",
+        "year": 2021,
+        "abstract": "Recent works have shown that language models (LM) capture different types of knowledge regarding facts or common sense. However, because no model is perfect, they still fail to provide appropriate answers in many cases. In this paper, we ask the question, “How can we know when language models know, with confidence, the answer to a particular query?” We examine this question from the point of view of calibration, the property of a probabilistic model’s predicted probabilities actually being well correlated with the probabilities of correctness. We examine three strong generative models—T5, BART, and GPT-2—and study whether their probabilities on QA tasks are well calibrated, finding the answer is a relatively emphatic no. We then examine methods to calibrate such models to make their confidence scores correlate better with the likelihood of correctness through fine-tuning, post-hoc probability modification, or adjustment of the predicted outputs or inputs. Experiments on a diverse range of datasets demonstrate the effectiveness of our methods. We also perform analysis to study the strengths and limitations of these methods, shedding light on further improvements that may be made in methods for calibrating LMs. We have released the code at https://github.com/jzbjyb/lm-calibration.",
+        "authors": [
+          "Zhengbao Jiang",
+          "Jun Araki",
+          "Haibo Ding",
+          "Graham Neubig"
+        ],
+        "venue": "Transactions of the Association for Computational Linguistics",
+        "citations": 749,
+        "open_access": true,
+        "url": "https://doi.org/10.1162/tacl_a_00407",
+        "pdf_url": "https://direct.mit.edu/tacl/article-pdf/doi/10.1162/tacl_a_00407/1962628/tacl_a_00407.pdf",
+        "references": [
+          "https://openalex.org/W1618905105",
+          "https://openalex.org/W2061271742",
+          "https://openalex.org/W2112796928",
+          "https://openalex.org/W2125436846",
+          "https://openalex.org/W2137556846",
+          "https://openalex.org/W2140679639",
+          "https://openalex.org/W2194775991",
+          "https://openalex.org/W2295598076",
+          "https://openalex.org/W2557764419",
+          "https://openalex.org/W2606964149",
+          "https://openalex.org/W2626778328",
+          "https://openalex.org/W2626967530",
+          "https://openalex.org/W2768927604",
+          "https://openalex.org/W2790319220",
+          "https://openalex.org/W2794325560",
+          "https://openalex.org/W2798280648",
+          "https://openalex.org/W2804815760",
+          "https://openalex.org/W2805206884",
+          "https://openalex.org/W2806311723",
+          "https://openalex.org/W2889317799",
+          "https://openalex.org/W2890894339",
+          "https://openalex.org/W2936262349",
+          "https://openalex.org/W2945290257",
+          "https://openalex.org/W2946359678",
+          "https://openalex.org/W2946417913",
+          "https://openalex.org/W2950339735",
+          "https://openalex.org/W2962985038",
+          "https://openalex.org/W2963323070",
+          "https://openalex.org/W2963341956",
+          "https://openalex.org/W2963675284",
+          "https://openalex.org/W2963748441",
+          "https://openalex.org/W2963995027",
+          "https://openalex.org/W2968154628",
+          "https://openalex.org/W2970295111",
+          "https://openalex.org/W2970476646",
+          "https://openalex.org/W2974596953",
+          "https://openalex.org/W2981852735",
+          "https://openalex.org/W2981876780",
+          "https://openalex.org/W2982399380",
+          "https://openalex.org/W2987553933"
+        ],
+        "retracted": false,
+        "provenance": [
+          "semantic: Are there papers that propose contextualized calibration for the probability of answers in language models?",
+          "coverage repair: Are there papers that propose contextualized calibration for the probability of answers in language models?"
+        ],
+        "criteria": [
+          {
+            "criterion_id": "c1",
+            "status": "uncertain",
+            "quote": "",
+            "quote_verified": false,
+            "reason": "Insufficient source evidence; full-paper verification may be needed."
+          }
+        ],
+        "rrf": 0.03278688524590164,
+        "aliases": [
+          "https://openalex.org/W3199958362"
+        ],
+        "neural_score": 2.89105,
+        "score": 0.84112
+      },
+      {
+        "id": "https://openalex.org/W7223930791",
+        "title": "Each Insufficient in Its Own Way: Calibrating Language Models Across Varying Evidence States",
+        "doi": "https://doi.org/10.48550/arxiv.2610.33237",
+        "year": 2026,
+        "abstract": "How can a language model know whether it has enough evidence to answer? Language models tend to answer even when the evidence they have is insufficient. Deciding whether to answer or gather more evidence requires a calibrated estimate of how likely an answer is to be correct with the available evidence. However, most calibration work treats the input as fixed, without asking how this estimate should change with the evidence. We introduce evidence-state calibration, which requires a model's confidence before answering to match its probability of answering correctly and to change accordingly whenever the evidence changes this probability. We propose SuffiCE (Sufficiency Confidence Estimation), which fine-tunes the confidence already present in a model's next-token distribution to match how often the model answers correctly from each evidence state. Across clinical diagnosis and multi-hop question answering with four models from two families, SuffiCE reduces the Brier score by up to 60% and increases AUROC by up to 0.16. Its confidence matches the empirical success rate and responds not only to the amount of evidence but also to which evidence is present, showing that models can learn to judge whether their current evidence is enough to answer.",
+        "authors": [
+          "Jiayi Li",
+          "Dennis Legen Shung",
+          "Bradly C. Stadie"
+        ],
+        "venue": "arXiv",
+        "citations": 0,
+        "open_access": true,
+        "url": "https://doi.org/10.48550/arxiv.2610.33237",
+        "pdf_url": "https://arxiv.org/pdf/2610.33237",
+        "references": [
+          "https://openalex.org/W1618905105",
+          "https://openalex.org/W2025720061",
+          "https://openalex.org/W2626967530",
+          "https://openalex.org/W2963323070",
+          "https://openalex.org/W2964121744",
+          "https://openalex.org/W3162922479",
+          "https://openalex.org/W3168867926",
+          "https://openalex.org/W3190126809",
+          "https://openalex.org/W4285429195",
+          "https://openalex.org/W4385571050",
+          "https://openalex.org/W4387800173",
+          "https://openalex.org/W4389518686",
+          "https://openalex.org/W4389518688",
+          "https://openalex.org/W4389519118",
+          "https://openalex.org/W4400324908",
+          "https://openalex.org/W4401042444",
+          "https://openalex.org/W4404390869",
+          "https://openalex.org/W4409218928",
+          "https://openalex.org/W4411934268",
+          "https://openalex.org/W4414427575",
+          "https://openalex.org/W4415796703",
+          "https://openalex.org/W4417258166",
+          "https://openalex.org/W6891889810",
+          "https://openalex.org/W7055216282",
+          "https://openalex.org/W7083814847",
+          "https://openalex.org/W7140097521",
+          "https://openalex.org/W7156104865",
+          "https://openalex.org/W7166832105",
+          "https://openalex.org/W7166850325"
+        ],
+        "retracted": false,
+        "provenance": [
+          "semantic: Are there papers that propose contextualized calibration for the probability of answers in language models?",
+          "coverage repair: Are there papers that propose contextualized calibration for the probability of answers in language models?"
+        ],
+        "criteria": [
+          {
+            "criterion_id": "c1",
+            "status": "uncertain",
+            "quote": "",
+            "quote_verified": false,
+            "reason": "Insufficient source evidence; full-paper verification may be needed."
+          }
+        ],
+        "rrf": 0.02075268817204301,
+        "aliases": [
+          "https://openalex.org/W7223930791"
+        ],
+        "neural_score": 4.13086,
+        "score": 0.84001
+      },
+      {
+        "id": "https://openalex.org/W7126433453",
+        "title": "Calibration-Tuning: Teaching Large Language Models to Know What They Don’t Know",
+        "doi": "https://doi.org/10.18653/v1/2024.uncertainlp-1.1",
+        "year": 2024,
+        "abstract": "Large language models are increasingly deployed for high-stakes decision making, for example in financial and medical applications. In such applications, it is imperative that we be able to estimate our confidence in the answers output by a language model in order to assess risks. Although we can easily compute the probability assigned by a language model to the sequence of tokens that make up an answer, we cannot easily compute the probability of the answer itself, which could be phrased in numerous ways.While other works have engineered ways of assigning such probabilities to LLM outputs, a key problem remains: existing language models are poorly calibrated, often confident when they are wrong or unsure when they are correct. In this work, we devise a protocol called *calibration tuning* for finetuning LLMs to output calibrated probabilities. Calibration-tuned models demonstrate superior calibration performance compared to existing language models on a variety of question-answering tasks, including open-ended generation, without affecting accuracy. We further show that this ability transfers to new domains outside of the calibration-tuning train set.",
+        "authors": [
+          "Sanyam Kapoor",
+          "Nate Gruver",
+          "Manley Roberts",
+          "Arka Pal",
+          "Samuel Dooley",
+          "Micah Goldblum",
+          "Andrew J. Wilson"
+        ],
+        "venue": "Workshop on Uncertainty-Aware NLP (UncertaiNLP)",
+        "citations": 82,
+        "open_access": true,
+        "url": "https://doi.org/10.18653/v1/2024.uncertainlp-1.1",
+        "pdf_url": "https://aclanthology.org/2024.uncertainlp-1.1.pdf",
+        "references": [
+          "https://openalex.org/W1618905105",
+          "https://openalex.org/W2165363188",
+          "https://openalex.org/W2254249950",
+          "https://openalex.org/W2626967530",
+          "https://openalex.org/W2794325560",
+          "https://openalex.org/W2890894339",
+          "https://openalex.org/W2898695519",
+          "https://openalex.org/W2951939640",
+          "https://openalex.org/W2953271402",
+          "https://openalex.org/W2970206392",
+          "https://openalex.org/W2970780738",
+          "https://openalex.org/W2970971581",
+          "https://openalex.org/W2979826702",
+          "https://openalex.org/W2981852735",
+          "https://openalex.org/W3007260230",
+          "https://openalex.org/W3026404337",
+          "https://openalex.org/W3030163527",
+          "https://openalex.org/W3035131109",
+          "https://openalex.org/W3083410900",
+          "https://openalex.org/W3132736064",
+          "https://openalex.org/W3168867926",
+          "https://openalex.org/W3170360335",
+          "https://openalex.org/W3198002980",
+          "https://openalex.org/W3199958362",
+          "https://openalex.org/W4281748205",
+          "https://openalex.org/W4285787204",
+          "https://openalex.org/W4321594373",
+          "https://openalex.org/W4322718191",
+          "https://openalex.org/W4327810158",
+          "https://openalex.org/W4385571050",
+          "https://openalex.org/W4389523793",
+          "https://openalex.org/W4401043371"
+        ],
+        "retracted": false,
+        "provenance": [
+          "keyword: Are there propose contextualized calibration probability answers language models",
+          "semantic: Are there papers that propose contextualized calibration for the probability of answers in language models?",
+          "coverage repair: Are there papers that propose contextualized calibration for the probability of answers in language models?"
+        ],
+        "criteria": [
+          {
+            "criterion_id": "c1",
+            "status": "uncertain",
+            "quote": "",
+            "quote_verified": false,
+            "reason": "Insufficient source evidence; full-paper verification may be needed."
+          }
+        ],
+        "rrf": 0.044425019425019426,
+        "aliases": [
+          "https://openalex.org/W7126433453"
+        ],
+        "neural_score": 2.28122,
+        "score": 0.83857
+      },
+      {
+        "id": "https://openalex.org/W7162674038",
+        "title": "Same Answer, Different Confidence: Protocol Sensitivity in LLM Confidence Calibration",
+        "doi": "https://doi.org/10.48550/arxiv.2605.27752",
+        "year": 2026,
+        "abstract": "Large language models (LLM) can state their confidence in an answer (verbalized confidence), or the confidence can be read from the probability of the answer's tokens (token confidence). Comparisons of the two ask which is better calibrated, but the token probability of an answer depends on the text that precedes it. Across five open LLMs and four question-answering datasets, we fix each answer, its verbalized confidence, and its correctness label, and vary how each score is measured. The scores themselves change with the protocol, and so does the comparison between them. Changing the context in which the token probability is read shifts the gap between the two scores by about the size of the gap itself (.287 vs. .304 in expected calibration error, ECE; .189 vs. .145 in AUROC). The 95% interval of the shift excludes zero in 19 and 17 of the 20 settings, and under AUROC the shift has the same sign in all of them, so the context changes how answers are ranked. The better score flips in 8 settings under each metric, counting only flips that the intervals support, and the shift also appears in four larger models of up to 72B parameters. Most of the shift appears with changes to the instruction, not to the position of the answer. Other measurement choices also matter, and stated confidence depends on how a supplied answer is written. We turn these results into a reporting checklist for LLM confidence and its comparisons.",
+        "authors": [
+          "Hankyeol Kim",
+          "Pilsung Kang"
+        ],
+        "venue": "arXiv",
+        "citations": 13,
+        "open_access": true,
+        "url": "https://doi.org/10.48550/arxiv.2605.27752",
+        "pdf_url": "https://arxiv.org/pdf/2605.27752",
+        "references": [
+          "https://openalex.org/W2612431505",
+          "https://openalex.org/W2626967530",
+          "https://openalex.org/W2738674657",
+          "https://openalex.org/W2942810103",
+          "https://openalex.org/W2969338701",
+          "https://openalex.org/W2990037398",
+          "https://openalex.org/W3012209028",
+          "https://openalex.org/W3012254281",
+          "https://openalex.org/W3083410900",
+          "https://openalex.org/W3111643701",
+          "https://openalex.org/W3132736064",
+          "https://openalex.org/W3162152610",
+          "https://openalex.org/W3201174429",
+          "https://openalex.org/W4281748205",
+          "https://openalex.org/W4285429195",
+          "https://openalex.org/W4290994954",
+          "https://openalex.org/W4386977962",
+          "https://openalex.org/W4387561528",
+          "https://openalex.org/W4389518686",
+          "https://openalex.org/W4401042444",
+          "https://openalex.org/W4401306886",
+          "https://openalex.org/W4404783656",
+          "https://openalex.org/W4405630972",
+          "https://openalex.org/W4409363988",
+          "https://openalex.org/W4416046464",
+          "https://openalex.org/W7055216282",
+          "https://openalex.org/W7134981730"
+        ],
+        "retracted": false,
+        "provenance": [
+          "semantic: Are there papers that propose contextualized calibration for the probability of answers in language models?",
+          "coverage repair: Are there papers that propose contextualized calibration for the probability of answers in language models?"
+        ],
+        "criteria": [
+          {
+            "criterion_id": "c1",
+            "status": "uncertain",
+            "quote": "",
+            "quote_verified": false,
+            "reason": "Insufficient source evidence; full-paper verification may be needed."
+          }
+        ],
+        "rrf": 0.02532051282051282,
+        "aliases": [
+          "https://openalex.org/W7162674038"
+        ],
+        "neural_score": 2.95483,
+        "score": 0.82464
+      },
+      {
+        "id": "https://openalex.org/W4403345305",
+        "title": "QA-Calibration of Language Model Confidence Scores",
+        "doi": "https://doi.org/10.48550/arxiv.2410.06615",
+        "year": 2025,
+        "abstract": "To use generative question-and-answering (QA) systems for decision-making and in any critical application, these systems need to provide well-calibrated confidence scores that reflect the correctness of their answers. Existing calibration methods aim to ensure that the confidence score is, *on average*, indicative of the likelihood that the answer is correct. We argue, however, that this standard (average-case) notion of calibration is difficult to interpret for decision-making in generative QA. To address this, we generalize the standard notion of average calibration and introduce QA-calibration, which ensures calibration holds across different question-and-answer groups. We then propose discretized posthoc calibration schemes for achieving QA-calibration. We establish distribution-free guarantees on the performance of this method and validate our method on confidence scores returned by elicitation prompts across multiple QA benchmarks and large language models (LLMs).",
+        "authors": [
+          "Putra Manggala",
+          "Atalanti A. Mastakouri",
+          "Elke Kirschbaum",
+          "Shiva Prasad Kasiviswanathan",
+          "Aaditya Ramdas"
+        ],
+        "venue": "International Conference on Learning Representations",
+        "citations": 14,
+        "open_access": true,
+        "url": "https://doi.org/10.48550/arxiv.2410.06615",
+        "pdf_url": "https://proceedings.iclr.cc/paper_files/paper/2025/file/cd96cb9a239c37b39dbf34f3f5a4c56f-Paper-Conference.pdf",
+        "references": [
+          "https://openalex.org/W1598033630",
+          "https://openalex.org/W1618905105",
+          "https://openalex.org/W2016136817",
+          "https://openalex.org/W2073241381",
+          "https://openalex.org/W2101946573",
+          "https://openalex.org/W2130715829",
+          "https://openalex.org/W2165558283",
+          "https://openalex.org/W2500845915",
+          "https://openalex.org/W2612431505",
+          "https://openalex.org/W2626967530",
+          "https://openalex.org/W2738674657",
+          "https://openalex.org/W2890894339",
+          "https://openalex.org/W2950813464",
+          "https://openalex.org/W2978017171",
+          "https://openalex.org/W3035441651",
+          "https://openalex.org/W3036592307",
+          "https://openalex.org/W3121904249",
+          "https://openalex.org/W3162152610",
+          "https://openalex.org/W4224308101",
+          "https://openalex.org/W4281690148",
+          "https://openalex.org/W4281748205",
+          "https://openalex.org/W4285429195",
+          "https://openalex.org/W4287324973",
+          "https://openalex.org/W4290994954",
+          "https://openalex.org/W4321594373",
+          "https://openalex.org/W4327810158",
+          "https://openalex.org/W4387561528",
+          "https://openalex.org/W4387799916",
+          "https://openalex.org/W4389518686",
+          "https://openalex.org/W4392822465",
+          "https://openalex.org/W4393300140",
+          "https://openalex.org/W4394652919",
+          "https://openalex.org/W4401306886",
+          "https://openalex.org/W4402671157",
+          "https://openalex.org/W4404534210",
+          "https://openalex.org/W4406679533",
+          "https://openalex.org/W4409363988",
+          "https://openalex.org/W7055216282"
+        ],
+        "retracted": false,
+        "provenance": [
+          "keyword: Are there propose contextualized calibration probability answers language models",
+          "coverage repair: Are there papers that propose contextualized calibration for the probability of answers in language models?"
+        ],
+        "criteria": [
+          {
+            "criterion_id": "c1",
+            "status": "uncertain",
+            "quote": "",
+            "quote_verified": false,
+            "reason": "Insufficient source evidence; full-paper verification may be needed."
+          }
+        ],
+        "rrf": 0.0251414204902577,
+        "aliases": [
+          "https://openalex.org/W4403345305"
+        ],
+        "neural_score": 2.89897,
+        "score": 0.82203
+      },
+      {
+        "id": "https://openalex.org/W4389524305",
+        "title": "Selectively Answering Ambiguous Questions",
+        "doi": "https://doi.org/10.18653/v1/2023.emnlp-main.35",
+        "year": 2023,
+        "abstract": "Trustworthy language models should abstain from answering questions when they do not know the answer. However, the answer to a question can be unknown for a variety of reasons. Prior research has focused on the case in which the question is clear and the answer is unambiguous but possibly unknown. However, the answer to a question can also be unclear due to uncertainty of the questioner’s intent or context. We investigate question answering from this perspective, focusing on answering a subset of questions with a high degree of accuracy, from a set of questions in which many are inherently ambiguous. In this setting, we find that the most reliable approach to calibration involves quantifying repetition within a set of sampled model outputs, rather than the model’s likelihood or self-verification as used in prior work. We find this to be the case across different types of uncertainty, varying model scales and both with or without instruction tuning. Our results suggest that sampling-based confidence scores help calibrate answers to relatively unambiguous questions, with more dramatic improvements on ambiguous questions.",
+        "authors": [
+          "Jeremy R. Cole",
+          "Michael Zhang",
+          "Daniel Gillick",
+          "Julian Martin Eisenschlos",
+          "Bhuwan Dhingra",
+          "Jacob Eisenstein"
+        ],
+        "venue": "Conference on Empirical Methods in Natural Language Processing (EMNLP)",
+        "citations": 187,
+        "open_access": true,
+        "url": "https://doi.org/10.18653/v1/2023.emnlp-main.35",
+        "pdf_url": "https://aclanthology.org/2023.emnlp-main.35.pdf",
+        "references": [
+          "https://openalex.org/W2086512485",
+          "https://openalex.org/W2101946573",
+          "https://openalex.org/W2147947791",
+          "https://openalex.org/W2163274265",
+          "https://openalex.org/W2188631158",
+          "https://openalex.org/W2612431505",
+          "https://openalex.org/W2626967530",
+          "https://openalex.org/W2912924812",
+          "https://openalex.org/W2918914336",
+          "https://openalex.org/W2938704169",
+          "https://openalex.org/W2947497897",
+          "https://openalex.org/W2963096510",
+          "https://openalex.org/W2963675284",
+          "https://openalex.org/W3012209028",
+          "https://openalex.org/W3020264409",
+          "https://openalex.org/W3034257552",
+          "https://openalex.org/W3035441651",
+          "https://openalex.org/W3100292568",
+          "https://openalex.org/W3156470785",
+          "https://openalex.org/W3173591450",
+          "https://openalex.org/W3186948595",
+          "https://openalex.org/W3199421823",
+          "https://openalex.org/W3199958362",
+          "https://openalex.org/W3212699349",
+          "https://openalex.org/W4221161695",
+          "https://openalex.org/W4224308101",
+          "https://openalex.org/W4281748205",
+          "https://openalex.org/W4285244630",
+          "https://openalex.org/W4285298351",
+          "https://openalex.org/W4285429195",
+          "https://openalex.org/W4300980582",
+          "https://openalex.org/W4307079201",
+          "https://openalex.org/W4311726857",
+          "https://openalex.org/W4317897818",
+          "https://openalex.org/W4321594373",
+          "https://openalex.org/W4378945636",
+          "https://openalex.org/W4385572714",
+          "https://openalex.org/W4385573392",
+          "https://openalex.org/W4385573898",
+          "https://openalex.org/W4389520749"
+        ],
+        "retracted": false,
+        "provenance": [
+          "semantic: Are there papers that propose contextualized calibration for the probability of answers in language models?",
+          "coverage repair: Are there papers that propose contextualized calibration for the probability of answers in language models?"
+        ],
+        "criteria": [
+          {
+            "criterion_id": "c1",
+            "status": "uncertain",
+            "quote": "",
+            "quote_verified": false,
+            "reason": "Insufficient source evidence; full-paper verification may be needed."
+          }
+        ],
+        "rrf": 0.031009615384615385,
+        "aliases": [
+          "https://openalex.org/W4389524305"
+        ],
+        "neural_score": 2.41118,
+        "score": 0.81283
+      },
+      {
+        "id": "https://openalex.org/W7204737012",
+        "title": "Parameter-Efficient Contextual Calibration for Hallucination Mitigation in Domain-Specific Large Language Model Retrieval-Augmented Generation",
+        "doi": "https://doi.org/10.66917/ijaeic.a000015",
+        "year": 2026,
+        "abstract": "Retrieval-Augmented Generation (RAG) has become the gold standard paradigm for deploying Large Language Models (LLMs) in knowledge-intensive and high-stakes domains such as biomedical inquiry, financial compliance, and legal reasoning. Despite providing external grounding documents, LLMs continue to exhibit insidious factual hallucinations—either by fabricating plausible-sounding unsupported assertions or by ignoring conflicting retrieved evidence in favor of memorized parametric training biases. Existing mitigation approaches, such as full-parameter fine-tuning or iterative self-reflection prompting, incur prohibitive computational costs and excessive inference latency. In this paper, we propose CAL-RAG (Context-Aware Low-Rank Calibration for RAG), a parameter-efficient fine-tuning and decoding calibration framework designed to enforce strict contextual faithfulness without compromising generative fluency. CAL-RAG introduces a dual-channel Low-Rank Adaptation (LoRA) mechanism: a Context-Grounded Adapter that measures token-level semantic consistency against retrieved evidence chunks, and an Entropy-Gated Decoding Controller that dynamically modulates vocabulary probability distributions during autoregressive generation based on cross-attention dispersion. We conduct extensive empirical evaluations across three challenging domain benchmarks: BioASQ (biomedical), FinQA (financial reasoning), and LegalBench (legal clause interpretation), utilizing open-source LLM backbones (Llama-3-8B, Mistral-7B-Instruct, and Gemma-7B). CAL-RAG reduces factual hallucination rates by 43.7% relative to standard RAG baselines while improving Faithfulness Score from 0.642 to 0.891 and answer accuracy by +11.8% F1. Remarkably, CAL-RAG adds only 0.4% trainable parameters and introduces less than 6.5 ms token latency overhead, making it highly suitable for enterprise production deployment.",
+        "authors": [
+          "Sophia N. Tawar",
+          "Liam K. Peing",
+          "Amani Bellow"
+        ],
+        "venue": "International Journal of Applied Engineering and Intelligent Computing",
+        "citations": 0,
+        "open_access": true,
+        "url": "https://doi.org/10.66917/ijaeic.a000015",
+        "pdf_url": "https://ijaeic.com/articles/15.pdf?v=20260830093939683338",
+        "references": [
+          "https://openalex.org/W1981208470",
+          "https://openalex.org/W2789566302",
+          "https://openalex.org/W3021338988",
+          "https://openalex.org/W3098425262",
+          "https://openalex.org/W3155807546",
+          "https://openalex.org/W3198243861",
+          "https://openalex.org/W4384918448",
+          "https://openalex.org/W4387156782",
+          "https://openalex.org/W4387561528",
+          "https://openalex.org/W4389984066",
+          "https://openalex.org/W7133233472"
+        ],
+        "retracted": false,
+        "provenance": [
+          "keyword: Are there propose contextualized calibration probability answers language models"
+        ],
+        "criteria": [
+          {
+            "criterion_id": "c1",
+            "status": "uncertain",
+            "quote": "",
+            "quote_verified": false,
+            "reason": "Insufficient source evidence; full-paper verification may be needed."
+          }
+        ],
+        "rrf": 0.015151515151515152,
+        "aliases": [
+          "https://openalex.org/W7204737012"
+        ],
+        "neural_score": 3.14848,
+        "score": 0.80552
+      },
+      {
+        "id": "https://openalex.org/W4415026603",
+        "title": "Always Tell Me The Odds: Fine-grained Conditional Probability Estimation",
+        "doi": "https://doi.org/10.48550/arxiv.2505.01595",
+        "year": 2025,
+        "abstract": "We present a state-of-the-art model for fine-grained probability estimation of propositions conditioned on context. Recent advances in large language models (LLMs) have significantly enhanced their reasoning capabilities, particularly on well-defined tasks with complete information. However, LLMs continue to struggle with making accurate and well-calibrated probabilistic predictions under uncertainty or partial information. While incorporating uncertainty into model predictions often boosts performance, obtaining reliable estimates of that uncertainty remains understudied. In particular, LLM probability estimates tend to be coarse and biased towards more frequent numbers. Through a combination of human and synthetic data creation and assessment, scaling to larger models, and better supervision, we propose a set of strong and precise probability estimation models. We conduct systematic evaluations across tasks that rely on conditional probability estimation and show that our approach consistently outperforms existing fine-tuned and prompting-based methods by a large margin.",
+        "authors": [
+          "Wang, Liaoyaqi",
+          "Zhengping Jiang",
+          "Anqi Liu",
+          "Benjamin Van Durme"
+        ],
+        "venue": "arXiv",
+        "citations": 11,
+        "open_access": true,
+        "url": "https://doi.org/10.48550/arxiv.2505.01595",
+        "pdf_url": "https://arxiv.org/pdf/2505.01595",
+        "references": [
+          "https://openalex.org/W2169610",
+          "https://openalex.org/W43928053",
+          "https://openalex.org/W195726159",
+          "https://openalex.org/W1840435438",
+          "https://openalex.org/W2130158090",
+          "https://openalex.org/W2138162238",
+          "https://openalex.org/W2145755360",
+          "https://openalex.org/W2155817812",
+          "https://openalex.org/W2607892599",
+          "https://openalex.org/W2626967530",
+          "https://openalex.org/W2946609015",
+          "https://openalex.org/W2963341956",
+          "https://openalex.org/W2964210047",
+          "https://openalex.org/W2969338701",
+          "https://openalex.org/W2973379954",
+          "https://openalex.org/W2985347336",
+          "https://openalex.org/W3012209028",
+          "https://openalex.org/W3023509711",
+          "https://openalex.org/W3034850762",
+          "https://openalex.org/W3034906811",
+          "https://openalex.org/W3083410900",
+          "https://openalex.org/W3088647504",
+          "https://openalex.org/W3092598446",
+          "https://openalex.org/W3093582159",
+          "https://openalex.org/W3098467034",
+          "https://openalex.org/W3102749280",
+          "https://openalex.org/W3105816068",
+          "https://openalex.org/W3132736064",
+          "https://openalex.org/W3155040511",
+          "https://openalex.org/W3156031972",
+          "https://openalex.org/W3168867926",
+          "https://openalex.org/W3174102190",
+          "https://openalex.org/W3175287561",
+          "https://openalex.org/W3177765786",
+          "https://openalex.org/W3181694872",
+          "https://openalex.org/W3193231083",
+          "https://openalex.org/W3197499505",
+          "https://openalex.org/W3199958362",
+          "https://openalex.org/W4221161695",
+          "https://openalex.org/W4223540589"
+        ],
+        "retracted": false,
+        "provenance": [
+          "semantic: Are there papers that propose contextualized calibration for the probability of answers in language models?",
+          "coverage repair: Are there papers that propose contextualized calibration for the probability of answers in language models?"
+        ],
+        "criteria": [
+          {
+            "criterion_id": "c1",
+            "status": "uncertain",
+            "quote": "",
+            "quote_verified": false,
+            "reason": "Insufficient source evidence; full-paper verification may be needed."
+          }
+        ],
+        "rrf": 0.024695121951219513,
+        "aliases": [
+          "https://openalex.org/W4415026603"
+        ],
+        "neural_score": 2.39942,
+        "score": 0.79609
+      },
+      {
+        "id": "https://openalex.org/W4281748205",
+        "title": "Teaching Models to Express Their Uncertainty in Words",
+        "doi": "https://doi.org/10.48550/arxiv.2205.14334",
+        "year": 2022,
+        "abstract": "We show that a GPT-3 model can learn to express uncertainty about its own answers in natural language -- without use of model logits. When given a question, the model generates both an answer and a level of confidence (e.g. \"90% confidence\" or \"high confidence\"). These levels map to probabilities that are well calibrated. The model also remains moderately calibrated under distribution shift, and is sensitive to uncertainty in its own answers, rather than imitating human examples. To our knowledge, this is the first time a model has been shown to express calibrated uncertainty about its own answers in natural language. For testing calibration, we introduce the CalibratedMath suite of tasks. We compare the calibration of uncertainty expressed in words (\"verbalized probability\") to uncertainty extracted from model logits. Both kinds of uncertainty are capable of generalizing calibration under distribution shift. We also provide evidence that GPT-3's ability to generalize calibration depends on pre-trained latent representations that correlate with epistemic uncertainty over its answers.",
+        "authors": [
+          "Stephanie Lin",
+          "Jacob K. Hilton",
+          "Owain Evans"
+        ],
+        "venue": "Transactions on machine learning research",
+        "citations": 1073,
+        "open_access": true,
+        "url": "https://doi.org/10.48550/arxiv.2205.14334",
+        "pdf_url": null,
+        "references": [
+          "https://openalex.org/W1933798900",
+          "https://openalex.org/W2188631158",
+          "https://openalex.org/W2626967530",
+          "https://openalex.org/W2756073160",
+          "https://openalex.org/W2904981516",
+          "https://openalex.org/W2948194985",
+          "https://openalex.org/W2969338701",
+          "https://openalex.org/W3007260230",
+          "https://openalex.org/W3012209028",
+          "https://openalex.org/W3021338988",
+          "https://openalex.org/W3030163527",
+          "https://openalex.org/W3035441651",
+          "https://openalex.org/W3082115681",
+          "https://openalex.org/W3083410900",
+          "https://openalex.org/W3099142828",
+          "https://openalex.org/W3130319171",
+          "https://openalex.org/W3151462836",
+          "https://openalex.org/W3188772518",
+          "https://openalex.org/W3189951784",
+          "https://openalex.org/W3199958362",
+          "https://openalex.org/W3200980294",
+          "https://openalex.org/W3201174429",
+          "https://openalex.org/W3211582110",
+          "https://openalex.org/W3215698779",
+          "https://openalex.org/W4224308101",
+          "https://openalex.org/W7133225605"
+        ],
+        "retracted": false,
+        "provenance": [
+          "semantic: Are there papers that propose contextualized calibration for the probability of answers in language models?"
+        ],
+        "criteria": [
+          {
+            "criterion_id": "c1",
+            "status": "uncertain",
+            "quote": "",
+            "quote_verified": false,
+            "reason": "Insufficient source evidence; full-paper verification may be needed."
+          }
+        ],
+        "rrf": 0.015625,
+        "aliases": [
+          "https://openalex.org/W4281748205"
+        ],
+        "neural_score": 2.69729,
+        "score": 0.78914
+      },
+      {
+        "id": "https://openalex.org/W4281401697",
+        "title": "Prototypical Calibration for Few-shot Learning of Language Models",
+        "doi": "https://doi.org/10.48550/arxiv.2205.10183",
+        "year": 2023,
+        "abstract": "In-context learning of GPT-like models has been recognized as fragile across different hand-crafted templates, and demonstration permutations. In this work, we propose prototypical calibration to adaptively learn a more robust decision boundary for zero- and few-shot classification, instead of greedy decoding. Concretely, our method first adopts Gaussian mixture distribution to estimate the prototypical clusters for all categories. Then we assign each cluster to the corresponding label by solving a weighted bipartite matching problem. Given an example, its prediction is calibrated by the likelihood of prototypical clusters. Experimental results show that prototypical calibration yields a substantial improvement on a diverse set of tasks. Extensive analysis across different scales also indicates that our method calibrates the decision boundary as expected, greatly improving the robustness of GPT to templates, permutations, and class imbalance.",
+        "authors": [
+          "Zhixiong Han",
+          "Yaru Hao",
+          "Dong Li",
+          "Sun, Yutao",
+          "Wei, Furu"
+        ],
+        "venue": "International Conference on Learning Representations",
+        "citations": 71,
+        "open_access": true,
+        "url": "https://doi.org/10.48550/arxiv.2205.10183",
+        "pdf_url": null,
+        "references": [
+          "https://openalex.org/W1985690171",
+          "https://openalex.org/W2028175314",
+          "https://openalex.org/W2130158090",
+          "https://openalex.org/W2170240176",
+          "https://openalex.org/W2222512263",
+          "https://openalex.org/W2251939518",
+          "https://openalex.org/W2896457183",
+          "https://openalex.org/W2945260553",
+          "https://openalex.org/W2949380545",
+          "https://openalex.org/W2950813464",
+          "https://openalex.org/W2952186591",
+          "https://openalex.org/W2982399380",
+          "https://openalex.org/W2991382858",
+          "https://openalex.org/W3007759824",
+          "https://openalex.org/W3156470785",
+          "https://openalex.org/W3201090304",
+          "https://openalex.org/W3208828709",
+          "https://openalex.org/W3212496002",
+          "https://openalex.org/W4221151371",
+          "https://openalex.org/W4287891464",
+          "https://openalex.org/W4307123578",
+          "https://openalex.org/W4308900200",
+          "https://openalex.org/W4385567149",
+          "https://openalex.org/W4385573325",
+          "https://openalex.org/W7133210675"
+        ],
+        "retracted": false,
+        "provenance": [
+          "keyword: Are there propose contextualized calibration probability answers language models"
+        ],
+        "criteria": [
+          {
+            "criterion_id": "c1",
+            "status": "uncertain",
+            "quote": "",
+            "quote_verified": false,
+            "reason": "Insufficient source evidence; full-paper verification may be needed."
+          }
+        ],
+        "rrf": 0.015625,
+        "aliases": [
+          "https://openalex.org/W4281401697"
+        ],
+        "neural_score": 2.62323,
+        "score": 0.78552
+      },
+      {
+        "id": "https://openalex.org/W7225450803",
+        "title": "Information titration of diagnostic probability calibration in large language models: a governing relation and prompt-free corrections",
+        "doi": "https://doi.org/10.17605/osf.io/xb7rf",
+        "year": 2026,
+        "abstract": "Clinicians and patients increasingly read probabilities from language models as statements of how likely each diagnosis is. Those probabilities can only be checked against a true posterior when one exists. DDXPlus (Fansi Tchango et al., 2022) is a synthetic set of 1.3 million patients generated from a known medical knowledge base, so the true probability of every pathology given any subset of a patient's answers can be computed from the training split. We present held-out DDXPlus patients to four systems at nine information levels, from demographics alone to the full interview, and compare each system's probability distribution over the 49 possible pathologies with the true posterior at that level. We ask three questions: 1. How does miscalibration change as information increases? 2. Is there a simple relation, fitted across levels and models, that describes it? 3. Without changing the prompt, can combining models (pooling, or projecting the truth onto the space the models span) bring probabilities closer to the truth, especially when information is scarce? The study follows our earlier pre-registered comparison of Jev with Claude (OSF osf.io/fpmg3).",
+        "authors": [
+          "Avnish A. Deobhakta"
+        ],
+        "venue": "Open Science Framework",
+        "citations": 0,
+        "open_access": true,
+        "url": "https://doi.org/10.17605/osf.io/xb7rf",
+        "pdf_url": null,
+        "references": [],
+        "retracted": false,
+        "provenance": [
+          "semantic: Are there papers that propose contextualized calibration for the probability of answers in language models?",
+          "coverage repair: Are there papers that propose contextualized calibration for the probability of answers in language models?"
+        ],
+        "criteria": [
+          {
+            "criterion_id": "c1",
+            "status": "uncertain",
+            "quote": "",
+            "quote_verified": false,
+            "reason": "Insufficient source evidence; full-paper verification may be needed."
+          }
+        ],
+        "rrf": 0.02105496453900709,
+        "aliases": [
+          "https://openalex.org/W7225450803"
+        ],
+        "neural_score": 2.3075,
+        "score": 0.78102
+      },
+      {
+        "id": "https://openalex.org/W4401043371",
+        "title": "A Study on the Calibration of In-context Learning",
+        "doi": "https://doi.org/10.18653/v1/2024.naacl-long.340",
+        "year": 2024,
+        "abstract": "Accurate uncertainty quantification is crucial for the safe deployment of machine learning models, and prior research has demonstrated improvements in the calibration of modern language models (LMs). We study in-context learning (ICL), a prevalent method for adapting static LMs through tailored prompts, and examine the balance between performance and calibration across a broad spectrum of natural language understanding and reasoning tasks. Through comprehensive experiments, we observe that, with an increasing number of ICL examples, models initially exhibit increased miscalibration before achieving better calibration and miscalibration tends to arise in low-shot settings. Moreover, we find that methods aimed at improving usability, such as fine-tuning and chain-of-thought (CoT) prompting, can lead to miscalibration and unreliable natural language explanations. Furthermore, we explore recalibration techniques and find that a scaling-binning calibrator can reduce calibration errors consistently.",
+        "authors": [
+          "Hanlin Zhang",
+          "Yifan Zhang",
+          "Yaodong Yu",
+          "Dhruv Madeka",
+          "Dean P. Foster",
+          "Eric P. Xing",
+          "Himabindu Lakkaraju",
+          "Sham M. Kakade"
+        ],
+        "venue": "Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (NAACL-HLT)",
+        "citations": 40,
+        "open_access": true,
+        "url": "https://doi.org/10.18653/v1/2024.naacl-long.340",
+        "pdf_url": "https://aclanthology.org/2024.naacl-long.340.pdf",
+        "references": [
+          "https://openalex.org/W1540419678",
+          "https://openalex.org/W1599263113",
+          "https://openalex.org/W1618905105",
+          "https://openalex.org/W2023943903",
+          "https://openalex.org/W2028175314",
+          "https://openalex.org/W2170240176",
+          "https://openalex.org/W2251939518",
+          "https://openalex.org/W2626967530",
+          "https://openalex.org/W2786395785",
+          "https://openalex.org/W2890894339",
+          "https://openalex.org/W2891012317",
+          "https://openalex.org/W2898695519",
+          "https://openalex.org/W2969338701",
+          "https://openalex.org/W2973379954",
+          "https://openalex.org/W2999637955",
+          "https://openalex.org/W3002104146",
+          "https://openalex.org/W3012209028",
+          "https://openalex.org/W3035131109",
+          "https://openalex.org/W3035441651",
+          "https://openalex.org/W3037634279",
+          "https://openalex.org/W3127365219",
+          "https://openalex.org/W3132736064",
+          "https://openalex.org/W3159250634",
+          "https://openalex.org/W3159959439",
+          "https://openalex.org/W3177271869",
+          "https://openalex.org/W3183398589",
+          "https://openalex.org/W3199958362",
+          "https://openalex.org/W3208828709",
+          "https://openalex.org/W3213990450",
+          "https://openalex.org/W3214281390",
+          "https://openalex.org/W3215529831",
+          "https://openalex.org/W4224308101",
+          "https://openalex.org/W4281401697",
+          "https://openalex.org/W4281748205",
+          "https://openalex.org/W4285429195",
+          "https://openalex.org/W4290055968",
+          "https://openalex.org/W4290994954",
+          "https://openalex.org/W4297412003",
+          "https://openalex.org/W4310509152",
+          "https://openalex.org/W4311726128"
+        ],
+        "retracted": false,
+        "provenance": [
+          "semantic: Are there papers that propose contextualized calibration for the probability of answers in language models?",
+          "coverage repair: Are there papers that propose contextualized calibration for the probability of answers in language models?"
+        ],
+        "criteria": [],
+        "rrf": 0.02666666666666667,
+        "aliases": [
+          "https://openalex.org/W4401043371"
+        ],
+        "neural_score": 1.82172,
+        "score": 0.75628
+      },
+      {
+        "id": "https://openalex.org/W4416852270",
+        "title": "Conformal Linguistic Calibration: Trading-off between Factuality and Specificity",
+        "doi": "https://doi.org/10.52202/085713-4338",
+        "year": 2025,
+        "abstract": "Language model outputs are not always reliable, thus prompting research into how to adapt model responses based on uncertainty. Common approaches include: \\emph{abstention}, where models refrain from generating responses when uncertain; and \\emph{linguistic calibration}, where models hedge their statements using uncertainty quantifiers. However, abstention can withhold valuable information, while linguistically calibrated responses are often challenging to leverage in downstream tasks. We propose a unified view, Conformal Linguistic Calibration (CLC), which reinterprets linguistic calibration as \\emph{answer set prediction}. First we present a framework connecting abstention and linguistic calibration through the lens of linguistic pragmatics. We then describe an implementation of CLC that allows for controlling the level of imprecision in model responses. Results demonstrate our method produces calibrated outputs with conformal guarantees on factual accuracy. Further, our approach enables fine-tuning models to perform uncertainty-aware adaptive claim rewriting, offering a controllable balance between factuality and specificity.",
+        "authors": [
+          "Zhengping Jiang",
+          "Anqi Liu",
+          "Benjamin Van Durme"
+        ],
+        "venue": "neural information processing systems",
+        "citations": 20,
+        "open_access": true,
+        "url": "https://doi.org/10.52202/085713-4338",
+        "pdf_url": null,
+        "references": [
+          "https://openalex.org/W280304298",
+          "https://openalex.org/W1553101044",
+          "https://openalex.org/W1994248508",
+          "https://openalex.org/W2075277371",
+          "https://openalex.org/W2114975169",
+          "https://openalex.org/W2130158090",
+          "https://openalex.org/W2155581733",
+          "https://openalex.org/W2171585602",
+          "https://openalex.org/W2891947597",
+          "https://openalex.org/W2898867267",
+          "https://openalex.org/W2912924812",
+          "https://openalex.org/W2936615257",
+          "https://openalex.org/W2970476646",
+          "https://openalex.org/W3021338988",
+          "https://openalex.org/W3027782004",
+          "https://openalex.org/W3035441651",
+          "https://openalex.org/W3118640283",
+          "https://openalex.org/W3152996058",
+          "https://openalex.org/W3181694872",
+          "https://openalex.org/W3213356154",
+          "https://openalex.org/W4221161695",
+          "https://openalex.org/W4290994954",
+          "https://openalex.org/W4317940252",
+          "https://openalex.org/W4321594373",
+          "https://openalex.org/W4378942327",
+          "https://openalex.org/W4378945636",
+          "https://openalex.org/W4381432831",
+          "https://openalex.org/W4383472635",
+          "https://openalex.org/W4385572752",
+          "https://openalex.org/W4388514352",
+          "https://openalex.org/W4389518686",
+          "https://openalex.org/W4389519598",
+          "https://openalex.org/W4389523897",
+          "https://openalex.org/W4391244604",
+          "https://openalex.org/W4391988394",
+          "https://openalex.org/W4393904225",
+          "https://openalex.org/W4394708862",
+          "https://openalex.org/W4394972204",
+          "https://openalex.org/W4395686650",
+          "https://openalex.org/W4396763774"
+        ],
+        "retracted": false,
+        "provenance": [
+          "semantic: Are there papers that propose contextualized calibration for the probability of answers in language models?",
+          "coverage repair: Are there papers that propose contextualized calibration for the probability of answers in language models?"
+        ],
+        "criteria": [],
+        "rrf": 0.02424331472230385,
+        "aliases": [
+          "https://openalex.org/W4416852270"
+        ],
+        "neural_score": 1.66933,
+        "score": 0.73471
+      },
+      {
+        "id": "https://openalex.org/W7214235531",
+        "title": "Calibration-Aware Reinforcement Learning for Large Language Models: A Survey of Objectives, Optimization, and Decision-Making",
+        "doi": "https://doi.org/10.1184/r1/33989641",
+        "year": 2026,
+        "abstract": "Large language models increasingly emit confidence reports, predictive distributions, and typed decisions that determine whether a system answers, abstains, retrieves evidence, or spends more computation. We survey calibration-aware reinforcement learning (RL), in which a reported probability is scored by the reward, consumed by the policy’s actions, or both. Such a probability means something only relative to an event, the reporter’s information, and a population or policy. Unlike post-hoc calibration, RL can change the answers being assessed, the incentive actually optimized, and the behavior that consumes the number. We organize the literature around three gaps. Between reporting and capability, proper-score geometry shows that a joint answer-confidence reward decomposes into terms for mean accuracy, the distribution of success across inputs, and reporting error, so it can prefer a less accurate policy even under truthful reporting. Between the stated objective and the implemented update, group standardization, the treatment of parameter-dependent rewards, and finite-ensemble scoring can change what training optimizes. Between ranking and decision value, a score can keep its ordering while losing the numerical meaning that a cost-derived threshold requires. Exact constructions make each gap concrete, and a method landscape traces representative protocols to primary sources. We then give a comparator guide; an evaluation contract that separates reporting gains from changes in the answer policy, effects of the implemented update, and operating-point selection; and open questions. The practical conclusion is a comparator rule: post-hoc fitting is the comparator to beat when predictions can remain fixed, and direct supervision when the desired report has a tractable differentiable loss; RL is a distinct intervention only when reasoning, retrieval, answering, abstention, or information acquisition must adapt through outcome feedback.",
+        "authors": [
+          "Yubo Li",
+          "Yidi Miao",
+          "Ramayya Krishnan",
+          "Rema Padman"
+        ],
+        "venue": "KiltHub Repository",
+        "citations": 0,
+        "open_access": true,
+        "url": "https://doi.org/10.1184/r1/33989641",
+        "pdf_url": null,
+        "references": [],
+        "retracted": false,
+        "provenance": [
+          "semantic: Are there papers that propose contextualized calibration for the probability of answers in language models?",
+          "coverage repair: Are there papers that propose contextualized calibration for the probability of answers in language models?"
+        ],
+        "criteria": [],
+        "rrf": 0.020730397422126744,
+        "aliases": [
+          "https://openalex.org/W7214235531"
+        ],
+        "neural_score": 1.71721,
+        "score": 0.73082
+      },
+      {
+        "id": "https://openalex.org/W4411120336",
+        "title": "Ambiguity Detection and Uncertainty Calibration for Question Answering with Large Language Models",
+        "doi": "https://doi.org/10.18653/v1/2025.trustnlp-main.4",
+        "year": 2025,
+        "abstract": "Large Language Models (LLMs) have demonstrated excellent capabilities in Question Answering (QA) tasks, yet their ability to identify and address ambiguous questions remains underdeveloped. Ambiguities in user queries often lead to inaccurate or misleading answers, undermining user trust in these systems. Despite prior attempts using prompt-based methods, performance has largely been equivalent to random guessing, leaving a significant gap in effective ambiguity detection. To address this, we propose a novel framework for detecting ambiguous questions within LLM-based QA systems. We first prompt an LLM to generate multiple answers to a question, and then analyze them to infer the ambiguity. We propose to use a lightweight Random Forest model, trained on a bootstrapped and shuffled 6-shot examples dataset. Experimental results on ASQA, PACIFIC, and ABG-COQA datasets demonstrate the effectiveness of our approach, with accuracy up to 70.8%. Furthermore, our framework enhances the confidence calibration of LLM outputs, leading to more trustworthy QA systems able to handle complex questions.",
+        "authors": [
+          "Zhengyan Shi",
+          "Giuseppe Castellucci",
+          "Simone Filice",
+          "Saar Kuzi",
+          "Elad Kravi",
+          "Eugene Agichtein",
+          "Oleg Rokhlenko",
+          "Shervin Malmasi"
+        ],
+        "venue": "Workshop on Trustworthy NLP (TrustNLP)",
+        "citations": 24,
+        "open_access": true,
+        "url": "https://doi.org/10.18653/v1/2025.trustnlp-main.4",
+        "pdf_url": "https://aclanthology.org/2025.trustnlp-main.4.pdf",
+        "references": [
+          "https://openalex.org/W2073241381",
+          "https://openalex.org/W2098824882",
+          "https://openalex.org/W2147947791",
+          "https://openalex.org/W2295598076",
+          "https://openalex.org/W2462906003",
+          "https://openalex.org/W2511149293",
+          "https://openalex.org/W2626967530",
+          "https://openalex.org/W2888296173",
+          "https://openalex.org/W2889317799",
+          "https://openalex.org/W2955157382",
+          "https://openalex.org/W3015883388",
+          "https://openalex.org/W3021338988",
+          "https://openalex.org/W3030163527",
+          "https://openalex.org/W3035441651",
+          "https://openalex.org/W3098425262",
+          "https://openalex.org/W3099474967",
+          "https://openalex.org/W3100292568",
+          "https://openalex.org/W3123791752",
+          "https://openalex.org/W3173591450",
+          "https://openalex.org/W3174986053",
+          "https://openalex.org/W3198952405",
+          "https://openalex.org/W3199958362",
+          "https://openalex.org/W3203534993",
+          "https://openalex.org/W3204850704",
+          "https://openalex.org/W4221161695",
+          "https://openalex.org/W4224253361",
+          "https://openalex.org/W4281482237",
+          "https://openalex.org/W4281748205",
+          "https://openalex.org/W4285307817",
+          "https://openalex.org/W4285429195",
+          "https://openalex.org/W4290994954",
+          "https://openalex.org/W4307079201",
+          "https://openalex.org/W4327810158",
+          "https://openalex.org/W4378945636",
+          "https://openalex.org/W4384918448",
+          "https://openalex.org/W4385565169",
+          "https://openalex.org/W4385571514",
+          "https://openalex.org/W4385573361",
+          "https://openalex.org/W4385573898",
+          "https://openalex.org/W4385734246"
+        ],
+        "retracted": false,
+        "provenance": [
+          "keyword: Are there propose contextualized calibration probability answers language models"
+        ],
+        "criteria": [],
+        "rrf": 0.015384615384615385,
+        "aliases": [
+          "https://openalex.org/W4411120336"
+        ],
+        "neural_score": 1.71627,
+        "score": 0.71716
+      },
+      {
+        "id": "https://openalex.org/W4402671034",
+        "title": "Context versus Prior Knowledge in Language Models",
+        "doi": "https://doi.org/10.18653/v1/2024.acl-long.714",
+        "year": 2024,
+        "abstract": "To answer a question, language models often need to integrate prior knowledge learned during pretraining and new information presented in context. We hypothesize that models perform this integration in a predictable way across different questions and contexts: models will rely more on prior knowledge for questions about entities (e.g., persons, places, etc.) that they are more familiar with due to higher exposure in the training corpus, and be more easily persuaded by some contexts than others. To formalize this problem, we propose two mutual information-based metrics to measure a model’s dependency on a context and on its prior about an entity: first, the persuasion score of a given context represents how much a model depends on the context in its decision, and second, the susceptibility score of a given entity represents how much the model can be swayed away from its original answer distribution about an entity. We empirically test our metrics for their validity and reliability. Finally, we explore and find a relationship between the scores and the model’s expected familiarity with an entity, and provide two use cases to illustrate their benefits.",
+        "authors": [
+          "Kevin Du",
+          "Vésteinn Snæbjarnarson",
+          "Niklas Stoehr",
+          "Jennifer White",
+          "Aaron Schein",
+          "Ryan Cotterell"
+        ],
+        "venue": "Proceedings of the conference - Association for Computational Linguistics. Meeting",
+        "citations": 63,
+        "open_access": true,
+        "url": "https://doi.org/10.18653/v1/2024.acl-long.714",
+        "pdf_url": "https://aclanthology.org/2024.acl-long.714.pdf",
+        "references": [
+          "https://openalex.org/W135467536",
+          "https://openalex.org/W1560257815",
+          "https://openalex.org/W2022166150",
+          "https://openalex.org/W2053238041",
+          "https://openalex.org/W2110065044",
+          "https://openalex.org/W2117868896",
+          "https://openalex.org/W2144874182",
+          "https://openalex.org/W2162590473",
+          "https://openalex.org/W2252136820",
+          "https://openalex.org/W2516022040",
+          "https://openalex.org/W2612431505",
+          "https://openalex.org/W2759211898",
+          "https://openalex.org/W2892094955",
+          "https://openalex.org/W2912924812",
+          "https://openalex.org/W2963748441",
+          "https://openalex.org/W2970476646",
+          "https://openalex.org/W2979826702",
+          "https://openalex.org/W2995006168",
+          "https://openalex.org/W3008686018",
+          "https://openalex.org/W3030163527",
+          "https://openalex.org/W3104390324",
+          "https://openalex.org/W3104415840",
+          "https://openalex.org/W3117576675",
+          "https://openalex.org/W3118781290",
+          "https://openalex.org/W3199011812",
+          "https://openalex.org/W3205156738",
+          "https://openalex.org/W4211092623",
+          "https://openalex.org/W4280518705",
+          "https://openalex.org/W4327810158",
+          "https://openalex.org/W4362655426",
+          "https://openalex.org/W4377865953",
+          "https://openalex.org/W4384662964",
+          "https://openalex.org/W4385569930",
+          "https://openalex.org/W4385569933",
+          "https://openalex.org/W4385570326",
+          "https://openalex.org/W4385574183",
+          "https://openalex.org/W4389518789",
+          "https://openalex.org/W4389520348",
+          "https://openalex.org/W4389523675",
+          "https://openalex.org/W4389636360"
+        ],
+        "retracted": false,
+        "provenance": [
+          "semantic: Are there papers that propose contextualized calibration for the probability of answers in language models?"
+        ],
+        "criteria": [],
+        "rrf": 0.014285714285714285,
+        "aliases": [
+          "https://openalex.org/W4402671034"
+        ],
+        "neural_score": 1.55098,
+        "score": 0.69629
+      },
+      {
+        "id": "https://openalex.org/W4387294262",
+        "title": "Batch Calibration: Rethinking Calibration for In-Context Learning and Prompt Engineering",
+        "doi": "https://doi.org/10.48550/arxiv.2309.17249",
+        "year": 2024,
+        "abstract": "Prompting and in-context learning (ICL) have become efficient learning paradigms for large language models (LLMs). However, LLMs suffer from prompt brittleness and various bias factors in the prompt, including but not limited to the formatting, the choice verbalizers, and the ICL examples. To address this problem that results in unexpected performance degradation, calibration methods have been developed to mitigate the effects of these biases while recovering LLM performance. In this work, we first conduct a systematic analysis of the existing calibration methods, where we both provide a unified view and reveal the failure cases. Inspired by these analyses, we propose Batch Calibration (BC), a simple yet intuitive method that controls the contextual bias from the batched input, unifies various prior approaches, and effectively addresses the aforementioned issues. BC is zero-shot, inference-only, and incurs negligible additional costs. In the few-shot setup, we further extend BC to allow it to learn the contextual bias from labeled data. We validate the effectiveness of BC with PaLM 2-(S, M, L) and CLIP models and demonstrate state-of-the-art performance over previous calibration baselines across more than 10 natural language understanding and image classification tasks.",
+        "authors": [
+          "Han Zhou",
+          "Xingchen Wan",
+          "Lev Proleev",
+          "Diana Mincu",
+          "Jilin Chen",
+          "Katherine Heller",
+          "Subhrajit Roy"
+        ],
+        "venue": "International Conference on Learning Representations",
+        "citations": 125,
+        "open_access": true,
+        "url": "https://doi.org/10.48550/arxiv.2309.17249",
+        "pdf_url": "https://proceedings.iclr.cc/paper_files/paper/2024/file/003e438cf04e3caf0a5c908495e484fe-Paper-Conference.pdf",
+        "references": [
+          "https://openalex.org/W24089286",
+          "https://openalex.org/W131533222",
+          "https://openalex.org/W1618905105",
+          "https://openalex.org/W1846799578",
+          "https://openalex.org/W1985690171",
+          "https://openalex.org/W2047643928",
+          "https://openalex.org/W2145755360",
+          "https://openalex.org/W2251939518",
+          "https://openalex.org/W2561715562",
+          "https://openalex.org/W2607892599",
+          "https://openalex.org/W2626967530",
+          "https://openalex.org/W2913946806",
+          "https://openalex.org/W2923014074",
+          "https://openalex.org/W2946659172",
+          "https://openalex.org/W2956105246",
+          "https://openalex.org/W2964194231",
+          "https://openalex.org/W2990704537",
+          "https://openalex.org/W3026404337",
+          "https://openalex.org/W3034850762",
+          "https://openalex.org/W3036825277",
+          "https://openalex.org/W3098267758",
+          "https://openalex.org/W3104140305",
+          "https://openalex.org/W3119543788",
+          "https://openalex.org/W3122241445",
+          "https://openalex.org/W3132736064",
+          "https://openalex.org/W3135367836",
+          "https://openalex.org/W3152956381",
+          "https://openalex.org/W3156470785",
+          "https://openalex.org/W3157005959",
+          "https://openalex.org/W3168867926",
+          "https://openalex.org/W3174770825",
+          "https://openalex.org/W3185341429",
+          "https://openalex.org/W3192405822",
+          "https://openalex.org/W3205949070",
+          "https://openalex.org/W3206652060",
+          "https://openalex.org/W3208828709",
+          "https://openalex.org/W3211200504",
+          "https://openalex.org/W3215113235",
+          "https://openalex.org/W4221142421",
+          "https://openalex.org/W4224308101"
+        ],
+        "retracted": false,
+        "provenance": [
+          "keyword: Are there propose contextualized calibration probability answers language models",
+          "coverage repair: Are there papers that propose contextualized calibration for the probability of answers in language models?"
+        ],
+        "criteria": [],
+        "rrf": 0.026785714285714288,
+        "aliases": [
+          "https://openalex.org/W4387294262"
+        ],
+        "neural_score": 1.20018,
+        "score": 0.68281
+      },
+      {
+        "id": "https://openalex.org/W4393904225",
+        "title": "Linguistic Calibration of Long-Form Generations",
+        "doi": "https://doi.org/10.48550/arxiv.2404.00474",
+        "year": 2024,
+        "abstract": "Language models (LMs) may lead their users to make suboptimal downstream decisions when they confidently hallucinate. This issue can be mitigated by having the LM verbally convey the probability that its claims are correct, but existing models cannot produce long-form text with calibrated confidence statements. Through the lens of decision-making, we define linguistic calibration for long-form generations: an LM is linguistically calibrated if its generations enable its users to make calibrated probabilistic predictions. This definition enables a training framework where a supervised finetuning step bootstraps an LM to emit long-form generations with confidence statements such as \"I estimate a 30% chance of...\" or \"I am certain that...\", followed by a reinforcement learning step which rewards generations that enable a user to provide calibrated answers to related questions. We linguistically calibrate Llama 2 7B and find in automated and human evaluations of long-form generations that it is significantly more calibrated than strong finetuned factuality baselines with comparable accuracy. These findings generalize under significant domain shifts to scientific and biomedical questions and to an entirely held-out person biography generation task. Our results demonstrate that long-form generations may be calibrated end-to-end by constructing an objective in the space of the predictions that users make in downstream decision-making.",
+        "authors": [
+          "Neil Band",
+          "Xuechen Li",
+          "Tengyu Ma",
+          "Tatsunori Hashimoto"
+        ],
+        "venue": "International Conference on Machine Learning",
+        "citations": 99,
+        "open_access": true,
+        "url": "https://doi.org/10.48550/arxiv.2404.00474",
+        "pdf_url": "https://raw.githubusercontent.com/mlresearch/v235/main/assets/band24a/band24a.pdf",
+        "references": [
+          "https://openalex.org/W201917955",
+          "https://openalex.org/W372831317",
+          "https://openalex.org/W582134693",
+          "https://openalex.org/W1540419678",
+          "https://openalex.org/W1598033630",
+          "https://openalex.org/W1599263113",
+          "https://openalex.org/W1618905105",
+          "https://openalex.org/W1998274472",
+          "https://openalex.org/W2025720061",
+          "https://openalex.org/W2047634553",
+          "https://openalex.org/W2098824882",
+          "https://openalex.org/W2108717558",
+          "https://openalex.org/W2135730283",
+          "https://openalex.org/W2164411961",
+          "https://openalex.org/W2167226181",
+          "https://openalex.org/W2296319761",
+          "https://openalex.org/W2560321925",
+          "https://openalex.org/W2612431505",
+          "https://openalex.org/W2626967530",
+          "https://openalex.org/W2736601468",
+          "https://openalex.org/W2738674657",
+          "https://openalex.org/W2796293253",
+          "https://openalex.org/W2803648878",
+          "https://openalex.org/W2948194985",
+          "https://openalex.org/W2979826702",
+          "https://openalex.org/W2999071598",
+          "https://openalex.org/W3158920561",
+          "https://openalex.org/W3170360335",
+          "https://openalex.org/W3180750393",
+          "https://openalex.org/W3181694872",
+          "https://openalex.org/W3197876970",
+          "https://openalex.org/W3199958362",
+          "https://openalex.org/W3201662874",
+          "https://openalex.org/W3202388704",
+          "https://openalex.org/W3205287819",
+          "https://openalex.org/W3215698779",
+          "https://openalex.org/W4221161695",
+          "https://openalex.org/W4226278401",
+          "https://openalex.org/W4255572858",
+          "https://openalex.org/W4285429195"
+        ],
+        "retracted": false,
+        "provenance": [
+          "semantic: Are there papers that propose contextualized calibration for the probability of answers in language models?",
+          "coverage repair: Are there papers that propose contextualized calibration for the probability of answers in language models?"
+        ],
+        "criteria": [],
+        "rrf": 0.029411764705882353,
+        "aliases": [
+          "https://openalex.org/W4393904225"
+        ],
+        "neural_score": 1.04912,
+        "score": 0.66711
+      },
+      {
+        "id": "https://openalex.org/W4388093317",
+        "title": "LitCab: Lightweight Language Model Calibration over Short- and Long-form Responses",
+        "doi": "https://doi.org/10.48550/arxiv.2310.19208",
+        "year": 2024,
+        "abstract": "A model is considered well-calibrated when its probability estimate aligns with the actual likelihood of the output being correct. Calibrating language models (LMs) is crucial, as it plays a vital role in detecting and mitigating hallucinations of LMs as well as building more trustworthy models. However, standard calibration techniques may not be suited for LM calibration. For instance, post-processing methods such as temperature scaling do not reorder the candidate generations. On the other hand, training-based methods require fine-tuning the entire model, which is impractical for LMs of large scale. We present LitCab, a lightweight calibration mechanism consisting of a single linear layer that takes the input text representation and predicts a bias term, which is then added to the LM output logits. LitCab improves model calibration by only adding < 2% of the original model parameters. For evaluation, we construct CaT, a benchmark consisting of eight text generation tasks, covering responses ranging from short phrases to paragraphs. We test LitCab with Llama2-7B, where it improves calibration across all tasks, reducing the average ECE score by as large as 30%. We further conduct a comprehensive evaluation with multiple popular open-sourced LMs from GPT and LLaMA families, yielding the following key findings: (i) Larger models within the same family exhibit better calibration on tasks with short generation tasks, but not necessarily for longer ones. (ii) GPT-family models show superior calibration compared to LLaMA, Llama2, and Vicuna models, despite having much fewer parameters. (iii) Fine-tuning pretrained model (e.g., LLaMA) with samples of limited purpose (e.g., conversations) may lead to worse calibration, highlighting the importance of fine-tuning setups for calibrating LMs.",
+        "authors": [
+          "Xin Liu",
+          "Khalifa, Muhammad",
+          "Lu Wang"
+        ],
+        "venue": "International Conference on Learning Representations",
+        "citations": 57,
+        "open_access": true,
+        "url": "https://doi.org/10.48550/arxiv.2310.19208",
+        "pdf_url": "https://proceedings.iclr.cc/paper_files/paper/2024/file/3815d62554efad0878fad6c1c30ffda0-Paper-Conference.pdf",
+        "references": [
+          "https://openalex.org/W1933798900",
+          "https://openalex.org/W2098824882",
+          "https://openalex.org/W2155653793",
+          "https://openalex.org/W2183341477",
+          "https://openalex.org/W2523790121",
+          "https://openalex.org/W2581377246",
+          "https://openalex.org/W2626967530",
+          "https://openalex.org/W2789566302",
+          "https://openalex.org/W2936695845",
+          "https://openalex.org/W2950832426",
+          "https://openalex.org/W2963693742",
+          "https://openalex.org/W3012254281",
+          "https://openalex.org/W3168867926",
+          "https://openalex.org/W3201174429",
+          "https://openalex.org/W4221161695",
+          "https://openalex.org/W4226118367",
+          "https://openalex.org/W4281736354",
+          "https://openalex.org/W4281748205",
+          "https://openalex.org/W4285429195",
+          "https://openalex.org/W4307934016",
+          "https://openalex.org/W4321594373",
+          "https://openalex.org/W4322718191",
+          "https://openalex.org/W4327810158",
+          "https://openalex.org/W4385573970",
+          "https://openalex.org/W4389518686",
+          "https://openalex.org/W4389519598",
+          "https://openalex.org/W4412158322",
+          "https://openalex.org/W7055216282"
+        ],
+        "retracted": false,
+        "provenance": [
+          "semantic: Are there papers that propose contextualized calibration for the probability of answers in language models?",
+          "coverage repair: Are there papers that propose contextualized calibration for the probability of answers in language models?"
+        ],
+        "criteria": [],
+        "rrf": 0.025974025974025976,
+        "aliases": [
+          "https://openalex.org/W4388093317"
+        ],
+        "neural_score": 0.97232,
+        "score": 0.64637
+      },
+      {
+        "id": "https://openalex.org/W7125972569",
+        "title": "Self-Aware Knowledge Probing: Evaluating Language Models’ Relational Knowledge through Confidence Calibration",
+        "doi": "https://doi.org/10.18653/2026.uncertainlp-main.4",
+        "year": 2026,
+        "abstract": "Knowledge probing quantifies how much relational knowledge a language model (LM) has acquired during pre-training. Existing knowledge probes evaluate model capabilities through metrics like prediction accuracy and precision. Such evaluations fail to account for the model’s reliability, reflected in the calibration of its confidence scores. In this paper, we establish a framework to evaluate the calibration of relational knowledge in a closed answer-set setting. We cover three modalities of model confidence: (1) intrinsic confidence, (2) paraphrase consistency and (3) linguistic confidence. Our extensive analysis of 21 causal and 6 masked language models reveals that most models, but especially those pre-trained with the masking objective, are overconfident. The best-calibrated scores come from confidence estimates that account for inconsistencies due to statement rephrasing. Moreover, calibration improves when increasing the number of answer options.",
+        "authors": [
+          "Christopher Kissling",
+          "Elena Merdjanovska",
+          "Alan Akbik"
+        ],
+        "venue": null,
+        "citations": 5,
+        "open_access": true,
+        "url": "https://doi.org/10.18653/2026.uncertainlp-main.4",
+        "pdf_url": "https://aclanthology.org/2026.uncertainlp-main.4.pdf",
+        "references": [
+          "https://openalex.org/W2073241381",
+          "https://openalex.org/W2124244761",
+          "https://openalex.org/W2254249950",
+          "https://openalex.org/W2610309700",
+          "https://openalex.org/W2626967530",
+          "https://openalex.org/W2969338701",
+          "https://openalex.org/W2971869958",
+          "https://openalex.org/W3004146535",
+          "https://openalex.org/W3024308166",
+          "https://openalex.org/W3083410900",
+          "https://openalex.org/W3184751871",
+          "https://openalex.org/W3201174429",
+          "https://openalex.org/W4221161695",
+          "https://openalex.org/W4281748205",
+          "https://openalex.org/W4285246273",
+          "https://openalex.org/W4321594373",
+          "https://openalex.org/W4385893893",
+          "https://openalex.org/W4389518654",
+          "https://openalex.org/W4389518686",
+          "https://openalex.org/W4389523793",
+          "https://openalex.org/W4401043652",
+          "https://openalex.org/W4402671653",
+          "https://openalex.org/W4402671787",
+          "https://openalex.org/W4404781197",
+          "https://openalex.org/W4405467105",
+          "https://openalex.org/W4405968021",
+          "https://openalex.org/W4411630296",
+          "https://openalex.org/W4412945362",
+          "https://openalex.org/W7055216282"
+        ],
+        "retracted": false,
+        "provenance": [
+          "semantic: Are there papers that propose contextualized calibration for the probability of answers in language models?",
+          "coverage repair: Are there papers that propose contextualized calibration for the probability of answers in language models?"
+        ],
+        "criteria": [],
+        "rrf": 0.023529411764705882,
+        "aliases": [
+          "https://openalex.org/W7125972569"
+        ],
+        "neural_score": 0.99782,
+        "score": 0.64421
+      },
+      {
+        "id": "https://openalex.org/W4404780855",
+        "title": "Calibrating Long-form Generations From Large Language Models",
+        "doi": "https://doi.org/10.18653/v1/2024.findings-emnlp.785",
+        "year": 2024,
+        "abstract": "To enhance Large Language Models’ (LLMs) reliability, calibration is essential—the model’s confidence scores should align with the likelihood of its responses being correct. However, traditional calibration methods typically rely on a binary true/false assessment of response correctness, unsuitable for long-form generations where an answer can be partially correct. Addressing this gap, we introduce a unified calibration framework, in which both the correctness of the LLMs’ responses and their associated confidence levels are treated as distributions across a range of scores. We develop three metrics for assessing LLM calibration and propose confidence elicitation methods based on self-consistency and self-evaluation. Our experiments demonstrate that larger models don’t necessarily guarantee better calibration, that various calibration metrics complement each other, and that self-consistency methods excel in factoid datasets. We also find that calibration can be enhanced through techniques such as fine-tuning, scaling the temperature. Finally, we illustrate one application of long-form calibration through selective answering in long-form responses, optimizing correctness within a constrained API budget.",
+        "authors": [
+          "Yukun Huang",
+          "Yixin Liu",
+          "Raghuveer Thirukovalluru",
+          "Arman Cohan",
+          "Bhuwan Dhingra"
+        ],
+        "venue": "Findings of the Association for Computational Linguistics: EMNLP (Findings of EMNLP)",
+        "citations": 86,
+        "open_access": true,
+        "url": "https://doi.org/10.18653/v1/2024.findings-emnlp.785",
+        "pdf_url": "https://aclanthology.org/2024.findings-emnlp.785.pdf",
+        "references": [
+          "https://openalex.org/W2061173121",
+          "https://openalex.org/W2254249950",
+          "https://openalex.org/W2626967530",
+          "https://openalex.org/W2950681488",
+          "https://openalex.org/W2963929190",
+          "https://openalex.org/W2965373594",
+          "https://openalex.org/W2991382858",
+          "https://openalex.org/W3033187248",
+          "https://openalex.org/W3035441651",
+          "https://openalex.org/W3168867926",
+          "https://openalex.org/W3170360335",
+          "https://openalex.org/W3208677843",
+          "https://openalex.org/W4246413330",
+          "https://openalex.org/W4280505580",
+          "https://openalex.org/W4281736354",
+          "https://openalex.org/W4281748205",
+          "https://openalex.org/W4285429195",
+          "https://openalex.org/W4287855110",
+          "https://openalex.org/W4297435087",
+          "https://openalex.org/W4321594373",
+          "https://openalex.org/W4376122773",
+          "https://openalex.org/W4378189609",
+          "https://openalex.org/W4378945636",
+          "https://openalex.org/W4384918448",
+          "https://openalex.org/W4385571092",
+          "https://openalex.org/W4385571140",
+          "https://openalex.org/W4385571776",
+          "https://openalex.org/W4385573898",
+          "https://openalex.org/W4388717471",
+          "https://openalex.org/W4389217371",
+          "https://openalex.org/W4389518686",
+          "https://openalex.org/W4389519254",
+          "https://openalex.org/W4389519598",
+          "https://openalex.org/W4389519967",
+          "https://openalex.org/W4389520670",
+          "https://openalex.org/W4389524305",
+          "https://openalex.org/W4391494845",
+          "https://openalex.org/W4392669898",
+          "https://openalex.org/W4402671817",
+          "https://openalex.org/W4404784419"
+        ],
+        "retracted": false,
+        "provenance": [
+          "coverage repair: Are there papers that propose contextualized calibration for the probability of answers in language models?"
+        ],
+        "criteria": [],
+        "rrf": 0.014925373134328358,
+        "aliases": [
+          "https://openalex.org/W4404780855"
+        ],
+        "neural_score": 0.98246,
+        "score": 0.61995
+      },
+      {
+        "id": "https://openalex.org/W4404782598",
+        "title": "What Are the Odds? Language Models Are Capable of Probabilistic Reasoning",
+        "doi": "https://doi.org/10.18653/v1/2024.emnlp-main.654",
+        "year": 2024,
+        "abstract": "Language models (LM) are capable of remarkably complex linguistic tasks; however, numerical reasoning is an area in which they frequently struggle. An important but rarely evaluated form of reasoning is understanding probability distributions. In this paper, we focus on evaluating the probabilistic reasoning capabilities of LMs using idealized and real-world statistical distributions. We perform a systematic evaluation of state-of-the-art LMs on three tasks: estimating percentiles, drawing samples, and calculating probabilities. We evaluate three ways to provide context to LMs 1) anchoring examples from within a distribution or family of distributions, 2) real-world context, 3) summary statistics on which to base a Normal approximation. Models can make inferences about distributions, and can be further aided by the incorporation of real-world context, example shots and simplified assumptions, even if these assumptions are incorrect or misspecified. To conduct this work, we developed a comprehensive benchmark distribution dataset with associated question-answer pairs that we have released publicly.",
+        "authors": [
+          "Akshay Paruchuri",
+          "Jake Garrison",
+          "Shun Liao",
+          "John Hernandez",
+          "Jacob E. Sunshine",
+          "Tim Althoff",
+          "Xin Liu",
+          "Daniel McDuff"
+        ],
+        "venue": "Conference on Empirical Methods in Natural Language Processing (EMNLP)",
+        "citations": 37,
+        "open_access": true,
+        "url": "https://doi.org/10.18653/v1/2024.emnlp-main.654",
+        "pdf_url": "https://aclanthology.org/2024.emnlp-main.654.pdf",
+        "references": [
+          "https://openalex.org/W167351231",
+          "https://openalex.org/W2029604816",
+          "https://openalex.org/W2061173121",
+          "https://openalex.org/W2098036909",
+          "https://openalex.org/W2120141446",
+          "https://openalex.org/W2132003317",
+          "https://openalex.org/W2912007050",
+          "https://openalex.org/W3015339775",
+          "https://openalex.org/W3140145986",
+          "https://openalex.org/W3207553988",
+          "https://openalex.org/W3210904070",
+          "https://openalex.org/W4292157289",
+          "https://openalex.org/W4308760226",
+          "https://openalex.org/W4309066014",
+          "https://openalex.org/W4309591663",
+          "https://openalex.org/W4309953112",
+          "https://openalex.org/W4327810158",
+          "https://openalex.org/W4366460267",
+          "https://openalex.org/W4382603041",
+          "https://openalex.org/W4384918448",
+          "https://openalex.org/W4385430086",
+          "https://openalex.org/W4385570391",
+          "https://openalex.org/W4385571894",
+          "https://openalex.org/W4385572162",
+          "https://openalex.org/W4385573804",
+          "https://openalex.org/W4385574345",
+          "https://openalex.org/W4386120650",
+          "https://openalex.org/W4390041933",
+          "https://openalex.org/W4391494845",
+          "https://openalex.org/W4392737513",
+          "https://openalex.org/W4402670585",
+          "https://openalex.org/W4409283616",
+          "https://openalex.org/W4415797772",
+          "https://openalex.org/W6963215929",
+          "https://openalex.org/W7122726170",
+          "https://openalex.org/W7133211296",
+          "https://openalex.org/W7133231369"
+        ],
+        "retracted": false,
+        "provenance": [
+          "semantic: Are there papers that propose contextualized calibration for the probability of answers in language models?",
+          "coverage repair: Are there papers that propose contextualized calibration for the probability of answers in language models?"
+        ],
+        "criteria": [],
+        "rrf": 0.027212143650499815,
+        "aliases": [
+          "https://openalex.org/W4404782598"
+        ],
+        "neural_score": 0.70113,
+        "score": 0.6038
+      },
+      {
+        "id": "https://openalex.org/W4403963829",
+        "title": "Calibrating Expressions of Certainty",
+        "doi": "https://doi.org/10.48550/arxiv.2410.04315",
+        "year": 2025,
+        "abstract": "We present a novel approach to calibrating linguistic expressions of certainty, e.g., \"Maybe\" and \"Likely\". Unlike prior work that assigns a single score to each certainty phrase, we model uncertainty as distributions over the simplex to capture their semantics more accurately. To accommodate this new representation of certainty, we generalize existing measures of miscalibration and introduce a novel post-hoc calibration method. Leveraging these tools, we analyze the calibration of both humans (e.g., radiologists) and computational models (e.g., language models) and provide interpretable suggestions to improve their calibration.",
+        "authors": [
+          "Peiqi Wang",
+          "Lam, Barbara D.",
+          "Yingcheng Liu",
+          "Ameneh Asgari-Targhi",
+          "Rameswar Panda",
+          "William M. Wells",
+          "Tina Kapur",
+          "Polina Golland"
+        ],
+        "venue": "International Conference on Learning Representations",
+        "citations": 15,
+        "open_access": true,
+        "url": "https://doi.org/10.48550/arxiv.2410.04315",
+        "pdf_url": "https://proceedings.iclr.cc/paper_files/paper/2025/file/66b35d2e8d524706f39cc21f5337b002-Paper-Conference.pdf",
+        "references": [
+          "https://openalex.org/W1598033630",
+          "https://openalex.org/W1599263113",
+          "https://openalex.org/W1933798900",
+          "https://openalex.org/W1971713783",
+          "https://openalex.org/W1995181543",
+          "https://openalex.org/W2012942264",
+          "https://openalex.org/W2041946752",
+          "https://openalex.org/W2211925278",
+          "https://openalex.org/W2254249950",
+          "https://openalex.org/W2489487449",
+          "https://openalex.org/W2534420330",
+          "https://openalex.org/W2626967530",
+          "https://openalex.org/W2724892359",
+          "https://openalex.org/W2725875209",
+          "https://openalex.org/W2738674657",
+          "https://openalex.org/W2945145698",
+          "https://openalex.org/W3012254281",
+          "https://openalex.org/W3030163527",
+          "https://openalex.org/W3039256091",
+          "https://openalex.org/W3111643701",
+          "https://openalex.org/W3201174429",
+          "https://openalex.org/W4281748205",
+          "https://openalex.org/W4389518686",
+          "https://openalex.org/W4401306886",
+          "https://openalex.org/W7071527535",
+          "https://openalex.org/W7133217747",
+          "https://openalex.org/W7133224126"
+        ],
+        "retracted": false,
+        "provenance": [
+          "semantic: Are there papers that propose contextualized calibration for the probability of answers in language models?",
+          "coverage repair: Are there papers that propose contextualized calibration for the probability of answers in language models?"
+        ],
+        "criteria": [],
+        "rrf": 0.024250440917107582,
+        "aliases": [
+          "https://openalex.org/W4403963829"
+        ],
+        "neural_score": 0.11371,
+        "score": 0.48425
+      },
+      {
+        "id": "https://openalex.org/W4392866727",
+        "title": "Thermometer: Towards Universal Calibration for Large Language Models",
+        "doi": "https://doi.org/10.48550/arxiv.2403.08819",
+        "year": 2024,
+        "abstract": "We consider the issue of calibration in large language models (LLM). Recent studies have found that common interventions such as instruction tuning often result in poorly calibrated LLMs. Although calibration is well-explored in traditional applications, calibrating LLMs is uniquely challenging. These challenges stem as much from the severe computational requirements of LLMs as from their versatility, which allows them to be applied to diverse tasks. Addressing these challenges, we propose THERMOMETER, a calibration approach tailored to LLMs. THERMOMETER learns an auxiliary model, given data from multiple tasks, for calibrating a LLM. It is computationally efficient, preserves the accuracy of the LLM, and produces better-calibrated responses for new tasks. Extensive empirical evaluations across various benchmarks demonstrate the effectiveness of the proposed method.",
+        "authors": [
+          "Maohao Shen",
+          "Subhro Das",
+          "Kristjan H. Greenewald",
+          "Prasanna Sattigeri",
+          "Gregory W. Wornell",
+          "Ghosh, Soumya"
+        ],
+        "venue": "International Conference on Machine Learning",
+        "citations": 89,
+        "open_access": true,
+        "url": "https://doi.org/10.48550/arxiv.2403.08819",
+        "pdf_url": "https://raw.githubusercontent.com/mlresearch/v235/main/assets/shen24c/shen24c.pdf",
+        "references": [
+          "https://openalex.org/W582134693",
+          "https://openalex.org/W1598033630",
+          "https://openalex.org/W1618905105",
+          "https://openalex.org/W2012942264",
+          "https://openalex.org/W2023943903",
+          "https://openalex.org/W2025720061",
+          "https://openalex.org/W2026799324",
+          "https://openalex.org/W2073241381",
+          "https://openalex.org/W2130715829",
+          "https://openalex.org/W2183341477",
+          "https://openalex.org/W2254249950",
+          "https://openalex.org/W2560321925",
+          "https://openalex.org/W2581377246",
+          "https://openalex.org/W2620364083",
+          "https://openalex.org/W2626967530",
+          "https://openalex.org/W2765407302",
+          "https://openalex.org/W2971296908",
+          "https://openalex.org/W2977745385",
+          "https://openalex.org/W2981528437",
+          "https://openalex.org/W2981852735",
+          "https://openalex.org/W2988421999",
+          "https://openalex.org/W2994928925",
+          "https://openalex.org/W3012209028",
+          "https://openalex.org/W3030163527",
+          "https://openalex.org/W3083410900",
+          "https://openalex.org/W3132736064",
+          "https://openalex.org/W3159054876",
+          "https://openalex.org/W3173591450",
+          "https://openalex.org/W3199958362",
+          "https://openalex.org/W3208677843",
+          "https://openalex.org/W4221157176",
+          "https://openalex.org/W4281401697",
+          "https://openalex.org/W4281690148",
+          "https://openalex.org/W4281748205",
+          "https://openalex.org/W4285429195",
+          "https://openalex.org/W4290994954",
+          "https://openalex.org/W4307079201",
+          "https://openalex.org/W4310629428",
+          "https://openalex.org/W4382317762",
+          "https://openalex.org/W4384918448"
+        ],
+        "retracted": false,
+        "provenance": [
+          "keyword: Are there propose contextualized calibration probability answers language models"
+        ],
+        "criteria": [],
+        "rrf": 0.015873015873015872,
+        "aliases": [
+          "https://openalex.org/W4392866727"
+        ],
+        "neural_score": 0.18287,
+        "score": 0.47675
+      },
+      {
+        "id": "https://openalex.org/W4389518686",
+        "title": "Just Ask for Calibration: Strategies for Eliciting Calibrated Confidence Scores from Language Models Fine-Tuned with Human Feedback",
+        "doi": "https://doi.org/10.18653/v1/2023.emnlp-main.330",
+        "year": 2023,
+        "abstract": "A trustworthy real-world prediction system should produce well-calibrated confidence scores; that is, its confidence in an answer should be indicative of the likelihood that the answer is correct, enabling deferral to an expert in cases of low-confidence predictions. Recent studies have shown that unsupervised pre-training produces large language models (LMs) whose conditional probabilities are remarkably well-calibrated. However, the most widely-used LMs are fine-tuned with reinforcement learning from human feedback (RLHF-LMs), and some studies have suggested that RLHF-LMs produce conditional probabilities that are very poorly calibrated. In light of this perceived weakness, we conduct a broad evaluation of methods for extracting confidence scores from RLHF-LMs. For RLHF-LMs such as ChatGPT, GPT-4, and Claude, we find that verbalized confidences emitted as output tokens are typically better-calibrated than the model’s conditional probabilities on the TriviaQA, SciQ, and TruthfulQA benchmarks, often reducing the expected calibration error by a relative 50%.",
+        "authors": [
+          "Katherine Tian",
+          "Eric Mitchell",
+          "Allan Zhou",
+          "Archit Sharma",
+          "Rafael Rafailov",
+          "Huaxiu Yao",
+          "Chelsea Finn",
+          "Christopher D. Manning"
+        ],
+        "venue": "Conference on Empirical Methods in Natural Language Processing (EMNLP)",
+        "citations": 1327,
+        "open_access": true,
+        "url": "https://doi.org/10.18653/v1/2023.emnlp-main.330",
+        "pdf_url": "https://aclanthology.org/2023.emnlp-main.330.pdf",
+        "references": [
+          "https://openalex.org/W1992970544",
+          "https://openalex.org/W2073241381",
+          "https://openalex.org/W2612431505",
+          "https://openalex.org/W2626804490",
+          "https://openalex.org/W2626967530",
+          "https://openalex.org/W2738674657",
+          "https://openalex.org/W2948194985",
+          "https://openalex.org/W2963613748",
+          "https://openalex.org/W2973379954",
+          "https://openalex.org/W3008686018",
+          "https://openalex.org/W3030163527",
+          "https://openalex.org/W3082115681",
+          "https://openalex.org/W3138296101",
+          "https://openalex.org/W3201174429",
+          "https://openalex.org/W4221157176",
+          "https://openalex.org/W4223908421",
+          "https://openalex.org/W4242017092",
+          "https://openalex.org/W4281748205",
+          "https://openalex.org/W4285429195",
+          "https://openalex.org/W4290994954",
+          "https://openalex.org/W4311991106",
+          "https://openalex.org/W4321594373",
+          "https://openalex.org/W4327810158",
+          "https://openalex.org/W4360836968",
+          "https://openalex.org/W4385573323",
+          "https://openalex.org/W4389523793",
+          "https://openalex.org/W7133211372"
+        ],
+        "retracted": false,
+        "provenance": [
+          "semantic: Are there papers that propose contextualized calibration for the probability of answers in language models?",
+          "coverage repair: Are there papers that propose contextualized calibration for the probability of answers in language models?"
+        ],
+        "criteria": [],
+        "rrf": 0.03225806451612903,
+        "aliases": [
+          "https://openalex.org/W4389518686"
+        ],
+        "neural_score": -0.03495,
+        "score": 0.47486
+      },
+      {
+        "id": "https://openalex.org/W4414427575",
+        "title": "Beyond Binary Rewards: Training LMs to Reason About Their Uncertainty",
+        "doi": "https://doi.org/10.48550/arxiv.2507.16806",
+        "year": 2026,
+        "abstract": "When language models (LMs) are trained via reinforcement learning (RL) to generate natural language \"reasoning chains\", their performance improves on a variety of difficult question answering tasks. Today, almost all successful applications of RL for reasoning use binary reward functions that evaluate the correctness of LM outputs. Because such reward functions do not penalize guessing or low-confidence outputs, they often have the unintended side-effect of degrading calibration and increasing the rate at which LMs generate incorrect responses (or \"hallucinate\") in other problem domains. This paper describes RLCR (Reinforcement Learning with Calibration Rewards), an approach to training reasoning models that jointly improves accuracy and calibrated confidence estimation. During RLCR, LMs generate both predictions and numerical confidence estimates after reasoning. They are trained to optimize a reward function that augments a binary correctness score with a Brier score -- a scoring rule for confidence estimates that incentivizes calibrated prediction. We first prove that this reward function (or any reward function that uses a bounded, proper scoring rule) yields models whose predictions are both accurate and well-calibrated. We next show that across diverse datasets, RLCR substantially improves calibration with no loss in accuracy, on both in-domain and out-of-domain evaluations -- outperforming both ordinary RL training and classifiers trained to assign post-hoc confidence scores. While ordinary RL hurts calibration, RLCR improves it. Finally, we demonstrate that verbalized confidence can be leveraged at test time to improve accuracy and calibration via confidence-weighted scaling methods. Our results show that explicitly optimizing for calibration can produce more generally reliable reasoning models. Code, models, and further info is available at https://rl-calibration.github.io/.",
+        "authors": [
+          "Mehul Damani",
+          "Isha Puri",
+          "Stewart Slocum",
+          "Idan Shenfeld",
+          "Leshem Choshen",
+          "Yoon Kim",
+          "Jacob Andreas"
+        ],
+        "venue": "International Conference on Learning Representations",
+        "citations": 160,
+        "open_access": true,
+        "url": "https://doi.org/10.48550/arxiv.2507.16806",
+        "pdf_url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/615675cc6e94ddb1a783904fb178b5f6-Paper-Conference.pdf",
+        "references": [
+          "https://openalex.org/W2025720061",
+          "https://openalex.org/W2073241381",
+          "https://openalex.org/W2612431505",
+          "https://openalex.org/W2889787757",
+          "https://openalex.org/W2954124977",
+          "https://openalex.org/W2963995027",
+          "https://openalex.org/W3134642945",
+          "https://openalex.org/W3210904070",
+          "https://openalex.org/W4281748205",
+          "https://openalex.org/W4285429195",
+          "https://openalex.org/W4321594373",
+          "https://openalex.org/W4388514352",
+          "https://openalex.org/W4388926373",
+          "https://openalex.org/W4389518686",
+          "https://openalex.org/W4389519449",
+          "https://openalex.org/W4391631327",
+          "https://openalex.org/W4394907048",
+          "https://openalex.org/W4399455319",
+          "https://openalex.org/W4402670143",
+          "https://openalex.org/W4403580391",
+          "https://openalex.org/W4403928636",
+          "https://openalex.org/W4404396608",
+          "https://openalex.org/W4404782957",
+          "https://openalex.org/W4405630972",
+          "https://openalex.org/W4405766390",
+          "https://openalex.org/W4406032137",
+          "https://openalex.org/W4412887774",
+          "https://openalex.org/W4414281281",
+          "https://openalex.org/W4414850267",
+          "https://openalex.org/W4415024084",
+          "https://openalex.org/W4415134981",
+          "https://openalex.org/W4415797924",
+          "https://openalex.org/W4416035861",
+          "https://openalex.org/W4416042738",
+          "https://openalex.org/W4416091752",
+          "https://openalex.org/W4416184655",
+          "https://openalex.org/W4416612974",
+          "https://openalex.org/W4417055076",
+          "https://openalex.org/W4417258166",
+          "https://openalex.org/W4417299958"
+        ],
+        "retracted": false,
+        "provenance": [
+          "semantic: Are there papers that propose contextualized calibration for the probability of answers in language models?",
+          "coverage repair: Are there papers that propose contextualized calibration for the probability of answers in language models?"
+        ],
+        "criteria": [],
+        "rrf": 0.03007688828584351,
+        "aliases": [
+          "https://openalex.org/W4414427575"
+        ],
+        "neural_score": -0.04468,
+        "score": 0.46738
+      }
+    ],
+    "usage": {
+      "api_calls": 4,
+      "cache_hits": 0,
+      "llm_calls": 6
+    },
+    "ranker": "cross-encoder + RRF",
+    "gaps": [
+      {
+        "id": "c1",
+        "text": "Are there papers that propose contextualized calibration for the probability of answers in language models?"
+      }
+    ],
+    "repaired": true,
+    "warnings": [
+      "Hosted LLM quota is cooling down; evidence judgments are unavailable"
+    ],
+    "citation_edges": [
+      {
+        "source": "https://openalex.org/W7224416023",
+        "target": "https://openalex.org/W4389518686"
+      },
+      {
+        "source": "https://openalex.org/W7224416023",
+        "target": "https://openalex.org/W4412889763"
+      },
+      {
+        "source": "https://openalex.org/W4285139078",
+        "target": "https://openalex.org/W3199958362"
+      },
+      {
+        "source": "https://openalex.org/W4403345399",
+        "target": "https://openalex.org/W4281748205"
+      },
+      {
+        "source": "https://openalex.org/W4403345399",
+        "target": "https://openalex.org/W4389518686"
+      },
+      {
+        "source": "https://openalex.org/W7223930791",
+        "target": "https://openalex.org/W4389518686"
+      },
+      {
+        "source": "https://openalex.org/W7223930791",
+        "target": "https://openalex.org/W4414427575"
+      },
+      {
+        "source": "https://openalex.org/W7126433453",
+        "target": "https://openalex.org/W3199958362"
+      },
+      {
+        "source": "https://openalex.org/W7126433453",
+        "target": "https://openalex.org/W4281748205"
+      },
+      {
+        "source": "https://openalex.org/W7126433453",
+        "target": "https://openalex.org/W4401043371"
+      },
+      {
+        "source": "https://openalex.org/W7162674038",
+        "target": "https://openalex.org/W4281748205"
+      },
+      {
+        "source": "https://openalex.org/W7162674038",
+        "target": "https://openalex.org/W4389518686"
+      },
+      {
+        "source": "https://openalex.org/W4403345305",
+        "target": "https://openalex.org/W4281748205"
+      },
+      {
+        "source": "https://openalex.org/W4403345305",
+        "target": "https://openalex.org/W4389518686"
+      },
+      {
+        "source": "https://openalex.org/W4389524305",
+        "target": "https://openalex.org/W3199958362"
+      },
+      {
+        "source": "https://openalex.org/W4389524305",
+        "target": "https://openalex.org/W4281748205"
+      },
+      {
+        "source": "https://openalex.org/W4415026603",
+        "target": "https://openalex.org/W3199958362"
+      },
+      {
+        "source": "https://openalex.org/W4281748205",
+        "target": "https://openalex.org/W3199958362"
+      },
+      {
+        "source": "https://openalex.org/W4401043371",
+        "target": "https://openalex.org/W3199958362"
+      },
+      {
+        "source": "https://openalex.org/W4401043371",
+        "target": "https://openalex.org/W4281401697"
+      },
+      {
+        "source": "https://openalex.org/W4401043371",
+        "target": "https://openalex.org/W4281748205"
+      },
+      {
+        "source": "https://openalex.org/W4416852270",
+        "target": "https://openalex.org/W4389518686"
+      },
+      {
+        "source": "https://openalex.org/W4416852270",
+        "target": "https://openalex.org/W4393904225"
+      },
+      {
+        "source": "https://openalex.org/W4411120336",
+        "target": "https://openalex.org/W3199958362"
+      },
+      {
+        "source": "https://openalex.org/W4411120336",
+        "target": "https://openalex.org/W4281748205"
+      },
+      {
+        "source": "https://openalex.org/W4393904225",
+        "target": "https://openalex.org/W3199958362"
+      },
+      {
+        "source": "https://openalex.org/W4388093317",
+        "target": "https://openalex.org/W4281748205"
+      },
+      {
+        "source": "https://openalex.org/W4388093317",
+        "target": "https://openalex.org/W4389518686"
+      },
+      {
+        "source": "https://openalex.org/W7125972569",
+        "target": "https://openalex.org/W4281748205"
+      },
+      {
+        "source": "https://openalex.org/W7125972569",
+        "target": "https://openalex.org/W4389518686"
+      },
+      {
+        "source": "https://openalex.org/W4404780855",
+        "target": "https://openalex.org/W4281748205"
+      },
+      {
+        "source": "https://openalex.org/W4404780855",
+        "target": "https://openalex.org/W4389518686"
+      },
+      {
+        "source": "https://openalex.org/W4404780855",
+        "target": "https://openalex.org/W4389524305"
+      },
+      {
+        "source": "https://openalex.org/W4403963829",
+        "target": "https://openalex.org/W4281748205"
+      },
+      {
+        "source": "https://openalex.org/W4403963829",
+        "target": "https://openalex.org/W4389518686"
+      },
+      {
+        "source": "https://openalex.org/W4392866727",
+        "target": "https://openalex.org/W3199958362"
+      },
+      {
+        "source": "https://openalex.org/W4392866727",
+        "target": "https://openalex.org/W4281401697"
+      },
+      {
+        "source": "https://openalex.org/W4392866727",
+        "target": "https://openalex.org/W4281748205"
+      },
+      {
+        "source": "https://openalex.org/W4389518686",
+        "target": "https://openalex.org/W4281748205"
+      },
+      {
+        "source": "https://openalex.org/W4414427575",
+        "target": "https://openalex.org/W4281748205"
+      },
+      {
+        "source": "https://openalex.org/W4414427575",
+        "target": "https://openalex.org/W4389518686"
+      }
+    ],
+    "evidence_basis": "Title and abstract; no full text read",
+    "ablations": {
+      "single_semantic": [
+        "https://openalex.org/W3199958362",
+        "https://openalex.org/W4389518686",
+        "https://openalex.org/W3132736064",
+        "https://openalex.org/W4281748205",
+        "https://openalex.org/W4389524305",
+        "https://openalex.org/W7126433453",
+        "https://openalex.org/W4414427575",
+        "https://openalex.org/W4393904225",
+        "https://openalex.org/W4412889763",
+        "https://openalex.org/W4402671034",
+        "https://openalex.org/W4392019723",
+        "https://openalex.org/W4285139078",
+        "https://openalex.org/W4404089115",
+        "https://openalex.org/W4404782598",
+        "https://openalex.org/W4401043371",
+        "https://openalex.org/W4403345399",
+        "https://openalex.org/W4388093317",
+        "https://openalex.org/W7162674038",
+        "https://openalex.org/W4416269536",
+        "https://openalex.org/W4415026603",
+        "https://openalex.org/W4403963829",
+        "https://openalex.org/W4416852270",
+        "https://openalex.org/W7165750871",
+        "https://openalex.org/W7224416023",
+        "https://openalex.org/W7125972569",
+        "https://openalex.org/W7223200561",
+        "https://openalex.org/W7223251264",
+        "https://openalex.org/W7169862453",
+        "https://openalex.org/W4415030262",
+        "https://openalex.org/W7152369013",
+        "https://openalex.org/W7160982125",
+        "https://openalex.org/W4405880897",
+        "https://openalex.org/W7223930791",
+        "https://openalex.org/W7225450803",
+        "https://openalex.org/W7214235531",
+        "https://openalex.org/W7216534886",
+        "https://openalex.org/W7140135065",
+        "https://openalex.org/W7202185112",
+        "https://openalex.org/W7159929207",
+        "https://openalex.org/W7161773685"
+      ],
+      "rrf": [
+        "https://openalex.org/W4412889763",
+        "https://openalex.org/W7126433453",
+        "https://openalex.org/W3132736064",
+        "https://openalex.org/W7140149151",
+        "https://openalex.org/W4403345399",
+        "https://openalex.org/W4285139078",
+        "https://openalex.org/W7224416023",
+        "https://openalex.org/W7223200561",
+        "https://openalex.org/W4405880897",
+        "https://openalex.org/W4401042444",
+        "https://openalex.org/W3199958362",
+        "https://openalex.org/W1965555277",
+        "https://openalex.org/W2994888541",
+        "https://openalex.org/W4389518686",
+        "https://openalex.org/W1997161938",
+        "https://openalex.org/W4392866727",
+        "https://openalex.org/W2606964149",
+        "https://openalex.org/W4281401697",
+        "https://openalex.org/W4281748205",
+        "https://openalex.org/W2016089260",
+        "https://openalex.org/W4411120336",
+        "https://openalex.org/W4389524305",
+        "https://openalex.org/W2886424491",
+        "https://openalex.org/W7204737012",
+        "https://openalex.org/W2798280648",
+        "https://openalex.org/W4412875472",
+        "https://openalex.org/W4414427575",
+        "https://openalex.org/W2912904516",
+        "https://openalex.org/W4393904225",
+        "https://openalex.org/W95183648",
+        "https://openalex.org/W7166176728",
+        "https://openalex.org/W2626967530",
+        "https://openalex.org/W3158733382",
+        "https://openalex.org/W4402671034",
+        "https://openalex.org/W2794325560",
+        "https://openalex.org/W4392019723",
+        "https://openalex.org/W4414855266",
+        "https://openalex.org/W4403345305",
+        "https://openalex.org/W4404782598",
+        "https://openalex.org/W4393161120",
+        "https://openalex.org/W4401043371",
+        "https://openalex.org/W4401042596",
+        "https://openalex.org/W4388093317",
+        "https://openalex.org/W4404305618",
+        "https://openalex.org/W7162674038",
+        "https://openalex.org/W7162467387",
+        "https://openalex.org/W4416269536",
+        "https://openalex.org/W4387294262",
+        "https://openalex.org/W4415026603",
+        "https://openalex.org/W4403963829",
+        "https://openalex.org/W4416852270",
+        "https://openalex.org/W4404355734",
+        "https://openalex.org/W7165750871",
+        "https://openalex.org/W4405786055",
+        "https://openalex.org/W7125972569",
+        "https://openalex.org/W4412944879",
+        "https://openalex.org/W4381551003",
+        "https://openalex.org/W7169862453",
+        "https://openalex.org/W4415030262",
+        "https://openalex.org/W4412888840"
+      ],
+      "rerank": [
+        "https://openalex.org/W4412889763",
+        "https://openalex.org/W7224416023",
+        "https://openalex.org/W4285139078",
+        "https://openalex.org/W4403345399",
+        "https://openalex.org/W7126433453",
+        "https://openalex.org/W7204737012",
+        "https://openalex.org/W3199958362",
+        "https://openalex.org/W4403345305",
+        "https://openalex.org/W4281748205",
+        "https://openalex.org/W7162674038",
+        "https://openalex.org/W4281401697",
+        "https://openalex.org/W4389524305",
+        "https://openalex.org/W4415026603",
+        "https://openalex.org/W4401043371",
+        "https://openalex.org/W4411120336",
+        "https://openalex.org/W4412944879",
+        "https://openalex.org/W4416852270",
+        "https://openalex.org/W4402671034",
+        "https://openalex.org/W4387294262",
+        "https://openalex.org/W4393904225",
+        "https://openalex.org/W4388093317",
+        "https://openalex.org/W7125972569",
+        "https://openalex.org/W4404782598",
+        "https://openalex.org/W4381551003",
+        "https://openalex.org/W4392866727",
+        "https://openalex.org/W7140149151",
+        "https://openalex.org/W4403963829",
+        "https://openalex.org/W4389518686",
+        "https://openalex.org/W4414427575",
+        "https://openalex.org/W7166176728",
+        "https://openalex.org/W7223200561",
+        "https://openalex.org/W3132736064",
+        "https://openalex.org/W7169862453",
+        "https://openalex.org/W7165750871",
+        "https://openalex.org/W4414855266",
+        "https://openalex.org/W4393161120",
+        "https://openalex.org/W4416269536",
+        "https://openalex.org/W4392019723",
+        "https://openalex.org/W3158733382",
+        "https://openalex.org/W4404355734",
+        "https://openalex.org/W2994888541",
+        "https://openalex.org/W4412875472",
+        "https://openalex.org/W4401042444",
+        "https://openalex.org/W4401042596",
+        "https://openalex.org/W4405880897",
+        "https://openalex.org/W4404305618",
+        "https://openalex.org/W7162467387",
+        "https://openalex.org/W4412888840",
+        "https://openalex.org/W2626967530",
+        "https://openalex.org/W4415030262",
+        "https://openalex.org/W2886424491",
+        "https://openalex.org/W1965555277",
+        "https://openalex.org/W1997161938",
+        "https://openalex.org/W2606964149",
+        "https://openalex.org/W2016089260",
+        "https://openalex.org/W2798280648",
+        "https://openalex.org/W4405786055",
+        "https://openalex.org/W2912904516",
+        "https://openalex.org/W95183648",
+        "https://openalex.org/W2794325560"
+      ]
+    },
+    "candidate_index": {
+      "https://openalex.org/W4401042444": {
+        "title": "A Survey of Confidence Estimation and Calibration in Large Language Models",
+        "year": 2024
+      },
+      "https://openalex.org/W2994888541": {
+        "title": "Contextual Temperature for Language Modeling",
+        "year": 2020
+      },
+      "https://openalex.org/W4392866727": {
+        "title": "Thermometer: Towards Universal Calibration for Large Language Models",
+        "year": 2024
+      },
+      "https://openalex.org/W4281401697": {
+        "title": "Prototypical Calibration for Few-shot Learning of Language Models",
+        "year": 2023
+      },
+      "https://openalex.org/W4411120336": {
+        "title": "Ambiguity Detection and Uncertainty Calibration for Question Answering with Large Language Models",
+        "year": 2025
+      },
+      "https://openalex.org/W7204737012": {
+        "title": "Parameter-Efficient Contextual Calibration for Hallucination Mitigation in Domain-Specific Large Language Model Retrieval-Augmented Generation",
+        "year": 2026
+      },
+      "https://openalex.org/W4412875472": {
+        "title": "Uncertainty Quantification and Confidence Calibration in Large Language Models: A Survey",
+        "year": 2025
+      },
+      "https://openalex.org/W7140149151": {
+        "title": "Restoring Calibration for Aligned Large Language Models: A Calibration-Aware Fine-Tuning Approach",
+        "year": 2025
+      },
+      "https://openalex.org/W7166176728": {
+        "title": "Calibration of Self-Reported Confidence and Accuracy of Large Language Models in Medical Question Answering",
+        "year": 2026
+      },
+      "https://openalex.org/W3158733382": {
+        "title": "Mitigating Political Bias in Language Models through Reinforced Calibration",
+        "year": 2021
+      },
+      "https://openalex.org/W7224416023": {
+        "title": "Bag-of-Tokens Tuning: Calibrating LLM Logits with Contextual Probabilities",
+        "year": 2026
+      },
+      "https://openalex.org/W7126433453": {
+        "title": "Calibration-Tuning: Teaching Large Language Models to Know What They Don’t Know",
+        "year": 2024
+      },
+      "https://openalex.org/W4414855266": {
+        "title": "Revisiting Uncertainty Estimation and Calibration of Large Language Models",
+        "year": 2025
+      },
+      "https://openalex.org/W4403345305": {
+        "title": "QA-Calibration of Language Model Confidence Scores",
+        "year": 2025
+      },
+      "https://openalex.org/W4393161120": {
+        "title": "Question Calibration and Multi-Hop Modeling for Temporal Question Answering",
+        "year": 2024
+      },
+      "https://openalex.org/W4401042596": {
+        "title": "Enhancing Contextual Understanding in Large Language Models through Contrastive Decoding",
+        "year": 2024
+      },
+      "https://openalex.org/W4403345399": {
+        "title": "Calibrating Verbalized Probabilities for Large Language Models",
+        "year": 2024
+      },
+      "https://openalex.org/W4404305618": {
+        "title": "Beware of Calibration Data for Pruning Large Language Models",
+        "year": 2025
+      },
+      "https://openalex.org/W7162467387": {
+        "title": "Confidence Calibration in Large Language Models",
+        "year": 2026
+      },
+      "https://openalex.org/W4387294262": {
+        "title": "Batch Calibration: Rethinking Calibration for In-Context Learning and Prompt Engineering",
+        "year": 2024
+      },
+      "https://openalex.org/W7238665574": {
+        "title": "Restoring Calibration for Aligned Large Language Models: A Calibration-Aware Fine-Tuning Approach",
+        "year": 2025
+      },
+      "https://openalex.org/W4285139078": {
+        "title": "Answer-level Calibration for Free-form Multiple Choice Question Answering",
+        "year": 2022
+      },
+      "https://openalex.org/W4404355734": {
+        "title": "Graph-based Confidence Calibration for Large Language Models",
+        "year": 2025
+      },
+      "https://openalex.org/W4405880897": {
+        "title": "Advancing calibration of language models for text generation",
+        "year": 2023
+      },
+      "https://openalex.org/W4405786055": {
+        "title": "Contextual Emotion Recognition using Large Vision Language Models",
+        "year": 2024
+      },
+      "https://openalex.org/W4412944879": {
+        "title": "GRACE: A Granular Benchmark for Evaluating Model Calibration against Human Calibration",
+        "year": 2025
+      },
+      "https://openalex.org/W4412889763": {
+        "title": "Language Model Probabilities are Not Calibrated in Numeric Contexts",
+        "year": 2025
+      },
+      "https://openalex.org/W4381551003": {
+        "title": "Conformal Language Modeling",
+        "year": 2024
+      },
+      "https://openalex.org/W3132736064": {
+        "title": "Calibrate Before Use: Improving Few-Shot Performance of Language Models",
+        "year": 2021
+      },
+      "https://openalex.org/W4412888840": {
+        "title": "Don’t Miss the Forest for the Trees: Attentional Vision Calibration for Large Vision Language Models",
+        "year": 2025
+      },
+      "https://openalex.org/W3173591450": {
+        "title": "Knowing More About Questions Can Help: Improving Calibration in Question Answering",
+        "year": 2021
+      },
+      "https://openalex.org/W4310829078": {
+        "title": "Improving Few-Shot Performance of Language Models via Nearest Neighbor Calibration",
+        "year": 2022
+      },
+      "https://openalex.org/W4404089115": {
+        "title": "Language Model Probabilities are Not Calibrated in Numeric Contexts",
+        "year": 2024
+      },
+      "https://openalex.org/W4414899020": {
+        "title": "Self-ensemble: Mitigating Confidence Mis-calibration for Large Language Models",
+        "year": 2025
+      },
+      "https://openalex.org/W7159578267": {
+        "title": "Geometry-Calibrated Conformal Abstention for Language Models",
+        "year": 2026
+      },
+      "https://openalex.org/W7166854544": {
+        "title": "DecoCal: Decoding with Calibration in Diffusion Large Language Models",
+        "year": 2026
+      },
+      "https://openalex.org/W4403707295": {
+        "title": "CoCA: Regaining Safety-awareness of Multimodal Large Language Models with Constitutional Calibration",
+        "year": 2024
+      },
+      "https://openalex.org/W4407185481": {
+        "title": "Mitigating Object Hallucinations in Large Vision-Language Models via Attention Calibration",
+        "year": 2025
+      },
+      "https://openalex.org/W3137558331": {
+        "title": "Learning a Word-Level Language Model with Sentence-Level Noise Contrastive Estimation for Contextual Sentence Probability Estimation",
+        "year": 2021
+      },
+      "https://openalex.org/W4402667062": {
+        "title": "Confidence Under the Hood: An Investigation into the Confidence-Probability Alignment in Large Language Models",
+        "year": 2024
+      },
+      "https://openalex.org/W3199958362": {
+        "title": "How Can We Know When Language Models Know? On the Calibration of Language Models for Question Answering",
+        "year": 2021
+      },
+      "https://openalex.org/W4389518686": {
+        "title": "Just Ask for Calibration: Strategies for Eliciting Calibrated Confidence Scores from Language Models Fine-Tuned with Human Feedback",
+        "year": 2023
+      },
+      "https://openalex.org/W4281748205": {
+        "title": "Teaching Models to Express Their Uncertainty in Words",
+        "year": 2022
+      },
+      "https://openalex.org/W4389524305": {
+        "title": "Selectively Answering Ambiguous Questions",
+        "year": 2023
+      },
+      "https://openalex.org/W4414427575": {
+        "title": "Beyond Binary Rewards: Training LMs to Reason About Their Uncertainty",
+        "year": 2026
+      },
+      "https://openalex.org/W4393904225": {
+        "title": "Linguistic Calibration of Long-Form Generations",
+        "year": 2024
+      },
+      "https://openalex.org/W4402671034": {
+        "title": "Context versus Prior Knowledge in Language Models",
+        "year": 2024
+      },
+      "https://openalex.org/W4392019723": {
+        "title": "Probabilities of Chat LLMs Are Miscalibrated but Still Predict Correctness on Multiple-Choice Q&A",
+        "year": 2025
+      },
+      "https://openalex.org/W4404782598": {
+        "title": "What Are the Odds? Language Models Are Capable of Probabilistic Reasoning",
+        "year": 2024
+      },
+      "https://openalex.org/W4401043371": {
+        "title": "A Study on the Calibration of In-context Learning",
+        "year": 2024
+      },
+      "https://openalex.org/W4388093317": {
+        "title": "LitCab: Lightweight Language Model Calibration over Short- and Long-form Responses",
+        "year": 2024
+      },
+      "https://openalex.org/W7162674038": {
+        "title": "Same Answer, Different Confidence: Protocol Sensitivity in LLM Confidence Calibration",
+        "year": 2026
+      },
+      "https://openalex.org/W4416269536": {
+        "title": "Trained on Tokens, Calibrated on Concepts: The Emergence of Semantic Calibration in LLMs",
+        "year": 2026
+      },
+      "https://openalex.org/W4415026603": {
+        "title": "Always Tell Me The Odds: Fine-grained Conditional Probability Estimation",
+        "year": 2025
+      },
+      "https://openalex.org/W4403963829": {
+        "title": "Calibrating Expressions of Certainty",
+        "year": 2025
+      },
+      "https://openalex.org/W4416852270": {
+        "title": "Conformal Linguistic Calibration: Trading-off between Factuality and Specificity",
+        "year": 2025
+      },
+      "https://openalex.org/W7165750871": {
+        "title": "CALIBER: Calibrating Confidence Before and After Reasoning in Language Models",
+        "year": 2026
+      },
+      "https://openalex.org/W7125972569": {
+        "title": "Self-Aware Knowledge Probing: Evaluating Language Models’ Relational Knowledge through Confidence Calibration",
+        "year": 2026
+      },
+      "https://openalex.org/W7223200561": {
+        "title": "Decisions in One Forward Pass: Typed Answers from Local Language Models, and Making Their Yes/No Probabilities Mean Something",
+        "year": 2026
+      },
+      "https://openalex.org/W7223251264": {
+        "title": "Decisions in One Forward Pass: Typed Answers from Local Language Models, and Making Their Yes/No Probabilities Mean Something",
+        "year": 2026
+      },
+      "https://openalex.org/W7169862453": {
+        "title": "Calibrating Semantic Uncertainty from Observable Language-Model Probabilities",
+        "year": 2026
+      },
+      "https://openalex.org/W4415030262": {
+        "title": "Express Your Doubts -- Probabilistic World Modeling Should not be Based on Token logprobs",
+        "year": 2026
+      },
+      "https://openalex.org/W7152369013": {
+        "title": "Improving Semantic Uncertainty Quantification in Language Model Question-Answering via Token-Level Temperature Scaling",
+        "year": 2026
+      },
+      "https://openalex.org/W7160982125": {
+        "title": "Probabilistic Calibration Is a Trainable Capability in Language Models",
+        "year": 2026
+      },
+      "https://openalex.org/W7223930791": {
+        "title": "Each Insufficient in Its Own Way: Calibrating Language Models Across Varying Evidence States",
+        "year": 2026
+      },
+      "https://openalex.org/W7225450803": {
+        "title": "Information titration of diagnostic probability calibration in large language models: a governing relation and prompt-free corrections",
+        "year": 2026
+      },
+      "https://openalex.org/W7214235531": {
+        "title": "Calibration-Aware Reinforcement Learning for Large Language Models: A Survey of Objectives, Optimization, and Decision-Making",
+        "year": 2026
+      },
+      "https://openalex.org/W7216534886": {
+        "title": "Verbalized and Internal Probabilities Are Coupled in Large Language Models",
+        "year": 2026
+      },
+      "https://openalex.org/W7140135065": {
+        "title": "Empirical Characterization of Inference-Time Elicited Probability Transformations in Large Language Models",
+        "year": 2026
+      },
+      "https://openalex.org/W7202185112": {
+        "title": "From token probabilities to calibrated confidence: An empirical study of mathematical question answering",
+        "year": 2026
+      },
+      "https://openalex.org/W7159929207": {
+        "title": "Friction-Guided Inference: Calibrating Correction Strategies and Abstention from Logprob Signals",
+        "year": 2026
+      },
+      "https://openalex.org/W7161773685": {
+        "title": "Retrieval-Augmented Linguistic Calibration",
+        "year": 2026
+      },
+      "https://openalex.org/W1965555277": {
+        "title": "On Information and Sufficiency",
+        "year": 1951
+      },
+      "https://openalex.org/W1997161938": {
+        "title": "Moving beyond Kučera and Francis: A critical evaluation of current word frequency norms and the introduction of a new and improved word frequency measure for American English",
+        "year": 2009
+      },
+      "https://openalex.org/W2606964149": {
+        "title": "RACE: Large-scale ReAding Comprehension Dataset From Examinations",
+        "year": 2017
+      },
+      "https://openalex.org/W2016089260": {
+        "title": "ConceptNet — A Practical Commonsense Reasoning Tool-Kit",
+        "year": 2004
+      },
+      "https://openalex.org/W2886424491": {
+        "title": "SWAG: A Large-Scale Adversarial Dataset for Grounded Commonsense Inference",
+        "year": 2018
+      },
+      "https://openalex.org/W2798280648": {
+        "title": "Gender Bias in Coreference Resolution",
+        "year": 2018
+      },
+      "https://openalex.org/W2912904516": {
+        "title": "DREAM: A Challenge Data Set and Models for Dialogue-Based Reading Comprehension",
+        "year": 2019
+      },
+      "https://openalex.org/W95183648": {
+        "title": "SemEval-2012 Task 7: Choice of Plausible Alternatives: An Evaluation of Commonsense Causal Reasoning",
+        "year": 2012
+      },
+      "https://openalex.org/W2626967530": {
+        "title": "On Calibration of Modern Neural Networks",
+        "year": 2017
+      },
+      "https://openalex.org/W2794325560": {
+        "title": "Think you have Solved Question Answering? Try ARC, the AI2 Reasoning Challenge",
+        "year": 2018
+      },
+      "https://openalex.org/W4404780855": {
+        "title": "Calibrating Long-form Generations From Large Language Models",
+        "year": 2024
+      }
+    },
+    "ordering": "All criteria supported, then incomplete evidence, then explicit counter-evidence; similarity breaks ties",
+    "joint_gap": true,
+    "model": "gemini-3.6-flash"
+  },
+  "events": [
+    {
+      "at": "2026-11-25T14:09:00.629703+00:00",
+      "step": "retrieve",
+      "message": "40 candidates from keyword search",
+      "query": "Are there propose contextualized calibration probability answers language models",
+      "cache_hit": false
+    },
+    {
+      "at": "2026-11-25T14:09:03.652797+00:00",
+      "step": "retrieve",
+      "message": "40 candidates from semantic search",
+      "query": "Are there papers that propose contextualized calibration for the probability of answers in language models?",
+      "cache_hit": false
+    },
+    {
+      "at": "2026-11-25T14:09:07.770384+00:00",
+      "step": "rank",
+      "message": "Ranked 60 unique candidates",
+      "ranker": "cross-encoder + RRF"
+    },
+    {
+      "at": "2026-11-25T14:09:09.891881+00:00",
+      "step": "citations",
+      "message": "Explored 10 cited works; metadata constraints remain enforced"
+    },
+    {
+      "at": "2026-11-25T14:09:14.099903+00:00",
+      "step": "rank",
+      "message": "Ranked 60 unique candidates",
+      "ranker": "cross-encoder + RRF"
+    },
+    {
+      "at": "2026-11-25T14:09:14.115442+00:00",
+      "step": "evidence",
+      "message": "Assessed top 15 papers; 1 criteria have no supported match",
+      "evidence_basis": "title and abstract only"
+    },
+    {
+      "at": "2026-11-25T14:09:17.374893+00:00",
+      "step": "repair",
+      "message": "Targeted a criterion with no supported match: Are there papers that propose contextualized calibration for the probability of answers in language models?",
+      "query": "Are there propose contextualized calibration probability answers language models Are there papers that propose contextualized calibration for the probability of answers in language models?",
+      "candidates": 40
+    },
+    {
+      "at": "2026-11-25T14:09:21.353962+00:00",
+      "step": "rank",
+      "message": "Ranked 60 unique candidates",
+      "ranker": "cross-encoder + RRF"
+    },
+    {
+      "at": "2026-11-25T14:09:21.371621+00:00",
+      "step": "evidence",
+      "message": "Assessed top 15 papers; 1 criteria have no supported match",
+      "evidence_basis": "title and abstract only"
+    },
+    {
+      "at": "2026-11-25T14:09:21.397078+00:00",
+      "step": "complete",
+      "message": "Returned 30 papers with provenance and exportable evidence"
+    },
+    {
+      "at": "2026-11-25T14:09:21.409637+00:00",
+      "step": "timing",
+      "message": "Search finished",
+      "elapsed_seconds": 23.55
+    }
+  ],
+  "feedback": {},
+  "task": {
+    "id": "litsearch-4",
+    "question": "Are there papers that propose contextualized calibration for the probability of answers in language models?",
+    "gold_titles": [
+      "Surface Form Competition: Why the Highest Probability Answer Isn't Always Right"
+    ],
+    "gold_corpusids": [
+      233296182
+    ],
+    "query_set": "inline_acl"
+  },
+  "end_to_end_seconds": 24.17
+}

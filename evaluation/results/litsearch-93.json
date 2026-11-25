@@ -1,0 +1,2774 @@
+{
+  "id": "c5a1af13-9e93-4fd3-a574-43b52960d545",
+  "created_at": "2026-11-25T14:04:33.330338+00:00",
+  "status": "complete",
+  "request": {
+    "plan": {
+      "question": "Which corpora are frequently used in research to benchmark English readability assessment tools?",
+      "queries": [
+        "English readability assessment benchmark corpora",
+        "readability assessment benchmark datasets English"
+      ],
+      "criteria": [
+        {
+          "id": "c1",
+          "text": "Focuses on English readability assessment"
+        },
+        {
+          "id": "c2",
+          "text": "Identifies or evaluates corpora/datasets used as benchmarks"
+        }
+      ],
+      "year_from": null,
+      "year_to": null,
+      "open_access": false,
+      "mode": "diligent",
+      "planner": "gemini-3.6-flash"
+    },
+    "rerank": true,
+    "repair": true
+  },
+  "result": {
+    "papers": [
+      {
+        "id": "https://openalex.org/W4386766808",
+        "title": "Cross-Corpus Readability Compatibility Assessment for English Texts",
+        "doi": "https://doi.org/10.1109/access.2023.3315834",
+        "year": 2023,
+        "abstract": "Text readability assessment has gained significant attention from researchers in various domains. However, the lack of exploration into corpus compatibility poses a challenge as different research groups utilize different corpora. In this study, we propose a novel evaluation framework, Cross-corpus text Readability Compatibility Assessment (CRCA)a, to address this issue. The framework encompasses three key components: (1) Corpus: CEFR, CLEC, CLOTH, NES, OSP, andRACE. Linguistic features, GloVeword vector representations, and their fusion features were extracted. (2) Classification models: Machine learning methods (XGBoost, SVM) and deep learning methods (BiLSTM, Attention-BiLSTM) were employed. (3) Compatibility metrics: RJSD, RRNSS, and NDCG metrics. Our findings revealed: (1) Validated corpus compatibility, with OSP standing out as significantly different from other datasets. (2) An adaptation effect among corpora, feature representations, and classification methods. (3) Consistent outcomes across the three metrics, validating the robustness of the compatibility assessment framework. The outcomes of this study offer valuable insights into corpus selection, feature representation, and classification methods, and it can also serve as a beginning effort for cross-corpus transfer learning.",
+        "authors": [
+          "Zhenzhen Li",
+          "Han Ding",
+          "Shaohong Zhang"
+        ],
+        "venue": "IEEE Access",
+        "citations": 8,
+        "open_access": true,
+        "url": "https://doi.org/10.1109/access.2023.3315834",
+        "pdf_url": "https://ieeexplore.ieee.org/ielx7/6287639/6514899/10251966.pdf",
+        "references": [
+          "https://openalex.org/W63592799",
+          "https://openalex.org/W133394232",
+          "https://openalex.org/W178255566",
+          "https://openalex.org/W1007681851",
+          "https://openalex.org/W1481128830",
+          "https://openalex.org/W1498421728",
+          "https://openalex.org/W1507711477",
+          "https://openalex.org/W1746111881",
+          "https://openalex.org/W2017590850",
+          "https://openalex.org/W2036887984",
+          "https://openalex.org/W2044257893",
+          "https://openalex.org/W2048587526",
+          "https://openalex.org/W2057272599",
+          "https://openalex.org/W2057720927",
+          "https://openalex.org/W2086366957",
+          "https://openalex.org/W2102148524",
+          "https://openalex.org/W2146950091",
+          "https://openalex.org/W2149684865",
+          "https://openalex.org/W2150783756",
+          "https://openalex.org/W2155424651",
+          "https://openalex.org/W2156167022",
+          "https://openalex.org/W2170654002",
+          "https://openalex.org/W2327689883",
+          "https://openalex.org/W2514166524",
+          "https://openalex.org/W2587195495",
+          "https://openalex.org/W2606964149",
+          "https://openalex.org/W2625439656",
+          "https://openalex.org/W2806183494",
+          "https://openalex.org/W2810503719",
+          "https://openalex.org/W2889048825",
+          "https://openalex.org/W2918429453",
+          "https://openalex.org/W2963308332",
+          "https://openalex.org/W2964941017",
+          "https://openalex.org/W2965628884",
+          "https://openalex.org/W2969888746",
+          "https://openalex.org/W2995248622",
+          "https://openalex.org/W3002072934",
+          "https://openalex.org/W3015672537",
+          "https://openalex.org/W3015786696",
+          "https://openalex.org/W3037554857"
+        ],
+        "retracted": false,
+        "provenance": [
+          "keyword: English readability assessment benchmark corpora",
+          "keyword: readability assessment benchmark datasets English"
+        ],
+        "criteria": [
+          {
+            "criterion_id": "c1",
+            "status": "supported",
+            "quote": "Cross-Corpus Readability Compatibility Assessment for English Texts",
+            "quote_verified": true,
+            "reason": "The paper explicitly focuses on readability compatibility assessment for English texts."
+          },
+          {
+            "criterion_id": "c2",
+            "status": "supported",
+            "quote": "(1) Corpus: CEFR, CLEC, CLOTH, NES, OSP, andRACE.",
+            "quote_verified": true,
+            "reason": "The paper evaluates and analyzes compatibility across multiple specific readability benchmark corpora."
+          }
+        ],
+        "rrf": 0.02964426877470356,
+        "aliases": [
+          "https://openalex.org/W4386766808"
+        ],
+        "neural_score": 4.3328,
+        "score": 0.90866
+      },
+      {
+        "id": "https://openalex.org/W7221183039",
+        "title": "Evaluating the consistency of text readability levels across corpora for English education",
+        "doi": "https://doi.org/10.1038/s41598-026-74479-3",
+        "year": 2026,
+        "abstract": "Text readability assessment is important for natural language processing, educational text adaptation, and learner-oriented content selection. However, readability labels defined in different corpora are often not directly comparable because they are based on corpus-specific grading schemes, annotation criteria, and target learner populations. This lack of comparability limits cross-corpus evaluation, weakens model transferability, and reduces the reliable reuse of existing readability resources. To address this issue, this study formulates cross-corpus readability alignment as a consistency evaluation problem and proposes a model-agnostic framework for analyzing the compatibility of readability levels across heterogeneous corpora. The framework combines cross-corpus readability prediction with three complementary consistency metrics, namely Reverse Jensen–Shannon Divergence (RJSD), Reverse Rank Normalized Sum of Squares (RRNSS), and Normalized Discounted Cumulative Gain (NDCG). To instantiate the framework, linguistic features, GloVe-based distributed representations, fused feature settings, and transformer-based contextualized baselines are examined under conventional machine learning, recurrent neural, and transformer-based modeling settings. Experiments on six English educational readability corpora suggest that the proposed framework reveals interpretable cross-corpus consistency patterns across the evaluated corpora and model families. In general, richer feature or representation settings tend to yield more favorable consistency scores than simpler settings, although the magnitude of the advantage varies across corpus pairs and modeling choices. Additional statistical analyses, including metric correlation analysis, repeated-run variability analysis, and selected significance testing, provide further support for the descriptive findings. These results suggest that the framework offers a useful basis for evaluating readability level alignment across corpora and may support exploratory corpus reuse, educational text selection, and cross-dataset readability research.",
+        "authors": [
+          "Yang Liu"
+        ],
+        "venue": "Scientific Reports",
+        "citations": 0,
+        "open_access": true,
+        "url": "https://doi.org/10.1038/s41598-026-74479-3",
+        "pdf_url": "https://www.nature.com/articles/s41598-026-74479-3_reference.pdf",
+        "references": [
+          "https://openalex.org/W1746111881",
+          "https://openalex.org/W2069870183",
+          "https://openalex.org/W2514166524",
+          "https://openalex.org/W2606964149",
+          "https://openalex.org/W2806183494",
+          "https://openalex.org/W2889048825",
+          "https://openalex.org/W2963341956",
+          "https://openalex.org/W2964941017",
+          "https://openalex.org/W2965373594",
+          "https://openalex.org/W2969888746",
+          "https://openalex.org/W3037554857",
+          "https://openalex.org/W3160254559",
+          "https://openalex.org/W3212250752",
+          "https://openalex.org/W4221068952",
+          "https://openalex.org/W4226208260",
+          "https://openalex.org/W4385572889",
+          "https://openalex.org/W4386576711",
+          "https://openalex.org/W4386766808",
+          "https://openalex.org/W4389524304",
+          "https://openalex.org/W4393160967",
+          "https://openalex.org/W4404792996",
+          "https://openalex.org/W4412377072",
+          "https://openalex.org/W4414626201",
+          "https://openalex.org/W7126400224"
+        ],
+        "retracted": false,
+        "provenance": [
+          "keyword: English readability assessment benchmark corpora",
+          "semantic: Which corpora are frequently used in research to benchmark English readability assessment tools?"
+        ],
+        "criteria": [
+          {
+            "criterion_id": "c1",
+            "status": "supported",
+            "quote": "Evaluating the consistency of text readability levels across corpora for English education",
+            "quote_verified": true,
+            "reason": "The title directly establishes that the paper focuses on readability levels across corpora for English education."
+          },
+          {
+            "criterion_id": "c2",
+            "status": "supported",
+            "quote": "proposes a model-agnostic framework for analyzing the compatibility of readability levels across heterogeneous corpora.",
+            "quote_verified": true,
+            "reason": "The paper evaluates readability levels across six heterogeneous English readability corpora."
+          }
+        ],
+        "rrf": 0.027579737335834898,
+        "aliases": [
+          "https://openalex.org/W7221183039"
+        ],
+        "neural_score": 4.91348,
+        "score": 0.9049
+      },
+      {
+        "id": "https://openalex.org/W7220653734",
+        "title": "A data-driven cognitive feature–based model for english text readability assessment to support college english instruction",
+        "doi": "https://doi.org/10.1038/s41598-026-75048-4",
+        "year": 2026,
+        "abstract": "Text readability assessment is important for college English instruction and reading material selection. Traditional readability formulas mainly rely on surface linguistic features, such as sentence length, word length, syllable counts, and word familiarity, but they often fail to represent reading-related processing demands beyond surface form. To address this limitation, this study proposes a cognitive-feature-based readability assessment framework that integrates three cognitively motivated, text-derived indicators with conventional linguistic features. The indicators comprise a Rarity Index, a Logical Complexity Index based on knowledge-network structure, and an Understanding Difficulty Index reflecting textual sequencing. Experiments are conducted on four benchmark datasets, including CEFR, CLEC, OneStopEnglish, and RACE, and the framework is compared with traditional readability formulas, conventional machine learning models, pretrained language models, and hybrid models. Evaluation metrics include Accuracy, F1-score, Quadratic Weighted Kappa, Mean Absolute Error, and RRNSS. A controlled feature-set ablation compares otherwise identical model configurations before and after adding the cognitive feature block. Across 24 matched comparisons, QWK improves in all 24 comparisons, ACC in 22, F1 in 23, and MAE decreases in 23. The best hybrid model, RoBERTa + Cog-Core, achieves the highest average ACC among the evaluated models (0.648) and improves over RoBERTa alone on all four datasets. These findings support the incremental and interpretable value of cognitively motivated textual proxies for readability assessment. The framework does not claim to directly measure human cognitive states, but it can provide interpretable support for matching reading materials with learners’ proficiency levels in college English instruction.",
+        "authors": [
+          "Jing Zhao",
+          "Congrong Zou"
+        ],
+        "venue": "Scientific Reports",
+        "citations": 0,
+        "open_access": true,
+        "url": "https://doi.org/10.1038/s41598-026-75048-4",
+        "pdf_url": "https://www.nature.com/articles/s41598-026-75048-4_reference.pdf",
+        "references": [
+          "https://openalex.org/W1536274117",
+          "https://openalex.org/W2036367260",
+          "https://openalex.org/W2086235321",
+          "https://openalex.org/W2095742734",
+          "https://openalex.org/W2106695994",
+          "https://openalex.org/W2123933087",
+          "https://openalex.org/W2133944470",
+          "https://openalex.org/W2143959207",
+          "https://openalex.org/W2606964149",
+          "https://openalex.org/W2964941017",
+          "https://openalex.org/W2981863007",
+          "https://openalex.org/W3000065748",
+          "https://openalex.org/W3008886125",
+          "https://openalex.org/W3027148609",
+          "https://openalex.org/W3037554857",
+          "https://openalex.org/W3160254559",
+          "https://openalex.org/W3202780679",
+          "https://openalex.org/W3212250752",
+          "https://openalex.org/W4367558144",
+          "https://openalex.org/W4393160967",
+          "https://openalex.org/W4411711327"
+        ],
+        "retracted": false,
+        "provenance": [
+          "keyword: English readability assessment benchmark corpora",
+          "semantic: Which corpora are frequently used in research to benchmark English readability assessment tools?",
+          "keyword: readability assessment benchmark datasets English",
+          "semantic: readability assessment benchmark datasets English"
+        ],
+        "criteria": [
+          {
+            "criterion_id": "c1",
+            "status": "supported",
+            "quote": "english text readability assessment",
+            "quote_verified": true,
+            "reason": "The title explicitly states that the paper presents a model for English text readability assessment."
+          },
+          {
+            "criterion_id": "c2",
+            "status": "supported",
+            "quote": "Experiments are conducted on four benchmark datasets, including CEFR, CLEC, OneStopEnglish, and RACE",
+            "quote_verified": true,
+            "reason": "The abstract explicitly states that experiments were conducted on four benchmark datasets and names them."
+          }
+        ],
+        "rrf": 0.04981166506046121,
+        "aliases": [
+          "https://openalex.org/W7220653734"
+        ],
+        "neural_score": 1.33351,
+        "score": 0.83314
+      },
+      {
+        "id": "https://openalex.org/W2115836457",
+        "title": "Assessing the readability of ClinicalTrials.gov",
+        "doi": "https://doi.org/10.1093/jamia/ocv062",
+        "year": 2015,
+        "abstract": "OBJECTIVE: ClinicalTrials.gov serves critical functions of disseminating trial information to the public and helping the trials recruit participants. This study assessed the readability of trial descriptions at ClinicalTrials.gov using multiple quantitative measures. MATERIALS AND METHODS: The analysis included all 165,988 trials registered at ClinicalTrials.gov as of April 30, 2014. To obtain benchmarks, the authors also analyzed 2 other medical corpora: (1) all 955 Health Topics articles from MedlinePlus and (2) a random sample of 100,000 clinician notes retrieved from an electronic health records system intended for conveying internal communication among medical professionals. The authors characterized each of the corpora using 4 surface metrics, and then applied 5 different scoring algorithms to assess their readability. The authors hypothesized that clinician notes would be most difficult to read, followed by trial descriptions and MedlinePlus Health Topics articles. RESULTS: Trial descriptions have the longest average sentence length (26.1 words) across all corpora; 65% of their words used are not covered by a basic medical English dictionary. In comparison, average sentence length of MedlinePlus Health Topics articles is 61% shorter, vocabulary size is 95% smaller, and dictionary coverage is 46% higher. All 5 scoring algorithms consistently rated CliniclTrials.gov trial descriptions the most difficult corpus to read, even harder than clinician notes. On average, it requires 18 years of education to properly understand these trial descriptions according to the results generated by the readability assessment algorithms. DISCUSSION AND CONCLUSION: Trial descriptions at CliniclTrials.gov are extremely difficult to read. Significant work is warranted to improve their readability in order to achieve CliniclTrials.gov's goal of facilitating information dissemination and subject recruitment.",
+        "authors": [
+          "Danny T Y Wu",
+          "David A. Hanauer",
+          "Qiaozhu Mei",
+          "Patricia M Clark",
+          "Lawrence C. An",
+          "Joshua Proulx",
+          "Qing Treitler Zeng",
+          "V. G. Vinod Vydiswaran",
+          "Kevyn Collins‐Thompson",
+          "Kai Zheng"
+        ],
+        "venue": "Journal of the American Medical Informatics Association",
+        "citations": 59,
+        "open_access": true,
+        "url": "https://doi.org/10.1093/jamia/ocv062",
+        "pdf_url": "https://academic.oup.com/jamia/article-pdf/23/2/269/34147589/ocv062.pdf",
+        "references": [
+          "https://openalex.org/W188090540",
+          "https://openalex.org/W1481128830",
+          "https://openalex.org/W1590000934",
+          "https://openalex.org/W1594883903",
+          "https://openalex.org/W1620390680",
+          "https://openalex.org/W1651004015",
+          "https://openalex.org/W1854708549",
+          "https://openalex.org/W1898555925",
+          "https://openalex.org/W1947951941",
+          "https://openalex.org/W1967099580",
+          "https://openalex.org/W1972919091",
+          "https://openalex.org/W1982318506",
+          "https://openalex.org/W2008514339",
+          "https://openalex.org/W2033890227",
+          "https://openalex.org/W2041806027",
+          "https://openalex.org/W2082673056",
+          "https://openalex.org/W2092770771",
+          "https://openalex.org/W2095235627",
+          "https://openalex.org/W2114273156",
+          "https://openalex.org/W2130071626",
+          "https://openalex.org/W2135010675",
+          "https://openalex.org/W2149123705",
+          "https://openalex.org/W2161880183",
+          "https://openalex.org/W2169513109",
+          "https://openalex.org/W2169771141",
+          "https://openalex.org/W2289836221",
+          "https://openalex.org/W2401260851",
+          "https://openalex.org/W2415725804",
+          "https://openalex.org/W4238308883",
+          "https://openalex.org/W6704345301"
+        ],
+        "retracted": false,
+        "provenance": [
+          "keyword: English readability assessment benchmark corpora"
+        ],
+        "criteria": [
+          {
+            "criterion_id": "c1",
+            "status": "supported",
+            "quote": "65% of their words used are not covered by a basic medical English dictionary.",
+            "quote_verified": true,
+            "reason": "The paper assesses the readability of medical text evaluated against an English dictionary."
+          },
+          {
+            "criterion_id": "c2",
+            "status": "supported",
+            "quote": "To obtain benchmarks, the authors also analyzed 2 other medical corpora: (1) all 955 Health Topics articles from MedlinePlus and (2) a random sample of 100,000 clinician notes retrieved from an electronic health records system intended for conveying internal communication among medical professionals.",
+            "quote_verified": true,
+            "reason": " the paper explicitly analyzes two specific medical corpora to establish benchmarks for readability comparison."
+          }
+        ],
+        "rrf": 0.015625,
+        "aliases": [
+          "https://openalex.org/W2115836457"
+        ],
+        "neural_score": 1.90613,
+        "score": 0.7592
+      },
+      {
+        "id": "https://openalex.org/W4386339132",
+        "title": "A Benchmark for Neural Readability Assessment of Texts in Spanish",
+        "doi": "https://doi.org/10.18653/v1/2022.tsar-1.18",
+        "year": 2022,
+        "abstract": "We release a new benchmark for Automated Readability Assessment (ARA) of texts in Spanish. We combined existing corpora with suitable texts collected from the Web, thus creating the largest available dataset for ARA of Spanish texts. All data was pre-processed and categorised to allow experimenting with ARA models that make predictions at two (simple and complex) or three (basic, intermediate, and advanced) readability levels, and at two text granularities (paragraphs and sentences). An analysis based on readability indices shows that our proposed datasets groupings are suitable for their designated readability level. We use our benchmark to train neural ARA models based on BERT in zero-shot, few-shot, and cross-lingual settings. Results show that either a monolingual or multilingual pre-trained model can achieve good results when fine-tuned in language-specific data. In addition, all mod- els decrease their performance when predicting three classes instead of two, showing opportunities for the development of better ARA models for Spanish with existing resources.",
+        "authors": [
+          "Laura Vásquez-Rodríguez",
+          "Pedro-Manuel Cuenca-Jiménez",
+          "Sergio Morales-Esquivel",
+          "Fernando Emilio Alva-Manchego"
+        ],
+        "venue": "Workshop on Text Simplification, Accessibility and Readability (TSAR)",
+        "citations": 27,
+        "open_access": true,
+        "url": "https://doi.org/10.18653/v1/2022.tsar-1.18",
+        "pdf_url": "https://aclanthology.org/2022.tsar-1.18.pdf",
+        "references": [
+          "https://openalex.org/W33677238",
+          "https://openalex.org/W1507711477",
+          "https://openalex.org/W1655573795",
+          "https://openalex.org/W1746111881",
+          "https://openalex.org/W2036367260",
+          "https://openalex.org/W2098592326",
+          "https://openalex.org/W2133717584",
+          "https://openalex.org/W2160724766",
+          "https://openalex.org/W2251661103",
+          "https://openalex.org/W2251861964",
+          "https://openalex.org/W2278965469",
+          "https://openalex.org/W2512857126",
+          "https://openalex.org/W2514166524",
+          "https://openalex.org/W2739504579",
+          "https://openalex.org/W2770352485",
+          "https://openalex.org/W2782127036",
+          "https://openalex.org/W2805989043",
+          "https://openalex.org/W2806183494",
+          "https://openalex.org/W2888989281",
+          "https://openalex.org/W2891244437",
+          "https://openalex.org/W2963341956",
+          "https://openalex.org/W2964941017",
+          "https://openalex.org/W2965373594",
+          "https://openalex.org/W2979826702",
+          "https://openalex.org/W2983040767",
+          "https://openalex.org/W3102330976",
+          "https://openalex.org/W3117229574",
+          "https://openalex.org/W3125370327",
+          "https://openalex.org/W3162223030",
+          "https://openalex.org/W3162339937",
+          "https://openalex.org/W3175444045",
+          "https://openalex.org/W3212250752",
+          "https://openalex.org/W4226208260",
+          "https://openalex.org/W4404784089",
+          "https://openalex.org/W7002254874",
+          "https://openalex.org/W7017027063",
+          "https://openalex.org/W7160238425"
+        ],
+        "retracted": false,
+        "provenance": [
+          "keyword: English readability assessment benchmark corpora",
+          "keyword: readability assessment benchmark datasets English",
+          "semantic: readability assessment benchmark datasets English"
+        ],
+        "criteria": [
+          {
+            "criterion_id": "c1",
+            "status": "uncertain",
+            "quote": "",
+            "quote_verified": false,
+            "reason": "Insufficient source evidence; full-paper verification may be needed."
+          },
+          {
+            "criterion_id": "c2",
+            "status": "supported",
+            "quote": "We release a new benchmark for Automated Readability Assessment (ARA) of texts in Spanish.",
+            "quote_verified": true,
+            "reason": "The paper introduces and releases a benchmark dataset for automated readability assessment."
+          }
+        ],
+        "rrf": 0.046494801754268796,
+        "aliases": [
+          "https://openalex.org/W4386339132"
+        ],
+        "neural_score": 3.09373,
+        "score": 0.95199
+      },
+      {
+        "id": "https://openalex.org/W4221068952",
+        "title": "A large-scaled corpus for assessing text readability",
+        "doi": "https://doi.org/10.3758/s13428-022-01802-x",
+        "year": 2022,
+        "abstract": "This paper introduces the CommonLit Ease of Readability (CLEAR) corpus, which provides unique readability scores for ~ 5000 text excerpts along with information about the excerpt's year of publishing, genre, and other metadata. The CLEAR corpus will provide researchers interested in discourse processing and reading with a resource from which to develop and test readability metrics and to model text readability. The CLEAR corpus includes a number of improvements in comparison to previous readability corpora including size, breadth of the excerpts available, which cover over 250 years of writing in two different genres, and unique readability criterion provided for each text based on teachers' ratings of text difficulty for student readers. This paper discusses the development of the corpus and presents reliability metrics for the human ratings of readability.",
+        "authors": [
+          "Scott A. Crossley",
+          "Aron Heintz",
+          "Joon Suh Choi",
+          "Jordan Batchelor",
+          "Mehrnoush Karimi",
+          "Agnes Malatinszky"
+        ],
+        "venue": "Behavior Research Methods",
+        "citations": 152,
+        "open_access": true,
+        "url": "https://doi.org/10.3758/s13428-022-01802-x",
+        "pdf_url": "https://link.springer.com/content/pdf/10.3758/s13428-022-01802-x.pdf",
+        "references": [
+          "https://openalex.org/W150688553",
+          "https://openalex.org/W368199433",
+          "https://openalex.org/W1481128830",
+          "https://openalex.org/W1482892933",
+          "https://openalex.org/W1507711477",
+          "https://openalex.org/W1509228788",
+          "https://openalex.org/W1603889988",
+          "https://openalex.org/W1690476117",
+          "https://openalex.org/W1704713987",
+          "https://openalex.org/W1746111881",
+          "https://openalex.org/W1795468129",
+          "https://openalex.org/W1806600124",
+          "https://openalex.org/W1831050183",
+          "https://openalex.org/W1967390364",
+          "https://openalex.org/W1974991592",
+          "https://openalex.org/W1979532929",
+          "https://openalex.org/W1981617416",
+          "https://openalex.org/W1982643343",
+          "https://openalex.org/W1985449126",
+          "https://openalex.org/W1988230003",
+          "https://openalex.org/W1996650435",
+          "https://openalex.org/W1997161938",
+          "https://openalex.org/W2000332471",
+          "https://openalex.org/W2004017050",
+          "https://openalex.org/W2013784666",
+          "https://openalex.org/W2018614477",
+          "https://openalex.org/W2019416425",
+          "https://openalex.org/W2026789015",
+          "https://openalex.org/W2028131103",
+          "https://openalex.org/W2034849674",
+          "https://openalex.org/W2035726644",
+          "https://openalex.org/W2036367260",
+          "https://openalex.org/W2037557484",
+          "https://openalex.org/W2040467972",
+          "https://openalex.org/W2049826494",
+          "https://openalex.org/W2063202923",
+          "https://openalex.org/W2083758911",
+          "https://openalex.org/W2084015864",
+          "https://openalex.org/W2085368566",
+          "https://openalex.org/W2087388117"
+        ],
+        "retracted": false,
+        "provenance": [
+          "keyword: English readability assessment benchmark corpora",
+          "semantic: Which corpora are frequently used in research to benchmark English readability assessment tools?",
+          "semantic: readability assessment benchmark datasets English"
+        ],
+        "criteria": [
+          {
+            "criterion_id": "c1",
+            "status": "uncertain",
+            "quote": "",
+            "quote_verified": false,
+            "reason": "Insufficient source evidence; full-paper verification may be needed."
+          },
+          {
+            "criterion_id": "c2",
+            "status": "supported",
+            "quote": "This paper introduces the CommonLit Ease of Readability (CLEAR) corpus, which provides unique readability scores for ~ 5000 text excerpts along with information about the excerpt's year of publishing, genre, and other metadata.",
+            "quote_verified": true,
+            "reason": "The paper introduces a large-scale corpus designed as a resource to test and benchmark readability metrics."
+          }
+        ],
+        "rrf": 0.04239233013040494,
+        "aliases": [
+          "https://openalex.org/W4221068952"
+        ],
+        "neural_score": 2.42217,
+        "score": 0.90501
+      },
+      {
+        "id": "https://openalex.org/W4404792996",
+        "title": "ReadMe++: Benchmarking Multilingual Language Models for Multi-Domain Readability Assessment",
+        "doi": "https://doi.org/10.18653/v1/2024.emnlp-main.682",
+        "year": 2024,
+        "abstract": "We present a comprehensive evaluation of large language models for multilingual readability assessment. Existing evaluation resources lack domain and language diversity, limiting the ability for cross-domain and cross-lingual analyses. This paper introduces ReadMe++, a multilingual multi-domain dataset with human annotations of 9757 sentences in Arabic, English, French, Hindi, and Russian, collected from 112 different data sources. This benchmark will encourage research on developing robust multilingual readability assessment methods. Using ReadMe++, we benchmark multilingual and monolingual language models in the supervised, unsupervised, and few-shot prompting settings. The domain and language diversity in ReadMe++ enable us to test more effective few-shot prompting, and identify shortcomings in state-of-the-art unsupervised methods. Our experiments also reveal exciting results of superior domain generalization and enhanced cross-lingual transfer capabilities by models trained on ReadMe++. We will make our data publicly available and release a python package tool for multilingual sentence readability prediction using our trained models at: https://github.com/tareknaous/readme.",
+        "authors": [
+          "Tarek Naous",
+          "Michael J. Ryan",
+          "Anton Lavrouk",
+          "Mohit Chandra",
+          "Wei Hong Xu"
+        ],
+        "venue": "Conference on Empirical Methods in Natural Language Processing (EMNLP)",
+        "citations": 57,
+        "open_access": true,
+        "url": "https://doi.org/10.18653/v1/2024.emnlp-main.682",
+        "pdf_url": "https://aclanthology.org/2024.emnlp-main.682.pdf",
+        "references": [
+          "https://openalex.org/W33677238",
+          "https://openalex.org/W133394232",
+          "https://openalex.org/W1507711477",
+          "https://openalex.org/W1546425147",
+          "https://openalex.org/W1746111881",
+          "https://openalex.org/W1773149199",
+          "https://openalex.org/W2120611599",
+          "https://openalex.org/W2138923868",
+          "https://openalex.org/W2141766660",
+          "https://openalex.org/W2168041406",
+          "https://openalex.org/W2239389665",
+          "https://openalex.org/W2307155907",
+          "https://openalex.org/W2340721711",
+          "https://openalex.org/W2419539795",
+          "https://openalex.org/W2468484304",
+          "https://openalex.org/W2483372821",
+          "https://openalex.org/W2508920525",
+          "https://openalex.org/W2514166524",
+          "https://openalex.org/W2572474373",
+          "https://openalex.org/W2577440271",
+          "https://openalex.org/W2740381354",
+          "https://openalex.org/W2798885959",
+          "https://openalex.org/W2806183494",
+          "https://openalex.org/W2885361267",
+          "https://openalex.org/W2886194718",
+          "https://openalex.org/W2889765309",
+          "https://openalex.org/W2891407789",
+          "https://openalex.org/W2939023439",
+          "https://openalex.org/W2946676565",
+          "https://openalex.org/W2950894652",
+          "https://openalex.org/W2963170138",
+          "https://openalex.org/W2963341956",
+          "https://openalex.org/W2963544536",
+          "https://openalex.org/W2964097072",
+          "https://openalex.org/W2964941017",
+          "https://openalex.org/W2965628884",
+          "https://openalex.org/W2969250152",
+          "https://openalex.org/W2970252517",
+          "https://openalex.org/W2970328625",
+          "https://openalex.org/W2983040767"
+        ],
+        "retracted": false,
+        "provenance": [
+          "keyword: English readability assessment benchmark corpora",
+          "keyword: readability assessment benchmark datasets English"
+        ],
+        "criteria": [
+          {
+            "criterion_id": "c1",
+            "status": "uncertain",
+            "quote": "",
+            "quote_verified": false,
+            "reason": "Insufficient source evidence; full-paper verification may be needed."
+          },
+          {
+            "criterion_id": "c2",
+            "status": "supported",
+            "quote": "This paper introduces ReadMe++, a multilingual multi-domain dataset with human annotations of 9757 sentences in Arabic, English, French, Hindi, and Russian, collected from 112 different data sources.",
+            "quote_verified": true,
+            "reason": "The paper introduces ReadMe++, a benchmark dataset for readability assessment across multiple domains and languages."
+          }
+        ],
+        "rrf": 0.03278688524590164,
+        "aliases": [
+          "https://openalex.org/W4404792996"
+        ],
+        "neural_score": 2.68486,
+        "score": 0.88055
+      },
+      {
+        "id": "https://openalex.org/W7125822260",
+        "title": "A readability index benchmark for Italian Plain and Easy Language texts",
+        "doi": "https://doi.org/10.1515/les-2026-0002",
+        "year": 2026,
+        "abstract": "Ensuring the readability of texts is crucial for effective communication, particularly in public and institutional contexts. In Italy, the lack of standardized readability benchmarks for Plain and Easy Language complicates efforts to improve text accessibility. This study establishes empirical readability benchmarks for Italian texts by analyzing two distinct corpora: one of Plain Language texts and another of Easy Language texts. The research employs the Gulpease index, the primary readability measure for Italian, to assess text complexity and define reference values for both language varieties. The findings reveal that Easy Language texts achieve significantly higher readability scores than Plain Language texts, as expected, although they exhibit considerable variability due to interpretable guidelines and diverse user needs. By contrast, Plain Language texts maintain lower but more consistent readability scores. The study proposes ideal readability thresholds based on sentence length and word complexity to enhance text standardization and accessibility. The results contribute to establishing practical readability benchmarks for Italian and highlight the necessity of refining readability guidelines to improve public communication. Future work should focus on integrating user feedback and machine learning models to enhance the precision of readability assessment tools and support inclusive communication practices.",
+        "authors": [
+          "Floriana Carlotta Sciumbata"
+        ],
+        "venue": "Lebende Sprachen",
+        "citations": 1,
+        "open_access": true,
+        "url": "https://doi.org/10.1515/les-2026-0002",
+        "pdf_url": null,
+        "references": [
+          "https://openalex.org/W163366133",
+          "https://openalex.org/W585796919",
+          "https://openalex.org/W1655573795",
+          "https://openalex.org/W2108070002",
+          "https://openalex.org/W2741295612",
+          "https://openalex.org/W2746582441",
+          "https://openalex.org/W3044116410",
+          "https://openalex.org/W3088980740",
+          "https://openalex.org/W3118128746",
+          "https://openalex.org/W3131155634",
+          "https://openalex.org/W3162228946",
+          "https://openalex.org/W3216844622",
+          "https://openalex.org/W4297617252",
+          "https://openalex.org/W4360614963",
+          "https://openalex.org/W4386527121",
+          "https://openalex.org/W6996825005",
+          "https://openalex.org/W7017545867",
+          "https://openalex.org/W7020550709",
+          "https://openalex.org/W7038958115",
+          "https://openalex.org/W7047556708",
+          "https://openalex.org/W7047898610"
+        ],
+        "retracted": false,
+        "provenance": [
+          "keyword: English readability assessment benchmark corpora",
+          "keyword: readability assessment benchmark datasets English"
+        ],
+        "criteria": [
+          {
+            "criterion_id": "c1",
+            "status": "uncertain",
+            "quote": "",
+            "quote_verified": false,
+            "reason": "Insufficient source evidence; full-paper verification may be needed."
+          },
+          {
+            "criterion_id": "c2",
+            "status": "uncertain",
+            "quote": "",
+            "quote_verified": false,
+            "reason": "Insufficient source evidence; full-paper verification may be needed."
+          }
+        ],
+        "rrf": 0.023024594453165882,
+        "aliases": [
+          "https://openalex.org/W7125822260"
+        ],
+        "neural_score": 3.72537,
+        "score": 0.87362
+      },
+      {
+        "id": "https://openalex.org/W2786485706",
+        "title": "Implicit readability ranking using the latent variable of a Bayesian Probit model.",
+        "doi": null,
+        "year": 2016,
+        "abstract": "Data driven approaches to readability analysis for languages other than English has been plagued by a scarcity of suitable corpora. Often, relevant corpora consist only of easy-to-read texts with no rank information or empirical readability scores, making only binary approaches, such as classification, applicable. We propose a Bayesian, latent variable, approach to get the most out of these kinds of corpora. In this paper we present results on using such a model for readability ranking. The model is evaluated on a preliminary corpus of ranked student texts with encourag- ing results. We also assess the model by showing that it performs readability classification on par with a state of the art classifier while at the same being transparent enough to allow more sophisticated interpretations.",
+        "authors": [
+          "Johan Falkenjack",
+          "Arne Jönsson"
+        ],
+        "venue": "DiVA (Linkoping University)",
+        "citations": 1,
+        "open_access": true,
+        "url": "http://urn.kb.se/resolve?urn=urn:nbn:se:liu:diva-133783",
+        "pdf_url": null,
+        "references": [
+          "https://openalex.org/W1549853756",
+          "https://openalex.org/W1591279088",
+          "https://openalex.org/W1993838378",
+          "https://openalex.org/W2019416425",
+          "https://openalex.org/W2036367260",
+          "https://openalex.org/W2093223772",
+          "https://openalex.org/W2108306139",
+          "https://openalex.org/W2115968643",
+          "https://openalex.org/W2135497302",
+          "https://openalex.org/W2148534890",
+          "https://openalex.org/W2157701876",
+          "https://openalex.org/W2157963336",
+          "https://openalex.org/W2164641162",
+          "https://openalex.org/W2170481316",
+          "https://openalex.org/W2251561807"
+        ],
+        "retracted": false,
+        "provenance": [
+          "semantic: Which corpora are frequently used in research to benchmark English readability assessment tools?",
+          "semantic: readability assessment benchmark datasets English"
+        ],
+        "criteria": [
+          {
+            "criterion_id": "c1",
+            "status": "uncertain",
+            "quote": "",
+            "quote_verified": false,
+            "reason": "Insufficient source evidence; full-paper verification may be needed."
+          },
+          {
+            "criterion_id": "c2",
+            "status": "uncertain",
+            "quote": "",
+            "quote_verified": false,
+            "reason": "Insufficient source evidence; full-paper verification may be needed."
+          }
+        ],
+        "rrf": 0.021622253389434316,
+        "aliases": [
+          "https://openalex.org/W2786485706"
+        ],
+        "neural_score": 3.9833,
+        "score": 0.87219
+      },
+      {
+        "id": "https://openalex.org/W3194697231",
+        "title": "The CommonLit Ease of Readability (CLEAR) Corpus",
+        "doi": null,
+        "year": 2021,
+        "abstract": "In this paper, we introduce the Anonymous Ease of Readability (AEAR) corpus. The corpus provides researchers within the educational data mining community with a resource from which to develop and test readability metrics and to model text readability. The AEAR corpus has a number of improvements over previous readability corpora include size (N = ~5,000 reading excerpts), the breadth of the excerpts available, which cover over 250 years of writing in two different genres, and the readability criterion used (teachers’ ratings of text difficulty for their students). This paper discusses the development of the corpus and presents reliability metrics as well as initial analyses of readability.",
+        "authors": [
+          "Scott A. Crossley",
+          "Aron Heintz",
+          "Joon Suh Choi",
+          "Jordan Batchelor",
+          "Mehrnoush Karimi",
+          "Agnes Malatinszky"
+        ],
+        "venue": "Educational Data Mining",
+        "citations": 19,
+        "open_access": false,
+        "url": "https://educationaldatamining.org/EDM2021/virtual/poster_paper35.html",
+        "pdf_url": null,
+        "references": [],
+        "retracted": false,
+        "provenance": [
+          "semantic: Which corpora are frequently used in research to benchmark English readability assessment tools?",
+          "semantic: readability assessment benchmark datasets English"
+        ],
+        "criteria": [
+          {
+            "criterion_id": "c1",
+            "status": "uncertain",
+            "quote": "",
+            "quote_verified": false,
+            "reason": "Insufficient source evidence; full-paper verification may be needed."
+          },
+          {
+            "criterion_id": "c2",
+            "status": "uncertain",
+            "quote": "",
+            "quote_verified": false,
+            "reason": "Insufficient source evidence; full-paper verification may be needed."
+          }
+        ],
+        "rrf": 0.024448419797257006,
+        "aliases": [
+          "https://openalex.org/W3194697231"
+        ],
+        "neural_score": 2.84576,
+        "score": 0.85424
+      },
+      {
+        "id": "https://openalex.org/W7204546529",
+        "title": "Cross-Corpus Readability Consistency Evaluation Code",
+        "doi": "https://doi.org/10.5281/zenodo.22138807",
+        "year": 2026,
+        "abstract": "Initial public release accompanying the manuscript \"Evaluating the Consistency of Text Readability Levels across Corpora for English Education\".",
+        "authors": [
+          "yang liu"
+        ],
+        "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+        "citations": 0,
+        "open_access": true,
+        "url": "https://doi.org/10.5281/zenodo.22138807",
+        "pdf_url": null,
+        "references": [],
+        "retracted": false,
+        "provenance": [
+          "semantic: Which corpora are frequently used in research to benchmark English readability assessment tools?",
+          "semantic: readability assessment benchmark datasets English"
+        ],
+        "criteria": [
+          {
+            "criterion_id": "c1",
+            "status": "uncertain",
+            "quote": "",
+            "quote_verified": false,
+            "reason": "Insufficient source evidence; full-paper verification may be needed."
+          },
+          {
+            "criterion_id": "c2",
+            "status": "uncertain",
+            "quote": "",
+            "quote_verified": false,
+            "reason": "Insufficient source evidence; full-paper verification may be needed."
+          }
+        ],
+        "rrf": 0.021764705882352943,
+        "aliases": [
+          "https://openalex.org/W7204546529"
+        ],
+        "neural_score": 2.76719,
+        "score": 0.84009
+      },
+      {
+        "id": "https://openalex.org/W2107529665",
+        "title": "Towards an Improved Methodology for Automated Readability Prediction",
+        "doi": "https://doi.org/10.63317/3ujevzfm9dqe",
+        "year": 2010,
+        "abstract": "Since the first half of the 20th century, readability formulas have been widely employed to automatically predict the readability of an unseen text. In this article, the formulas and the text characteristics they are composed of are evaluated in the context of large Dutch and English corpora. We describe the behaviour of the formulas and the text characteristics by means of correlation matrices and a principal component analysis, and test the methodological validity of the formulas by means of collinearity tests. Both the correlation matrices and the principal component analysis show that the formulas described in this paper strongly correspond, regardless of the language for which they were designed. Furthermore, the collinearity test reveals shortcomings in the methodology that was used to create some of the existing readability formulas. All of this leads us to conclude that a new readability prediction method is needed. We finally make suggestions to come to a cleaner methodology and present web applications that will help us collect data to compile a new gold standard for readability prediction. 1.",
+        "authors": [
+          "Philip van Oosten",
+          "Dries Tanghe",
+          "Véronique Hoste"
+        ],
+        "venue": "Language Resources and Evaluation Conference (LREC)",
+        "citations": 50,
+        "open_access": true,
+        "url": "https://doi.org/10.63317/3ujevzfm9dqe",
+        "pdf_url": "http://hdl.handle.net/1854/LU-1055826",
+        "references": [
+          "https://openalex.org/W175030052",
+          "https://openalex.org/W1543298386",
+          "https://openalex.org/W1967390364",
+          "https://openalex.org/W2022941465",
+          "https://openalex.org/W2048587526",
+          "https://openalex.org/W2106695994",
+          "https://openalex.org/W2289836221",
+          "https://openalex.org/W2565099826",
+          "https://openalex.org/W2910001684",
+          "https://openalex.org/W4243041937"
+        ],
+        "retracted": false,
+        "provenance": [
+          "semantic: Which corpora are frequently used in research to benchmark English readability assessment tools?"
+        ],
+        "criteria": [
+          {
+            "criterion_id": "c1",
+            "status": "uncertain",
+            "quote": "",
+            "quote_verified": false,
+            "reason": "Insufficient source evidence; full-paper verification may be needed."
+          },
+          {
+            "criterion_id": "c2",
+            "status": "uncertain",
+            "quote": "",
+            "quote_verified": false,
+            "reason": "Insufficient source evidence; full-paper verification may be needed."
+          }
+        ],
+        "rrf": 0.014084507042253521,
+        "aliases": [
+          "https://openalex.org/W2107529665"
+        ],
+        "neural_score": 2.67269,
+        "score": 0.80487
+      },
+      {
+        "id": "https://openalex.org/W2760797156",
+        "title": "Combining Multiple Corpora for Readability Assessment for People with Cognitive Disabilities",
+        "doi": "https://doi.org/10.18653/v1/w17-5013",
+        "year": 2017,
+        "abstract": "Given the lack of large user-evaluated corpora in disability-related NLP research (e.g. text simplification or readability assessment for people with cognitive disabilities), the question of choosing suitable training data for NLP models is not straightforward. The use of large generic corpora may be problematic because such data may not reflect the needs of the target population. The use of the available user-evaluated corpora may be problematic because these datasets are not large enough to be used as training data. In this paper we explore a third approach, in which a large generic corpus is combined with a smaller population-specific corpus to train a classifier which is evaluated using two sets of unseen user-evaluated data. One of these sets, the ASD Comprehension corpus, is developed for the purposes of this study and made freely available. We explore the effects of the size and type of the training data used on the performance of the classifiers, and the effects of the type of the unseen test datasets on the classification performance.",
+        "authors": [
+          "Victoria Yaneva",
+          "Constantin Orǎsan",
+          "Richard Evans",
+          "Omid Rohanian"
+        ],
+        "venue": "Workshop on Innovative Use of NLP for Building Educational Applications",
+        "citations": 19,
+        "open_access": true,
+        "url": "https://doi.org/10.18653/v1/w17-5013",
+        "pdf_url": "https://www.aclweb.org/anthology/W17-5013.pdf",
+        "references": [
+          "https://openalex.org/W22861983",
+          "https://openalex.org/W33677238",
+          "https://openalex.org/W63592799",
+          "https://openalex.org/W108787144",
+          "https://openalex.org/W176147302",
+          "https://openalex.org/W659209778",
+          "https://openalex.org/W1481128830",
+          "https://openalex.org/W1517993545",
+          "https://openalex.org/W1527819738",
+          "https://openalex.org/W1528113134",
+          "https://openalex.org/W1536274117",
+          "https://openalex.org/W1655573795",
+          "https://openalex.org/W1746111881",
+          "https://openalex.org/W1905522558",
+          "https://openalex.org/W1965914437",
+          "https://openalex.org/W1967390364",
+          "https://openalex.org/W1967691365",
+          "https://openalex.org/W1979082461",
+          "https://openalex.org/W1982350555",
+          "https://openalex.org/W1983935388",
+          "https://openalex.org/W1985449126",
+          "https://openalex.org/W1988557420",
+          "https://openalex.org/W2000375639",
+          "https://openalex.org/W2036367260",
+          "https://openalex.org/W2054230270",
+          "https://openalex.org/W2055438657",
+          "https://openalex.org/W2061235289",
+          "https://openalex.org/W2065603840",
+          "https://openalex.org/W2068463433",
+          "https://openalex.org/W2104936489",
+          "https://openalex.org/W2133944470",
+          "https://openalex.org/W2140144366",
+          "https://openalex.org/W2162512585",
+          "https://openalex.org/W2163302275",
+          "https://openalex.org/W2171575620",
+          "https://openalex.org/W2263498518",
+          "https://openalex.org/W2401685776",
+          "https://openalex.org/W2401830275",
+          "https://openalex.org/W2406896568",
+          "https://openalex.org/W2502261637"
+        ],
+        "retracted": false,
+        "provenance": [
+          "keyword: English readability assessment benchmark corpora",
+          "keyword: readability assessment benchmark datasets English"
+        ],
+        "criteria": [
+          {
+            "criterion_id": "c1",
+            "status": "uncertain",
+            "quote": "",
+            "quote_verified": false,
+            "reason": "Insufficient source evidence; full-paper verification may be needed."
+          },
+          {
+            "criterion_id": "c2",
+            "status": "uncertain",
+            "quote": "",
+            "quote_verified": false,
+            "reason": "Insufficient source evidence; full-paper verification may be needed."
+          }
+        ],
+        "rrf": 0.028629032258064516,
+        "aliases": [
+          "https://openalex.org/W2760797156"
+        ],
+        "neural_score": 1.82757,
+        "score": 0.80413
+      },
+      {
+        "id": "https://openalex.org/W7201965880",
+        "title": "Research on Readability Rating Methods for English Texts Based on Artificial Intelligence",
+        "doi": "https://doi.org/10.21203/rs.3.rs-10531862/v1",
+        "year": 2026,
+        "abstract": "Readability assessment is an essential component of educational technology, digital publishing, intelligent tutoring systems, and automatic text adaptation. Conventional readability formulas mainly rely on shallow linguistic features, such as sentence length and word complexity, limiting their ability to capture semantic information and accurately evaluate text difficulty. To overcome these limitations, this study proposes an artificial intelligence-based framework that combines transformer-based semantic representations with handcrafted linguistic features to improve the accuracy and robustness of English text readability assessment. The proposed framework was evaluated using the CLEAR dataset, which contains 4,724 annotated English text samples. A pre-trained RoBERTa-Base model was employed to generate 768-dimensional semantic embeddings, while 39 linguistic features describing lexical, structural, and syntactic characteristics were extracted. These features were normalized, integrated, and analyzed using an XGBoost regression model optimized through five-fold cross-validation and grid-search techniques. Experimental results demonstrate that the proposed model outperforms conventional approaches, including Linear Regression, Support Vector Regression, and Random Forest models. The framework achieved an RMSE of 0.0980, an MAE of 0.0794, and an R² value of 0.9908. The findings indicate that integrating deep semantic embeddings with linguistic features significantly enhances prediction accuracy and generalization capability, providing a scalable solution for educational content adaptation, manuscript evaluation, and other natural language processing applications.",
+        "authors": [
+          "Zhongwei Mei"
+        ],
+        "venue": "Research Square",
+        "citations": 0,
+        "open_access": true,
+        "url": "https://doi.org/10.21203/rs.3.rs-10531862/v1",
+        "pdf_url": "https://www.researchsquare.com/article/rs-10531862/latest.pdf",
+        "references": [
+          "https://openalex.org/W4386986880",
+          "https://openalex.org/W4391595601",
+          "https://openalex.org/W4402369984",
+          "https://openalex.org/W4403939824",
+          "https://openalex.org/W4403942281",
+          "https://openalex.org/W4404051226",
+          "https://openalex.org/W4404216892",
+          "https://openalex.org/W4404801565",
+          "https://openalex.org/W4404893452",
+          "https://openalex.org/W4407341490",
+          "https://openalex.org/W4407349260",
+          "https://openalex.org/W4408338568",
+          "https://openalex.org/W4410716542",
+          "https://openalex.org/W4410941180",
+          "https://openalex.org/W4411711327",
+          "https://openalex.org/W4411859655",
+          "https://openalex.org/W4411893218",
+          "https://openalex.org/W4411902287",
+          "https://openalex.org/W4413102663",
+          "https://openalex.org/W4414783823",
+          "https://openalex.org/W4415378553",
+          "https://openalex.org/W4415812814",
+          "https://openalex.org/W4416782359",
+          "https://openalex.org/W4416993653",
+          "https://openalex.org/W7106452163",
+          "https://openalex.org/W7118125175",
+          "https://openalex.org/W7118126051",
+          "https://openalex.org/W7123338727",
+          "https://openalex.org/W7131837446",
+          "https://openalex.org/W7138926659",
+          "https://openalex.org/W7151988963"
+        ],
+        "retracted": false,
+        "provenance": [
+          "keyword: English readability assessment benchmark corpora",
+          "keyword: readability assessment benchmark datasets English"
+        ],
+        "criteria": [
+          {
+            "criterion_id": "c1",
+            "status": "supported",
+            "quote": "improve the accuracy and robustness of English text readability assessment.",
+            "quote_verified": true,
+            "reason": "The text directly states that the proposed framework focuses on English text readability assessment."
+          },
+          {
+            "criterion_id": "c2",
+            "status": "uncertain",
+            "quote": "",
+            "quote_verified": false,
+            "reason": "Insufficient source evidence; full-paper verification may be needed."
+          }
+        ],
+        "rrf": 0.023709315375982042,
+        "aliases": [
+          "https://openalex.org/W7201965880"
+        ],
+        "neural_score": 1.58184,
+        "score": 0.75877
+      },
+      {
+        "id": "https://openalex.org/W4385574355",
+        "title": "A Unified Neural Network Model for Readability Assessment with Feature Projection and Length-Balanced Loss",
+        "doi": "https://doi.org/10.18653/v1/2022.emnlp-main.504",
+        "year": 2022,
+        "abstract": "Readability assessment is a basic research task in the field of education. Traditional methods mainly employ machine learning classifiers with hundreds of linguistic features. Although the deep learning model has become the prominent approach for almost all NLP tasks, it is less explored for readability assessment. In this paper, we propose a BERT-based model with feature projection and length-balanced loss (BERT-FP-LBL) to determine the difficulty level of a given text. First, we introduce topic features guided by difficulty knowledge to complement the traditional linguistic features. From the linguistic features, we extract really useful orthogonal features to supplement BERT representations by means of projection filtering. Furthermore, we design a length-balanced loss to handle the greatly varying length distribution of the readability data. We conduct experiments on three English benchmark datasets and one Chinese dataset, and the experimental results show that our proposed model achieves significant improvements over baseline models. Interestingly, our proposed model achieves comparable results with human experts in consistency test.",
+        "authors": [
+          "Wenbiao Li",
+          "Wang Ziyang",
+          "Yunfang Wu"
+        ],
+        "venue": "Conference on Empirical Methods in Natural Language Processing (EMNLP)",
+        "citations": 32,
+        "open_access": true,
+        "url": "https://doi.org/10.18653/v1/2022.emnlp-main.504",
+        "pdf_url": "https://aclanthology.org/2022.emnlp-main.504.pdf",
+        "references": [
+          "https://openalex.org/W33677238",
+          "https://openalex.org/W1481128830",
+          "https://openalex.org/W1686946872",
+          "https://openalex.org/W1840106123",
+          "https://openalex.org/W1967390364",
+          "https://openalex.org/W2012171860",
+          "https://openalex.org/W2062585132",
+          "https://openalex.org/W2094852898",
+          "https://openalex.org/W2153081451",
+          "https://openalex.org/W2250539671",
+          "https://openalex.org/W2514166524",
+          "https://openalex.org/W2559613745",
+          "https://openalex.org/W2781759777",
+          "https://openalex.org/W2804552794",
+          "https://openalex.org/W2806183494",
+          "https://openalex.org/W2835115886",
+          "https://openalex.org/W2891244437",
+          "https://openalex.org/W2896457183",
+          "https://openalex.org/W2942518841",
+          "https://openalex.org/W2964941017",
+          "https://openalex.org/W2965628884",
+          "https://openalex.org/W2970971581",
+          "https://openalex.org/W2998183721",
+          "https://openalex.org/W2999964172",
+          "https://openalex.org/W3015786696",
+          "https://openalex.org/W3035040493",
+          "https://openalex.org/W3037554857",
+          "https://openalex.org/W3126930515",
+          "https://openalex.org/W3179000338",
+          "https://openalex.org/W3202780679",
+          "https://openalex.org/W4226208260"
+        ],
+        "retracted": false,
+        "provenance": [
+          "keyword: readability assessment benchmark datasets English",
+          "semantic: readability assessment benchmark datasets English"
+        ],
+        "criteria": [],
+        "rrf": 0.03057889822595705,
+        "aliases": [
+          "https://openalex.org/W4385574355"
+        ],
+        "neural_score": 1.3349,
+        "score": 0.7561
+      },
+      {
+        "id": "https://openalex.org/W2514166524",
+        "title": "Text Readability Assessment for Second Language Learners",
+        "doi": "https://doi.org/10.18653/v1/w16-0502",
+        "year": 2016,
+        "abstract": "This paper addresses the task of readability assessment for the texts aimed at second language (L2) learners.One of the major challenges in this task is the lack of significantly sized level-annotated data.For the present work, we collected a dataset of CEFR-graded texts tailored for learners of English as an L2 and investigated text readability assessment for both native and L2 learners.We applied a generalization method to adapt models trained on larger native corpora to estimate text readability for learners, and explored domain adaptation and self-learning techniques to make use of the native data to improve system performance on the limited L2 data.In our experiments, the best performing model for readability on learner texts achieves an accuracy of 0.797 and P CC of 0.938.",
+        "authors": [
+          "Menglin Xia",
+          "Ekaterina Kochmar",
+          "Ted Briscoe"
+        ],
+        "venue": "Workshop on Innovative Use of NLP for Building Educational Applications",
+        "citations": 254,
+        "open_access": true,
+        "url": "https://doi.org/10.18653/v1/w16-0502",
+        "pdf_url": "https://www.aclweb.org/anthology/W16-0502.pdf",
+        "references": [
+          "https://openalex.org/W33677238",
+          "https://openalex.org/W136568931",
+          "https://openalex.org/W1528370852",
+          "https://openalex.org/W1565570978",
+          "https://openalex.org/W1631260214",
+          "https://openalex.org/W1965949675",
+          "https://openalex.org/W2007231077",
+          "https://openalex.org/W2017590850",
+          "https://openalex.org/W2019416425",
+          "https://openalex.org/W2032817377",
+          "https://openalex.org/W2035217250",
+          "https://openalex.org/W2036367260",
+          "https://openalex.org/W2048587526",
+          "https://openalex.org/W2055438657",
+          "https://openalex.org/W2081580037",
+          "https://openalex.org/W2110286374",
+          "https://openalex.org/W2123849094",
+          "https://openalex.org/W2129227538",
+          "https://openalex.org/W2133944470",
+          "https://openalex.org/W2140676672",
+          "https://openalex.org/W2145713659",
+          "https://openalex.org/W2153081451",
+          "https://openalex.org/W2153635508",
+          "https://openalex.org/W2171575620",
+          "https://openalex.org/W2250372169",
+          "https://openalex.org/W2313267970",
+          "https://openalex.org/W2478443020",
+          "https://openalex.org/W3146885639",
+          "https://openalex.org/W6999199159",
+          "https://openalex.org/W7017027063"
+        ],
+        "retracted": false,
+        "provenance": [
+          "semantic: readability assessment benchmark datasets English"
+        ],
+        "criteria": [],
+        "rrf": 0.015873015873015872,
+        "aliases": [
+          "https://openalex.org/W2514166524"
+        ],
+        "neural_score": 1.61423,
+        "score": 0.73093
+      },
+      {
+        "id": "https://openalex.org/W3212250752",
+        "title": "BERT Embeddings for Automatic Readability Assessment",
+        "doi": "https://doi.org/10.26615/978-954-452-072-4_069",
+        "year": 2021,
+        "abstract": "Automatic readability assessment (ARA) is the task of evaluating the level of ease or difficulty of text documents for a target audience.For researchers, one of the many open problems in the field is to make such models trained for the task show efficacy even for low-resource languages.In this study, we propose an alternative way of utilizing the information-rich embeddings of BERT models with handcrafted linguistic features through a combined method for readability assessment.Results show that the proposed method outperforms classical approaches in readability assessment using English and Filipino datasets-obtaining as high as 12.4% increase in F1 performance.We also show that the general information encoded in BERT embeddings can be used as a substitute feature set for low-resource languages like Filipino with limited semantic and syntactic NLP tools to explicitly extract feature values for the task.",
+        "authors": [
+          "Joseph Marvin Imperial"
+        ],
+        "venue": "International conference Recent advances in natural language processing",
+        "citations": 89,
+        "open_access": true,
+        "url": "https://doi.org/10.26615/978-954-452-072-4_069",
+        "pdf_url": "https://doi.org/10.26615/978-954-452-072-4_069",
+        "references": [
+          "https://openalex.org/W33677238",
+          "https://openalex.org/W136568931",
+          "https://openalex.org/W1669955980",
+          "https://openalex.org/W1967390364",
+          "https://openalex.org/W2017590850",
+          "https://openalex.org/W2055438657",
+          "https://openalex.org/W2071128523",
+          "https://openalex.org/W2251861964",
+          "https://openalex.org/W2251958572",
+          "https://openalex.org/W2305305422",
+          "https://openalex.org/W2512857126",
+          "https://openalex.org/W2514166524",
+          "https://openalex.org/W2593688532",
+          "https://openalex.org/W2806183494",
+          "https://openalex.org/W2870144080",
+          "https://openalex.org/W2908854766",
+          "https://openalex.org/W2922565841",
+          "https://openalex.org/W2946359678",
+          "https://openalex.org/W2954835819",
+          "https://openalex.org/W2963341956",
+          "https://openalex.org/W2964941017",
+          "https://openalex.org/W2965647350",
+          "https://openalex.org/W2970641574",
+          "https://openalex.org/W2970703043",
+          "https://openalex.org/W2989815961",
+          "https://openalex.org/W3006881356",
+          "https://openalex.org/W3010757365",
+          "https://openalex.org/W3022569409",
+          "https://openalex.org/W3029880317",
+          "https://openalex.org/W3031068414",
+          "https://openalex.org/W3037554857",
+          "https://openalex.org/W3120571833",
+          "https://openalex.org/W3125185263",
+          "https://openalex.org/W3135940656",
+          "https://openalex.org/W3154129590",
+          "https://openalex.org/W3160254559",
+          "https://openalex.org/W6996754042"
+        ],
+        "retracted": false,
+        "provenance": [
+          "keyword: English readability assessment benchmark corpora",
+          "keyword: readability assessment benchmark datasets English"
+        ],
+        "criteria": [],
+        "rrf": 0.02877846790890269,
+        "aliases": [
+          "https://openalex.org/W3212250752"
+        ],
+        "neural_score": 1.0412,
+        "score": 0.70681
+      },
+      {
+        "id": "https://openalex.org/W7224212195",
+        "title": "A Benchmark for Arabic Lemma-Level Readability Assessment",
+        "doi": "https://doi.org/10.18653/2026.emnlp-main.2314",
+        "year": 2026,
+        "abstract": "We present BAREC-LexBench, a benchmark for Arabic lemma-level readability assessment, designed to evaluate readability lexicons and computational models independently of their granularity levels. We build the benchmark through a large-scale pairwise comparison task, where annotators determine which of two Arabic lemmas is easier to read and understand. The benchmark consists of 36,000 annotated pairs covering both same- and cross-part-of-speech comparisons among open-class lemmas: adjectives, nouns, proper nouns, and verbs. The annotations were produced by expert Arabic educators with an average inter-annotator agreement of 77.7% (0.56 Kappa ∼ moderate agreement), and we analyze disagreement patterns to better understand where lemma-level readability judgments are most challenging. We benchmark a wide range of approaches, from readability lexicons and frequency-based lexicons to trainable models and large language models (LLMs). Finally, we demonstrate downstream uses of the benchmark by constructing a ranked readability lexicon covering open-class lemmas (BAREC-LexRank) and evaluating its contribution to sentence-level readability assessment. To support research and education, we make the dataset, ranked lexicon, and benchmark results openly available.",
+        "authors": [
+          "Khalid N. Elmadani",
+          "Mostafa Saeed",
+          "Hanada Taha",
+          "Nizar Y. Habash"
+        ],
+        "venue": "Conference on Empirical Methods in Natural Language Processing (EMNLP)",
+        "citations": 0,
+        "open_access": true,
+        "url": "https://doi.org/10.18653/2026.emnlp-main.2314",
+        "pdf_url": "https://aclanthology.org/2026.emnlp-main.2314.pdf",
+        "references": [
+          "https://openalex.org/W112759044",
+          "https://openalex.org/W175030052",
+          "https://openalex.org/W1997657458",
+          "https://openalex.org/W2053154970",
+          "https://openalex.org/W2292103514",
+          "https://openalex.org/W2307155907",
+          "https://openalex.org/W2807018475",
+          "https://openalex.org/W2885479598",
+          "https://openalex.org/W2891244437",
+          "https://openalex.org/W2980282514",
+          "https://openalex.org/W2997591727",
+          "https://openalex.org/W3011963106",
+          "https://openalex.org/W3032746405",
+          "https://openalex.org/W3155053993",
+          "https://openalex.org/W3176169354",
+          "https://openalex.org/W4390041933",
+          "https://openalex.org/W4401306886",
+          "https://openalex.org/W4402671017",
+          "https://openalex.org/W4404792996",
+          "https://openalex.org/W4405095511",
+          "https://openalex.org/W4406072927",
+          "https://openalex.org/W4412888009",
+          "https://openalex.org/W4412944258",
+          "https://openalex.org/W4414780056",
+          "https://openalex.org/W4414939355",
+          "https://openalex.org/W4416037532",
+          "https://openalex.org/W4416037809",
+          "https://openalex.org/W6891858254",
+          "https://openalex.org/W7131777546",
+          "https://openalex.org/W7131816547",
+          "https://openalex.org/W7139144149",
+          "https://openalex.org/W7160108095",
+          "https://openalex.org/W7160325520",
+          "https://openalex.org/W7165751553"
+        ],
+        "retracted": false,
+        "provenance": [
+          "keyword: English readability assessment benchmark corpora",
+          "keyword: readability assessment benchmark datasets English",
+          "semantic: readability assessment benchmark datasets English"
+        ],
+        "criteria": [],
+        "rrf": 0.04121438263229308,
+        "aliases": [
+          "https://openalex.org/W7224212195"
+        ],
+        "neural_score": 0.50492,
+        "score": 0.66437
+      },
+      {
+        "id": "https://openalex.org/W3188199239",
+        "title": "Readability Assessment Tool for English Texts",
+        "doi": null,
+        "year": 2021,
+        "abstract": "",
+        "authors": [
+          "Joon Suh Choi",
+          "Scott A. Crossley"
+        ],
+        "venue": null,
+        "citations": 3,
+        "open_access": false,
+        "url": "https://easychair.org/publications/preprint_open/pgb8",
+        "pdf_url": null,
+        "references": [],
+        "retracted": false,
+        "provenance": [
+          "semantic: Which corpora are frequently used in research to benchmark English readability assessment tools?",
+          "semantic: readability assessment benchmark datasets English"
+        ],
+        "criteria": [],
+        "rrf": 0.02574682290807064,
+        "aliases": [
+          "https://openalex.org/W3188199239"
+        ],
+        "neural_score": 0.73851,
+        "score": 0.64471
+      },
+      {
+        "id": "https://openalex.org/W4389256823",
+        "title": "English Language Corpora: Design, Analysis and Exploitation: Papers from the thirteenth International Conference on English Language Research on Computerized Corpora, Nijmegen 1992",
+        "doi": "https://doi.org/10.1163/9789004653559",
+        "year": 1993,
+        "abstract": "",
+        "authors": [
+          "Jan M.G. Aarts",
+          "Pieter de Haan",
+          "Nelleke H. J. Oostdijk"
+        ],
+        "venue": "BRILL eBooks",
+        "citations": 86,
+        "open_access": false,
+        "url": "https://doi.org/10.1163/9789004653559",
+        "pdf_url": null,
+        "references": [],
+        "retracted": false,
+        "provenance": [
+          "semantic: Which corpora are frequently used in research to benchmark English readability assessment tools?"
+        ],
+        "criteria": [],
+        "rrf": 0.015384615384615385,
+        "aliases": [
+          "https://openalex.org/W4389256823"
+        ],
+        "neural_score": 0.86887,
+        "score": 0.62538
+      },
+      {
+        "id": "https://openalex.org/W2608695679",
+        "title": "Towards Multipurpose Readability Assessment",
+        "doi": null,
+        "year": 2016,
+        "abstract": "Readability refers to the ease with which a reader can understand a text. Automatic readability assessment has been widely studied over the past 50 years. However, most of the studies focus on the development of tools that apply either to a single language, domain, or document type. This supposes duplicate efforts for both developers, who need to integrate multiple tools in their systems, and final users, who have to deal with incompatibilities among the readability scales of different tools. In this manuscript, we present MultiRead, a multipurpose readability assessment tool capable of predicting the reading difficulty of texts of varied type and length regardless of the language in which they are written. MultiRead bases its predictions on multiple indicators extracted from textual resources, including lexical, morphological, syntactical, semantic and social indicators. The latter are of particular interest given the recent adoption of social sites by users of different age and reading abilities. We gathered a leveled corpora comprised of textual resources in English, Spanish and Basque languages, with diverse length, source, domain and format. This corpora was used for assessing the effectiveness of MultiRead, and demonstrating that MultiRead outperforms other readability assessment systems, in terms of accuracy among all languages and document types evaluated.",
+        "authors": [
+          "Ion Madrazo Azpiazu"
+        ],
+        "venue": "Scholar Works  (Boise State University)",
+        "citations": 2,
+        "open_access": true,
+        "url": "https://scholarworks.boisestate.edu/td/1210",
+        "pdf_url": "https://scholarworks.boisestate.edu/cgi/viewcontent.cgi?article=2262&context=td",
+        "references": [
+          "https://openalex.org/W112759044",
+          "https://openalex.org/W127573234",
+          "https://openalex.org/W136568931",
+          "https://openalex.org/W176147302",
+          "https://openalex.org/W1130813113",
+          "https://openalex.org/W1481128830",
+          "https://openalex.org/W1488725407",
+          "https://openalex.org/W1491067015",
+          "https://openalex.org/W1507711477",
+          "https://openalex.org/W1508112475",
+          "https://openalex.org/W1509228788",
+          "https://openalex.org/W1553232534",
+          "https://openalex.org/W1574901103",
+          "https://openalex.org/W1595961126",
+          "https://openalex.org/W1596324102",
+          "https://openalex.org/W1596717185",
+          "https://openalex.org/W1655573795",
+          "https://openalex.org/W1769122462",
+          "https://openalex.org/W1967390364",
+          "https://openalex.org/W1967691365",
+          "https://openalex.org/W1974388374",
+          "https://openalex.org/W1978361856",
+          "https://openalex.org/W1982264230",
+          "https://openalex.org/W1983722887",
+          "https://openalex.org/W1993568272",
+          "https://openalex.org/W1995875735",
+          "https://openalex.org/W2019416425",
+          "https://openalex.org/W2037782528",
+          "https://openalex.org/W2044364542",
+          "https://openalex.org/W2072399511",
+          "https://openalex.org/W2080515068",
+          "https://openalex.org/W2080620909",
+          "https://openalex.org/W2081580037",
+          "https://openalex.org/W2094852898",
+          "https://openalex.org/W2096369514",
+          "https://openalex.org/W2099246599",
+          "https://openalex.org/W2109115148",
+          "https://openalex.org/W2112265903",
+          "https://openalex.org/W2113790578",
+          "https://openalex.org/W2115968643"
+        ],
+        "retracted": false,
+        "provenance": [
+          "keyword: English readability assessment benchmark corpora",
+          "keyword: readability assessment benchmark datasets English"
+        ],
+        "criteria": [],
+        "rrf": 0.02803921568627451,
+        "aliases": [
+          "https://openalex.org/W2608695679"
+        ],
+        "neural_score": 0.27476,
+        "score": 0.56719
+      },
+      {
+        "id": "https://openalex.org/W4388861720",
+        "title": "Creating and Using English Language Corpora: Papers from the fourteenth International Conference on English Language Research on Computerized Corpora, Zürich 1993",
+        "doi": "https://doi.org/10.1163/9789004652804",
+        "year": 1994,
+        "abstract": "",
+        "authors": [
+          "Udo Fries",
+          "Gunnel Tottie",
+          "Peter T. Schneider"
+        ],
+        "venue": "BRILL eBooks",
+        "citations": 95,
+        "open_access": false,
+        "url": "https://doi.org/10.1163/9789004652804",
+        "pdf_url": null,
+        "references": [],
+        "retracted": false,
+        "provenance": [
+          "semantic: Which corpora are frequently used in research to benchmark English readability assessment tools?"
+        ],
+        "criteria": [],
+        "rrf": 0.015873015873015872,
+        "aliases": [
+          "https://openalex.org/W4388861720"
+        ],
+        "neural_score": 0.37455,
+        "score": 0.53778
+      },
+      {
+        "id": "https://openalex.org/W4407349260",
+        "title": "Automatic readability assessment for sentences: neural, hybrid and large language models",
+        "doi": "https://doi.org/10.1007/s10579-024-09800-5",
+        "year": 2025,
+        "abstract": "Automatic readability assessment (ARA) aims to determine the cognitive load of a reader to comprehend a given text. ARA research has been mostly conducted at the text level, with numerous studies showing strong performance of neural and hybrid models. ARA at the sentence level, however, has received less attention, even though many applications in natural language processing (NLP) require assessment of the difficulty of individual sentences. This article compares the performance of neural models, hybrid models and large language models (LLMs) for sentence-level ARA, making three main contributions. First, we construct the first Chinese sentence-level ARA datasets, with nearly 70K sentences, to facilitate evaluation on Chinese. Second, we present the first experimental results on applying LLMs to sentence-level ARA. Finally, while previous work focused mostly on English data, we show that hybrid models outperform traditional classifiers, neural models, and LLMs in both English and Chinese data. The best hybrid model obtained state-of-the-art results on the Wall Street Journal dataset, surpassing the previous best result by almost 15% absolute. It also achieved competitive results on the CEFR-SP dataset. In detailed analyses, we identify the linguistic features that most significantly contributed to the performance of the hybrid model. We show that 10 linguistic features are correlated to readability across all datasets, and models trained on this reduced feature set achieve performance that rivals the full set. These results not only yield new insights into hybrid models for sentence-level ARA, but also set new benchmarks for future research in both English and Chinese.",
+        "authors": [
+          "Fengkai Liu",
+          "Tan Jin",
+          "John Sie Yuen Lee"
+        ],
+        "venue": "Language Resources and Evaluation",
+        "citations": 29,
+        "open_access": true,
+        "url": "https://doi.org/10.1007/s10579-024-09800-5",
+        "pdf_url": null,
+        "references": [
+          "https://openalex.org/W33677238",
+          "https://openalex.org/W57864881",
+          "https://openalex.org/W203075432",
+          "https://openalex.org/W249922076",
+          "https://openalex.org/W1614298861",
+          "https://openalex.org/W1746111881",
+          "https://openalex.org/W1969116761",
+          "https://openalex.org/W2036367260",
+          "https://openalex.org/W2063526809",
+          "https://openalex.org/W2130989619",
+          "https://openalex.org/W2157331557",
+          "https://openalex.org/W2164777277",
+          "https://openalex.org/W2173564293",
+          "https://openalex.org/W2248696035",
+          "https://openalex.org/W2250496306",
+          "https://openalex.org/W2250539671",
+          "https://openalex.org/W2251589676",
+          "https://openalex.org/W2252206005",
+          "https://openalex.org/W2313267970",
+          "https://openalex.org/W2462982558",
+          "https://openalex.org/W2470673105",
+          "https://openalex.org/W2471684646",
+          "https://openalex.org/W2483372821",
+          "https://openalex.org/W2569308312",
+          "https://openalex.org/W2575993171",
+          "https://openalex.org/W2739504579",
+          "https://openalex.org/W2740381354",
+          "https://openalex.org/W2806146112",
+          "https://openalex.org/W2806183494",
+          "https://openalex.org/W2883206022",
+          "https://openalex.org/W2891407789",
+          "https://openalex.org/W2896457183",
+          "https://openalex.org/W2910001684",
+          "https://openalex.org/W2913914346",
+          "https://openalex.org/W2950813464",
+          "https://openalex.org/W2962946486",
+          "https://openalex.org/W2964941017",
+          "https://openalex.org/W2965373594",
+          "https://openalex.org/W2965628884",
+          "https://openalex.org/W2972960423"
+        ],
+        "retracted": false,
+        "provenance": [
+          "keyword: readability assessment benchmark datasets English"
+        ],
+        "criteria": [],
+        "rrf": 0.014705882352941176,
+        "aliases": [
+          "https://openalex.org/W4407349260"
+        ],
+        "neural_score": 0.39411,
+        "score": 0.53686
+      },
+      {
+        "id": "https://openalex.org/W4385571722",
+        "title": "Automatic Readability Assessment for Closely Related Languages",
+        "doi": "https://doi.org/10.18653/v1/2023.findings-acl.331",
+        "year": 2023,
+        "abstract": "In recent years, the main focus of research on automatic readability assessment (ARA) has shifted towards using expensive deep learning-based methods with the primary goal of increasing models’ accuracy. This, however, is rarely applicable for low-resource languages where traditional handcrafted features are still widely used due to the lack of existing NLP tools to extract deeper linguistic representations. In this work, we take a step back from the technical component and focus on how linguistic aspects such as mutual intelligibility or degree of language relatedness can improve ARA in a low-resource setting. We collect short stories written in three languages in the Philippines—Tagalog, Bikol, and Cebuano—to train readability assessment models and explore the interaction of data and features in various cross-lingual setups. Our results show that the inclusion of CrossNGO, a novel specialized feature exploiting n-gram overlap applied to languages with high mutual intelligibility, significantly improves the performance of ARA models compared to the use of off-the-shelf large multilingual language models alone. Consequently, when both linguistic representations are combined, we achieve state-of-the-art results for Tagalog and Cebuano, and baseline scores for ARA in Bikol.",
+        "authors": [
+          "Joseph Marvin Imperial",
+          "Ekaterina Kochmar"
+        ],
+        "venue": "Findings of the Association for Computational Linguistics: ACL (Findings of ACL)",
+        "citations": 19,
+        "open_access": true,
+        "url": "https://doi.org/10.18653/v1/2023.findings-acl.331",
+        "pdf_url": "https://aclanthology.org/2023.findings-acl.331.pdf",
+        "references": [
+          "https://openalex.org/W33677238",
+          "https://openalex.org/W120768113",
+          "https://openalex.org/W1543320899",
+          "https://openalex.org/W1669955980",
+          "https://openalex.org/W1965949675",
+          "https://openalex.org/W2015736129",
+          "https://openalex.org/W2021581601",
+          "https://openalex.org/W2060057253",
+          "https://openalex.org/W2065861778",
+          "https://openalex.org/W2087367914",
+          "https://openalex.org/W2115717548",
+          "https://openalex.org/W2251861964",
+          "https://openalex.org/W2251882082",
+          "https://openalex.org/W2313267970",
+          "https://openalex.org/W2512857126",
+          "https://openalex.org/W2514166524",
+          "https://openalex.org/W2610696915",
+          "https://openalex.org/W2781584967",
+          "https://openalex.org/W2782152013",
+          "https://openalex.org/W2796592721",
+          "https://openalex.org/W2806183494",
+          "https://openalex.org/W2888799681",
+          "https://openalex.org/W2946417913",
+          "https://openalex.org/W2963341956",
+          "https://openalex.org/W2965628884",
+          "https://openalex.org/W2969888746",
+          "https://openalex.org/W2970641574",
+          "https://openalex.org/W3006881356",
+          "https://openalex.org/W3010757365",
+          "https://openalex.org/W3037554857",
+          "https://openalex.org/W3120571833",
+          "https://openalex.org/W3192697883",
+          "https://openalex.org/W3204865368",
+          "https://openalex.org/W3212250752",
+          "https://openalex.org/W4205950491",
+          "https://openalex.org/W4226208260",
+          "https://openalex.org/W4226383415",
+          "https://openalex.org/W4287854305",
+          "https://openalex.org/W4287890115",
+          "https://openalex.org/W4287890472"
+        ],
+        "retracted": false,
+        "provenance": [
+          "keyword: English readability assessment benchmark corpora",
+          "keyword: readability assessment benchmark datasets English"
+        ],
+        "criteria": [],
+        "rrf": 0.021764705882352943,
+        "aliases": [
+          "https://openalex.org/W4385571722"
+        ],
+        "neural_score": 0.23104,
+        "score": 0.53339
+      },
+      {
+        "id": "https://openalex.org/W4377966881",
+        "title": "Comprehensive Readability Assessment of Scientific Learning Resources",
+        "doi": "https://doi.org/10.1109/access.2023.3279360",
+        "year": 2023,
+        "abstract": "Readability is the measure of how easier a piece of text is. Readability assessment plays a crucial role in facilitating content writers and proofreaders to receive guidance about how easy or difficult a piece of text is. In literature, classical readability, lexical measures, and deep learning based model have been proposed to assess the text readability. However, readability assessment using machine and deep learning is a data-intensive task, which requires a reasonable-sized dataset for accurate assessment. While several datasets, readability indices (RI) and assessment models have been proposed for military agencies manuals, health documents, and early educational materials, studies related to the readability assessment of computer science literature are limited. To address this gap, we have contributed Computer science (CS) literature datasetAGREE, comprising 42,850 learning resources(LR). We assessed the readability of learning objects(LOs) pertaining to domains of Computer Science (CS), machine learning (ML), software engineering (SE), and natural language processing (NLP). LOs consists of research papers, lecture notes and Wikipedia content of topics list of learning repositories for CS, NLP, SE and ML in English Language. From the statistically significant sample of LOs two annotators manually annotated LO’s text difficulty and established gold standard. Text readability was computed using 14 readability Indices (RI) and 12 lexical measures (LM). RI were ensembled, and readability measures were used to train the model for readability assessment. The results indicate that the extra tree classifier performs well on the AGREE dataset, exhibiting high accuracy, F1 score, and efficiency. We observed that there is no consensus among readability measures for shorter texts, but as the length of the text increases, the accuracy improves. The AGREE and SELRD datasets, along with the associated readability measures, provide a novel contribution to the field. They can be used to train deep learning models for readability assessment, develop recommender systems, and assist in curriculum planning within the domain of Computer Science. In the future, we plan to scale AGREE by adding more LOs and adding multimedia LOs. In addition, we would explore the use of deep learning methods for improved readability assessment.",
+        "authors": [
+          "Muddassira Arshad",
+          "Muhammad Murtaza Yousaf",
+          "Syed Mansoor Sarwar"
+        ],
+        "venue": "IEEE Access",
+        "citations": 12,
+        "open_access": true,
+        "url": "https://doi.org/10.1109/access.2023.3279360",
+        "pdf_url": "https://ieeexplore.ieee.org/ielx7/6287639/10005208/10132466.pdf",
+        "references": [
+          "https://openalex.org/W17142496",
+          "https://openalex.org/W33677238",
+          "https://openalex.org/W133394232",
+          "https://openalex.org/W1507711477",
+          "https://openalex.org/W1710422233",
+          "https://openalex.org/W1876710841",
+          "https://openalex.org/W1937366066",
+          "https://openalex.org/W1967427125",
+          "https://openalex.org/W1988765540",
+          "https://openalex.org/W2019416425",
+          "https://openalex.org/W2044257893",
+          "https://openalex.org/W2048587526",
+          "https://openalex.org/W2124725212",
+          "https://openalex.org/W2138521612",
+          "https://openalex.org/W2139450036",
+          "https://openalex.org/W2159739762",
+          "https://openalex.org/W2171575620",
+          "https://openalex.org/W2178628967",
+          "https://openalex.org/W2279039621",
+          "https://openalex.org/W2289836221",
+          "https://openalex.org/W2339256219",
+          "https://openalex.org/W2502580032",
+          "https://openalex.org/W2514166524",
+          "https://openalex.org/W2532161561",
+          "https://openalex.org/W2587022626",
+          "https://openalex.org/W2626427149",
+          "https://openalex.org/W2735743598",
+          "https://openalex.org/W2799008727",
+          "https://openalex.org/W2805805409",
+          "https://openalex.org/W2806183494",
+          "https://openalex.org/W2888211956",
+          "https://openalex.org/W2962960603",
+          "https://openalex.org/W2989815961",
+          "https://openalex.org/W3004798288",
+          "https://openalex.org/W3021545172",
+          "https://openalex.org/W3049363314",
+          "https://openalex.org/W3158435821",
+          "https://openalex.org/W3179257218",
+          "https://openalex.org/W3195079491",
+          "https://openalex.org/W3202780679"
+        ],
+        "retracted": false,
+        "provenance": [
+          "keyword: English readability assessment benchmark corpora",
+          "keyword: readability assessment benchmark datasets English",
+          "semantic: readability assessment benchmark datasets English"
+        ],
+        "criteria": [],
+        "rrf": 0.03971214365049981,
+        "aliases": [
+          "https://openalex.org/W4377966881"
+        ],
+        "neural_score": -0.13306,
+        "score": 0.53288
+      },
+      {
+        "id": "https://openalex.org/W2061741899",
+        "title": "Computer corpora in English language research. Ed. by Stig Johansson. Bergen: Norwegian Computing Centre for the Humanities, 1982. Pp. 156.",
+        "doi": "https://doi.org/10.2307/414219",
+        "year": 1984,
+        "abstract": "",
+        "authors": [
+          "Edward Finegan"
+        ],
+        "venue": "Language",
+        "citations": 15,
+        "open_access": false,
+        "url": "https://doi.org/10.2307/414219",
+        "pdf_url": null,
+        "references": [],
+        "retracted": false,
+        "provenance": [
+          "semantic: Which corpora are frequently used in research to benchmark English readability assessment tools?"
+        ],
+        "criteria": [],
+        "rrf": 0.014492753623188406,
+        "aliases": [
+          "https://openalex.org/W2061741899"
+        ],
+        "neural_score": 0.30676,
+        "score": 0.51907
+      },
+      {
+        "id": "https://openalex.org/W1828046998",
+        "title": "Well-known and influential corpora",
+        "doi": null,
+        "year": 2008,
+        "abstract": "As corpus building is an activity that takes times and costs money, readers may wish to use ready-made corpora to carry out their work. However, as a corpus is always designed for a particular purpose, the usefulness of a ready-made corpus must be judged with regard to the purpose to which a user intends to put it. There are thousands of corpora in the world, but most of them are created for specific research projects and are thus not publicly available. This article introduces well-known and influential corpora for various research purposes, including national corpora, monitor corpora, corpora of the Brown family, synchronic corpora, diachronic corpora, spoken corpora, academic/professional corpora, parsed corpora, developmental/learner corpora, and multilingual corpora. While most of the corpus resources introduced here are for English, this article also include a number well-known corpora for other languages. The information provided in this article will enable readers to judge whether a particular corpus is suitable for their research purposes, and to find out how to get access the corpus.",
+        "authors": [
+          "Richard Zhonghua Xiao"
+        ],
+        "venue": "Lancaster EPrints (Lancaster University)",
+        "citations": 77,
+        "open_access": false,
+        "url": "https://eprints.lancs.ac.uk/id/eprint/62/",
+        "pdf_url": null,
+        "references": [],
+        "retracted": false,
+        "provenance": [
+          "semantic: Which corpora are frequently used in research to benchmark English readability assessment tools?"
+        ],
+        "criteria": [],
+        "rrf": 0.015625,
+        "aliases": [
+          "https://openalex.org/W1828046998"
+        ],
+        "neural_score": -0.13076,
+        "score": 0.43662
+      },
+      {
+        "id": "https://openalex.org/W2340009374",
+        "title": "Reassessing the Accuracy and Use of Readability Formulae",
+        "doi": "https://doi.org/10.32890/mjli2014.11.7",
+        "year": 2014,
+        "abstract": "Purpose â€“ The purpose of the study is to review readability formulae and offer a critique, based on a comparison of the grading of a variety of texts given by six well-known formulae. Methodology â€“ A total of 64 texts in English were selected either by or for native English speaking children aged between six and 11 years. Each text was assessed using six commonly used readability formulae via the Words Count website (http://www.wordscount. info/) which provides automated readability indices using FOG, Spache, SMOG, Flesh-Kincaid and Dale-Chall. For the ATOS formula, the Renaissance Learning website was used (http://www. renlearn.com/ar/overview/atos/). Statistical tests were then carried out to check the consistency among the six formulae in terms of their predictions of levels of text diffi culty. Findings â€“ The analysis demonstrated significantly different readability indices for the same text using different formulae. It appeared that some of the formulae (but not all) were consistent in their ranking of texts in order of difficulty but were not consistent in their grading of each text. This finding suggests that readability formulae need to be used carefully to support teachersâ€™ judgements about text difficulty rather than as the sole mechanism for text assessment. Significance â€“ Making decisions about matching texts to learners is something regularly required from teachers at all levels. Making such decisions about text suitability is described as measuring the â€˜readabilityâ€™ of texts, and for a long time, this measurement has been treated as unproblematic and achieved using formulae which use such features as vocabulary diffi culty and sentence length. This study suggests that the use of such readability formulae is more problematic than may at first appear. Although the study was carried out with native English speaking children using texts in English, it is argued that the lessons learnt apply equally to Malay speakers reading Malay language texts.",
+        "authors": [
+          "Dahlia Janan",
+          "David Wray"
+        ],
+        "venue": "Malaysian Journal of Learning and Instruction",
+        "citations": 55,
+        "open_access": true,
+        "url": "https://doi.org/10.32890/mjli2014.11.7",
+        "pdf_url": "https://e-journal.uum.edu.my/index.php/mjli/article/download/7668/805",
+        "references": [
+          "https://openalex.org/W32488041",
+          "https://openalex.org/W32706388",
+          "https://openalex.org/W35521076",
+          "https://openalex.org/W102161754",
+          "https://openalex.org/W115664318",
+          "https://openalex.org/W131343700",
+          "https://openalex.org/W270685447",
+          "https://openalex.org/W646884493",
+          "https://openalex.org/W1481382553",
+          "https://openalex.org/W1507711477",
+          "https://openalex.org/W1508883978",
+          "https://openalex.org/W1509228788",
+          "https://openalex.org/W1527819738",
+          "https://openalex.org/W1555196742",
+          "https://openalex.org/W1967390364",
+          "https://openalex.org/W1983232397",
+          "https://openalex.org/W1988333346",
+          "https://openalex.org/W2008634434",
+          "https://openalex.org/W2024118238",
+          "https://openalex.org/W2044874796",
+          "https://openalex.org/W2064058875",
+          "https://openalex.org/W2069754417",
+          "https://openalex.org/W2071804599",
+          "https://openalex.org/W2076121965",
+          "https://openalex.org/W2080515068",
+          "https://openalex.org/W2080620909",
+          "https://openalex.org/W2086366957",
+          "https://openalex.org/W2087051954",
+          "https://openalex.org/W2112792007",
+          "https://openalex.org/W2185215029",
+          "https://openalex.org/W2189198856",
+          "https://openalex.org/W2289836221",
+          "https://openalex.org/W2314589280",
+          "https://openalex.org/W2730346781",
+          "https://openalex.org/W2796959406",
+          "https://openalex.org/W3140414570",
+          "https://openalex.org/W4290754895",
+          "https://openalex.org/W7039452832"
+        ],
+        "retracted": false,
+        "provenance": [
+          "semantic: Which corpora are frequently used in research to benchmark English readability assessment tools?"
+        ],
+        "criteria": [],
+        "rrf": 0.014285714285714285,
+        "aliases": [
+          "https://openalex.org/W2340009374"
+        ],
+        "neural_score": -0.11632,
+        "score": 0.43412
+      },
+      {
+        "id": "https://openalex.org/W2606964149",
+        "title": "RACE: Large-scale ReAding Comprehension Dataset From Examinations",
+        "doi": "https://doi.org/10.18653/v1/d17-1082",
+        "year": 2017,
+        "abstract": "We present RACE, a new dataset for benchmark evaluation of methods in the reading comprehension task. Collected from the English exams for middle and high school Chinese students in the age range between 12 to 18, RACE consists of near 28,000 passages and near 100,000 questions generated by human experts (English instructors), and covers a variety of topics which are carefully designed for evaluating the students’ ability in understanding and reasoning. In particular, the proportion of questions that requires reasoning is much larger in RACE than that in other benchmark datasets for reading comprehension, and there is a significant gap between the performance of the state-of-the-art models (43%) and the ceiling human performance (95%). We hope this new dataset can serve as a valuable resource for research and evaluation in machine comprehension. The dataset is freely available at http://www.cs.cmu.edu/~glai1/data/race/ and the code is available at https://github.com/qizhex/RACE_AR_baselines .",
+        "authors": [
+          "Guokun Lai",
+          "Qizhe Xie",
+          "Hanxiao Liu",
+          "Yiming Yang",
+          "Eduard H. Hovy"
+        ],
+        "venue": "Conference on Empirical Methods in Natural Language Processing (EMNLP)",
+        "citations": 1994,
+        "open_access": true,
+        "url": "https://doi.org/10.18653/v1/d17-1082",
+        "pdf_url": "https://www.aclweb.org/anthology/D17-1082.pdf",
+        "references": [
+          "https://openalex.org/W1544827683",
+          "https://openalex.org/W2101105183",
+          "https://openalex.org/W2125436846",
+          "https://openalex.org/W2126209950",
+          "https://openalex.org/W2150824314",
+          "https://openalex.org/W2188538318",
+          "https://openalex.org/W2250539671",
+          "https://openalex.org/W2288995089",
+          "https://openalex.org/W2337282450",
+          "https://openalex.org/W2406009714",
+          "https://openalex.org/W2415755012",
+          "https://openalex.org/W2528904340",
+          "https://openalex.org/W2612431505",
+          "https://openalex.org/W2949776890",
+          "https://openalex.org/W2951534261",
+          "https://openalex.org/W2962809918",
+          "https://openalex.org/W2963681467",
+          "https://openalex.org/W2963748441",
+          "https://openalex.org/W2963938442"
+        ],
+        "retracted": false,
+        "provenance": [
+          "semantic: readability assessment benchmark datasets English"
+        ],
+        "criteria": [],
+        "rrf": 0.01639344262295082,
+        "aliases": [
+          "https://openalex.org/W2606964149"
+        ],
+        "neural_score": -0.29853,
+        "score": 0.40656
+      },
+      {
+        "id": "https://openalex.org/W4412888009",
+        "title": "A Large and Balanced Corpus for Fine-grained Arabic Readability Assessment",
+        "doi": "https://doi.org/10.18653/v1/2025.findings-acl.842",
+        "year": 2025,
+        "abstract": "This paper introduces the Balanced Arabic Readability Evaluation Corpus (BAREC), a large-scale, fine-grained dataset for Arabic readability assessment. BAREC consists of 69,441 sentences spanning 1+ million words, carefully curated to cover 19 readability levels, from kindergarten to postgraduate comprehension. The corpus balances genre diversity, topical coverage, and target audiences, offering a comprehensive resource for evaluating Arabic text complexity. The corpus was fully manually annotated by a large team of annotators. The average pairwise inter-annotator agreement, measured by Quadratic Weighted Kappa, is 81.8%, reflecting a high level of substantial agreement.Beyond presenting the corpus, we benchmark automatic readability assessment across different granularity levels, comparing a range of techniques. Our results highlight the challenges and opportunities in Arabic readability modeling, demonstrating competitive performance across various methods.To support research and education, we make BAREC openly available, along with detailed annotation guidelines and benchmark results: http://barec.camel-lab.com.",
+        "authors": [
+          "Khalid N. Elmadani",
+          "Nizar Y. Habash",
+          "Hanada Taha"
+        ],
+        "venue": "Findings of the Association for Computational Linguistics: ACL (Findings of ACL)",
+        "citations": 54,
+        "open_access": true,
+        "url": "https://doi.org/10.18653/v1/2025.findings-acl.842",
+        "pdf_url": "https://aclanthology.org/2025.findings-acl.842.pdf",
+        "references": [
+          "https://openalex.org/W112759044",
+          "https://openalex.org/W136568931",
+          "https://openalex.org/W175030052",
+          "https://openalex.org/W1746111881",
+          "https://openalex.org/W1965949675",
+          "https://openalex.org/W1997657458",
+          "https://openalex.org/W2019416425",
+          "https://openalex.org/W2037789405",
+          "https://openalex.org/W2085759086",
+          "https://openalex.org/W2131474076",
+          "https://openalex.org/W2133944470",
+          "https://openalex.org/W2136630431",
+          "https://openalex.org/W2251851155",
+          "https://openalex.org/W2251944986",
+          "https://openalex.org/W2292103514",
+          "https://openalex.org/W2307155907",
+          "https://openalex.org/W2419539795",
+          "https://openalex.org/W2471147443",
+          "https://openalex.org/W2514166524",
+          "https://openalex.org/W2575598244",
+          "https://openalex.org/W2806146112",
+          "https://openalex.org/W2806962830",
+          "https://openalex.org/W2807018475",
+          "https://openalex.org/W2885479598",
+          "https://openalex.org/W2995632902",
+          "https://openalex.org/W3008110149",
+          "https://openalex.org/W3011963106",
+          "https://openalex.org/W3032746405",
+          "https://openalex.org/W3037554857",
+          "https://openalex.org/W3155053993",
+          "https://openalex.org/W3166673781",
+          "https://openalex.org/W3176169354",
+          "https://openalex.org/W3202780679",
+          "https://openalex.org/W4309265306",
+          "https://openalex.org/W4383180932",
+          "https://openalex.org/W4402670281",
+          "https://openalex.org/W4402671017",
+          "https://openalex.org/W4404792996",
+          "https://openalex.org/W4412944258",
+          "https://openalex.org/W7020720219"
+        ],
+        "retracted": false,
+        "provenance": [
+          "keyword: English readability assessment benchmark corpora",
+          "keyword: readability assessment benchmark datasets English",
+          "semantic: readability assessment benchmark datasets English"
+        ],
+        "criteria": [],
+        "rrf": 0.04042894688351614,
+        "aliases": [
+          "https://openalex.org/W4412888009"
+        ],
+        "neural_score": -1.35277,
+        "score": 0.32666
+      }
+    ],
+    "usage": {
+      "api_calls": 5,
+      "cache_hits": 0,
+      "llm_calls": 3
+    },
+    "ranker": "cross-encoder + RRF",
+    "gaps": [],
+    "repaired": false,
+    "warnings": [],
+    "citation_edges": [
+      {
+        "source": "https://openalex.org/W4386766808",
+        "target": "https://openalex.org/W2514166524"
+      },
+      {
+        "source": "https://openalex.org/W4386766808",
+        "target": "https://openalex.org/W2606964149"
+      },
+      {
+        "source": "https://openalex.org/W7221183039",
+        "target": "https://openalex.org/W2514166524"
+      },
+      {
+        "source": "https://openalex.org/W7221183039",
+        "target": "https://openalex.org/W2606964149"
+      },
+      {
+        "source": "https://openalex.org/W7221183039",
+        "target": "https://openalex.org/W3212250752"
+      },
+      {
+        "source": "https://openalex.org/W7221183039",
+        "target": "https://openalex.org/W4221068952"
+      },
+      {
+        "source": "https://openalex.org/W7221183039",
+        "target": "https://openalex.org/W4386766808"
+      },
+      {
+        "source": "https://openalex.org/W7221183039",
+        "target": "https://openalex.org/W4404792996"
+      },
+      {
+        "source": "https://openalex.org/W7220653734",
+        "target": "https://openalex.org/W2606964149"
+      },
+      {
+        "source": "https://openalex.org/W7220653734",
+        "target": "https://openalex.org/W3212250752"
+      },
+      {
+        "source": "https://openalex.org/W4386339132",
+        "target": "https://openalex.org/W2514166524"
+      },
+      {
+        "source": "https://openalex.org/W4386339132",
+        "target": "https://openalex.org/W3212250752"
+      },
+      {
+        "source": "https://openalex.org/W4404792996",
+        "target": "https://openalex.org/W2514166524"
+      },
+      {
+        "source": "https://openalex.org/W7201965880",
+        "target": "https://openalex.org/W4407349260"
+      },
+      {
+        "source": "https://openalex.org/W4385574355",
+        "target": "https://openalex.org/W2514166524"
+      },
+      {
+        "source": "https://openalex.org/W3212250752",
+        "target": "https://openalex.org/W2514166524"
+      },
+      {
+        "source": "https://openalex.org/W7224212195",
+        "target": "https://openalex.org/W4404792996"
+      },
+      {
+        "source": "https://openalex.org/W7224212195",
+        "target": "https://openalex.org/W4412888009"
+      },
+      {
+        "source": "https://openalex.org/W4385571722",
+        "target": "https://openalex.org/W2514166524"
+      },
+      {
+        "source": "https://openalex.org/W4385571722",
+        "target": "https://openalex.org/W3212250752"
+      },
+      {
+        "source": "https://openalex.org/W4377966881",
+        "target": "https://openalex.org/W2514166524"
+      },
+      {
+        "source": "https://openalex.org/W4412888009",
+        "target": "https://openalex.org/W2514166524"
+      },
+      {
+        "source": "https://openalex.org/W4412888009",
+        "target": "https://openalex.org/W4404792996"
+      }
+    ],
+    "evidence_basis": "Title and abstract; no full text read",
+    "ablations": {
+      "single_semantic": [
+        "https://openalex.org/W2806183494",
+        "https://openalex.org/W4221068952",
+        "https://openalex.org/W4388861720",
+        "https://openalex.org/W1828046998",
+        "https://openalex.org/W4389256823",
+        "https://openalex.org/W2090699668",
+        "https://openalex.org/W2552969891",
+        "https://openalex.org/W4300693933",
+        "https://openalex.org/W2061741899",
+        "https://openalex.org/W2340009374",
+        "https://openalex.org/W2107529665",
+        "https://openalex.org/W1760231297",
+        "https://openalex.org/W603871716",
+        "https://openalex.org/W2951061221",
+        "https://openalex.org/W2970749144",
+        "https://openalex.org/W2970540315",
+        "https://openalex.org/W2074220451",
+        "https://openalex.org/W3194697231",
+        "https://openalex.org/W2500532478",
+        "https://openalex.org/W7166023198",
+        "https://openalex.org/W4313475321",
+        "https://openalex.org/W7221183039",
+        "https://openalex.org/W3188199239",
+        "https://openalex.org/W2162315558",
+        "https://openalex.org/W7204546529",
+        "https://openalex.org/W764940876",
+        "https://openalex.org/W7204565958",
+        "https://openalex.org/W231553921",
+        "https://openalex.org/W7143347155",
+        "https://openalex.org/W2786330169",
+        "https://openalex.org/W4282829670",
+        "https://openalex.org/W2786485706",
+        "https://openalex.org/W2899036104",
+        "https://openalex.org/W3119359310",
+        "https://openalex.org/W2914650705",
+        "https://openalex.org/W7215854031",
+        "https://openalex.org/W2247214525",
+        "https://openalex.org/W7220653734",
+        "https://openalex.org/W2374829990",
+        "https://openalex.org/W2290458691"
+      ],
+      "rrf": [
+        "https://openalex.org/W7220653734",
+        "https://openalex.org/W4386339132",
+        "https://openalex.org/W4221068952",
+        "https://openalex.org/W7224212195",
+        "https://openalex.org/W4412888009",
+        "https://openalex.org/W4377966881",
+        "https://openalex.org/W4404792996",
+        "https://openalex.org/W2806183494",
+        "https://openalex.org/W4385574355",
+        "https://openalex.org/W4296672794",
+        "https://openalex.org/W4386766808",
+        "https://openalex.org/W2552969891",
+        "https://openalex.org/W3212250752",
+        "https://openalex.org/W2760797156",
+        "https://openalex.org/W3160254559",
+        "https://openalex.org/W2608695679",
+        "https://openalex.org/W7221183039",
+        "https://openalex.org/W7166023198",
+        "https://openalex.org/W4402671646",
+        "https://openalex.org/W2074220451",
+        "https://openalex.org/W3188199239",
+        "https://openalex.org/W2162315558",
+        "https://openalex.org/W7204565958",
+        "https://openalex.org/W7143347155",
+        "https://openalex.org/W764940876",
+        "https://openalex.org/W3194697231",
+        "https://openalex.org/W7225654458",
+        "https://openalex.org/W7212310569",
+        "https://openalex.org/W7201965880",
+        "https://openalex.org/W3200966317",
+        "https://openalex.org/W7125822260",
+        "https://openalex.org/W4385573574",
+        "https://openalex.org/W7166558320",
+        "https://openalex.org/W4385571722",
+        "https://openalex.org/W7204546529",
+        "https://openalex.org/W2786485706",
+        "https://openalex.org/W2606964149",
+        "https://openalex.org/W1482892933",
+        "https://openalex.org/W1481128830",
+        "https://openalex.org/W4388861720",
+        "https://openalex.org/W2514166524",
+        "https://openalex.org/W1509228788",
+        "https://openalex.org/W2115836457",
+        "https://openalex.org/W1828046998",
+        "https://openalex.org/W1746111881",
+        "https://openalex.org/W4389256823",
+        "https://openalex.org/W3123057831",
+        "https://openalex.org/W133394232",
+        "https://openalex.org/W2090699668",
+        "https://openalex.org/W2742122443",
+        "https://openalex.org/W1655573795",
+        "https://openalex.org/W2036367260",
+        "https://openalex.org/W4407349260",
+        "https://openalex.org/W33677238",
+        "https://openalex.org/W2061741899",
+        "https://openalex.org/W63592799",
+        "https://openalex.org/W2340009374",
+        "https://openalex.org/W1498421728",
+        "https://openalex.org/W2107529665",
+        "https://openalex.org/W4404781341"
+      ],
+      "rerank": [
+        "https://openalex.org/W4386339132",
+        "https://openalex.org/W4386766808",
+        "https://openalex.org/W4221068952",
+        "https://openalex.org/W7221183039",
+        "https://openalex.org/W4404792996",
+        "https://openalex.org/W7125822260",
+        "https://openalex.org/W2786485706",
+        "https://openalex.org/W3194697231",
+        "https://openalex.org/W7204546529",
+        "https://openalex.org/W7220653734",
+        "https://openalex.org/W2107529665",
+        "https://openalex.org/W2760797156",
+        "https://openalex.org/W764940876",
+        "https://openalex.org/W2115836457",
+        "https://openalex.org/W7201965880",
+        "https://openalex.org/W4385574355",
+        "https://openalex.org/W2514166524",
+        "https://openalex.org/W3212250752",
+        "https://openalex.org/W7224212195",
+        "https://openalex.org/W3188199239",
+        "https://openalex.org/W4389256823",
+        "https://openalex.org/W2608695679",
+        "https://openalex.org/W4388861720",
+        "https://openalex.org/W4407349260",
+        "https://openalex.org/W4385571722",
+        "https://openalex.org/W4377966881",
+        "https://openalex.org/W2061741899",
+        "https://openalex.org/W1828046998",
+        "https://openalex.org/W2340009374",
+        "https://openalex.org/W2606964149",
+        "https://openalex.org/W4412888009",
+        "https://openalex.org/W4404781341",
+        "https://openalex.org/W3160254559",
+        "https://openalex.org/W7143347155",
+        "https://openalex.org/W4402671646",
+        "https://openalex.org/W7166023198",
+        "https://openalex.org/W2552969891",
+        "https://openalex.org/W2806183494",
+        "https://openalex.org/W4296672794",
+        "https://openalex.org/W4385573574",
+        "https://openalex.org/W7212310569",
+        "https://openalex.org/W2162315558",
+        "https://openalex.org/W7204565958",
+        "https://openalex.org/W7225654458",
+        "https://openalex.org/W2074220451",
+        "https://openalex.org/W33677238",
+        "https://openalex.org/W1655573795",
+        "https://openalex.org/W3200966317",
+        "https://openalex.org/W2036367260",
+        "https://openalex.org/W2090699668",
+        "https://openalex.org/W7166558320",
+        "https://openalex.org/W3123057831",
+        "https://openalex.org/W133394232",
+        "https://openalex.org/W1481128830",
+        "https://openalex.org/W1482892933",
+        "https://openalex.org/W1509228788",
+        "https://openalex.org/W2742122443",
+        "https://openalex.org/W63592799",
+        "https://openalex.org/W1746111881",
+        "https://openalex.org/W1498421728"
+      ]
+    },
+    "candidate_index": {
+      "https://openalex.org/W4404792996": {
+        "title": "ReadMe++: Benchmarking Multilingual Language Models for Multi-Domain Readability Assessment",
+        "year": 2024
+      },
+      "https://openalex.org/W2760797156": {
+        "title": "Combining Multiple Corpora for Readability Assessment for People with Cognitive Disabilities",
+        "year": 2017
+      },
+      "https://openalex.org/W4386339132": {
+        "title": "A Benchmark for Neural Readability Assessment of Texts in Spanish",
+        "year": 2022
+      },
+      "https://openalex.org/W2115836457": {
+        "title": "Assessing the readability of ClinicalTrials.gov",
+        "year": 2015
+      },
+      "https://openalex.org/W7221183039": {
+        "title": "Evaluating the consistency of text readability levels across corpora for English education",
+        "year": 2026
+      },
+      "https://openalex.org/W4386766808": {
+        "title": "Cross-Corpus Readability Compatibility Assessment for English Texts",
+        "year": 2023
+      },
+      "https://openalex.org/W7224212195": {
+        "title": "A Benchmark for Arabic Lemma-Level Readability Assessment",
+        "year": 2026
+      },
+      "https://openalex.org/W2608695679": {
+        "title": "Towards Multipurpose Readability Assessment",
+        "year": 2016
+      },
+      "https://openalex.org/W3212250752": {
+        "title": "BERT Embeddings for Automatic Readability Assessment",
+        "year": 2021
+      },
+      "https://openalex.org/W3160254559": {
+        "title": "Trends, Limitations and Open Challenges in Automatic Readability Assessment Research",
+        "year": 2022
+      },
+      "https://openalex.org/W4296672794": {
+        "title": "Lexical simplification benchmarks for English, Portuguese, and Spanish",
+        "year": 2022
+      },
+      "https://openalex.org/W4412889256": {
+        "title": "Unsupervised Sentence Readability Estimation Based on Parallel Corpora for Text Simplification",
+        "year": 2025
+      },
+      "https://openalex.org/W7214032074": {
+        "title": "Assessing Readability with LLMs: The Role of Reasoning and Few-Shot Prompting",
+        "year": 2026
+      },
+      "https://openalex.org/W4377966881": {
+        "title": "Comprehensive Readability Assessment of Scientific Learning Resources",
+        "year": 2023
+      },
+      "https://openalex.org/W4404216892": {
+        "title": "Textual form features for text readability assessment",
+        "year": 2024
+      },
+      "https://openalex.org/W4412888009": {
+        "title": "A Large and Balanced Corpus for Fine-grained Arabic Readability Assessment",
+        "year": 2025
+      },
+      "https://openalex.org/W7220653734": {
+        "title": "A data-driven cognitive feature–based model for english text readability assessment to support college english instruction",
+        "year": 2026
+      },
+      "https://openalex.org/W7125822260": {
+        "title": "A readability index benchmark for Italian Plain and Easy Language texts",
+        "year": 2026
+      },
+      "https://openalex.org/W7225654458": {
+        "title": "Benchmarking Fine-Grained Readability Explanations for Arabic",
+        "year": 2026
+      },
+      "https://openalex.org/W7212310569": {
+        "title": "Analyzing Traditional and Neural Approaches to Multilingual Readability Assessment",
+        "year": 2026
+      },
+      "https://openalex.org/W7201965880": {
+        "title": "Research on Readability Rating Methods for English Texts Based on Artificial Intelligence",
+        "year": 2026
+      },
+      "https://openalex.org/W3200966317": {
+        "title": "Cognitively Driven Arabic Text Readability Assessment Using Eye-Tracking",
+        "year": 2021
+      },
+      "https://openalex.org/W4385570941": {
+        "title": "Revisiting non-English Text Simplification: A Unified Multilingual Benchmark",
+        "year": 2023
+      },
+      "https://openalex.org/W4385573574": {
+        "title": "Enhancing Automatic Readability Assessment with Pre-training and Soft Labels for Ordinal Regression",
+        "year": 2022
+      },
+      "https://openalex.org/W4385571722": {
+        "title": "Automatic Readability Assessment for Closely Related Languages",
+        "year": 2023
+      },
+      "https://openalex.org/W7213582718": {
+        "title": "Arabic Text Simplification and Readability Assessment for Educational Applications: A Systematic Literature Review",
+        "year": 2026
+      },
+      "https://openalex.org/W4385567129": {
+        "title": "Readability Controllable Biomedical Document Summarization",
+        "year": 2022
+      },
+      "https://openalex.org/W4402671646": {
+        "title": "An Open Multilingual System for Scoring Readability of Wikipedia",
+        "year": 2024
+      },
+      "https://openalex.org/W2578119191": {
+        "title": "Evaluating the Readability of Text Simplification Output for Readers with Cognitive Disabilities",
+        "year": 2016
+      },
+      "https://openalex.org/W4416037809": {
+        "title": "BAREC Shared Task 2025 on Arabic Readability Assessment",
+        "year": 2025
+      },
+      "https://openalex.org/W3156404059": {
+        "title": "Samanantar: The Largest Publicly Available Parallel Corpora Collection for 11 Indic Languages",
+        "year": 2022
+      },
+      "https://openalex.org/W4409362509": {
+        "title": "Self-Supervised Collaborative Information Bottleneck for Text Readability Assessment",
+        "year": 2025
+      },
+      "https://openalex.org/W7166517388": {
+        "title": "ALBA: An Automated Framework for Benchmarking Clinical Language Biomarkers against Standardized Corpora",
+        "year": 2026
+      },
+      "https://openalex.org/W4221068952": {
+        "title": "A large-scaled corpus for assessing text readability",
+        "year": 2022
+      },
+      "https://openalex.org/W4393160967": {
+        "title": "InterpretARA: Enhancing Hybrid Automatic Readability Assessment with Linguistic Feature Interpreter and Contrastive Learning",
+        "year": 2024
+      },
+      "https://openalex.org/W3012519460": {
+        "title": "Assessing text readability and quality with language models",
+        "year": 2020
+      },
+      "https://openalex.org/W7166862463": {
+        "title": "Transformer-based readability classifiers are worse than you think: Evidence from cross-domain Arabic readability assessment",
+        "year": 2026
+      },
+      "https://openalex.org/W4413756982": {
+        "title": "BioReadNet: A Transformer-Driven Hybrid Model for Target Audience-Aware Biomedical Text Readability Assessment",
+        "year": 2025
+      },
+      "https://openalex.org/W3175444045": {
+        "title": "Learning Syntactic Dense Embedding with Correlation Graph for Automatic Readability Assessment",
+        "year": 2021
+      },
+      "https://openalex.org/W2964941017": {
+        "title": "Supervised and Unsupervised Neural Approaches to Text Readability",
+        "year": 2021
+      },
+      "https://openalex.org/W2806183494": {
+        "title": "OneStopEnglish corpus: A new corpus for automatic readability assessment and text simplification",
+        "year": 2018
+      },
+      "https://openalex.org/W4388861720": {
+        "title": "Creating and Using English Language Corpora: Papers from the fourteenth International Conference on English Language Research on Computerized Corpora, Zürich 1993",
+        "year": 1994
+      },
+      "https://openalex.org/W1828046998": {
+        "title": "Well-known and influential corpora",
+        "year": 2008
+      },
+      "https://openalex.org/W4389256823": {
+        "title": "English Language Corpora: Design, Analysis and Exploitation: Papers from the thirteenth International Conference on English Language Research on Computerized Corpora, Nijmegen 1992",
+        "year": 1993
+      },
+      "https://openalex.org/W2090699668": {
+        "title": "READABILITY FORMULAS: AN OVERVIEW",
+        "year": 1987
+      },
+      "https://openalex.org/W2552969891": {
+        "title": "Exploring English with Online Corpora",
+        "year": 2017
+      },
+      "https://openalex.org/W4300693933": {
+        "title": "Exploring English with Online Corpora",
+        "year": 2009
+      },
+      "https://openalex.org/W2061741899": {
+        "title": "Computer corpora in English language research. Ed. by Stig Johansson. Bergen: Norwegian Computing Centre for the Humanities, 1982. Pp. 156.",
+        "year": 1984
+      },
+      "https://openalex.org/W2340009374": {
+        "title": "Reassessing the Accuracy and Use of Readability Formulae",
+        "year": 2014
+      },
+      "https://openalex.org/W2107529665": {
+        "title": "Towards an Improved Methodology for Automated Readability Prediction",
+        "year": 2010
+      },
+      "https://openalex.org/W1760231297": {
+        "title": "An analysis of a French as a Foreign language corpus for readability assessment",
+        "year": 2014
+      },
+      "https://openalex.org/W603871716": {
+        "title": "From corpus-based collocation frequencies to readability measure",
+        "year": 2006
+      },
+      "https://openalex.org/W2951061221": {
+        "title": "Readability of Reading Passages in English Textbooks and the Thai National Education English Test: A Comparative Study",
+        "year": 2019
+      },
+      "https://openalex.org/W2970749144": {
+        "title": "English Computer Corpora: Selected Papers and Research Guide",
+        "year": 1991
+      },
+      "https://openalex.org/W2970540315": {
+        "title": "Comparing and Developing Tools to Measure the Readability of Domain-Specific Texts",
+        "year": 2019
+      },
+      "https://openalex.org/W2074220451": {
+        "title": "Readability measurement for foreign-language materials",
+        "year": 1979
+      },
+      "https://openalex.org/W3194697231": {
+        "title": "The CommonLit Ease of Readability (CLEAR) Corpus",
+        "year": 2021
+      },
+      "https://openalex.org/W2500532478": {
+        "title": "A survey of English machine-readable corpora",
+        "year": 1991
+      },
+      "https://openalex.org/W7166023198": {
+        "title": "Readability Benchmarks by Text Type (20 samples: academic, technical, casual, formal, mixed) — Flesch, Flesch-Kincaid, SMOG, Gunning Fog",
+        "year": 2026
+      },
+      "https://openalex.org/W4313475321": {
+        "title": "Readability Assessment of Advanced English Textbooks: A Corpus-Linguistic Study",
+        "year": 2022
+      },
+      "https://openalex.org/W3188199239": {
+        "title": "Readability Assessment Tool for English Texts",
+        "year": 2021
+      },
+      "https://openalex.org/W2162315558": {
+        "title": "Readability Annotation: Replacing the Expert by the Crowd",
+        "year": 2011
+      },
+      "https://openalex.org/W7204546529": {
+        "title": "Cross-Corpus Readability Consistency Evaluation Code",
+        "year": 2026
+      },
+      "https://openalex.org/W764940876": {
+        "title": "Genre-oriented Readability Assessment: a Case Study",
+        "year": 2012
+      },
+      "https://openalex.org/W7204565958": {
+        "title": "Dataset: Readability human-panel corpus (research-use-only evaluation reservation)",
+        "year": 2026
+      },
+      "https://openalex.org/W231553921": {
+        "title": "Readability of textual materials: A survey of the literature.",
+        "year": 1974
+      },
+      "https://openalex.org/W7143347155": {
+        "title": "Multi-Language Readability Score Dataset",
+        "year": 2026
+      },
+      "https://openalex.org/W2786330169": {
+        "title": "Automatic Construction of Large Readability Corpora",
+        "year": 2016
+      },
+      "https://openalex.org/W4282829670": {
+        "title": "Open corpora and toolkit for assessing text readability in French",
+        "year": 2022
+      },
+      "https://openalex.org/W2786485706": {
+        "title": "Implicit readability ranking using the latent variable of a Bayesian Probit model.",
+        "year": 2016
+      },
+      "https://openalex.org/W2899036104": {
+        "title": "Identifying the suitability of textbook English for beginner-level corpus data",
+        "year": 2011
+      },
+      "https://openalex.org/W3119359310": {
+        "title": "Survey of Electronic Corpora and Related Resources for Language Researchers",
+        "year": 2014
+      },
+      "https://openalex.org/W2914650705": {
+        "title": "Measuring the readability of newspapers a comparative study of two national english dailies",
+        "year": 2016
+      },
+      "https://openalex.org/W7215854031": {
+        "title": "Corpus-Based Study on Readability of Integrated English Textbooks",
+        "year": 2022
+      },
+      "https://openalex.org/W2247214525": {
+        "title": "How Reliable are Modern English Tagged Corpora? A case-study of modifier and degree adverbs in Brown, LOB, the BNC-Sampler, and ICE-GB",
+        "year": 2009
+      },
+      "https://openalex.org/W2374829990": {
+        "title": "English Text Readability Based on Statistical Models",
+        "year": 2010
+      },
+      "https://openalex.org/W2290458691": {
+        "title": "Introduction: Establishing guidelines for the use of corpora as resources for learners (and their teachers)",
+        "year": 2009
+      },
+      "https://openalex.org/W4385574355": {
+        "title": "A Unified Neural Network Model for Readability Assessment with Feature Projection and Length-Balanced Loss",
+        "year": 2022
+      },
+      "https://openalex.org/W4407349260": {
+        "title": "Automatic readability assessment for sentences: neural, hybrid and large language models",
+        "year": 2025
+      },
+      "https://openalex.org/W4404781341": {
+        "title": "Measuring and Modifying the Readability of English Texts with GPT-4",
+        "year": 2024
+      },
+      "https://openalex.org/W4226208260": {
+        "title": "A Neural Pairwise Ranking Model for Readability Assessment",
+        "year": 2022
+      },
+      "https://openalex.org/W4389518700": {
+        "title": "DiQAD: A Benchmark Dataset for Open-domain Dialogue Quality Assessment",
+        "year": 2023
+      },
+      "https://openalex.org/W7213223671": {
+        "title": "AI Humanizer Benchmark 2026: A Comparative Evaluation of Detection Bypass, Meaning Preservation, Readability, and Consistency",
+        "year": 2026
+      },
+      "https://openalex.org/W4206333944": {
+        "title": "Assessing English language sentences readability using machine learning models",
+        "year": 2022
+      },
+      "https://openalex.org/W4387963752": {
+        "title": "DiQAD: A Benchmark Dataset for End-to-End Open-domain Dialogue Assessment",
+        "year": 2023
+      },
+      "https://openalex.org/W4414586337": {
+        "title": "Anveshana: A New Benchmark Dataset for Cross-Lingual Information Retrieval On English Queries and Sanskrit Documents",
+        "year": 2025
+      },
+      "https://openalex.org/W4416033692": {
+        "title": "Readability Reconsidered A Cross-Dataset Analysis of Reference-Free Metrics",
+        "year": 2025
+      },
+      "https://openalex.org/W4293086888": {
+        "title": "Predicting lexical complexity in English texts: the Complex 2.0 dataset",
+        "year": 2022
+      },
+      "https://openalex.org/W4386492483": {
+        "title": "Aci-bench: a Novel Ambient Clinical Intelligence Dataset for Benchmarking Automatic Visit Note Generation",
+        "year": 2023
+      },
+      "https://openalex.org/W2885361267": {
+        "title": "Joint learning of frequency and word embeddings for multilingual readability assessment",
+        "year": 2018
+      },
+      "https://openalex.org/W7131798537": {
+        "title": "Incorporating Word-level Phonemic Decoding into Readability Assessment",
+        "year": 2024
+      },
+      "https://openalex.org/W4412944469": {
+        "title": "Proper Noun Diacritization for Arabic Wikipedia: A Benchmark Dataset",
+        "year": 2025
+      },
+      "https://openalex.org/W4389518959": {
+        "title": "The Truth, The Whole Truth, and Nothing but the Truth: A New Benchmark Dataset for Hebrew Text Credibility Assessment",
+        "year": 2023
+      },
+      "https://openalex.org/W4389524504": {
+        "title": "KEBAP: Korean Error Explainable Benchmark Dataset for ASR and Post-processing",
+        "year": 2023
+      },
+      "https://openalex.org/W4411055214": {
+        "title": "A Benchmark Dataset and a Framework for Urdu Multimodal Named Entity Recognition",
+        "year": 2025
+      },
+      "https://openalex.org/W4401042654": {
+        "title": "FPT: Feature Prompt Tuning for Few-shot Readability Assessment",
+        "year": 2024
+      },
+      "https://openalex.org/W4390871889": {
+        "title": "A Benchmark for Chinese-English Scene Text Image Super-resolution",
+        "year": 2023
+      },
+      "https://openalex.org/W2606964149": {
+        "title": "RACE: Large-scale ReAding Comprehension Dataset From Examinations",
+        "year": 2017
+      },
+      "https://openalex.org/W2514166524": {
+        "title": "Text Readability Assessment for Second Language Learners",
+        "year": 2016
+      },
+      "https://openalex.org/W3123057831": {
+        "title": "English Machine Reading Comprehension Datasets: A Survey",
+        "year": 2021
+      },
+      "https://openalex.org/W2742122443": {
+        "title": "Evaluation Metrics for Machine Reading Comprehension: Prerequisite Skills and Readability",
+        "year": 2017
+      },
+      "https://openalex.org/W4416037532": {
+        "title": "BAREC Demo: Resources and Tools for Sentence-level Arabic Readability Assessment",
+        "year": 2025
+      },
+      "https://openalex.org/W7131872306": {
+        "title": "ReadLet: A Dataset for Oral, Visual and Tactile Text Reading Data of Early and Mature Readers",
+        "year": 2024
+      },
+      "https://openalex.org/W4393602273": {
+        "title": "iRead4Skills Dataset 1: corpora by complexity level for FR, PT and SP",
+        "year": 2023
+      },
+      "https://openalex.org/W4241080546": {
+        "title": "Recommendations for Assessing English Language Learners: English Language Proficiency Measures and Accommodation Uses",
+        "year": 2008
+      },
+      "https://openalex.org/W4214820006": {
+        "title": "An analysis of readability metrics on English exam texts",
+        "year": 2022
+      },
+      "https://openalex.org/W7166544391": {
+        "title": "PLABA-EVAL: A Multi-Dimensional, In-Context Sentence Readability Dataset for Medical Text",
+        "year": 2026
+      },
+      "https://openalex.org/W4327498744": {
+        "title": "Ablesbarkeitsmesser: A System for Assessing the Readability of German Text",
+        "year": 2023
+      },
+      "https://openalex.org/W4233598654": {
+        "title": "Preliminary development of a benchmarking measure for reading comprehension",
+        "year": 2010
+      },
+      "https://openalex.org/W4250786566": {
+        "title": "Judgements of Readability Task",
+        "year": 1995
+      },
+      "https://openalex.org/W4229931091": {
+        "title": "Using Standards and Empirical Evidence to Develop Academic English Proficiency Test Items in Reading",
+        "year": 2005
+      },
+      "https://openalex.org/W7166558320": {
+        "title": "CC-READ",
+        "year": 2026
+      },
+      "https://openalex.org/W7133284520": {
+        "title": "CC-READ",
+        "year": 2026
+      },
+      "https://openalex.org/W7128012368": {
+        "title": "A Spanish Language Proficiency Dataset for AI Evaluation",
+        "year": 2026
+      },
+      "https://openalex.org/W2751240874": {
+        "title": "Issues in English language benchmarking: An introduction",
+        "year": 1999
+      },
+      "https://openalex.org/W4393721850": {
+        "title": "Domain expert readability dataset",
+        "year": 2019
+      },
+      "https://openalex.org/W7142735477": {
+        "title": "Multi-Language Guide Readability Metrics: Flesch-Kincaid and Comprehension Analysis Across Five Languages",
+        "year": 2026
+      },
+      "https://openalex.org/W4321796159": {
+        "title": "Datasets, benchmarks, and evaluations",
+        "year": 2023
+      },
+      "https://openalex.org/W7131777546": {
+        "title": "DARES: Dataset for Arabic Readability Estimation of School Materials",
+        "year": 2024
+      },
+      "https://openalex.org/W1482892933": {
+        "title": "Longman Dictionary of Language Teaching and Applied Linguistics",
+        "year": 2013
+      },
+      "https://openalex.org/W1481128830": {
+        "title": "SMOG Grading - A New Readability Formula.",
+        "year": 1969
+      },
+      "https://openalex.org/W1509228788": {
+        "title": "Readability revisited : the new Dale-Chall readability formula",
+        "year": 1995
+      },
+      "https://openalex.org/W1746111881": {
+        "title": "Problems in Current Text Simplification Research: New Data Can Help",
+        "year": 2015
+      },
+      "https://openalex.org/W133394232": {
+        "title": "Automated readability index.",
+        "year": 1967
+      },
+      "https://openalex.org/W1655573795": {
+        "title": "READ--IT: Assessing Readability of Italian Texts with a View to Text Simplification",
+        "year": 2011
+      },
+      "https://openalex.org/W2036367260": {
+        "title": "Computational assessment of text readability: A survey of current and future research",
+        "year": 2014
+      },
+      "https://openalex.org/W33677238": {
+        "title": "On Improving the Accuracy of Readability Classification using Insights from Second Language Acquisition",
+        "year": 2012
+      },
+      "https://openalex.org/W63592799": {
+        "title": "Lix and Rix: Variations on a Little-Known Readability Index.",
+        "year": 1983
+      },
+      "https://openalex.org/W1498421728": {
+        "title": "Second language reading and vocabulary learning",
+        "year": 1995
+      }
+    },
+    "ordering": "All criteria supported, then incomplete evidence, then explicit counter-evidence; similarity breaks ties",
+    "joint_gap": false,
+    "model": "gemini-3.6-flash"
+  },
+  "events": [
+    {
+      "at": "2026-11-25T14:04:36.314480+00:00",
+      "step": "retrieve",
+      "message": "40 candidates from keyword search",
+      "query": "English readability assessment benchmark corpora",
+      "cache_hit": false
+    },
+    {
+      "at": "2026-11-25T14:04:39.587837+00:00",
+      "step": "retrieve",
+      "message": "40 candidates from semantic search",
+      "query": "Which corpora are frequently used in research to benchmark English readability assessment tools?",
+      "cache_hit": false
+    },
+    {
+      "at": "2026-11-25T14:04:42.256716+00:00",
+      "step": "retrieve",
+      "message": "40 candidates from keyword search",
+      "query": "readability assessment benchmark datasets English",
+      "cache_hit": false
+    },
+    {
+      "at": "2026-11-25T14:04:46.484027+00:00",
+      "step": "retrieve",
+      "message": "40 candidates from semantic search",
+      "query": "readability assessment benchmark datasets English",
+      "cache_hit": false
+    },
+    {
+      "at": "2026-11-25T14:04:49.758657+00:00",
+      "step": "rank",
+      "message": "Ranked 60 unique candidates",
+      "ranker": "cross-encoder + RRF"
+    },
+    {
+      "at": "2026-11-25T14:04:51.360710+00:00",
+      "step": "citations",
+      "message": "Explored 16 cited works; metadata constraints remain enforced"
+    },
+    {
+      "at": "2026-11-25T14:04:54.533279+00:00",
+      "step": "rank",
+      "message": "Ranked 60 unique candidates",
+      "ranker": "cross-encoder + RRF"
+    },
+    {
+      "at": "2026-11-25T14:06:03.980605+00:00",
+      "step": "evidence",
+      "message": "Assessed top 15 papers; 0 criteria have no supported match",
+      "evidence_basis": "title and abstract only"
+    },
+    {
+      "at": "2026-11-25T14:06:04.006153+00:00",
+      "step": "complete",
+      "message": "Returned 30 papers with provenance and exportable evidence"
+    },
+    {
+      "at": "2026-11-25T14:06:04.019703+00:00",
+      "step": "timing",
+      "message": "Search finished",
+      "elapsed_seconds": 90.67
+    }
+  ],
+  "feedback": {},
+  "task": {
+    "id": "litsearch-93",
+    "question": "Which corpora are frequently used in research to benchmark English readability assessment tools?",
+    "gold_titles": [
+      "The 7th Workshop on the Innovative Use of NLP for Building Educational Applications, pages 163-173, On Improving the Accuracy of Readability Classification using Insights from Second Language Acquisition",
+      "OneStopEnglish corpus: A new corpus for automatic readability assessment and text simplification"
+    ],
+    "gold_corpusids": [
+      10919200,
+      46937952
+    ],
+    "query_set": "inline_acl"
+  },
+  "end_to_end_seconds": 95.48
+}

@@ -1,0 +1,669 @@
+{
+  "n_completed_queries": 8,
+  "selection": "fixed 8-query pilot; first100 eligible rows, seed20261125",
+  "not_claimed": "Not official LitSearch evaluation. Not precision, nDCG, exhaustive recall, or independent human relevance evaluation.",
+  "summary": {
+    "single_semantic": {
+      "hit_at_10": 0.375,
+      "target_recall_at_10": 0.3125,
+      "mrr_at_10": 0.275
+    },
+    "rrf": {
+      "hit_at_10": 0.5,
+      "target_recall_at_10": 0.4375,
+      "mrr_at_10": 0.092
+    },
+    "rerank": {
+      "hit_at_10": 0.375,
+      "target_recall_at_10": 0.375,
+      "mrr_at_10": 0.3125
+    },
+    "final": {
+      "hit_at_10": 0.375,
+      "target_recall_at_10": 0.375,
+      "mrr_at_10": 0.3125
+    }
+  },
+  "rows": [
+    {
+      "task_id": "litsearch-1",
+      "stage": "single_semantic",
+      "hit_at_10": 0,
+      "target_recall_at_10": 0.0,
+      "mrr_at_10": 0,
+      "seconds": 79.58,
+      "top10": [
+        "Sentiment Analysis of Tunisian Dialects: Linguistic Ressources and Experiments",
+        "Building bilingual lexicon to create Dialect Tunisian corpora and adapt language model",
+        "Tunisian and Libyan arabic dialects : common trends, recent developments, diachronic aspects",
+        "Mapping Rules for Building a Tunisian Dialect Lexicon and Generating Corpora",
+        "Morphological Analysis of Tunisian Dialect",
+        "TUNIZI: a Tunisian Arabizi sentiment analysis Dataset",
+        "Constructing Linguistic Resources for the Tunisian Dialect Using Textual User-Generated Contents on the Social Web",
+        "Collaboratively Constructed Linguistic Resources for Language Variants and their Exploitation in NLP Application \u2013 the case of Tunisian Arabic and the Social Media",
+        "Transliteration of Arabizi into Arabic Script for Tunisian Dialect",
+        "Orthographic Transcription for Spoken Tunisian Arabic"
+      ]
+    },
+    {
+      "task_id": "litsearch-1",
+      "stage": "rrf",
+      "hit_at_10": 1,
+      "target_recall_at_10": 1.0,
+      "mrr_at_10": 0.25,
+      "seconds": 79.58,
+      "top10": [
+        "TArC: Incrementally and Semi-Automatically Collecting a Tunisian Arabish Corpus",
+        "The MADAR Arabic Dialect Corpus and Lexicon",
+        "TEDxTN: A Three-way Speech Translation Corpus for Code-Switched Tunisian Arabic - English",
+        "Parallel resources for Tunisian Arabic Dialect Translation",
+        "Sentiment Analysis of Tunisian Dialects: Linguistic Ressources and Experiments",
+        "Rule-Based Machine Translation from Tunisian Dialect to Modern Standard Arabic",
+        "Building bilingual lexicon to create Dialect Tunisian corpora and adapt language model",
+        "Tunisian and Libyan arabic dialects : common trends, recent developments, diachronic aspects",
+        "Mapping Rules for Building a Tunisian Dialect Lexicon and Generating Corpora",
+        "Morphological Analysis of Tunisian Dialect"
+      ]
+    },
+    {
+      "task_id": "litsearch-1",
+      "stage": "rerank",
+      "hit_at_10": 1,
+      "target_recall_at_10": 1.0,
+      "mrr_at_10": 0.5,
+      "seconds": 79.58,
+      "top10": [
+        "TEDxTN: A Three-way Speech Translation Corpus for Code-Switched Tunisian Arabic - English",
+        "Parallel resources for Tunisian Arabic Dialect Translation",
+        "Rule-Based Machine Translation from Tunisian Dialect to Modern Standard Arabic",
+        "Tunisian Dialect-Modern Standard Arabic Bilingual Lexicon",
+        "Hybrid Pipeline for Building Arabic Tunisian Dialect-standard Arabic Neural Machine Translation Model from Scratch",
+        "Standardisation of Dialect Comments in Social Networks in View of Sentiment Analysis : Case of Tunisian Dialect",
+        "TUNIZI: a Tunisian Arabizi sentiment analysis Dataset",
+        "Transliteration of Arabizi into Arabic Script for Tunisian Dialect",
+        "A Sequence-to-Sequence based Approach For the double Transliteration of Tunisian Dialect",
+        "The Effects of Factorizing Root and Pattern Mapping in Bidirectional Tunisian - Standard Arabic Machine Translation"
+      ]
+    },
+    {
+      "task_id": "litsearch-1",
+      "stage": "final",
+      "hit_at_10": 1,
+      "target_recall_at_10": 1.0,
+      "mrr_at_10": 0.5,
+      "seconds": 79.58,
+      "top10": [
+        "TEDxTN: A Three-way Speech Translation Corpus for Code-Switched Tunisian Arabic - English",
+        "Parallel resources for Tunisian Arabic Dialect Translation",
+        "Tunisian Dialect-Modern Standard Arabic Bilingual Lexicon",
+        "Rule-Based Machine Translation from Tunisian Dialect to Modern Standard Arabic",
+        "Hybrid Pipeline for Building Arabic Tunisian Dialect-standard Arabic Neural Machine Translation Model from Scratch",
+        "Standardisation of Dialect Comments in Social Networks in View of Sentiment Analysis : Case of Tunisian Dialect",
+        "Is TunisianMMLU Actually Tunisian? A Native-Speaker Audit of a Machine-Translated Dialect Benchmark",
+        "TUNIZI: a Tunisian Arabizi sentiment analysis Dataset",
+        "Tunisian Arabic NLP Resources: an access-verified inventory",
+        "Transliteration of Arabizi into Arabic Script for Tunisian Dialect"
+      ]
+    },
+    {
+      "task_id": "litsearch-27",
+      "stage": "single_semantic",
+      "hit_at_10": 1,
+      "target_recall_at_10": 1.0,
+      "mrr_at_10": 0.2,
+      "seconds": 24.16,
+      "top10": [
+        "The effect of word predictability on the eye movements of Chinese readers",
+        "Comparative patterns of reading eye movement in Chinese and English",
+        "Extending the E\u2010Z Reader Model of Eye Movement Control to Chinese Readers",
+        "Assessing Language Proficiency from Eye Movements in Reading",
+        "Predicting Native Language from Gaze",
+        "Eye Movement Traces of Linguistic Knowledge in Native and Non-Native Reading",
+        "Prediction as a basis for skilled reading: insights from modern language models",
+        "Eye-Tracking Based L2 Detection: Universal and Specific Eye Movement Patterns in L1 and L2 Reading",
+        "QUANTIFYING THE DIFFERENCE IN READING FLUENCY BETWEEN L1 AND L2 READERS OF ENGLISH",
+        "The eye as the window of the language ability: Estimation of English skills by analyzing eye movement while reading documents"
+      ]
+    },
+    {
+      "task_id": "litsearch-27",
+      "stage": "rrf",
+      "hit_at_10": 0,
+      "target_recall_at_10": 0.0,
+      "mrr_at_10": 0,
+      "seconds": 24.16,
+      "top10": [
+        "Exploring Language Attitudes Towards Native and Non-Native English Accents : Swedish perceptions on Finnish and native-accented English",
+        "The effect of word predictability on the eye movements of Chinese readers",
+        "SRILM - an extensible language modeling toolkit",
+        "Exploring readers\u2019 evaluations of native advertisements in a mobile news app",
+        "Comparative patterns of reading eye movement in Chinese and English",
+        "Moving beyond Ku\u010dera and Francis: A critical evaluation of current word frequency norms and the introduction of a new and improved word frequency measure for American English",
+        "Towards a minor bilingualism: Exploring variations of language and literacy in early childhood education",
+        "Extending the E\u2010Z Reader Model of Eye Movement Control to Chinese Readers",
+        "Crosslinguistic Influence in Language and Cognition",
+        "Lexical bundles in scientific English: A corpus-based study of native and non-native writing"
+      ]
+    },
+    {
+      "task_id": "litsearch-27",
+      "stage": "rerank",
+      "hit_at_10": 1,
+      "target_recall_at_10": 1.0,
+      "mrr_at_10": 1.0,
+      "seconds": 24.16,
+      "top10": [
+        "Predicting Native Language from Gaze",
+        "Assessing Language Proficiency from Eye Movements in Reading",
+        "Eye Movement Traces of Linguistic Knowledge in Native and Non-Native Reading",
+        "Eye-Tracking Based L2 Detection: Universal and Specific Eye Movement Patterns in L1 and L2 Reading",
+        "Prediction as a basis for skilled reading: insights from modern language models",
+        "Native Language Prediction from Gaze: a Reproducibility Study",
+        "Language Proficiency Assessment from Eye Movements in Naturalistic Passage Reading",
+        "Investigating The Eye Movements Of English L1 And Arabic L1 Speakers While Reading English Sentences.",
+        "Estimating the level of ability of English learners using eye movement features during text reading",
+        "Using Eye Movements From a \u201cRead\u2010Only\u201d Task to Predict Text Comprehension"
+      ]
+    },
+    {
+      "task_id": "litsearch-27",
+      "stage": "final",
+      "hit_at_10": 1,
+      "target_recall_at_10": 1.0,
+      "mrr_at_10": 1.0,
+      "seconds": 24.16,
+      "top10": [
+        "Predicting Native Language from Gaze",
+        "Assessing Language Proficiency from Eye Movements in Reading",
+        "Eye Movement Traces of Linguistic Knowledge in Native and Non-Native Reading",
+        "Eye-Tracking Based L2 Detection: Universal and Specific Eye Movement Patterns in L1 and L2 Reading",
+        "Prediction as a basis for skilled reading: insights from modern language models",
+        "Native Language Prediction from Gaze: a Reproducibility Study",
+        "Language Proficiency Assessment from Eye Movements in Naturalistic Passage Reading",
+        "Estimating the level of ability of English learners using eye movement features during text reading",
+        "Investigating The Eye Movements Of English L1 And Arabic L1 Speakers While Reading English Sentences.",
+        "Reading Strategy and Eye Movement of Japanese Students When Reading English as a Foreign Language"
+      ]
+    },
+    {
+      "task_id": "litsearch-35",
+      "stage": "single_semantic",
+      "hit_at_10": 0,
+      "target_recall_at_10": 0.0,
+      "mrr_at_10": 0,
+      "seconds": 20.14,
+      "top10": [
+        "End-to-End Relation Extraction using LSTMs on Sequences and Tree Structures",
+        "Graph Convolution over Pruned Dependency Trees Improves Relation Extraction",
+        "A shortest path dependency kernel for relation extraction",
+        "Semantic relation extraction using sequential and tree-structured LSTM with attention",
+        "Classifying Temporal Relations by Bidirectional LSTM over Dependency Paths",
+        "Exploring syntactic features for relation extraction using a convolution tree kernel",
+        "Exploiting constituent dependencies for tree kernel-based semantic relation extraction",
+        "Convolution kernels on constituent, dependency and sequential structures for relation extraction",
+        "Lexicalized Dependency Paths Based Supervised Learning for Relation Extraction",
+        "Exploiting the Syntax-Model Consistency for Neural Relation Extraction"
+      ]
+    },
+    {
+      "task_id": "litsearch-35",
+      "stage": "rrf",
+      "hit_at_10": 1,
+      "target_recall_at_10": 1.0,
+      "mrr_at_10": 0.1111111111111111,
+      "seconds": 20.14,
+      "top10": [
+        "Learning the syntax of plant assemblages",
+        "Temporal Information Extraction for Question Answering Using Syntactic Dependencies in an LSTM-based Architecture",
+        "Syntax-Enhanced Neural Machine Translation with Syntax-Aware Word Representations",
+        "Attention Guided Graph Convolutional Networks for Relation Extraction",
+        "End-to-End Relation Extraction using LSTMs on Sequences and Tree Structures",
+        "Long Short-Term Memory",
+        "Multilingual Abstractions: Abstract Syntax Trees and Universal Dependencies",
+        "Graph Convolution over Pruned Dependency Trees Improves Relation Extraction",
+        "Improved Semantic Representations From Tree-Structured Long Short-Term Memory Networks",
+        "Biomedical Relation Extraction Using Dependency Graph and Decoder-Enhanced Transformer Model"
+      ]
+    },
+    {
+      "task_id": "litsearch-35",
+      "stage": "rerank",
+      "hit_at_10": 0,
+      "target_recall_at_10": 0.0,
+      "mrr_at_10": 0,
+      "seconds": 20.14,
+      "top10": [
+        "Temporal Information Extraction for Question Answering Using Syntactic Dependencies in an LSTM-based Architecture",
+        "Attention Guided Graph Convolutional Networks for Relation Extraction",
+        "Exploiting the Syntax-Model Consistency for Neural Relation Extraction",
+        "Exploring syntactic features for relation extraction using a convolution tree kernel",
+        "Learning Latent Forests for Medical Relation Extraction",
+        "SEE: Syntax-Aware Entity Embedding for Neural Relation Extraction",
+        "Convolution kernels on constituent, dependency and sequential structures for relation extraction",
+        "End-to-End Relation Extraction using LSTMs on Sequences and Tree Structures",
+        "A shortest path dependency kernel for relation extraction",
+        "Exploiting constituent dependencies for tree kernel-based semantic relation extraction"
+      ]
+    },
+    {
+      "task_id": "litsearch-35",
+      "stage": "final",
+      "hit_at_10": 0,
+      "target_recall_at_10": 0.0,
+      "mrr_at_10": 0,
+      "seconds": 20.14,
+      "top10": [
+        "Temporal Information Extraction for Question Answering Using Syntactic Dependencies in an LSTM-based Architecture",
+        "Exploiting the Syntax-Model Consistency for Neural Relation Extraction",
+        "Exploring syntactic features for relation extraction using a convolution tree kernel",
+        "Learning Latent Forests for Medical Relation Extraction",
+        "SEE: Syntax-Aware Entity Embedding for Neural Relation Extraction",
+        "Convolution kernels on constituent, dependency and sequential structures for relation extraction",
+        "End-to-End Relation Extraction using LSTMs on Sequences and Tree Structures",
+        "A shortest path dependency kernel for relation extraction",
+        "Dependency tree positional encoding method for relation extraction",
+        "End-to-end relation extraction based on part of speech syntax tree"
+      ]
+    },
+    {
+      "task_id": "litsearch-4",
+      "stage": "single_semantic",
+      "hit_at_10": 0,
+      "target_recall_at_10": 0.0,
+      "mrr_at_10": 0,
+      "seconds": 24.17,
+      "top10": [
+        "How Can We Know When Language Models Know? On the Calibration of Language Models for Question Answering",
+        "Just Ask for Calibration: Strategies for Eliciting Calibrated Confidence Scores from Language Models Fine-Tuned with Human Feedback",
+        "Calibrate Before Use: Improving Few-Shot Performance of Language Models",
+        "Teaching Models to Express Their Uncertainty in Words",
+        "Selectively Answering Ambiguous Questions",
+        "Calibration-Tuning: Teaching Large Language Models to Know What They Don\u2019t Know",
+        "Beyond Binary Rewards: Training LMs to Reason About Their Uncertainty",
+        "Linguistic Calibration of Long-Form Generations",
+        "Language Model Probabilities are Not Calibrated in Numeric Contexts",
+        "Context versus Prior Knowledge in Language Models"
+      ]
+    },
+    {
+      "task_id": "litsearch-4",
+      "stage": "rrf",
+      "hit_at_10": 0,
+      "target_recall_at_10": 0.0,
+      "mrr_at_10": 0,
+      "seconds": 24.17,
+      "top10": [
+        "Language Model Probabilities are Not Calibrated in Numeric Contexts",
+        "Calibration-Tuning: Teaching Large Language Models to Know What They Don\u2019t Know",
+        "Calibrate Before Use: Improving Few-Shot Performance of Language Models",
+        "Restoring Calibration for Aligned Large Language Models: A Calibration-Aware Fine-Tuning Approach",
+        "Calibrating Verbalized Probabilities for Large Language Models",
+        "Answer-level Calibration for Free-form Multiple Choice Question Answering",
+        "Bag-of-Tokens Tuning: Calibrating LLM Logits with Contextual Probabilities",
+        "Decisions in One Forward Pass: Typed Answers from Local Language Models, and Making Their Yes/No Probabilities Mean Something",
+        "Advancing calibration of language models for text generation",
+        "A Survey of Confidence Estimation and Calibration in Large Language Models"
+      ]
+    },
+    {
+      "task_id": "litsearch-4",
+      "stage": "rerank",
+      "hit_at_10": 0,
+      "target_recall_at_10": 0.0,
+      "mrr_at_10": 0,
+      "seconds": 24.17,
+      "top10": [
+        "Language Model Probabilities are Not Calibrated in Numeric Contexts",
+        "Bag-of-Tokens Tuning: Calibrating LLM Logits with Contextual Probabilities",
+        "Answer-level Calibration for Free-form Multiple Choice Question Answering",
+        "Calibrating Verbalized Probabilities for Large Language Models",
+        "Calibration-Tuning: Teaching Large Language Models to Know What They Don\u2019t Know",
+        "Parameter-Efficient Contextual Calibration for Hallucination Mitigation in Domain-Specific Large Language Model Retrieval-Augmented Generation",
+        "How Can We Know When Language Models Know? On the Calibration of Language Models for Question Answering",
+        "QA-Calibration of Language Model Confidence Scores",
+        "Teaching Models to Express Their Uncertainty in Words",
+        "Same Answer, Different Confidence: Protocol Sensitivity in LLM Confidence Calibration"
+      ]
+    },
+    {
+      "task_id": "litsearch-4",
+      "stage": "final",
+      "hit_at_10": 0,
+      "target_recall_at_10": 0.0,
+      "mrr_at_10": 0,
+      "seconds": 24.17,
+      "top10": [
+        "Language Model Probabilities are Not Calibrated in Numeric Contexts",
+        "Bag-of-Tokens Tuning: Calibrating LLM Logits with Contextual Probabilities",
+        "Answer-level Calibration for Free-form Multiple Choice Question Answering",
+        "Calibrating Verbalized Probabilities for Large Language Models",
+        "How Can We Know When Language Models Know? On the Calibration of Language Models for Question Answering",
+        "Each Insufficient in Its Own Way: Calibrating Language Models Across Varying Evidence States",
+        "Calibration-Tuning: Teaching Large Language Models to Know What They Don\u2019t Know",
+        "Same Answer, Different Confidence: Protocol Sensitivity in LLM Confidence Calibration",
+        "QA-Calibration of Language Model Confidence Scores",
+        "Selectively Answering Ambiguous Questions"
+      ]
+    },
+    {
+      "task_id": "litsearch-48",
+      "stage": "single_semantic",
+      "hit_at_10": 1,
+      "target_recall_at_10": 1.0,
+      "mrr_at_10": 1.0,
+      "seconds": 24.14,
+      "top10": [
+        "Constituency Parsing with a Self-Attentive Encoder",
+        "Rethinking Self-Attention: Towards Interpretability in Neural Parsing",
+        "Grammar as a Foreign Language",
+        "Linguistically-Informed Self-Attention for Semantic Role Labeling",
+        "Multilingual Constituency Parsing with Self-Attention and Pre-Training",
+        "A Minimal Span-Based Neural Constituency Parser",
+        "Constituent Parsing as Sequence Labeling",
+        "Discourse Parsing with Attention-based Hierarchical Neural Networks",
+        "Hierarchically-Refined Label Attention Network for Sequence Labeling",
+        "Straight to the Tree: Constituency Parsing with Neural Syntactic Distance"
+      ]
+    },
+    {
+      "task_id": "litsearch-48",
+      "stage": "rrf",
+      "hit_at_10": 1,
+      "target_recall_at_10": 1.0,
+      "mrr_at_10": 0.25,
+      "seconds": 24.14,
+      "top10": [
+        "Grammar as a Foreign Language",
+        "Straight to the Tree: Constituency Parsing with Neural Syntactic Distance",
+        "Neural Graph Embedding Methods for Natural Language Processing",
+        "Constituency Parsing with a Self-Attentive Encoder",
+        "Feature-rich part-of-speech tagging with a cyclic dependency network",
+        "On the surprising capacity of linear combinations of embeddings for natural language processing",
+        "Rethinking Self-Attention: Towards Interpretability in Neural Parsing",
+        "A Maximum-Entropy-Inspired Parser",
+        "An Annotated Corpus and Method for Analysis of Ad-Hoc Structures Embedded in Text",
+        "Structured prediction methods for semantic parsing"
+      ]
+    },
+    {
+      "task_id": "litsearch-48",
+      "stage": "rerank",
+      "hit_at_10": 1,
+      "target_recall_at_10": 1.0,
+      "mrr_at_10": 1.0,
+      "seconds": 24.14,
+      "top10": [
+        "Constituency Parsing with a Self-Attentive Encoder",
+        "Improving Constituency Parsing with Span Attention",
+        "Supervised Attention for Sequence-to-Sequence Constituency Parsing",
+        "Straight to the Tree: Constituency Parsing with Neural Syntactic Distance",
+        "Improving Sequence-to-Sequence Constituency Parsing",
+        "Grammar as a Foreign Language",
+        "Heads-up! Unsupervised Constituency Parsing via Self-Attention Heads",
+        "A Minimal Span-Based Neural Constituency Parser",
+        "Multilingual Constituency Parsing with Self-Attention and Pre-Training",
+        "Fast and Accurate Neural CRF Constituency Parsing"
+      ]
+    },
+    {
+      "task_id": "litsearch-48",
+      "stage": "final",
+      "hit_at_10": 1,
+      "target_recall_at_10": 1.0,
+      "mrr_at_10": 1.0,
+      "seconds": 24.14,
+      "top10": [
+        "Constituency Parsing with a Self-Attentive Encoder",
+        "A Rich-label Constituency Tree for Constituency Parsing",
+        "Improving Constituency Parsing with Span Attention",
+        "An Empirical Study of Building a Strong Baseline for Constituency Parsing",
+        "Straight to the Tree: Constituency Parsing with Neural Syntactic Distance",
+        "A Minimal Span-Based Neural Constituency Parser",
+        "Fast and Accurate Neural CRF Constituency Parsing",
+        "Grammar as a Foreign Language",
+        "Multilingual Constituency Parsing with Self-Attention and Pre-Training",
+        "Unsupervised Discourse Constituency Parsing Using Viterbi EM"
+      ]
+    },
+    {
+      "task_id": "litsearch-57",
+      "stage": "single_semantic",
+      "hit_at_10": 0,
+      "target_recall_at_10": 0.0,
+      "mrr_at_10": 0,
+      "seconds": 24.14,
+      "top10": [
+        "Parsing Argumentation Structures in Persuasive Essays",
+        "The necessity of parsing for predicate argument recognition",
+        "Towards segment-based recognition of argumentation structure in short texts",
+        "Identifying attack and support argumentative relations using deep learning",
+        "End-to-End Argument Mining as Biaffine Dependency Parsing",
+        "The Utility of Discourse Parsing Features for Predicting Argumentation Structure",
+        "Dissecting Content and Context in Argumentative Relation Analysis",
+        "Utilizing Argument Mining Techniques for Argumentative Dialogue Systems",
+        "Towards an Argument Mining Pipeline Transforming Texts to Argument Graphs",
+        "Towards Argument Mining from Dialogue"
+      ]
+    },
+    {
+      "task_id": "litsearch-57",
+      "stage": "rrf",
+      "hit_at_10": 0,
+      "target_recall_at_10": 0.0,
+      "mrr_at_10": 0,
+      "seconds": 24.14,
+      "top10": [
+        "Parsing Argumentation Structures in Persuasive Essays",
+        "ARGUMENTATION MINING OF ARGUMENTATIVE ESSAYS",
+        "Rhetorical Structure Theory: Toward a functional theory of text organization",
+        "Argument Mining: A Survey",
+        "The necessity of parsing for predicate argument recognition",
+        "Towards segment-based recognition of argumentation structure in short texts",
+        "Argumentation Mining: State of the Art and Emerging Trends",
+        "Questions in argumentative dialogue",
+        "Identifying attack and support argumentative relations using deep learning",
+        "Identifying Argumentative Discourse Structures in Persuasive Essays"
+      ]
+    },
+    {
+      "task_id": "litsearch-57",
+      "stage": "rerank",
+      "hit_at_10": 0,
+      "target_recall_at_10": 0.0,
+      "mrr_at_10": 0,
+      "seconds": 24.14,
+      "top10": [
+        "End-to-End Argument Mining over Varying Rhetorical Structures",
+        "EDU-AP: Elementary Discourse Unit based Argument Parser",
+        "From Argument Diagrams to Argumentation Mining in Texts: A Survey",
+        "ARGUMENTATION MINING OF ARGUMENTATIVE ESSAYS",
+        "Towards Argument Mining from Dialogue",
+        "The Utility of Discourse Parsing Features for Predicting Argumentation Structure",
+        "End-to-End Argument Mining as Biaffine Dependency Parsing",
+        "Towards an Argument Mining Pipeline Transforming Texts to Argument Graphs",
+        "Knowledge-driven argument mining based on the qualia structure",
+        "Generating argumentation frameworks from text"
+      ]
+    },
+    {
+      "task_id": "litsearch-57",
+      "stage": "final",
+      "hit_at_10": 0,
+      "target_recall_at_10": 0.0,
+      "mrr_at_10": 0,
+      "seconds": 24.14,
+      "top10": [
+        "EDU-AP: Elementary Discourse Unit based Argument Parser",
+        "End-to-End Argument Mining over Varying Rhetorical Structures",
+        "From Argument Diagrams to Argumentation Mining in Texts: A Survey",
+        "Towards Argument Mining from Dialogue",
+        "The Utility of Discourse Parsing Features for Predicting Argumentation Structure",
+        "End-to-End Argument Mining as Biaffine Dependency Parsing",
+        "ARGUMENTATION MINING OF ARGUMENTATIVE ESSAYS",
+        "Towards an Argument Mining Pipeline Transforming Texts to Argument Graphs",
+        "Analyzing Argumentative Discourse Units in Online Interactions",
+        "Knowledge-driven argument mining based on the qualia structure"
+      ]
+    },
+    {
+      "task_id": "litsearch-84",
+      "stage": "single_semantic",
+      "hit_at_10": 0,
+      "target_recall_at_10": 0.0,
+      "mrr_at_10": 0,
+      "seconds": 89.45,
+      "top10": [
+        "The Multilingual Amazon Reviews Corpus",
+        "LABR: A Large Scale Arabic Book Reviews Dataset",
+        "Movie Language Revisited: Evidence from Multi-Dimensional Analysis and Corpora",
+        "A Corpus for Multilingual Document Classification in Eight Languages",
+        "Multi-Level Sentiment Analysis of PolEmo 2.0: Extended Corpus of Multi-Domain Consumer Reviews",
+        "Multilingual Entity-Centered Sentiment Analysis Evaluated by Parallel Corpora",
+        "OpinionIt: a text mining system for cross-lingual opinion analysis",
+        "MultiEmo: Multilingual, Multilevel, Multidomain Sentiment Analysis Corpus of Consumer Reviews",
+        "The Haves and the Have-Nots: Leveraging Unlabelled Corpora for Sentiment Analysis",
+        "The USAGE review corpus for fine grained multi lingual opinion analysis"
+      ]
+    },
+    {
+      "task_id": "litsearch-84",
+      "stage": "rrf",
+      "hit_at_10": 0,
+      "target_recall_at_10": 0.0,
+      "mrr_at_10": 0,
+      "seconds": 89.45,
+      "top10": [
+        "MultiEmo: Multilingual, Multilevel, Multidomain Sentiment Analysis Corpus of Consumer Reviews",
+        "Multilingual Sentiment Analysis for Under-Resourced Languages: A Systematic Review of the Landscape",
+        "The USAGE review corpus for fine grained multi lingual opinion analysis",
+        "Comparable English-Russian book review corpora for sentiment analysis",
+        "Webis Cross-Lingual Sentiment Dataset 2010 (Webis-CLS-10)",
+        "Cross-Lingual Sentiment Analysis with Machine Translation Utility of training corpora and sentiment lexica",
+        "Massively Multilingual Corpus of Sentiment Datasets and Multi-faceted Sentiment Classification Benchmark",
+        "LABR: A Large Scale Arabic Book Reviews Dataset",
+        "Holistic Multilingual Sentiment Analysis on Reviews in Social Media",
+        "The Multilingual Amazon Reviews Corpus"
+      ]
+    },
+    {
+      "task_id": "litsearch-84",
+      "stage": "rerank",
+      "hit_at_10": 0,
+      "target_recall_at_10": 0.0,
+      "mrr_at_10": 0,
+      "seconds": 89.45,
+      "top10": [
+        "The Multilingual Amazon Reviews Corpus",
+        "The USAGE review corpus for fine grained multi lingual opinion analysis",
+        "MultiEmo: Multilingual, Multilevel, Multidomain Sentiment Analysis Corpus of Consumer Reviews",
+        "Massively Multilingual Corpus of Sentiment Datasets and Multi-faceted Sentiment Classification Benchmark",
+        "Webis Cross-Lingual Sentiment Dataset 2010 (Webis-CLS-10)",
+        "NoReC: The Norwegian Review Corpus",
+        "PolEmo 1.0 + MultiEmo-Test 1.0 Multilingual Sentiment Analysis Dataset for KES2020",
+        "Multilingual Sentiment Analysis Using Latent Semantic Indexing and Machine Learning.",
+        "OpinionIt: a text mining system for cross-lingual opinion analysis",
+        "A Corpus for Multilingual Document Classification in Eight Languages"
+      ]
+    },
+    {
+      "task_id": "litsearch-84",
+      "stage": "final",
+      "hit_at_10": 0,
+      "target_recall_at_10": 0.0,
+      "mrr_at_10": 0,
+      "seconds": 89.45,
+      "top10": [
+        "Webis Cross-Lingual Sentiment Dataset 2010 (Webis-CLS-10)",
+        "The Multilingual Amazon Reviews Corpus",
+        "The USAGE review corpus for fine grained multi lingual opinion analysis",
+        "MultiEmo: Multilingual, Multilevel, Multidomain Sentiment Analysis Corpus of Consumer Reviews",
+        "Massively Multilingual Corpus of Sentiment Datasets and Multi-faceted Sentiment Classification Benchmark",
+        "NoReC: The Norwegian Review Corpus",
+        "PolEmo 1.0 + MultiEmo-Test 1.0 Multilingual Sentiment Analysis Dataset for KES2020",
+        "Multilingual Sentiment Analysis Using Latent Semantic Indexing and Machine Learning.",
+        "OpinionIt: a text mining system for cross-lingual opinion analysis",
+        "A Corpus for Multilingual Document Classification in Eight Languages"
+      ]
+    },
+    {
+      "task_id": "litsearch-93",
+      "stage": "single_semantic",
+      "hit_at_10": 1,
+      "target_recall_at_10": 0.5,
+      "mrr_at_10": 1.0,
+      "seconds": 95.48,
+      "top10": [
+        "OneStopEnglish corpus: A new corpus for automatic readability assessment and text simplification",
+        "A large-scaled corpus for assessing text readability",
+        "Creating and Using English Language Corpora: Papers from the fourteenth International Conference on English Language Research on Computerized Corpora, Z\u00fcrich 1993",
+        "Well-known and influential corpora",
+        "English Language Corpora: Design, Analysis and Exploitation: Papers from the thirteenth International Conference on English Language Research on Computerized Corpora, Nijmegen 1992",
+        "READABILITY FORMULAS: AN OVERVIEW",
+        "Exploring English with Online Corpora",
+        "Exploring English with Online Corpora",
+        "Computer corpora in English language research. Ed. by Stig Johansson. Bergen: Norwegian Computing Centre for the Humanities, 1982. Pp. 156.",
+        "Reassessing the Accuracy and Use of Readability Formulae"
+      ]
+    },
+    {
+      "task_id": "litsearch-93",
+      "stage": "rrf",
+      "hit_at_10": 1,
+      "target_recall_at_10": 0.5,
+      "mrr_at_10": 0.125,
+      "seconds": 95.48,
+      "top10": [
+        "A data-driven cognitive feature\u2013based model for english text readability assessment to support college english instruction",
+        "A Benchmark for Neural Readability Assessment of Texts in Spanish",
+        "A large-scaled corpus for assessing text readability",
+        "A Benchmark for Arabic Lemma-Level Readability Assessment",
+        "A Large and Balanced Corpus for Fine-grained Arabic Readability Assessment",
+        "Comprehensive Readability Assessment of Scientific Learning Resources",
+        "ReadMe++: Benchmarking Multilingual Language Models for Multi-Domain Readability Assessment",
+        "OneStopEnglish corpus: A new corpus for automatic readability assessment and text simplification",
+        "A Unified Neural Network Model for Readability Assessment with Feature Projection and Length-Balanced Loss",
+        "Lexical simplification benchmarks for English, Portuguese, and Spanish"
+      ]
+    },
+    {
+      "task_id": "litsearch-93",
+      "stage": "rerank",
+      "hit_at_10": 0,
+      "target_recall_at_10": 0.0,
+      "mrr_at_10": 0,
+      "seconds": 95.48,
+      "top10": [
+        "A Benchmark for Neural Readability Assessment of Texts in Spanish",
+        "Cross-Corpus Readability Compatibility Assessment for English Texts",
+        "A large-scaled corpus for assessing text readability",
+        "Evaluating the consistency of text readability levels across corpora for English education",
+        "ReadMe++: Benchmarking Multilingual Language Models for Multi-Domain Readability Assessment",
+        "A readability index benchmark for Italian Plain and Easy Language texts",
+        "Implicit readability ranking using the latent variable of a Bayesian Probit model.",
+        "The CommonLit Ease of Readability (CLEAR) Corpus",
+        "Cross-Corpus Readability Consistency Evaluation Code",
+        "A data-driven cognitive feature\u2013based model for english text readability assessment to support college english instruction"
+      ]
+    },
+    {
+      "task_id": "litsearch-93",
+      "stage": "final",
+      "hit_at_10": 0,
+      "target_recall_at_10": 0.0,
+      "mrr_at_10": 0,
+      "seconds": 95.48,
+      "top10": [
+        "Cross-Corpus Readability Compatibility Assessment for English Texts",
+        "Evaluating the consistency of text readability levels across corpora for English education",
+        "A data-driven cognitive feature\u2013based model for english text readability assessment to support college english instruction",
+        "Assessing the readability of ClinicalTrials.gov",
+        "A Benchmark for Neural Readability Assessment of Texts in Spanish",
+        "A large-scaled corpus for assessing text readability",
+        "ReadMe++: Benchmarking Multilingual Language Models for Multi-Domain Readability Assessment",
+        "A readability index benchmark for Italian Plain and Easy Language texts",
+        "Implicit readability ranking using the latent variable of a Bayesian Probit model.",
+        "The CommonLit Ease of Readability (CLEAR) Corpus"
+      ]
+    }
+  ]
+}

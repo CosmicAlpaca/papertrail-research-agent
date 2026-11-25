@@ -1,0 +1,2782 @@
+{
+  "id": "4c25892b-cafc-4128-8d17-b4bb9044019b",
+  "created_at": "2026-11-25T14:08:09.524838+00:00",
+  "status": "complete",
+  "request": {
+    "plan": {
+      "question": "In the area of argument mining, could you point to literature that uses of dependency parsers to determine the argumentativeness of texts in dialogue systems?",
+      "queries": [
+        "area argument mining could you point literature uses dependency parsers determine argumentativeness texts dialogue"
+      ],
+      "criteria": [
+        {
+          "id": "c1",
+          "text": "In the area of argument mining, could you point to literature that uses of dependency parsers to determine the argumentativeness of texts in dialogue systems?"
+        }
+      ],
+      "year_from": null,
+      "year_to": null,
+      "open_access": false,
+      "mode": "diligent",
+      "planner": "reviewable rule-based plan; hosted model unavailable"
+    },
+    "rerank": true,
+    "repair": true
+  },
+  "result": {
+    "papers": [
+      {
+        "id": "https://openalex.org/W4389009430",
+        "title": "EDU-AP: Elementary Discourse Unit based Argument Parser",
+        "doi": "https://doi.org/10.18653/v1/2022.sigdial-1.19",
+        "year": 2022,
+        "abstract": "Neural approaches to end-to-end argument mining (AM) are often formulated as dependency parsing (DP), which relies on token-level sequence labeling and intricate post-processing for extracting argumentative structures from text. Although such methods yield reasonable results, operating solely with tokens increases the possibility of discontinuous and overly segmented structures due to minor inconsistencies in token level predictions. In this paper, we propose EDU-AP, an end-to-end argument parser, that alleviates such problems in dependency-based methods by exploiting the intrinsic relationship between elementary discourse units (EDUs) and argumentative discourse units (ADUs) and operates at both token and EDU level granularity. Further, appropriately using contextual information, along with optimizing a novel objective function during training, EDU-AP achieves significant improvements across all four tasks of AM compared to existing dependency-based methods.",
+        "authors": [
+          "Sougata Saha",
+          "Souvik Das",
+          "Rohini K. Srihari"
+        ],
+        "venue": "Annual Meeting of the Special Interest Group on Discourse and Dialogue",
+        "citations": 4,
+        "open_access": true,
+        "url": "https://doi.org/10.18653/v1/2022.sigdial-1.19",
+        "pdf_url": "https://aclanthology.org/2022.sigdial-1.19.pdf",
+        "references": [
+          "https://openalex.org/W2066288042",
+          "https://openalex.org/W2250309026",
+          "https://openalex.org/W2251931307",
+          "https://openalex.org/W2327805699",
+          "https://openalex.org/W2343649478",
+          "https://openalex.org/W2471324264",
+          "https://openalex.org/W2516583532",
+          "https://openalex.org/W2609776793",
+          "https://openalex.org/W2789064996",
+          "https://openalex.org/W2799072540",
+          "https://openalex.org/W2805780415",
+          "https://openalex.org/W2889446948",
+          "https://openalex.org/W2896457183",
+          "https://openalex.org/W2908510526",
+          "https://openalex.org/W2912804155",
+          "https://openalex.org/W2962753370",
+          "https://openalex.org/W2965373594",
+          "https://openalex.org/W2970717148",
+          "https://openalex.org/W2979666134",
+          "https://openalex.org/W3035152150",
+          "https://openalex.org/W3137554059",
+          "https://openalex.org/W3154502570",
+          "https://openalex.org/W3174902437"
+        ],
+        "retracted": false,
+        "provenance": [
+          "semantic: In the area of argument mining, could you point to literature that uses of dependency parsers to determine the argumentativeness of texts in dialogue systems?",
+          "coverage repair: In the area of argument mining, could you point to literature that uses of dependency parsers to determine the argumentativeness of texts in dialogue systems?"
+        ],
+        "criteria": [
+          {
+            "criterion_id": "c1",
+            "status": "uncertain",
+            "quote": "",
+            "quote_verified": false,
+            "reason": "Insufficient source evidence; full-paper verification may be needed."
+          }
+        ],
+        "rrf": 0.02667140825035562,
+        "aliases": [
+          "https://openalex.org/W4389009430"
+        ],
+        "neural_score": 3.71782,
+        "score": 0.86336
+      },
+      {
+        "id": "https://openalex.org/W4385571783",
+        "title": "End-to-End Argument Mining over Varying Rhetorical Structures",
+        "doi": "https://doi.org/10.18653/v1/2023.findings-acl.209",
+        "year": 2023,
+        "abstract": "Rhetorical Structure Theory implies no single discourse interpretation of a text, and the limitations of RST parsers further exacerbate inconsistent parsing of similar structures. Therefore, it is important to take into account that the same argumentative structure can be found in semantically similar texts with varying rhetorical structures. In this work, the differences between paraphrases within the same argument scheme are evaluated from a rhetorical perspective. The study proposes a deep dependency parsing model to assess the connection between rhetorical and argument structures. The model utilizes rhetorical relations; RST structures of paraphrases serve as training data augmentations. The method allows for end-to-end argumentation analysis using a rhetorical tree instead of a word sequence. It is evaluated on the bilingual Microtexts corpus, and the first results on fully-fledged argument parsing for the Russian version of the corpus are reported. The results suggest that argument mining can benefit from multiple variants of discourse structure.",
+        "authors": [
+          "Elena Chistova"
+        ],
+        "venue": "Findings of the Association for Computational Linguistics: ACL (Findings of ACL)",
+        "citations": 12,
+        "open_access": true,
+        "url": "https://doi.org/10.18653/v1/2023.findings-acl.209",
+        "pdf_url": "https://aclanthology.org/2023.findings-acl.209.pdf",
+        "references": [
+          "https://openalex.org/W19426809",
+          "https://openalex.org/W1976854078",
+          "https://openalex.org/W2037256905",
+          "https://openalex.org/W2044599851",
+          "https://openalex.org/W2045738181",
+          "https://openalex.org/W2083036001",
+          "https://openalex.org/W2121227244",
+          "https://openalex.org/W2221129296",
+          "https://openalex.org/W2251661596",
+          "https://openalex.org/W2252267789",
+          "https://openalex.org/W2516583532",
+          "https://openalex.org/W2552110825",
+          "https://openalex.org/W2573551278",
+          "https://openalex.org/W2758822623",
+          "https://openalex.org/W2793978524",
+          "https://openalex.org/W2803774252",
+          "https://openalex.org/W2898653207",
+          "https://openalex.org/W2970717148",
+          "https://openalex.org/W2971009340",
+          "https://openalex.org/W2996497876",
+          "https://openalex.org/W3126468864",
+          "https://openalex.org/W3155842084",
+          "https://openalex.org/W3206281211",
+          "https://openalex.org/W3211686893",
+          "https://openalex.org/W4285077564",
+          "https://openalex.org/W4285119343",
+          "https://openalex.org/W4386566771"
+        ],
+        "retracted": false,
+        "provenance": [
+          "semantic: In the area of argument mining, could you point to literature that uses of dependency parsers to determine the argumentativeness of texts in dialogue systems?",
+          "coverage repair: In the area of argument mining, could you point to literature that uses of dependency parsers to determine the argumentativeness of texts in dialogue systems?"
+        ],
+        "criteria": [
+          {
+            "criterion_id": "c1",
+            "status": "uncertain",
+            "quote": "",
+            "quote_verified": false,
+            "reason": "Insufficient source evidence; full-paper verification may be needed."
+          }
+        ],
+        "rrf": 0.026356857985087564,
+        "aliases": [
+          "https://openalex.org/W4385571783"
+        ],
+        "neural_score": 3.69518,
+        "score": 0.86197
+      },
+      {
+        "id": "https://openalex.org/W2066288042",
+        "title": "From Argument Diagrams to Argumentation Mining in Texts: A Survey",
+        "doi": "https://doi.org/10.4018/jcini.2013010101",
+        "year": 2013,
+        "abstract": "In this paper, the authors consider argument mining as the task of building a formal representation for an argumentative piece of text. Their goal is to provide a critical survey of the literature on both the resulting representations (i.e., argument diagramming techniques) and on the various aspects of the automatic analysis process. For representation, the authors also provide a synthesized proposal of a scheme that combines advantages from several of the earlier approaches; in addition, the authors discuss the relationship between representing argument structure and the rhetorical structure of texts in the sense of Mann and Thompsons (1988) RST. Then, for the argument mining problem, the authors also cover the literature on closely-related tasks that have been tackled in Computational Linguistics, because they think that these can contribute to more powerful argument mining systems than the first prototypes that were built in recent years. The paper concludes with the authors’ suggestions for the major challenges that should be addressed in the field of argument mining.",
+        "authors": [
+          "Andreas Peldszus",
+          "Manfred Stede"
+        ],
+        "venue": "International Journal of Cognitive Informatics and Natural Intelligence",
+        "citations": 425,
+        "open_access": false,
+        "url": "https://doi.org/10.4018/jcini.2013010101",
+        "pdf_url": null,
+        "references": [
+          "https://openalex.org/W19426809",
+          "https://openalex.org/W53390990",
+          "https://openalex.org/W164525691",
+          "https://openalex.org/W573340538",
+          "https://openalex.org/W581684831",
+          "https://openalex.org/W645605489",
+          "https://openalex.org/W1483817654",
+          "https://openalex.org/W1548116827",
+          "https://openalex.org/W1574440611",
+          "https://openalex.org/W1586098667",
+          "https://openalex.org/W1597655096",
+          "https://openalex.org/W1968871606",
+          "https://openalex.org/W1972895912",
+          "https://openalex.org/W1987574581",
+          "https://openalex.org/W2025401082",
+          "https://openalex.org/W2028953697",
+          "https://openalex.org/W2034640569",
+          "https://openalex.org/W2045738181",
+          "https://openalex.org/W2069684104",
+          "https://openalex.org/W2083036001",
+          "https://openalex.org/W2104126268",
+          "https://openalex.org/W2109783296",
+          "https://openalex.org/W2119707623",
+          "https://openalex.org/W2142034193",
+          "https://openalex.org/W2142321231",
+          "https://openalex.org/W2143432970",
+          "https://openalex.org/W2144232471",
+          "https://openalex.org/W2145870355",
+          "https://openalex.org/W2165887782",
+          "https://openalex.org/W2167746972",
+          "https://openalex.org/W2231914647",
+          "https://openalex.org/W2398315902",
+          "https://openalex.org/W2402400197",
+          "https://openalex.org/W2405552883",
+          "https://openalex.org/W2442495973",
+          "https://openalex.org/W3042297464",
+          "https://openalex.org/W4243806410",
+          "https://openalex.org/W4244164260",
+          "https://openalex.org/W4250641076",
+          "https://openalex.org/W6995562774"
+        ],
+        "retracted": false,
+        "provenance": [
+          "citation neighbors of top-ranked papers"
+        ],
+        "criteria": [
+          {
+            "criterion_id": "c1",
+            "status": "uncertain",
+            "quote": "",
+            "quote_verified": false,
+            "reason": "Insufficient source evidence; full-paper verification may be needed."
+          }
+        ],
+        "rrf": 0.014925373134328358,
+        "aliases": [
+          "https://openalex.org/W2066288042"
+        ],
+        "neural_score": 2.45608,
+        "score": 0.78288
+      },
+      {
+        "id": "https://openalex.org/W2400132956",
+        "title": "Towards Argument Mining from Dialogue",
+        "doi": "https://doi.org/10.3233/978-1-61499-436-7-185",
+        "year": 2014,
+        "abstract": "Argument mining has started to yield early results in automatic analysis of text to produce representations of reason-conclusion structures. This paper addresses for the first time the question of automatically extracting such structures from dialogical settings of argument. More specifically, we introduce theoretical foundations for dialogical argument mining as well as show the initial implementation in a software for dialogue processing, and the application in corpus analysis. We combine analysis of illocutionary structure with structured argumentation frameworks as our scaffolding, and apply a combination of statistical and grammatically based analytical techniques.",
+        "authors": [
+          "Katarzyna Budzyńska",
+          "Mathilde Janier",
+          "Juyeon Kang",
+          "Chris Reed",
+          "Patrick Saint‐Dizier",
+          "Manfred Stede",
+          "Olena Yaskorska"
+        ],
+        "venue": "Frontiers in artificial intelligence and applications",
+        "citations": 63,
+        "open_access": false,
+        "url": "https://doi.org/10.3233/978-1-61499-436-7-185",
+        "pdf_url": null,
+        "references": [
+          "https://openalex.org/W1485409386",
+          "https://openalex.org/W1574440611",
+          "https://openalex.org/W1576632330",
+          "https://openalex.org/W1597655096",
+          "https://openalex.org/W1977155386",
+          "https://openalex.org/W2041112210",
+          "https://openalex.org/W2045738181",
+          "https://openalex.org/W2069684104",
+          "https://openalex.org/W2119707623",
+          "https://openalex.org/W2128970689",
+          "https://openalex.org/W2144173701",
+          "https://openalex.org/W2144232471",
+          "https://openalex.org/W2154407881",
+          "https://openalex.org/W2165887782",
+          "https://openalex.org/W2398498676",
+          "https://openalex.org/W2405552883",
+          "https://openalex.org/W4235073904",
+          "https://openalex.org/W7160302604"
+        ],
+        "retracted": false,
+        "provenance": [
+          "semantic: In the area of argument mining, could you point to literature that uses of dependency parsers to determine the argumentativeness of texts in dialogue systems?",
+          "coverage repair: In the area of argument mining, could you point to literature that uses of dependency parsers to determine the argumentativeness of texts in dialogue systems?"
+        ],
+        "criteria": [
+          {
+            "criterion_id": "c1",
+            "status": "uncertain",
+            "quote": "",
+            "quote_verified": false,
+            "reason": "Insufficient source evidence; full-paper verification may be needed."
+          }
+        ],
+        "rrf": 0.02857142857142857,
+        "aliases": [
+          "https://openalex.org/W2400132956"
+        ],
+        "neural_score": 1.52632,
+        "score": 0.74537
+      },
+      {
+        "id": "https://openalex.org/W2970717148",
+        "title": "The Utility of Discourse Parsing Features for Predicting Argumentation Structure",
+        "doi": "https://doi.org/10.18653/v1/w19-4512",
+        "year": 2019,
+        "abstract": "Research on argumentation mining from text has frequently discussed relationships to discourse parsing, but few empirical results are available so far. One corpus that has been annotated in parallel for argumentation structure and for discourse structure (RST, SDRT) are the ‘argumentative microtexts’ (Peldszus and Stede, 2016a). While results on perusing the gold RST annotations for predicting argumentation have been published (Peldszus and Stede, 2016b), the step to automatic discourse parsing has not yet been taken. In this paper, we run various discourse parsers (RST, PDTB) on the corpus, compare their results to the gold annotations (for RST) and then assess the contribution of automatically-derived discourse features for argumentation parsing. After reproducing the state-of-the-art Evidence Graph model from Afantenos et al. (2018) for the microtexts, we find that PDTB features can indeed improve its performance.",
+        "authors": [
+          "Freya Hewett",
+          "Roshan Prakash Rane",
+          "Nina Harlacher",
+          "Manfred Stede"
+        ],
+        "venue": "Workshop on Argument Mining (ArgMining)",
+        "citations": 33,
+        "open_access": true,
+        "url": "https://doi.org/10.18653/v1/w19-4512",
+        "pdf_url": "https://www.aclweb.org/anthology/W19-4512.pdf",
+        "references": [
+          "https://openalex.org/W162419442",
+          "https://openalex.org/W581684831",
+          "https://openalex.org/W1563792215",
+          "https://openalex.org/W1597655096",
+          "https://openalex.org/W1894075015",
+          "https://openalex.org/W1990399826",
+          "https://openalex.org/W2045738181",
+          "https://openalex.org/W2066288042",
+          "https://openalex.org/W2083036001",
+          "https://openalex.org/W2236647290",
+          "https://openalex.org/W2250309026",
+          "https://openalex.org/W2251293245",
+          "https://openalex.org/W2251661596",
+          "https://openalex.org/W2251663606",
+          "https://openalex.org/W2251790405",
+          "https://openalex.org/W2252267789",
+          "https://openalex.org/W2343649478",
+          "https://openalex.org/W2516583532",
+          "https://openalex.org/W2573551278",
+          "https://openalex.org/W2615337847",
+          "https://openalex.org/W2789960190",
+          "https://openalex.org/W2805780415"
+        ],
+        "retracted": false,
+        "provenance": [
+          "semantic: In the area of argument mining, could you point to literature that uses of dependency parsers to determine the argumentativeness of texts in dialogue systems?",
+          "coverage repair: In the area of argument mining, could you point to literature that uses of dependency parsers to determine the argumentativeness of texts in dialogue systems?"
+        ],
+        "criteria": [
+          {
+            "criterion_id": "c1",
+            "status": "uncertain",
+            "quote": "",
+            "quote_verified": false,
+            "reason": "Insufficient source evidence; full-paper verification may be needed."
+          }
+        ],
+        "rrf": 0.03007688828584351,
+        "aliases": [
+          "https://openalex.org/W2970717148"
+        ],
+        "neural_score": 1.39012,
+        "score": 0.73334
+      },
+      {
+        "id": "https://openalex.org/W3154502570",
+        "title": "End-to-End Argument Mining as Biaffine Dependency Parsing",
+        "doi": "https://doi.org/10.18653/v1/2021.eacl-main.55",
+        "year": 2021,
+        "abstract": "Non-neural approaches to argument mining (AM) are often pipelined and require heavy feature-engineering. In this paper, we propose a neural end-to-end approach to AM which is based on dependency parsing, in contrast to the current state-of-the-art which relies on relation extraction. Our biaffine AM dependency parser significantly outperforms the state-of-the-art, performing at F1 = 73.5% for component identification and F1 = 46.4% for relation identification. One of the advantages of treating AM as biaffine dependency parsing is the simple neural architecture that results. The idea of treating AM as dependency parsing is not new, but has previously been abandoned as it was lagging far behind the state-of-the-art. In a thorough analysis, we investigate the factors that contribute to the success of our model: the biaffine model itself, our representation for the dependency structure of arguments, different encoders in the biaffine model, and syntactic information additionally fed to the model. Our work demonstrates that dependency parsing for AM, an overlooked idea from the past, deserves more attention in the future.",
+        "authors": [
+          "Yuxiao Ye",
+          "Simone Teufel"
+        ],
+        "venue": "Conference of the European Chapter of the Association for Computational Linguistics",
+        "citations": 50,
+        "open_access": true,
+        "url": "https://doi.org/10.18653/v1/2021.eacl-main.55",
+        "pdf_url": "https://aclanthology.org/2021.eacl-main.55.pdf",
+        "references": [
+          "https://openalex.org/W1541975828",
+          "https://openalex.org/W1973886547",
+          "https://openalex.org/W1997210479",
+          "https://openalex.org/W2066288042",
+          "https://openalex.org/W2095705004",
+          "https://openalex.org/W2122922578",
+          "https://openalex.org/W2134036914",
+          "https://openalex.org/W2138790588",
+          "https://openalex.org/W2236647290",
+          "https://openalex.org/W2250473257",
+          "https://openalex.org/W2250539671",
+          "https://openalex.org/W2250861254",
+          "https://openalex.org/W2301095666",
+          "https://openalex.org/W2343649478",
+          "https://openalex.org/W2471324264",
+          "https://openalex.org/W2516255829",
+          "https://openalex.org/W2609722168",
+          "https://openalex.org/W2609776793",
+          "https://openalex.org/W2799072540",
+          "https://openalex.org/W2807191971",
+          "https://openalex.org/W2899024931",
+          "https://openalex.org/W2921467145",
+          "https://openalex.org/W2962902328",
+          "https://openalex.org/W2963341956",
+          "https://openalex.org/W2964121744",
+          "https://openalex.org/W2964167098",
+          "https://openalex.org/W2979666134",
+          "https://openalex.org/W3035152150",
+          "https://openalex.org/W3095351355"
+        ],
+        "retracted": false,
+        "provenance": [
+          "semantic: In the area of argument mining, could you point to literature that uses of dependency parsers to determine the argumentativeness of texts in dialogue systems?",
+          "coverage repair: In the area of argument mining, could you point to literature that uses of dependency parsers to determine the argumentativeness of texts in dialogue systems?"
+        ],
+        "criteria": [
+          {
+            "criterion_id": "c1",
+            "status": "uncertain",
+            "quote": "",
+            "quote_verified": false,
+            "reason": "Insufficient source evidence; full-paper verification may be needed."
+          }
+        ],
+        "rrf": 0.030536130536130537,
+        "aliases": [
+          "https://openalex.org/W3154502570"
+        ],
+        "neural_score": 1.31875,
+        "score": 0.72544
+      },
+      {
+        "id": "https://openalex.org/W7216718312",
+        "title": "ARGUMENTATION MINING OF ARGUMENTATIVE ESSAYS",
+        "doi": null,
+        "year": null,
+        "abstract": "Argumentation is a fundamental aspect of our language and communication which involves the use of reasoning, to justify our opinions and persuade others about them. A good argumentation is fundamental in drawing widely accepted conclusions and not only for decision making and learning. It is employed in various contexts including debates, discussions, essays, legal proceedings, and everyday conversations. Understanding the argumentative structure of a discourse makes it possible to determine not only which are the positions adopted, but also giving reasons for them. In our research we consider a widely used argumentative context which is the one of argumentative essays. These are a type of academic writing that presents a stance on a particular issue and supports it with evidence and reasoning. The purpose of an argumentative essay is to persuade the reader to accept or agree with the writer’s point of view on a controversial or debatable topic. The essay typically follows a specific structure and involves the systematic development of an argument. Using a famous and widely studied corpus of university student essays —the Argument Annotated Essays Corpus (AAEC)—, we performed the tasks of argument identification and classification using a mix of text data augmentation techniques, also taking advantage of the new potentials made available by large language models. After an extensive introduction and survey to artificial intelligence, machine learning, argumentation theories and computational argumentation, which aim at providing a solid background for the rest of the work, we present our own contribution to the field of argument mining, experimentally showing that our techniques are able to measurably go beyond the state of the art for these tasks in AAEC.",
+        "authors": [
+          "R Demaria"
+        ],
+        "venue": "Institutional Research Information System University of Turin (University of Turin)",
+        "citations": 0,
+        "open_access": true,
+        "url": "https://hdl.handle.net/2318/2051430",
+        "pdf_url": "https://iris.unito.it/bitstream/2318/2051430/2/PhD_Thesis_ROBERTO_DEMARIA.pdf",
+        "references": [
+          "https://openalex.org/W23324711",
+          "https://openalex.org/W71433485",
+          "https://openalex.org/W81017671",
+          "https://openalex.org/W162419442",
+          "https://openalex.org/W329130461",
+          "https://openalex.org/W567394550",
+          "https://openalex.org/W581684831",
+          "https://openalex.org/W583777665",
+          "https://openalex.org/W599892038",
+          "https://openalex.org/W655115389",
+          "https://openalex.org/W658619875",
+          "https://openalex.org/W1479807131",
+          "https://openalex.org/W1500693574",
+          "https://openalex.org/W1509892904",
+          "https://openalex.org/W1548116827",
+          "https://openalex.org/W1559275955",
+          "https://openalex.org/W1566289585",
+          "https://openalex.org/W1577418821",
+          "https://openalex.org/W1614298861",
+          "https://openalex.org/W1623072288",
+          "https://openalex.org/W1687791635",
+          "https://openalex.org/W1733704070",
+          "https://openalex.org/W1785799957",
+          "https://openalex.org/W1795701457",
+          "https://openalex.org/W1874138657",
+          "https://openalex.org/W1921302649",
+          "https://openalex.org/W1965042262",
+          "https://openalex.org/W1971196056",
+          "https://openalex.org/W1977155386",
+          "https://openalex.org/W1978078764",
+          "https://openalex.org/W1988330755",
+          "https://openalex.org/W1997210479",
+          "https://openalex.org/W2001771035",
+          "https://openalex.org/W2006585958",
+          "https://openalex.org/W2017093362",
+          "https://openalex.org/W2018896856",
+          "https://openalex.org/W2019842155",
+          "https://openalex.org/W2041139729",
+          "https://openalex.org/W2056471920",
+          "https://openalex.org/W2056710995"
+        ],
+        "retracted": false,
+        "provenance": [
+          "keyword: area argument mining could you point literature uses dependency parsers determine argumentativeness texts dialogue"
+        ],
+        "criteria": [
+          {
+            "criterion_id": "c1",
+            "status": "uncertain",
+            "quote": "",
+            "quote_verified": false,
+            "reason": "Insufficient source evidence; full-paper verification may be needed."
+          }
+        ],
+        "rrf": 0.01639344262295082,
+        "aliases": [
+          "https://openalex.org/W7216718312"
+        ],
+        "neural_score": 1.54795,
+        "score": 0.7103
+      },
+      {
+        "id": "https://openalex.org/W3090450025",
+        "title": "Towards an Argument Mining Pipeline Transforming Texts to Argument Graphs",
+        "doi": "https://doi.org/10.3233/faia200510",
+        "year": 2020,
+        "abstract": "This paper tackles the automated extraction of components of argumentative information and their relations from natural language text. Moreover, we address a current lack of systems to provide a complete argumentative structure from arbitrary natural language text for general usage. We present an argument mining pipeline as a universally applicable approach for transforming German and English language texts to graph-based argument representations. We also introduce new methods for evaluating the performance based on existing benchmark argument structures. Our results show that the generated argument graphs can be beneficial to detect new connections between different statements of an argumentative text.",
+        "authors": [
+          "Mirko Lenz",
+          "Premtim Sahitaj",
+          "Sean Kallenberg",
+          "Christopher Coors",
+          "Lorik Dumani",
+          "Ralf Schenkel",
+          "Ralph Bergmann"
+        ],
+        "venue": "Frontiers in artificial intelligence and applications",
+        "citations": 29,
+        "open_access": true,
+        "url": "https://doi.org/10.3233/faia200510",
+        "pdf_url": null,
+        "references": [
+          "https://openalex.org/W329130461",
+          "https://openalex.org/W581684831",
+          "https://openalex.org/W1647671624",
+          "https://openalex.org/W2112178080",
+          "https://openalex.org/W2114739726",
+          "https://openalex.org/W2200750309",
+          "https://openalex.org/W2250309026",
+          "https://openalex.org/W2251314334",
+          "https://openalex.org/W2251647857",
+          "https://openalex.org/W2266769560",
+          "https://openalex.org/W2343649478",
+          "https://openalex.org/W2520457279",
+          "https://openalex.org/W2573551278",
+          "https://openalex.org/W2577700560",
+          "https://openalex.org/W2586509828",
+          "https://openalex.org/W2741686183",
+          "https://openalex.org/W2757513300",
+          "https://openalex.org/W2789064996",
+          "https://openalex.org/W2842153692",
+          "https://openalex.org/W2855214964",
+          "https://openalex.org/W2875291789",
+          "https://openalex.org/W2890924154",
+          "https://openalex.org/W2893459986",
+          "https://openalex.org/W2970835778",
+          "https://openalex.org/W3149982605",
+          "https://openalex.org/W6910681941"
+        ],
+        "retracted": false,
+        "provenance": [
+          "semantic: In the area of argument mining, could you point to literature that uses of dependency parsers to determine the argumentativeness of texts in dialogue systems?",
+          "coverage repair: In the area of argument mining, could you point to literature that uses of dependency parsers to determine the argumentativeness of texts in dialogue systems?"
+        ],
+        "criteria": [
+          {
+            "criterion_id": "c1",
+            "status": "uncertain",
+            "quote": "",
+            "quote_verified": false,
+            "reason": "Insufficient source evidence; full-paper verification may be needed."
+          }
+        ],
+        "rrf": 0.028381642512077296,
+        "aliases": [
+          "https://openalex.org/W3090450025"
+        ],
+        "neural_score": 1.00963,
+        "score": 0.67397
+      },
+      {
+        "id": "https://openalex.org/W2251521080",
+        "title": "Analyzing Argumentative Discourse Units in Online Interactions",
+        "doi": "https://doi.org/10.3115/v1/w14-2106",
+        "year": 2014,
+        "abstract": "Argument mining of online interactions is in its infancy. One reason is the lack of annotated corpora in this genre. To make progress, we need to develop a principled and scalable way of determining which portions of texts are argumentative and what is the nature of argumentation. We propose a two-tiered approach to achieve this goal and report on several initial stud-ies to assess its potential. 1",
+        "authors": [
+          "Debanjan Ghosh",
+          "Smaranda Muresan",
+          "Nina Wacholder",
+          "Mark A. Aakhus",
+          "Matthew Ryan Mitsui"
+        ],
+        "venue": "Workshop on Argument Mining (ArgMining)",
+        "citations": 116,
+        "open_access": true,
+        "url": "https://doi.org/10.3115/v1/w14-2106",
+        "pdf_url": null,
+        "references": [
+          "https://openalex.org/W31450623",
+          "https://openalex.org/W81017671",
+          "https://openalex.org/W170711724",
+          "https://openalex.org/W1480376833",
+          "https://openalex.org/W1518903672",
+          "https://openalex.org/W1563284214",
+          "https://openalex.org/W1583650837",
+          "https://openalex.org/W1637480429",
+          "https://openalex.org/W1665806167",
+          "https://openalex.org/W1968776705",
+          "https://openalex.org/W1970381522",
+          "https://openalex.org/W1975879668",
+          "https://openalex.org/W1989250335",
+          "https://openalex.org/W2006585958",
+          "https://openalex.org/W2014902591",
+          "https://openalex.org/W2015865485",
+          "https://openalex.org/W2034059165",
+          "https://openalex.org/W2041139729",
+          "https://openalex.org/W2048392812",
+          "https://openalex.org/W2056818712",
+          "https://openalex.org/W2066288042",
+          "https://openalex.org/W2094909776",
+          "https://openalex.org/W2097794246",
+          "https://openalex.org/W2098420572",
+          "https://openalex.org/W2102800123",
+          "https://openalex.org/W2106939668",
+          "https://openalex.org/W2114747585",
+          "https://openalex.org/W2119707623",
+          "https://openalex.org/W2120587524",
+          "https://openalex.org/W2133354966",
+          "https://openalex.org/W2133990480",
+          "https://openalex.org/W2140859216",
+          "https://openalex.org/W2141766660",
+          "https://openalex.org/W2155733293",
+          "https://openalex.org/W2159396192",
+          "https://openalex.org/W2160660844",
+          "https://openalex.org/W2164290393",
+          "https://openalex.org/W2164777277",
+          "https://openalex.org/W2250761118",
+          "https://openalex.org/W2251588411"
+        ],
+        "retracted": false,
+        "provenance": [
+          "coverage repair: In the area of argument mining, could you point to literature that uses of dependency parsers to determine the argumentativeness of texts in dialogue systems?"
+        ],
+        "criteria": [
+          {
+            "criterion_id": "c1",
+            "status": "uncertain",
+            "quote": "",
+            "quote_verified": false,
+            "reason": "Insufficient source evidence; full-paper verification may be needed."
+          }
+        ],
+        "rrf": 0.015873015873015872,
+        "aliases": [
+          "https://openalex.org/W2251521080"
+        ],
+        "neural_score": 1.22678,
+        "score": 0.6676
+      },
+      {
+        "id": "https://openalex.org/W2739188487",
+        "title": "Knowledge-driven argument mining based on the qualia structure",
+        "doi": "https://doi.org/10.3233/aac-170124",
+        "year": 2017,
+        "abstract": "Given a controversial issue, argument mining from texts in natural language is extremely challenging: besides linguistic aspects, domain knowledge is often required together with appropriate forms of inferences to identify arguments. Via the analysis of various corpora, this contribution explores the types of knowledge that are required to develop an efficient argument mining system. We show that the Qualia structure of the Generative Lexicon with some extensions and a specific interpretation has some expressive capabilities which are appropriate for this task.",
+        "authors": [
+          "Patrick Saint‐Dizier"
+        ],
+        "venue": "Argument & Computation",
+        "citations": 9,
+        "open_access": true,
+        "url": "https://doi.org/10.3233/aac-170124",
+        "pdf_url": "https://content.iospress.com:443/download/argument-and-computation/aac024?id=argument-and-computation%2Faac024",
+        "references": [
+          "https://openalex.org/W1983326083",
+          "https://openalex.org/W2025401082",
+          "https://openalex.org/W2054022311",
+          "https://openalex.org/W2066288042",
+          "https://openalex.org/W2083271104",
+          "https://openalex.org/W2119707623",
+          "https://openalex.org/W2144232471",
+          "https://openalex.org/W2186913644",
+          "https://openalex.org/W2233807257",
+          "https://openalex.org/W2250427093",
+          "https://openalex.org/W2251478708",
+          "https://openalex.org/W2251520281",
+          "https://openalex.org/W2466618881",
+          "https://openalex.org/W7160302604"
+        ],
+        "retracted": false,
+        "provenance": [
+          "semantic: In the area of argument mining, could you point to literature that uses of dependency parsers to determine the argumentativeness of texts in dialogue systems?",
+          "coverage repair: In the area of argument mining, could you point to literature that uses of dependency parsers to determine the argumentativeness of texts in dialogue systems?"
+        ],
+        "criteria": [
+          {
+            "criterion_id": "c1",
+            "status": "uncertain",
+            "quote": "",
+            "quote_verified": false,
+            "reason": "Insufficient source evidence; full-paper verification may be needed."
+          }
+        ],
+        "rrf": 0.02428613482484545,
+        "aliases": [
+          "https://openalex.org/W2739188487"
+        ],
+        "neural_score": 0.6864,
+        "score": 0.6071
+      },
+      {
+        "id": "https://openalex.org/W4393068026",
+        "title": "Cross-genre argument mining: Can language models automatically fill in missing discourse markers?",
+        "doi": "https://doi.org/10.3233/aac-230008",
+        "year": 2024,
+        "abstract": "Available corpora for Argument Mining differ along several axes, and one of the key differences is the presence (or absence) of discourse markers to signal argumentative content. Exploring effective ways to use discourse markers has received wide attention in various discourse parsing tasks, from which it is well-known that discourse markers are strong indicators of discourse relations. To improve the robustness of Argument Mining systems across different genres, we propose to automatically augment a given text with discourse markers such that all relations are explicitly signaled. Our analysis unveils that popular language models taken out-of-the-box fail on this task; however, when fine-tuned on a new heterogeneous dataset that we construct (including synthetic and real examples), they perform considerably better. We demonstrate the impact of our approach on an Argument Mining downstream task, evaluated on different corpora, showing that language models can be trained to automatically fill in discourse markers across different corpora, improving the performance of a downstream model in some, but not all, cases. Our proposed approach can further be employed as an assistant tool for better discourse understanding.",
+        "authors": [
+          "Gil Rocha",
+          "Henrique Lopes Cardoso",
+          "Jonas Belouadi",
+          "Steffen Eger"
+        ],
+        "venue": "Argument & Computation",
+        "citations": 12,
+        "open_access": true,
+        "url": "https://doi.org/10.3233/aac-230008",
+        "pdf_url": "https://content.iospress.com:443/download/argument-and-computation/aac230008?id=argument-and-computation%2Faac230008",
+        "references": [
+          "https://openalex.org/W1594134707",
+          "https://openalex.org/W1597655096",
+          "https://openalex.org/W1972586296",
+          "https://openalex.org/W2006585958",
+          "https://openalex.org/W2061365964",
+          "https://openalex.org/W2074231493",
+          "https://openalex.org/W2090599418",
+          "https://openalex.org/W2101234009",
+          "https://openalex.org/W2164777277",
+          "https://openalex.org/W2166957049",
+          "https://openalex.org/W2250309026",
+          "https://openalex.org/W2294607529",
+          "https://openalex.org/W2327805699",
+          "https://openalex.org/W2343649478",
+          "https://openalex.org/W2514355019",
+          "https://openalex.org/W2565756058",
+          "https://openalex.org/W2583305969",
+          "https://openalex.org/W2593234328",
+          "https://openalex.org/W2609776793",
+          "https://openalex.org/W2610536450",
+          "https://openalex.org/W2739419429",
+          "https://openalex.org/W2760057941",
+          "https://openalex.org/W2762652133",
+          "https://openalex.org/W2765867411",
+          "https://openalex.org/W2798122036",
+          "https://openalex.org/W2798524681",
+          "https://openalex.org/W2875291789",
+          "https://openalex.org/W2888984656",
+          "https://openalex.org/W2892265858",
+          "https://openalex.org/W2898770629",
+          "https://openalex.org/W2924120895",
+          "https://openalex.org/W2948275950",
+          "https://openalex.org/W2950375454",
+          "https://openalex.org/W2952352518",
+          "https://openalex.org/W2952495911",
+          "https://openalex.org/W2952750383",
+          "https://openalex.org/W2952867319",
+          "https://openalex.org/W2954476005",
+          "https://openalex.org/W2963341956",
+          "https://openalex.org/W2963766765"
+        ],
+        "retracted": false,
+        "provenance": [
+          "semantic: In the area of argument mining, could you point to literature that uses of dependency parsers to determine the argumentativeness of texts in dialogue systems?",
+          "coverage repair: In the area of argument mining, could you point to literature that uses of dependency parsers to determine the argumentativeness of texts in dialogue systems?"
+        ],
+        "criteria": [
+          {
+            "criterion_id": "c1",
+            "status": "uncertain",
+            "quote": "",
+            "quote_verified": false,
+            "reason": "Insufficient source evidence; full-paper verification may be needed."
+          }
+        ],
+        "rrf": 0.02072594501718213,
+        "aliases": [
+          "https://openalex.org/W4393068026"
+        ],
+        "neural_score": 0.69105,
+        "score": 0.59694
+      },
+      {
+        "id": "https://openalex.org/W2976405147",
+        "title": "Utilizing Argument Mining Techniques for Argumentative Dialogue Systems",
+        "doi": "https://doi.org/10.1007/978-981-13-9443-0_12",
+        "year": 2019,
+        "abstract": "",
+        "authors": [
+          "Niklas Rach",
+          "Saskia Langhammer",
+          "Wolfgang Minker",
+          "Stefan Ultes"
+        ],
+        "venue": "Lecture notes in electrical engineering",
+        "citations": 18,
+        "open_access": false,
+        "url": "https://doi.org/10.1007/978-981-13-9443-0_12",
+        "pdf_url": null,
+        "references": [
+          "https://openalex.org/W91669791",
+          "https://openalex.org/W1590511541",
+          "https://openalex.org/W1607757073",
+          "https://openalex.org/W1982854161",
+          "https://openalex.org/W2100758964",
+          "https://openalex.org/W2132068389",
+          "https://openalex.org/W2150359269",
+          "https://openalex.org/W2161626819",
+          "https://openalex.org/W2250309026",
+          "https://openalex.org/W2251931307",
+          "https://openalex.org/W2327805699",
+          "https://openalex.org/W2404852155",
+          "https://openalex.org/W2573814574",
+          "https://openalex.org/W2586509828",
+          "https://openalex.org/W2786194843",
+          "https://openalex.org/W2805303394",
+          "https://openalex.org/W2807405475",
+          "https://openalex.org/W2920789561",
+          "https://openalex.org/W2949519692"
+        ],
+        "retracted": false,
+        "provenance": [
+          "semantic: In the area of argument mining, could you point to literature that uses of dependency parsers to determine the argumentativeness of texts in dialogue systems?",
+          "coverage repair: In the area of argument mining, could you point to literature that uses of dependency parsers to determine the argumentativeness of texts in dialogue systems?"
+        ],
+        "criteria": [
+          {
+            "criterion_id": "c1",
+            "status": "uncertain",
+            "quote": "",
+            "quote_verified": false,
+            "reason": "Insufficient source evidence; full-paper verification may be needed."
+          }
+        ],
+        "rrf": 0.02919863597612958,
+        "aliases": [
+          "https://openalex.org/W2976405147"
+        ],
+        "neural_score": 0.42057,
+        "score": 0.57303
+      },
+      {
+        "id": "https://openalex.org/W4402671002",
+        "title": "Exploiting Dialogue Acts and Context to Identify Argumentative Relations in Online Debates",
+        "doi": "https://doi.org/10.18653/v1/2024.argmining-1.4",
+        "year": 2024,
+        "abstract": "Argumentative Relation Classification is the task of determining the relationship between two contributions in the context of an argumentative dialogue. Existing models in the literature rely on a combination of lexical features and pre-trained language models to tackle this task; while this approach is somewhat effective, it fails to take into account the importance of pragmatic features such as the illocutionary force of the argument or the structure of previous utterances in the discussion; relying solely on lexical features also produces models that over-fit their initial training set and do not scale to unseen domains. In this work, we introduce ArguNet, a new model for Argumentative Relation Classification which relies on a combination of Dialogue Acts and Dialogue Context to improve the representation of argument structures in opinionated dialogues. We show that our model achieves state-of-the-art results on the Kialo benchmark test set, and provide evidence of its robustness in an open-domain scenario.",
+        "authors": [
+          "Stefano Mezza",
+          "Wayne Wobcke",
+          "Alan Blair"
+        ],
+        "venue": "Workshop on Argument Mining (ArgMining)",
+        "citations": 3,
+        "open_access": true,
+        "url": "https://doi.org/10.18653/v1/2024.argmining-1.4",
+        "pdf_url": "https://aclanthology.org/2024.argmining-1.4.pdf",
+        "references": [
+          "https://openalex.org/W1606218761",
+          "https://openalex.org/W1733704070",
+          "https://openalex.org/W1978445298",
+          "https://openalex.org/W2001338113",
+          "https://openalex.org/W2006559750",
+          "https://openalex.org/W2104126268",
+          "https://openalex.org/W2112178080",
+          "https://openalex.org/W2143314283",
+          "https://openalex.org/W2217783255",
+          "https://openalex.org/W2250309026",
+          "https://openalex.org/W2557475746",
+          "https://openalex.org/W2573814574",
+          "https://openalex.org/W2577656483",
+          "https://openalex.org/W2605083602",
+          "https://openalex.org/W2759690420",
+          "https://openalex.org/W2896457183",
+          "https://openalex.org/W2951679800",
+          "https://openalex.org/W2965373594",
+          "https://openalex.org/W2970641574",
+          "https://openalex.org/W3083814290",
+          "https://openalex.org/W3090450025",
+          "https://openalex.org/W3091575925",
+          "https://openalex.org/W3108757211",
+          "https://openalex.org/W3172939667",
+          "https://openalex.org/W4220938970",
+          "https://openalex.org/W4248924863",
+          "https://openalex.org/W4380302101",
+          "https://openalex.org/W7160302604"
+        ],
+        "retracted": false,
+        "provenance": [
+          "semantic: In the area of argument mining, could you point to literature that uses of dependency parsers to determine the argumentativeness of texts in dialogue systems?",
+          "coverage repair: In the area of argument mining, could you point to literature that uses of dependency parsers to determine the argumentativeness of texts in dialogue systems?"
+        ],
+        "criteria": [
+          {
+            "criterion_id": "c1",
+            "status": "uncertain",
+            "quote": "",
+            "quote_verified": false,
+            "reason": "Insufficient source evidence; full-paper verification may be needed."
+          }
+        ],
+        "rrf": 0.021637426900584796,
+        "aliases": [
+          "https://openalex.org/W4402671002"
+        ],
+        "neural_score": 0.07063,
+        "score": 0.48091
+      },
+      {
+        "id": "https://openalex.org/W2759690420",
+        "title": "Identifying attack and support argumentative relations using deep learning",
+        "doi": "https://doi.org/10.18653/v1/d17-1144",
+        "year": 2017,
+        "abstract": "We propose a deep learning architecture to capture argumentative relations of attack and support from one piece of text to another, of the kind that naturally occur in a debate. The architecture uses two (unidirectional or bidirectional) Long Short-Term Memory networks and (trained or non-trained) word embeddings, and allows to considerably improve upon existing techniques that use syntactic features and supervised classifiers for the same form of (relation-based) argument mining.",
+        "authors": [
+          "Oana Cocarascu",
+          "Francesca Toni"
+        ],
+        "venue": "Conference on Empirical Methods in Natural Language Processing (EMNLP)",
+        "citations": 84,
+        "open_access": true,
+        "url": "https://doi.org/10.18653/v1/d17-1144",
+        "pdf_url": "https://www.aclweb.org/anthology/D17-1144.pdf",
+        "references": [
+          "https://openalex.org/W179875071",
+          "https://openalex.org/W1522301498",
+          "https://openalex.org/W1606218761",
+          "https://openalex.org/W1840435438",
+          "https://openalex.org/W2028473264",
+          "https://openalex.org/W2064675550",
+          "https://openalex.org/W2107878631",
+          "https://openalex.org/W2110485445",
+          "https://openalex.org/W2118463056",
+          "https://openalex.org/W2131774270",
+          "https://openalex.org/W2131861279",
+          "https://openalex.org/W2211192759",
+          "https://openalex.org/W2250539671",
+          "https://openalex.org/W2251048393",
+          "https://openalex.org/W2264105282",
+          "https://openalex.org/W2327805699",
+          "https://openalex.org/W2512040843",
+          "https://openalex.org/W2562522356",
+          "https://openalex.org/W2575495217",
+          "https://openalex.org/W2589020727",
+          "https://openalex.org/W2963731165",
+          "https://openalex.org/W4384482314"
+        ],
+        "retracted": false,
+        "provenance": [
+          "semantic: In the area of argument mining, could you point to literature that uses of dependency parsers to determine the argumentativeness of texts in dialogue systems?",
+          "coverage repair: In the area of argument mining, could you point to literature that uses of dependency parsers to determine the argumentativeness of texts in dialogue systems?"
+        ],
+        "criteria": [
+          {
+            "criterion_id": "c1",
+            "status": "uncertain",
+            "quote": "",
+            "quote_verified": false,
+            "reason": "Insufficient source evidence; full-paper verification may be needed."
+          }
+        ],
+        "rrf": 0.031009615384615385,
+        "aliases": [
+          "https://openalex.org/W2759690420"
+        ],
+        "neural_score": -0.07713,
+        "score": 0.48031
+      },
+      {
+        "id": "https://openalex.org/W2045047740",
+        "title": "Linguistic features in data-driven dependency parsing",
+        "doi": "https://doi.org/10.3115/1596324.1596329",
+        "year": 2008,
+        "abstract": "This article investigates the effect of a set of linguistically motivated features on argument disambiguation in data-driven dependency parsing of Swedish. We present results from experiments with gold standard features, such as animacy, definiteness and finiteness, as well as corresponding experiments where these features have been acquired automatically and show significant improvements both in overall parse results and in the analysis of specific argument relations, such as subjects, objects and predicatives.",
+        "authors": [
+          "Lilja Øvrelid"
+        ],
+        "venue": "Conference on Computational Natural Language Learning",
+        "citations": 12,
+        "open_access": true,
+        "url": "https://doi.org/10.3115/1596324.1596329",
+        "pdf_url": "https://dl.acm.org/doi/pdf/10.5555/1596324.1596329",
+        "references": [
+          "https://openalex.org/W1491975949",
+          "https://openalex.org/W1534720369",
+          "https://openalex.org/W1537239006",
+          "https://openalex.org/W1549589497",
+          "https://openalex.org/W2015238682",
+          "https://openalex.org/W2097606805",
+          "https://openalex.org/W2107946249",
+          "https://openalex.org/W2569308312",
+          "https://openalex.org/W7206304505"
+        ],
+        "retracted": false,
+        "provenance": [
+          "semantic: In the area of argument mining, could you point to literature that uses of dependency parsers to determine the argumentativeness of texts in dialogue systems?",
+          "coverage repair: In the area of argument mining, could you point to literature that uses of dependency parsers to determine the argumentativeness of texts in dialogue systems?"
+        ],
+        "criteria": [
+          {
+            "criterion_id": "c1",
+            "status": "uncertain",
+            "quote": "",
+            "quote_verified": false,
+            "reason": "Insufficient source evidence; full-paper verification may be needed."
+          }
+        ],
+        "rrf": 0.026875901875901876,
+        "aliases": [
+          "https://openalex.org/W2045047740"
+        ],
+        "neural_score": -0.20767,
+        "score": 0.44158
+      },
+      {
+        "id": "https://openalex.org/W2979666134",
+        "title": "Argument Mining: A Survey",
+        "doi": "https://doi.org/10.1162/coli_a_00364",
+        "year": 2019,
+        "abstract": "Argument mining is the automatic identification and extraction of the structure of inference and reasoning expressed as arguments presented in natural language. Understanding argumentative structure makes it possible to determine not only what positions people are adopting, but also why they hold the opinions they do, providing valuable insights in domains as diverse as financial market prediction and public relations. This survey explores the techniques that establish the foundations for argument mining, provides a review of recent advances in argument mining techniques, and discusses the challenges faced in automatically extracting a deeper understanding of reasoning expressed in language in general.",
+        "authors": [
+          "John Shelton Lawrence",
+          "Chris Reed"
+        ],
+        "venue": "Computational Linguistics",
+        "citations": 790,
+        "open_access": true,
+        "url": "https://doi.org/10.1162/coli_a_00364",
+        "pdf_url": "https://www.mitpressjournals.org/doi/pdf/10.1162/coli_a_00364",
+        "references": [
+          "https://openalex.org/W13722147",
+          "https://openalex.org/W164525691",
+          "https://openalex.org/W234162141",
+          "https://openalex.org/W329130461",
+          "https://openalex.org/W581684831",
+          "https://openalex.org/W630969330",
+          "https://openalex.org/W655115389",
+          "https://openalex.org/W1480311737",
+          "https://openalex.org/W1486798440",
+          "https://openalex.org/W1524969273",
+          "https://openalex.org/W1539618770",
+          "https://openalex.org/W1566376227",
+          "https://openalex.org/W1566626061",
+          "https://openalex.org/W1568886291",
+          "https://openalex.org/W1591607137",
+          "https://openalex.org/W1776062713",
+          "https://openalex.org/W1924689489",
+          "https://openalex.org/W1972398108",
+          "https://openalex.org/W1977155386",
+          "https://openalex.org/W2001923650",
+          "https://openalex.org/W2011450768",
+          "https://openalex.org/W2014734320",
+          "https://openalex.org/W2015462142",
+          "https://openalex.org/W2016338231",
+          "https://openalex.org/W2017513070",
+          "https://openalex.org/W2017641929",
+          "https://openalex.org/W2022204871",
+          "https://openalex.org/W2024514264",
+          "https://openalex.org/W2025401082",
+          "https://openalex.org/W2026789015",
+          "https://openalex.org/W2028473264",
+          "https://openalex.org/W2041139729",
+          "https://openalex.org/W2059073529",
+          "https://openalex.org/W2066288042",
+          "https://openalex.org/W2066636486",
+          "https://openalex.org/W2088336913",
+          "https://openalex.org/W2093753056",
+          "https://openalex.org/W2094061585",
+          "https://openalex.org/W2103175089",
+          "https://openalex.org/W2109409153"
+        ],
+        "retracted": false,
+        "provenance": [
+          "keyword: area argument mining could you point literature uses dependency parsers determine argumentativeness texts dialogue"
+        ],
+        "criteria": [],
+        "rrf": 0.016129032258064516,
+        "aliases": [
+          "https://openalex.org/W2979666134"
+        ],
+        "neural_score": -0.21894,
+        "score": 0.40618
+      },
+      {
+        "id": "https://openalex.org/W4409144529",
+        "title": "A Review Article for Argumentation Mining of Text through Machine Learning Techniques and Strategies",
+        "doi": "https://doi.org/10.52783/jisem.v10i26s.4237",
+        "year": 2025,
+        "abstract": "Argumentation Mining (AM), a specialized branch of Natural Language Processing (NLP), which extract arguments from text and mapping out their relationships. While machine learning has been extensively explored for AM sub tasks, there's still a gap in structuring these methods to spot common patterns across different applications. This study, based on a review of 64 research papers, breaks down how AM is applied across various domains ranging from user-generated texts, English texts, speech to debates, legal documents, and scientific or medical texts. Among these, text takes the lead as the most researched area. Particularly Support Vector Machines (SVM), Bidirectional Encoder Representations from Transformers (BERT) and Bidirectional Long Short-Term Memory (BiLSTM), Convolutional Neural Network (CNN) are some machine learning models that dominates the field. The effectiveness of these models varies depending upon the type of text, excelling in user-generated text where as others perform better with scientific or medical data. The study highlights the need to further explore less-researched areas especially machine learning applications in legal, medical scientific and English texts and critically examine how Large language model and deep learning stacks up against traditional methods. By mapping these insights, the goal is to help researchers pick the right approach for specific AM tasks, ultimately pushing the field forward.",
+        "authors": [
+          "Rudrendra Bahadur Singh"
+        ],
+        "venue": "Journal of Information Systems Engineering & Management",
+        "citations": 1,
+        "open_access": true,
+        "url": "https://doi.org/10.52783/jisem.v10i26s.4237",
+        "pdf_url": "https://jisem-journal.com/index.php/journal/article/download/4237/1874",
+        "references": [
+          "https://openalex.org/W2250237086",
+          "https://openalex.org/W2250427093",
+          "https://openalex.org/W2250730878",
+          "https://openalex.org/W2251060708",
+          "https://openalex.org/W2252095873",
+          "https://openalex.org/W2266769560",
+          "https://openalex.org/W2343649478",
+          "https://openalex.org/W2398315902",
+          "https://openalex.org/W2508114268",
+          "https://openalex.org/W2516171518",
+          "https://openalex.org/W2520457279",
+          "https://openalex.org/W2573820926",
+          "https://openalex.org/W2609776793",
+          "https://openalex.org/W2739419429",
+          "https://openalex.org/W2757513300",
+          "https://openalex.org/W2757906279",
+          "https://openalex.org/W2760347205",
+          "https://openalex.org/W2788370157",
+          "https://openalex.org/W2798122036",
+          "https://openalex.org/W2875291789",
+          "https://openalex.org/W2890071848",
+          "https://openalex.org/W2890737193",
+          "https://openalex.org/W2895908878",
+          "https://openalex.org/W2912804155",
+          "https://openalex.org/W2945852495",
+          "https://openalex.org/W2963341956",
+          "https://openalex.org/W2970648896",
+          "https://openalex.org/W2970771982",
+          "https://openalex.org/W2993324421",
+          "https://openalex.org/W3029657322",
+          "https://openalex.org/W3092684253",
+          "https://openalex.org/W3094203466",
+          "https://openalex.org/W3116518933",
+          "https://openalex.org/W3132114950",
+          "https://openalex.org/W3157590981",
+          "https://openalex.org/W3214679437",
+          "https://openalex.org/W3214695381",
+          "https://openalex.org/W3216056800",
+          "https://openalex.org/W3217119495",
+          "https://openalex.org/W4282586470"
+        ],
+        "retracted": false,
+        "provenance": [
+          "keyword: area argument mining could you point literature uses dependency parsers determine argumentativeness texts dialogue"
+        ],
+        "criteria": [],
+        "rrf": 0.0136986301369863,
+        "aliases": [
+          "https://openalex.org/W4409144529"
+        ],
+        "neural_score": -0.25249,
+        "score": 0.39206
+      },
+      {
+        "id": "https://openalex.org/W2609776793",
+        "title": "Neural End-to-End Learning for Computational Argumentation Mining",
+        "doi": "https://doi.org/10.18653/v1/p17-1002",
+        "year": 2017,
+        "abstract": "We investigate neural techniques for end-to-end computational argumentation mining (AM). We frame AM both as a token-based dependency parsing and as a token-based sequence tagging problem, including a multi-task learning setup. Contrary to models that operate on the argument component level, we find that framing AM as dependency parsing leads to subpar performance results. In contrast, less complex (local) tagging models based on BiLSTMs perform robustly across classification scenarios, being able to catch long-range dependencies inherent to the AM problem. Moreover, we find that jointly learning ‘natural’ subtasks, in a multi-task learning setup, improves performance.",
+        "authors": [
+          "Steffen Eger",
+          "Johannes Daxenberger",
+          "Iryna Gurevych"
+        ],
+        "venue": "Proceedings of the conference - Association for Computational Linguistics. Meeting",
+        "citations": 275,
+        "open_access": true,
+        "url": "https://doi.org/10.18653/v1/p17-1002",
+        "pdf_url": "https://www.aclweb.org/anthology/P17-1002.pdf",
+        "references": [
+          "https://openalex.org/W81017671",
+          "https://openalex.org/W648786980",
+          "https://openalex.org/W1541975828",
+          "https://openalex.org/W1940872118",
+          "https://openalex.org/W1977155386",
+          "https://openalex.org/W2018896856",
+          "https://openalex.org/W2064675550",
+          "https://openalex.org/W2076139272",
+          "https://openalex.org/W2097700060",
+          "https://openalex.org/W2115834228",
+          "https://openalex.org/W2117130368",
+          "https://openalex.org/W2122922578",
+          "https://openalex.org/W2134036914",
+          "https://openalex.org/W2144232471",
+          "https://openalex.org/W2170505850",
+          "https://openalex.org/W2236647290",
+          "https://openalex.org/W2250178193",
+          "https://openalex.org/W2250471514",
+          "https://openalex.org/W2250539671",
+          "https://openalex.org/W2250653239",
+          "https://openalex.org/W2250762536",
+          "https://openalex.org/W2250861254",
+          "https://openalex.org/W2251314334",
+          "https://openalex.org/W2251520281",
+          "https://openalex.org/W2251625298",
+          "https://openalex.org/W2251647857",
+          "https://openalex.org/W2251661596",
+          "https://openalex.org/W2296194829",
+          "https://openalex.org/W2301095666",
+          "https://openalex.org/W2308486447",
+          "https://openalex.org/W2343649478",
+          "https://openalex.org/W2398315902",
+          "https://openalex.org/W2466573295",
+          "https://openalex.org/W2467601934",
+          "https://openalex.org/W2471324264",
+          "https://openalex.org/W2507756961",
+          "https://openalex.org/W2516255829",
+          "https://openalex.org/W2574905972",
+          "https://openalex.org/W2590925815",
+          "https://openalex.org/W2913340405"
+        ],
+        "retracted": false,
+        "provenance": [
+          "coverage repair: In the area of argument mining, could you point to literature that uses of dependency parsers to determine the argumentativeness of texts in dialogue systems?"
+        ],
+        "criteria": [],
+        "rrf": 0.016129032258064516,
+        "aliases": [
+          "https://openalex.org/W2609776793"
+        ],
+        "neural_score": -0.38604,
+        "score": 0.37353
+      },
+      {
+        "id": "https://openalex.org/W2887508361",
+        "title": "Dependency Parsing and Dialogue Systems : an investigation of dependency parsing for commercial application",
+        "doi": null,
+        "year": 2017,
+        "abstract": "In this thesis, we investigate dependency parsing for commercial application, namely for future integration in a dialogue system. To do this, we conduct several experiments on dialogue data to assess parser performance on this domain, and to improve this performance over a baseline. This work makes the following contributions: first, the creation and manual annotation of a gold-standard data set for dialogue data; second, a thorough error analysis of the data set, comparing neural network parsing to traditional parsing methods on this domain; and finally, various domain adaptation experiments show how parsing on this data set can be improved over a baseline. We further show that dialogue data is characterized by questions in particular, and suggest a method for improving overall parsing on these constructions.",
+        "authors": [
+          "Allison Adams"
+        ],
+        "venue": "Uppsala University Publications (Uppsala University)",
+        "citations": 2,
+        "open_access": true,
+        "url": "http://urn.kb.se/resolve?urn=urn:nbn:se:uu:diva-324859",
+        "pdf_url": null,
+        "references": [
+          "https://openalex.org/W331019419",
+          "https://openalex.org/W655994999",
+          "https://openalex.org/W1491975949",
+          "https://openalex.org/W1568793342",
+          "https://openalex.org/W1591659308",
+          "https://openalex.org/W1605386991",
+          "https://openalex.org/W1859633635",
+          "https://openalex.org/W1962622193",
+          "https://openalex.org/W1966786910",
+          "https://openalex.org/W2027979924",
+          "https://openalex.org/W2039240651",
+          "https://openalex.org/W2106310992",
+          "https://openalex.org/W2111780752",
+          "https://openalex.org/W2118585731",
+          "https://openalex.org/W2124772738",
+          "https://openalex.org/W2139907445",
+          "https://openalex.org/W2143017787",
+          "https://openalex.org/W2143541936",
+          "https://openalex.org/W2143995218",
+          "https://openalex.org/W2144910574",
+          "https://openalex.org/W2145837098",
+          "https://openalex.org/W2152691628",
+          "https://openalex.org/W2153635508",
+          "https://openalex.org/W2157889740",
+          "https://openalex.org/W2163568299",
+          "https://openalex.org/W2250861254",
+          "https://openalex.org/W2251452524",
+          "https://openalex.org/W2252050256",
+          "https://openalex.org/W2252147815",
+          "https://openalex.org/W2311132329",
+          "https://openalex.org/W2355807148",
+          "https://openalex.org/W2551571666",
+          "https://openalex.org/W2561981731",
+          "https://openalex.org/W2569308312",
+          "https://openalex.org/W2579343286",
+          "https://openalex.org/W2585064955",
+          "https://openalex.org/W4210956481",
+          "https://openalex.org/W4229781645"
+        ],
+        "retracted": false,
+        "provenance": [
+          "semantic: In the area of argument mining, could you point to literature that uses of dependency parsers to determine the argumentativeness of texts in dialogue systems?",
+          "coverage repair: In the area of argument mining, could you point to literature that uses of dependency parsers to determine the argumentativeness of texts in dialogue systems?"
+        ],
+        "criteria": [],
+        "rrf": 0.02260536398467433,
+        "aliases": [
+          "https://openalex.org/W2887508361"
+        ],
+        "neural_score": -0.64447,
+        "score": 0.34517
+      },
+      {
+        "id": "https://openalex.org/W2413591312",
+        "title": "Automatically identifying transitions between locutions in dialogue",
+        "doi": null,
+        "year": 2015,
+        "abstract": "The contribution of this paper is theoretical foundations for dialogical argument mining, as well as initial implementation in software for dialogue processing. Automatically identifying the structure of reasoning from natural language is extremely demanding. Our hypothesis is that the structure of dialogue can yield additional clues as to argument structures that are created and cocreated. Our work has been performed using the MM2012 corpus in OVA+.",
+        "authors": [
+          "Katarzyna Budzyńska",
+          "Mathilde Janier",
+          "Juyeon Kang",
+          "Barbara Konat",
+          "Chris Reed",
+          "Patrick Saint‐Dizier",
+          "Manfred Stede",
+          "Olena Yaskorska"
+        ],
+        "venue": "HAL",
+        "citations": 7,
+        "open_access": true,
+        "url": "https://hal.science/hal-01327096",
+        "pdf_url": "https://hal.science/hal-01327096/document",
+        "references": [
+          "https://openalex.org/W74449185",
+          "https://openalex.org/W1733704070",
+          "https://openalex.org/W2045738181",
+          "https://openalex.org/W2119707623",
+          "https://openalex.org/W2128970689",
+          "https://openalex.org/W2144232471",
+          "https://openalex.org/W2165887782",
+          "https://openalex.org/W2250427093",
+          "https://openalex.org/W2251478708",
+          "https://openalex.org/W2251520281",
+          "https://openalex.org/W2252038466",
+          "https://openalex.org/W2398831847",
+          "https://openalex.org/W2400132956",
+          "https://openalex.org/W2908006212",
+          "https://openalex.org/W4235073904",
+          "https://openalex.org/W7135682899",
+          "https://openalex.org/W7160302604"
+        ],
+        "retracted": false,
+        "provenance": [
+          "semantic: In the area of argument mining, could you point to literature that uses of dependency parsers to determine the argumentativeness of texts in dialogue systems?",
+          "coverage repair: In the area of argument mining, could you point to literature that uses of dependency parsers to determine the argumentativeness of texts in dialogue systems?"
+        ],
+        "criteria": [],
+        "rrf": 0.024250440917107582,
+        "aliases": [
+          "https://openalex.org/W2413591312"
+        ],
+        "neural_score": -0.67553,
+        "score": 0.34467
+      },
+      {
+        "id": "https://openalex.org/W2948275950",
+        "title": "Dissecting Content and Context in Argumentative Relation Analysis",
+        "doi": "https://doi.org/10.18653/v1/w19-4503",
+        "year": 2019,
+        "abstract": "When assessing relations between argumentative units (e.g., support or attack), computational systems often exploit disclosing indicators or markers that are not part of elementary argumentative units (EAUs) themselves, but are gained from their context (position in paragraph, preceding tokens, etc.). We show that this dependency is much stronger than previously assumed. In fact, we show that by completely masking the EAU text spans and only feeding information from their context, a competitive system may function even better. We argue that an argument analysis system that relies more on discourse context than the argument’s content is unsafe, since it can easily be tricked. To alleviate this issue, we separate argumentative units from their context such that the system is forced to model and rely on an EAU’s content. We show that the resulting classification system is more robust, and argue that such models are better suited for predicting argumentative relations across documents.",
+        "authors": [
+          "Juri Opitz",
+          "Anette Frank"
+        ],
+        "venue": "Workshop on Argument Mining (ArgMining)",
+        "citations": 47,
+        "open_access": true,
+        "url": "https://doi.org/10.18653/v1/w19-4503",
+        "pdf_url": "https://www.aclweb.org/anthology/W19-4503.pdf",
+        "references": [
+          "https://openalex.org/W19426809",
+          "https://openalex.org/W1563792215",
+          "https://openalex.org/W1594134707",
+          "https://openalex.org/W1977970897",
+          "https://openalex.org/W2066288042",
+          "https://openalex.org/W2083036001",
+          "https://openalex.org/W2123442489",
+          "https://openalex.org/W2140721185",
+          "https://openalex.org/W2153579005",
+          "https://openalex.org/W2250309026",
+          "https://openalex.org/W2250539671",
+          "https://openalex.org/W2251647857",
+          "https://openalex.org/W2251661596",
+          "https://openalex.org/W2251931307",
+          "https://openalex.org/W2251939518",
+          "https://openalex.org/W2327805699",
+          "https://openalex.org/W2343649478",
+          "https://openalex.org/W2471324264",
+          "https://openalex.org/W2513522653",
+          "https://openalex.org/W2757268605",
+          "https://openalex.org/W2757513300",
+          "https://openalex.org/W2759690420",
+          "https://openalex.org/W2811473602",
+          "https://openalex.org/W2878573333",
+          "https://openalex.org/W2890924154",
+          "https://openalex.org/W2912804155"
+        ],
+        "retracted": false,
+        "provenance": [
+          "semantic: In the area of argument mining, could you point to literature that uses of dependency parsers to determine the argumentativeness of texts in dialogue systems?",
+          "coverage repair: In the area of argument mining, could you point to literature that uses of dependency parsers to determine the argumentativeness of texts in dialogue systems?"
+        ],
+        "criteria": [],
+        "rrf": 0.029631255487269532,
+        "aliases": [
+          "https://openalex.org/W2948275950"
+        ],
+        "neural_score": -0.85911,
+        "score": 0.32949
+      },
+      {
+        "id": "https://openalex.org/W1833336847",
+        "title": "An implementation of the argument dependency model",
+        "doi": null,
+        "year": 2008,
+        "abstract": "Human sentence processing proceeds in a left-to-right incremental manner and is able to assign partial structural interpretations even if all the lexical items involved are not yet known. To mimic such a behaviour in a computational system is particularly difficult for head final languages where the rich information about the valency of the verb comes last. In such cases the Argument Dependency Model facilitates early hypotheses about the thematic status of a constituent by establishing direct argument-to-argument depen-dencies independent of the verb. An implementation of the model within the framework of Weighted Constraint Dependency Grammar is presented and evalated in a pseudo-incremental processing mode. Thanks to its non-monotonic nature the system can repli-cate the predictions of the Argument Dependency Model about the dynamic nature of revision processes during sentence comprehension with a very high degree of reliability. Menschliche Sprachverarbeitung erfolgt inkrementell von links nach rechts und ist in der Lage, partielle Strukturhypothesen aufzustellen, auch wenn die beteiligten lexikali-schen Elemente erst teilweise bekannt sind. Die maschinelle Nachbildung eines solchen Verhaltens ist besonders problematisch für kopffinale Sprachen, in denen die reichhaltige Valenzinformation des Verbs erst sehr spät verfügbar ist. In solchen Fällen gestattet das Argument Dependency Model frühzeitige Hypothesen über die thematischen Rollen einer Konstituente, indem es unabhängig vom Verb, direkte Abhängigkeitsbeziehungen zwischen seinen Argumenten aufbaut. Der Bericht stellt eine Implementation des Modells",
+        "authors": [
+          "Wolfgang Menzel",
+          "Klaus Dalinghaus"
+        ],
+        "venue": null,
+        "citations": 0,
+        "open_access": false,
+        "url": "http://nats-www.informatik.uni-hamburg.de/~menzel/papers/FBI-284.pdf",
+        "pdf_url": null,
+        "references": [
+          "https://openalex.org/W117784671",
+          "https://openalex.org/W1460548084",
+          "https://openalex.org/W1982972718",
+          "https://openalex.org/W2015238682",
+          "https://openalex.org/W2042919050",
+          "https://openalex.org/W2067551521",
+          "https://openalex.org/W2110549541",
+          "https://openalex.org/W2153705299",
+          "https://openalex.org/W3038048544",
+          "https://openalex.org/W4211157350"
+        ],
+        "retracted": false,
+        "provenance": [
+          "semantic: In the area of argument mining, could you point to literature that uses of dependency parsers to determine the argumentativeness of texts in dialogue systems?",
+          "coverage repair: In the area of argument mining, could you point to literature that uses of dependency parsers to determine the argumentativeness of texts in dialogue systems?"
+        ],
+        "criteria": [],
+        "rrf": 0.021874252928520202,
+        "aliases": [
+          "https://openalex.org/W1833336847"
+        ],
+        "neural_score": -0.9247,
+        "score": 0.29472
+      },
+      {
+        "id": "https://openalex.org/W2471324264",
+        "title": "End-to-End Argumentation Mining in Student Essays",
+        "doi": "https://doi.org/10.18653/v1/n16-1164",
+        "year": 2016,
+        "abstract": "Understanding the argumentative structure of a persuasive essay involves addressing two challenging tasks: identifying the components of the essay's argument and identifying the relations that occur between them.We examine the under-investigated task of end-toend argument mining in persuasive student essays, where we (1) present the first results on end-to-end argument mining in student essays using a pipeline approach; (2) address error propagation inherent in the pipeline approach by performing joint inference over the outputs of the tasks in an Integer Linear Programming (ILP) framework; and (3) propose a novel objective function that enables F-score to be maximized directly by an ILP solver.We evaluate our joint-inference approach with our novel objective function on a publiclyavailable corpus of 90 essays, where it yields an 18.5% relative error reduction in F-score over the pipeline system.",
+        "authors": [
+          "Isaac Persing",
+          "Vincent Ng"
+        ],
+        "venue": "Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (NAACL-HLT)",
+        "citations": 184,
+        "open_access": true,
+        "url": "https://doi.org/10.18653/v1/n16-1164",
+        "pdf_url": null,
+        "references": [
+          "https://openalex.org/W72519616",
+          "https://openalex.org/W205532704",
+          "https://openalex.org/W1566346388",
+          "https://openalex.org/W1960027552",
+          "https://openalex.org/W1977155386",
+          "https://openalex.org/W2018896856",
+          "https://openalex.org/W2049633694",
+          "https://openalex.org/W2098420572",
+          "https://openalex.org/W2099120987",
+          "https://openalex.org/W2109334098",
+          "https://openalex.org/W2115834228",
+          "https://openalex.org/W2121197596",
+          "https://openalex.org/W2123442489",
+          "https://openalex.org/W2144232471",
+          "https://openalex.org/W2155823788",
+          "https://openalex.org/W2250287365",
+          "https://openalex.org/W2250309026",
+          "https://openalex.org/W2250427093",
+          "https://openalex.org/W2250762536",
+          "https://openalex.org/W2251060708",
+          "https://openalex.org/W2251314334",
+          "https://openalex.org/W2251647857",
+          "https://openalex.org/W2251661596",
+          "https://openalex.org/W2251931307",
+          "https://openalex.org/W2266769560",
+          "https://openalex.org/W2398315902",
+          "https://openalex.org/W2520457279"
+        ],
+        "retracted": false,
+        "provenance": [
+          "citation neighbors of top-ranked papers"
+        ],
+        "criteria": [],
+        "rrf": 0.014705882352941176,
+        "aliases": [
+          "https://openalex.org/W2471324264"
+        ],
+        "neural_score": -0.89907,
+        "score": 0.27679
+      },
+      {
+        "id": "https://openalex.org/W7135002611",
+        "title": "Graphical Summarisation of Argumentative Text",
+        "doi": null,
+        "year": 2026,
+        "abstract": "This work investigates the summarisation of argumentative text. Our main focus is on the generation of graphical summaries from dialogical argumentative texts such as online news comment sections. We develop a novel type of graph structure to summarise argument, which we refer to as Argument Summary Graphs or ASGs. Our contributions are twofold. Firstly, we develop two new data resources to investigate the generation of ASGs, the Debatabase-ASG dataset (created from a curated collection of online debates), and the SENSEI-ASG dataset, developed by adding annotations to the SENSEI dataset of online news article comments. Secondly, we investigate alternative methods for generating ASGs from both datasets using Large Language Models (LLMs). We carry out experiments on the Debatabase-ASG dataset and find that an end-to-end text-to-text method performs better than a pipeline approach. Additionally, we test how well the end-to-end approach generalises across corpora, using both of the corpora we created, and a third argument mining corpus, the Argument Annotated Essays corpus (AAEC). We find that additional fine-tuning on a monological dataset from a distinct Argument Mining task provides similar benefits to fine-tuning on a second in-genre dataset. We also carry out two strands of work not narrowly focused on ASGs. Firstly, we investigate the prediction of Reasoning Markers, used for detection of argumentative text. We create a corpus for this task and implement multiple baselines, with the best achieving an F1 score of 0.69. Secondly, we investigate Argument Structure Parsing: the task of extracting argumentative components and their relations from text. We fine-tune several LLMs which achieve near state-of-the-art scores in the end-to-end setting. We propose a novel method of formatting the output for this task, which we find competitive with the existing state-of-the-art approach in evaluation metrics, while being significantly faster to generate.",
+        "authors": [
+          "Jonathan Clayton"
+        ],
+        "venue": "White Rose eTheses Online (University of Leeds, The University of Sheffield, University of York)",
+        "citations": 2,
+        "open_access": true,
+        "url": "https://etheses.whiterose.ac.uk/id/eprint/38308/",
+        "pdf_url": "https://etheses.whiterose.ac.uk/id/eprint/38308/1/Thesis_Draft%20%282%29.pdf",
+        "references": [
+          "https://openalex.org/W72429322",
+          "https://openalex.org/W164525691",
+          "https://openalex.org/W848725984",
+          "https://openalex.org/W1483817654",
+          "https://openalex.org/W1647671624",
+          "https://openalex.org/W1691501641",
+          "https://openalex.org/W1971218560",
+          "https://openalex.org/W1988615825",
+          "https://openalex.org/W1997210479",
+          "https://openalex.org/W2010541316",
+          "https://openalex.org/W2045738181",
+          "https://openalex.org/W2066288042",
+          "https://openalex.org/W2066350381",
+          "https://openalex.org/W2074231493",
+          "https://openalex.org/W2104126268",
+          "https://openalex.org/W2105847779",
+          "https://openalex.org/W2107756083",
+          "https://openalex.org/W2122922578",
+          "https://openalex.org/W2127795553",
+          "https://openalex.org/W2132022337",
+          "https://openalex.org/W2140440594",
+          "https://openalex.org/W2141599568",
+          "https://openalex.org/W2144232471",
+          "https://openalex.org/W2154652894",
+          "https://openalex.org/W2222512263",
+          "https://openalex.org/W2236647290",
+          "https://openalex.org/W2250237086",
+          "https://openalex.org/W2250265609",
+          "https://openalex.org/W2250309026",
+          "https://openalex.org/W2250397934",
+          "https://openalex.org/W2250539671",
+          "https://openalex.org/W2250861254",
+          "https://openalex.org/W2251661596",
+          "https://openalex.org/W2251663606",
+          "https://openalex.org/W2251931307",
+          "https://openalex.org/W2343649478",
+          "https://openalex.org/W2361971649",
+          "https://openalex.org/W2400132956",
+          "https://openalex.org/W2420245003",
+          "https://openalex.org/W2471324264"
+        ],
+        "retracted": false,
+        "provenance": [
+          "keyword: area argument mining could you point literature uses dependency parsers determine argumentativeness texts dialogue"
+        ],
+        "criteria": [],
+        "rrf": 0.015151515151515152,
+        "aliases": [
+          "https://openalex.org/W7135002611"
+        ],
+        "neural_score": -1.00006,
+        "score": 0.26192
+      },
+      {
+        "id": "https://openalex.org/W2752756221",
+        "title": "Ontological representations of rhetorical figures for argument mining",
+        "doi": "https://doi.org/10.3233/aac-170027",
+        "year": 2017,
+        "abstract": "This paper surveys ontological modeling of rhetorical concepts, developed for use in argument mining and other applications of computational rhetoric, projecting their future directions. We include ontological models of argument schemes applying Rhetorical Structure Theory (RST); the RhetFig proposal for modeling; the related RetFig Ontology of Rhetorical Figures for Serbian (developed by two of the authors); and the Lassoing Rhetoric project (developed by another of the authors). The Lassoing Rhetoric venture is interesting for its multifaceted approach to linguistic devices, prominently including rhetorical figures, but also RST relations and stylistic models, like the use of historic present. This application takes a natural language text input and uses syntactic parsing tools to produce a knowledge base of linguistic entities using references to an OWL ontological framework, locating these devices using Semantic Web Rule Language (SWRL) logic rules. The paper also reports on a similar approach in research into detecting ironic tweets in a Serbian twitter corpus. The rhetorical schemes used for argument mining are also presented, as well as some suggestions for novel argument schemes based on the ontological approach to rhetorical figuration.",
+        "authors": [
+          "Jelena Mitrović",
+          "Cliff O’Reilly",
+          "Miljana Mladenović",
+          "Siegfried Handschuh"
+        ],
+        "venue": "Argument & Computation",
+        "citations": 30,
+        "open_access": true,
+        "url": "https://doi.org/10.3233/aac-170027",
+        "pdf_url": "https://content.iospress.com:443/download/argument-and-computation/aac027?id=argument-and-computation%2Faac027",
+        "references": [
+          "https://openalex.org/W19426809",
+          "https://openalex.org/W206356253",
+          "https://openalex.org/W415779459",
+          "https://openalex.org/W1502710397",
+          "https://openalex.org/W1549401724",
+          "https://openalex.org/W1926220562",
+          "https://openalex.org/W1972639638",
+          "https://openalex.org/W1978078764",
+          "https://openalex.org/W1989099747",
+          "https://openalex.org/W1996908104",
+          "https://openalex.org/W2000289272",
+          "https://openalex.org/W2001829063",
+          "https://openalex.org/W2037508163",
+          "https://openalex.org/W2043970340",
+          "https://openalex.org/W2044734718",
+          "https://openalex.org/W2045738181",
+          "https://openalex.org/W2050797400",
+          "https://openalex.org/W2083036001",
+          "https://openalex.org/W2114739726",
+          "https://openalex.org/W2126780997",
+          "https://openalex.org/W2135690827",
+          "https://openalex.org/W2162682255",
+          "https://openalex.org/W2165044314",
+          "https://openalex.org/W2166106571",
+          "https://openalex.org/W2186170615",
+          "https://openalex.org/W2250397934",
+          "https://openalex.org/W2250489604",
+          "https://openalex.org/W2250667488",
+          "https://openalex.org/W2252061839",
+          "https://openalex.org/W2276363009",
+          "https://openalex.org/W2340535024",
+          "https://openalex.org/W2395678543",
+          "https://openalex.org/W2471616931",
+          "https://openalex.org/W2512771016",
+          "https://openalex.org/W2521901944",
+          "https://openalex.org/W2523023877",
+          "https://openalex.org/W2582721497",
+          "https://openalex.org/W2609447878",
+          "https://openalex.org/W2758225821",
+          "https://openalex.org/W2761184889"
+        ],
+        "retracted": false,
+        "provenance": [
+          "keyword: area argument mining could you point literature uses dependency parsers determine argumentativeness texts dialogue"
+        ],
+        "criteria": [],
+        "rrf": 0.014492753623188406,
+        "aliases": [
+          "https://openalex.org/W2752756221"
+        ],
+        "neural_score": -1.06227,
+        "score": 0.25024
+      },
+      {
+        "id": "https://openalex.org/W2343649478",
+        "title": "Parsing Argumentation Structures in Persuasive Essays",
+        "doi": "https://doi.org/10.1162/coli_a_00295",
+        "year": 2017,
+        "abstract": "In this article, we present a novel approach for parsing argumentation structures. We identify argument components using sequence labeling at the token level and apply a new joint model for detecting argumentation structures. The proposed model globally optimizes argument component types and argumentative relations using Integer Linear Programming. We show that our model significantly outperforms challenging heuristic baselines on two different types of discourse. Moreover, we introduce a novel corpus of persuasive essays annotated with argumentation structures. We show that our annotation scheme and annotation guidelines successfully guide human annotators to substantial agreement.",
+        "authors": [
+          "Christian Stab",
+          "Iryna Gurevych"
+        ],
+        "venue": "Computational Linguistics",
+        "citations": 700,
+        "open_access": true,
+        "url": "https://doi.org/10.1162/coli_a_00295",
+        "pdf_url": "https://www.mitpressjournals.org/doi/pdf/10.1162/COLI_a_00295",
+        "references": [
+          "https://openalex.org/W8550301",
+          "https://openalex.org/W26725840",
+          "https://openalex.org/W81017671",
+          "https://openalex.org/W83689600",
+          "https://openalex.org/W85178704",
+          "https://openalex.org/W96284759",
+          "https://openalex.org/W162419442",
+          "https://openalex.org/W193780173",
+          "https://openalex.org/W329130461",
+          "https://openalex.org/W1486798440",
+          "https://openalex.org/W1533064142",
+          "https://openalex.org/W1560067161",
+          "https://openalex.org/W1563792215",
+          "https://openalex.org/W1593045043",
+          "https://openalex.org/W1637480429",
+          "https://openalex.org/W1733704070",
+          "https://openalex.org/W1872250154",
+          "https://openalex.org/W1874138657",
+          "https://openalex.org/W1975879668",
+          "https://openalex.org/W1977155386",
+          "https://openalex.org/W1982854161",
+          "https://openalex.org/W1996430422",
+          "https://openalex.org/W2006585958",
+          "https://openalex.org/W2008652694",
+          "https://openalex.org/W2017641929",
+          "https://openalex.org/W2019842155",
+          "https://openalex.org/W2022204871",
+          "https://openalex.org/W2034059165",
+          "https://openalex.org/W2041139729",
+          "https://openalex.org/W2044599851",
+          "https://openalex.org/W2066288042",
+          "https://openalex.org/W2084413241",
+          "https://openalex.org/W2092126505",
+          "https://openalex.org/W2092654472",
+          "https://openalex.org/W2097606805",
+          "https://openalex.org/W2106393550",
+          "https://openalex.org/W2109462987",
+          "https://openalex.org/W2119707623",
+          "https://openalex.org/W2125055259",
+          "https://openalex.org/W2131861279"
+        ],
+        "retracted": false,
+        "provenance": [
+          "keyword: area argument mining could you point literature uses dependency parsers determine argumentativeness texts dialogue",
+          "semantic: In the area of argument mining, could you point to literature that uses of dependency parsers to determine the argumentativeness of texts in dialogue systems?",
+          "citation neighbors of top-ranked papers",
+          "coverage repair: In the area of argument mining, could you point to literature that uses of dependency parsers to determine the argumentativeness of texts in dialogue systems?"
+        ],
+        "criteria": [],
+        "rrf": 0.06478893337698204,
+        "aliases": [
+          "https://openalex.org/W2343649478"
+        ],
+        "neural_score": -3.43731,
+        "score": 0.22492
+      },
+      {
+        "id": "https://openalex.org/W3030114819",
+        "title": "Evaluation of Argument Search Approaches in the Context of Argumentative Dialogue Systems",
+        "doi": null,
+        "year": 2020,
+        "abstract": "We present an approach to evaluate argument search techniques in view of their use in argumentative dialogue systems by assessing quality aspects of the retrieved arguments.To this end, we introduce a dialogue system that presents arguments by means of a virtual avatar and synthetic speech to users and allows them to rate the presented content in four different categories (Interesting, Convincing, Comprehensible, Related).The approach is applied in a user study in order to compare two state of the art argument search engines to each other and with a system based on web search.The results show a significant advantage of the two search engines over the baseline.Moreover, the two search engines show significant advantages over each other in different categories, thereby reflecting strengths and weaknesses of the different underlying techniques.",
+        "authors": [
+          "Niklas Rach",
+          "Yuki Matsuda",
+          "Johannes Daxenberger",
+          "Stefan Ultes",
+          "Keiichi Yasumoto",
+          "Wolfgang Minker"
+        ],
+        "venue": "TUbilio (Technical University of Darmstadt)",
+        "citations": 18,
+        "open_access": true,
+        "url": "http://tubiblio.ulb.tu-darmstadt.de/120496/",
+        "pdf_url": "https://www.aclweb.org/anthology/2020.lrec-1.65/",
+        "references": [
+          "https://openalex.org/W69918181",
+          "https://openalex.org/W1501237589",
+          "https://openalex.org/W1590511541",
+          "https://openalex.org/W1947758080",
+          "https://openalex.org/W2061504941",
+          "https://openalex.org/W2062175565",
+          "https://openalex.org/W2080887205",
+          "https://openalex.org/W2102381086",
+          "https://openalex.org/W2110065044",
+          "https://openalex.org/W2151814822",
+          "https://openalex.org/W2250558341",
+          "https://openalex.org/W2327805699",
+          "https://openalex.org/W2394748075",
+          "https://openalex.org/W2518510348",
+          "https://openalex.org/W2562522356",
+          "https://openalex.org/W2573814574",
+          "https://openalex.org/W2739836857",
+          "https://openalex.org/W2740947917",
+          "https://openalex.org/W2741686183",
+          "https://openalex.org/W2755369619",
+          "https://openalex.org/W2758824081",
+          "https://openalex.org/W2792505675",
+          "https://openalex.org/W2806255542",
+          "https://openalex.org/W2807405475",
+          "https://openalex.org/W2855214964",
+          "https://openalex.org/W2887549442",
+          "https://openalex.org/W2890924154",
+          "https://openalex.org/W2895054649",
+          "https://openalex.org/W2898884341",
+          "https://openalex.org/W2931102896",
+          "https://openalex.org/W2943746821",
+          "https://openalex.org/W2949473159",
+          "https://openalex.org/W2951281253",
+          "https://openalex.org/W2952352518",
+          "https://openalex.org/W2952492845",
+          "https://openalex.org/W2954033554",
+          "https://openalex.org/W2963341956",
+          "https://openalex.org/W2963560082",
+          "https://openalex.org/W2970566229",
+          "https://openalex.org/W2971504510"
+        ],
+        "retracted": false,
+        "provenance": [
+          "semantic: In the area of argument mining, could you point to literature that uses of dependency parsers to determine the argumentativeness of texts in dialogue systems?",
+          "coverage repair: In the area of argument mining, could you point to literature that uses of dependency parsers to determine the argumentativeness of texts in dialogue systems?"
+        ],
+        "criteria": [],
+        "rrf": 0.022893772893772896,
+        "aliases": [
+          "https://openalex.org/W3030114819"
+        ],
+        "neural_score": -1.52445,
+        "score": 0.21372
+      },
+      {
+        "id": "https://openalex.org/W2252164999",
+        "title": "Towards segment-based recognition of argumentation structure in short texts",
+        "doi": "https://doi.org/10.3115/v1/w14-2112",
+        "year": 2014,
+        "abstract": "Despite recent advances in discourse parsing and causality detection, the automatic recognition of argumentation structure of authentic texts is still a very challenging task.To approach this problem, we collected a small corpus of German microtexts in a text generation experiment, resulting in texts that are authentic but of controlled linguistic and rhetoric complexity.We show that trained annotators can determine the argumentation structure on these microtexts reliably.We experiment with different machine learning approaches for automatic argumentation structure recognition on various levels of granularity of the scheme.Given the complex nature of such a discourse understanding tasks, the first results presented here are promising, but invite for further investigation.",
+        "authors": [
+          "Andreas Peldszus"
+        ],
+        "venue": "Workshop on Argument Mining (ArgMining)",
+        "citations": 73,
+        "open_access": true,
+        "url": "https://doi.org/10.3115/v1/w14-2112",
+        "pdf_url": "https://aclanthology.org/W14-2112.pdf",
+        "references": [
+          "https://openalex.org/W19426809",
+          "https://openalex.org/W81017671",
+          "https://openalex.org/W107604558",
+          "https://openalex.org/W164525691",
+          "https://openalex.org/W185087501",
+          "https://openalex.org/W581684831",
+          "https://openalex.org/W618607536",
+          "https://openalex.org/W757417731",
+          "https://openalex.org/W1496244604",
+          "https://openalex.org/W1975879668",
+          "https://openalex.org/W2025401082",
+          "https://openalex.org/W2028953697",
+          "https://openalex.org/W2045738181",
+          "https://openalex.org/W2053154970",
+          "https://openalex.org/W2066288042",
+          "https://openalex.org/W2083036001",
+          "https://openalex.org/W2096537696",
+          "https://openalex.org/W2106310992",
+          "https://openalex.org/W2118585731",
+          "https://openalex.org/W2119707623",
+          "https://openalex.org/W2120587524",
+          "https://openalex.org/W2133354966",
+          "https://openalex.org/W2133990480",
+          "https://openalex.org/W2135336649",
+          "https://openalex.org/W2165887782",
+          "https://openalex.org/W2442495973",
+          "https://openalex.org/W2912804155",
+          "https://openalex.org/W4244164260"
+        ],
+        "retracted": false,
+        "provenance": [
+          "semantic: In the area of argument mining, could you point to literature that uses of dependency parsers to determine the argumentativeness of texts in dialogue systems?",
+          "coverage repair: In the area of argument mining, could you point to literature that uses of dependency parsers to determine the argumentativeness of texts in dialogue systems?"
+        ],
+        "criteria": [],
+        "rrf": 0.03149801587301587,
+        "aliases": [
+          "https://openalex.org/W2252164999"
+        ],
+        "neural_score": -2.0953,
+        "score": 0.18488
+      },
+      {
+        "id": "https://openalex.org/W2327805699",
+        "title": "Argumentation Mining: State of the Art and Emerging Trends",
+        "doi": "https://doi.org/10.1145/2850417",
+        "year": 2016,
+        "abstract": "Argumentation mining aims at automatically extracting structured arguments from unstructured textual documents. It has recently become a hot topic also due to its potential in processing information originating from the Web, and in particular from social media, in innovative ways. Recent advances in machine learning methods promise to enable breakthrough applications to social and economic sciences, policy making, and information technology: something that only a few years ago was unthinkable. In this survey article, we introduce argumentation models and methods, review existing systems and applications, and discuss challenges and perspectives of this exciting new research area.",
+        "authors": [
+          "Marco Lippi",
+          "Paolo Torroni"
+        ],
+        "venue": "ACM Transactions on Internet Technology",
+        "citations": 559,
+        "open_access": true,
+        "url": "https://doi.org/10.1145/2850417",
+        "pdf_url": null,
+        "references": [
+          "https://openalex.org/W2235155",
+          "https://openalex.org/W10004740",
+          "https://openalex.org/W32002537",
+          "https://openalex.org/W126920786",
+          "https://openalex.org/W144712322",
+          "https://openalex.org/W164525691",
+          "https://openalex.org/W329130461",
+          "https://openalex.org/W1256013790",
+          "https://openalex.org/W1508585724",
+          "https://openalex.org/W1526259504",
+          "https://openalex.org/W1566626061",
+          "https://openalex.org/W1567834937",
+          "https://openalex.org/W1587871245",
+          "https://openalex.org/W1592081640",
+          "https://openalex.org/W1599188306",
+          "https://openalex.org/W1614298861",
+          "https://openalex.org/W1810223187",
+          "https://openalex.org/W1832693441",
+          "https://openalex.org/W1874138657",
+          "https://openalex.org/W1982854161",
+          "https://openalex.org/W1986398135",
+          "https://openalex.org/W2001800999",
+          "https://openalex.org/W2003497265",
+          "https://openalex.org/W2006585958",
+          "https://openalex.org/W2007968818",
+          "https://openalex.org/W2017093362",
+          "https://openalex.org/W2017102965",
+          "https://openalex.org/W2017641929",
+          "https://openalex.org/W2019842155",
+          "https://openalex.org/W2020278455",
+          "https://openalex.org/W2025401082",
+          "https://openalex.org/W2046435924",
+          "https://openalex.org/W2054476043",
+          "https://openalex.org/W2066288042",
+          "https://openalex.org/W2079770638",
+          "https://openalex.org/W2079883067",
+          "https://openalex.org/W2081989682",
+          "https://openalex.org/W2084009247",
+          "https://openalex.org/W2086004682",
+          "https://openalex.org/W2091759811"
+        ],
+        "retracted": false,
+        "provenance": [
+          "citation neighbors of top-ranked papers"
+        ],
+        "criteria": [],
+        "rrf": 0.015873015873015872,
+        "aliases": [
+          "https://openalex.org/W2327805699"
+        ],
+        "neural_score": -1.6188,
+        "score": 0.1813
+      },
+      {
+        "id": "https://openalex.org/W4240956793",
+        "title": "Dependency Parsing",
+        "doi": "https://doi.org/10.1007/1-4020-4889-0_3",
+        "year": 2006,
+        "abstract": "",
+        "authors": [],
+        "venue": "Text, speech and language technology",
+        "citations": 13,
+        "open_access": false,
+        "url": "https://doi.org/10.1007/1-4020-4889-0_3",
+        "pdf_url": null,
+        "references": [],
+        "retracted": false,
+        "provenance": [
+          "semantic: In the area of argument mining, could you point to literature that uses of dependency parsers to determine the argumentativeness of texts in dialogue systems?",
+          "coverage repair: In the area of argument mining, could you point to literature that uses of dependency parsers to determine the argumentativeness of texts in dialogue systems?"
+        ],
+        "criteria": [],
+        "rrf": 0.025332691999358666,
+        "aliases": [
+          "https://openalex.org/W4240956793"
+        ],
+        "neural_score": -1.94156,
+        "score": 0.17858
+      }
+    ],
+    "usage": {
+      "api_calls": 4,
+      "cache_hits": 0,
+      "llm_calls": 6
+    },
+    "ranker": "cross-encoder + RRF",
+    "gaps": [
+      {
+        "id": "c1",
+        "text": "In the area of argument mining, could you point to literature that uses of dependency parsers to determine the argumentativeness of texts in dialogue systems?"
+      }
+    ],
+    "repaired": true,
+    "warnings": [
+      "Hosted LLM quota is cooling down; evidence judgments are unavailable",
+      "Hosted model returned HTTP 429"
+    ],
+    "citation_edges": [
+      {
+        "source": "https://openalex.org/W4389009430",
+        "target": "https://openalex.org/W2066288042"
+      },
+      {
+        "source": "https://openalex.org/W4389009430",
+        "target": "https://openalex.org/W2327805699"
+      },
+      {
+        "source": "https://openalex.org/W4389009430",
+        "target": "https://openalex.org/W2343649478"
+      },
+      {
+        "source": "https://openalex.org/W4389009430",
+        "target": "https://openalex.org/W2471324264"
+      },
+      {
+        "source": "https://openalex.org/W4389009430",
+        "target": "https://openalex.org/W2609776793"
+      },
+      {
+        "source": "https://openalex.org/W4389009430",
+        "target": "https://openalex.org/W2970717148"
+      },
+      {
+        "source": "https://openalex.org/W4389009430",
+        "target": "https://openalex.org/W2979666134"
+      },
+      {
+        "source": "https://openalex.org/W4389009430",
+        "target": "https://openalex.org/W3154502570"
+      },
+      {
+        "source": "https://openalex.org/W4385571783",
+        "target": "https://openalex.org/W2970717148"
+      },
+      {
+        "source": "https://openalex.org/W2970717148",
+        "target": "https://openalex.org/W2066288042"
+      },
+      {
+        "source": "https://openalex.org/W2970717148",
+        "target": "https://openalex.org/W2343649478"
+      },
+      {
+        "source": "https://openalex.org/W3154502570",
+        "target": "https://openalex.org/W2066288042"
+      },
+      {
+        "source": "https://openalex.org/W3154502570",
+        "target": "https://openalex.org/W2343649478"
+      },
+      {
+        "source": "https://openalex.org/W3154502570",
+        "target": "https://openalex.org/W2471324264"
+      },
+      {
+        "source": "https://openalex.org/W3154502570",
+        "target": "https://openalex.org/W2609776793"
+      },
+      {
+        "source": "https://openalex.org/W3154502570",
+        "target": "https://openalex.org/W2979666134"
+      },
+      {
+        "source": "https://openalex.org/W3090450025",
+        "target": "https://openalex.org/W2343649478"
+      },
+      {
+        "source": "https://openalex.org/W2251521080",
+        "target": "https://openalex.org/W2066288042"
+      },
+      {
+        "source": "https://openalex.org/W2739188487",
+        "target": "https://openalex.org/W2066288042"
+      },
+      {
+        "source": "https://openalex.org/W4393068026",
+        "target": "https://openalex.org/W2327805699"
+      },
+      {
+        "source": "https://openalex.org/W4393068026",
+        "target": "https://openalex.org/W2343649478"
+      },
+      {
+        "source": "https://openalex.org/W4393068026",
+        "target": "https://openalex.org/W2609776793"
+      },
+      {
+        "source": "https://openalex.org/W4393068026",
+        "target": "https://openalex.org/W2948275950"
+      },
+      {
+        "source": "https://openalex.org/W2976405147",
+        "target": "https://openalex.org/W2327805699"
+      },
+      {
+        "source": "https://openalex.org/W4402671002",
+        "target": "https://openalex.org/W2759690420"
+      },
+      {
+        "source": "https://openalex.org/W4402671002",
+        "target": "https://openalex.org/W3090450025"
+      },
+      {
+        "source": "https://openalex.org/W2759690420",
+        "target": "https://openalex.org/W2327805699"
+      },
+      {
+        "source": "https://openalex.org/W2979666134",
+        "target": "https://openalex.org/W2066288042"
+      },
+      {
+        "source": "https://openalex.org/W4409144529",
+        "target": "https://openalex.org/W2343649478"
+      },
+      {
+        "source": "https://openalex.org/W4409144529",
+        "target": "https://openalex.org/W2609776793"
+      },
+      {
+        "source": "https://openalex.org/W2609776793",
+        "target": "https://openalex.org/W2343649478"
+      },
+      {
+        "source": "https://openalex.org/W2609776793",
+        "target": "https://openalex.org/W2471324264"
+      },
+      {
+        "source": "https://openalex.org/W2413591312",
+        "target": "https://openalex.org/W2400132956"
+      },
+      {
+        "source": "https://openalex.org/W2948275950",
+        "target": "https://openalex.org/W2066288042"
+      },
+      {
+        "source": "https://openalex.org/W2948275950",
+        "target": "https://openalex.org/W2327805699"
+      },
+      {
+        "source": "https://openalex.org/W2948275950",
+        "target": "https://openalex.org/W2343649478"
+      },
+      {
+        "source": "https://openalex.org/W2948275950",
+        "target": "https://openalex.org/W2471324264"
+      },
+      {
+        "source": "https://openalex.org/W2948275950",
+        "target": "https://openalex.org/W2759690420"
+      },
+      {
+        "source": "https://openalex.org/W7135002611",
+        "target": "https://openalex.org/W2066288042"
+      },
+      {
+        "source": "https://openalex.org/W7135002611",
+        "target": "https://openalex.org/W2343649478"
+      },
+      {
+        "source": "https://openalex.org/W7135002611",
+        "target": "https://openalex.org/W2400132956"
+      },
+      {
+        "source": "https://openalex.org/W7135002611",
+        "target": "https://openalex.org/W2471324264"
+      },
+      {
+        "source": "https://openalex.org/W2343649478",
+        "target": "https://openalex.org/W2066288042"
+      },
+      {
+        "source": "https://openalex.org/W3030114819",
+        "target": "https://openalex.org/W2327805699"
+      },
+      {
+        "source": "https://openalex.org/W2252164999",
+        "target": "https://openalex.org/W2066288042"
+      },
+      {
+        "source": "https://openalex.org/W2327805699",
+        "target": "https://openalex.org/W2066288042"
+      }
+    ],
+    "evidence_basis": "Title and abstract; no full text read",
+    "ablations": {
+      "single_semantic": [
+        "https://openalex.org/W2343649478",
+        "https://openalex.org/W2154626406",
+        "https://openalex.org/W2252164999",
+        "https://openalex.org/W2759690420",
+        "https://openalex.org/W3154502570",
+        "https://openalex.org/W2970717148",
+        "https://openalex.org/W2948275950",
+        "https://openalex.org/W2976405147",
+        "https://openalex.org/W3090450025",
+        "https://openalex.org/W2400132956",
+        "https://openalex.org/W2789960190",
+        "https://openalex.org/W2045047740",
+        "https://openalex.org/W4385571783",
+        "https://openalex.org/W4389009430",
+        "https://openalex.org/W4402671020",
+        "https://openalex.org/W2955477482",
+        "https://openalex.org/W4240956793",
+        "https://openalex.org/W1498380765",
+        "https://openalex.org/W2739188487",
+        "https://openalex.org/W2931102896",
+        "https://openalex.org/W2413591312",
+        "https://openalex.org/W2250849836",
+        "https://openalex.org/W4406740221",
+        "https://openalex.org/W3030114819",
+        "https://openalex.org/W2955276651",
+        "https://openalex.org/W3187049145",
+        "https://openalex.org/W2887508361",
+        "https://openalex.org/W2025786007",
+        "https://openalex.org/W1833336847",
+        "https://openalex.org/W4402671002",
+        "https://openalex.org/W2588123390",
+        "https://openalex.org/W2595341466",
+        "https://openalex.org/W2962556488",
+        "https://openalex.org/W3166965821",
+        "https://openalex.org/W2970630212",
+        "https://openalex.org/W4393068026",
+        "https://openalex.org/W3158747194",
+        "https://openalex.org/W2980772135",
+        "https://openalex.org/W2982204340",
+        "https://openalex.org/W2364429984"
+      ],
+      "rrf": [
+        "https://openalex.org/W2343649478",
+        "https://openalex.org/W7216718312",
+        "https://openalex.org/W2045738181",
+        "https://openalex.org/W2979666134",
+        "https://openalex.org/W2154626406",
+        "https://openalex.org/W2252164999",
+        "https://openalex.org/W2327805699",
+        "https://openalex.org/W4200023444",
+        "https://openalex.org/W2759690420",
+        "https://openalex.org/W2250309026",
+        "https://openalex.org/W2014734320",
+        "https://openalex.org/W3154502570",
+        "https://openalex.org/W2251931307",
+        "https://openalex.org/W7135002611",
+        "https://openalex.org/W2970717148",
+        "https://openalex.org/W2044599851",
+        "https://openalex.org/W2236647290",
+        "https://openalex.org/W2948275950",
+        "https://openalex.org/W2066288042",
+        "https://openalex.org/W2601749919",
+        "https://openalex.org/W2976405147",
+        "https://openalex.org/W2471324264",
+        "https://openalex.org/W2752756221",
+        "https://openalex.org/W3090450025",
+        "https://openalex.org/W329130461",
+        "https://openalex.org/W4411514988",
+        "https://openalex.org/W2400132956",
+        "https://openalex.org/W567394550",
+        "https://openalex.org/W3165016909",
+        "https://openalex.org/W2789960190",
+        "https://openalex.org/W2037256905",
+        "https://openalex.org/W4416763253",
+        "https://openalex.org/W2045047740",
+        "https://openalex.org/W19426809",
+        "https://openalex.org/W4409144529",
+        "https://openalex.org/W4385571783",
+        "https://openalex.org/W81017671",
+        "https://openalex.org/W2953402219",
+        "https://openalex.org/W4389009430",
+        "https://openalex.org/W2083036001",
+        "https://openalex.org/W4383878360",
+        "https://openalex.org/W4402671020",
+        "https://openalex.org/W71433485",
+        "https://openalex.org/W2792698203",
+        "https://openalex.org/W2955477482",
+        "https://openalex.org/W1976854078",
+        "https://openalex.org/W4389518278",
+        "https://openalex.org/W4240956793",
+        "https://openalex.org/W162419442",
+        "https://openalex.org/W7151917351",
+        "https://openalex.org/W1498380765",
+        "https://openalex.org/W23324711",
+        "https://openalex.org/W3119712221",
+        "https://openalex.org/W2739188487",
+        "https://openalex.org/W4416035708",
+        "https://openalex.org/W2931102896",
+        "https://openalex.org/W4247321167",
+        "https://openalex.org/W2413591312",
+        "https://openalex.org/W4240829257",
+        "https://openalex.org/W2250849836"
+      ],
+      "rerank": [
+        "https://openalex.org/W4385571783",
+        "https://openalex.org/W4389009430",
+        "https://openalex.org/W2066288042",
+        "https://openalex.org/W7216718312",
+        "https://openalex.org/W2400132956",
+        "https://openalex.org/W2970717148",
+        "https://openalex.org/W3154502570",
+        "https://openalex.org/W3090450025",
+        "https://openalex.org/W2739188487",
+        "https://openalex.org/W3119712221",
+        "https://openalex.org/W2976405147",
+        "https://openalex.org/W2759690420",
+        "https://openalex.org/W2979666134",
+        "https://openalex.org/W2045047740",
+        "https://openalex.org/W4409144529",
+        "https://openalex.org/W2413591312",
+        "https://openalex.org/W2948275950",
+        "https://openalex.org/W2471324264",
+        "https://openalex.org/W7135002611",
+        "https://openalex.org/W2752756221",
+        "https://openalex.org/W2343649478",
+        "https://openalex.org/W4247321167",
+        "https://openalex.org/W2327805699",
+        "https://openalex.org/W2236647290",
+        "https://openalex.org/W2601749919",
+        "https://openalex.org/W4240956793",
+        "https://openalex.org/W2252164999",
+        "https://openalex.org/W7151917351",
+        "https://openalex.org/W2014734320",
+        "https://openalex.org/W4416763253",
+        "https://openalex.org/W2789960190",
+        "https://openalex.org/W4416035708",
+        "https://openalex.org/W2154626406",
+        "https://openalex.org/W4389518278",
+        "https://openalex.org/W4240829257",
+        "https://openalex.org/W2792698203",
+        "https://openalex.org/W4402671020",
+        "https://openalex.org/W4200023444",
+        "https://openalex.org/W2250309026",
+        "https://openalex.org/W2953402219",
+        "https://openalex.org/W81017671",
+        "https://openalex.org/W4411514988",
+        "https://openalex.org/W2045738181",
+        "https://openalex.org/W2251931307",
+        "https://openalex.org/W2044599851",
+        "https://openalex.org/W2250849836",
+        "https://openalex.org/W19426809",
+        "https://openalex.org/W329130461",
+        "https://openalex.org/W3165016909",
+        "https://openalex.org/W567394550",
+        "https://openalex.org/W2955477482",
+        "https://openalex.org/W4383878360",
+        "https://openalex.org/W2037256905",
+        "https://openalex.org/W2083036001",
+        "https://openalex.org/W1498380765",
+        "https://openalex.org/W71433485",
+        "https://openalex.org/W1976854078",
+        "https://openalex.org/W162419442",
+        "https://openalex.org/W23324711",
+        "https://openalex.org/W2931102896"
+      ]
+    },
+    "candidate_index": {
+      "https://openalex.org/W7216718312": {
+        "title": "ARGUMENTATION MINING OF ARGUMENTATIVE ESSAYS",
+        "year": null
+      },
+      "https://openalex.org/W2979666134": {
+        "title": "Argument Mining: A Survey",
+        "year": 2019
+      },
+      "https://openalex.org/W2343649478": {
+        "title": "Parsing Argumentation Structures in Persuasive Essays",
+        "year": 2017
+      },
+      "https://openalex.org/W4200023444": {
+        "title": "Questions in argumentative dialogue",
+        "year": 2021
+      },
+      "https://openalex.org/W2014734320": {
+        "title": "Automatic argumentative analysis for interaction mining",
+        "year": 2011
+      },
+      "https://openalex.org/W7135002611": {
+        "title": "Graphical Summarisation of Argumentative Text",
+        "year": 2026
+      },
+      "https://openalex.org/W2236647290": {
+        "title": "Argumentation Mining in User-Generated Web Discourse",
+        "year": 2016
+      },
+      "https://openalex.org/W2601749919": {
+        "title": "Mining And Evaluating Argumentative Structures In User Comments In Erulemaking",
+        "year": 2016
+      },
+      "https://openalex.org/W2752756221": {
+        "title": "Ontological representations of rhetorical figures for argument mining",
+        "year": 2017
+      },
+      "https://openalex.org/W4411514988": {
+        "title": "Prompt templates for argument relation classification using frame semantic parsing",
+        "year": 2025
+      },
+      "https://openalex.org/W3165016909": {
+        "title": "From Opinion Mining to Financial Argument Mining",
+        "year": 2021
+      },
+      "https://openalex.org/W4416763253": {
+        "title": "Large Language Models in Argument Mining: A Survey",
+        "year": 2025
+      },
+      "https://openalex.org/W4409144529": {
+        "title": "A Review Article for Argumentation Mining of Text through Machine Learning Techniques and Strategies",
+        "year": 2025
+      },
+      "https://openalex.org/W2953402219": {
+        "title": "The evolution of argumentation mining: From models to social media and emerging tools",
+        "year": 2019
+      },
+      "https://openalex.org/W4383878360": {
+        "title": "Computational Argumentation for the Automatic Analysis of Argumentative Discourse and Human Persuasion",
+        "year": 2023
+      },
+      "https://openalex.org/W2792698203": {
+        "title": "Proceedings of the First Workshop on Argumentation Mining",
+        "year": 2014
+      },
+      "https://openalex.org/W4389518278": {
+        "title": "Proceedings of the 10th Workshop on Argument Mining",
+        "year": 2023
+      },
+      "https://openalex.org/W7151917351": {
+        "title": "Language reasoning by means of argument mining and argument quality",
+        "year": 2023
+      },
+      "https://openalex.org/W3119712221": {
+        "title": "Generating argumentation frameworks from text",
+        "year": 2019
+      },
+      "https://openalex.org/W4416035708": {
+        "title": "Exploring Quality and Diversity in Synthetic Data Generation for Argument Mining",
+        "year": 2025
+      },
+      "https://openalex.org/W4247321167": {
+        "title": "Proceedings of the 5th Workshop on Argument Mining",
+        "year": 2018
+      },
+      "https://openalex.org/W4240829257": {
+        "title": "Proceedings of the 4th Workshop on Argument Mining",
+        "year": 2017
+      },
+      "https://openalex.org/W2897186167": {
+        "title": "Argument Facets in Social Media Dialogue",
+        "year": 2018
+      },
+      "https://openalex.org/W2998070476": {
+        "title": "Representation and learning schemes for argument stance mining",
+        "year": 2019
+      },
+      "https://openalex.org/W7172497670": {
+        "title": "Assessing the Minimal Dialectical Quality in Argumentation: A Neuro-Symbolic Approach Integrating Argument Mining, Quality Assessment, and Probabilistic Reasoning",
+        "year": 2026
+      },
+      "https://openalex.org/W2905169377": {
+        "title": "Automatic recognition of argumentation structure in short monological texts",
+        "year": 2018
+      },
+      "https://openalex.org/W4402867848": {
+        "title": "Could you elaborate more on what your partner just said? Guiding dialogue in science education using a conversational agent",
+        "year": 2024
+      },
+      "https://openalex.org/W3186222130": {
+        "title": "Computational Analysis of Argumentation Strategies",
+        "year": 2021
+      },
+      "https://openalex.org/W7222874148": {
+        "title": "Argument Generation",
+        "year": 2026
+      },
+      "https://openalex.org/W7116630875": {
+        "title": "Document-Level Approach to Extracting Argumentation Structures from the Russian Texts of Scientific Communication",
+        "year": 2025
+      },
+      "https://openalex.org/W4406081052": {
+        "title": "Beyond one-shot explanations: a systematic literature review of dialogue-based xAI approaches",
+        "year": 2025
+      },
+      "https://openalex.org/W2404672269": {
+        "title": "Legal argumentation concerning Almost Identical Expressions (AIE) in statutory texts",
+        "year": 2014
+      },
+      "https://openalex.org/W3192030362": {
+        "title": "VivesDebate: A New Annotated Multilingual Corpus of Argumentation in a Debate Tournament",
+        "year": 2021
+      },
+      "https://openalex.org/W4244323536": {
+        "title": "Proceedings of the Ninth International Workshop on Health Text Mining and Information Analysis",
+        "year": 2018
+      },
+      "https://openalex.org/W2782980057": {
+        "title": "Argumentation Schemes. History, Classifications, and Computational Applications",
+        "year": 2017
+      },
+      "https://openalex.org/W3173377059": {
+        "title": "Scientia Potentia Est—On the Role of Knowledge in Computational Argumentation",
+        "year": 2022
+      },
+      "https://openalex.org/W7151795853": {
+        "title": "Boolean algebra and random field theory applied to graph neural networks and natural language processing : application to argument mining in a low resource setting",
+        "year": 2024
+      },
+      "https://openalex.org/W2801864387": {
+        "title": "Experimenting with grounding strategies in dialogue",
+        "year": 2015
+      },
+      "https://openalex.org/W4407352847": {
+        "title": "UniASA: A Unified Generative Framework for Argument Structure Analysis",
+        "year": 2025
+      },
+      "https://openalex.org/W2398210018": {
+        "title": "Opinion Mining and Lexical Affect Sensing",
+        "year": 2010
+      },
+      "https://openalex.org/W2154626406": {
+        "title": "The necessity of parsing for predicate argument recognition",
+        "year": 2001
+      },
+      "https://openalex.org/W2252164999": {
+        "title": "Towards segment-based recognition of argumentation structure in short texts",
+        "year": 2014
+      },
+      "https://openalex.org/W2759690420": {
+        "title": "Identifying attack and support argumentative relations using deep learning",
+        "year": 2017
+      },
+      "https://openalex.org/W3154502570": {
+        "title": "End-to-End Argument Mining as Biaffine Dependency Parsing",
+        "year": 2021
+      },
+      "https://openalex.org/W2970717148": {
+        "title": "The Utility of Discourse Parsing Features for Predicting Argumentation Structure",
+        "year": 2019
+      },
+      "https://openalex.org/W2948275950": {
+        "title": "Dissecting Content and Context in Argumentative Relation Analysis",
+        "year": 2019
+      },
+      "https://openalex.org/W2976405147": {
+        "title": "Utilizing Argument Mining Techniques for Argumentative Dialogue Systems",
+        "year": 2019
+      },
+      "https://openalex.org/W3090450025": {
+        "title": "Towards an Argument Mining Pipeline Transforming Texts to Argument Graphs",
+        "year": 2020
+      },
+      "https://openalex.org/W2400132956": {
+        "title": "Towards Argument Mining from Dialogue",
+        "year": 2014
+      },
+      "https://openalex.org/W2789960190": {
+        "title": "Comparing decoding mechanisms for parsing argumentative structures",
+        "year": 2018
+      },
+      "https://openalex.org/W2045047740": {
+        "title": "Linguistic features in data-driven dependency parsing",
+        "year": 2008
+      },
+      "https://openalex.org/W4385571783": {
+        "title": "End-to-End Argument Mining over Varying Rhetorical Structures",
+        "year": 2023
+      },
+      "https://openalex.org/W4389009430": {
+        "title": "EDU-AP: Elementary Discourse Unit based Argument Parser",
+        "year": 2022
+      },
+      "https://openalex.org/W4402671020": {
+        "title": "Turiya at DialAM-2024: Inference Anchoring Theory Based LLM Parsers",
+        "year": 2024
+      },
+      "https://openalex.org/W2955477482": {
+        "title": "Comparative Evaluation of Argument Extraction Algorithms in Discourse Relation Parsing",
+        "year": 2013
+      },
+      "https://openalex.org/W4240956793": {
+        "title": "Dependency Parsing",
+        "year": 2006
+      },
+      "https://openalex.org/W1498380765": {
+        "title": "ARGUER: Using Argument Schemas for Argument Detection and Rebuttal in Dialogs",
+        "year": 1999
+      },
+      "https://openalex.org/W2739188487": {
+        "title": "Knowledge-driven argument mining based on the qualia structure",
+        "year": 2017
+      },
+      "https://openalex.org/W2931102896": {
+        "title": "Enabling a Bot with Understanding Argumentation and Providing Arguments",
+        "year": 2019
+      },
+      "https://openalex.org/W2413591312": {
+        "title": "Automatically identifying transitions between locutions in dialogue",
+        "year": 2015
+      },
+      "https://openalex.org/W2250849836": {
+        "title": "A Unified Framework for Discourse Argument Identification via Shallow Semantic Parsing",
+        "year": 2012
+      },
+      "https://openalex.org/W4406740221": {
+        "title": "WIBA: What Is Being Argued? A Comprehensive Approach to Argument Mining",
+        "year": 2025
+      },
+      "https://openalex.org/W3030114819": {
+        "title": "Evaluation of Argument Search Approaches in the Context of Argumentative Dialogue Systems",
+        "year": 2020
+      },
+      "https://openalex.org/W2955276651": {
+        "title": "Extracting Argumentative Dialogues from the Neural Network that Computes the Dungean Argumentation Semantics.",
+        "year": 2011
+      },
+      "https://openalex.org/W3187049145": {
+        "title": "From Argument Search to Argumentative Dialogue: A Topic-independent Approach to Argument Acquisition for Dialogue Systems",
+        "year": 2021
+      },
+      "https://openalex.org/W2887508361": {
+        "title": "Dependency Parsing and Dialogue Systems : an investigation of dependency parsing for commercial application",
+        "year": 2017
+      },
+      "https://openalex.org/W2025786007": {
+        "title": "Mining of parsed data to derive deverbal argument structure",
+        "year": 2009
+      },
+      "https://openalex.org/W1833336847": {
+        "title": "An implementation of the argument dependency model",
+        "year": 2008
+      },
+      "https://openalex.org/W4402671002": {
+        "title": "Exploiting Dialogue Acts and Context to Identify Argumentative Relations in Online Debates",
+        "year": 2024
+      },
+      "https://openalex.org/W2588123390": {
+        "title": "Knowledge-Driven Argument Mining: what we learn from corpus analysis",
+        "year": 2016
+      },
+      "https://openalex.org/W2595341466": {
+        "title": "On the role of discourse particles for mining arguments in German dialogs",
+        "year": 2016
+      },
+      "https://openalex.org/W2962556488": {
+        "title": "Detecting Argument Components and Structures",
+        "year": 2015
+      },
+      "https://openalex.org/W3166965821": {
+        "title": "Introducing “An Empirical Study of Span Representations in Argumentation Structure Parsing”",
+        "year": 2021
+      },
+      "https://openalex.org/W2970630212": {
+        "title": "Explicit Discourse Argument Extraction for German",
+        "year": 2019
+      },
+      "https://openalex.org/W4393068026": {
+        "title": "Cross-genre argument mining: Can language models automatically fill in missing discourse markers?",
+        "year": 2024
+      },
+      "https://openalex.org/W3158747194": {
+        "title": "Argumentative relation classification for argumentative dialogue systems",
+        "year": 2020
+      },
+      "https://openalex.org/W2980772135": {
+        "title": "Building argumentative adpositional trees : Towards a high-precision method for reconstructing arguments in natural language",
+        "year": 2019
+      },
+      "https://openalex.org/W2982204340": {
+        "title": "Deploying Machine Learning Classifiers for Argumentative Relations “in the Wild”",
+        "year": 2019
+      },
+      "https://openalex.org/W2364429984": {
+        "title": "Semantic Role Labeling System Based on Dependency Tree Distance Method for Arguments Identification",
+        "year": 2012
+      },
+      "https://openalex.org/W2045738181": {
+        "title": "Rhetorical Structure Theory: Toward a functional theory of text organization",
+        "year": 1988
+      },
+      "https://openalex.org/W2327805699": {
+        "title": "Argumentation Mining: State of the Art and Emerging Trends",
+        "year": 2016
+      },
+      "https://openalex.org/W2250309026": {
+        "title": "Identifying Argumentative Discourse Structures in Persuasive Essays",
+        "year": 2014
+      },
+      "https://openalex.org/W2251931307": {
+        "title": "Annotating Argument Components and Relations in Persuasive Essays",
+        "year": 2014
+      },
+      "https://openalex.org/W2044599851": {
+        "title": "Building a discourse-tagged corpus in the framework of Rhetorical Structure Theory",
+        "year": 2001
+      },
+      "https://openalex.org/W2066288042": {
+        "title": "From Argument Diagrams to Argumentation Mining in Texts: A Survey",
+        "year": 2013
+      },
+      "https://openalex.org/W2471324264": {
+        "title": "End-to-End Argumentation Mining in Student Essays",
+        "year": 2016
+      },
+      "https://openalex.org/W329130461": {
+        "title": "Argument Extraction from News, Blogs, and Social Media",
+        "year": 2014
+      },
+      "https://openalex.org/W567394550": {
+        "title": "Essais sur l'argumentation : introduction à l'étude linguistique de la parole argumentative",
+        "year": 1990
+      },
+      "https://openalex.org/W2037256905": {
+        "title": "A qualitative comparison method for rhetorical structures: identifying different discourse structures in multilingual corpora",
+        "year": 2014
+      },
+      "https://openalex.org/W19426809": {
+        "title": "Argumentative Text as Rhetorical Structure: An Application of Rhetorical Structure Theory",
+        "year": 1999
+      },
+      "https://openalex.org/W81017671": {
+        "title": "Language Resources for Studying Argument",
+        "year": 2008
+      },
+      "https://openalex.org/W2083036001": {
+        "title": "Representation of Argumentation in Text with Rhetorical Structure Theory",
+        "year": 2009
+      },
+      "https://openalex.org/W71433485": {
+        "title": "The Rhetoric of Visual Arguments",
+        "year": 2011
+      },
+      "https://openalex.org/W1976854078": {
+        "title": "Comparing rhetorical structures in different languages: The influence of translation strategies",
+        "year": 2010
+      },
+      "https://openalex.org/W162419442": {
+        "title": "From Discourse Analysis to Argumentation Schemes and Back: Relations and Differences",
+        "year": 2013
+      },
+      "https://openalex.org/W23324711": {
+        "title": "L'argomentazione nel rendiconto di gestione bancario",
+        "year": 2007
+      },
+      "https://openalex.org/W2609776793": {
+        "title": "Neural End-to-End Learning for Computational Argumentation Mining",
+        "year": 2017
+      },
+      "https://openalex.org/W2251521080": {
+        "title": "Analyzing Argumentative Discourse Units in Online Interactions",
+        "year": 2014
+      },
+      "https://openalex.org/W1875713949": {
+        "title": "Evaluating dependency parsing performance on german learner language",
+        "year": 2010
+      }
+    },
+    "ordering": "All criteria supported, then incomplete evidence, then explicit counter-evidence; similarity breaks ties",
+    "joint_gap": true,
+    "model": "gemini-3.6-flash"
+  },
+  "events": [
+    {
+      "at": "2026-11-25T14:08:12.436983+00:00",
+      "step": "retrieve",
+      "message": "40 candidates from keyword search",
+      "query": "area argument mining could you point literature uses dependency parsers determine argumentativeness texts dialogue",
+      "cache_hit": false
+    },
+    {
+      "at": "2026-11-25T14:08:15.428939+00:00",
+      "step": "retrieve",
+      "message": "40 candidates from semantic search",
+      "query": "In the area of argument mining, could you point to literature that uses of dependency parsers to determine the argumentativeness of texts in dialogue systems?",
+      "cache_hit": false
+    },
+    {
+      "at": "2026-11-25T14:08:19.166346+00:00",
+      "step": "rank",
+      "message": "Ranked 60 unique candidates",
+      "ranker": "cross-encoder + RRF"
+    },
+    {
+      "at": "2026-11-25T14:08:21.298000+00:00",
+      "step": "citations",
+      "message": "Explored 18 cited works; metadata constraints remain enforced"
+    },
+    {
+      "at": "2026-11-25T14:08:24.659024+00:00",
+      "step": "rank",
+      "message": "Ranked 60 unique candidates",
+      "ranker": "cross-encoder + RRF"
+    },
+    {
+      "at": "2026-11-25T14:08:24.672588+00:00",
+      "step": "evidence",
+      "message": "Assessed top 15 papers; 1 criteria have no supported match",
+      "evidence_basis": "title and abstract only"
+    },
+    {
+      "at": "2026-11-25T14:08:28.775376+00:00",
+      "step": "repair",
+      "message": "Targeted a criterion with no supported match: In the area of argument mining, could you point to literature that uses of dependency parsers to determine the argumentativeness of texts in dialogue systems?",
+      "query": "area argument mining could you point literature uses dependency parsers determine argumentativeness texts dialogue In the area of argument mining, could you point to literature that uses of dependency parsers to determine the argumentativeness of texts in dialogue systems?",
+      "candidates": 40
+    },
+    {
+      "at": "2026-11-25T14:08:31.426312+00:00",
+      "step": "rank",
+      "message": "Ranked 60 unique candidates",
+      "ranker": "cross-encoder + RRF"
+    },
+    {
+      "at": "2026-11-25T14:08:32.033665+00:00",
+      "step": "evidence",
+      "message": "Assessed top 15 papers; 1 criteria have no supported match",
+      "evidence_basis": "title and abstract only"
+    },
+    {
+      "at": "2026-11-25T14:08:32.059738+00:00",
+      "step": "complete",
+      "message": "Returned 30 papers with provenance and exportable evidence"
+    },
+    {
+      "at": "2026-11-25T14:08:32.072264+00:00",
+      "step": "timing",
+      "message": "Search finished",
+      "elapsed_seconds": 22.52
+    }
+  ],
+  "feedback": {},
+  "task": {
+    "id": "litsearch-57",
+    "question": "In the area of argument mining, could you point to literature that uses of dependency parsers to determine the argumentativeness of texts in dialogue systems?",
+    "gold_titles": [
+      "Dialo-AP: A Dependency Parsing Based Argument Parser for Dialogues"
+    ],
+    "gold_corpusids": [
+      252818918
+    ],
+    "query_set": "inline_acl"
+  },
+  "end_to_end_seconds": 24.14
+}

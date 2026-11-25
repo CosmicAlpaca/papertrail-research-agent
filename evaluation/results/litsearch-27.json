@@ -1,0 +1,2360 @@
+{
+  "id": "634b20bb-985a-4cf1-9e8b-a572b9df17d5",
+  "created_at": "2026-11-25T14:08:33.672937+00:00",
+  "status": "complete",
+  "request": {
+    "plan": {
+      "question": "Could you direct me towards a study that explores the potential to predict a reader's native language based on their eye movement patterns while reading English texts?",
+      "queries": [
+        "Could you direct me towards study explores potential predict reader s native language based"
+      ],
+      "criteria": [
+        {
+          "id": "c1",
+          "text": "Could you direct me towards a study that explores the potential to predict a reader's native language based on their eye movement patterns while reading English texts?"
+        }
+      ],
+      "year_from": null,
+      "year_to": null,
+      "open_access": false,
+      "mode": "diligent",
+      "planner": "reviewable rule-based plan; hosted model unavailable"
+    },
+    "rerank": true,
+    "repair": true
+  },
+  "result": {
+    "papers": [
+      {
+        "id": "https://openalex.org/W2609504523",
+        "title": "Predicting Native Language from Gaze",
+        "doi": "https://doi.org/10.18653/v1/p17-1050",
+        "year": 2017,
+        "abstract": "A fundamental question in language learning concerns the role of a speaker’s first language in second language acquisition. We present a novel methodology for studying this question: analysis of eye-movement patterns in second language reading of free-form text. Using this methodology, we demonstrate for the first time that the native language of English learners can be predicted from their gaze fixations when reading English. We provide analysis of classifier uncertainty and learned features, which indicates that differences in English reading are likely to be rooted in linguistic divergences across native languages. The presented framework complements production studies and offers new ground for advancing research on multilingualism.",
+        "authors": [
+          "Yevgeni Berzak",
+          "Chie Nakamura",
+          "Suzanne Flynn",
+          "Boris Katz"
+        ],
+        "venue": "Proceedings of the conference - Association for Computational Linguistics. Meeting",
+        "citations": 41,
+        "open_access": true,
+        "url": "https://doi.org/10.18653/v1/p17-1050",
+        "pdf_url": "https://www.aclweb.org/anthology/P17-1050.pdf",
+        "references": [
+          "https://openalex.org/W52446197",
+          "https://openalex.org/W331019419",
+          "https://openalex.org/W900993354",
+          "https://openalex.org/W1486677291",
+          "https://openalex.org/W1530224645",
+          "https://openalex.org/W1803633430",
+          "https://openalex.org/W1997990525",
+          "https://openalex.org/W2000359198",
+          "https://openalex.org/W2016381774",
+          "https://openalex.org/W2022564164",
+          "https://openalex.org/W2031520010",
+          "https://openalex.org/W2124725212",
+          "https://openalex.org/W2135528482",
+          "https://openalex.org/W2137264748",
+          "https://openalex.org/W2143995218",
+          "https://openalex.org/W2155939044",
+          "https://openalex.org/W2169087896",
+          "https://openalex.org/W2251007032",
+          "https://openalex.org/W2251303571",
+          "https://openalex.org/W2251547673",
+          "https://openalex.org/W2252012503",
+          "https://openalex.org/W2252042690",
+          "https://openalex.org/W2252143990",
+          "https://openalex.org/W2341311217",
+          "https://openalex.org/W2512721747",
+          "https://openalex.org/W2578584376",
+          "https://openalex.org/W2739967986",
+          "https://openalex.org/W4229742165",
+          "https://openalex.org/W7100506992"
+        ],
+        "retracted": false,
+        "provenance": [
+          "semantic: Could you direct me towards a study that explores the potential to predict a reader's native language based on their eye movement patterns while reading English texts?",
+          "coverage repair: Could you direct me towards a study that explores the potential to predict a reader's native language based on their eye movement patterns while reading English texts?"
+        ],
+        "criteria": [
+          {
+            "criterion_id": "c1",
+            "status": "uncertain",
+            "quote": "",
+            "quote_verified": false,
+            "reason": "Insufficient source evidence; full-paper verification may be needed."
+          }
+        ],
+        "rrf": 0.031009615384615385,
+        "aliases": [
+          "https://openalex.org/W2609504523"
+        ],
+        "neural_score": 5.96248,
+        "score": 0.98711
+      },
+      {
+        "id": "https://openalex.org/W2798281106",
+        "title": "Assessing Language Proficiency from Eye Movements in Reading",
+        "doi": "https://doi.org/10.18653/v1/n18-1180",
+        "year": 2018,
+        "abstract": "We present a novel approach for determining learners’ second language proficiency which utilizes behavioral traces of eye movements during reading. Our approach provides stand-alone eyetracking based English proficiency scores which reflect the extent to which the learner’s gaze patterns in reading are similar to those of native English speakers. We show that our scores correlate strongly with standardized English proficiency tests. We also demonstrate that gaze information can be used to accurately predict the outcomes of such tests. Our approach yields the strongest performance when the test taker is presented with a suite of sentences for which we have eyetracking data from other readers. However, it remains effective even using eyetracking with sentences for which eye movement data have not been previously collected. By deriving proficiency as an automatic byproduct of eye movements during ordinary reading, our approach offers a potentially valuable new tool for second language proficiency assessment. More broadly, our results open the door to future methods for inferring reader characteristics from the behavioral traces of reading.",
+        "authors": [
+          "Yevgeni Berzak",
+          "Boris Katz",
+          "Roger Lévy"
+        ],
+        "venue": "Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (NAACL-HLT)",
+        "citations": 84,
+        "open_access": true,
+        "url": "https://doi.org/10.18653/v1/n18-1180",
+        "pdf_url": "https://www.aclweb.org/anthology/N18-1180.pdf",
+        "references": [
+          "https://openalex.org/W331019419",
+          "https://openalex.org/W900993354",
+          "https://openalex.org/W1504655665",
+          "https://openalex.org/W1511133876",
+          "https://openalex.org/W1631260214",
+          "https://openalex.org/W1803633430",
+          "https://openalex.org/W1974841121",
+          "https://openalex.org/W1984685117",
+          "https://openalex.org/W1988291589",
+          "https://openalex.org/W1991335324",
+          "https://openalex.org/W1997990525",
+          "https://openalex.org/W1999364590",
+          "https://openalex.org/W2002654918",
+          "https://openalex.org/W2013112874",
+          "https://openalex.org/W2022449868",
+          "https://openalex.org/W2023613402",
+          "https://openalex.org/W2030692837",
+          "https://openalex.org/W2031520010",
+          "https://openalex.org/W2034676785",
+          "https://openalex.org/W2054125330",
+          "https://openalex.org/W2062628439",
+          "https://openalex.org/W2067359214",
+          "https://openalex.org/W2068971446",
+          "https://openalex.org/W2092510119",
+          "https://openalex.org/W2108010971",
+          "https://openalex.org/W2111386658",
+          "https://openalex.org/W2124725212",
+          "https://openalex.org/W2127076751",
+          "https://openalex.org/W2133007838",
+          "https://openalex.org/W2139450036",
+          "https://openalex.org/W2143995218",
+          "https://openalex.org/W2154414741",
+          "https://openalex.org/W2164418233",
+          "https://openalex.org/W2250892821",
+          "https://openalex.org/W2251007032",
+          "https://openalex.org/W2252143990",
+          "https://openalex.org/W2470606929",
+          "https://openalex.org/W2512721747",
+          "https://openalex.org/W2518578398",
+          "https://openalex.org/W2609504523"
+        ],
+        "retracted": false,
+        "provenance": [
+          "semantic: Could you direct me towards a study that explores the potential to predict a reader's native language based on their eye movement patterns while reading English texts?",
+          "coverage repair: Could you direct me towards a study that explores the potential to predict a reader's native language based on their eye movement patterns while reading English texts?"
+        ],
+        "criteria": [
+          {
+            "criterion_id": "c1",
+            "status": "uncertain",
+            "quote": "",
+            "quote_verified": false,
+            "reason": "Insufficient source evidence; full-paper verification may be needed."
+          }
+        ],
+        "rrf": 0.031009615384615385,
+        "aliases": [
+          "https://openalex.org/W2798281106"
+        ],
+        "neural_score": 3.98533,
+        "score": 0.97456
+      },
+      {
+        "id": "https://openalex.org/W4378212911",
+        "title": "Eye Movement Traces of Linguistic Knowledge in Native and Non-Native Reading",
+        "doi": "https://doi.org/10.1162/opmi_a_00084",
+        "year": 2023,
+        "abstract": "The detailed study of eye movements in reading has shed considerable light into how language processing unfolds in real time. Yet eye movements in reading remain inadequately studied in non-native (L2) readers, even though much of the world's population is multilingual. Here we present a detailed analysis of the quantitative functional influences of word length, frequency, and predictability on eye movement measures in reading in a large, linguistically diverse sample of non-native English readers. We find many similar qualitative effects as in L1 readers, but crucially also a proficiency-sensitive \"lexicon-context tradeoff\". The most proficient L2 readers' eye movements approach an L1 pattern, but as L2 proficiency diminishes, readers' eye movements become less sensitive to a word's predictability in context and more sensitive to word frequency, which is context-invariant. This tradeoff supports a rational, experience-dependent account of how context-driven expectations are deployed in L2 language processing.",
+        "authors": [
+          "Yevgeni Berzak",
+          "Roger Lévy"
+        ],
+        "venue": "Open Mind",
+        "citations": 47,
+        "open_access": true,
+        "url": "https://doi.org/10.1162/opmi_a_00084",
+        "pdf_url": "https://direct.mit.edu/opmi/article-pdf/doi/10.1162/opmi_a_00084/2133839/opmi_a_00084.pdf",
+        "references": [
+          "https://openalex.org/W1632114991",
+          "https://openalex.org/W1803633430",
+          "https://openalex.org/W1965426915",
+          "https://openalex.org/W1984156654",
+          "https://openalex.org/W1993631132",
+          "https://openalex.org/W1997161938",
+          "https://openalex.org/W1999364590",
+          "https://openalex.org/W2009499611",
+          "https://openalex.org/W2013112874",
+          "https://openalex.org/W2022449868",
+          "https://openalex.org/W2034041981",
+          "https://openalex.org/W2034676785",
+          "https://openalex.org/W2037221107",
+          "https://openalex.org/W2050751746",
+          "https://openalex.org/W2054125330",
+          "https://openalex.org/W2067359214",
+          "https://openalex.org/W2070741698",
+          "https://openalex.org/W2082165867",
+          "https://openalex.org/W2083758911",
+          "https://openalex.org/W2097935856",
+          "https://openalex.org/W2105266313",
+          "https://openalex.org/W2108010971",
+          "https://openalex.org/W2116073258",
+          "https://openalex.org/W2117031222",
+          "https://openalex.org/W2119012891",
+          "https://openalex.org/W2120110281",
+          "https://openalex.org/W2127076751",
+          "https://openalex.org/W2153076044",
+          "https://openalex.org/W2154796476",
+          "https://openalex.org/W2156964236",
+          "https://openalex.org/W2164418233",
+          "https://openalex.org/W2166950783",
+          "https://openalex.org/W2525332836",
+          "https://openalex.org/W2532013869",
+          "https://openalex.org/W2596405055",
+          "https://openalex.org/W2795342569",
+          "https://openalex.org/W2954933613",
+          "https://openalex.org/W3033254023",
+          "https://openalex.org/W3197790268",
+          "https://openalex.org/W4211105222"
+        ],
+        "retracted": false,
+        "provenance": [
+          "semantic: Could you direct me towards a study that explores the potential to predict a reader's native language based on their eye movement patterns while reading English texts?",
+          "coverage repair: Could you direct me towards a study that explores the potential to predict a reader's native language based on their eye movement patterns while reading English texts?"
+        ],
+        "criteria": [
+          {
+            "criterion_id": "c1",
+            "status": "uncertain",
+            "quote": "",
+            "quote_verified": false,
+            "reason": "Insufficient source evidence; full-paper verification may be needed."
+          }
+        ],
+        "rrf": 0.030303030303030304,
+        "aliases": [
+          "https://openalex.org/W4378212911"
+        ],
+        "neural_score": 4.30636,
+        "score": 0.97421
+      },
+      {
+        "id": "https://openalex.org/W3016749098",
+        "title": "Eye-Tracking Based L2 Detection: Universal and Specific Eye Movement Patterns in L1 and L2 Reading",
+        "doi": "https://doi.org/10.1016/j.procs.2020.02.185",
+        "year": 2020,
+        "abstract": "The native (L1) and foreign (L2) languages a person speaks are an important constituent part of their individual profile. This study explores the potential of eye tracking as a diagnostic tool that allows to reliably identify reader non-nativeness in L1 and L2 text reading. The eye movements of native Russian-speaking students with above-average proficiency in both the languages were tracked while they were reading L1 and L2 texts. For selected measurement types such as average fixation duration, some general distributional patterns were confirmed. However, L2 reading also evidenced some distinct features compared to L1 performance, despite the readers’ high proficiency in both the languages. The distributional patterns for fixations and saccades in L1 and L2 reading can be informative to optimize adaptive thresholding algorithms of eye tracking based non-nativeness detection.",
+        "authors": [
+          "Валерия Демарева",
+          "Julia Edeleva"
+        ],
+        "venue": "Procedia Computer Science",
+        "citations": 30,
+        "open_access": true,
+        "url": "https://doi.org/10.1016/j.procs.2020.02.185",
+        "pdf_url": "https://www.sciencedirect.com/science/article/pii/S1877050920303082/pdf",
+        "references": [
+          "https://openalex.org/W2008075275",
+          "https://openalex.org/W2119448067",
+          "https://openalex.org/W2156104040",
+          "https://openalex.org/W2172573173",
+          "https://openalex.org/W2617023900",
+          "https://openalex.org/W2887669593",
+          "https://openalex.org/W2963353863"
+        ],
+        "retracted": false,
+        "provenance": [
+          "semantic: Could you direct me towards a study that explores the potential to predict a reader's native language based on their eye movement patterns while reading English texts?",
+          "coverage repair: Could you direct me towards a study that explores the potential to predict a reader's native language based on their eye movement patterns while reading English texts?"
+        ],
+        "criteria": [
+          {
+            "criterion_id": "c1",
+            "status": "uncertain",
+            "quote": "",
+            "quote_verified": false,
+            "reason": "Insufficient source evidence; full-paper verification may be needed."
+          }
+        ],
+        "rrf": 0.02919863597612958,
+        "aliases": [
+          "https://openalex.org/W3016749098"
+        ],
+        "neural_score": 4.61285,
+        "score": 0.97025
+      },
+      {
+        "id": "https://openalex.org/W4282967944",
+        "title": "Prediction as a basis for skilled reading: insights from modern language models",
+        "doi": "https://doi.org/10.1098/rsos.211837",
+        "year": 2022,
+        "abstract": "Reading is not an inborn human capability, and yet, English-speaking adults read with impressive speed. This study considered how predictions of upcoming words impact on this skilled behaviour. We used a powerful language model (GPT-2) to derive predictions of upcoming words in text passages. These predictions were highly accurate and showed a tight relationship to fine-grained aspects of eye-movement behaviour when adults read those same passages, including whether to skip the next word and how long to spend on it. Strong predictions that were incorrect resulted in a prediction error cost on fixation durations. Our findings suggest that predictions for upcoming words can be made based on the analysis of text statistics and that these predictions guide how our eyes interrogate text at very short timescales. These findings open new perspectives on reading and language comprehension and illustrate the capability of modern language models to inform understanding of human language processing.",
+        "authors": [
+          "Benedetta Cevoli",
+          "Chris Watkins",
+          "Kathleen Rastle"
+        ],
+        "venue": "Royal Society Open Science",
+        "citations": 52,
+        "open_access": true,
+        "url": "https://doi.org/10.1098/rsos.211837",
+        "pdf_url": null,
+        "references": [
+          "https://openalex.org/W294103321",
+          "https://openalex.org/W1146351399",
+          "https://openalex.org/W1614298861",
+          "https://openalex.org/W1682431627",
+          "https://openalex.org/W1951724000",
+          "https://openalex.org/W1971253061",
+          "https://openalex.org/W1979900603",
+          "https://openalex.org/W1982350233",
+          "https://openalex.org/W1983578042",
+          "https://openalex.org/W1985982445",
+          "https://openalex.org/W2022449868",
+          "https://openalex.org/W2028675369",
+          "https://openalex.org/W2034676785",
+          "https://openalex.org/W2041221140",
+          "https://openalex.org/W2054125330",
+          "https://openalex.org/W2054134634",
+          "https://openalex.org/W2104741941",
+          "https://openalex.org/W2108010971",
+          "https://openalex.org/W2113772582",
+          "https://openalex.org/W2130987742",
+          "https://openalex.org/W2133610185",
+          "https://openalex.org/W2154796476",
+          "https://openalex.org/W2167164918",
+          "https://openalex.org/W2167955944",
+          "https://openalex.org/W2179376720",
+          "https://openalex.org/W2270070752",
+          "https://openalex.org/W2428904845",
+          "https://openalex.org/W2554694426",
+          "https://openalex.org/W2574026706",
+          "https://openalex.org/W2578785875",
+          "https://openalex.org/W2611195161",
+          "https://openalex.org/W2616278914",
+          "https://openalex.org/W2769972173",
+          "https://openalex.org/W2796350793",
+          "https://openalex.org/W2800516701",
+          "https://openalex.org/W2896457183",
+          "https://openalex.org/W2906222176",
+          "https://openalex.org/W2963341956",
+          "https://openalex.org/W2966983573",
+          "https://openalex.org/W2974597461"
+        ],
+        "retracted": false,
+        "provenance": [
+          "semantic: Could you direct me towards a study that explores the potential to predict a reader's native language based on their eye movement patterns while reading English texts?",
+          "coverage repair: Could you direct me towards a study that explores the potential to predict a reader's native language based on their eye movement patterns while reading English texts?"
+        ],
+        "criteria": [
+          {
+            "criterion_id": "c1",
+            "status": "uncertain",
+            "quote": "",
+            "quote_verified": false,
+            "reason": "Insufficient source evidence; full-paper verification may be needed."
+          }
+        ],
+        "rrf": 0.029631255487269532,
+        "aliases": [
+          "https://openalex.org/W4282967944"
+        ],
+        "neural_score": 3.45769,
+        "score": 0.95632
+      },
+      {
+        "id": "https://openalex.org/W4385570188",
+        "title": "Native Language Prediction from Gaze: a Reproducibility Study",
+        "doi": "https://doi.org/10.18653/v1/2023.acl-srw.26",
+        "year": 2023,
+        "abstract": "Numerous studies found that the linguistic properties of a person’s native language affect the cognitive processing of other languages. However, only one study has shown that it was possible to identify the native language based on eye-tracking records of natural L2 reading using machine learning. A new corpus allows us to replicate these results on a more interrelated and larger set of native languages. Our results show that comparable classification performance is maintained despite using less data. However, analysis shows that the correlation between L2 eye movements and native language similarity may be more complex than the original study found.",
+        "authors": [
+          "Lina Skerath",
+          "Paulina Toborek",
+          "Anita Zielińska",
+          "Maria Barrett",
+          "Rob van der Goot"
+        ],
+        "venue": "Proceedings of the conference - Association for Computational Linguistics. Meeting",
+        "citations": 9,
+        "open_access": true,
+        "url": "https://doi.org/10.18653/v1/2023.acl-srw.26",
+        "pdf_url": "https://aclanthology.org/2023.acl-srw.26.pdf",
+        "references": [
+          "https://openalex.org/W52446197",
+          "https://openalex.org/W1486677291",
+          "https://openalex.org/W1504655665",
+          "https://openalex.org/W1803633430",
+          "https://openalex.org/W1997990525",
+          "https://openalex.org/W2013112874",
+          "https://openalex.org/W2050947850",
+          "https://openalex.org/W2137264748",
+          "https://openalex.org/W2394756230",
+          "https://openalex.org/W2609504523",
+          "https://openalex.org/W2739967986",
+          "https://openalex.org/W2963341956",
+          "https://openalex.org/W2983040767",
+          "https://openalex.org/W2997591727",
+          "https://openalex.org/W3030416750",
+          "https://openalex.org/W3204971501",
+          "https://openalex.org/W4220895812",
+          "https://openalex.org/W4224945216"
+        ],
+        "retracted": false,
+        "provenance": [
+          "semantic: Could you direct me towards a study that explores the potential to predict a reader's native language based on their eye movement patterns while reading English texts?",
+          "coverage repair: Could you direct me towards a study that explores the potential to predict a reader's native language based on their eye movement patterns while reading English texts?"
+        ],
+        "criteria": [
+          {
+            "criterion_id": "c1",
+            "status": "uncertain",
+            "quote": "",
+            "quote_verified": false,
+            "reason": "Insufficient source evidence; full-paper verification may be needed."
+          }
+        ],
+        "rrf": 0.028169014084507043,
+        "aliases": [
+          "https://openalex.org/W4385570188"
+        ],
+        "neural_score": 3.40544,
+        "score": 0.94613
+      },
+      {
+        "id": "https://openalex.org/W7204944591",
+        "title": "Language Proficiency Assessment from Eye Movements in Naturalistic Passage Reading",
+        "doi": "https://doi.org/10.18653/2026.emnlp-main.2127",
+        "year": 2026,
+        "abstract": "Standard language proficiency tests rely on linguistic tasks such as vocabulary, grammar and reading comprehension quizzes. An alternative, cognitively motivated approach, introduced in Berzak et al. (2018), proposed instead to predict language proficiency from behavioral traces of eye movements in reading. In this work, we validate and extend this approach from single sentences to more naturalistic reading of contextualized passages in English as a second language, new proficiency measures, prediction models, and reading in an information seeking regime. We find that the approach is effective in all these evaluations. We further address two key open questions on eye movement based proficiency testing: (1) potential scoring biases that reflect the proximity of the reader’s native language to English, which may undermine validity, and (2) its reliability. We find that eye movement based proficiency scores are indeed biased towards L1s that are linguistically closer to English. We propose a score debiasing method which effectively remedies this issue. The reliability analyses suggest that eye movement proficiency scores are more reliable than standard language proficiency scores. Overall, our results strengthen and broaden the empirical foundations for future eye movement based language assessment technologies.",
+        "authors": [
+          "Shachar Frenkel",
+          "Ido Falah",
+          "Omer Shubi",
+          "Yevgeni Berzak"
+        ],
+        "venue": "Conference on Empirical Methods in Natural Language Processing (EMNLP)",
+        "citations": 0,
+        "open_access": true,
+        "url": "https://doi.org/10.18653/2026.emnlp-main.2127",
+        "pdf_url": "https://aclanthology.org/2026.emnlp-main.2127.pdf",
+        "references": [
+          "https://openalex.org/W900993354",
+          "https://openalex.org/W1504655665",
+          "https://openalex.org/W1530224645",
+          "https://openalex.org/W1793706166",
+          "https://openalex.org/W1803633430",
+          "https://openalex.org/W1938197476",
+          "https://openalex.org/W1965426915",
+          "https://openalex.org/W1974841121",
+          "https://openalex.org/W1999364590",
+          "https://openalex.org/W2020559735",
+          "https://openalex.org/W2034676785",
+          "https://openalex.org/W2037170747",
+          "https://openalex.org/W2067359214",
+          "https://openalex.org/W2068971446",
+          "https://openalex.org/W2069079548",
+          "https://openalex.org/W2070741698",
+          "https://openalex.org/W2076818578",
+          "https://openalex.org/W2117031222",
+          "https://openalex.org/W2133263444",
+          "https://openalex.org/W2139450036",
+          "https://openalex.org/W2143995218",
+          "https://openalex.org/W2153076044",
+          "https://openalex.org/W2159306398",
+          "https://openalex.org/W2161861544",
+          "https://openalex.org/W2596405055",
+          "https://openalex.org/W2609504523",
+          "https://openalex.org/W2768348081",
+          "https://openalex.org/W2798281106",
+          "https://openalex.org/W2955871884",
+          "https://openalex.org/W3033367498",
+          "https://openalex.org/W4220895812",
+          "https://openalex.org/W4224945216",
+          "https://openalex.org/W4281767916",
+          "https://openalex.org/W4362558058",
+          "https://openalex.org/W4378212911",
+          "https://openalex.org/W4385570188",
+          "https://openalex.org/W4386339142",
+          "https://openalex.org/W4403809772",
+          "https://openalex.org/W4404783014",
+          "https://openalex.org/W4406731475"
+        ],
+        "retracted": false,
+        "provenance": [
+          "semantic: Could you direct me towards a study that explores the potential to predict a reader's native language based on their eye movement patterns while reading English texts?",
+          "coverage repair: Could you direct me towards a study that explores the potential to predict a reader's native language based on their eye movement patterns while reading English texts?"
+        ],
+        "criteria": [
+          {
+            "criterion_id": "c1",
+            "status": "uncertain",
+            "quote": "",
+            "quote_verified": false,
+            "reason": "Insufficient source evidence; full-paper verification may be needed."
+          }
+        ],
+        "rrf": 0.023863636363636365,
+        "aliases": [
+          "https://openalex.org/W7204944591"
+        ],
+        "neural_score": 4.19468,
+        "score": 0.93369
+      },
+      {
+        "id": "https://openalex.org/W4410701879",
+        "title": "Estimating the level of ability of English learners using eye movement features during text reading",
+        "doi": "https://doi.org/10.1145/3715669.3726790",
+        "year": 2025,
+        "abstract": "The text reading ability of English as a second language speakers is predicted using features of eye movements in comparison with those of native speakers. In order to estimate the level of language skill development, normalised distance metrics of word skipping patterns during text reading by the learners and native speakers were measured. The distances between the two groups of readers closed gradually, according to the scores of English proficiency tests of the three ability levels the learners were separated into. The individual distances also correlate with the English test scores.",
+        "authors": [
+          "Yusuke Oyama",
+          "Minoru Nakayama"
+        ],
+        "venue": "ACM Symposium on Eye Tracking Research and Applications (ETRA)",
+        "citations": 0,
+        "open_access": false,
+        "url": "https://doi.org/10.1145/3715669.3726790",
+        "pdf_url": null,
+        "references": [
+          "https://openalex.org/W1803633430",
+          "https://openalex.org/W2013112874",
+          "https://openalex.org/W2394756230",
+          "https://openalex.org/W4282967944"
+        ],
+        "retracted": false,
+        "provenance": [
+          "semantic: Could you direct me towards a study that explores the potential to predict a reader's native language based on their eye movement patterns while reading English texts?",
+          "coverage repair: Could you direct me towards a study that explores the potential to predict a reader's native language based on their eye movement patterns while reading English texts?"
+        ],
+        "criteria": [
+          {
+            "criterion_id": "c1",
+            "status": "uncertain",
+            "quote": "",
+            "quote_verified": false,
+            "reason": "Insufficient source evidence; full-paper verification may be needed."
+          }
+        ],
+        "rrf": 0.025478740668614087,
+        "aliases": [
+          "https://openalex.org/W4410701879"
+        ],
+        "neural_score": 2.96243,
+        "score": 0.9161
+      },
+      {
+        "id": "https://openalex.org/W2176631892",
+        "title": "Investigating The Eye Movements Of English L1 And Arabic L1 Speakers While Reading English Sentences.",
+        "doi": "https://doi.org/10.5339/qfarc.2014.sspp0611",
+        "year": 2014,
+        "abstract": "Eye movements are now widely used to investigate cognitive processes during first language (L1) reading. However, comparatively few studies have been conducted on second language reading (L2). This presentation will describe a study which used eye tracking technology to investigate the differences in eye movements between English L1 and Arabic L1 speakers when reading English texts. A total of 75 participants were involved in the study: 36 faculty and staff members and 39 students from the College of the North Atlantic in Qatar. Reading materials were presented on a 23-inch monitor attached to an HP Z400 Workstation PC interfaced with a Tobii TX 300 eye tracking system. Participants were presented with 16 images of common signs such as street signs or shop signs. They were then asked to read at their own pace and say which of two ensuing sentences referred to the sign they had just seen. Data were exported into R, a system for statistical computation and graphics, and outcomes from 6 metrics were calculated using Wilcoxin rank-sum tests. The critical value for hypothesis tests, p, was set at 0.05. Results showed that the two groups differed significantly in 5 of the 6 metrics calculated: 1) number of fixations per individual 2) fixation duration 3) saccade length 4) number of saccades per individual and 5) length of regressions. The sixth metric calculated (number of regressions per individual) approached but did not meet significance levels. The study found that the Arabic L1 participants displayed eye movement patterns that were significantly different from, and potentially less effective than, the patterns executed by the skilled English L1 speakers. The aim of the presentation is to illustrate the results, discuss the pedagogical implications and suggest possible classroom interventions to help Arabic L1 students develop effective word-level reading skills in English.",
+        "authors": [
+          "Molly Joan Oakley"
+        ],
+        "venue": "Qatar Foundation Annual Research Conference (ARC)",
+        "citations": 1,
+        "open_access": false,
+        "url": "https://doi.org/10.5339/qfarc.2014.sspp0611",
+        "pdf_url": null,
+        "references": [],
+        "retracted": false,
+        "provenance": [
+          "semantic: Could you direct me towards a study that explores the potential to predict a reader's native language based on their eye movement patterns while reading English texts?",
+          "coverage repair: Could you direct me towards a study that explores the potential to predict a reader's native language based on their eye movement patterns while reading English texts?"
+        ],
+        "criteria": [
+          {
+            "criterion_id": "c1",
+            "status": "uncertain",
+            "quote": "",
+            "quote_verified": false,
+            "reason": "Insufficient source evidence; full-paper verification may be needed."
+          }
+        ],
+        "rrf": 0.023215244229736982,
+        "aliases": [
+          "https://openalex.org/W2176631892"
+        ],
+        "neural_score": 3.35154,
+        "score": 0.91454
+      },
+      {
+        "id": "https://openalex.org/W4389544620",
+        "title": "Reading Strategy and Eye Movement of Japanese Students When Reading English as a Foreign Language",
+        "doi": "https://doi.org/10.1109/iwcia59471.2023.10335829",
+        "year": 2023,
+        "abstract": "This study reports on the relationship between reading strategies and eye movements observed when Japanese students attempt to comprehend English texts. Reading texts in an unfamiliar foreign language or with specialized content is generally difficult; therefore, computer support is essential. This study aims to classify and identify readers’ characteristics to customize support style. We focus on eye movements and reading strategies as readers’ characteristics, which depend on readers’ language ability and knowledge. In the experiment, we examined the reading strategies of Japanese readers of English using a questionnaire and factor analysis. We discovered two typical reading strategies: context-guessing and word-wise translation strategies. We also examined the effects of various reading strategies on eye movement and discovered significant differences in several eye movement features. We used a support vector machine to recognize the readers’ reading strategy based on the features of eye movement. The discriminator estimated the reader’s reading strategy with an F value of 0.88. Based on the results of this experiment, we expect this discriminator to help us understand readers’ reading strategies and support efficient reading comprehension strategies.",
+        "authors": [
+          "Naoki Takahashi",
+          "Toshikazu Kato",
+          "Takashi Sakamoto",
+          "Yui Yokoyama",
+          "Toru Nakata"
+        ],
+        "venue": "IEEE International Workshop on Computational Intelligence and Applications (IWCIA)",
+        "citations": 0,
+        "open_access": false,
+        "url": "https://doi.org/10.1109/iwcia59471.2023.10335829",
+        "pdf_url": null,
+        "references": [
+          "https://openalex.org/W11784240",
+          "https://openalex.org/W1987347218",
+          "https://openalex.org/W1993760488",
+          "https://openalex.org/W2017410401",
+          "https://openalex.org/W2037311778",
+          "https://openalex.org/W2042379996",
+          "https://openalex.org/W2045761518",
+          "https://openalex.org/W2088502162",
+          "https://openalex.org/W2094102654",
+          "https://openalex.org/W2247689161",
+          "https://openalex.org/W2789797681",
+          "https://openalex.org/W2940704255",
+          "https://openalex.org/W2999073276",
+          "https://openalex.org/W3035055251",
+          "https://openalex.org/W3041485641",
+          "https://openalex.org/W7014742581"
+        ],
+        "retracted": false,
+        "provenance": [
+          "semantic: Could you direct me towards a study that explores the potential to predict a reader's native language based on their eye movement patterns while reading English texts?",
+          "coverage repair: Could you direct me towards a study that explores the potential to predict a reader's native language based on their eye movement patterns while reading English texts?"
+        ],
+        "criteria": [
+          {
+            "criterion_id": "c1",
+            "status": "uncertain",
+            "quote": "",
+            "quote_verified": false,
+            "reason": "Insufficient source evidence; full-paper verification may be needed."
+          }
+        ],
+        "rrf": 0.022517394054395953,
+        "aliases": [
+          "https://openalex.org/W4389544620"
+        ],
+        "neural_score": 3.00586,
+        "score": 0.89963
+      },
+      {
+        "id": "https://openalex.org/W4312637174",
+        "title": "Evaluation of level of foreign language proficiency based on eye movement data",
+        "doi": "https://doi.org/10.1364/jot.89.000484",
+        "year": 2022,
+        "abstract": "Subject of study. Foreign language proficiency was evaluated using the optical recording of eye movements. Representation of unconscious cognitive processes in oculographic data during reading and correlation of eye movement parameters with the complexity of the text perceived by the reader were analyzed. Aim of study. The study was aimed at determining the correlation between the eye movement features of individuals reading texts in native and foreign languages, considering the peculiarities of the language and level of language proficiency. Method. The study comprised two stages. The total sample size was 63 Russian-speaking students, aged from 19 to 27 years, for whom English was a foreign language. The subjects’ level of proficiency in the Russian and English languages was estimated using the C-test method. The experimental task consisted of reading the English texts in the slides and answering the comprehension questions after a nine-point calibration procedure. Eye movements were recorded binocularly using an SMI-High Speed Tracker 1250 setup at a sampling rate of 500 Hz. The first stage was aimed at investigating eye movement features of native Russian speakers who are highly proficient in the English language while reading texts in both languages. In the second stage, the eye movement features of individuals reading texts in a foreign language at different levels of proficiency were investigated. Main results. The eye movement parameters of the individuals varied, depending on whether they were reading texts in their native language (Russian) or the foreign language (English), even at high proficiency in the foreign language. The eye movement patterns changed when they were reading texts in the foreign language (English) at different levels of proficiency. Practical significance. Based on the obtained data, the text complexity for the test subject can be evaluated. The text complexity evaluation using eye movement features enables algorithms to be designed for normalizing different texts in terms of complexity. The results of the study can be used when designing automated systems for evaluating foreign language proficiency level.",
+        "authors": [
+          "Валерия Демарева",
+          "Anastasia V. Golubinskaya",
+          "Yu. А. Edeleva",
+          "Roman Viktorovich Golubin"
+        ],
+        "venue": "Journal of Optical Technology",
+        "citations": 2,
+        "open_access": false,
+        "url": "https://doi.org/10.1364/jot.89.000484",
+        "pdf_url": null,
+        "references": [],
+        "retracted": false,
+        "provenance": [
+          "semantic: Could you direct me towards a study that explores the potential to predict a reader's native language based on their eye movement patterns while reading English texts?",
+          "coverage repair: Could you direct me towards a study that explores the potential to predict a reader's native language based on their eye movement patterns while reading English texts?"
+        ],
+        "criteria": [
+          {
+            "criterion_id": "c1",
+            "status": "uncertain",
+            "quote": "",
+            "quote_verified": false,
+            "reason": "Insufficient source evidence; full-paper verification may be needed."
+          }
+        ],
+        "rrf": 0.024922600619195046,
+        "aliases": [
+          "https://openalex.org/W4312637174"
+        ],
+        "neural_score": 2.50783,
+        "score": 0.89178
+      },
+      {
+        "id": "https://openalex.org/W3178144966",
+        "title": "QUANTIFYING THE DIFFERENCE IN READING FLUENCY BETWEEN L1 AND L2 READERS OF ENGLISH",
+        "doi": "https://doi.org/10.1017/s0272263121000279",
+        "year": 2021,
+        "abstract": "This study is a comparative examination of reading behavior of first-language (L1) Canadian and second-language (L2) Finnish and German readers of English. We measured eye-movement patterns during reading the same set of English sentences and administered tests of English vocabulary, spelling, and exposure to print. The core of our study is a novel method of statistical prediction used to generate hypothetical Finnish and German participants with maximum observed L1 scores in all component skills. We found that with L1-like component skills, hypothetical German readers can show the same reading speed as the L1 group. We hypothesize this advantage comes from the small linguistic distance to English. Conversely, hypothetical Finnish readers remain disadvantaged even with maximum component skills, likely due to a larger linguistic distance. We discuss theoretical and applied implications of our method for L2 acquisition research.",
+        "authors": [
+          "Kelly Nisbet",
+          "Raymond Bertram",
+          "Charlotte Erlinghagen",
+          "Aleks Pieczykolan",
+          "Victor Kuperman"
+        ],
+        "venue": "Studies in Second Language Acquisition",
+        "citations": 32,
+        "open_access": false,
+        "url": "https://doi.org/10.1017/s0272263121000279",
+        "pdf_url": null,
+        "references": [
+          "https://openalex.org/W42435208",
+          "https://openalex.org/W75962765",
+          "https://openalex.org/W231026495",
+          "https://openalex.org/W589615080",
+          "https://openalex.org/W1511532113",
+          "https://openalex.org/W1606510071",
+          "https://openalex.org/W1938197476",
+          "https://openalex.org/W1973489132",
+          "https://openalex.org/W1974865858",
+          "https://openalex.org/W1977620926",
+          "https://openalex.org/W1985330050",
+          "https://openalex.org/W1986567992",
+          "https://openalex.org/W1997161938",
+          "https://openalex.org/W1999836235",
+          "https://openalex.org/W2004481306",
+          "https://openalex.org/W2005745319",
+          "https://openalex.org/W2011826874",
+          "https://openalex.org/W2012127215",
+          "https://openalex.org/W2018542732",
+          "https://openalex.org/W2020559735",
+          "https://openalex.org/W2021448702",
+          "https://openalex.org/W2022449868",
+          "https://openalex.org/W2023394231",
+          "https://openalex.org/W2023991700",
+          "https://openalex.org/W2024297060",
+          "https://openalex.org/W2046566396",
+          "https://openalex.org/W2052391847",
+          "https://openalex.org/W2054867587",
+          "https://openalex.org/W2056414894",
+          "https://openalex.org/W2058234113",
+          "https://openalex.org/W2060451083",
+          "https://openalex.org/W2086362182",
+          "https://openalex.org/W2095277550",
+          "https://openalex.org/W2097379270",
+          "https://openalex.org/W2100983036",
+          "https://openalex.org/W2104565909",
+          "https://openalex.org/W2110101785",
+          "https://openalex.org/W2117031222",
+          "https://openalex.org/W2119012891",
+          "https://openalex.org/W2126735576"
+        ],
+        "retracted": false,
+        "provenance": [
+          "semantic: Could you direct me towards a study that explores the potential to predict a reader's native language based on their eye movement patterns while reading English texts?",
+          "coverage repair: Could you direct me towards a study that explores the potential to predict a reader's native language based on their eye movement patterns while reading English texts?"
+        ],
+        "criteria": [
+          {
+            "criterion_id": "c1",
+            "status": "uncertain",
+            "quote": "",
+            "quote_verified": false,
+            "reason": "Insufficient source evidence; full-paper verification may be needed."
+          }
+        ],
+        "rrf": 0.02877846790890269,
+        "aliases": [
+          "https://openalex.org/W3178144966"
+        ],
+        "neural_score": 2.13556,
+        "score": 0.891
+      },
+      {
+        "id": "https://openalex.org/W7164192232",
+        "title": "Not all native readers are the same: How eye movements vary within language groups",
+        "doi": "https://doi.org/10.5281/zenodo.20630640",
+        "year": 2026,
+        "abstract": "Patterns of eye movements change as a function of a reader’s language background. For example, readers of languages with longer words tend to make longer saccades and land further into a word than readers of languages with shorter words. However, the differences in reading behaviours between speakers of the same first language (L1) have often been overlooked. This study uses data from the Multilingual Eye Movement Corpus (MECO) to examine the eye movements of 29 samples of participants speaking 20 different languages while they read in their respective L1s (Experiment 1) and their shared L2, English (Experiment 2). Five of the languages had more than one sample available. We scaled the data across multiple dimensions, including eye movements, comprehension accuracy, and reading rate, and analyzed distances between samples. In both experiments, the distance between replicated pairs (e.g., two samples of Spanish) was smaller than the distance between non-replicated pairs (e.g., an Estonian and a Dutch sample). However, for most samples, their nearest neighbors were samples from a different L1 background, rather than samples with the same L1. This intersample variance suggests that conclusions from a single group of speakers may not be generalizable, even to other speakers of that language.",
+        "authors": [
+          "Emalie Hendel",
+          "Victor Kuperman"
+        ],
+        "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+        "citations": 0,
+        "open_access": true,
+        "url": "https://doi.org/10.5281/zenodo.20630640",
+        "pdf_url": null,
+        "references": [],
+        "retracted": false,
+        "provenance": [
+          "semantic: Could you direct me towards a study that explores the potential to predict a reader's native language based on their eye movement patterns while reading English texts?",
+          "coverage repair: Could you direct me towards a study that explores the potential to predict a reader's native language based on their eye movement patterns while reading English texts?"
+        ],
+        "criteria": [
+          {
+            "criterion_id": "c1",
+            "status": "uncertain",
+            "quote": "",
+            "quote_verified": false,
+            "reason": "Insufficient source evidence; full-paper verification may be needed."
+          }
+        ],
+        "rrf": 0.023581634068525453,
+        "aliases": [
+          "https://openalex.org/W7164192232"
+        ],
+        "neural_score": 2.60706,
+        "score": 0.8889
+      },
+      {
+        "id": "https://openalex.org/W2251519713",
+        "title": "Recognizing Personal Characteristics of Readers using Eye-Movements and Text Features",
+        "doi": null,
+        "year": 2012,
+        "abstract": "In the present work we raise the hypothesis that eye-movements when reading texts reveal task performance, as measured by the level of understanding of the reader. With the objective of testing that hypothesis, we introduce a framework to integrate geometric information of eye-movements and text layout into natural language processing models via image processing techniques. We evidence the patterns in reading behavior between subjects with similar task performance using principal component analysis and quantify the likelihood of our hypothesis using the concept of linear separability. Finally, we point to potential applications that could benefit from these findings.",
+        "authors": [
+          "Pascual Martínez-Gómez",
+          "Tadayoshi Hara",
+          "Akiko Aizawa"
+        ],
+        "venue": "International Conference on Computational Linguistics",
+        "citations": 8,
+        "open_access": false,
+        "url": "http://dblp.uni-trier.de/db/conf/coling/coling2012.html#Martinez-GomezHA12",
+        "pdf_url": null,
+        "references": [
+          "https://openalex.org/W22168010",
+          "https://openalex.org/W102567269",
+          "https://openalex.org/W605575788",
+          "https://openalex.org/W1564419782",
+          "https://openalex.org/W1964424534",
+          "https://openalex.org/W1965893653",
+          "https://openalex.org/W2001978082",
+          "https://openalex.org/W2013112874",
+          "https://openalex.org/W2020150327",
+          "https://openalex.org/W2039011884",
+          "https://openalex.org/W2043941682",
+          "https://openalex.org/W2058941677",
+          "https://openalex.org/W2081580037",
+          "https://openalex.org/W2090965804",
+          "https://openalex.org/W2108351678",
+          "https://openalex.org/W2127646644",
+          "https://openalex.org/W2138640694",
+          "https://openalex.org/W2152644321",
+          "https://openalex.org/W2154796476",
+          "https://openalex.org/W2155840072",
+          "https://openalex.org/W2158195707",
+          "https://openalex.org/W2159832529",
+          "https://openalex.org/W2171553223",
+          "https://openalex.org/W3044574244",
+          "https://openalex.org/W3099514962"
+        ],
+        "retracted": false,
+        "provenance": [
+          "semantic: Could you direct me towards a study that explores the potential to predict a reader's native language based on their eye movement patterns while reading English texts?",
+          "coverage repair: Could you direct me towards a study that explores the potential to predict a reader's native language based on their eye movement patterns while reading English texts?"
+        ],
+        "criteria": [
+          {
+            "criterion_id": "c1",
+            "status": "uncertain",
+            "quote": "",
+            "quote_verified": false,
+            "reason": "Insufficient source evidence; full-paper verification may be needed."
+          }
+        ],
+        "rrf": 0.024562989752863168,
+        "aliases": [
+          "https://openalex.org/W2251519713"
+        ],
+        "neural_score": 2.20032,
+        "score": 0.87006
+      },
+      {
+        "id": "https://openalex.org/W7139356065",
+        "title": "The Strategy of Reading a Text in a Foreign Language as an Indicator of the Level of Proficiency in This Language (Pilot Study)",
+        "doi": null,
+        "year": 2019,
+        "abstract": "The article is devoted to the problem of text perception in the native (Russian) and non-native (English) languages and whether there is a connection between the indicators of oculomotor behavior when reading the text in English and the level of proficiency in this language. The study was conducted by the method of eye-tracking. Firstly, the results showed that there are significant differences (p < 0.01) between the perception of Russian and English text. Secondly, there is a significant relation between the indicators of oculomotor behavior (duration of fixations, number of fixations, reading speed) and test scores on the level of English. The results obtained suggest that in the future, an eye-tracker will be able to become an objective method of assessing the level of proficiency English.",
+        "authors": [
+          "E. Valieva",
+          "M. Krivitskaya",
+          "A. Mironova",
+          "R. Cherepanov",
+          "V. Sharipova",
+          "E. O. Yurchenko"
+        ],
+        "venue": "Electronic scientific archive of UrFU (Ural Federal University)",
+        "citations": 0,
+        "open_access": false,
+        "url": "http://elar.urfu.ru/handle/10995/85537",
+        "pdf_url": null,
+        "references": [],
+        "retracted": false,
+        "provenance": [
+          "semantic: Could you direct me towards a study that explores the potential to predict a reader's native language based on their eye movement patterns while reading English texts?",
+          "coverage repair: Could you direct me towards a study that explores the potential to predict a reader's native language based on their eye movement patterns while reading English texts?"
+        ],
+        "criteria": [
+          {
+            "criterion_id": "c1",
+            "status": "uncertain",
+            "quote": "",
+            "quote_verified": false,
+            "reason": "Insufficient source evidence; full-paper verification may be needed."
+          }
+        ],
+        "rrf": 0.021061966522558477,
+        "aliases": [
+          "https://openalex.org/W7139356065"
+        ],
+        "neural_score": 2.04332,
+        "score": 0.83669
+      },
+      {
+        "id": "https://openalex.org/W2002592773",
+        "title": "A Comparative Study on the Eye Movement Patterns in Malay- english Bilingual Readers",
+        "doi": "https://doi.org/10.1016/j.sbspro.2014.02.031",
+        "year": 2014,
+        "abstract": "During the process of reading, the eyes do not move continuously but jump from one word to another, and they also stop at particular points. In eye-tracking studies, these processes are called „saccade‟ and „fixation‟. This paper presents an analysis of the reading patterns of readers reading Malay and English sentences and questions using the eye tracker. Malay-English bilingual readers read a set of statements in Malay and English and their reading comprehension was tested using questions with different levels of difficulty. Their correct responses and reactions to the comprehension questions are also presented and discussed in this paper.",
+        "authors": [
+          "Vanisri Batemanazan",
+          "Azizah Jaafar",
+          "Khazriyati Salehuddin"
+        ],
+        "venue": "Procedia - Social and Behavioral Sciences",
+        "citations": 7,
+        "open_access": true,
+        "url": "https://doi.org/10.1016/j.sbspro.2014.02.031",
+        "pdf_url": "https://www.sciencedirect.com/science/article/pii/S1877042814015614/pdf",
+        "references": [
+          "https://openalex.org/W1974841121",
+          "https://openalex.org/W1981350414",
+          "https://openalex.org/W1991480209",
+          "https://openalex.org/W1995818241",
+          "https://openalex.org/W1999869558",
+          "https://openalex.org/W2008164905",
+          "https://openalex.org/W2026381273",
+          "https://openalex.org/W2032439779",
+          "https://openalex.org/W2099100832",
+          "https://openalex.org/W2110342776",
+          "https://openalex.org/W2143885952",
+          "https://openalex.org/W2169923022",
+          "https://openalex.org/W2170300389",
+          "https://openalex.org/W4280603271"
+        ],
+        "retracted": false,
+        "provenance": [
+          "semantic: Could you direct me towards a study that explores the potential to predict a reader's native language based on their eye movement patterns while reading English texts?",
+          "coverage repair: Could you direct me towards a study that explores the potential to predict a reader's native language based on their eye movement patterns while reading English texts?"
+        ],
+        "criteria": [],
+        "rrf": 0.026334026334026334,
+        "aliases": [
+          "https://openalex.org/W2002592773"
+        ],
+        "neural_score": 1.49629,
+        "score": 0.81425
+      },
+      {
+        "id": "https://openalex.org/W4404783274",
+        "title": "The Effects of Surprisal across Languages: Results from Native and Non-native Reading",
+        "doi": "https://doi.org/10.18653/v1/2022.findings-aacl.13",
+        "year": 2022,
+        "abstract": "It is well known that the surprisal of an upcoming word, as estimated by language models, is a solid predictor of reading times (Smith and Levy, 2013). However, most of the studies that support this view are based on English and few other Germanic languages, leaving an open question as to the cross-lingual generalizability of such findings. Moreover, they tend to consider only the best-performing eye-tracking measure, which might conflate the effects of predictive and integrative processing. Furthermore, it is not clear whether prediction plays a role in non-native language processing in bilingual individuals (Grüter et al., 2014). We approach these problems at large scale, extracting surprisal estimates from mBERT, and assessing their psychometric predictive power on the MECO corpus, a cross-linguistic dataset of eye movement behavior in reading (Siegelman et al., 2022; Kuperman et al., 2020). We show that surprisal is a strong predictor of reading times across languages and fixation measurements, and that its effects in L2 are weaker with respect to L1.",
+        "authors": [
+          "Andrea Gregor de Varda",
+          "Marco Marelli"
+        ],
+        "venue": null,
+        "citations": 41,
+        "open_access": true,
+        "url": "https://doi.org/10.18653/v1/2022.findings-aacl.13",
+        "pdf_url": "https://aclanthology.org/2022.findings-aacl.13.pdf",
+        "references": [
+          "https://openalex.org/W138474712",
+          "https://openalex.org/W825027313",
+          "https://openalex.org/W1682431627",
+          "https://openalex.org/W1803633430",
+          "https://openalex.org/W1974468793",
+          "https://openalex.org/W1985982445",
+          "https://openalex.org/W1996359725",
+          "https://openalex.org/W1997990525",
+          "https://openalex.org/W2022449868",
+          "https://openalex.org/W2054125330",
+          "https://openalex.org/W2075469153",
+          "https://openalex.org/W2082283091",
+          "https://openalex.org/W2085663684",
+          "https://openalex.org/W2101656864",
+          "https://openalex.org/W2104558300",
+          "https://openalex.org/W2106850936",
+          "https://openalex.org/W2108010971",
+          "https://openalex.org/W2118276816",
+          "https://openalex.org/W2119728020",
+          "https://openalex.org/W2133491969",
+          "https://openalex.org/W2139450036",
+          "https://openalex.org/W2153791616",
+          "https://openalex.org/W2164418233",
+          "https://openalex.org/W2165975954",
+          "https://openalex.org/W2182160297",
+          "https://openalex.org/W2372236539",
+          "https://openalex.org/W2394729563",
+          "https://openalex.org/W2396040514",
+          "https://openalex.org/W2401700357",
+          "https://openalex.org/W2499060135",
+          "https://openalex.org/W2594104721",
+          "https://openalex.org/W2603654355",
+          "https://openalex.org/W2795342569",
+          "https://openalex.org/W2963341956",
+          "https://openalex.org/W2977559956",
+          "https://openalex.org/W3025544529",
+          "https://openalex.org/W3033254023",
+          "https://openalex.org/W3087624537",
+          "https://openalex.org/W3127623408",
+          "https://openalex.org/W3133595472"
+        ],
+        "retracted": false,
+        "provenance": [
+          "coverage repair: Could you direct me towards a study that explores the potential to predict a reader's native language based on their eye movement patterns while reading English texts?"
+        ],
+        "criteria": [],
+        "rrf": 0.014925373134328358,
+        "aliases": [
+          "https://openalex.org/W4404783274"
+        ],
+        "neural_score": 2.12118,
+        "score": 0.8054
+      },
+      {
+        "id": "https://openalex.org/W2102667737",
+        "title": "The eye as the window of the language ability: Estimation of English skills by analyzing eye movement while reading documents",
+        "doi": "https://doi.org/10.1109/icdar.2015.7333762",
+        "year": 2015,
+        "abstract": "Reading-life log is a research field of analyzing our activities of reading documents to know more about readers and documents. In this paper we propose an implementation of reading-life log which is to estimate the English language skill by analyzing the activities of reading English documents. As input for the analysis, we employ eye movement information, because we consider the eye movement of skillful readers is far different from that of novices. From the experiments, we have found that the following two features are informative: (1) the sum of fixation duration, and (2) the sum of the velocity of saccades. By using these features the proposed method is to estimate the class of English skill from among low, middle and high, which are defined based on the scores of English standardized test called TOEIC. From the experimental results with 11 subjects and 10 documents, we have been successful to estimate the class with the accuracy of 90.9%.",
+        "authors": [
+          "Kazuyo Yoshimura",
+          "Koichi Kise",
+          "Kai S. Kunze"
+        ],
+        "venue": "IAPR International Conference on Document Analysis and Recognition (ICDAR)",
+        "citations": 30,
+        "open_access": false,
+        "url": "https://doi.org/10.1109/icdar.2015.7333762",
+        "pdf_url": null,
+        "references": [
+          "https://openalex.org/W1612272928",
+          "https://openalex.org/W1969433118",
+          "https://openalex.org/W1987748396",
+          "https://openalex.org/W2001978082",
+          "https://openalex.org/W2011826874",
+          "https://openalex.org/W2012589369",
+          "https://openalex.org/W2014623060",
+          "https://openalex.org/W2026574758",
+          "https://openalex.org/W2030330674",
+          "https://openalex.org/W2035015778",
+          "https://openalex.org/W2037311778",
+          "https://openalex.org/W2045761518",
+          "https://openalex.org/W2064245851",
+          "https://openalex.org/W2082573999",
+          "https://openalex.org/W2088502162",
+          "https://openalex.org/W2126698740",
+          "https://openalex.org/W2158431045",
+          "https://openalex.org/W2159832529",
+          "https://openalex.org/W2595265761",
+          "https://openalex.org/W2913924054",
+          "https://openalex.org/W7066352096"
+        ],
+        "retracted": false,
+        "provenance": [
+          "semantic: Could you direct me towards a study that explores the potential to predict a reader's native language based on their eye movement patterns while reading English texts?"
+        ],
+        "criteria": [],
+        "rrf": 0.014285714285714285,
+        "aliases": [
+          "https://openalex.org/W2102667737"
+        ],
+        "neural_score": 2.10976,
+        "score": 0.80062
+      },
+      {
+        "id": "https://openalex.org/W2760320850",
+        "title": "A Study on the Eye Movement of Chinese Bilingual Language Cognition",
+        "doi": "https://doi.org/10.12783/dtcse/smce2017/12442",
+        "year": 2017,
+        "abstract": "This paper gives an overview of the study of the eye movement of Chinese native speakers in the academic circles and summarizes the results of the study of eye movement of Chinese native speakers from the aspects of reading foreign language. Finally, it is concluded that the familiarity of language, word segmentation, text style and mother tongue background will affect the language cognition of Chinese native speakers.",
+        "authors": [
+          "Na Xu",
+          "Axu Hu"
+        ],
+        "venue": "DEStech Transactions on Computer Science and Engineering",
+        "citations": 0,
+        "open_access": false,
+        "url": "https://doi.org/10.12783/dtcse/smce2017/12442",
+        "pdf_url": null,
+        "references": [],
+        "retracted": false,
+        "provenance": [
+          "semantic: Could you direct me towards a study that explores the potential to predict a reader's native language based on their eye movement patterns while reading English texts?",
+          "coverage repair: Could you direct me towards a study that explores the potential to predict a reader's native language based on their eye movement patterns while reading English texts?"
+        ],
+        "criteria": [],
+        "rrf": 0.024099883855981417,
+        "aliases": [
+          "https://openalex.org/W2760320850"
+        ],
+        "neural_score": 0.98497,
+        "score": 0.72948
+      },
+      {
+        "id": "https://openalex.org/W2790508766",
+        "title": "Coming from different directions: A comparison of the eye movements of English L1 and Arabic L1 speakers reading in English and the implementation of an intensive reading intervention programme",
+        "doi": "https://doi.org/10.17635/lancaster/thesis/250",
+        "year": 2018,
+        "abstract": "Eye movements have been widely used to investigate cognitive processes during first language (L1) reading and in the last few years it has become more common for applied linguists to use eye tracking technology to examine topics that had previously been investigated using off-line measures (Conklin & Pellicer-Sánchez, 2016). However, few eye movement studies have investigated Arabic L1 speakers reading in English, although there have been numerous studies which showed that this population experiences great difficulty learning to read in English (see, for example, Abu-Rabia, 1997b; Fender, 2003, 2008; Hayes-Harb, 2006;; Randall, 2007; Randall & Groom, 2009; Randall & Meara, 1988; Ryan, 1997; Ryan & Meara, 1991; Saigh & Schmitt, 2012; Thompson-Panos & Thomas-Ruzic, 1983). There is general consensus in the literature that these problems are related to inefficient processing of English vowels. The overall aim of this thesis was to investigate the causes of the reading difficulties I observed with my own students and then to devise a barrage of pedagogical interventions which would remediate these problems. The research was comprised of two studies. The aim of Study One of the present research was to investigate the differences in eye movements between skilled English L1 (N=36) and Arabic L1 EFL participants (N=39) reading English sentences. Study One found that the Arabic L1 participants displayed eye movements which were significantly different from the patterns exhibited by the English L1 participants, and were indicative of potentially less efficient cognitive processes. These differences were demonstrated in 10 of the 11 metrics calculated. Specifically, the Arabic L1 EFL participants exhibited significantly more and longer fixations than the English L1 participants. They also made significantly more and shorter (forward) saccades than the English L1 group. Furthermore, data analysis showed a highly significant difference between the two groups in visits on vowels and consonants. Study One constitutes an important contribution to the literature on the difficulties experienced by Arabic L1 students learning to read in English. It demonstrates that their eye movements are significantly different from those of skilled English L1 readers. Little or no work exists which investigates any differences in allotment of visual attention when comparing the eye movements on vowels and consonants of Arabic L1 and English L1 speakers as they read sentences in English. The finding that the Arabic L1 EFL participants spent more time attending to vowels than did the English L1 participants questions the ‘vowel blindness’ hypothesis as proposed by Ryan and Meara (1991). This refers to the assumption that Arabic L1 speakers “lack an awareness of the function which vowels perform in English” (Ryan, 1997, p. 189) and consequently do not recognize or attend to them.The aim of Study Two was to investigate the effects of focused reading interventions on the eye movement patterns and overall reading proficiency of Arabic L1 EFL students. Study Two was a quasi-experimental study which compared two groups of proficiency-matched Arabic L1 EFL learners (N= 39), before and after an intensive reading intervention programme during a 14-week semester at a technical college in Qatar. It included two intact classes in the experimental group (N=20) which received reading interventions consisting of textual enhancement, phonemic awareness, spelling, tracking exercises, rapid word recognition and oral text fluency and two intact classes in the control group which received regular classroom instruction (N=19). The effect of the treatment on reading test scores was analysed using a 2-way repeated ANOVA. Analysis of total reading scores showed a significant main effect for time, but no significant main effect for experimental condition. To investigate the eye movements of the two groups before and after treatment, this phase of the study used the same eye tracking metrics employed in Study One. Results showed there was no statistically significant interaction between the experimental group and time, indicating that both the treatment and control groups showed improvement in their eye tracking measures during the 14 weeks. Study Two is the first study to investigate a barrage of pedagogical interventions on the eye movements and reading proficiency of Arabic L1 EFL students. Although the interventions did not produce statistically significant results, the study provides a building block for future studies using focused pedagogical interventions with this particular group of learners.",
+        "authors": [
+          "Molly Joan Oakley"
+        ],
+        "venue": "Lancaster EPrints (Lancaster University)",
+        "citations": 1,
+        "open_access": true,
+        "url": "https://doi.org/10.17635/lancaster/thesis/250",
+        "pdf_url": "https://eprints.lancs.ac.uk/id/eprint/124063/1/2018oakleyphd.pdf",
+        "references": [
+          "https://openalex.org/W9489473",
+          "https://openalex.org/W16822730",
+          "https://openalex.org/W22913291",
+          "https://openalex.org/W23659483",
+          "https://openalex.org/W43767540",
+          "https://openalex.org/W53681472",
+          "https://openalex.org/W93854359",
+          "https://openalex.org/W170189849",
+          "https://openalex.org/W185145784",
+          "https://openalex.org/W200776126",
+          "https://openalex.org/W206816863",
+          "https://openalex.org/W384270128",
+          "https://openalex.org/W583290244",
+          "https://openalex.org/W584551294",
+          "https://openalex.org/W591845995",
+          "https://openalex.org/W626184748",
+          "https://openalex.org/W645056060",
+          "https://openalex.org/W1486757865",
+          "https://openalex.org/W1498436455",
+          "https://openalex.org/W1512872257",
+          "https://openalex.org/W1515790074",
+          "https://openalex.org/W1516229469",
+          "https://openalex.org/W1532556431",
+          "https://openalex.org/W1533845440",
+          "https://openalex.org/W1536274117",
+          "https://openalex.org/W1547565774",
+          "https://openalex.org/W1549285350",
+          "https://openalex.org/W1564565018",
+          "https://openalex.org/W1586109357",
+          "https://openalex.org/W1618712101",
+          "https://openalex.org/W1714086077",
+          "https://openalex.org/W1722621474",
+          "https://openalex.org/W1725627099",
+          "https://openalex.org/W1755403879",
+          "https://openalex.org/W1768959908",
+          "https://openalex.org/W1890602156",
+          "https://openalex.org/W1964267588",
+          "https://openalex.org/W1964424952",
+          "https://openalex.org/W1965305672",
+          "https://openalex.org/W1965718111"
+        ],
+        "retracted": false,
+        "provenance": [
+          "semantic: Could you direct me towards a study that explores the potential to predict a reader's native language based on their eye movement patterns while reading English texts?",
+          "coverage repair: Could you direct me towards a study that explores the potential to predict a reader's native language based on their eye movement patterns while reading English texts?"
+        ],
+        "criteria": [],
+        "rrf": 0.021527777777777778,
+        "aliases": [
+          "https://openalex.org/W2790508766"
+        ],
+        "neural_score": 1.0821,
+        "score": 0.72883
+      },
+      {
+        "id": "https://openalex.org/W1763358130",
+        "title": "Language prediction by non-native speakers: Evidence from an eye-tracking study",
+        "doi": null,
+        "year": 2013,
+        "abstract": "",
+        "authors": [
+          "Aine Ito",
+          "Martin John Pickering",
+          "Martin M. B. Corley"
+        ],
+        "venue": null,
+        "citations": 0,
+        "open_access": false,
+        "url": "https://www.research.ed.ac.uk/en/publications/language-prediction-by-non-native-speakers-evidence-from-an-eye-t",
+        "pdf_url": null,
+        "references": [],
+        "retracted": false,
+        "provenance": [
+          "semantic: Could you direct me towards a study that explores the potential to predict a reader's native language based on their eye movement patterns while reading English texts?",
+          "coverage repair: Could you direct me towards a study that explores the potential to predict a reader's native language based on their eye movement patterns while reading English texts?"
+        ],
+        "criteria": [],
+        "rrf": 0.024614919963757174,
+        "aliases": [
+          "https://openalex.org/W1763358130"
+        ],
+        "neural_score": 0.05144,
+        "score": 0.56044
+      },
+      {
+        "id": "https://openalex.org/W1803633430",
+        "title": "Eye Movement Patterns in Natural Reading: A Comparison of Monolingual and Bilingual Reading of a Novel",
+        "doi": "https://doi.org/10.1371/journal.pone.0134008",
+        "year": 2015,
+        "abstract": "INTRODUCTION AND METHOD: This paper presents a corpus of sentence level eye movement parameters for unbalanced bilingual first language (L1) and second-language (L2) reading and monolingual reading of a complete novel (56 000 words). We present important sentence-level basic eye movement parameters of both bilingual and monolingual natural reading extracted from this large data corpus. RESULTS AND CONCLUSION: Bilingual L2 reading patterns show longer sentence reading times (20%), more fixations (21%), shorter saccades (12%) and less word skipping (4.6%), than L1 reading patterns. Regression rates are the same for L1 and L2 reading. These results could indicate, analogous to a previous simulation with the E-Z reader model in the literature, that it is primarily the speeding up of lexical access that drives both L1 and L2 reading development. Bilingual L1 reading does not differ in any major way from monolingual reading. This contrasts with predictions made by the weaker links account, which predicts a bilingual disadvantage in language processing caused by divided exposure between languages.",
+        "authors": [
+          "Uschi Cop",
+          "Denis Drieghe",
+          "Wouter Duyck"
+        ],
+        "venue": "PLoS ONE",
+        "citations": 211,
+        "open_access": true,
+        "url": "https://doi.org/10.1371/journal.pone.0134008",
+        "pdf_url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0134008&type=printable",
+        "references": [
+          "https://openalex.org/W95124504",
+          "https://openalex.org/W95867176",
+          "https://openalex.org/W129305155",
+          "https://openalex.org/W583976950",
+          "https://openalex.org/W1497312970",
+          "https://openalex.org/W1519185544",
+          "https://openalex.org/W1579633560",
+          "https://openalex.org/W1965246412",
+          "https://openalex.org/W1965426915",
+          "https://openalex.org/W1969680923",
+          "https://openalex.org/W1970967781",
+          "https://openalex.org/W1973061965",
+          "https://openalex.org/W1974841121",
+          "https://openalex.org/W1981747359",
+          "https://openalex.org/W1984156654",
+          "https://openalex.org/W1987059130",
+          "https://openalex.org/W1997161938",
+          "https://openalex.org/W1998158544",
+          "https://openalex.org/W1999364590",
+          "https://openalex.org/W2008961519",
+          "https://openalex.org/W2010764356",
+          "https://openalex.org/W2011035448",
+          "https://openalex.org/W2011826874",
+          "https://openalex.org/W2012575176",
+          "https://openalex.org/W2013112874",
+          "https://openalex.org/W2015905042",
+          "https://openalex.org/W2019778510",
+          "https://openalex.org/W2021250558",
+          "https://openalex.org/W2023085174",
+          "https://openalex.org/W2023613402",
+          "https://openalex.org/W2023637093",
+          "https://openalex.org/W2026356512",
+          "https://openalex.org/W2031520010",
+          "https://openalex.org/W2034676785",
+          "https://openalex.org/W2037961671",
+          "https://openalex.org/W2043941682",
+          "https://openalex.org/W2047976276",
+          "https://openalex.org/W2056414894",
+          "https://openalex.org/W2060451083",
+          "https://openalex.org/W2062862495"
+        ],
+        "retracted": false,
+        "provenance": [
+          "citation neighbors of top-ranked papers"
+        ],
+        "criteria": [],
+        "rrf": 0.014492753623188406,
+        "aliases": [
+          "https://openalex.org/W1803633430"
+        ],
+        "neural_score": 0.22268,
+        "score": 0.53276
+      },
+      {
+        "id": "https://openalex.org/W758247375",
+        "title": "The role of the native language in second-language syntactic processing",
+        "doi": null,
+        "year": 2009,
+        "abstract": "The present thesis investigates in how properties of a reader’s first language (L1) have an influence on syntactic processing in a second language (L2). While the Competition Model (Bates & MacWhinney, 1982, 1987, 1989, MacWhinney, 1997) predicts that syntactic properties of the L1 can have an influence on L2 processing, the Shallow-Structure Account (Clahsen & Felser, 2006) suggests that an L2 speaker’s representation of an L2 sentence is shallower, lacks syntactic detail, and is therefore not detailed enough for properties of the L1 to have an influence on L2 processing (Papadopoulou & Clahsen, 2003). In two sets of studies, I investigate whether L2 speakers of English activate syntactic information from their L1 while processing English sentences. In Experiments 1-4, native speakers of German, and control groups of native speakers of French and English, are confronted with English sentences consisting of a word order which exists in both English and German, but which represents different underlying syntactic structures in both languages. Results suggest that native speakers of German activate syntactic information from their L1 while reading such sentences. Experiments 5-7 represent an attempt to address both the issue of L1 influence and the issue of shallow processing within the context of the same experimental design. Native speakers of German, and a control group of native English speakers, read grammatically incorrect English sentences with a word order which would either be grammatically correct in German, or grammatically incorrect in both English and German. In this set of experiments, we found evidence against an influence of syntactic properties of the L1. Results also suggest that contrary to the predictions of the shallow-structure account, L2 speakers fully parse the syntactic structure of an L2 sentence, and compute detailed syntactic representations. Date of Award 2009 Original language English Supervisor Roger van Gompel (Supervisor) & Wayne Murray (Supervisor)",
+        "authors": [
+          "Gunnar Jacob"
+        ],
+        "venue": "MADOC (University of Mannheim)",
+        "citations": 10,
+        "open_access": true,
+        "url": "https://madoc.bib.uni-mannheim.de/56890/",
+        "pdf_url": "http://discovery.dundee.ac.uk/ws/files/1199125/Jacob_phd_2009.pdf",
+        "references": [
+          "https://openalex.org/W56453192",
+          "https://openalex.org/W71726064",
+          "https://openalex.org/W113523733",
+          "https://openalex.org/W342989550",
+          "https://openalex.org/W1879798018",
+          "https://openalex.org/W1964671223",
+          "https://openalex.org/W1975576046",
+          "https://openalex.org/W1975781648",
+          "https://openalex.org/W1980842591",
+          "https://openalex.org/W1986343451",
+          "https://openalex.org/W1990339202",
+          "https://openalex.org/W1991294536",
+          "https://openalex.org/W1992832042",
+          "https://openalex.org/W2002654918",
+          "https://openalex.org/W2014236569",
+          "https://openalex.org/W2019900286",
+          "https://openalex.org/W2033247429",
+          "https://openalex.org/W2038594453",
+          "https://openalex.org/W2040503134",
+          "https://openalex.org/W2041690310",
+          "https://openalex.org/W2051324253",
+          "https://openalex.org/W2053573199",
+          "https://openalex.org/W2055886042",
+          "https://openalex.org/W2069079548",
+          "https://openalex.org/W2083135964",
+          "https://openalex.org/W2098274233",
+          "https://openalex.org/W2119103661",
+          "https://openalex.org/W2121352910",
+          "https://openalex.org/W2130822992",
+          "https://openalex.org/W2134141632",
+          "https://openalex.org/W2135844202",
+          "https://openalex.org/W2139996985",
+          "https://openalex.org/W2144720647",
+          "https://openalex.org/W2151010603",
+          "https://openalex.org/W2154243203",
+          "https://openalex.org/W2169136003",
+          "https://openalex.org/W2275008252",
+          "https://openalex.org/W2683789896",
+          "https://openalex.org/W2944251086",
+          "https://openalex.org/W2944977799"
+        ],
+        "retracted": false,
+        "provenance": [
+          "keyword: Could you direct me towards study explores potential predict reader s native language based"
+        ],
+        "criteria": [],
+        "rrf": 0.014084507042253521,
+        "aliases": [
+          "https://openalex.org/W758247375"
+        ],
+        "neural_score": 0.22886,
+        "score": 0.53149
+      },
+      {
+        "id": "https://openalex.org/W4416051442",
+        "title": "New global research shows eye movements reveal how native languages shape reading",
+        "doi": "https://doi.org/10.64628/aam.jp9w9qgyt",
+        "year": 2025,
+        "abstract": "",
+        "authors": [
+          "Victor Kuperman",
+          "Nadia Lana",
+          "Olga Parshina"
+        ],
+        "venue": "The Conversation",
+        "citations": 0,
+        "open_access": true,
+        "url": "https://doi.org/10.64628/aam.jp9w9qgyt",
+        "pdf_url": null,
+        "references": [
+          "https://openalex.org/W189206601",
+          "https://openalex.org/W2040035146",
+          "https://openalex.org/W4220895812",
+          "https://openalex.org/W4386750719",
+          "https://openalex.org/W4404464636",
+          "https://openalex.org/W4406731475"
+        ],
+        "retracted": false,
+        "provenance": [
+          "semantic: Could you direct me towards a study that explores the potential to predict a reader's native language based on their eye movement patterns while reading English texts?",
+          "coverage repair: Could you direct me towards a study that explores the potential to predict a reader's native language based on their eye movement patterns while reading English texts?"
+        ],
+        "criteria": [],
+        "rrf": 0.0273972602739726,
+        "aliases": [
+          "https://openalex.org/W4416051442"
+        ],
+        "neural_score": -0.34882,
+        "score": 0.49806
+      },
+      {
+        "id": "https://openalex.org/W2251049744",
+        "title": "With Blinkers on: Robust Prediction of Eye Movements across Readers",
+        "doi": "https://doi.org/10.18653/v1/d13-1075",
+        "year": 2013,
+        "abstract": "Nilsson and Nivre (2009) introduced a treebased model of persons' eye movements in reading.The individual variation between readers reportedly made application across readers impossible.While a tree-based model seems plausible for eye movements, we show that competitive results can be obtained with a linear CRF model.Increasing the inductive bias also makes learning across readers possible.In fact we observe next-to-no performance drop when evaluating models trained on gaze records of multiple readers on new readers.",
+        "authors": [
+          "Franz Matthies",
+          "Anders Søgaard"
+        ],
+        "venue": "Conference on Empirical Methods in Natural Language Processing (EMNLP)",
+        "citations": 31,
+        "open_access": true,
+        "url": "https://doi.org/10.18653/v1/d13-1075",
+        "pdf_url": "https://aclanthology.org/D13-1075.pdf",
+        "references": [
+          "https://openalex.org/W1974841121",
+          "https://openalex.org/W2034368206",
+          "https://openalex.org/W2057645455",
+          "https://openalex.org/W2062628439",
+          "https://openalex.org/W2067359214",
+          "https://openalex.org/W2077870071",
+          "https://openalex.org/W2108950759",
+          "https://openalex.org/W2108972993",
+          "https://openalex.org/W2138640694"
+        ],
+        "retracted": false,
+        "provenance": [
+          "coverage repair: Could you direct me towards a study that explores the potential to predict a reader's native language based on their eye movement patterns while reading English texts?"
+        ],
+        "criteria": [],
+        "rrf": 0.013888888888888888,
+        "aliases": [
+          "https://openalex.org/W2251049744"
+        ],
+        "neural_score": -0.22895,
+        "score": 0.43913
+      },
+      {
+        "id": "https://openalex.org/W2138620025",
+        "title": "Extending the E‐Z Reader Model of Eye Movement Control to Chinese Readers",
+        "doi": "https://doi.org/10.1080/03640210701703824",
+        "year": 2007,
+        "abstract": "Chinese readers' eye movements were simulated in the context of the E-Z Reader model, which was developed to account for the eye movements of readers of English. Despite obvious differences between English and Chinese, the model did a fairly good job of simulating the eye movements of Chinese readers. The successful simulation suggests that the control of eye movements in reading Chinese is similar to that in an alphabetic language such as English.",
+        "authors": [
+          "Keith Rayner",
+          "Xingshan Li",
+          "Alexander Pollatsek"
+        ],
+        "venue": "Cognitive Science",
+        "citations": 134,
+        "open_access": true,
+        "url": "https://doi.org/10.1080/03640210701703824",
+        "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1080/03640210701703824",
+        "references": [
+          "https://openalex.org/W1489745407",
+          "https://openalex.org/W1785085542",
+          "https://openalex.org/W1965718111",
+          "https://openalex.org/W1969680923",
+          "https://openalex.org/W1974841121",
+          "https://openalex.org/W1979818667",
+          "https://openalex.org/W1987059130",
+          "https://openalex.org/W1999364590",
+          "https://openalex.org/W2013112874",
+          "https://openalex.org/W2037891722",
+          "https://openalex.org/W2039129722",
+          "https://openalex.org/W2041675900",
+          "https://openalex.org/W2043210232",
+          "https://openalex.org/W2053130360",
+          "https://openalex.org/W2085112703",
+          "https://openalex.org/W2092409509",
+          "https://openalex.org/W2093617845",
+          "https://openalex.org/W2114093241",
+          "https://openalex.org/W2118678035",
+          "https://openalex.org/W2149480836",
+          "https://openalex.org/W2154796476",
+          "https://openalex.org/W2169887029",
+          "https://openalex.org/W3147923389"
+        ],
+        "retracted": false,
+        "provenance": [
+          "semantic: Could you direct me towards a study that explores the potential to predict a reader's native language based on their eye movement patterns while reading English texts?",
+          "coverage repair: Could you direct me towards a study that explores the potential to predict a reader's native language based on their eye movement patterns while reading English texts?"
+        ],
+        "criteria": [],
+        "rrf": 0.031746031746031744,
+        "aliases": [
+          "https://openalex.org/W2138620025"
+        ],
+        "neural_score": -0.88498,
+        "score": 0.42737
+      },
+      {
+        "id": "https://openalex.org/W3029307461",
+        "title": "Utilizing Eye-Movement Data to Identify Reading Strategies of Proficient Readers in a Second Language",
+        "doi": null,
+        "year": 2018,
+        "abstract": "",
+        "authors": [
+          "アトキンズ アンドリュー",
+          "プリチャード ケイレブ"
+        ],
+        "venue": null,
+        "citations": 0,
+        "open_access": false,
+        "url": "https://kindai.repo.nii.ac.jp/index.php?active_action=repository_view_main_item_detail&page_id=13&block_id=21&item_id=19673&item_no=1",
+        "pdf_url": null,
+        "references": [],
+        "retracted": false,
+        "provenance": [
+          "semantic: Could you direct me towards a study that explores the potential to predict a reader's native language based on their eye movement patterns while reading English texts?",
+          "coverage repair: Could you direct me towards a study that explores the potential to predict a reader's native language based on their eye movement patterns while reading English texts?"
+        ],
+        "criteria": [],
+        "rrf": 0.02632034632034632,
+        "aliases": [
+          "https://openalex.org/W3029307461"
+        ],
+        "neural_score": -0.73707,
+        "score": 0.41947
+      },
+      {
+        "id": "https://openalex.org/W2519558346",
+        "title": "Estimation of english skill with a mobile eye tracker",
+        "doi": "https://doi.org/10.1145/2968219.2968275",
+        "year": 2016,
+        "abstract": "Learning a foreign language such as English is an important task for many people. The process of learning takes time and it is important to have a simple way to evaluate the progress of the skill. We propose a method to evaluate the reader's English skill based on a mobile eye tracking system. The eye tracker captures the reader's behavior while reading a document. The front camera of the eye tracker records the scene image that contains the read document. By using a retrieval algorithm we can recognize the read document and project the eye gaze data from the scene image to the document space. Then, some features related to the reading and solving behavior on several documents are computed. As a first result, we show that the TOEIC score can be estimated with an error of 36.3 points.",
+        "authors": [
+          "Olivier Augereau",
+          "Kai S. Kunze",
+          "Hiroki Fujiyoshi",
+          "Koichi Kise"
+        ],
+        "venue": "ACM International Joint Conference on Pervasive and Ubiquitous Computing (UbiComp)",
+        "citations": 24,
+        "open_access": false,
+        "url": "https://doi.org/10.1145/2968219.2968275",
+        "pdf_url": null,
+        "references": [
+          "https://openalex.org/W102567269",
+          "https://openalex.org/W2013112874",
+          "https://openalex.org/W2037311778",
+          "https://openalex.org/W2088502162",
+          "https://openalex.org/W2102667737",
+          "https://openalex.org/W2106393550",
+          "https://openalex.org/W2161861544",
+          "https://openalex.org/W2162506249",
+          "https://openalex.org/W2332759329"
+        ],
+        "retracted": false,
+        "provenance": [
+          "semantic: Could you direct me towards a study that explores the potential to predict a reader's native language based on their eye movement patterns while reading English texts?"
+        ],
+        "criteria": [],
+        "rrf": 0.013888888888888888,
+        "aliases": [
+          "https://openalex.org/W2519558346"
+        ],
+        "neural_score": -0.58682,
+        "score": 0.37061
+      },
+      {
+        "id": "https://openalex.org/W2902115299",
+        "title": "Eye-Movement Patterns Reveal Effects of Reading Skills on On-line Language Processing",
+        "doi": null,
+        "year": 2015,
+        "abstract": "",
+        "authors": [
+          "Tao Gong",
+          "David Braze",
+          "James S. Magnuson",
+          "William Einar Mencl",
+          "Whitney Tabor",
+          "Julie A. Van Dyke",
+          "Donald Shankweiler"
+        ],
+        "venue": null,
+        "citations": 1,
+        "open_access": false,
+        "url": "https://dissem.in/p/43556992/eye-movement-patterns-reveal-effects-of-reading-skills-on-on-line-language-processing",
+        "pdf_url": null,
+        "references": [],
+        "retracted": false,
+        "provenance": [
+          "semantic: Could you direct me towards a study that explores the potential to predict a reader's native language based on their eye movement patterns while reading English texts?",
+          "coverage repair: Could you direct me towards a study that explores the potential to predict a reader's native language based on their eye movement patterns while reading English texts?"
+        ],
+        "criteria": [],
+        "rrf": 0.022132550745903645,
+        "aliases": [
+          "https://openalex.org/W2902115299"
+        ],
+        "neural_score": -1.3057,
+        "score": 0.30557
+      },
+      {
+        "id": "https://openalex.org/W2041675900",
+        "title": "The effect of word predictability on the eye movements of Chinese readers",
+        "doi": "https://doi.org/10.3758/bf03206448",
+        "year": 2005,
+        "abstract": "",
+        "authors": [
+          "Keith Rayner",
+          "Xingshan Li",
+          "Barbara J. Juhasz",
+          "Guoli Yan"
+        ],
+        "venue": "Psychonomic Bulletin & Review",
+        "citations": 204,
+        "open_access": true,
+        "url": "https://doi.org/10.3758/bf03206448",
+        "pdf_url": "https://link.springer.com/content/pdf/10.3758/BF03206448.pdf",
+        "references": [
+          "https://openalex.org/W1019239015",
+          "https://openalex.org/W1483126227",
+          "https://openalex.org/W1489745407",
+          "https://openalex.org/W1579633560",
+          "https://openalex.org/W1974841121",
+          "https://openalex.org/W1986892450",
+          "https://openalex.org/W1996359725",
+          "https://openalex.org/W1998791757",
+          "https://openalex.org/W2013112874",
+          "https://openalex.org/W2016027713",
+          "https://openalex.org/W2030692837",
+          "https://openalex.org/W2047731577",
+          "https://openalex.org/W2048587430",
+          "https://openalex.org/W2054727150",
+          "https://openalex.org/W2067359214",
+          "https://openalex.org/W2068718560",
+          "https://openalex.org/W2081816191",
+          "https://openalex.org/W2093617845",
+          "https://openalex.org/W2139894677",
+          "https://openalex.org/W2143990806",
+          "https://openalex.org/W2154796476",
+          "https://openalex.org/W2167211229",
+          "https://openalex.org/W2169887029",
+          "https://openalex.org/W3012582214",
+          "https://openalex.org/W3124885426",
+          "https://openalex.org/W3139041622",
+          "https://openalex.org/W6630074792"
+        ],
+        "retracted": false,
+        "provenance": [
+          "semantic: Could you direct me towards a study that explores the potential to predict a reader's native language based on their eye movement patterns while reading English texts?",
+          "coverage repair: Could you direct me towards a study that explores the potential to predict a reader's native language based on their eye movement patterns while reading English texts?"
+        ],
+        "criteria": [],
+        "rrf": 0.03278688524590164,
+        "aliases": [
+          "https://openalex.org/W2041675900"
+        ],
+        "neural_score": -1.91261,
+        "score": 0.30295
+      }
+    ],
+    "usage": {
+      "api_calls": 4,
+      "cache_hits": 0,
+      "llm_calls": 6
+    },
+    "ranker": "cross-encoder + RRF",
+    "gaps": [
+      {
+        "id": "c1",
+        "text": "Could you direct me towards a study that explores the potential to predict a reader's native language based on their eye movement patterns while reading English texts?"
+      }
+    ],
+    "repaired": true,
+    "warnings": [
+      "Hosted LLM quota is cooling down; evidence judgments are unavailable"
+    ],
+    "citation_edges": [
+      {
+        "source": "https://openalex.org/W2609504523",
+        "target": "https://openalex.org/W1803633430"
+      },
+      {
+        "source": "https://openalex.org/W2798281106",
+        "target": "https://openalex.org/W1803633430"
+      },
+      {
+        "source": "https://openalex.org/W2798281106",
+        "target": "https://openalex.org/W2609504523"
+      },
+      {
+        "source": "https://openalex.org/W4378212911",
+        "target": "https://openalex.org/W1803633430"
+      },
+      {
+        "source": "https://openalex.org/W4385570188",
+        "target": "https://openalex.org/W1803633430"
+      },
+      {
+        "source": "https://openalex.org/W4385570188",
+        "target": "https://openalex.org/W2609504523"
+      },
+      {
+        "source": "https://openalex.org/W7204944591",
+        "target": "https://openalex.org/W1803633430"
+      },
+      {
+        "source": "https://openalex.org/W7204944591",
+        "target": "https://openalex.org/W2609504523"
+      },
+      {
+        "source": "https://openalex.org/W7204944591",
+        "target": "https://openalex.org/W2798281106"
+      },
+      {
+        "source": "https://openalex.org/W7204944591",
+        "target": "https://openalex.org/W4378212911"
+      },
+      {
+        "source": "https://openalex.org/W7204944591",
+        "target": "https://openalex.org/W4385570188"
+      },
+      {
+        "source": "https://openalex.org/W4410701879",
+        "target": "https://openalex.org/W1803633430"
+      },
+      {
+        "source": "https://openalex.org/W4410701879",
+        "target": "https://openalex.org/W4282967944"
+      },
+      {
+        "source": "https://openalex.org/W4404783274",
+        "target": "https://openalex.org/W1803633430"
+      },
+      {
+        "source": "https://openalex.org/W2138620025",
+        "target": "https://openalex.org/W2041675900"
+      },
+      {
+        "source": "https://openalex.org/W2519558346",
+        "target": "https://openalex.org/W2102667737"
+      }
+    ],
+    "evidence_basis": "Title and abstract; no full text read",
+    "ablations": {
+      "single_semantic": [
+        "https://openalex.org/W2041675900",
+        "https://openalex.org/W2167211229",
+        "https://openalex.org/W2138620025",
+        "https://openalex.org/W2798281106",
+        "https://openalex.org/W2609504523",
+        "https://openalex.org/W4378212911",
+        "https://openalex.org/W4282967944",
+        "https://openalex.org/W3016749098",
+        "https://openalex.org/W3178144966",
+        "https://openalex.org/W2102667737",
+        "https://openalex.org/W4385570188",
+        "https://openalex.org/W2519558346",
+        "https://openalex.org/W4416051442",
+        "https://openalex.org/W2002592773",
+        "https://openalex.org/W4410602974",
+        "https://openalex.org/W4312637174",
+        "https://openalex.org/W3029307461",
+        "https://openalex.org/W4410701879",
+        "https://openalex.org/W2251519713",
+        "https://openalex.org/W7204944591",
+        "https://openalex.org/W2176631892",
+        "https://openalex.org/W2972202047",
+        "https://openalex.org/W2757120965",
+        "https://openalex.org/W2760320850",
+        "https://openalex.org/W4389544620",
+        "https://openalex.org/W1763358130",
+        "https://openalex.org/W2542951703",
+        "https://openalex.org/W3111433308",
+        "https://openalex.org/W7164192232",
+        "https://openalex.org/W2790508766",
+        "https://openalex.org/W1993254713",
+        "https://openalex.org/W4394456443",
+        "https://openalex.org/W7139356065",
+        "https://openalex.org/W2902115299",
+        "https://openalex.org/W3095600899",
+        "https://openalex.org/W4414080044",
+        "https://openalex.org/W7163825967",
+        "https://openalex.org/W2733614178",
+        "https://openalex.org/W2116859834",
+        "https://openalex.org/W3126775223"
+      ],
+      "rrf": [
+        "https://openalex.org/W7133061544",
+        "https://openalex.org/W2041675900",
+        "https://openalex.org/W1631260214",
+        "https://openalex.org/W2913931842",
+        "https://openalex.org/W2167211229",
+        "https://openalex.org/W1997161938",
+        "https://openalex.org/W2749955059",
+        "https://openalex.org/W2138620025",
+        "https://openalex.org/W1530224645",
+        "https://openalex.org/W82021000",
+        "https://openalex.org/W2798281106",
+        "https://openalex.org/W1984156654",
+        "https://openalex.org/W2956800636",
+        "https://openalex.org/W2609504523",
+        "https://openalex.org/W331019419",
+        "https://openalex.org/W7104380733",
+        "https://openalex.org/W4378212911",
+        "https://openalex.org/W1504655665",
+        "https://openalex.org/W3025654402",
+        "https://openalex.org/W4282967944",
+        "https://openalex.org/W1511133876",
+        "https://openalex.org/W3097295321",
+        "https://openalex.org/W3016749098",
+        "https://openalex.org/W1993631132",
+        "https://openalex.org/W3117768806",
+        "https://openalex.org/W3178144966",
+        "https://openalex.org/W1803633430",
+        "https://openalex.org/W2948702663",
+        "https://openalex.org/W2102667737",
+        "https://openalex.org/W1965426915",
+        "https://openalex.org/W758247375",
+        "https://openalex.org/W4385570188",
+        "https://openalex.org/W1486677291",
+        "https://openalex.org/W2024472360",
+        "https://openalex.org/W2519558346",
+        "https://openalex.org/W52446197",
+        "https://openalex.org/W4411616805",
+        "https://openalex.org/W4416051442",
+        "https://openalex.org/W1632114991",
+        "https://openalex.org/W10177595",
+        "https://openalex.org/W2002592773",
+        "https://openalex.org/W900993354",
+        "https://openalex.org/W2981672895",
+        "https://openalex.org/W4410602974",
+        "https://openalex.org/W7212212750",
+        "https://openalex.org/W4312637174",
+        "https://openalex.org/W2479439580",
+        "https://openalex.org/W3029307461",
+        "https://openalex.org/W2898818260",
+        "https://openalex.org/W4410701879",
+        "https://openalex.org/W1964894131",
+        "https://openalex.org/W2251519713",
+        "https://openalex.org/W1928390676",
+        "https://openalex.org/W7204944591",
+        "https://openalex.org/W1908277222",
+        "https://openalex.org/W2176631892",
+        "https://openalex.org/W2144802408",
+        "https://openalex.org/W2972202047",
+        "https://openalex.org/W2775256844",
+        "https://openalex.org/W2757120965"
+      ],
+      "rerank": [
+        "https://openalex.org/W2609504523",
+        "https://openalex.org/W2798281106",
+        "https://openalex.org/W4378212911",
+        "https://openalex.org/W3016749098",
+        "https://openalex.org/W4282967944",
+        "https://openalex.org/W4385570188",
+        "https://openalex.org/W7204944591",
+        "https://openalex.org/W2176631892",
+        "https://openalex.org/W4410701879",
+        "https://openalex.org/W4410602974",
+        "https://openalex.org/W4312637174",
+        "https://openalex.org/W3178144966",
+        "https://openalex.org/W2102667737",
+        "https://openalex.org/W2251519713",
+        "https://openalex.org/W2002592773",
+        "https://openalex.org/W1803633430",
+        "https://openalex.org/W758247375",
+        "https://openalex.org/W4416051442",
+        "https://openalex.org/W2757120965",
+        "https://openalex.org/W2519558346",
+        "https://openalex.org/W2138620025",
+        "https://openalex.org/W3029307461",
+        "https://openalex.org/W7133061544",
+        "https://openalex.org/W7212212750",
+        "https://openalex.org/W2041675900",
+        "https://openalex.org/W2167211229",
+        "https://openalex.org/W7104380733",
+        "https://openalex.org/W2898818260",
+        "https://openalex.org/W2913931842",
+        "https://openalex.org/W2749955059",
+        "https://openalex.org/W2972202047",
+        "https://openalex.org/W1631260214",
+        "https://openalex.org/W82021000",
+        "https://openalex.org/W1997161938",
+        "https://openalex.org/W1530224645",
+        "https://openalex.org/W2024472360",
+        "https://openalex.org/W1984156654",
+        "https://openalex.org/W52446197",
+        "https://openalex.org/W2956800636",
+        "https://openalex.org/W331019419",
+        "https://openalex.org/W1964894131",
+        "https://openalex.org/W2948702663",
+        "https://openalex.org/W1504655665",
+        "https://openalex.org/W3097295321",
+        "https://openalex.org/W3025654402",
+        "https://openalex.org/W1511133876",
+        "https://openalex.org/W4411616805",
+        "https://openalex.org/W1993631132",
+        "https://openalex.org/W10177595",
+        "https://openalex.org/W3117768806",
+        "https://openalex.org/W2775256844",
+        "https://openalex.org/W1486677291",
+        "https://openalex.org/W1965426915",
+        "https://openalex.org/W2981672895",
+        "https://openalex.org/W1632114991",
+        "https://openalex.org/W2479439580",
+        "https://openalex.org/W900993354",
+        "https://openalex.org/W1928390676",
+        "https://openalex.org/W1908277222",
+        "https://openalex.org/W2144802408"
+      ]
+    },
+    "candidate_index": {
+      "https://openalex.org/W7133061544": {
+        "title": "Exploring Language Attitudes Towards Native and Non-Native English Accents : Swedish perceptions on Finnish and native-accented English",
+        "year": 2025
+      },
+      "https://openalex.org/W2913931842": {
+        "title": "Exploring readers’ evaluations of native advertisements in a mobile news app",
+        "year": 2019
+      },
+      "https://openalex.org/W2749955059": {
+        "title": "Towards a minor bilingualism: Exploring variations of language and literacy in early childhood education",
+        "year": 2017
+      },
+      "https://openalex.org/W82021000": {
+        "title": "Lexical bundles in scientific English: A corpus-based study of native and non-native writing",
+        "year": 2011
+      },
+      "https://openalex.org/W2956800636": {
+        "title": "You don’t fool me! Consumer perceptions of digital native advertising and banner advertising",
+        "year": 2019
+      },
+      "https://openalex.org/W7104380733": {
+        "title": "‘Me, (my) French and I’: exploring native speakerism in French as an additional language (FAL) teaching in the United Kingdom",
+        "year": 2024
+      },
+      "https://openalex.org/W3025654402": {
+        "title": "How do You Make Your Own a Language that is not? A Qualitative Study about Clients' Experience of Having Personal Therapy in a Non-Native Language.",
+        "year": 2008
+      },
+      "https://openalex.org/W3097295321": {
+        "title": "Reconnect with readers : Does native advertising affect customer’s attitude towards online advertising?",
+        "year": 2020
+      },
+      "https://openalex.org/W3117768806": {
+        "title": "Don’t Patronize Me! An Annotated Dataset with Patronizing and Condescending Language towards Vulnerable Communities",
+        "year": 2020
+      },
+      "https://openalex.org/W2948702663": {
+        "title": "A case study exploring the intercultural sensitivity levels of native English and native Turkish language instructors teaching at universities in Turkey and the U.S.A. respectively",
+        "year": 2019
+      },
+      "https://openalex.org/W758247375": {
+        "title": "The role of the native language in second-language syntactic processing",
+        "year": 2009
+      },
+      "https://openalex.org/W2024472360": {
+        "title": "Towards a complete multiple-mechanism account of predictive language processing",
+        "year": 2013
+      },
+      "https://openalex.org/W4411616805": {
+        "title": "Exploring the Potential of Conversational AI for Assessing Second Language Oral Proficiency",
+        "year": 2025
+      },
+      "https://openalex.org/W10177595": {
+        "title": "Abstraction and authority in textbooks : The textual paths towards specialized language",
+        "year": 2006
+      },
+      "https://openalex.org/W2981672895": {
+        "title": "How do infants represent others?: biases towards native language and rational agents",
+        "year": 2019
+      },
+      "https://openalex.org/W7212212750": {
+        "title": "Exploring the influence of Positive Emotive Language (PEL) towards English second language enjoyment: a study in a Malaysian public university",
+        "year": 2026
+      },
+      "https://openalex.org/W2479439580": {
+        "title": "Language assessment of native Irish speaking children: towards developing diagnostic testing for speech and language therapy practice.",
+        "year": 2016
+      },
+      "https://openalex.org/W2898818260": {
+        "title": "The Place of Culture in English Language Teaching: An Exploration of Non-native ESOL Teachers’ Attitudes towards Intercultural Competence",
+        "year": 2018
+      },
+      "https://openalex.org/W1964894131": {
+        "title": "Exploring the nature of language anxiety: Experiences of non-native English-speaking college students in the United States",
+        "year": 2008
+      },
+      "https://openalex.org/W1928390676": {
+        "title": "Exploring teachers' views about native language instruction and education in Taiwanese elementary schools",
+        "year": 2007
+      },
+      "https://openalex.org/W1908277222": {
+        "title": "LANGUAGE ATTITUDES OF IRAQI NATIVE SPEAKERS OF ARABIC: A SOCIOLINGUISTIC INVESTIGATION",
+        "year": 2014
+      },
+      "https://openalex.org/W2144802408": {
+        "title": "Subordination in Native South American Languages",
+        "year": 2011
+      },
+      "https://openalex.org/W2775256844": {
+        "title": "Pedagogical discourse styles of native and non-native language teachers",
+        "year": 2009
+      },
+      "https://openalex.org/W595138313": {
+        "title": "You and I listening to me: towards an understanding of the significance of personal pronoun usage in psychotherapy",
+        "year": 2013
+      },
+      "https://openalex.org/W4399182459": {
+        "title": "Exploring Students’ Generative AI-Assisted Writing Processes: Perceptions and Experiences from Native and Nonnative English Speakers",
+        "year": 2024
+      },
+      "https://openalex.org/W2563270170": {
+        "title": "Attitudes Towards Native and Non-native French Speaking Teachers in Ontario",
+        "year": 2013
+      },
+      "https://openalex.org/W7204613743": {
+        "title": "Exploring Non-Native English Learners’ Attitudes Towards AI and Online Multimedia Persuasive Opinions and the Role of Sentiment",
+        "year": 2026
+      },
+      "https://openalex.org/W2407689754": {
+        "title": "The role of the native language in the non-native acquisition of hypothetical conditional structures",
+        "year": 2000
+      },
+      "https://openalex.org/W2188843558": {
+        "title": "The Relationship Between English Language and Mathematics Learning for Non-native Speakers",
+        "year": 2005
+      },
+      "https://openalex.org/W2276994847": {
+        "title": "Adult learners of English interacting with native speaker teachers and non-native speaker teachers : exploring differences in students' language use",
+        "year": 2014
+      },
+      "https://openalex.org/W3167885979": {
+        "title": "Individual differences in linguistic prediction in native language comprehension and second language learning",
+        "year": 2020
+      },
+      "https://openalex.org/W3170337577": {
+        "title": "Exploring the Potential of Using Spatial Audio to Improve Web Accessibility for Screen Reader Users",
+        "year": 2018
+      },
+      "https://openalex.org/W2244930989": {
+        "title": "How Perceptions and Attitudes Towards Native and Non-Native English Speaking Teachers influences Pedagogy",
+        "year": 2015
+      },
+      "https://openalex.org/W4410907854": {
+        "title": "Echoes of Heritage: Cultural Identity as a Predictor of the Indigenous Students’ Attitude Towards English Language",
+        "year": 2025
+      },
+      "https://openalex.org/W4410577281": {
+        "title": "Moroccan EFL Learners’ Attitudes towards World Englishes and Native and Non-Native English-Speaking Teachers: Towards a Global Englishes-Informed Pedagogy",
+        "year": 2025
+      },
+      "https://openalex.org/W7165068605": {
+        "title": "Affective language processing in a native and non-native mind: A neuropragmatic perspective",
+        "year": 2015
+      },
+      "https://openalex.org/W3205247023": {
+        "title": "Text Adjuncts and Comprehension with University Level Second Language Readers",
+        "year": 2021
+      },
+      "https://openalex.org/W2395124988": {
+        "title": "The cultures of Native North American language documentation and revitalization",
+        "year": 2016
+      },
+      "https://openalex.org/W4412488857": {
+        "title": "Why Did You Use That Test? Exploring Speech-Language Pathologists' Clinical Decision Making in Bilingual Language and Literacy Assessment",
+        "year": 2025
+      },
+      "https://openalex.org/W306051255": {
+        "title": "A lacanian perspective on literature, translation and the reader's (inter-)subjectivity : read my text and tell me who you are",
+        "year": 2012
+      },
+      "https://openalex.org/W2041675900": {
+        "title": "The effect of word predictability on the eye movements of Chinese readers",
+        "year": 2005
+      },
+      "https://openalex.org/W2167211229": {
+        "title": "Comparative patterns of reading eye movement in Chinese and English",
+        "year": 1985
+      },
+      "https://openalex.org/W2138620025": {
+        "title": "Extending the E‐Z Reader Model of Eye Movement Control to Chinese Readers",
+        "year": 2007
+      },
+      "https://openalex.org/W2798281106": {
+        "title": "Assessing Language Proficiency from Eye Movements in Reading",
+        "year": 2018
+      },
+      "https://openalex.org/W2609504523": {
+        "title": "Predicting Native Language from Gaze",
+        "year": 2017
+      },
+      "https://openalex.org/W4378212911": {
+        "title": "Eye Movement Traces of Linguistic Knowledge in Native and Non-Native Reading",
+        "year": 2023
+      },
+      "https://openalex.org/W4282967944": {
+        "title": "Prediction as a basis for skilled reading: insights from modern language models",
+        "year": 2022
+      },
+      "https://openalex.org/W3016749098": {
+        "title": "Eye-Tracking Based L2 Detection: Universal and Specific Eye Movement Patterns in L1 and L2 Reading",
+        "year": 2020
+      },
+      "https://openalex.org/W3178144966": {
+        "title": "QUANTIFYING THE DIFFERENCE IN READING FLUENCY BETWEEN L1 AND L2 READERS OF ENGLISH",
+        "year": 2021
+      },
+      "https://openalex.org/W2102667737": {
+        "title": "The eye as the window of the language ability: Estimation of English skills by analyzing eye movement while reading documents",
+        "year": 2015
+      },
+      "https://openalex.org/W4385570188": {
+        "title": "Native Language Prediction from Gaze: a Reproducibility Study",
+        "year": 2023
+      },
+      "https://openalex.org/W2519558346": {
+        "title": "Estimation of english skill with a mobile eye tracker",
+        "year": 2016
+      },
+      "https://openalex.org/W4416051442": {
+        "title": "New global research shows eye movements reveal how native languages shape reading",
+        "year": 2025
+      },
+      "https://openalex.org/W2002592773": {
+        "title": "A Comparative Study on the Eye Movement Patterns in Malay- english Bilingual Readers",
+        "year": 2014
+      },
+      "https://openalex.org/W4410602974": {
+        "title": "Using Eye Movements From a “Read‐Only” Task to Predict Text Comprehension",
+        "year": 2025
+      },
+      "https://openalex.org/W4312637174": {
+        "title": "Evaluation of level of foreign language proficiency based on eye movement data",
+        "year": 2022
+      },
+      "https://openalex.org/W3029307461": {
+        "title": "Utilizing Eye-Movement Data to Identify Reading Strategies of Proficient Readers in a Second Language",
+        "year": 2018
+      },
+      "https://openalex.org/W4410701879": {
+        "title": "Estimating the level of ability of English learners using eye movement features during text reading",
+        "year": 2025
+      },
+      "https://openalex.org/W2251519713": {
+        "title": "Recognizing Personal Characteristics of Readers using Eye-Movements and Text Features",
+        "year": 2012
+      },
+      "https://openalex.org/W7204944591": {
+        "title": "Language Proficiency Assessment from Eye Movements in Naturalistic Passage Reading",
+        "year": 2026
+      },
+      "https://openalex.org/W2176631892": {
+        "title": "Investigating The Eye Movements Of English L1 And Arabic L1 Speakers While Reading English Sentences.",
+        "year": 2014
+      },
+      "https://openalex.org/W2972202047": {
+        "title": "Is Information Density a Reliable Universal Predictor of Eye Movement Patterns in Silent Reading?",
+        "year": 2019
+      },
+      "https://openalex.org/W2757120965": {
+        "title": "Using eye-tracking to research the cognitive processes of multinational readers during an IELTS reading test",
+        "year": 2015
+      },
+      "https://openalex.org/W2760320850": {
+        "title": "A Study on the Eye Movement of Chinese Bilingual Language Cognition",
+        "year": 2017
+      },
+      "https://openalex.org/W4389544620": {
+        "title": "Reading Strategy and Eye Movement of Japanese Students When Reading English as a Foreign Language",
+        "year": 2023
+      },
+      "https://openalex.org/W1763358130": {
+        "title": "Language prediction by non-native speakers: Evidence from an eye-tracking study",
+        "year": 2013
+      },
+      "https://openalex.org/W2542951703": {
+        "title": "CEFR and Eye Movement Characteristics during EFL Reading: The Case of Intermediate Readers.",
+        "year": 2016
+      },
+      "https://openalex.org/W3111433308": {
+        "title": "Eye Movement Correlates of Foreign Language Proficiency in Russian Learners of English",
+        "year": 2020
+      },
+      "https://openalex.org/W7164192232": {
+        "title": "Not all native readers are the same: How eye movements vary within language groups",
+        "year": 2026
+      },
+      "https://openalex.org/W2790508766": {
+        "title": "Coming from different directions: A comparison of the eye movements of English L1 and Arabic L1 speakers reading in English and the implementation of an intensive reading intervention programme",
+        "year": 2018
+      },
+      "https://openalex.org/W1993254713": {
+        "title": "The Effect of Arabic Language on Reading English for Arab EFL Learners: An Eye Tracking Study",
+        "year": 2011
+      },
+      "https://openalex.org/W4394456443": {
+        "title": "Monolingual Eye Movement Data",
+        "year": 2015
+      },
+      "https://openalex.org/W7139356065": {
+        "title": "The Strategy of Reading a Text in a Foreign Language as an Indicator of the Level of Proficiency in This Language (Pilot Study)",
+        "year": 2019
+      },
+      "https://openalex.org/W2902115299": {
+        "title": "Eye-Movement Patterns Reveal Effects of Reading Skills on On-line Language Processing",
+        "year": 2015
+      },
+      "https://openalex.org/W3095600899": {
+        "title": "EyeReadIt: A developmental eye-tracking corpus of text reading in Italian",
+        "year": 2020
+      },
+      "https://openalex.org/W4414080044": {
+        "title": "Eye movements in reading",
+        "year": 2025
+      },
+      "https://openalex.org/W7163825967": {
+        "title": "Reading with a purpose: How eye movements and working memory inform comprehension across L1 and L2 English readers",
+        "year": 2026
+      },
+      "https://openalex.org/W2733614178": {
+        "title": "Eye movements during reading: Contributions of cross-language comparisons",
+        "year": 2012
+      },
+      "https://openalex.org/W2116859834": {
+        "title": "A COMPARATIVE STUDY IN EYE MOVEMENT PATTERNS IN READING ENGLISH AND URDU SCRIPTS",
+        "year": 1959
+      },
+      "https://openalex.org/W3126775223": {
+        "title": "Eyes speak out Mind: Deep models for Gaze-based Analysis of Bilingual And Monolingual Reading",
+        "year": 2020
+      },
+      "https://openalex.org/W1631260214": {
+        "title": "SRILM - an extensible language modeling toolkit",
+        "year": 2002
+      },
+      "https://openalex.org/W1997161938": {
+        "title": "Moving beyond Kučera and Francis: A critical evaluation of current word frequency norms and the introduction of a new and improved word frequency measure for American English",
+        "year": 2009
+      },
+      "https://openalex.org/W1530224645": {
+        "title": "Crosslinguistic Influence in Language and Cognition",
+        "year": 2008
+      },
+      "https://openalex.org/W1984156654": {
+        "title": "More use almost always means a smaller frequency effect: Aging, bilingualism, and the weaker links hypothesis☆",
+        "year": 2007
+      },
+      "https://openalex.org/W331019419": {
+        "title": "Universal Dependency Annotation for Multilingual Parsing",
+        "year": 2013
+      },
+      "https://openalex.org/W1504655665": {
+        "title": "Psychology of Reading",
+        "year": 2012
+      },
+      "https://openalex.org/W1511133876": {
+        "title": "An Overview of Automated Scoring of Essays.",
+        "year": 2006
+      },
+      "https://openalex.org/W1993631132": {
+        "title": "Generalized Additive Models for Large Data Sets",
+        "year": 2014
+      },
+      "https://openalex.org/W1803633430": {
+        "title": "Eye Movement Patterns in Natural Reading: A Comparison of Monolingual and Bilingual Reading of a Novel",
+        "year": 2015
+      },
+      "https://openalex.org/W1965426915": {
+        "title": "Frequency effects in monolingual and bilingual natural reading",
+        "year": 2015
+      },
+      "https://openalex.org/W1486677291": {
+        "title": "Multilingualism: New Perspectives on Syntactic Development",
+        "year": 2012
+      },
+      "https://openalex.org/W52446197": {
+        "title": "Reconstructing Native Language Typology from Foreign Language Usage",
+        "year": 2014
+      },
+      "https://openalex.org/W1632114991": {
+        "title": "Building a Large Annotated Corpus of English: The Penn Treebank",
+        "year": 1993
+      },
+      "https://openalex.org/W900993354": {
+        "title": "Part-of-Speech Tagging Guidelines for the Penn Treebank Project (3rd Revision)",
+        "year": 1990
+      },
+      "https://openalex.org/W4404783274": {
+        "title": "The Effects of Surprisal across Languages: Results from Native and Non-native Reading",
+        "year": 2022
+      },
+      "https://openalex.org/W2251049744": {
+        "title": "With Blinkers on: Robust Prediction of Eye Movements across Readers",
+        "year": 2013
+      }
+    },
+    "ordering": "All criteria supported, then incomplete evidence, then explicit counter-evidence; similarity breaks ties",
+    "joint_gap": true,
+    "model": "gemini-3.6-flash"
+  },
+  "events": [
+    {
+      "at": "2026-11-25T14:08:37.444673+00:00",
+      "step": "retrieve",
+      "message": "40 candidates from keyword search",
+      "query": "Could you direct me towards study explores potential predict reader s native language based",
+      "cache_hit": false
+    },
+    {
+      "at": "2026-11-25T14:08:41.081871+00:00",
+      "step": "retrieve",
+      "message": "40 candidates from semantic search",
+      "query": "Could you direct me towards a study that explores the potential to predict a reader's native language based on their eye movement patterns while reading English texts?",
+      "cache_hit": false
+    },
+    {
+      "at": "2026-11-25T14:08:44.907230+00:00",
+      "step": "rank",
+      "message": "Ranked 60 unique candidates",
+      "ranker": "cross-encoder + RRF"
+    },
+    {
+      "at": "2026-11-25T14:08:46.912890+00:00",
+      "step": "citations",
+      "message": "Explored 14 cited works; metadata constraints remain enforced"
+    },
+    {
+      "at": "2026-11-25T14:08:50.646437+00:00",
+      "step": "rank",
+      "message": "Ranked 60 unique candidates",
+      "ranker": "cross-encoder + RRF"
+    },
+    {
+      "at": "2026-11-25T14:08:50.662524+00:00",
+      "step": "evidence",
+      "message": "Assessed top 15 papers; 1 criteria have no supported match",
+      "evidence_basis": "title and abstract only"
+    },
+    {
+      "at": "2026-11-25T14:08:54.318269+00:00",
+      "step": "repair",
+      "message": "Targeted a criterion with no supported match: Could you direct me towards a study that explores the potential to predict a reader's native language based on their eye movement patterns while reading English texts?",
+      "query": "Could you direct me towards study explores potential predict reader s native language based Could you direct me towards a study that explores the potential to predict a reader's native language based on their eye movement patterns while reading English texts?",
+      "candidates": 40
+    },
+    {
+      "at": "2026-11-25T14:08:57.436165+00:00",
+      "step": "rank",
+      "message": "Ranked 60 unique candidates",
+      "ranker": "cross-encoder + RRF"
+    },
+    {
+      "at": "2026-11-25T14:08:57.449195+00:00",
+      "step": "evidence",
+      "message": "Assessed top 15 papers; 1 criteria have no supported match",
+      "evidence_basis": "title and abstract only"
+    },
+    {
+      "at": "2026-11-25T14:08:57.483839+00:00",
+      "step": "complete",
+      "message": "Returned 30 papers with provenance and exportable evidence"
+    },
+    {
+      "at": "2026-11-25T14:08:57.500392+00:00",
+      "step": "timing",
+      "message": "Search finished",
+      "elapsed_seconds": 23.78
+    }
+  ],
+  "feedback": {},
+  "task": {
+    "id": "litsearch-27",
+    "question": "Could you direct me towards a study that explores the potential to predict a reader's native language based on their eye movement patterns while reading English texts?",
+    "gold_titles": [
+      "Predicting Native Language from Gaze"
+    ],
+    "gold_corpusids": [
+      14515265
+    ],
+    "query_set": "inline_acl"
+  },
+  "end_to_end_seconds": 24.16
+}
